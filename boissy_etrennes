@@ -1,0 +1,2635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>Les amours anonymes: édition numérique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome quatrième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <punctuation><p>La ponctuation d'origine a été respectée, elle est parfois signalée par l'élément pc</p></punctuation>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1735-12-05">5 décembre 1735</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="175"/>
+                <docTitle>
+                    <titlePart type="main">LES AMOURS <lb/>ANONYMES<pc>,</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="176"/>
+            <castList>
+                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <castItem><role>LA COMTESSE</role><pc>,</pc> <roleDesc>Veuve<pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem><role>LUCINDE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>AGATE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>ORONTE</role><pc>,</pc> <roleDesc>Amant anonyme d'<name type="person" n="Agate">Agate</name><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem><role>DAMIS</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>DORANTE</role><pc>,</pc> <roleDesc>Epoux anonyme de <name type="person" n="Lucinde">Lucinde</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>ARLEQUIN</role><pc>,</pc> <roleDesc>valet de <name type="person" n="Dorante">Dorante</name><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+            </castList><lb/><lb/><lb/><lb/><lb/><lb/>
+            <set>
+                <p><hi rend="italic">La Scène eſt en <name type="place" n="Touraine">Touraine</name>, ſur la Terraſſe <lb/> d'un Jardin<pc type="affirmative">.</pc></hi></p>
+            </set>
+            <pb n="177"/>
+        </front>
+        <body>
+            <div1 type="title">
+                <head>LES AMOURS <lb/>ANONYMES<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
+            </div1>
+            <div1 type="play">
+                <div2 type="acte" n="1">
+                    <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">ſeule<pc type="affirmative">.</pc></hi></stage><lb/>
+                            <l><c type="lettrine">L</c>A beauté de ces lieux n'adoucit point ma <lb/> peine ;</l>
+                            <l><name type="person" n="Dorante">Dorante</name> eſt à <name type="place" n="Paris">Paris</name>, je m'ennuie en <name type="place" n="Tourraine">Tour-<lb/>raine</name><pc type="affirmative">.</pc></l>
+                            <l>On me croit inſenſible,&amp; perſonne ne ſçait</l>
+                            <l>Que nous ſommes tous deux unis d'un nœud ſecret<pc type="affirmative">.</pc></l>
+                            <l>Qu'on ſouffre à déguiſer les tourmens de l'abſence ,</l>
+                            <l>Sous les traits de la joie et de l'indifférence !</l>
+                            <l>Ce qui rend mon eſprit encore plus inquiet ,</l>
+                            <l>Je ne vois point venir <name type="person" n="Arlequin">Arlequin</name> ſon muet ;</l>
+                            <pb n="178"/>
+                            <l>Il devoit au plûtôt m'écrire par ce More</l>
+                            <l>Quinze jours ſont paſſés, &amp; je l'attens encore !</l>
+                            <l>Quoi ? ſon amour déja ſerois-il ralenti ?...</l>
+                            <l>Non : j'ai tort<pc type="affirmative">.</pc> Notre hymen eſt trop bien aſſorti ;</l>
+                            <l>Il eſt, de plus, caché ; le yſtére l'anime :</l>
+                            <l>Et l'époux eſt amant, quand il eſt anonyme<pc type="affirmative">.</pc></l>
+                            <l>La Comteſſe paroît, &amp; tourne ici ſes pas ;</l>
+                            <l>Feignons, &amp; que ſes yeux ne nous pénétrent pas<pc type="affirmative">.</pc></l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LUCINDE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">D</c>'Où vous vient aujourd'hui cette humeur ſoli-<lb/>taire ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Aux fadeurs de <name type="person" n="Damis">Damis</name> j'ai voulu me ſouſtraire :</l>
+                            <l>Du grand monde qu'il cite, il a mal profité ;</l>
+                            <l>Et je n'ai j'amais vû d'homme plus aprêté<pc type="affirmative">.</pc></l>
+                            <l>Quand il ne vous dit mot, s'on air vous deſoblige ;</l>
+                            <l>Et s'il vous entretient, ſon jargon vous afflige<pc type="affirmative">.</pc></l>
+                            <l>La bonne compagnie eſt ſon terme chéri ,</l>
+                            <l>Et, viſer au grand bien, eſt ſon goût favori<pc type="affirmative">.</pc></l>
+                            <l>Tranchant du bel eſprit &amp; du Seigneur, ſans l'être ,</l>
+                            <l>Il s'exprime en pédant, &amp; penſe en petit-maître<pc type="affirmative">.</pc></l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il eſt vrai, c'eſt un fat qui ne reſſemble à rien<pc type="affirmative">.</pc></l>
+                            <l>Pour vous dédommager d'un pareil entretien ,</l>
+                            <l>Je vous dirai qu'<name type="person" n="Oronte">Oronte</name> inceſſamment arrive<pc type="affirmative">.</pc></l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Le contraſte eſt pafait, ma joïe en eſt très vive<pc type="affirmative">.</pc></l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce qui rend à mes yeux ſon mérite plus grand,</l>
+                            <l>C'eſt qu'il eſt né modeſte autant que bienfaiſant,</l>
+                            <l>Et qu'il cache les dons de ſa main libérale ,</l>
+                            <pb n="179"/>
+                            <l>Avec le même ſoin qu'un autre les étale :</l>
+                            <l>La Cour, où le grand art eſt ſouvent d'être faux,</l>
+                            <l>A poli ſes vertus &amp; non pas ſes défauts<pc type="affirmative">.</pc></l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ajoûtez à cela, que ſon eſprit allie</l>
+                            <l>La ſolide raiſon à l'aimable ſaillie<pc type="affirmative">.</pc></l>
+                            <l>Philoſophe du monde, il eſt gai, complaiſant,</l>
+                            <l>Et ſçait l'art d'<unclear>ab ſer</unclear>, même en moraliſant</l>
+                            <l>Sans en être la dupe, il ſe plie à l'uſage ,</l>
+                            <l>Et ſous l'homme du ſiécle, il cache le vrai ſage<pc type="affirmative">.</pc></l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Cet éloge eſt comple ; &amp; ſi de votre cœur</l>
+                            <l>Je pouvois ignorer l'invincible froideur ,</l>
+                            <l>Je vous croirois ſenſible au mérite d'<name type="person" n="Oronte">Oronte</name>.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A former des ſoupçons je ne ſuis pas moins prompte ;</l>
+                            <l>Et j'en croirois autant de vous-même en ce jour,</l>
+                            <l>Si je ne ſçavois pas que les traits de l'amour</l>
+                            <l>Ne font ſur votre eſprit qu'une atteinte légére,</l>
+                            <l>Et qu'il n'eſt occupé que du déſir de plaire.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma vanité médite un triomphe plus beau,</l>
+                            <l>Et veut ſe ſignaler par un effort nouveau.</l>
+                            <l>Forcer des cœurs communs à me rendre les armes,</l>
+                            <l>Ne m'offre qu'une gloire au-deſſous des mes charmes.</l>
+                            <l>Parlez-moi de ſoumettre un homme indifférent,</l>
+                            <l>Qui, mettant, comme vous, ſon bonheur le plus <lb/> grand</l>
+                            <l>A braver de l'amour le pouvoir redoutable ,</l>
+                            <l>Hors la tranquilité ne trouve rien d'aimable,</l>
+                            <l>Voilà l'ambition qu flâte mes attraits,</l>
+                            <l>Et la ſeule conquête échapée à mes traits.</l>
+                            <l>Si j'attache à mon char un amant de la ſorte,</l>
+                            <l>Il n'eſt point de beautés ſur qui je ne l'emporte.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quel eſt donc cet amant ?</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M"><name type="person" n="Dorante">Dorante.</name></l>
+                        </sp>
+                        <pb n="180"/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="F">Mon époux !</l>
+                            <lb/><stage type="delivery"><hi rend="italic">(à la Comteſſe.)</hi></stage><lb/>
+                            <l>Oh! Vous le ſoumettrez avec des yeux ſi doux.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plaiſanterie à part, j'ai tout lieu de le croire.</l>
+                            <l>J'ai déjà, pour le moins, ébauché ma victoire.</l>
+                            <l>Dans un long entretien qu'avec lui, par hazard,</l>
+                            <l>Je liai, quelques jours avant notre départ ,</l>
+                            <l>Il blâma poliment ma parure coquette ,</l>
+                            <l>Diſant que l'art nuiſoit à la beauté parfaite.</l>
+                            <l>Moi, je lui répondis que j'en avois beſoin ;</l>
+                            <l>Qu'à mes femmes pourtant j'épargnerois ce ſoin</l>
+                            <l>Si je croyois par-là m'attirer ſon hommage.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Et que repliqua-t'il à ce tendre langage ?</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, dit-il, en riant, gardez-vous de changer,</l>
+                            <l>Et ne m'expoſez pas à ce cruel danger.</l>
+                            <l>Si vous faiſiez ſur vous un effort ſi pénible ,</l>
+                            <l>Je craindrois à mon tour de devenir ſenſible.</l>
+                            <l>Je pars pour la campagne afin de l'eſſayer,</l>
+                            <l>Répartis-je à l'inſtant ; j'oſe vous défier.</l>
+                            <l>Que Monſieur vienne armé de ſon indifférence,</l>
+                            <l>Sa défaire ſera le prix de ma conſtance :</l>
+                            <l>Et, pour venger l'honneur de mon ſexe outragé ,</l>
+                            <l>Je vais dans mon château l'attendre en négligé.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A ce défi-galant il ſouſcrivit ſans-doute ?</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui. Quelque grand que ſoit le péril qu'il redoute ;</l>
+                            <l><name type="person" n="Dorante">Dorante</name> m'a promis de venir l'affronter ;</l>
+                            <l>Et, pour l'aſſujettir, je ſçaurais tout tenter.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>O ſituation &amp; cruelle &amp; gênante !</l>
+                            <l>Je ſuis en même-tems rivale &amp; confidente :</l>
+                            <l>E<unclear>l</unclear>le m'ouvre ſon cœur, je dois cacher le mien ;</l>
+                            <l>Je bûle de parler, &amp; ne puis dire rien.</l>
+                        </sp>
+                        <pb n="181"/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Comme j'ai dans l'eſprit qu'il viendra ce jour même,</l>
+                            <l>J'ai fait dans ma parure une réforme extrême ;</l>
+                            <l>Et mon goût a voulu ſe conformer au ſien.</l>
+                            <l part="I">Comment me trouvez-vous ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="F">Elle s'adreſſe bien !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma coëffure, parlez, ſied-elle à ma perſonne ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="I">Que trop !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Eſt-elle, là, modeſtement friponne ?</l>
+                            <l part="I">Répondez franchement ; ſuis-je bien ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">A charmer.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je puis donc me flâter de pouvoir l'enflammer ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Ah ! Si ma main oſoit toucher à ſa coëffure,</l>
+                            <l>Elle lui donneroit une toute autre tournure.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Un tel ajuſtement convient à mon état.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, d'une jeune veuve il réhauſſe l'éclat,</l>
+                            <l>Quand elle a, comme vous, le bonheur d'être belle;</l>
+                            <l>Et la ſimplicité ſemble faite pour elle.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A <name type="person" n="Dorante">Dorante</name> mes yeux ne feront nul quartier</l>
+                            <l>Un négligé galant n'eſt que plus meurtrier.</l>
+                            <l part="I">Mais on vient. C'eſt <name type="person" n="Agate">Agate</name>.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Un moment je vous laiſſe ,</l>
+                            <l>Pour achever d'écrire une lettre qui preſſe.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Elle ſe retire.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <pb n="182"/>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">V</c>Ous venez à propos, <name type="person" n="Agate">Agate</name> , aprochez-vous ;</l>
+                            <l>Je dois vous découvrir un ſecret des plus doux.</l>
+                            <l>D'un ſervile devoir déſormais affranchie,</l>
+                            <l>Vous n'êtes plus chez moi que ſur le pied d'amie ;</l>
+                            <l>De l'état de Suivante aujourd'hui vous ſortez.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Moi, Madame !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, vous-même, &amp; vous le méritez.</l>
+                            <l>A de nobles parens vous devez la naiſſance ;</l>
+                            <l>Vous n'aviez contre vous que la ſeule indigence ,</l>
+                            <l>Titre plus reſpectable auprès des gens de cœur ,</l>
+                            <l>Que la richeſſe acquiſe aux dépens de l'honneur.</l>
+                            <l>C'étoit de la fortune un injuſte caprice ,</l>
+                            <l>Elle répare tout par un retour propice ;</l>
+                            <l>Et ſa main, dans ce jour, prépare à vos beautés</l>
+                            <l>Un ſort même au-deſſus du ſang dont vous ſortez :</l>
+                            <l>Vous pouvez en jouir ſans honte &amp; ſans baſſeſſe ;</l>
+                            <l>Et de vos ſentimens on vous laiſſe maîtreſſe.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Un tel diſcours m'étonne avec juſte raiſon.</l>
+                            <l>Aprenez-moi, de grace, à qui je dois ce don !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous devez à vous-même un ſi grand avantage ;</l>
+                            <l>Et de votre mérite il eſt l'heureux ouvrage.</l>
+                            <l>Puiſqu'il faut découvrir ce myſtére à vos yeux,</l>
+                            <l>Un inconnu m'envoïe un dépôt en ces lieux ;</l>
+                            <l>Il joint à ce tréſor un Billet anonyme,</l>
+                            <l>Dans lequel il m'écrit qu'un amour plein d'eſtime</l>
+                            <l>Et qui n'a pour objet que le bien de vos jours,</l>
+                            <pb n="182"/>
+                            <l>L'oblige à me prier d'accepter ce ſecours,</l>
+                            <l>Pour vous faire un état plus digne de vos charmes;</l>
+                            <l>Que vos malheurs, qu'il ſçait, ont fait couler ſes <lb/> larmes :</l>
+                            <l>Qu'ils augmentent pour vous ſon zèle &amp; ſes égards ,</l>
+                            <l>Et rendent vos attraits plus cher à ſes regards.</l>
+                            <l>Il viendra, pourvuit-il, dans ce ſéjour champêtre ,</l>
+                            <l>Sçavoir vos ſentimens, qu'il brûle de connoître.</l>
+                            <l>Il laiſſe votre cœur libre parfaitement ,</l>
+                            <l>Et ne vous enrichit que pour vous ſeulement :</l>
+                            <l>Il veut, ſelon le choix qu'il vous plaira de faire,</l>
+                            <l>Devenir votre époux, où vous ſervir de pere ;</l>
+                            <l>Et ſes feux ſont ſi purs, qu'il ſe comte pour rien,</l>
+                            <l>Et qu'à vous rendre heureuve il borne tout ſon bien.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce que j'aprens, Madame, eſt ſi peu vraiſemblable,</l>
+                            <l>Que mon eſprit le prend encore pour une fable.</l>
+                            <l>Comment croire un tel fait ? Il n'eſt pas dans nos <lb/> mœurs ,</l>
+                            <l>Car le bel air conſiſte à ſéduire nos cœurs.</l>
+                            <l>Dans un tel procédé je m'éconnois les hommes ;</l>
+                            <l>Les preſens qu'il nous font, dans le ſiécle où nous <lb/> ſommes ,</l>
+                            <l>Sont moins un don pour nous, qu'un prix honteux &amp; <lb/> bas.</l>
+                            <l>Que leur propre intérêt attache à nos apas.</l>
+                            <l>On les voit pour eux ſeuls donner à leurs maîtreſſes,</l>
+                            <l>Et payer leurs vertus moins cher que leurs foibleſſes.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plus vous avez de peine à concevoir ce trait,</l>
+                            <l>Plus vous devez d'eſtime à celui qui l'a fait :</l>
+                            <l>Vous ne pouvez avoir trop de reconnoiſſance;</l>
+                            <l>Votre cœur peut lui ſeul être ſa récompenſe.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſens, comme je dois, ſa généroſité,</l>
+                            <l>Et me conforme en tout à votre volonté :</l>
+                            <l>Je ne puis m'égarer en vous ayant pour guide.</l>
+                            <l>Mon ame, cependant, délicate &amp; timide,</l>
+                            <pb n="184"/>
+                            <l>Sent de la répugnance à recevoir ſes dons ;</l>
+                            <l>Et d'un pareil bienfait je rougis dans le fonds.</l>
+                            <l>De refuſer tout homme, on nous fait un précepte ;</l>
+                            <l part="I">Il en eſt un.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Son cœur mérite qu'on l'excepte.</l>
+                            <l>Envers vous l'Inconnu ſe conduit de façon</l>
+                            <l>Qu'il ferme ſagement tout chemin au ſoupçon.</l>
+                            <l>Pour n'être point ſuſpect, c'eſt à moi qu'il s'adreſſe:</l>
+                            <l>Tel eſt même l'excès de ſa délicateſſe,</l>
+                            <l>Qu'il rend votre deſtin indépendant du ſien,</l>
+                            <l>Et vous laiſſe à vous-même, en vous comblant de bien.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Madame, vos raiſons diſſipent mon ſcrupule ;</l>
+                            <l>Je bannis ma frayeur, puiſqu'elle eſt ridicule.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Toute injuſte qu'elle eſt, j'aime à l'apercevoir ;</l>
+                            <l>Elle montre un eſprit jaloux de ſon devoir.</l>
+                            <l>Votre vertu me plaît, votre bonheur m'enchante ;</l>
+                            <l>Et je ne vous vois plus que comme une parente.</l>
+                            <l>Allez, dans ma maiſon, je prétens déſormais</l>
+                            <l>Que chacun vous diſtingue autant que je le fais.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! C'eſt trop de bontés. Ma fortue, Madame,</l>
+                            <l>En changeant mon état, ne change point mon ame.</l>
+                            <l>Non, <name type="person" n="Agate">Agate</name> jamais ne ſé méconnoîtra ;</l>
+                            <l>De ce qu'elle vous doit, elle ſe ſouviendra.</l>
+                            <l>Plus vous aurez pour moi d'égard &amp; d'indulgence ,</l>
+                            <l>Madame, plus j'aurai pour vous d'obéiſſance ;</l>
+                            <l>Et ce bien qu'on accorde à mon peud ebeauté ,</l>
+                            <l>Augmentera on zèle, &amp; non ma vanité.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage>
+                        </sp>
+                    </div3>
+                    <pb n="185"/>
+                    <div3 type="scene" n="4">
+                        <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">E</c>Lle eſt digne, en effet, d'un ſort ſi favorable ;</l>
+                            <l>Elle a tout ce qui peut rendre une fille aimable,</l>
+                            <l>A l'exacte ſageſſe elle unit l'agrément ,</l>
+                            <l>Et joint beaucoup d'eſprit à plus de ſentiment.</l>
+                            <l>Mais à mes yeux ſurpris quel objet ſe préſente?</l>
+                            <l>N'eſt-ce pas <name type="person" n="Arlequin">Arlequin</name>, le muet de <name type="person" n="Dorante">Dorante</name> ?</l>
+                            <l>C'eſt lui-même. Je ſuis dans le raviſſement.</l>
+                            <l>Et ſon maître, ſans doute, arrive en ce moment.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante"><c type="lettrine">D</c>Orante</name> te ſuit-il? 
+                                <stage type="business"><hi rend="italic">(Il fait ſigne que non.)</hi></stage> 
+                                Non. Il doit donc m'écrire?</l>
+                            <l>Tu ne fais aucun ſigne, &amp; je ne ſçais que dire.</l>
+                            <l>Mais je vois un billet que veut cacher ta main.</l>
+                            <l>Ceſſe de badiner ; donnes donc , <name type="person" n="Arlequin">Arlequin</name>.</l>
+                            <l>Pourquoi tant de façons? C'eſt à moi qu'il s'adreſſe ;</l>
+                            <l>Tu dois me reconnoître, &amp; je ſuis la Comteſſe.</l>
+                            <l>Pour l'obliger plus v<unclear>i</unclear>te à rendre ce papier ,</l>
+                            <l>Du chemin qu'il a fait il faut le défrayer.</l>
+                            <lb/><stage type="business"><hi rend="italic">(<name type="person" n="Arlequin">Arlequin</name> tend les deux mains pour recevoir 
+                                <lb/> l'argent de la Comteſſe, &amp; laiſſe tomber le 
+                                <lb/> billet.)</hi></stage><lb/>
+                            <lb/><stage type="business"><hi rend="italic">(elle ramaſſe le billet &amp; lit.)</hi></stage><lb/>
+                            <l>» Las de faire en public le role d'inſenſible,</l>
+                            <l>» Je ſuivrai de près ce billet,</l>
+                            <pb n="186"/>
+                            <l>» Pour faire près de vous celui d'amant parfait :</l>
+                            <l>» Ce perſonnage-là me ſera moins pénible,</l>
+                            <l>» Quoique je n'oſe encore le remplir qu'en ſecret.</l>
+                            <l>» Sous ce titre, à vos yeux, je veux toujours paroître;</l>
+                            <l>» Et je jure au fond de mon cœur,</l>
+                            <l>» D'en conſerver toujours l'ardeur,</l>
+                            <l>» Et de ne vivre que pour l'être.</l>
+                            <lb/><stage><hi rend="italic">(après avoir lû.)</hi></stage><lb/>
+                            <l>Mes deſirs ſont remplis ! <name type="person" n="Dorante">Dorante</name> eſt amoureux ;</l>
+                            <l>Et je ſuis en ſecret l'objet de tous ſes vœux !</l>
+                            <l>Ce billet me répond de ſa vive tendreſſe.</l>
+                            <l>C'eſt pas diſcrétion qu'il n'a pas mis d'adreſſe.</l>
+                            <l>J'aurois tort d'en douter, c'eſt à moi qu'il l'écrit;</l>
+                            <l>Il a trop de raport à tout ce qu'il m'a dit.</l>
+                            <l><name type="person" n="Arlequin">Arlequin</name> , je n'ai plus beſoin de ta présence;</l>
+                            <l>De tout ce jeu badin ceſſe l'extravagance.</l>
+                            <l>Va, je veux être ſeule. Obéi , laiſſes-moi ;</l>
+                            <l>C'eſt trop me fatiguer. Vite, retires-toi.</l>
+                            <lb/><stage type="mixed"><hi rend="italic">(<name type="person" n="Arlequin">Arlequin</name> ſe retire avec peine, après avoir fait 
+                                <lb/> pluſieurs lazzis qui marquent l'embarras &amp; le 
+                                <lb/> chagrin où il eſt de voir entre les mains de la 
+                                <lb/> Comteſſe, le biller qui eſt pour <name type="person" n="Lucinde">Lucinde</name>, &amp; qu'il 
+                                <lb/> n'oſe redemander, de peur de découvrir l'anony-
+                                <lb/>me que <name type="person" n="Dorante">Dorante</name> lui a recommandé de garder.</hi></stage>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="6">
+                        <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">J</c>'Attens, j'attens <name type="person" n="Lucinde">Lucinde</name> avec impatience ;</l>
+                            <l>Je veux de mes tranſports lui faire confidence.</l>
+                            <l>Dans le ſein d'une amie il eſt doux d'épancher</l>
+                            <l>Un bonheur qu'à tout autre on a ſoin de cacher :</l>
+                            <l>Quand on le communique, il flatte davantage ;</l>
+                            <l>Et l'on ſent doublement un bien qui ſe partage.</l>
+                        </sp>
+                    </div3>
+                    <pb n="187"/>
+                    <div3 type="scene" n="7">
+                        <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">ſans voir la Comteſſe.</hi></stage><lb/>
+                            <l><c type="lettrine">P</c>Our chercher <name type="person" n="Arlequin">Arlequin</name> je reviens ſur mes pas ;</l>
+                            <l>Je le croyois ici, mais je le vois pas.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE </speaker>
+                            <stage><hi rend="italic">apercevant <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <l>Ah ! <name type="person" n="Lucinde">Lucinde</name>, aprochez pour partager ma joye,</l>
+                            <l>Et liſez ce billet que <name type="person" n="Dorante">Dorante</name> m'envoye,</l>
+                            <l>Vous y verrez ma gloire, &amp; dans tout ſon éclat.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">à part, ayant jetté les yeux ſur le billet.</hi></stage><lb/>
+                            <l>Voilà ſon caractére. <stage><hi rend="italic">(après avoir lû.)</hi></stage> 
+                                Ah ! Qu'ai-je lû ? L'ingrat !</l>
+                            <l>A d'autre qu'à moi-même auroit-il dû l'écrire?</l>
+                            <l>Mais cachons à ſes yeux le trouble qu'il m'inſpire;</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Hé bien, vous le voyez, mon triomphe eſt parfait;</l>
+                            <l part="I">Mais prenez-y donc part.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">J'y prens part en effet.</l>
+                            <l>Plus que vous ne penſez ; &amp; j'y ſuis ſi ſenſible ,</l>
+                            <l>Que de vous l'exprimer il ne m'eſt pas poſſible !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt pour moi que <name type="person" n="Dorante">Dorante</name> arrive dans ces lieux ,</l>
+                            <l>Et je puis m'aplaudir du pouvoir de mes yeux.</l>
+                            <l>Quelle gloire d'avoir vaincu ce cœur rebelle !</l>
+                            <l>Pouvois-je remporter de victoire plus belle ?</l>
+                            <l>C'en eſt fait, dans mes fers pour toujours je le tiens,</l>
+                            <l>Un eſclave pareil ne rompt point ſes liens :</l>
+                            <l>L'amour prend, à le vaincre, une peinre infinie ;</l>
+                            <l>Mais, quand il eſt ſoumis, c'eſt pour toute la vie ;</l>
+                            <l>Et ſon ame entraînée avec rapidité,</l>
+                            <l>Paſſe de la froideur à la fidélité.</l>
+                        </sp>
+                        <pb n="187"/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Ah ! Je fais du contraire une épreuve cruelle.</l>
+                            <l>Il étoit inſenſible, il devient infidelle.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Lucinde">Lucinde</name> , en ce moment, pour ſentir mon bonheur ,</l>
+                            <l>Je voudrois que l'amour eût touché votre cœur :</l>
+                            <l>Ce cœur pourroit alors connoître par lui-même</l>
+                            <l>Quel eſt l'enchantement de plaire à ce qu'on aime</l>
+                            <l>Non, tous les autres biens n'ont qu'un goût imparfait.</l>
+                            <l>Pour les mans heureux, le vrai plaiſir eſt fait;</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Et la vive douleur, pour l'épouſe trahie.</l>
+                            <l>J'ai peine à contenir ma juſte jalouſie !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vois que vous ſentez mon diſcours foiblement.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDEL</speaker><lb/>
+                            <l>Non, non, vous vous trompez, je le ſens vivement,</l>
+                            <l>Mais <name type="person" n="Damis">Damis</name> vient. Adieu. Son aſpect m'importune.</l>
+                            <lb/><stage type="mixed"><hi rend="italic">(à part en s'en allant.)</hi></stage><lb/>
+                            <l>Allons ſeule, en ſecret, pleurer mon infortune.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, c'eſt le beau <name type="person" n="Damis">Damis</name> : qu'il a l'air radieux !</l>
+                            <l>Allons, préparons-nous à converſer au mieux.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="8">
+                        <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE<pc>,</pc> DAMIS<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">M</c>Adame, vous voyez un homme dans l'yvreſſe.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Si matin ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">C'eſt d'eſprit, d'eſprit, belle Comteſſe.</l>
+                            <l>Je ne me laſſe pas d'admirer ce château ;</l>
+                            <l>Il eſt beau, beau, très-beau, du vrai beau, du grand <lb/> beau.</l>
+                            <pb n="189"/>
+                            <l>La tournure en eſt neuve ; oui   neuve, i<sic>u</sic><corr>n</corr>téreſſante:</l>
+                            <l>Sa beauté me ſurprend, ſa beauté m'épouvante,</l>
+                            <l>Vrai,d'honneur,en honneur,&amp; ſur mon grand honneur.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh ;ma foi, ſur ma foi, ce diſcours me fait peur.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'aime à voir ce jet-d'eau s'élançant par boutade ,</l>
+                            <l>Pouſſer en grand ſon onde, &amp; jouer la caſcade ;</l>
+                            <l>Et ce baſſin, du jour répétant la ſplendeur,</l>
+                            <l>Badiner le ſoleil, &amp; le rendre en douceur.</l>
+                            <l>Ce jardin décoré de berceaux, de terraſes,</l>
+                            <l>Eſt planté par le goût, façonné par les graces ;</l>
+                            <l>Et ces boſquets toufus ſemblent formés exprès</l>
+                            <l>Pour les plaiſirs furtifs, pour les amours ſecrets,</l>
+                            <l>Et les tendres faveurs d'une jeune bergere,</l>
+                            <l>Que l'ombre doit cacher, &amp; la myſtére taire.</l>
+                            <l>Quoique jeune &amp; badin, je ſuis vraiment diſcret ;</l>
+                            <l>Je traite l'anonyme au plus fin, au parfait,</l>
+                            <l>Et je file au plus doux le ſentiment, le tendre.</l>
+                            <l>Moins légere aujourd'hui ,ſi vous vouliez m'entendre,</l>
+                            <l>Nos cœurs pourroient porter le roman au plus haut,</l>
+                            <l>Soupirer au plus fort, &amp; brûler au plus chaud.</l>
+                            <l>A goûter le piquant d'une flamme anonyme;</l>
+                            <l>Tout ce qu'on voit ici vous porte, vous anime :</l>
+                            <l>Ce beau déſert, ce Ciel auſſi calme que pur,</l>
+                            <l>Le ſilence prudent de ce bois ſombre, obſcur,</l>
+                            <l>Cette grotte iſolée, &amp; ce ruiſſeau que j'aime ,</l>
+                            <l>Dont le murmure eſt doux, &amp; ſecret à l'extrême ;</l>
+                            <l>L'exemple familier de ces petits moineaux,</l>
+                            <l>Moineaux que vous voyez cachés ſous ces berceaux ;</l>
+                            <l>Ces oiſeaux écartés que forme la tendreſſe,</l>
+                            <l>Retiennent leur goſier pour taire leur careſſe.</l>
+                            <l>Suivons de ces derniers l'inſtinct ſûr &amp; charmant ;</l>
+                            <l>Ils s'aiment tendrement, fortement, ſagement:</l>
+                            <l>Et voilà de l'amour, voilà le vrai ſyſtême;</l>
+                            <l>Pour le traiter au mieux, dans le ſublime même.</l>
+                            <l>Entrons, Madame, entrons dans un de ces boſquets,</l>
+                            <l>Dont les deuillages ſont épais, frais &amp; diſcrets.</l>
+                        </sp>
+                        <pb n="190"/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, non, je fuis l'amour, l'amour &amp; le myſtére;</l>
+                            <l>Monſieur, ma liberté, liberté m'eſt trop chere ;</l>
+                            <l>Ce que fait, aujourd'hui que votre amour ſecret</l>
+                            <l>Me ſurprend au plus fort, &amp; me choque au parfait.</l>
+                            <l>J'eus toujours pour le tendre une haine invincible,</l>
+                            <l>Et des boſquets épais l'ombrage m'eſt nuiſible.</l>
+                            <l>Si des oiſeaux par moi l'exemple eſt imité ,</l>
+                            <l>C'eſt dans leur badinage &amp; leur légéreté.</l>
+                            <l>Voyez là-bas, voyez cette linote alerte,</l>
+                            <l>Linote ſautillant ſur cette branche verte ;</l>
+                            <l>Un étourneau s'aproche, &amp; voudroit l'attendrir :</l>
+                            <l>Zeſt ! Elle prend l'eſſor quand il croit la tenir.</l>
+                            <l>Dès qu'on veut, près de moi, le prendre pour modèle,</l>
+                            <l>Comme elle je m'chape, &amp; vole à tire d'aîle.</l>
+                            <l part="I">Tire d'aîle.</l>
+                            <lb/><stage type="exit">(Elle ſort.)</stage>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="9">
+                        <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <l part="F"><c type="lettrine">L</c>'Adieu me paroît ſingulier ;</l>
+                            <l>Il eſt particulier, mais très-particulier !</l>
+                            <l>Tout bien examiné ! ſa fuite eſt impolie.</l>
+                            <l>Elle a bien fait, parbleu, d'être femme &amp; jolie :</l>
+                            <l>je veux, pour la punir, je veux la ſubjuguer,</l>
+                            <l>Et je lui montrerai qu'on doit me diſtinguer ;</l>
+                            <l>Que partout om je vais, je prends d'une maniére</l>
+                            <l>Qui ne lui permet pas de me rompre en viſiére;</l>
+                            <l>Que je ſuis tranſcendant en commerce réglé,</l>
+                            <l>Et que, dès qu'il me voit, le beau ſexe eſt comblé.</l>
+                            <lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
+                        </sp>
+                    </div3>
+                </div2>
+                <pb n="191"/>
+                <div2 type="acte" n="2">
+                    <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">J</c>E veux, pour un moment, oublier la Conteſſe,</l>
+                            <l>Et je vais près de <name type="person" n="Lucinde">Lucinde</name> eſſayer ma tendreſſe,</l>
+                            <l>Par ſon air ſérieux, loin d'être rebuté ,</l>
+                            <l>Mon cœur ſe ſent piqué par la difficulté.</l>
+                            <l>Pour vaincre, je veux qu'un ſimple tête-à-tête.</l>
+                            <l>Mais, bon, l'amour déja m'améne ma conquête !</l>
+                            <l><name type="person" n="Lucinde">Lucinde</name> rêve! O Ciel ! Quel changement flateur !</l>
+                            <l>Elle pouſſe un ſoupir, ſoupir qui part du cœur !</l>
+                            <l>Sa perſonne reſpire un triſte qui m'enchante.</l>
+                            <l>Aurois-je triomphé de ſa froideur glaçante ?</l>
+                            <l>Elle parle ; écoutons pour en être éclairci.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DAMIS<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">ſans voir <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
+                            <l><c type="lettrine">V</c>Oyage malheureux ! Pourquoi venois-je ici ?</l>
+                            <l>L'amour m'y préparoit le coup le plus à craindre,</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="I">Hem ! Qu'avois-je dit ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">J'aime, &amp; ſans oſer m'en plaindre,</l>
+                            <l part="I">Un ingrat, un volage.</l>
+                        </sp>
+                        <pb n="192"/>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="F">Un volage, un ingrat;</l>
+                            <l>Voilà mes qualités ; c'eſt moi, ſans être fat;</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La Comteſſe lui plaît ; il me quitte pour elle !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Oui , le lui rens des ſoins : autre preuve nouvelle.</l>
+                            <l>Bon, j'ai déjà ſoumis la plus fiére des trois.</l>
+                            <l>Parlons-lui, j'ai pitié du trouble où je la vois.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Auroit-il dû tromper la flamme la plus pure ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">haut.</hi></stage><lb/>
+                            <l>Il ne la trompe pas, c'eſt lui qui vous l'aſſure.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Qui me parle ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><name type="person" n="Damis">Damis</name> , qui partage vos maux.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="I">Ah! Ciel !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Conſolez-vos, vous n'aimez pas à faux.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Je ſuis au déſeſpoir ! M'auroit-il entendue ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ne diſſimulez plus ; votre ardeur m'eſt connue.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mon ardeur ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, l'ardeur que vous avez pour moi.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="I">Quel eſt mon embarras !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Madame, ſur ma foi,</l>
+                            <l>Si vos feux ſont parfaits, mon amour eſt ſublime ;</l>
+                            <l>Et, pere du reſpect, il eſt fils de l'eſtime.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce diſcours n'eſt, Monſieur, qu'un galimatias.</l>
+                        </sp>
+                        <pb n="193"/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mais vous m'aimez.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Qui ? Moi ? Je ne vous aime pas.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais, j'ai tout entendu ; c'eſt feindre à pure perte :</l>
+                            <l>J'entre dans la douleur que vous avez ſoufferte ;</l>
+                            <l>Votre état, en honneur, m'attendrit tout-à-fait.</l>
+                            <l>Je vous parois volage, &amp; ſans l'être en effet.</l>
+                            <l>Vrai, ma <name type="person" n="Lucinde">Lucinde</name>, au vrai, mes ſoins pour la Com-<lb/>teſſe</l>
+                            <l>Sont pur amuſement, &amp; ſimple politeſſe.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pour tenir ce propos, il faut, en vérité,</l>
+                            <l>Il faut être, Monſieur, bien plein de vanité.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais, quand d'amour pour moi je vous crois poſſé-<lb/>dée</l>
+                            <l>Ma vanité , Madame , eſt tout au mieux fondée ,</l>
+                            <l>Je vous ſurprend ic vous plaignant d'un Amant</l>
+                            <l>Qui vous y fait ſouffrir le plus cruel tourment : </l>
+                            <l>Cet Amant ne peut être un autre que moi-même ,</l>
+                            <l>Car je vous fais ma cour avec un ſoin extrême ;</l>
+                            <l>Vous n'y voyez,d'ailleurs,d'homme aimable que moi :</l>
+                            <l>Allons, convenés-en ; ſoyés de bonne foi.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne ſçaurois tenir contre une telle audace ;</l>
+                            <l>Et je prends le parti d'abandonner la place.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt moi qui me retire ; &amp;, par diſcrétion ,</l>
+                            <l>Je dois vous laiſſer ſeule en cette occaſion :</l>
+                            <l>C'eſt le dernier combat d'une fierté mourante ,</l>
+                            <l>Qui fuit de ſon Vainqueur la vûe embaraſſante.</l>
+                            <l>Adieu. Je choiſirai, pour revenir vers vous.</l>
+                            <l>Un tems où mon aſpect vous ſemblera plus doux,</l>
+                            <l part="I">Plus doux.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Il ſe retire.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <pb n="194"/>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l part="F"><c rend="italic">V</c>It-on jamais orgueil plus mépriſable?</l>
+                            <l>Son excès, après tout me devient favorable,</l>
+                            <l>Puiſqu'il ferme les yeux au mérite d'autrui ,</l>
+                            <l>Et ne laiſſe tourner ſes regards que ſur lui.</l>
+                            <l>Mais qui vois-je paroître ? Ah ! c'eſt mon infidèle !</l>
+                            <l>Et ſa preſence ajoûte à a peine mortelle !</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="4">
+                        <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DORANTE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">J</c>E revois ma <name type="person" n="Lucinde">Lucinde</name>. Ah ! Quel raviſſement !</l>
+                            <l>Embraſſez votre Epoux, ou plûtôt votre Amant,</l>
+                            <l>Que ſes feux empreſſés vous raménent plus tendre.</l>
+                            <l>Mon tranſport eſt ſi vif, qu il ne peut ſe comprendre !</l>
+                            <l>Quoi ! Vous vous refuſez à ce tranſport ſi doux ?</l>
+                            <l><name type="person" n="Lucinde">Lucinde</name>, eſt-ce l'accueil que j'attendois de vous ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Perfide ! c'eſt celui que vous doit une femme,</l>
+                            <l>Dont vous avez trahi la trop crédule flamme.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'ai trahi votre flamme ! Qu'eſt-ce que j'entens?</l>
+                            <l>Je demeure muet à ces mots inſultans.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ne vous contraignez plus : allez à la Comteſſe ,</l>
+                            <l>Allés porter l'ardeur promiſe à ma tendreſſe ;</l>
+                            <l>Courez vous aplaudir de l'infidélité,</l>
+                            <pb n="195"/>
+                            <l>Et faire, de ma peine, hommage à ſa beauté :</l>
+                            <l>Mais elle vous prévient. Ma préſence vous gêne.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous m'offenſez, <name type="person" n="Lucinde">Lucinde</name>, &amp; c'eſt plûtôt la ſienne.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DORANTE<pc>,</pc> LUCINDE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">A</c>H ! <name>Dorante</name>, c'eſt vous ! Nos vœux ſont ſatis-<lb/>faits !</l>
+                            <l>Et vous avez ſuivi votre Billet de près :</l>
+                            <l>C'eſt être ponctuel à tenir ſa promeſſe.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <l>Quoi ! Vous avez montré ma lettre à la Comteſſe ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l>Ah ! Le tour eſt fort bon : C'eſt elle, ce matin !</l>
+                            <l>Traître ! qui m'a fait voir un Billet de ta main.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="I">Qu'entens-je?...</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l part="F">Mon diſcours paroît vous interdire.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l><name type="person" n="Arlequin">Arlequin</name> s'eſt mépris, &amp; je ne ſçai que dire.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'Amour vous rend timide. Allés, raſſurez-vous,</l>
+                            <l>L'aveu de votre ardeur, je l'ai lû ſans courroux.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage><hi rend="italic">d'un air embaraſſé.</hi></stage><lb/>
+                            <l part="I">Je ſuis...</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><name type="person" n="Lucinde">Lucinde</name> ſçait votre flamme ſecrette ,</l>
+                            <l>Vous pouvez tout me dire ; elle eſt ſage &amp; diſcrette.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je voudrois... m'expliquer... mais...à ne rien celer ,</l>
+                            <l>En préſence d'un tiers... je ne ſçaurois parler.</l>
+                        </sp>
+                        <pb n="196"/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l>Perfide ! tu voudrois que je me retiraſſe !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <l>Je dois fuir tout témoin ; &amp; ſur cette terraſſe...</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, l'on eſt trop en vûe, &amp; vous avez raiſon ;</l>
+                            <l>Nous ſerons beaucoup mieux, Monſieur, dans mon <lb/> Salon</l>
+                            <l>Pour tromper les regards je vais ſeule m'y rendre ;</l>
+                            <l>Vous y viendrés enſuite, &amp; je vais vous ttendre.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Elle rentre.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="6">
+                        <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DORANTE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">V</c>Ous brûlez d'être ſeul , je vois votre embarras ;</l>
+                            <l>Mais non, j'aurais l'honneur d'accompagner vos pas.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Au contraire, je ſuis charmé qu'elle nous quitte ;</l>
+                            <l>Et vous me ſoupçonnés ſans que je le mérite.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Par ton propre Billet n'es-tu pas convaincu ?</l>
+                            <l part="I">Tu l'as écrit.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Pour vous.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Quand elle l'a reçû...</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt à vous qu'<name type="person" n="Arlequin">Arlequin</name> devoit ici le rendre ;</l>
+                            <l>Et je ne ſçai commment il a pû s'y méprendre.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Quoi ! Vous m'auriez écrit ce Billet dans ce jour ?</l>
+                        </sp>
+                        <pb n="197"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pouvez-vous en douter, puiſqu'il eſt plein d'amour ?</l>
+                            <l>Vos yeux qui m'on fait ſeuls connoître la tendreſſe ,</l>
+                            <l>Ont-ils pû s'y tromper, quoiqu'il fût ſans adreſſe ?</l>
+                            <l>Je veux pour vous convaincre, &amp; chaſſer tout ſoup-<lb/>çon ,</l>
+                            <l part="I">Parler devant vous-même à la Comteſſe.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non ;</l>
+                            <l>Pardonnés au dépit qui vous a fait outrage ,</l>
+                            <l>Et d'un excès d'amour ſongés qu'il eſt l'ouvrage.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pour payer cet amour comme il l'a mérité,</l>
+                            <l>Aprenés que je touche au moment ſouhaité ,</l>
+                            <l>Où ma bouche pourra déclarer l'hymenée</l>
+                            <l>Qui tient mes jours liés à votre deſtinée.</l>
+                            <l>La Charge que je viens d'obtenir par <name type="person" n="Cléon">Cléon</name>,</l>
+                            <l>Aſſure ma fortune, &amp; ſert notre union.</l>
+                            <l>Lui-même s'eſt chargé de l'aprendre à mon Pere ;</l>
+                            <l>J'attends ſon agrément. Mais nous fut-il contraire ?</l>
+                            <l>Ma flamme dans vos droits ſçaura vous maintenir ,</l>
+                            <l>Et le trépas, lui ſeul, pourra nous déſunir.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>De joye, à ce diſcours, votre Epouſe eſt comblée !</l>
+                            <l>Mais à cette douceur une crainte eſt mêlée.</l>
+                            <l>La froideur fuit ſouvent un Hymen déclaré :</l>
+                            <l>Et le mari l'eſt trop, dès qu'il eſt avéré.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je dois être excepté de la régle commune ;</l>
+                            <l>C'eſt pour votre bonheur que j'aime ma fortune.</l>
+                            <l>Vous ne verrez jamais mon cœur ſe démentir ;</l>
+                            <l>Et l'amour d'un Epoux ne peut ſe ralentir</l>
+                            <l>Quand il a la beauté pour objet légitime ,</l>
+                            <l>Pour guide , le devoir , &amp; pour baſe , l'eſtime.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je me ſens raſſurer par des mots ſi flatteurs.</l>
+                            <l>Nous devons cependant contraindre nos ardeurs ;</l>
+                            <l>Et nous avons, ſur-tout, à craindre la Comteſſe ;</l>
+                            <pb n="198"/>
+                            <l>Votre eſprit , dans l'erreur doit laiſſer ſa tendreſſe.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Un procédé pareil tient de la fauſſeté.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>D'une Coquette on peut tromper la vanité</l>
+                            <l>Sans bleſſer la franchiſſe &amp; choquer la droiture :</l>
+                            <l>Par la feinte après tout, c'eſt punir l'impoſture.</l>
+                            <l>On vient. Séparons-ous de peur d'être ſurpris.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je maudis la contrainte.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Et moi, je la chéris !</l>
+                            <l>Nous devons nos plaiſirs , <name type="person" n="Dorante">Dorante</name>, à cette gêne ;</l>
+                            <l>Et ſi nous nous quittons l'un &amp; l'autre avec peine ,</l>
+                            <l>A nous retrouver ſeuls nous mettrons nos efforts ,</l>
+                            <l>Et nous nous reverrons avec plus de tranſports.</l>
+                            <l>L'obſtacle à la tendreſſe eſt ſouvent néceſſaire ;</l>
+                            <l>C'eſt-là ce qui nourrit le deſir de nous plaire :</l>
+                            <l>L'hymen, par ce ſecours, devient un nœud charmant,</l>
+                            <l>Et d'un commerce tendre il a tout l'agrément.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="7">
+                        <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">O</c> Ciel ! inſpires-moi ce qu'il faut que je faſſe !</l>
+                            <l>Autant qu'il me ſurprend, mon bonheur m'em-<lb/>barraſſe :</l>
+                            <l>Je voudrois m'acquitter par le don de mon cœur ,</l>
+                            <l>Mais, par malheur, un autre en eſt le poſſeſſeur.</l>
+                            <l part="I">On vient. c'eſt <name type="person" n="Arlequin">Arlequin</name>.</l>
+                        </sp>
+                    </div3>
+                    <pb n="199"/>
+                    <div3 type="scene" n="8">
+                        <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>AGATE<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><c type="lettrine">Q</c>Ue veut-il faire entendre ?</l>
+                            <l>A tous ces ſignes-là je ne puis rien comprendre.</l>
+                        </sp>
+                        <lb/><stage type="business">(<name type="person" n="Arlequin">Arlequin</name> fait pluſieurs ſignes à <name type="person" n="Agate">Agate</name> , pour lui 
+                            <lb/> faire entrendre qu'il eſt amoureux d'elle.)</stage><lb/>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Comment donc ? L'inſolent ! Il veut baiſer ma main !</l>
+                            <l>Ne nous expoſons poi<sic>u</sic><corr>n</corr>t avec un tel coquin.</l>
+                            <l>Fuyons, dérobons-nous aux tranſports de ce more.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="business"><hi rend="italic">retenant <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
+                            <l>Belle <name type="person" n="Agate">Agate</name>, arrêtez ; <name type="person" n="Arlequin">Arlequin</name> vous adore.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>O Ciel ! Ce muet parle ! Un tel événement</l>
+                            <l>Redouble ma frayeur &amp; mon étonnement !</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ne craignez rien, ma Reine , &amp; demeurés , vous <lb/> dis-je ;</l>
+                            <l>Ma tendreſſe, aujourd'hui, fait ſeule ce prodige ;</l>
+                            <l part="I">Et je ſuis <name type="person" n="Arlequin">Arlequin</name> muet par amour.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Vous ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, ma langue eſt très-libre; &amp; ce n'eſt, entre nous,</l>
+                            <l>Que pour pouvoir ici vous rendre mon hommage,</l>
+                            <l>Que j'ai feint d'en avoir perdu l'entier uſage.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pourquoi donc employer cet étrange moyen ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je n'en avois point d'autre ; &amp; , pour ne cacher rien,</l>
+                            <l>N'ayant aucun accès près de votre Maîtreſſe,</l>
+                            <pb n="200"/>
+                            <l>Et ſçachant que <name type="person" n="Dorante">Dorante</name>, ami de la Comteſſe ,</l>
+                            <l>Vouloit prendre un muet pour en être ſervi ,</l>
+                            <l>J'en ai joué le rôle, &amp; ſuis entré chez lui,</l>
+                            <l>Dans l'eſpoir qu'en ces lieux il feroit un voyage,</l>
+                            <l>Et que je vous verrois ſous ce faux perſonnage.</l>
+                            <l>Heureuſement pour moi mon piége a réuſſi ;</l>
+                            <l>Je vous vois, je vous parle, &amp; vous déclare ici</l>
+                            <l>L'amour prompt &amp; ſubtil que j'ai pris dans la rue ,</l>
+                            <l>Un jour que le haſard vous offrit à ma vûe.</l>
+                            <l>Pour vous voir, par ce trait jugés de mon ardeur ;</l>
+                            <l>J'ai feint d'être muet, moi qui ſuis grand parleur.</l>
+                            <l>J'attends à vos genous , j'attends la récompenſe</l>
+                            <l>D'un ſi parfait amour, &amp; d'un ſi dur ſilence.</l>
+                            <l>Prononcés, belle <name type="person" n="italic">Agate</name>, arbitre de mes jours ,</l>
+                            <l>Un mot va terminer ou prolonger leurs cours.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La déclaration eſt touchante &amp; flatteuſe,</l>
+                            <l>La conquête brillante, &amp; la <unclear>j</unclear>ournée heureuſe ,</l>
+                            <l>Mais, Monſieur, l'attitude eſt gênante pour vous ,</l>
+                            <l>Et vous ſerez levé, beaucoup mieux qu'à genoux.</l>
+                            <l>Mon ame ſent le prix d'un cœur comme le vôtre ;</l>
+                            <l>Mais nous ne ſommes pas, Monſieur, faits l'un pour <lb/> l'autre.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon deſtin eſt pourtant conforme à votre ſort ,</l>
+                            <l>Et nos perſonnes , même , ont beaucoup de raport.</l>
+                            <l>Vous ſervez la Comteſſe, &amp; moi, je ſers <name type="person" n="Dorante">Dorante</name> ;</l>
+                            <l>Je ſuis valet de chambre, &amp; vous êtes ſuivante ;</l>
+                            <l>Vous êtes brune, enfin, &amp; je ne ſuis pas blond :</l>
+                            <l>Je puis vous épouſer ſans vous faire d'affront.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui ; mais vous êtes, vous, toujours dans le ſervice ,</l>
+                            <l>Et de ſuivante, moi, je ne fais plus l'office.</l>
+                            <l>Vous êtes né valet, &amp; fait pour obéir ,</l>
+                            <l>Moi , je ſuis Demoiſelle, &amp; l'on doit me ſervir.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Demoiſelle? Tant mieux ! Je vous en félicite ;</l>
+                            <l>Mais la naiſſance , au fond , ne fait pas le mérite.</l>
+                        </sp>
+                        <pb n="201"/>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Songez, quoi qu'il en ſoit, à reſpecter mon ſang.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! Madame, l'amour ne connoît point de rang.</l>
+                            <l>Vous me la donnez belle avec botre nobleſſe !</l>
+                            <l>Le plus noble eſt celui qui ſent plus de tendreſſe ;</l>
+                            <l>Et par-là, plus qu'aucun, je dois l'être pour vous.</l>
+                            <l>Prenez, en ma faveur, des ſentimens plus doux.</l>
+                            <l>Pourquoi vous offenſer de mes ardeurs parfaites ?</l>
+                            <l>Nos Seigneurs, tous les jours, préférent des griſettes.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous vous moquez de moi ! Le cas eſt différent ;</l>
+                            <l>Un homme peut fort bien deſcendre en ſoupirant :</l>
+                            <l>Dês qu'une fille eſt belle , elle a droit de lui plaire ;</l>
+                            <l>Et la beauté, Monſieur, n'eſt jamais roturiére.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne diſpute pas, Madame, là-deſſus ;</l>
+                            <l>Par-là même, pour moi, je combats vos refus.</l>
+                            <l>Puiſqu'un Grand peut aimer une griſette aimable ,</l>
+                            <l>Une Dame, à ſon tour, d'un Bourgeois eſtimable</l>
+                            <l part="I">Peut écouter les vœux.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non pas ſans ſe trahir :</l>
+                            <l>L'amour doit l'élever, &amp; jamais l'avilir.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! Vous me faites voir une fierté que j'aime.</l>
+                            <l>Sçachez donc que je puis vous élever moi-même.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Comment ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Vous m'avez dit votre état dans ce jour;</l>
+                            <l>je dois vous dévoiler ma naiſſance, à mon tour.</l>
+                            <l>Bien loin d'être au-deſſous de votre deſtinée ,</l>
+                            <l>Aprenez que je ſuis fils d'un Roi de <name type="place" n="Guinée">Guinée</name>.</l>
+                            <l>je cache un nom fameux ſous celui d'<name type="person" n="Arlequin">Arlequin</name> ;</l>
+                            <l>Et vous voyez en moi le Prince <name type="person" n="Morachin">Morachin</name>.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Eh ! qui vous a réduit, Seigneur, dans l'eſclavage ?</l>
+                        </sp>
+                        <pb n="202"/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Les injuſtes fureurs d'une Reine ſauvage :</l>
+                            <l>Sa haine m'a contraint d'errer dans l'Univers ;</l>
+                            <l>Et, du ſein des grandeurs , j'ai paſſé dans les fers.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vais de votre rang inſtruire la Comteſſe ,</l>
+                            <l>Afin qu'en ce château l'on rende à votre Alteſſe,</l>
+                            <l>Prince, tous les honneurs qu'elle peut mériter.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Tout beau ! Gardez-vous bien de rien faire éclater ;</l>
+                            <l>Pour tout autre que vous, je ſuis Prince ,anonyme.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt trop de modeſtie ; &amp; l'ardeur qui m'anime ,</l>
+                            <l part="I">M'oblige malgré vous...</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, belle <name type="person" n="Agate">Agate</name> ,non,</l>
+                            <l>Je dois tenir cachés mon deſtin &amp; mon nom :</l>
+                            <l>Mes jours <sic></sic><corr>ſ</corr>ont en danger, ſi ce ſecret tranſpire.</l>
+                            <l>De grace, en même-tems , gardez-vous de détruire</l>
+                            <l>La croyance où l'on eſt que je ſuis né muet.</l>
+                            <l>S'il étoit détrompé, <name type="person" n="Dorante">Dorante</name> me tûroit.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Soit ; je veux juſques-là porter ma complaiſance ,</l>
+                            <l>Mais à condition, qu'en un profond ſilence,</l>
+                            <l>Vous tiendrez renfermé votre amour indiſcret.</l>
+                            <l>Si vous dites un mot, adieu votre ſecret,</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Souffrez...</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ne parlez plus ſur ce point qui me touche.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mais...</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Prince <name type="person" n="Morachin">Morachin</name>, je vous ferme la bouche.</l>
+                            <l>Quelqu'un vient. C'eſt <name type="person" n="Oronte">Oronte</name>. Allez, retirez vous.</l>
+                        </sp>
+                    </div3>
+                    <pb n="203"/>
+                    <div3 type="scene" n="9">
+                        <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
+                        <stage>AGATE<pc>,</pc> ORONTE, ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">B</c>Onjour, charmante <name type="person" n="Agate">Agate</name>. 
+                                <stage type="delivery"><hi rend="italic">(a <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage> 
+                                Un moment laiſſez-<lb/>nous ;</l>
+                            <l part="I">Je veux lui parler ſeul.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="mixed"><hi rend="italic">bas en s'en allant.</hi></stage><lb/>
+                            <l part="F">Malheureux ! Je ſuffoque.</l>
+                            <l>De nous &amp; de nos feux, la cruelle ſe moque.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="10">
+                        <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
+                        <stage>ORONTE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">L</c>'Éclat de vos beautés augmente tous les ans ,</l>
+                            <l>Celui de vos vertus s'accroît en même-tems ;</l>
+                            <l>Et je ſens, belle <name type="person" n="Agate">Agate</name>, un plaiſir véritable</l>
+                            <l>D'aprendre, en arrivant, que le ſort favorable</l>
+                            <l>Récompenſe des dons ſi rares &amp; ſi doux ,</l>
+                            <l>Et vous donne un état moins indigne de vous.</l>
+                            <l>Mon cœur, vous le ſçavez, vous a toujours chérie ;</l>
+                            <l>Lui ſeul vous parle ici ; ce n'eſt point flâterie :</l>
+                            <l>Je ſuis ſincére &amp; vrai dans tout ce que je dis ;</l>
+                            <l>L'Inconnu, plus que moi, n'eſt pas de vos amis.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Monſieur de votre eſtime <name type="person" n="Agate">Agate</name> eſt trop flâtée ,</l>
+                            <l>Son heureuſe fortune en paroît augmentée.</l>
+                            <l>L'Anonyme a ſurpris &amp; ſurpaſſé mes vœux ;</l>
+                            <l>je ne mérite pas ſes bienfaits généreux ,</l>
+                        </sp>
+                        <pb n="204"/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! Que dites-vous là ? De tant de grace ornée ,</l>
+                            <l>Vous ne ſçauriez jamais être aſſez fortunée :</l>
+                            <l>Votre mérite eſt tel ; qu'il les efface tous :</l>
+                            <l>Quelques biens qu'on vous faſſe, il ſeront au-deſſous.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, je n'en ſuis pas digne, &amp; je me rends juſtice ;</l>
+                            <l>Le ſort devoit, pour moi, ſe montrer moins propice.</l>
+                            <l>Je ne puis m'acquiter envers mon bienfaicteur.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il ſera trop payé, s'il obtient votre cœur.</l>
+                            <l>Mais, quoi ! Vous ſoupirez? le bien qu'on vous envoie</l>
+                            <l>Cauſe votre triſteſſe, &amp; non pas votre joie ?</l>
+                            <l>D'un juſte étonnement mon eſprit eſt frapé.</l>
+                            <l>D'où peut n'aître aujourd'hui ce ſoupir échapé ?</l>
+                            <l>Excuſez; mais mon zèle &amp; mon expérience ,</l>
+                            <l>De vous parler ainſi, m'ont acquis la licence.</l>
+                            <l>J'ai pris dans tous le tems, part à vos intérêts</l>
+                            <l>Et vous m'avez toujours confié vos ſecrets.</l>
+                            <l>Qui peut cauſer en vous ce trouble, belle <name type="person" n="Agate">Agate</name> ?</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma fierté, qui ſe joint à la peur d'être ingrate ;</l>
+                            <l>L'une &amp; l'autre à mon cœur livre un fâcheux com-<lb/>bat ;</l>
+                            <l>Sr la reconnoiſſance il eſt ſi délicat ,</l>
+                            <l>Que l'excés d'un tel bien l'embaraſſe &amp; l'étonne :</l>
+                            <l>Il craint de trop devoir à celui qui lui donne.</l>
+                            <l>Ce cœur en même-tems, auſſi fier qu'ingénu ,</l>
+                            <l>Gémit de recevoir les dons d'un inconnu :</l>
+                            <l>Quoique ſant intérêt ſa bonté les lui faſſe,</l>
+                            <l>Ce ſecours qu'il accepte eſt toujours un<sic></sic><corr>e</corr> grace</l>
+                            <l>Dont le reſſouvenir l'avilit en ſecret ;</l>
+                            <l>Et, s'il bénit la main, il rougit du bienfait.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qu'entens-je? pouvez-vous rougir d'une largeſſe</l>
+                            <l>Qu'on fait à vos beautés moins qu'à votre ſageſſe ?</l>
+                            <l>Songez, qu'à la rigueur, ces preſens vous ſont dûs ;</l>
+                            <l>C'eſt un tribut qu'on rend, <name type="person" n="Agate">Agate</name>, à vos vertus :</l>
+                            <pb n="205"/>
+                            <l>Ils changent votre ſort, ſans bleſſer votre gloire.</l>
+                            <l>Montrez-vous donc plus gaïe, où vous me feriez croire</l>
+                            <l>Qu'un ſoin tout différent vous agite aujourd'hui.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Monſieur... Mais <name type="person" n="Damis">Damis</name> vient : je vous laiſſe avec lui.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Agate">Agate</name> s'en va.)</hi></stage>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="11">
+                        <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
+                        <stage>ORONTE<pc>,</pc> DAMIS<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">En croirai-jema vûe ? Eſt-ce <name type="person" n="Oronte">Oronte</name> ?</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, lui-même.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton retour me ravit, me tranſporte au ſuprême.</l>
+                            <l>Après un ſi long-tems j'embraſſe, quel bonheur !</l>
+                            <l>Un homme que j'eſtime &amp; que j'aime de cœur.</l>
+                            <l>Loin de toi, les plaiſirs ſemblent tous s'interrompre,</l>
+                            <l>On s'ennuie à périr, &amp; l'on baille à tout rompre.</l>
+                            <l>Iſolé de ta vûe, on ne tient plus à rien,</l>
+                            <l>Et, ſi-tôt qu'on te voit, on eſt du dernier bien.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Quel langage eſt-ce-là? Mais c'eſt un idiôme</l>
+                            <l>Que tu parles, je crois, toi ſeul dans le Royaume?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt celui du grand monde &amp; des cercles polis.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt donc depuis un an que j'ai quitté <name type="place" n="Paris">Paris</name> :</l>
+                            <l>Je te jure qu'alors cet étrange langage,</l>
+                            <l>A la Ville, à la Cour, n'étoit point en uſage.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton goût eſt devenu bourgeois, des plus bourgeois.</l>
+                            <l>Les mots dont je me ſers, ſont tous termes de choix.</l>
+                            <l>Je m'exprime au plus pur; &amp; c'eſt la langue unie</l>
+                            <pb n="206"/>
+                            <l>Que parle couramment la bonne compagnie :</l>
+                            <l>Oui, la bonne, te dis-je, où l'on épure tout.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La mauvaiſe, plûtôt. Tu me pouſſes à bout.</l>
+                            <l>La bonne compagnie a des clartés plus ſûres;</l>
+                            <l>Tu ne la connois pas, ou tu la défigures :</l>
+                            <l>Et je te dirai, moi, qui ne déguiſe rien ,</l>
+                            <l>Qui l'ai plus fréquenté, &amp; qui ſuis ton doyen,</l>
+                            <l>Que celle que tu viens de citer avec faſte,</l>
+                            <l>Eſt ſa fauſſe copie, ou plûtôt ſon contraſte.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quelle erreur !</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je dis vrai. La tienne gauche en tout ;</l>
+                            <l>Adopte les faux airs, &amp; fuit le mauvais goût;</l>
+                            <l>Son ton eſt précieux, ſa démarche affectée,</l>
+                            <l>Et ſon expreſſion eſt toujours aprêtée :</l>
+                            <l>C'eſt elle qui fait voir à nos yeux, ſi ſouvent,</l>
+                            <l>Le faux Seigneur anté ſur le demi-ſçavant :</l>
+                            <l>Son ſein, du ridicule eſt la ſource fertile,</l>
+                            <l>Et de mots hazardés elle ſéme la Ville;</l>
+                            <l>Elle produit, par-là, des ſots toujours nouveaux,</l>
+                            <l>Et peuple, tous les ans, <name type="place" n="Paris">Paris</name> d'originaux.</l>
+                            <l>La bonne compagnie, &amp; digne de ce titre,</l>
+                            <l>Du véritable eſprit le modèle &amp; l'arbitre,</l>
+                            <l>Différente en tout point, n'affecte aucun jargon ;</l>
+                            <l>Son guide eſt le bon goût ; ſa régle eſt la raiſon;</l>
+                            <l>Elégant ſans recherche, &amp; ſimple ſans baſſeſſe ,</l>
+                            <l>Son diſcours réunit l'aiſance &amp; la nobleſſe :</l>
+                            <l>De la mode qu'on outre, elle arrête l'excès,</l>
+                            <l>Et du beau ſeul qu'elle aime, elle fait le ſuccès :</l>
+                            <l>Son commerce poli, ſon vernis agréable,</l>
+                            <l>Font le vrai connoiſſeur,&amp; forment l'homme aimable,</l>
+                            <l>Qui, ſans l'étudier, poſſéde l'agrément,</l>
+                            <l>Dans le monde qu'il orne, évite également</l>
+                            <l>Le ton de bel-eſprit &amp; l'air de petit-maître,</l>
+                            <l>Et juge bien du tout, ſans vouloir s'y connoître.</l>
+                            <l>Reconnois le mérite, à des traits ſi marqués,</l>
+                            <pb n="207"/>
+                            <l>Et limites plûtôt que des eprits manqués.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton coloris, mon cher, eſt mince, du plus mince;</l>
+                            <l>Et tu t'es enrouillé l'eſprit dans la Province :</l>
+                            <l>Tu peins le vieux mérite, &amp; l'homme trivial ,</l>
+                            <l>J'en recherche un plus neuf, qui ſoit original ,</l>
+                            <l>Et qui, du ſingulier ſe montrant le modèle,</l>
+                            <l>De mots, comme d'habits, ſans ceſſe renouvelle.</l>
+                            <l>La variété charme, &amp; fait que nous brillons :</l>
+                            <l>Caméléons le jour, &amp; le ſoir papillons,</l>
+                            <l>Nous changeons de couleur, &amp; voltigeons ſans ceſſe.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pour aller de travers. oh ! La plaiſante eſpéce</l>
+                            <l>Qui vole en étourdie, &amp; tombe à tous les bonds !</l>
+                            <l>Des papillons pareils, ſont de vrais hannetons.</l>
+                            <l>Peut-être une peu trop fort je ris de ta mépriſe,</l>
+                            <l>Mias, à railler ainſi, la raiſon m'autoriſe.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je pourrois m'en fâcher à la Ville, à <name type="place" n="Paris">Paris</name>,</l>
+                            <l>Où, dans le ſérieux, le moindre terme eſt pris ;</l>
+                            <l>Mais, aux Champs, en <name type="place" n="Touraine">Touraine</name>, où l'on peut tout ſe <lb/> dire ,</l>
+                            <l>Je me prête à la choſe, &amp; je n'en fais que rire.</l>
+                            <l>Briſons-là. J ai beſoin d'un ſage confident,</l>
+                            <l part="I">Et je te choiſis.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Moi!</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Jete connois prudent.</l>
+                            <l>Ami, j'ai ſûr les bras une terrible affaire :</l>
+                            <l>A trois beautés ici j'ai deſſein de plaire ;</l>
+                            <l>Je compte y réuſſir, &amp; me faire un grand nom.</l>
+                            <l>Je veux, tout à la fois, façonner un tendron,</l>
+                            <l>Fixer une coquette, &amp; vaincre une inſenſible.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">L'entrepriſe eſt hardie !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Elle l'eſt au poſſible.</l>
+                        </sp>
+                        <pb n="208"/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qui ſont donc les objets de cette triple ardeur ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La Comteſſe &amp; <name type="person" n="Lucinde">Lucinde</name> ont part à cet honneur;</l>
+                            <l>Mais un troiſiéme objet qu'avec jeu je pourchaſſe ,</l>
+                            <l>Les comba<sic></sic><corr>t</corr>  dans mon cœur, &amp; ſouvent les en chaſſe.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Tu n'as pas peu de ſoins !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Son pouvoir ſingulier</l>
+                            <l>M'oblige de brûler d'un amour roturier.</l>
+                            <l>LaComteſſe eſt aimable, adorable, charmante;</l>
+                            <l>Mais je donne la pomme à ſa belle Suivante :</l>
+                            <l><name type="person" n="Agate">Agate</name> (c'eſt ſon nom) porte un de ces minois</l>
+                            <l>Qui captivent un cœur dès la premiére fois.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais, Sçais-tu bien qu'<name type="person" n="Agate">Agate</name> eſt bonne Demoiſelle ?</l>
+                            <l>Sur le pied de Suivante, elle n'eſt plus chez elle ;</l>
+                            <l>Sa conduite, d'ailleurs, égale ſes apas,</l>
+                            <l>Et dans la bagatelle elle ne donne pas.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh ! Je ſçai comme il faut attaquer cette brune ;</l>
+                            <l>Et je joue à jeu ſûr l'homme à bonne fortune.</l>
+                            <l>Je ſçai l'art.... Il ſuffit, je ne m'en explique point:</l>
+                            <l>Mais je les réduirai toutes trois à leur point.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>As - tu fait du progrès, déja, près de ces belles ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Un progrès infini.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Comment e<unclear>s</unclear>-tu près d'elles :</l>
+                            <l>Ne me déguiſes rien : là, parle franchement.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plaiſante queſtion! J'y ſuis excellemment;</l>
+                            <l>Car <name type="person" n="Agate">Agate</name> me fuit, &amp; <name type="person" n="Lucinde">Lucinde</name> m'évite,</l>
+                            <l>Et, dès que j'ai parlé, la Comteſſe me quitte.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Grande preuve d'amour !</l>
+                        </sp>
+                        <pb n="209"/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, pour l'œil connoiſſeur.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La vanité voit tout par le côté flatteur.</l>
+                            <l>Mais c'eſt trop m'occuper de tes frivoles flammes.</l>
+                            <l>Adieu. J'entre au château pour rejoindre ces Dames.</l>
+                            <l>Je te laiſſes vaquer au ſoin de tes amours :</l>
+                            <l>Va, tu n'as pas de tems à perdre en vain diſcours.</l>
+                            <l>Qui pourſuit trois beautés, doit emprunter des ailes.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'ai les jambes, mon cher, auſſi bonnes que belles.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qui court plus d'une proye, eſt un mauvais chaſſeur.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>On ne manque jamais , quand on eſt fin tireur.</l>
+                        </sp>
+                        <lb/><p rend="italic"><hi rend="italic">Fin du ſecond Acte.</hi></p><lb/>
+                    </div3>
+                </div2>
+                <pb n="210"/>
+                <div2 type="acte" n="3">
+                    <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Lucinde"><c type="lettrine">L</c>UCINDE</name>, je ne ſçai que penſer de <name type="person" n="Dorante">Dorante</name>,</l>
+                            <l>Et de ſon froid accueil je ne ſuis pas contente.</l>
+                            <l>Ah ! Que ſon entretien eſt bien loin de l'ardeur</l>
+                            <l>Que ſa lettre flatteuſe annonçoit à mon cœur !</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais ne vous a-t-il pas confirmé qu'il vous aime !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il me l'a dit d'un ton qui me glace moi-même :</l>
+                            <l>Ses yeux indifférens, qu'il détournoit toujours,</l>
+                            <l>Et ſon maintien forcé, démentoient ſon diſcours.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA COMTESSE <pc>,</pc> LUCINDE<pc>,</pc> <lb/> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l><c type="lettrine">A</c>H ! Monſieur, vous voilà ! Je parlois de vous-<lb/>même.</l>
+                            <l>Je n'ai rien caché pour <name type="person" n="Lucinde">Lucinde</name> que j'aime;</l>
+                            <l>Et je lui témoignois que j'avois en ces lieux,</l>
+                            <l>Trouvé votre billet plus tendre que vos yeux :</l>
+                            <l>Ils rendent foiblement ce qu'il ſembloit promettre.</l>
+                        </sp>
+                        <pb n="211"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non , leur expreſſion enchérit ſur ma lettre.</l>
+                            <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                            <l>Ils doivent aſſurer celle à qui je l'écris ,</l>
+                            <l>Que plus je la regarde, &amp; plus j'en ſuis épris ;</l>
+                            <l>Et pour en être ici pleinement convaincue,</l>
+                            <l>Qu'elle fixe les ſiens un moment ſur ma vûe:</l>
+                            <l>Ils y liront un feu ſi vif &amp; ſi flatteur,</l>
+                            <l>Qu'aucun terme ne peut en exprimer l'ardeur.</l>
+                            <l>Je vois, avec tranſport, qu'elle vient de m'entendre ;</l>
+                            <l>Et j'en ai pour garant le coup d'œil le plus tendre !</l>
+                            <l>Nos regards ſont d'accord ; &amp;, dans ce doux moment,</l>
+                            <l>Mon cœur, de leur concert, ſent tout l'enchantement.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous voilà tel enfin que deſiroit mon ame;</l>
+                            <l>Et dans vos yeux, les miens trouvent toute la flamme.</l>
+                            <l>Qu'ils attendoient, <name type="person" n="Dorante">Dorante</name>, &amp; méritoient de vous :</l>
+                            <l>Leur pouvoir eſt flatté d'un triomphe ſi doux.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Ce triomphe eſt pour moi. La coquette eſt déçûe,</l>
+                            <l>Et mon amour obtient ce qu'elle s'attribue.</l>
+                            <l>Après tous les tourmens qu'elle m'a fait ſouffrir,</l>
+                            <l>Je vois ſa vanité trompée, avec plaiſir.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Rien ne peut égaler l'éclat de ma victoire</l>
+                            <l>Soyez toujours, ſoyez le même pour ma gloire.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je le ſerai toujours, &amp; j'en fais le ſerment.</l>
+                            <l>Oui, le Ciel m'a formé pour aimer conſtamment :</l>
+                            <l>Et, loin de s'altérer, ma tendreſſe fidelle</l>
+                            <l>Va recevoir du tems une force nouvelle.</l>
+                            <l>L'objet de mon ardeur gagne par l'examen :</l>
+                            <l>Il eſt fait pour braver les tiédeurs de l'hymen.</l>
+                            <l>Je vais trop loin, peut-être, en cette circonſtance :</l>
+                            <l>Ma bouche feroit mieux de garder le ſilence :</l>
+                            <l>Mais je commande à peine à mon trouble confus,</l>
+                            <l>Et, s'il métoit permis, j'en dirois encore plus.</l>
+                        </sp>
+                        <pb n="212"/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante">Dorante</name>, mon amour vous permet de tout dire.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Cet excès de bonté ne peut que m'interdire.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LES ACTEURS PRECEDENS<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage type="delivery">à la Comteſſe<pc type="affirmative">.</pc></stage><lb/>
+                            <l><c type="lettrine">P</c>Luſieurs danſeurs, Madame, &amp; nombre de chan<lb/>teurs</l>
+                            <l>Viennent pour vous offrir leurs talens ſéducteurs.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vais les arrêter, &amp; ma joie en eſt grande.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage>à <name type="person" n="Dorante">Dorante</name><pc type="affirmative">.</pc></stage><lb/>
+                            <l>Monſieur, en même-tems, un courier vous demande.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Le Ciel l'envoye exprès pour m'ôter d'embarras !</l>
+                            <lb/><stage type="delivery"><hi rend="italic">(à la Comteſſe.)</hi></stage><lb/>
+                            <l part="I">Je vous quitte ; pardon.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Nous marchons ſur vos pas.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Elle s'en va avec <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="4">
+                        <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DAMIS<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">J</c>E vous trouve iſolée, &amp; je m'en félicite,</l>
+                            <l>Engageons le diſcours, mon aimable petite.</l>
+                            <l>Hem? Comment va le cœur? Que dit-il de nouveau ?</l>
+                        </sp>
+                        <pb n="213"/>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais il dit aujourd'hui.... que le jour eſt fort beau.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage><hi rend="italic">d'un air myſtérieux.</hi></stage><lb/>
+                            <l>Il eſt vrai, Sçavez-vous encore une nouvelle ?</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Non, Monſieur.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Le mien dit que vous êtes plus belle....</l>
+                            <l>Oui, plus belle, en effet , que ce jour radieux.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Monſieur....</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Rien n'eſt égal au brillant de ſes yeux :</l>
+                            <l>Elle a l'air diſtingué, diſtingué, pleine de grace ;</l>
+                            <l>Il promet de l'eſprit du plus fin qui ſe faſſe :</l>
+                            <l>Cela fait, de tout point, le plus joli ſujet ;</l>
+                            <l>Et trois de mes leçons vont le rendre parfait.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">De vos leçons !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Leçons de bonne compagnie,</l>
+                            <l>Qui vont faire de vous une fille accomplie ,</l>
+                            <l>Et vous diſtingueront des gens de votre état.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Avec ſon air pincé, l'inſuportable fat.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je veux préſentement vous donner la premiére.</l>
+                            <l>Seyez-vous avec moi, ma brillante écoliére ;</l>
+                            <l>Seyez-vous, le fauteuil arrange l'entretien,</l>
+                            <l>Et l'on converſe, aſſis, ſinguliérement bien.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>De m'aſſeoir un moment ayons la complaiſance,</l>
+                            <l>Pour voir de ſon eſprit tout l'extravagance.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Comme de mes leçons il faut ne perdre rien,]</l>
+                            <l>Aprochez un peu plu<unclear>s</unclear> votre ſiége du mien.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſuis fort bien ainſi; laiſſez-moi, je vous prie.</l>
+                        </sp>
+                        <pb n="214"/>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais aprenez qu'il faut ſe prêter dans la vie.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'aime à prendre de loin de pareilles leçons.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Du bruſque dans l'humeur ! Corrigez ces façons ;</l>
+                            <l>Elles viſent au dur, ce ne ſont pas les bonnes :</l>
+                            <l>Il faut plus de liant dans les jeunes persſonnes ;</l>
+                            <l>Et la vertu de mode, eſt la docilité.</l>
+                            <l>Vous avez, en partage, eſprit, grace, beauté ;</l>
+                            <l>Mais, pour les ſecourir, &amp; les mettre en lumiére,</l>
+                            <l part="I">Il vous faut....</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Quoi , Monſieur ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Aprêt, jargon, maniére.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mais , l'aprêt, le jargon ...</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais c'eſt le goût courant.</l>
+                            <l>Les graces ſans aprêt, ſont d'un uni trop grand ;</l>
+                            <l>La beauté ſans maniére, offre un éclat barroque ,</l>
+                            <l>Et l'eſprit ſans jargon , eſt d'un bourgeois qui choque.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Moi, j'avois crû, Monſieur, juſques à cet inſtant,</l>
+                            <l>Le jargon ridicule, &amp; l'aprêt révoltant.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Vieille erreur !</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Daignez donc m'expliquer chaque terme ;</l>
+                            <l>Je brûle d'être au fait du vrai ſens qu'il renferme.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vais vous ſatiſfaire, &amp; ce diſcours me plaît.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qu'entendez-vous d'abord par le terme d'aprêt ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'aprêt : écoutez-bien, le vrai, celui de France,</l>
+                            <l>Autrement apellé l'aprêt par excellence,</l>
+                            <pb n="215"/>
+                            <l>Eſt-ce ce vernis flatteir qui, déguiſant le faux;</l>
+                            <l>Exagére la grace, &amp; ſouſtrait les défauts ;</l>
+                            <l>Décore le beau ſexe, &amp; préſide aux toilettes ;</l>
+                            <l>Donne à l'ajuſtement des tournures parfaites ;</l>
+                            <l>Renferme l'art profond d'arranger un cheveu,</l>
+                            <l>De bien mettre une épingle, &amp; de bien faire un nœud;</l>
+                            <l>Communique du vif à la blonde mourante,</l>
+                            <l>Et répand certain doux ſur la brune piquante;</l>
+                            <l>Aux charmes naturels rend l'agrément acquis,</l>
+                            <l>Et des graces du tems forme le coloris :</l>
+                            <l>Sans lui, dans ſes projets une belle s'égare ,</l>
+                            <l>L'agrément ne prend plus, ſi l'on ne le prépare.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais on m'a dit toujours que l'art le détruiſoit.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Votre grand maman jadis vous le diſoit.</l>
+                            <l>Le jargon, je vous prie, attention profonde,</l>
+                            <l>L'art de bien converſer, le précis du beau monde,</l>
+                            <l>Se trouvent renfermés dans ce terme important ;</l>
+                            <l>Le jargon qu'il emploie, &amp; que lui ſeul entend ,</l>
+                            <l>Eſt ſinguliérement l'art incompréhenſible</l>
+                            <l>De s'exprimer au mieux, &amp; de dire au poſſible;</l>
+                            <l>Et, comme ce jargon renouvelle chaque an,</l>
+                            <l>Tout mot fraîchement fait eſt un vrai taliſman:</l>
+                            <l>Celui du jour, ſur-tout, pour peu qu'on le répéte :</l>
+                            <l>D'enchanter pleinement à la vertu ſecrette ;</l>
+                            <l>Il ſçait mettre en crédit les diſcours <hi rend="italic">brillantés</hi>.</l>
+                            <l>Et donner de la vogue à des <hi rend="italic">frivolités</hi>.</l>
+                            <l>De ce jargon divin la force eſt infinie ,</l>
+                            <l>Et , du grand monde, on peut l'apeller la magie.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il en eſt le grimoire inconteſtablement,</l>
+                            <l>Et vous le poſſédez très-ſinguliérement.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, ſinguliérement, vous ſaiſiſſez le terme,</l>
+                            <l>Et, du goût pour le vrai, je vois en vous le germe :</l>
+                            <l>Mais ce n'eſt pas aſſez de ſçavoir le jargon,</l>
+                            <l>Il faut, pour le bien rendre, il faut encore un don.</l>
+                        </sp>
+                        <pb n="216"/>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Et quel don, s'il vous plaît ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">C'eſt le ton, belle <name type="person" n="Agate">Agate</name> ;</l>
+                            <l>Ce ton ſupérieur qui ſubjugue &amp; qui flatte;</l>
+                            <l>Ce ton maître de tout, arbitre des ſuccès</l>
+                            <l>A la Cour, à la Ville, au Théâtre, au Palais;</l>
+                            <l>Qui ſoutient la parole &amp; lui donne la vie,</l>
+                            <l>Et fait paſſer l'eſprit dans les ſons qu'il varie :</l>
+                            <l>Par lui le trivial du neuf prend la couleur ,</l>
+                            <l>Et, ſans lui, le brillant perd toute ſa lueur.</l>
+                            <l>Vous employez en vain une fraſe d'élite,</l>
+                            <l>Si le ton diſtingué n'en rend tout le mérite ;</l>
+                            <l>A l'image du mot il doit être ajuſté.</l>
+                            <l>La converſation eſt un livre noté ;</l>
+                            <l>Il faut prendre le ton pour y faire harmonie ,</l>
+                            <l>Autrement, l'entretien devient monotonie.</l>
+                            <l>Tout le feu renfermé dans une expreſſion ,</l>
+                            <l>Qui nous le fait ſentir ? C'eſt.... c'eſt l'inflexion.</l>
+                            <l>Que je diſe uniment : <name type="person" n="Agate">Agate</name> a ma tendreſſe ;</l>
+                            <l>Sa beauté me ravit, ſa taille m'intéreſſe,</l>
+                            <l>Ses yeux ont, pour charmer, un jargon ſingulier ,</l>
+                            <l>Son maître d'agrément devient ſon écolier.</l>
+                            <l>Ce diſcours dénué du ton vif, pathétique ,</l>
+                            <l>Perd ſa grace intrinſeque &amp; ſa force énergique ;</l>
+                            <l>Mais qu'à ces mots flatteurs je joigne l'action,</l>
+                            <l>Et que j'en rende ainſi tout la paſſon,</l>
+                            <l>E, me tournant vers vous : <name type="person" n="Agate">Agate</name> a ma tendreſſe ;</l>
+                            <l>Sa beauté me ravit, ſa taille m'intéreſſe,</l>
+                            <l>Ses yeux ont, pour charmer, un jargon ſingulier ,</l>
+                            <l>Son maître d'agrément devient ſon écolier.</l>
+                            <l>Hem? Ne ſente-vous pas que le ton qui l'enflamme</l>
+                            <l>Rend la choſe au plus tendre, &amp; lui prête de l'ame?</l>
+                            <l>Du jargon ſigulier, ce ton original,</l>
+                            <l>Au langage des yeux donne un prix ſans égal.</l>
+                            <l>Sa taille m'intéreſſe : inflexion mourante ,</l>
+                            <l>Qui peint le doux pouvoir d'une taille touchante.</l>
+                        </sp>
+                        <pb n="217"/>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage type="business"><hi rend="italic">ſe levant avec dépit.</hi></stage><lb/>
+                            <l>A ce dernier diſcours je me ſens émouvoir.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! De l'inflexion vous ſentez le pouvoir !</l>
+                            <l>Je ſuis... je ſuis comblé ! Vous avez l'ame tendre ;</l>
+                            <l>Vous donnez de l'amour, &amp; vous devez en prendre :</l>
+                            <l>Cet aveu détourné que je fais en ce jour,</l>
+                            <l>Entre nous, part du cœur, &amp; mérite un retour :</l>
+                            <l part="I">Je l'attends.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">C'eſt à tort, &amp; votre ame eſt déçûe:</l>
+                            <l>C'eſt d'un juſte dépit que je parois émûe.</l>
+                            <l>Je ne reſſens pour vous que beaucoup de froideur,</l>
+                            <l>Monſieur ; &amp; ce diſcours , entre nous, part du cœur.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais vous devez m'aimer ; &amp; ce propos m'étonne.</l>
+                            <l>Mon eſprit, mes façons, mon air &amp; ma perſonne,</l>
+                            <l part="I">Tout vous invite....</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">A fuir.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, non, vous m'aimerez.</l>
+                            <l>Tout gît dans la maniére, &amp; lorſque vous ſçaurez...</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne veux rien ſçavoir ſur pareil matiére ;</l>
+                            <l>Le ton m'a dégoûté, Monſieur, de la maniére.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A ce que vous ferez, prenés garde à preſent.</l>
+                            <l>Je vous offre à la fois l'utile &amp; l'amuſant :</l>
+                            <l>Je prétends &amp; je puis faire votre fortune.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Ma fortune, Monſieur!</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Qui ſera peu commune :</l>
+                            <l>Et je veux vous donner un état, qui plus eſt :</l>
+                            <l>Il unit le plaiſir, la gloire &amp; l'intérêt.</l>
+                            <l>Ls amours près de vous aſſemblant le cortége,</l>
+                            <l>Il vous fera jouir de l'heureux privilége</l>
+                            <pb n="218"/>
+                            <l>D'en goûter les douceurs même avec dignité,</l>
+                            <l>Et de vous enrichir de votre volupté.</l>
+                            <l>Vous verrez à vos pieds la jeuneſſe de <name type="place" n="France">France</name>,</l>
+                            <l>Et vous ſaccagerez le corps de la Finance ;</l>
+                            <l>Et, pour mettre le comble à vos contentemens,</l>
+                            <l>Vous aurez du Public les aplaudiſſemens.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quel eſt donc cet état ſi brillant ?</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Le Théatre,</l>
+                            <l>Où vos apas rendront tout <name type="place" n="Paris">Paris</name> idolatre.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Monſieur, en vérité, m'honore infiniment.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Le préjugé, ſur vous, agit en ce moment.</l>
+                            <l>Vous craignez le mépris que l'erreur adoptée....</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non ; par vous ma ſurpriſe eſt mal-interprétée.</l>
+                            <l>Une Actrice qui joint la ſageſſe aux talens,</l>
+                            <l>Mérite, ſelon moi, les égards les plus grands ;</l>
+                            <l>Elle eſt, par ſa vertu, d'autant plus élevée,</l>
+                            <l>Que par l'occaſion elle eſt éprouvée.</l>
+                            <l>Je n'en crois pas, Monſieur, les eſprits prévenus.</l>
+                            <l>J'eſtime le Théâtre, &amp; j'en blâme l'abus ;</l>
+                            <l>Son art eſt en lui-même un art très-eſtimable :</l>
+                            <l>C'eſt le défaut de mœurs qui le rend mépriſable.</l>
+                            <l>Le vice fait lui ſeul, quoiqu'il ſoit protégé,</l>
+                            <l>La honte d'un Etat, &amp; non le préjugé.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Morale hors d'uſage, &amp; qui n'eſt que ſenſée.</l>
+                            <l>La ſageſſe au Théatre eſt gauche &amp; déplacée ;</l>
+                            <l>Tous les gens du bel air ſont de ce ſentiment.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je fais gloire, Monſieur, de penſer autrement.</l>
+                            <l>Vous vous êtes mépris dans votre fauſſe attente,</l>
+                            <l>Et je ſuis de vos feux la très-humble ſervante.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Puiſque vous le prenés ſur ce ton de hauteur.</l>
+                            <pb n="219"/>
+                            <l>C'eſt moi de vos mépris qui ſuis le ſerviteur.</l>
+                            <l>A votre mauvais goût <name type="person" n="Damis">Damis</name> vous abandonne ,</l>
+                            <l>Et je vous bruſque en plein, ma petite perſonne.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE VI<pc type="affirmative">.</pc></head><note resp="Loterie, Josephine">Erreur d'éditeur, il s'agit de la scène cinq et non six, toutes les scènes suivantes sont décalées.</note><lb/>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">Q</c>Ue dans un autre tems je l'aurois badiné!</l>
+                            <l>Mais, vers d'autres objets mon cœur eſt entrainé.</l>
+                            <l>Que ne puis-je étouffer l'ardeur qui me ſurmonte,</l>
+                            <l>Et rendre à l'inconnu!... Mais j'aperçois <name type="person" n="Oronte">Oronte</name>.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="6">
+                        <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>ORONTE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Agate"><c type="lettrine">A</c>Gate</name>, je vous cherche avec empreſſement :</l>
+                            <l>Nous voilà ſeuls, je puis vous parler librement</l>
+                            <l part="I">C'eſt de la part...</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">De qui , Monſieur ?</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">De l'anonyme.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quoi ! Vous le connoiſſez?</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui ; je ſuis ſon intime.</l>
+                            <l>Comme nos intérêtss furent toujours liés,</l>
+                            <l>Qu'il ſçait, d'ailleurs, en moi que vous vous confiez ,</l>
+                            <l>Et que je vous connois dès l'âge le plus tendre ,</l>
+                            <l>Dans un Billet qu'on vient à l'inſtant de me rendre ,</l>
+                            <pb n="220"/>
+                            <l>Il ſe découvre à moi ſous le ſceau du ſecret,</l>
+                            <l>Et m'écrit qu'il attend de mon zèle parfait,</l>
+                            <l>Que je vous parlerai ſur un point qui le touche.</l>
+                            <l>Il eſpére par moi ſçavoir de votre bouche</l>
+                            <l>Quels ſont vos ſentimens qui régleront les ſiens :</l>
+                            <l>C'eſt ſon propre diſcours ici que je vous tiens :</l>
+                            <l>Dans toute leur franchiſe il prétend les connoître,</l>
+                            <l>Et décider par eux s'il doit enfin paroître.</l>
+                            <l>Si votre cœur eſt libre, &amp; peut être obtenu ,</l>
+                            <l>A vos pieds, au plutôt, vous verrez l'inconnu ;</l>
+                            <l>Il ſera trop heureux d'unir ſon ſort au vôtre :</l>
+                            <l>Mais, ſi ce même cœur ſent du goût pour un autre ,</l>
+                            <l>Il eſt ſi délicat, <name type="person" n="Agate">Agate</name>, ſur ce point</l>
+                            <l>Qu'il reſtera caché pour n'y prétendre point ;</l>
+                            <l>Et n'apréhendés pas qu'un tel aveu l'offenſe :</l>
+                            <l>Non, il redoublera plutôt ſa bienveillance;</l>
+                            <l>Et, pour récompenſer cet effort vertueux,</l>
+                            <l>Il hâtera, ſous main, le bonheur de vos feux.</l>
+                            <l>Je demande pour lui que vous ſoyez ſincére.</l>
+                            <l>Son amitié de vous ne veut que ce ſalaire :</l>
+                            <l>Ouvrez-moi donc votre ame, &amp; ſongés qu'aujourd'hui</l>
+                            <l>Son repos en dépend &amp; le vôtre avec lui.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce diſcours me ſurprend, &amp; je reſte interdite.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce trouble accompagné d'une rougeur ſubite,</l>
+                            <l>Etonne mes eſprits, &amp; 'arrête à mon tour !</l>
+                            <l>Seroit-il en effet l'ouvrage de l'amour ?</l>
+                            <l>Belle <name>Agate</name>, parlés, la choſe eſt importante.</l>
+                            <l>Vous ne répondez rien, &amp; votre trouble augmente</l>
+                            <l>Ah ! Je le vois, un autre a ſurpris votre cœur,</l>
+                            <l>Et j'en ai pour garant ce ſurcroît de rougeur.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A quel extrêmité, réduiſez-vous <name type="person" n="Agate">Agate</name> ?</l>
+                            <l>Malgré moi, ma foibleſſe en cet inſtant éclate.</l>
+                            <l>Je voudrois, mais en vain, vous déguiſer mon feu ;</l>
+                            <l>Votre aſcendant ſur moi m'en arrache l'aveu.</l>
+                        </sp>
+                        <pb n="221"/>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce coup, pour mon ami, m'afflige au fond de l'ame.</l>
+                            <l>Mais, quoiqu'un tel aveu ſoit contraire à ſa flamme,</l>
+                            <l>Il vous en tiendra compte &amp; ſon bien l'exigeoit.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt d'un prix bien cruel, payer ce qu'il a fait !</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Celui que vous aimez eſt ſans doute eſtimable.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui ; par ſes qualités il eſt recommandable.</l>
+                            <l>Du ſeul diſcernemenr mon amour eſt le fruit :</l>
+                            <l>Mon cœur, dans un tel choix, n'a pas été ſéduit</l>
+                            <l>Par l'éclat paſſager d'une vaine jeuneſſe ;</l>
+                            <l>Au mérite éprouvé j'ai donné ma tendreſſe.</l>
+                            <l>Je me crois d'autant plus excuſable aujourd'hui,</l>
+                            <l>Que le feu qu'il m'inſpire a la raiſon pour lui.</l>
+                            <l>Ce qui me flate ſeul, dans ma fortune inſigne,</l>
+                            <l>C'eſt que d'un tel Amant elle me rend plus digne,</l>
+                            <l>Qu'elle donne du luſtre à mes foibles apas,</l>
+                            <l>Et, pour lier nos cœurs, raproche nos Etats.</l>
+                            <l>Mais où va m'égarer l'eſpoir vain qui me flatte ?</l>
+                            <l>Je ne ſçaurois forer ces vœux ſans être ingrate,</l>
+                            <l>Et l'Auteur généreux d'un changement ſi doux,</l>
+                            <l>M'en défend la penſée ; &amp; doit les fixer tous.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, quoiqu'en ſon amour l'inconnu ſoit à plaindre ;</l>
+                            <l>Il doit combler vos vœux, &amp; non pas les contrain-<lb/>dre.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah! C'eſt à moi d'éteindre mon ardeur ;</l>
+                            <l>Le tems &amp; mon devoir dégageront mon cœur ;</l>
+                            <l>Il doit de ſes bienfaits être la récompenſe ,</l>
+                            <l>Et j'immolerai tout à la reconnoiſſance :</l>
+                            <l>J'eſpére y réuſſir d'autant plus aiſément,</l>
+                            <l>Que l'objet de mes feux ignore en ce moment</l>
+                            <l>Le triomphe ſecret qu'il obtient ſur mon ame ;</l>
+                            <l>Et lui-même eſt bien loin de répondre à ma flamme.</l>
+                            <l>Preſſés donc l'inconnu de venir en ces lieux ;</l>
+                            <pb n="222"/>
+                            <l>Que pour m'aider à vaincre il paroiſſe à mes yeux ;</l>
+                            <l>Son aſpect déſiré hâtera ma victoire.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſuis, pour l'en preſſer , trop jaloux de ſa gloire.</l>
+                            <l>Je le prierai plutôt de ne pas ſe montrer.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous avez tort, Monſieur ; vous pouvez l'aſſurer...</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, <name type="person" n="Agate">Agate</name> , il n'eſt plus dans la ſaiſon de plaire ;</l>
+                            <l>Sa preſence ſeroit un effet tout contraire</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mais quel âge a-t-il donc?</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Le mien exactement ;</l>
+                            <l>Et nous nous reſſemblons en tout parfaitement.</l>
+                            <l>Je vois qu'à ce portrait vous gardez le ſilence :</l>
+                            <l>L'inconnu vous déplaît ſur cette reſſemblance ;</l>
+                            <l>Et je vais lui marquer qu'il eſt enfin haï.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Arrêtés! N'allés pas abuſer votre ami.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quoi ! Ses traits vous plairont ?</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">N'en doutez plus vous-même.</l>
+                            <l>Puiſqu'ils reſſembleront, Monſieur, à ceux que j'aime.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Qu'entens-je ?</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Qu'ai-je dit dans mon égarement !</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mes traits ſont-ils pareils à ceux de votre Amant ?</l>
+                            <l>Que je ſerois heureux, dans ce jour qui m'allarme ,</l>
+                            <l>Si moi-même j'étois cet Amant qui vous charme.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il eſt trop vrai. Je dois rougir de mes tranſports.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Sortés d'erreur, <name type="person" n="Agate">Agate</name>, &amp; calmés vos remords;</l>
+                            <l>Vous pouvez vous livrer à votre amour ſans honte :</l>
+                            <pb n="223"/>
+                            <l>Voyez, à vos genoux, l'inconnu dans <name type="person" n="Oronte">Oronte</name>.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh , bonheur ſurprenant ! Il remplit mes ſouhaits;</l>
+                            <l>Et j'ai donné mon cœur à qui je le devois.</l>
+                            <l>Je trouve mon Amant dans mon bienfaicteur même :</l>
+                            <l>Ma fortune s'accroît, faite par ce que j'aime ;</l>
+                            <l>Et la reconnoiſſance eſt un tribut bien doux,</l>
+                            <l>Quand l'amour l'a fait naître &amp; l'éxige de nous!</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, non, ce n'eſt plus vous qui m'êtes redevable ;</l>
+                            <l>Votre main eſt un bien d'un prix ineſtimable :</l>
+                            <l>J'ai voulu, pour l'avoir, conſulter votre goût ;</l>
+                            <l>Et, puiſque vous m'aimez, c'eſt moi qui vous doit tout.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="7">
+                        <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>AGATE<pc>,</pc> ORONTE<pc>,</pc> LA COMTESSE<pc>,</pc> <lb/> DAMIS<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">C</c>Iel ! Qu'elle eſt ma ſurpriſe ! <name type="person" n="Oronte">Oronte</name> aux pieds 
+                                <lb/> d'<name type="person" n="Agate">Agate</name> !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A juger <sic> </sic><corr>p</corr>ar ſon air, cet hommage la flatte.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Oronte">Oronte</name>.</hi></stage><lb/>
+                            <l>La Comteſſe &amp; <name type="person" n="Damis">Damis</name> tournent ici leurs pas,</l>
+                            <l part="I"><name type="person" n="Oronte">Oronte</name>, levez-vous.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
+                            <l part="F">ne vous dérangez pas ; </l>
+                            <l>Je vois qu'à ſes leçons vous êtes plus docile.</l>
+                        </sp>
+                        <sp who="Agate">
+                            <speaker>AGATE<pc type="affirmative">.</pc></speaker>
+                            <l>J'y trouve l'agréable, &amp; l'honnête, &amp; l'utile ;</l>
+                            <l>Les vôtres ne tendoient qu'à ſéduire mon cœur,</l>
+                            <l>Et les ſien<sic>u</sic><corr>n</corr>es ne vont qu'à faire mon bonheur.</l>
+                            <l>Madame, pardonnés, à cet aveu ſincére ;</l>
+                            <l>Mais vos propres conſeils m'enſeignent à le faire,</l>
+                            <pb n="224"/>
+                            <l>Monſieur eſt l'inconnu qui m'a comblé de bien</l>
+                            <l>Son amour généreux mérite tout le mien.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Que m'aprend-on, Monſieur? Vous êtes l'anonyme.</l>
+                            <l>Un ſi beau trait pour vous redouble mon eſtime.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <l>Je mets toute ma gloire à me voir ſon époux:</l>
+                            <l>J'attends votre agrément pour un lien ſi doux.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'y conſens avec joye, &amp; je la félicite :</l>
+                            <l>Son deſtin eſt heureux, mais elle le mérite.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l><name type="person" n="Lucinde">Lucinde</name> me conſole, &amp; j'en ſuis adoré.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="8">
+                        <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LES ACTEURS PRECEDENS <pc>,</pc> <lb/> LUCINDE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>, au fond du <lb/> Théâtre.</hi></stage><lb/>
+                            <l><c type="lettrine">M</c>On Pere aprouve enfin notre hymen ignoré ;</l>
+                            <l><name type="person" n="Cléon">Cléon</name>, par un Courier, m'aprend cette nouvelle.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Lucinde">Lucinde</name> vient ici ; <name type="person" n="Dorante">Dorante</name> eſt avec elle !</l>
+                            <l>D'où n'aît l'enchantement qui paroît dans leurs yeux.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Ils ſe parlent de près.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Que vois-je? Juſtes Cieux !</l>
+                            <l part="I">Il lui baiſe la main !</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Elle le laiſſe faire !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <l>De ma félicité ne faiſons plus myſtére,</l>
+                            <l>Je puis la publier au gré de mon amour.</l>
+                        </sp>
+                        <pb n="225"/>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je dois faire éclater ma tendreſſe à mon tour ?</l>
+                            <l>Le plaiſir le plus vif a pénétré mon ame,</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne puis retenir le dépit qui m'enflame.</l>
+                            <lb/><stage><hi rend="italic">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                            <l>Courage, pourſuivez cet amoureux tranſport.</l>
+                            <l>Vraiment, de vos froideurs vous vous corrigez fort.</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, <name type="person" n="Dorante">Dorante</name> ſur moi remporte la victoire.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Vous n'en rougiſſez pas ?</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker><sic>E</sic><corr>L</corr>UCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, j'en fais plutôt ma gloire.</l>
+                            <l>Je ne puis marquer pour lui tout l'amour que je ſens,</l>
+                            <l>En dépit des jaloux, en tous lieux, en tous tems.</l>
+                            <l>Dans l'éclat du grand jour, dans l'ombre du ſilence ,</l>
+                            <l>Sans bleſſer la vertu, ſans choquer la décence;</l>
+                            <l>Et même l'embraſſer en préſence de tous,</l>
+                            <l>Puiſque ma flamme eſt juſte, &amp; qu'il eſt mon époux.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Ah ! C'eſt un guet-à-pan !</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ciel! Que viens-je d'entendre !</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE </speaker>
+                            <stage><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <l>Je vous frape à regret par l'endroit le plus tendre :</l>
+                            <l>Mais, puiſqu'il faut trancher les diſcours ſuperflus ,</l>
+                            <l>Des motifs importans qui ne ſubſiſtent plus ,</l>
+                            <l>Me forçant à tenir notre union cachée,</l>
+                            <l>De vous déſabuſer m'ont tantôt empêchée.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <l>Mais l'ingrat dont tantôt vous vous plaigniez ſi fort?....</l>
+                        </sp>
+                        <sp who="Lucinde">
+                            <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt mon mari, Monſieur, que j'accuſois à tort.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce coup, pour tous les deux, eſt aſſommant,Comteſſe.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il cauſe ma ſurpriſe, &amp; non pas ma triſteſſe.</l>
+                            <pb n="226"/>
+                            <l>Je vois cette union d'un regard de pitié ;</l>
+                            <l>Et <name type="person" n="Dorante">Dorante</name> eſt puni, puiſqu'il eſt marié.</l>
+                            <l>Pour m'en dédommager, j'ai plus d'une conquête.</l>
+                            <l>J'ai fait dans ce château préparer une fête ;</l>
+                            <l>Je veux, pour faire voir que je ris de ces nœuds,</l>
+                            <l>Je veux qu'à l'inſtant même elle ſerve pour eux :</l>
+                            <l>Je prétens, qui plus eſt, y danſerla premiére.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vous iiterai ; c'eſt la grande maniére.</l>
+                        </sp>
+                        <sp who="Oronte">
+                            <speaker>ORONTE </speaker>
+                            <stage><hi rend="italic">à <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
+                            <l>Hé bien , l'événement a trompé ton eſpoir.</l>
+                            <l><name type="person" n="Dorante">Dorante</name> à la Comteſſe a plû ſans le vouloir ;</l>
+                            <l>Il poſſède <name type="person" n="Lucinde">Lucinde</name>, &amp; j'épouſe ta brune.</l>
+                            <l>De trois belles, mon cher, te voilà ſans aucune.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Va, je ne me tiens pas encore pour battu ;</l>
+                            <l>Mes charmes prévaudront ſur toute leur vertu.</l>
+                            <lb/><stage><hi rend="italic">[à la Comt<sic> </sic><corr>e</corr>ſſe.]</hi></stage><lb/>
+                            <l>L'affront nous eſt commun, &amp; ma cauſe eſt la vôtre.</l>
+                        </sp>
+                        <sp who="La Comtesse">
+                            <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, pour venger nos droits, liguons-nous l'un &amp; <lb/> l'autre.</l>
+                        </sp>
+                        <sp who="Damis">
+                            <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Nous ſommes beaux tous deux , employons nos at-<lb/>traits</l>
+                            <l>Pour ôter à l'hymen les vols qu'ils nous a faits.</l>
+                            <l>Forçons les tous les quatre à brûler d'autres flammes :</l>
+                            <l>Ayez ſoin des maris, je me charge des femmes.</l>
+                        </sp>
+                    </div3>
+                    <pb n="227"/>
+                    <div3 type="scene" n="9">
+                        <head>SCENE DERNIERE. <lb/> DIVERTISSEMENT<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LE CHANTEUR<pc>,</pc> LES DANSEURS <lb/> LES DANSEUSES<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Le Chanteur">
+                            <speaker><c type="lettrine"></c></speaker><lb/>
+                            <l>Jeunes Beautés, tendres Amans,</l>
+                            <l>Dont l'ame eſt, en ſecret, épriſe,,</l>
+                            <l>Venez à petit bruit dans ces Jardins charmans ;</l>
+                            <l>Venez, la nuit vous favoriſe :</l>
+                            <l>Sous un maſque emprunté profitez des momens.</l>
+                            <l>Ne craignez point les feux dont brillent ces retraites ;</l>
+                            <l>Leurs clartés, bien loin d'être faites</l>
+                            <l>Pour éclairer les yeux jaloux,</l>
+                            <l>Ne jettent un éclat ſi doux,</l>
+                            <l>Que pour guider les pas des Bergéres diſcrétes.</l>
+                            <lb/><lb/>
+                            <l>Jeunes Beautés, tendres Amans,</l>
+                            <l>Dont l'ame eſt, en ſecret, épriſe,,</l>
+                            <l>Venez à petit bruit dans ces Jardins charmans ;</l>
+                            <l>Venez, la nuit vous favoriſe :</l>
+                            <l>Sous un maſque emprunté profitez des momens.</l>
+                        </sp>
+                    </div3>
+                </div2>
+                <div2 type="vaudeville">
+                    <head>VAUDEVILLE<pc type="affirmative">.</pc></head><lb/>
+                    <sp who="Le Chanteur">
+                        <speaker>LE CHANTEUR<pc type="affirmative">.</pc></speaker><lb/><lb/>
+                        <lg>
+                            <l><c type="lettrine">P</c>Ar avanture qu'un Epoux</l>
+                            <l>Trouve ſa femme en rendez-vous</l>
+                            <l>Avec un Abbé qu'elle eſtime;</l>
+                            <pb n="228"/>
+                            <l>S'il eſt un ſot, il fait du bruit ;</l>
+                            <l>S'il a du monde &amp; de l'eſprit,</l>
+                            <l>Il garde l'anonyme.</l>
+                        </lg>
+                        <lg>
+                            <head>II<pc type="affirmative">.</pc></head><lb/>
+                            <l>Que ſur un ouvrage goûté</l>
+                            <l>Un rimeur ſoit félicité ,</l>
+                            <l>A avouer l'orgueil l'anime ;</l>
+                            <l>Mais, Auteur d'un couplet mordant ,</l>
+                            <l>S'il en reçoit un prix cruiſant ,</l>
+                            <l>Il garde l'anonyme.</l>
+                        </lg>
+                        <lg>
+                            <head>III<pc type="affirmative">.</pc></head><lb/>
+                            <l>Qu'un Gaſcon parvienne aujourd'hui</l>
+                            <l>Par le beau ſexe ſon apui,</l>
+                            <l>Son diſcours bruyant nous l'exprime ;</l>
+                            <l>Mais au jeu, par un art heureux ,</l>
+                            <l>S'il corrige le ſort fâcheux,</l>
+                            <l>Il garde l'anonyme.</l>
+                        </lg>
+                        <lg>
+                            <head>AU PARTERRE<pc type="affirmative">.</pc></head><lb/>
+                            <l>Si, par bonheur, la Piéce a pris,</l>
+                            <l>Meſſieurs, par un aimable <hi rend="italic">bis</hi>,</l>
+                            <l>Que votre bouche nous l'exprime ;</l>
+                            <l>Si l'ouvrage ne vous plaît pas,</l>
+                            <l><name type="person" n="Arlequin">Arlequin</name> vous prie, en ce cas,</l>
+                            <l>De garder l'anonyme.</l>
+                        </lg>
+                    </sp>
+                    <lb/><p rend="center"><hi rend="italic">Fin du quatriéme Tome.</hi></p><lb/>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
