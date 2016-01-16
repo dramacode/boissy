@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>L'auteur superstitieux: édition numérique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs <choice><orig>piéce</orig><reg>pièce</reg></choice>s nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Ce texte est visiblement le prologue de la pièce La Critique de l'Auteur Superſtitieux (comédie en un acte en vers) qui vien après dans le volume.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome quatrième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1732-02-09">9 février 1732</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2015-05-21">21 mai 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>    
+    <text xml:lang="fr">
+        <front>
+            <pb n="1"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">L'AUTEUR <lb/>SUPERSTITIEUX,</titlePart><lb/><lb/>
+                    <titlePart type="desc" rend="italic">PROLOGUE</titlePart><lb/><lb/><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="2"/>
+            <castList>
+                <head rend="center">ACTEURS DU PROLOGUE.</head><lb/>
+                <castItem><role>CLITANDRE</role>, <roleDesc>Amant d'<name type="person" n="Hortense">Hortenſe</name></roleDesc>.</castItem>
+                <castItem><role>DAMON</role>, <roleDesc>ami de <name type="person" n="Clitandre">Clitandre</name></roleDesc></castItem>
+                <castItem><role>ARLEQUIN</role>, <roleDesc>valet de <name type="person" n="Clitandre">Clitandre</name></roleDesc>.</castItem>
+                <castItem><roleDesc>UN LAQUAIS d'<name type="person" n="Hortense">Hortenſe</name></roleDesc>.</castItem>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="center"><hi rend="italic">(La Scène eſt à Paris, chez Clitandre.)</hi></p>
+            </set>
+            <pb n="3"/>
+        </front>
+        <body>
+           <div1 type="title">
+                <head>L'AUTEUR <lb/>SUPERSTITIEUX, <lb/><hi rend="italic">PROLOGUE</hi></head><lb/>
+           </div1>
+           <div1 type="play">
+            <div2 type="scene" n="1">
+                <head>SCENE PREMIERE.</head><lb/>
+                <stage>CLITANDRE DAMON.</stage><lb/><lb/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/><lb/>
+                    <l><c type="lettrine">Q</c>UI vous fait bruſquement quitter ainſi la <lb/> table,</l>
+                    <l>Au milieu d'un repas &amp; d'une troupe <lb/> aimable?</l>
+                    <l>Pouviez-vous être mieux que parmi vos amis,</l>
+                    <l>Et près du tendre objet dont vous êtes épris?</l>
+                    <l>Toute la Compagnie en a paru choquée ;</l>
+                    <l>Mais <name type="person" n="Hortense">Hortenſe</name>, ſur-tout, doit en être piquée,</l>
+                    <l>Elle que vous aimez, &amp; qui donne à dîner :</l>
+                    <l>Un procédé ſemblable a lieu de m'étonner.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Cher ami, c'eſt l'effet d'une <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> extrême,</l>
+                    <pb n="4"/>
+                    <l>Que je ne puis dompter, dont j'ai honte moi-même,</l>
+                    <l>Dont, à d'autres que vous, mon cur n'oſe parler,</l>
+                    <l>Qu'aux yeux même d'<name type="person" n="Hortense">Hortenſe</name> il a ſoin de voiler.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Ma<unclear>i</unclear>s, quoi que vous diſiez, une telle <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice></l>
+                    <l>N'a pas dû vous porter à cette impoliteſſe</l>
+                    <l>Que la raiſon, Monſieur, ne ſçaurait excuſer</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>C'eſt elle, cependant, qu'on doit en accuſer ;</l>
+                    <l>Et, puiſqu'il faut vous faire un aveu véritable,</l>
+                    <l>Nous étions... j'en rougis... nous étions treize à table,</l>
+                    <l>Et l'on nous a ſervi treize plats à la fois.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON </speaker>
+                    <stage type="delivery"><hi rend="italic">d'un air railleur.</hi></stage><lb/>
+                    <l>Ajoutez qu'aujourd'hui c'eſt le treize du mois.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Moquez-vous de ma peur, <name type="person" n="Damon">Damon</name>, je le mérite ;</l>
+                    <l>Mais elle n'eſt pas moins la cauſe de ma fuite.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Se peut-il qu'un Auteur qui veut railler autrui,</l>
+                    <l>Par un foible ſi grand donne à rire de lui?</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Je me ſuis déjà fait les mêmes remontrances;</l>
+                    <l>Mais je ſuis dans un cas &amp; dans des circonſtances,</l>
+                    <l>Où, malgré ma raiſon, tout allarme mon cur :</l>
+                    <l>Elles doivent ſervir d'excuſe à ma terreur.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Qui vous inſpire donc les frayeurs d'une femme ?</l>
+                    <l part="I">Parlés</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Tout ce qui peut tyranniſer une ame.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l part="I">Mais encore ?</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>L'intérêt, la gloire avec l'amour ;</l>
+                    <l>Ils m'occupent tous trois : &amp; dans ce même jour<unclear>,</unclear></l>
+                    <l>On juge mon affaire, on doit jouer ma <choice><orig>piéce</orig><reg>pièce</reg></choice>,</l>
+                    <l>Et je ſuis ſur le point d'épouſer ma maîtreſſe.</l>
+                    <l>Jugés s'il eſt quelqu'un en proye à plus de ſoins.</l>
+                </sp>
+                <pb n="5"/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Je n'ai plus rien à dire. On trembleroit à moins.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Tous mes ſens ſont émûs d'une façon terrible.</l>
+                    <l>Pour l'intérêt, ami, je ſuis très-peu ſenſible.</l>
+                    <l>Si je perds mon Procés, comme je le crois fort,</l>
+                    <l>Je m'en conſolerai ſans faire un grand effort.</l>
+                    <l>Pour l'amour &amp; la gloire, il n'en eſt pas de même;</l>
+                    <l>Tous deux me font ſentir leur aſcendant ſuprême ;</l>
+                    <l>Tous deux, d'un feu pareil, enflamment mon déſir,</l>
+                    <l>Et font en même-tems ma peine &amp; mon plaiſir.</l>
+                    <l>Dans mes ſens agités, leur cruelle puiſſance</l>
+                    <l>Fait ſuccéder la peur, sans ceſſe, à l'eſpérance.</l>
+                    <l>Plaire à l'objet que j'aime, &amp; me voir ſon époux,</l>
+                    <l>Offre à mon coeur ſenſible un triomphe bien doux ;</l>
+                    <l>Mais la crainte de perdre un bien ſi plein de charmes,</l>
+                    <l>Y porte, au même inſtant, les plus vives allarmes.</l>
+                    <l>Par un brillant Ouvrage aſſembler tout <name type="place">Paris</name>,</l>
+                    <l>Réunir tous les goûts, charmer tous les eſprits,</l>
+                    <l>Malgré tous les efforts que tente la Critique ;</l>
+                    <l>Captiver par ſon art l'attention publique,</l>
+                    <l>Forcer deux mille mains d'aplaudir à la fois,</l>
+                    <l>Et s'entendre louer d'une commune voix,</l>
+                    <l>Preſente à mon eſprit la plus haute victoire :</l>
+                    <l>D'un guerrier qui triomphe on égale la gloire ;</l>
+                    <l>Mais, ſi l'honneur eſt grand, le revers eſt affreux <unclear>:</unclear></l>
+                    <l>Du Parterre indigné les cris tumultueux,</l>
+                    <l>Sa fureur qui maudit &amp; l'Auteur &amp; l'Ouvrage;</l>
+                    <l>La triſteſſe et l'ennui peints ſur chaque viſage;</l>
+                    <l>Tous les brocards malins qu'on vous donne en ſortant ;</l>
+                    <l>Et votre nom en bute au mépris éclatant.</l>
+                    <l>Le déſert qui ſuccéde à la foule écartée,</l>
+                    <l>Accablent, à leur tour, mon ame épouvantée.</l>
+                    <l>Je crains, de deux côtés, d'avoir un ſort fâcheux ;</l>
+                    <l>D'être Amant traverſé, comme Auteur malheureux :</l>
+                    <l>Le public qu'on ennuye, eſt un Juge ſévére ;</l>
+                    <l><name type="person" n="Hortense">Hortenſe</name>, quoique veuve, attend l'aveu d'un pere ;</l>
+                    <l>Si mes vux ſont trompés, un autre l'obtiendra :</l>
+                    <pb n="6"/>
+                    <l>Pour ſurcroît de malheur, ma <choice><orig>piéce</orig><reg>pièce</reg></choice> tombera ;</l>
+                    <l part="I">J'en frémis.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l part="F">Ah ! Chaſſés une frayeur si noire ;</l>
+                    <l>Je réponds de l'amour, eſpérés pour la gloire.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Non ; j'ai, mon cher ami, des malheurs que je crains,</l>
+                    <l>Trop de preſſentiments &amp; de ſignes certains.</l>
+                    <l>C'eſt peu d'avoir les ſoirs mille terreurs ſecrettes,</l>
+                    <l>D'ouïr hurler des chiens, &amp; crier des chouettes,</l>
+                    <l>De rencontrer le jour des Créanciers fâcheux ;</l>
+                    <l>Sçachés que cette nuit j'ai fait un rêve affreux:</l>
+                    <l>J'ai ſongé que j'allois m'unir avec <name type="person" n="Hortense">Hortenſe</name></l>
+                    <l>Dans le temps que vers elle un inconnu s'avance,</l>
+                    <l>L'arrache de mes bras, &amp; l'enleve à mes yeux </l>
+                    <l>Sur un char que traînoient deux taureaux furieux :</l>
+                    <l>Je veux les arrêter dans leur courſe fougueuſe,</l>
+                    <l>Quand je tombe au milieu d'une eau ſale &amp; bour-<lb/>beuse.</l>
+                    <l>Mille confus objets troublent alors mes ſens ;</l>
+                    <l>Je prens du poiſſon mort, je ſens tomber mes dents ;</l>
+                    <l>J'ai vû mon Procureur boire avec ma Partie,</l>
+                    <l>Puis j'ai vû tout-à-coup jouer ma Comédie :</l>
+                    <l>Le Parterre à mes yeux, les Loges, n'ont offert</l>
+                    <l>Qu'un grand vuide effroyable, &amp; qu'un vaſte deſert;</l>
+                    <l>Des luſtres preſque éteints, la lueur ſombre &amp; pâle</l>
+                    <l>Éclairoit triſtement la moitié de la ſale ;</l>
+                    <l>Tout le fond du Théâtre étoit tendu de noir,</l>
+                    <l>Et formoit un ſpectacle épouventable à voir.</l>
+                    <l>Je tremble, et je veux fuir à cet objet terrible;</l>
+                    <l>Mais je ſuis arrêté par un bras inviſible :</l>
+                    <l>Pour comble de terreur , cent voix , en même-tems,</l>
+                    <l>Pouſſent autour de moi d'horribles hurlemens ;</l>
+                    <l>Sur ma tête j'entens le tonnerre qui roule ;</l>
+                    <l>Sous les pieds des Acteurs le Théâtre s'écroule !</l>
+                    <l>Les luſtres, à l'inſtant, s'éteignent tout-à-fait,</l>
+                    <l>Et mon ſonge finit par trois coups de ſifflet.</l>
+                </sp>
+                <pb n="7"/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>C'eſt un vilain réveil, ami , je le confeſſe ;</l>
+                    <l>Pour un Auteur ſur-tout dont on donne la <choice><orig>piéce</orig><reg>pièce</reg></choice>.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Mon eſprit, dans l'horreur dont il eſt travaillé,</l>
+                    <l>Eſt digne d'être plaint, &amp; non d'être raillé.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Vous méritez, Monſieur, les ris de tout le monde :</l>
+                    <l>Et, loin que je vous plaigne, il faut que je vous <lb/>gronde :</l>
+                    <l>Dans votre ame, aujourd'hui, la ſuperſtition</l>
+                    <l>Etouffe du bon ſens juſqu'au moindre rayon ;</l>
+                    <l>Des plus fauſſes terreurs vous recevez l'empreinte ;</l>
+                    <l>Et croyez un vain ſonge enfanté par la crainte.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Tout ce que vous direz ne ſervira de rien ;</l>
+                    <l>Et pour finir le cours d'un pareil entretien,</l>
+                    <l>Né ſuperſtitieux, je ne ſuis pas mon maître ;</l>
+                    <l>Je penſe, comme vous, qu'il eſt honteux de l'être ;</l>
+                    <l>Ma raiſon me le dit, mais elle perd ſes ſoins :</l>
+                    <l>J'en ſens le ridicule, &amp; ne le ſuis pas moins.</l>
+                    <l>Contre les préjugés en vain o<sic>u</sic><corr>n</corr> se rebelle :</l>
+                    <l>La ſuperſtition à l'homme eſt naturelle ;</l>
+                    <l>Et le hazard malin , pour la fortifier ,</l>
+                    <l>Se plaît inceſſamment à la justifier.</l>
+                    <l>Je l'ai trop éprouvé dans plus d'une occurence ;</l>
+                    <l>La raiſon ne tient pas contre l'expérience ;</l>
+                    <l>Et votre cur, peut-être, auroit le même effroi,</l>
+                    <l>Si vous étiez, Monſieur, ſur le point comme moi,</l>
+                    <l>D'attirer du Public la louange ou le blâme,</l>
+                    <l>De perdre ou d'obtenir l'objet de votre flâme.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Mais vous êtes aimé. Dites-moi, pouvez-vous</l>
+                    <l>Avoir pour votre Hymen un préſage plus doux ?</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>En vain par ſa tendreſſe , <name type="person" n="Hortense">Hortenſe</name> me raſſure ;</l>
+                    <l>Je crains de le former ſous un fâcheux augure.</l>
+                </sp>
+                <pb n="8"/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>L'inconnu, cher <name type="person" n="Clitandre">Clitandre</name>, allarme votre cu<sic></sic><corr>r</corr> ;</l>
+                    <l>Et je crois, qu'entre-nous, les taureaux vous font peur.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l><name type="person" n="Damon">Damon</name>, encore un coup, tréve de raillerie.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Mais vous ouvrez le champ à la plaiſanterie.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Sur ce point, j'en conviens, mon eſprit va trop loin,</l>
+                    <l>Et ſuit trop la frayeur où jette un tendre ſoin ;</l>
+                    <l>Mais, ſi dans mes amours je parois moins à plaindre,</l>
+                    <l>Pour ma <choice><orig>piéce</orig><reg>pièce</reg></choice> avoués que j'ai tout lieu de craindre.</l>
+                    <l>Tant d'exemples fameux que je vois devant moi,</l>
+                    <l>Ne me doivent-ils pas glacer d'un juſte effroi ?</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Oui ; mais vous m'avez dit que la choſe eſt ſecrette.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Je vous l'ai dit ; ſans doute, &amp; je vous le répéte :</l>
+                    <l>Je l'ai lûe aux Acteurs ſous le ſceau du ſecret ;</l>
+                    <l>Et nul n'en eſt inſtruit, hors vous &amp; mon valet,</l>
+                    <l>Et trois ou quatre Acteurs , amis ſûrs, que j'eſtime.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Vous voilà bien caché ! D'un brevet d'anonime,</l>
+                    <l>La Calotte, Monſieur, doit vous faire preſent.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Avoir un prête-nom , eût été plus prudent.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>A dire vrai, j'y trouve &amp; du pour &amp; du contre.</l>
+                    <l>Un prête-nom bien ſûr, rarement ſe rencontre :</l>
+                    <l>Ces Meſſieurs, quand l'ouvrage attire &amp; réuſſit,</l>
+                    <l>Souvent , avec la gloire , emportent le profit.</l>
+                    <l>Selon moi, le plus court &amp; le plus raiſonnable,</l>
+                    <l>Eſt d'oſer ſe montrer ſous ſon nom véritable.</l>
+                    <l>Un Auteur mal caché ſe fait moquer de lui ;</l>
+                    <l>Et peu, par ce moyen, font fortune aujourd'hui.</l>
+                </sp>
+            </div2>
+            <pb n="9"/>
+            <div2 type="scene" n="2">
+                <head>SCENE II.</head><lb/>
+                <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE </speaker>
+                    <stage type="business"><hi rend="italic">donnant un ſoufflet à <name type="person" n="Arlequin">Arlequin</name> <lb/> qui entre en ſifflant.</hi></stage><lb/>
+                    <l><c type="lettrine">T</c>Iens, voilà pour t'aprendre à ſiffler de la ſorte.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Peſte! Quand vous frapez ce n'eſt pas de main-morte.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="I">Je te l'ai défendu cent fois.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">J'ai tort, Monſeur :</l>
+                    <l>Et j'avois oublié que je ſers un Auteur ,</l>
+                    <l>Et que l'on repreſente aujourd'hui votre <choice><orig>piéce</orig><reg>pièce</reg></choice> :</l>
+                    <l>Je ne tomberai plus dans cette impoliteſſe.</l>
+                    <l part="I">L'augure vous allarme ; &amp; j'ai...</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Tai-toi, faquin.</l>
+                    <l>Quel eſt donc ce papier que tu tiens dans ta main ?</l>
+                    <l part="I">Dis.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="F">De votre Avocat, Monſieur, c'eſt une lettre,</l>
+                    <l>Qu'un homme, de ſa part, m'a dit de vous remettre.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE </speaker>
+                    <stage type="action"><hi rend="italic">prenant la lettre.</hi></stage><lb/>
+                    <l part="I">J'ai perdu mon procès, je gage.</l>
+                    <lb/><stage type="delivery"><hi rend="italic">[Il lit.]</hi></stage><lb/>
+                    <l>Vous venez, Monſieur, de perdre votre procès.</l>
+                    <l part="F">Qu'ai-je dit?</l>
+                    <l>Vous le voyez déja , mon ſonge s'accomplit.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>J'ai rêvé, comme vous, du poiſſon mort, d'eau ſale :</l>
+                    <l>Si la journée auſſi m'alloit être fatale ?</l>
+                    <l>Mais elle l'eſt déja ; je viens d'être battu.</l>
+                </sp>
+                <pb n="10"/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l part="I">Voyez donc juſqu'au bout.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Je ſçai que j'ai perdu.</l>
+                    <l>Du reſte de la lettre à quoi ſert de m'inſtruire ?</l>
+                    <l>Pour moi, ſi vous voulez, vous n'avez qu'à la lire.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l part="I">Très-volontiers.</l>
+                    <lb/><stage type="delivery"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                    <p><hi rend="italic">Vous venez, Monſieur, de perdre votre procès,mal-<lb/>gre votre bon droit. Tout ce que je puis vous dire, c'eſt <lb/> que j'ai plaidé comme un Ange.</hi></p>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Le trait eſt des plus conſolans,</l>
+                    <l>Pour un homme qui perd plus de vingt mille francs.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON </speaker>
+                    <stage type="delivery"><hi rend="italic">pourſuit.</hi></stage><lb/>
+                    <p><hi rend="italic">« Tout le monde a trouvé le Jugement ridicule, &amp; a dit <lb/> hautement, que, pour n'avoir pas gagné une cauſe que <lb/>j'avois ſi bien plaidée, il falloit que ma Partie fût née <lb/> ſous une planette bien malheureuſe.</hi></p>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Ah ! qu'on a bien raiſon ! Graces à ma planette,</l>
+                    <l>Je ſuis de l'infortune une image parfaite !</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON </speaker>
+                    <stage type="delivery"><hi rend="italic">pourſuit.</hi></stage><lb/>
+                    <p><hi rend="italic">Ce vendredi à deux heures après midi.</hi></p>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Du malheur qui m'arrive, ah ! je ſuis peu surpris ;</l>
+                    <l>Rien ne me réuſſit jamais les vendredis !</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON, </speaker>
+                    <stage type="delivery"><hi>reprend.</hi></stage>
+                    <p><hi rend="italic">J'avois oublié de vous marquer que je ſoupçonne votre <lb/>Procureur d'avoir été d'intelligence avec votre Partie <lb/>adverſe.</hi></p>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Oh! Mon rêve, à ce coup, en plein ſe vérifie :</l>
+                    <l>J'ai vû mon Procureur boire avec ma Partie.</l>
+                    <l>Qu'on diſe après cela que tout ſonge eſt menteur ;</l>
+                    <l>Et vous, preſentement, riez de ma terreur :</l>
+                    <l>Dites, du moindre effroi, que je reçois l'empreinte,</l>
+                    <pb n="11"/>
+                    <l>Et crois un ſonge vain enfanté par la crainte.</l>
+                    <l part="I">Démentez ce billet.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l part="F">Je veux qu'à cet égard,</l>
+                    <l>Votre rêve, Monſieur, ait dit vrai par hazard ;</l>
+                    <l>Vous le trouverez faux bientôt dans tout le reſte.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Non, dans ce triſte jour, tout va m'être funeſte.</l>
+                    <l>Vous me verriez tranquille, &amp; non pas éperdu,</l>
+                    <l>Si mes maux ſe bornoient à mon procès perdu ;</l>
+                    <l>Mais je regarde en lui les ſuites qu'il préſage ;</l>
+                    <l>Il eſt comme l'éclair qui devance l'ora<sic>n</sic><corr></corr>ge ;</l>
+                    <l>Il eſt le noir ſignal que le Ciel en courroux,</l>
+                    <l>Vient, tout prêt à fraper, de déployer ſur nous.</l>
+                    <l><name type="person" n="Hortense">Hortenſe</name> recevra de fâcheuſes nouvelles ;</l>
+                    <l>Mon ouvrage eſſuyera des diſgraces cruelles.</l>
+                    <l>Juſtifiant l'effroi dont mon coeur eſt rempli,</l>
+                    <l>Mon rêve en tous ſes points va ſe voir accompli !</l>
+                    <l>Courez dire aux Acteurs, cher ami, je vous prie,</l>
+                    <l>De ne pas aujourd'hui donner ma Comédie,</l>
+                    <l>Que pour la retarder, j'ai des motifs puiſſans :</l>
+                    <l>Rendez-moi ce ſervice, &amp; ſans perdre de tems.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>N'en déplaiſe aux frayeurs de votre eſprit crédule,</l>
+                    <l>Cette commiſſon eſt par trop ridicule ;</l>
+                    <l part="I">Je ne m'en charge point.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Seulement, dites-leur</l>
+                    <l>De remettre à lundi;c'eſt mon jour de bonheur.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Vous vous moquez ; la <choice><orig>piéce</orig><reg>pièce</reg></choice> eſt pour ce ſoir promiſe ;</l>
+                    <l>Au lieu de vous ſervir, c'eſt vouloir qu'on vous nuisſe:</l>
+                    <l>Vous indiſpoſeriez le public contre vous :</l>
+                    <l>Les Acteurs à ce<unclear>l</unclear>a doivent s'opoſer tous.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Après votre refus, dans ce péril extrême,</l>
+                    <l>Je ſçaurai les trouver, &amp; leur parler moi-même.</l>
+                </sp>
+                <pb n="12"/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Ah ! Vous n'en ferez rien ; &amp; vous n'y ſongez pas :</l>
+                    <l>Pour vous en empêcher , je marche ſur vos pas.</l>
+                </sp>
+                <lb/><stage type="business"><hi rend="italic">(Il ſuit <name type="person" n="Clitandre">Clitandre</name>.)</hi></stage>
+            </div2>
+            <div2 type="scene" n="3">
+                <head>SCENE III</head><lb/><lb/>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                    <l><c type="lettrine">A</c>Vec tout ſon ſavoir, ah! que mon Maître eſt bête!</l>
+                    <l>La frayeur, à la fin lui tournera la tête.</l>
+                    <l>Elle eſt cauſe , morbleau ! cette folle frayeur ,</l>
+                    <l>Qu'il m'a frapé d'un coup que j'ai fort ſur le cur !</l>
+                    <l>Me battre pour ſiffler par pure inadvertance !</l>
+                    <l>Que n'en puis-je au Parterre aller prendre vengeance !</l>
+                    <l>À Meſſieurs mes pareils pourquoi l'interdit-on ?</l>
+                    <l>Je ſifflerois alors , mais ſur un joli ton.</l>
+                    <l>Quel plaiſir, pour vingt ſols, de huer comme un dia-<lb/>ble !</l>
+                    <l>Je rendrois, pour le coup, ſon rêve véritable.</l>
+                    <l>Il veut être caché dans cette occaſion ;</l>
+                    <l>Mais, pour mieux me venger, je nommerois ſon nom ;</l>
+                    <l>Et je dirois tout haut : La <choice><orig>piéce</orig><reg>pièce</reg></choice> eſt de <name type="person" n="Clitandre">Clitandre</name>,</l>
+                    <l>Epargnez-vous, Meſſieurs, la peine de l'entendre ;</l>
+                    <l>Il croit avoir produit quelque choſe de beau,</l>
+                    <l>Mais l'ouvrage eſt un monſtre, &amp; l'auteur un bourreau.</l>
+                </sp>                
+            </div2>
+            <pb n="13"/>
+            <div2 type="scene" n="4">
+                <head>SCENE IV.</head><lb/>
+                <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l><name type="person" n="Damon"><c type="lettrine">D</c>Amon</name>, m'a ſçu convaincre, &amp; ſa raiſon m'éclaire ;</l>
+                    <l>Mon effroi ſe diſſipe aux traits de ſa lumiére :</l>
+                    <l>Sans lui, ſans ses conſeils, dans mes fauſſes terreurs,</l>
+                    <l>J'allois, à mes dépens divertir les Acteurs :</l>
+                    <l>J'aurois, à leurs regards, dévoilant ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>,</l>
+                    <l>Ajoûté follement une Scène à ma <choice><orig>piéce</orig><reg>pièce</reg></choice>,</l>
+                    <l>Dont j'allois devenir moi-même le héros :</l>
+                    <l>Je lui dois ma raiſon, je lui dois mon repos,</l>
+                    <l>C'en eſt fait, mon eſprit ne croit plus au préſage :</l>
+                    <l>J'attens préſentement le ſort de mon ouvrage,</l>
+                    <l>Avec la fermeté qu'un ſage doit avoir ;</l>
+                    <l>Et, ſans trop préſumer , je ſens un noble eſpoir :</l>
+                    <l>Je prétens me montrer , quoi que le deſtin faſſe ,</l>
+                    <l>Modeſte dans ma gloire , ou fort dans ma diſgrace.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah! Qu'entens-je ? Monſieur, quel heureux change-<lb/>ment !</l>
+                    <l>Puiſſiez-vous perſiſter dans un tel ſentiment!</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Oui, j'y perſiſterai. Je ſuis aimé d'<name type="person" n="Hortense">Hortenſe</name> :</l>
+                    <l>Mes feux vont être heureux, ſelon toute apparence.</l>
+                    <l>Que me faut-il de plus, armé d'un tel bonheur ,</l>
+                    <l>Je puis du ſort jaloux défier la fureur.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Tremblez, Monſieur ; j'entens la pendule qui ſonne.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Voilà l'heure fatale &amp; tout mon corps friſſonne;</l>
+                </sp>
+            </div2>
+            <pb n="14"/>
+            <div2 type="scene" n="5">
+                <head>SCENE V.</head><lb/><lb/>
+                <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l><c type="lettrine">A</c>Llons, courage, ami ; le préſage eſt flatteur ;</l>
+                    <l>Votre ſonge commence à ſe trouver menteur,</l>
+                    <l>Car vous aurez grand monde à votre Comédie,</l>
+                    <l>De carroſſes, déjà, cette rue eſt remplie.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Tant pis; un ſi grand monde eſt toujours dangereux :</l>
+                    <l>Le tumulte accompagne un public trop nombreux.</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Ah ! Monſieur, diſſipez la peur qui vous domine :</l>
+                    <l>Le ſouffleur avec qui j'ai bû tantôt chopine,</l>
+                    <l>M'a dit que ſur la <choice><orig>piéce</orig><reg>pièce</reg></choice> il faiſoit un grand fond :</l>
+                    <l>Et, qui plus eſt encore, tout l'orcheſtre en répond.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Ce ſuffrage me donne une aſſurance extrême.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Mais les Comédiens en répondent eux-mêmes ;</l>
+                    <l part="I">Ils le diſent tout haut.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Que m'annoncez-vous là?</l>
+                    <l>Je ſuis perdu, Monsieur; ma <choice><orig>piéce</orig><reg>pièce</reg></choice> déplaira.</l>
+                    <l>Le malheur ſuit toujours les ouvrages qu'on vante :</l>
+                    <l>L'exemple nous le prouve, &amp; le ſort m'épouvante.</l>
+                </sp>
+                <sp who="Damon">
+                    <speaker>DAMON.</speaker><lb/>
+                    <l>Moi, j'eſpére, au retour, vous faire compliment;</l>
+                    <l>Et je cours me placer ſans perdre un ſeul moment.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Allez vîte; en un jour de combat &amp; de guerre,</l>
+                    <l>On ne ſçauroit avoir trop d'amis au Parterre.</l>
+                    <l>De marcher ſur vos pas, je ne puis m'empêcher ;</l>
+                    <l>Au fond du Paradis je m'en vais me cacher.</l>
+                </sp>
+                <pb n="15"/>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>C'eſt l'enfer des Auteurs, qu'un Paradis ſemblable ,</l>
+                    <l part="I">Monſieur.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE </speaker>
+                    <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                    <l part="F">Ce qu'il me dit n'eſ que trop véritable.</l>
+                </sp>
+            </div2>
+            <div2 type="scene" n="6">
+                <head>SCENE VI.</head>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN </speaker>
+                    <stage><hi rend="italic">ſeul.</hi></stage><lb/><lb/>
+                    <l><c type="lettrine">S</c>'Il tremble maintenant, ce n'eſt pas ſans raiſon:</l> 
+                    <l>Tout brave que je ſuis, j'ai pour lui le friſſon.</l>
+                    <l>Ce qui préſentement m'allarme davantage,</l>
+                    <l>C'eſt qu'il m'a , ventrebleu dépeint dans ſon ouvrage:</l>
+                    <l>J'y parois ſous mon nom, comme ſous mes habits.</l>
+                    <l>Un homme comme moi craint d'être compromis.</l>
+                    <l>Si le nom d'<name type="person" n="Arlequin">Arlequin</name>, ce nom ſi reſpectable ,</l>
+                    <l>Se voyoit bafoué, ce ſeroit bien le diable!</l>
+                    <l>Comme la Comédie eſt à deux pas d'ici,</l>
+                    <l>Je n'irai pas bien loin pour en être éclairci :</l>
+                    <l>Courons-y de ce pas... . Mais on vient. C'eſt mon <lb/>Maître !</l>
+                    <l>O Ciel ! En quel état je le revois paroître ?</l>
+                </sp>
+            </div2>
+            <div2 type="scene" n="7">
+                <head>SCENE VII.</head><lb/><lb/>
+                <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l part="I"><c type="lettrine">Q</c>U'avez-vous ?</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">Un fauteuil, vîte ; je n'en puis plus !</l>
+                    <l>Mes ſens, jamais mes ſens ne furent plus émûs.</l>
+                    <l>J'entre à la Comédie, admire mon étoile,</l>
+                    <pb n="16"/>
+                    <l>Dans le moment fatal que l'on leve la toile :</l>
+                    <l>Du monde que je vois je ſuis épouvanté ;</l>
+                    <l>J'entens mugir les flots du Parterre agité :</l>
+                    <l>Je regarde en tremblant tous ces Juges ſévéres,</l>
+                    <l>Que ne ſçauroient fléchir ni brigues ni priéres.</l>
+                    <l>De mon ſuplice alors je crois voir les aprêts:</l>
+                    <l>Tous les cris que j'entens me ſemblent des ſifflets ;</l>
+                    <l>Quand , pour comble d'effroi , j'aperçois un vieux <lb/>Cuiſtre</l>
+                    <l>Dont  je n'ai jamais vû le viſage ſiniſtre,</l>
+                    <l>Qu'il ne m'ait annoncé quelque malheur prochain;</l>
+                    <l>Il me fixe des yeux , me montre de la main :</l>
+                    <l>Je lis dans ſes regards ma mortelle ſentence,</l>
+                    <l>Et veux me dérober à ſa noire preſence ;</l>
+                    <l>Mais je fais un faux pas, &amp; culbute en fuyant.</l>
+                    <l>Voilà l'Auteur tombé, dit-il, en me voyant;</l>
+                    <l>C'eſt lui, je le connois : je crains que pour l'ouvrage</l>
+                    <l>Cette chûte ne ſoit d'un funeſte préſage.</l>
+                    <l>Ces mots me percent l'ame, &amp; je reviens enfin,</l>
+                    <l>La pâleur ſur le front &amp; la peur dans le ſein.</l>
+                </sp>
+            </div2>
+            <div2 type="scene" n="8">
+                <head>SCENE DERNIERE</head><lb/>
+                <stage>CLITANDRE, ARLEQUIN, <lb/> UN LAQUAIS.</stage><lb/>
+                <sp n="laquais">
+                    <speaker>UN LAQUAIS.</speaker><lb/><lb/>
+                    <l part="I"><c type="lettrine">U</c>Ne lettre, Monſieur...</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l part="F">De quelle part vient-elle ?</l>
+                    <l>Tu fus toujours porteur de mauvaiſe nouvelle.</l>
+                    <lb/><stage type="delivery"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                    <l><hi rend="italic">Mon pere arrive en ce moment.</hi></l>
+                    <l><hi rend="italic">Il aprouve notre flâme,</hi></l>
+                    <l><hi rend="italic">Et, pour êpoux, j'obtiens l'amant</hi></l>
+                    <l><hi rend="italic">Qui pouvoit ſeul toucher mon ame.</hi></l>
+                    <pb n="17"/>
+                    <l><hi rend="italic">Enchanté comme moi d'un aveu ſi flatteur,</hi></l> 
+                    <l><hi rend="italic"><name type="person" n="Clitandre">Clitandre</name> connoît-il l'excès de mon bonheur?</hi></l>
+                    <p rend="align(right)">HORTENSE</p>
+                    <l>Mon coeur eſt tranſporté! Si le public affable</l>
+                    <l>Faisoit à mon ouvrage un accueil favorable,</l>
+                    <l>Et s'il m'aplaudiſſoit en cet heureux inſtant,</l>
+                    <l>Non, il ne ſeroit pas de mortel plus content !</l>
+                </sp>
+                <sp who="Arlequin">
+                    <speaker>ARLEQUIN.</speaker><lb/>
+                    <l>Monſieur, d'un bon ſuccès ce billet vous aſſure.</l>
+                </sp>
+                <sp who="Clitandre">
+                    <speaker>CLITANDRE.</speaker><lb/>
+                    <l>Ah ! Mon procès perdu m'eſt d'un mauvais augure.</l>
+                    <l>Mais, voyons au plûtôt cet objet raviſſant ;</l>
+                    <l>Et nous viſiterons le parterre en paſſant.</l>
+                </sp>
+                <lb/><lb/><lb/>
+                <p rend="center"><hi rend="italic">Fin du Prologue</hi></p>
+            </div2>
+           </div1>    
+        </body>
+    </text>
+</TEI>
