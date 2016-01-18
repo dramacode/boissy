@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>Le triomphe de l'intérest: édition numérique.</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome troisiéme</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalés à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1730-11-08">08 novembre 1730</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="87"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">LE TRIOMPHE <lb/> DE <lb/> L'INTÉREST ,</titlePart>
+                    <titlePart type="desc" rend="italics">COMEDIE</titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="88"/>
+            <castList>
+                <head rend="italics">ACTEURS</head>
+                <castItem><role>MERCURE</role>.</castItem>
+                <castItem><role>L'HONNEUR</role>.</castItem>
+                <castItem><role>L'INTÉREST</role>.</castItem>
+                <castItem><role>LA BANQUEROUTE</role>.</castItem>
+                <castItem><role>FANCHON</role>.</castItem>
+                <castItem><role>Monſieur DAVID</role>.</castItem>
+                <castItem><role>Monſieur JACQUIN</role>.</castItem>
+                <castItem><role>Monſieur VENTREBLEU</role>.</castItem>
+                <castItem><role>PHEDRE</role>.</castItem>
+                <castItem><role>HIPOLITE</role>.</castItem>
+                <castItem><role>TAPINOIS</role>.</castItem>
+                <castItem><role>ARLEQUIN.</role>.</castItem>
+            </castList>
+        </front>
+        <body>
+            <pb n="89"/>
+            <div1 type="title">
+                <head>LE TRIOMPHE <lb/> DE <lb/> L'INTÉREST ,<lb/>COMEDIE.</head>
+                <lb/><lb/><p><hi rend="italique">Le Théâtre repréſente un Palais de Financier.</hi></p>
+            </div1>
+            <div1 type="play">
+                <div2 type="scene" n="1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">C</c>'EST ici le Palais que l'Intérêt habite,</l>
+                        <l>Cette idole du ſiécle à qui tout ſe ſou-<lb/>met,</l>
+                        <l>Qui fonde ſon pouvoir ſur l'équité proſ-<lb/>crite;</l>
+                        <l>De tant de paſſions le mobile ſecret;</l>
+                        <l>L'ame du monde, enfin, &amp; la ſource maudite</l>
+                        <l>De tout le mal qui s'y commet.</l>
+                        <l>Que ces lambris dorés, &amp; que ces murs durables ;</l>
+                        <l>Que tous ces marbres que voilà</l>
+                        <pb n="90"/>
+                        <l>Ont écraſé de miſérables,</l>
+                        <l>Pour bien loger ce monſtre-là !</l>
+                        <l>Taiſons-nous, le voici lui-même qui s'avance ;</l>
+                        <l>Son aſpect m'éblouit, &amp; ſon air d'opulence</l>
+                        <l>A je ne ſçai quoi d'impoſant :</l>
+                        <l>Je le mépriſe en ſon abſence,</l>
+                        <l>Mais je le reſpecte préſent.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>MERCURE, L'INTEREST.</stage><lb/>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l><c type="lettrine">S</c>Alut au Dieu <name type="person" n="Mercure">Mercure</name>.</l>
+                        <l>Et par quelle avanture.</l>
+                        <l>Vient-il aujourd'hui dans ces lieux ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Mes confréres les Dieux</l>
+                        <l>(Je n'en excepte point le maître du tonnerre)</l>
+                        <l>Sont à préſent ſi vieux,</l>
+                        <l>Qu'ils ne donnent plus nul emploi dans les Cieux;</l>
+                        <l>Et j'en viens chercher ſur la terre.</l>
+                        <l>Vous gouvernez ſes habitans;</l>
+                        <l>J'ai crû ne pouvoir pas mieux faire,</l>
+                        <l>Que de venir chez vous exercer mes talens.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Une intriguant habile eſt toujours néceſſaire;</l>
+                        <l>Il eſt par-tout le bien venu.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Que l'Intérêt eſt bien en <name type="person" n="France">France</name> !</l>
+                        <l>Je ne le vis jamais ſi gras ni ſi dodu;</l>
+                        <l>Et le voilà, ma foi ; vêtu</l>
+                        <l>En héros de finance.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Je n'ai point dans <name type="place" n="Paris">Paris</name> de plus zèlés ſujets,</l>
+                        <l>Ils ont bâti pour moi ce ſuperbe palais.</l>
+                        <pb n="91"/>
+                        <l>Je ne ſçaurois paroître avec plus de décence</l>
+                        <l>Que ſous l'habit &amp; l'aparence</l>
+                        <l>Des plus grands héros que je fais ;</l>
+                        <l>Je le dois par raiſon &amp; par reconnoiſſance.</l>
+                        <l>Mais du <name type="place" n="Bourgogne">Bourgogne</name> exquis, dont j'ai bû largement,</l>
+                        <l>La vapeur agréable</l>
+                        <l>Me ſaiſit en ſortant de table.</l>
+                        <l>Je vais dans ce fauteuil, m'étendre doucement :</l>
+                        <l>Cependant n'as-tu pas quelque conte à me dire ?</l>
+                        <l>Inventes-en quelqu'un, &amp; tu m'obligeras ;</l>
+                        <l>Car tu me feras rire,</l>
+                        <l>Ou tu m'endormiras.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je vais lancer ſur vous quelque trait de ſatyre,</l>
+                        <l>Et cela vous réveillera.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Oh ! Tu perds le reſpect, &amp; je t'arrête-là.</l>
+                        <l>Je ſuis un Dieu que le monde révére ;</l>
+                        <l>On ne m'offre jamais que l'encens le plus doux.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Mais j'ai l'honneur d'être votre confrère ;</l>
+                        <l>Je ſuis Dieu comme vous.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>D'accord ; mais un Dieu miſérable</l>
+                        <l>Ne vaut pas un mortel en fond.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>D'un financier qui ſort de table,</l>
+                        <l>Oh, que voilà bien le jargon !</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Quoi qu'il en ſoit, je hais la médiſance.</l>
+                        <l>Si tu veux être bien reçû,</l>
+                        <l>Tais-toi ſur mon impertinence,</l>
+                        <l>Et parles-moi de ma vertu.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>C'eſt m'ordonner de garder le ſilence,</l>
+                        <l>Ou de mentir ſur un ſujet connu.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Eh ! Ments plûtôt, pour te rendre agréable.</l>
+                        <pb n="92"/>
+                        <l>Il eſt doux de ſe voir flatté.</l>
+                        <l>J'aime mieux un menſonge aimable,</l>
+                        <l>Qu'une choquante vérité.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Faiſons donc votre éloge, ou faux, ou véritable :</l>
+                        <l>Vous compter tous les Rois au rang de vos ſujets,</l>
+                        <l>Et l'Univers eſt votre empire ;</l>
+                        <l>Au gré de vos deſirs vous ſçavez le conduire :</l>
+                        <l>Vous déclarez la guerre, &amp; vous donner la paix.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>C'eſt parler comme je deſire;</l>
+                        <l part="I">On nepeut mieux louer.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">M'en ſoyez pas plus vain ;</l>
+                        <l>Car mon encens critique</l>
+                        <l>Fait moins votre panégirique,</l>
+                        <l>Que le procès du genre-humain.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Eh ! Qu'importe, pourvû qu'il vante ma puiſſance ?</l>
+                        <l>Elle eſt au plus haut point ; on n'écoute que moi.</l>
+                        <l>Et tout, juſqu'au beau ſexe, eſt ſoumis à ma loi.</l>
+                        <l>L'Honneur, ce fier rival qu'on vit jadis en <name type="place" n="France">France</name></l>
+                        <l>Arrêter mes efforts &amp; m'impoſer des fers,</l>
+                        <l>N'eſt qu'un fantôme vain, détruit par l'opulence,</l>
+                        <l>Et méconnu de l'Univers.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Il n'eſt pas encore t<unclear>e</unclear>ms de chanter la Victoire;</l>
+                        <l>L'Honneur ſuivi de la Vertu,</l>
+                        <l>Travaille à rétablit ſa gloire :</l>
+                        <l>en arrivant, moi-même je l'ai vû</l>
+                        <l>Qui raſſembloit ſes troupes diſperſées:</l>
+                        <l>Quoiqu'il ait fort peu de ſujets,</l>
+                        <l>Craignez ſes forces ramaſſées;</l>
+                        <l>Il portera le feu juſques dans ce Palais.</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Je brave un effort inutile.</l>
+                        <l>Eh ! Contre l'Intérêt, que peut le foible Honneur !</l>
+                        <l>Il compte en vain ſur ſa valeur</l>
+                        <pb n="93"/>
+                        <l>Tout m'obéit en cette ville ;</l>
+                        <l>Je cours mettre ſur pied mes bataillons nombreux:</l>
+                        <l>Il ne lui reſte plus que quelques malheureux</l>
+                        <l>Qui reſpectent ſon ombre:</l>
+                        <l>Qu'il vienne, il va ſe voir accabler ſous le nombre.</l>
+                        <l>Toi, cependant, ici, tu n'as qu'à recevoir</l>
+                        <l>Les mortels qui viendront révérer mon pouvoir,</l>
+                        <l>Et me demander quelque grace :</l>
+                        <l>Sers-moi de ſubſtitut, &amp; remplis bien ma place.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="3">
+                    <head>SCENE III.</head><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                        <l><c type="lettrine">S</c>'il fait marcher tous ſes ſoldats</l>
+                        <l>En de telles allarmes,</l>
+                        <l>Que de robes &amp; de rabats</l>
+                        <l>Nous verrons ſous les armes !</l>
+                        <l>Mais quel objet s'avance ? Ah, le joli tendron !</l>
+                        <l>Interrogeons un peu cette aimable perſonne</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="4">
+                    <head>SCENE IV.</head><lb/>
+                    <stage>MERCURE, FANCHON.</stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">B</c>Onjour, ma petite mignonne ;</l>
+                        <l>Peut-on ſçavoir, s'il vous plaît, votre nom ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l><name type="person" n="Fanchon">Fanchon</name> eſt le nom qu'on me donne.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Et votre état ?</l>
+                    </sp>
+                    <pb n="94"/>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l part="F">Griſette qui n'a rien,</l>
+                        <l>Dont le talent fait tout le bien ;</l>
+                        <l>En un ot, une brune</l>
+                        <l>Qui veut faire fortune.</l>
+                        <l>Je crois que vous m'entendez bien</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>En pareille conjoncture ?</l>
+                        <l>Vous ne pouviez, ſur ma foi,</l>
+                        <l>Vous adreſſer mieux qu'à moi.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l part="I">Qui donc êtes-vous ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F"><name type="person" n="Mercure">Mercure</name>.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Vous vous trompez, Seigneur;</l>
+                        <l>Je veux faire fortune en tout bien, tout honneur :</l>
+                        <l>J'ai de l'ambition, mais j'y joins la ſageſſe ;</l>
+                        <l>J'aſpire au plus haut rang qu'on puiſſe ſouhaiter:</l>
+                        <l>Souvent on le peut acheter</l>
+                        <l>Par quelques momens de foibleſſe,</l>
+                        <l>Mais, par le talent ſeul, je veux le mériter.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Eh ! Quel eſt donc ce rang, où vous voulez monter ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Puiſqu'il faut expliquer le deſir qui me preſſe,</l>
+                        <l>Je brûle d'être Princeſſe.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">De théâtre, ſans doute ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l part="F">Oui. Voilà juſtement</l>
+                        <l>L'objet de mon empreſſement.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>La belle, en ce cas-là, votre grandeur rapide</l>
+                        <l>Sera l'ouvrage d'un moment.</l>
+                        <l>Dans peu vous allez être <name type="person" n="Iphigénie">Iphigénie</name>, <name type="person" n="Armide">Armide</name></l>
+                        <l><name type="person" n="Cléopâtre">Cléopatre</name>, <name type="person" n="Chimène">Chiméne</name>, <name type="person" n="Hermione">Hermione</name>, <name type="person" n="Atalide">Atalide</name></l>
+                        <l>Et, ſous cent noms divers,</l>
+                        <pb n="95"/>
+                        <l>Remplir, tour-à-tour, fut le ſcène</l>
+                        <l>Tous les Trônes de l'Univers :</l>
+                        <l>Bourgeoiſe le matin, &amp; le ſoir Souveraine.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Pourvu que je ſois Reine</l>
+                        <l>Deux heures ſeulement,</l>
+                        <l>Trois ou quatre fois la ſemaine,</l>
+                        <l>Il ne manquera rien à mon contentement.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Eſt-ce pour l'Opéra que panche la balance ?</l>
+                        <l>Où les Acteurs François ont ils la préférence ?</l>
+                        <l>Quel Théâtre verra briller votre talent ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je veux e déclarer pour le plus opulent.</l>
+                        <l>Comme l'Intérêt nous éclaire,</l>
+                        <l>Je viens lui parler ſur cela</l>
+                        <l>C'eſt un Conſeiller néceſſaire</l>
+                        <l>Dont la lumiére m'inſtruira.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je le double; &amp;, dans cette affaire,</l>
+                        <l><name type="person" n="Mercure">Mercure</name> ſeul vous conduira,</l>
+                        <l>Comme introducteur ordinaire</l>
+                        <l>Des Princeſſes de l'Opéra :</l>
+                        <l>Il l'eſt également de toutes les Infantes</l>
+                        <l>Dont le Théâtre ſeul ne borne pas le gain ;</l>
+                        <l>Ainſi, vous ne ſçauriez être en meilleur main:</l>
+                        <l>La choſe eſt des plus importantes,</l>
+                        <l>Peſons-la mûrement. A tout prendre, je crois</l>
+                        <l>Qu'à la troupe françoiſe il faut donner le choix ;</l>
+                        <l>En voici les raiſons preſſantes :</l>
+                        <l>Le Trône des Reines chantantes</l>
+                        <l>Ne fut jamais rempli ſi dignement</l>
+                        <l>Qu'il l'eſt préſentement.</l>
+                        <l>Qui peut le diſputer à des voix ſi charmantes ?</l>
+                        <l>Mais, ſur le Théâtre françois,</l>
+                        <l>Les places ſont vacantes,</l>
+                        <l>Et les grands rôles n'y ſont faits,</l>
+                        <l>Que par les confidentes :</l>
+                        <pb n="96"/>
+                        <l>Le ſérieux, autrefois ſi ſuivi</l>
+                        <l>Eſt-à-peu-près joué comme on le joue ici.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je céde à des raiſons qui ſont ſi convaincantes;</l>
+                        <l>Mon cœur pour les François panche préſente<unclear>ent</unclear>.</l>
+                        <l>Je veux, qu'en paroiſſant,</l>
+                        <l>Le parterre m'adore, &amp; la troupe me craigne.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Profitez donc de l'interrégne ;</l>
+                        <l>Saiſiſſez cet heureux inſtant,</l>
+                        <l>Et donnez une Reine au public qui l'attend.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Si votre ſecours favorable</l>
+                        <l>Secondoit mon effort;</l>
+                        <l>Si j'obtenois un bien ſi déſirable ,</l>
+                        <l>Je ne changerois pas mes jours contre le ſort</l>
+                        <l>D'une Princeſſe véritable.</l>
+                        <l>D'une Actrice qui plaît</l>
+                        <l>Je ſens tout l'avantage ;</l>
+                        <l>Je crois déja goûter ce bonheur tel qu'il eſt,</l>
+                        <l>Et mon eſprit s'en fait une flatteuſe image.</l>
+                        <l>Les honneurs, les plaiſirs volent à mon paſſage;</l>
+                        <l>Les honneurs, les plaiſirs volent à mon paſſage;</l>
+                        <l>Le vieillard enchanté me comble de préſens,</l>
+                        <l>Et ne peut trop payer les pleurs que je répens,</l>
+                        <l>Tandis que l'aimable jeuneſſe</l>
+                        <l>Exalte par tout mes talens.</l>
+                        <l>Dans cette favorable yvreſſe,</l>
+                        <l>Je me vois dans les Cieux, je ſuis une déeſſe</l>
+                        <l>Pour qui, de tous côtés, on fait fumer l'encens.</l>
+                        <l>Au Théâtre ( quelles délices!</l>
+                        <l>Sans ceſſe je reçois des aplaudiſſemens;</l>
+                        <l>Dans les foyers des complimens;</l>
+                        <l>Et, ſans oublier les couliſſes</l>
+                        <l>Où l'on me conte cent douceurs,</l>
+                        <l>Vous êtes, me dit l'un, la Reine des Actrices,</l>
+                        <l>Et vous enlevez tous les cœurs.</l>
+                        <l>Ah ! Vous m'avez percé juſques au fond de l'ame,</l>
+                        <l>Ajoute une autre tou en pleurs.</l>
+                        <pb n="97"/>
+                        <l><name type="person" n="Fanchon">Fanchon</name> , unique objet de mes vives ardeurs ,</l>
+                        <l>Vous m'attendriſſez trop, finiſſez, je me pâme ,</l>
+                        <l>S'écrie un petit-maître en ces inſtans flateurs.</l>
+                        <l>Grands Dieux ! Quand elle ſonge à ce bonheur ex-<lb/>trême ,</l>
+                        <l>Peut s'en faut que <name type="person" n="Fanchon">Fanchon</name> ne ſe pâme elle-même.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Oh ! Dans la paſſion qu'elle entre vivement !</l>
+                        <l>Elle eſt grande Actrice vraiment,</l>
+                        <l>Et j'en augure bien, ſi cela continue.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Ce n'eſt pas tout. Lorſque je ſors delà ;</l>
+                        <l>On ſe diſpute à qui m'aura :</l>
+                        <l>Je ſuis en tout lieux bien reçue ;</l>
+                        <l>Et quand je paſſe dans la rue,</l>
+                        <l>Chacun me montre du doigt ; c'eſt elle, la voilà :</l>
+                        <l>Pour comble de bonheur, je vivrai dans l'hiſtoire :</l>
+                        <l>Après ma mort on me célébrera ;</l>
+                        <l>Mille épitaphes on fera</l>
+                        <l>Pour éterniſer ma mémoire ;</l>
+                        <l>Tout <name type="place" n="Paris">Paris</name> les récitera ,</l>
+                        <l>Enſuite on les imprimera.</l>
+                        <l>Ah, quel plaiſir ! Ah, quelle gloire</l>
+                        <l>Il ſemble que j'y ſuis déja.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Commencés par jouir des plaiſirs de la vie,</l>
+                        <l>Et ne vous preſſez pas</l>
+                        <l>De goûter ceux qu'une folle manie</l>
+                        <l>Peut vous promettre au-delà du trépas.</l>
+                        <l>Mais revenons au point qui guide ici vos pas,</l>
+                        <l>Il faut bien des talens pour ſe voir aplaudie :</l>
+                        <l>C'eſt peu que d'avoir des apas;</l>
+                        <l>Le Théâtre demande une fille accomplie :</l>
+                        <l>Il faut à la figure, il faut à la beauté</l>
+                        <l>Allier la Nobleſſe avec la liberté;</l>
+                        <l>Poſſéder, à la fois, mémoire, intelligence,</l>
+                        <l>Voix, geſte, ſentiment, grace, goût, vérité,</l>
+                        <l>Don des larmes, vivacité,</l>
+                        <pb n="98"/>
+                        <l>L'éloquence des yeux &amp; celle du ſilence.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Il eſt encore un don par moi plus ſouhaité ;</l>
+                        <l>C'eſt ce je ne ſçai quoi qui plaît ſans qu'on y penſe,</l>
+                        <l>Plus puiſſant ſur les cœurs que toute la ſcience :</l>
+                        <l>Ajoutez-y la qualité</l>
+                        <l>Dont j'ai le plus beſoin en cette extrêmité.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Quelle qualité donc ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l part="F">C'eſt cette confiance</l>
+                        <l>Qui ſçait faire valoir la médiocrité,</l>
+                        <l>Et ſans qui le talent meurt dans l'obſcurité.</l>
+                        <l>Il faut, dans une Actrice, une noble aſſurance.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Et, dans les ſpectateurs, il faut de l'indulgence.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>C'eſt ce qui me ſoutient dans mon noble projet.</l>
+                        <l>Je n'ai pas tous les dons peut-être qu'il faudroit,</l>
+                        <l>Mais, pour les remplacer, je ſuis aſſez hardie,</l>
+                        <l>Sous le maſque trompeur d'une humble modeſtie.</l>
+                        <l>Pour peu que vous m'aidiez, vous &amp; mes Partiſans,</l>
+                        <l>Allez, je ſçaurai faire honneur à mes talens.</l>
+                        <l>Un mérite commun que fuit la hardieſſe ,</l>
+                        <l>Que ſoutient le manége, &amp; qu'exalte l'adreſſe ,</l>
+                        <l>Brille avec plus d'éclat qu'un mérite accompli</l>
+                        <l>Qui craint de ſe produire, &amp; qui n'a point d'ami.</l>
+                        <l>Mais, à propos d'ami, dans cette circonſtance,</l>
+                        <l>Comme par le beſoin je me ſens arrêter,</l>
+                        <l>Il m'en faut un qui m'aide à débuter,</l>
+                        <l>Et qui, par conſéquent, nâge dans l'opulence.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Oh ! Sans aller plus loin, voici votre Héros ;</l>
+                        <l>C'eſt un fameux caiſſier qui vient fort à propos ; </l>
+                        <l>Il ne ſçait rien, &amp; de tout ſe pique :</l>
+                        <l>C'eſt un original ſi grand,</l>
+                        <l>Et ſi fou de la Muſique,</l>
+                        <l>Que ſouvent il parle en chantant</l>
+                        <pb n="99"/>
+                        <l>Sur le ton des Héros de l'Opéra comique.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je ſçaurai lui répondre, &amp; ſur le même ton :</l>
+                        <l>C'eſt mon premier métier, &amp; j'entens ce jargon.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>MERCURE, FANCHON, Mr. JACQUIN.</stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">E</c>St-ce Monſieur <name type="person" n="Jacquin">Jacquin</name> qui paroît à ma vûe ?</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>C'eſt lui-même, Seigneur, c'eſt lui qui vous ſalue.</l>
+                        <l>Je viens remercier</l>
+                        <l>L'Intérét qui ma fait Caiſſier.</l>
+                        <lb/><sound>AIR. <hi rend="italic">Ah ! Qu'il fait bon-là !</hi></sound><lb/>
+                        <l>Qu'avoir une caiſſe</l>
+                        <l>Eſt un bon métier !</l>
+                        <l>Ah ! J'ai de l'eſpéce</l>
+                        <l>Tant à manier,</l>
+                        <l>Que je ne ſçai plus qu'en faire ;</l>
+                        <l>Laire</l>
+                        <l>Lon lan la,</l>
+                        <l>Que je ne ſçai plus qu'en faire.</l>
+                        <l>Ah ! qu'il fait bon-là !</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">parodiant le refrein, &amp; <lb/> montrant <name type="person" n="Fanchon">Fanchon</name>.</hi></stage><lb/>
+                        <l>Voici pour vous en défaire,</l>
+                        <l>Laire</l>
+                        <l>Lon lan la,</l>
+                        <l>Voici pour vous en défaire.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Ah ! Qu'il fait bon-là !</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Tuton...</hi></sound>
+                        <l>Ah ! Bon jour, brunette aux yeux doux ;</l>
+                        <pb n="100"/>
+                        <l>Dès ce moment le voulez-vous</l>
+                        <l>Que je vous entretienne ?</l>
+                        <l>Tu tu,</l>
+                        <l>Quel œil bien fendu !</l>
+                        <l>Ton, ton,</l>
+                        <l>L'aimable bouchon !</l>
+                        <l>Jamais un tendron</l>
+                        <l>Ne parut ſi mignon !</l>
+                        <l>Le joli chignon !</l>
+                        <l>Tutaine,</l>
+                        <l>Tuton,</l>
+                        <l>Tutaine.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Ah ! Qu'il y va gaiment !</hi></sound><lb/>
+                        <l>C'eſt débuter fort joliment.</l>
+                        <l>Ah ! Qu'il y va gaiment !</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Moſieur vous croit déja vraiment</l>
+                        <l>Une Reine de couliſſe.</l>
+                        <l>Ah!Qu'il y va , belle Actrice,</l>
+                        <l>Ah ! Qu'il va gaiment !</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Qu'un mari ſoit pulmonique.</hi></sound><lb/>
+                        <l>Vous aurez bon équipage</l>
+                        <l>En femme de haut étage ;</l>
+                        <l>Des bijoux, de l'or, en voila ,</l>
+                        <l>Tira lire, lire liron fa,</l>
+                        <l>Tira li, la ri ra liron fa,</l>
+                        <l>J'en ai ma poche pleine</l>
+                        <l>Tout le long de la ſemaine :</l>
+                        <l>On vous en donnera,</l>
+                        <l>Tira li, la liron fa,</l>
+                        <l>Tira li, la liron fa.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">chante.</hi></stage><lb/>
+                        <l>Allés, mignons de ruelles,</l>
+                        <l>Rengainés votre jargon.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(Il déclame.)</hi></stage><lb/>
+                        <l>Mais je parle l'argot du Théâtre lyrique ;</l>
+                        <pb n="101"/>
+                        <l>C'eſt un mal qui ſe communique :</l>
+                        <l>Pour quelques momens prêtons-nous</l>
+                        <l>A cette eſpéce de manie.</l>
+                        <l>Pour ne pas rompre l'harmonie,</l>
+                        <l>Le ſage doit parler le langage des fous.</l>
+                        <stage type="delivery"><hi rend="italic">[Il reprend le chant.]</hi></stage><lb/>
+                        <l>Allés, mignons de ruelles ,</l>
+                        <l>Rengainés votre jargon.</l>
+                        <l>Pour vaincre les plus cruelles ;</l>
+                        <l>Voilà le ſublime ton;</l>
+                        <l>C'eſt ainſi qu'on prend les blles :</l>
+                        <l>Lon lan la,</l>
+                        <l>O gué lon la.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage type="delivery"><hi rend="italic">déclame.</hi></stage><lb/>
+                        <l>Vous ſuivez trop, Seigneur, l'ardeur qui vous agite,</l>
+                        <l>Telle que je parois, je penſe noblement ;</l>
+                        <l>Je veux un Protecteur, &amp; non pas un Amant.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Ah ! La petite hypocrite !</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Bon ! Vous diſputez ſur les noms ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Mademoiſelle a ſes raiſons :</l>
+                        <l>Sur le point d'orner la ſcène</l>
+                        <l>Dans le <name type="place" n="faubourg Saint Germain">Fauxbourg ſaint Germain</name>.</l>
+                        <l>Elle doit parler en Reine,</l>
+                        <l>Et, juſqu'au moindre terme, annoblit tout enfin ;</l>
+                        <l>La preſence d'un tiers gêne d'ailleurs ſon ame ;</l>
+                        <l>Je vais vous laiſſez ſeul expliquer votre flamme.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
+                    </sp>
+                </div2>
+                <pb n="102"/>
+                <div2 type="scene" n="6">
+                    <head>SCENE VI.</head><lb/>
+                    <stage>Mr. JACQUIN, FANCHON.</stage><lb/>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Je ne ſçaurois.</hi></sound>
+                        <l><c type="lettrine">S</c>'il faut jouer une Piéce,</l>
+                        <l>Ne la jouons qu'à huit clos:</l>
+                        <l>La, vous ſerez ma Princeſſe ,</l>
+                        <l>Je ſerai votre Héros.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je ne ſçaurois.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Ne ſoyés que ma maîtreſſe.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>J'en mourrois.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(Elle continue.)</hi></stage><lb/>
+                        <sound>AIR.</sound><lb/>
+                        <l>Je prétens de mon jeu faire admirer ſans ceſſe</l>
+                        <l>La beauté,</l>
+                        <l>Et, joignant aux talens une exacte ſageſſe...</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>La rareté !</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Exciter doublement, unique en mon eſpéce ;</l>
+                        <l>La curioſite.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(Elle déclame.)</hi></stage><lb/>
+                        <l>Oui,<name type="person" n="Fanchon">Fanchon</name>  au public veut plaire uniquement.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Dans nos Bois il y a un Hermite.</hi></sound>
+                        <l>Rien qu'à lui ſeul ! Ah ! le pénible ouvrage,</l>
+                        <l>Avec tant d'agrément !</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>On peut, Monſieur, attirer ſon ſuffrage,</l>
+                        <l>Et vivre ſagement.</l>
+                    </sp>
+                    <pb n="103"/>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Pour une Actrice, ah ! le ſot perſonnage !</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je veux être ſage,</l>
+                        <l>Moi,</l>
+                        <l>Je veux être ſage.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR.</sound>
+                        <l>Vous prendez au moins des bijoux ?</l>
+                        <l>Dites, la belle, le voulez-vous ?</l>
+                        <l>Je vous le demande à genoux.</l>
+                        <l>Que je vous enrichiſſe ;</l>
+                        <l>Dites, la belle, le voulez-vous</l>
+                        <l>Que je vous faſſe Actrice ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage><hi rend="italic">déclamant.</hi></stage><lb/>
+                        <l>Vous pouvez, en Héros qui ſoulage mes peines ;</l>
+                        <l>Mer verſer vos faveurs ſans attendre des miennes.</l>
+                        <l>Et je les recevrai, mais d'un cœur, <stage><hi rend="italic">(vivement.)</hi></stage> mais d'un front </l>
+                        <l>Qui vous feront juger... <stage><hi rend="italic">(froidement.)</hi></stage> de mon reſpect profond. </l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Qu'elle déclame bien ! Que de feu ! Que de grace !</l>
+                        <l>Accordés-moi, ma Reine, encore une autre grace !</l>
+                        <l>Préférés l'Opéra ; j'idolâtre le chant,</l>
+                        <l>Même ſans m'y connoître.</l>
+                        <l>Le Théâtre François eſt d'ailleurs indigent.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>En ce cas vous êtes le maître.</l>
+                        <l>Car j'ai l'un &amp; l'autre talent.</l>
+                        <l>Me voilà prête à chanter ſur le champ.</l>
+                        <lb/><sound>AIR parodié. <hi rend="italic">Carnaval &amp; la Folie.</hi></sound><lb/>
+                        <l>Qu'en ces lieux chacun chante,</l>
+                        <l>Que l'éco chante avec nous.</l>
+                        <l><name type="person" n="Fanchon">Fanchon</name> plaît, ſa voix enchante,</l>
+                        <l>Il n'eſt point de ſon plus doux.</l>
+                        <l>Fiers Héros de Comédie ,</l>
+                        <l>Voyez-la d'un œil jaloux ;</l>
+                        <pb n="104"/>
+                        <l>Elle eſt, malgré l'harmonie,</l>    
+                        <l>Plus Actrice que vous tous.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Ah ! Mon ame eſt ravie.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR <hi rend="italic"><name type="person" n="Bacchus">Baccus</name>, laiſſés-moi ſoupirer <lb/> Du Carnaval &amp; la Folie.</hi></sound><lb/>
+                        <l>Pour vous, que je vais ſoupirer !</l>
+                        <l>A vous , que je vais boire !</l>
+                        <l>Vos talens forceront tous les yeux à pleurer,</l>
+                        <l>Ils ſont trop ſurs d'emporter la victoire ;</l>
+                        <l>Je cours dans tout <name type="place" n="Paris">Paris</name> , je cours les célébrer :</l>
+                        <l>Pour hâter nos plaiſirs, je vais hâter leur gloire.</l>
+                        <l>Pour vous, que je vais ſoupirer</l>
+                        <l>A vous, que je vais boire !</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(Il déclame.)</hi></stage><lb/>
+                        <l>Mais venés avec moi vous-même vous montrer ;</l>
+                        <l>Un mot de votre bouche aura plus de puiſſance :</l>
+                        <l>Un ſeul regard de vos yeux ſéduiſans,</l>
+                        <l>Vous feront plus de Partiſans,</l>
+                        <l>Que ne fera mon éloquence.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Eh ! Puis-je me montrer en cet état, eigneur,</l>
+                        <l>Sans ornement &amp; sans parure,</l>
+                        <l>Sans un ſeul Diamant qui brille en ma coëffure ?</l>
+                        <l><name type="person" n="Fanchon">Fanchon</name> vous feroit dèshonneur.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Venés, Princeſſe fortunée ;</l>
+                        <l>Des Plus riches brillans vous allez être ornée ,</l>
+                        <l>Pour premier gage &amp; pour garant certain</l>
+                        <l>De mes ardeurs parfaites.</l>
+                        <l>Prenez ce Diamant, qu'il pare votre main.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Eſt-ce un preſent que vous me faites ;</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Prenés toujours, prenés ſans plus tarder,</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Qu'il ne s'aviſe pas de le redemander.</l>
+                        <pb n="105"/>
+                        <stage type="delivery"><hi rend="italic">[elle chante.]</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italic">Mariez, mariez-moi.</hi> </sound>
+                        <l>Menez <name type="person" n="Fanchon">Fanchon</name> maintenant</l>
+                        <l>Chez tous les gens d'importance,</l>
+                        <l>Pour leur faire un compliment,</l>
+                        <l>Et briguer leur indulgence ;</l>
+                        <l>Promenez, promenez, promenez-la ;</l>
+                        <l>Faites bien de la dépenſe ;</l>
+                        <l>Promenez, promenez, promenez-la,</l>
+                        <l>Et chacun l'aplaudira.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Promenons, promenons-la,</l>
+                        <l>Et chacun l'aplaudira.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="7">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>MERCURE, Mr. JACQUIN, FANCHON.</stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">J</c>E vois à l'air dont vous quittez ces lieux,</l>
+                        <l>Que vous êtes d'accord tous deux.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Le Tambourineur.</hi></sound>
+                        <l>Malgré des juſtes allarmes ,</l>
+                        <l>Mon cœur lui rend les armes :</l>
+                        <l>Je vais aſſembler l'eſcadron,</l>
+                        <l>Et pretin tin pretan tambouriner ſes charmes,</l>
+                        <l>Et pretin tin pretan tan</l>
+                        <l>Rite rita plan,</l>
+                        <l>Pretan tambourinen ſon nom.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Il étoit trois fille.</hi></sound>
+                        <l>A la Debutante</l>
+                        <l>Il faut du ſoutien ;</l>
+                        <l>D'une brigue ardente</l>
+                        <l>L'aide fait du bien :</l>
+                        <pb n="106"/>
+                        <l>Qu'on me la claque, claque,</l>
+                        <l>Qu'on me la claque bien.</l>
+                        <stage type="exit"><hi rend="italic">(M. <name type="person" n="Jacquin">Jacquin</name> &amp; <name type="person" n="Fanchon">Fanchon</name> ſortent.)</hi></stage>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="8">
+                    <head>SCENE VIII.</head><lb/>
+                    <stage>MERCURE, Mr. DAVID <hi rend="italic">entrant d'un <lb/> air effrayé, une caſſette à la main.</hi></stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">Q</c>Ui vous fait dnc courir ſi vîte ?</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>C'eſt le preſſant danger</l>
+                        <l>Où l'intérêt m'a ſçû plonger ;</l>
+                        <l>Et je viens dans le fond du palais qu'il habite,</l>
+                        <l>Le prier de me protéger.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Quel mortel êtes-vous ?</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l part="F">Un habitant du monde ;</l>
+                        <l>Dont le nom eſt connu ſur la terre &amp; ſur l'onde ;</l>
+                        <l>Commerçant de profeſſion,</l>
+                        <l>Et Juif de nation.</l>
+                        <l>Par une triſte circonſtance,</l>
+                        <l>Je me vois riche &amp; pauvre en même-tems ?</l>
+                        <l>Riche de ſix cens mille francs.</l>
+                        <l>Que dans ce coffre-là je tiens en ma puiſſance,</l>
+                        <l>Et pauvre de trois millions</l>
+                        <l>Que je n'ai pû payer à l'échéance,</l>
+                        <l>Et qui font qu'aujourd'hui je crains les eſpions.</l>
+                        <l>D'effroi dans ce moment, je ſens mon ame atteinte.</l>
+                        <l part="I">Ah ! Monſieur en vous j'aperçoi...</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="M">Quoi ?</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l part="F">Puis-je en bonne foi...</l>
+                    </sp>
+                    <pb n="107"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Quoi ? Parlez. Quoi?</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l part="F">Vous avouer ma crainte ?</l>
+                        <l part="I">Dites-moi...</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Quoi ? Morbleu ! Quoi, donc? Expliques-toi.</l>
+                        <l>Pour la troiſiéme fois, quoi, quoi ?</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Excuſez ma frayeur, &amp; parlez-moi ſans feinte ;</l>
+                        <l>Dites-moi quel eſt votre emploi ?</l>
+                        <l>Vous m'obſervez. Je voi...</l>
+                        <l>Ah ! Porteur de contrainte</l>
+                        <l part="I">Vous êtes, je croi ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Moi !</l>
+                        <l>tu me fais trop d'honneur ; je ris de ta penſée.</l>
+                        <l>Pour un bâton d'exempt</l>
+                        <l>Prens-tu min caducée ?</l>
+                        <l>La peur te trouble en ce moment :</l>
+                        <l>D'un alguafil ai-je bien la figure ?</l>
+                        <l>Ouvres les yeux, je ſuis <name type="person" n="Mercure">Mercure</name> ;</l>
+                        <l>Va, ceſſes d'avoir le friſſon ;</l>
+                        <l>Que mon nom te raſſures :</l>
+                        <l>Je protége tout fripon,</l>
+                        <l>Ainſi je ſuis ton patron.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Pardon je change de langage,</l>
+                        <l>Et ce dernier diſcours rapelle mon courage.</l>
+                        <l>Généreux protecteur de tous les intriguans,</l>
+                        <l>Dieu fertile en expédiens,</l>
+                        <l>Dans mon preſſant malheur ; que votre eſprit m'éclaire ;</l>
+                        <l>Pour fruſtrer mes créanciers</l>
+                        <l>Des trois quarts de leurs deniers ,</l>
+                        <l>Dites-moi comment faire ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Attendez, <name type="person" n="Mercure">Mercure</name> connoît</l>
+                        <l>Une Dame dont l'art peut vous tirer d'affaire ;</l>
+                        <pb n="108"/>
+                        <l>Banqueroute eſt ſon nom, &amp; c'eſt chez l'Intérêt</l>
+                        <l>Que la Donzelle fait ſon ſéjour ordinaire.</l>
+                        <l>je vais vous preſenter. La voici qui paroît.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Ah ! Dans ſon négligé, que je la trouve belle !</l>
+                        <l>Elle a certain attrait qui m'attire vers elle.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Vous êtes faits pour vous aimer tous deux.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="9">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>MERCURE, Mr. DAVID. <lb/> LA BANQUEROUTE.</stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">D</c>E tout commerce fraudleux</l>
+                        <l>Puiſſante Protectrice,</l>
+                        <l>Prête<unclear>z</unclear> votre ſecours propice</l>
+                        <l>A ce Juif malheureux,</l>
+                        <l>Que pourſuit la fureur des créanciers nombreux.</l>
+                    </sp>
+                    <sp who="La Banqueroute">
+                        <speaker>LA BANQUEROUTE.</speaker><lb/>
+                        <l>Je le prens ſous ma ſauve-garde ;</l>
+                        <l>Entre mes favoris fameux</l>
+                        <l>J'ai toujours compté les Hébreux;</l>
+                        <l>Avec diſtinction toujours je les regarde.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(à Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
+                        <l>Raſſures-toi. Mon nom fait la terreur</l>
+                        <l>Du créancier que j'accable ;</l>
+                        <l>Ma main prompte &amp; ſecourable,</l>
+                        <l>Enrichit le débiteur :</l>
+                        <l>On ne ſçait jamais la route</l>
+                        <l>Que je prens pour le cacher,</l>
+                        <l>Et je forme une redoute</l>
+                        <l>Dont on ne peut aprocher.</l>
+                        <l>En ma perſonne, enfin, tu vois la Banqueroute ;</l>
+                        <l>Inviſible en partant &amp; brillante au retour,</l>
+                        <pb n="109"/>
+                        <l>Le fléan du commerce &amp; l'apui tour-à-tour.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Madame, vous avez tellement l'art de plaire,</l>
+                        <l>Et vos attraits ſont ſi piquans,</l>
+                        <l>Qu'à faire banqueroute ils invitent les gens :</l>
+                        <l>Je la ferois encore, ſi j'avois à la faire,</l>
+                        <l>En dépit des archers, en dépit des exempts.</l>
+                        <l>Qui pourroient me pourſuivre ;</l>
+                        <l>Et ce ſeroit uniquement</l>
+                        <l>Pour avoir, en diſparoiſſant,</l>
+                        <l>Le plaiſir de vous ſuivre.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>je n'aurois jamais cru qu'un Juif fût ſi galant.</l>
+                    </sp>
+                    <sp who="La Banqueroute">
+                        <speaker>LA BANQUEROUTE.</speaker><lb/>
+                        <l>Seigneur, il n'eſt pas ſurprenant</l>
+                        <l>Qu'il trouve ma perſonne aimable ;</l>
+                        <l>L'Intérêt, à ſes feux, doit me rendre agréable;</l>
+                        <l>Pour ſes pareils c'eſt un fard excellent ;</l>
+                        <l>Dès qu'on leur eſt utile, on leur plaît ſûrement.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Non, vous me plaiſez par vous-même.</l>
+                        <l>Pour vous prouver à quel point je vous aime,</l>
+                        <l>Avec mon cœur, voilà tout mon argent.</l>
+                    </sp>
+                    <sp who="La Banqueroute">
+                        <speaker>LA BANQUEROUTE.</speaker><lb/>
+                        <l>Va, tu ne riſques rien en me le remettant.</l>
+                        <l>Je ne ſuis pas de ces femmes traîtreſſes,</l>
+                        <l>Qui mettent tous leurs ſoins &amp; toutes leurs adreſſes</l>
+                        <l>A ruiner les gens qu'elles ont enchaînés ;</l>
+                        <l>Au contraire, je mets mon art &amp; mes fineſſes</l>
+                        <l>A rétablir le ſort des mortels ruinés.</l>
+                        <l>Loin de les diſſiper, j'augmente leurs richeſſes :</l>
+                        <l>Je ſuis bonne à l'uſer. Plus tu me connoîtras,</l>
+                        <l>Plus je te paroîtrai digne de tes tendreſſes ;</l>
+                        <l>Et, trop charmé d'avoir ſuivi mes pas,</l>
+                        <l>Plus d'une fois à moi tu reviendras.</l>
+                        <l>Pour entrer riche au port, il te faut trois naufrages ;</l>
+                        <l>Le premier te remettra,</l>
+                        <l>Le ſecond t'engraiſſera;</l>
+                        <pb n="110"/>
+                        <l>Le dernier, te mettant au deſſus des orages,</l>
+                        <l>A jamais t'enrichira.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>A vous, aveuglément, votre eſclave ſe livre,</l>
+                        <l>Et juſqu'au bout du monde, il eſt prêt à vous ſuivre.</l>
+                    </sp>
+                    <sp who="La Banqueroute">
+                        <speaker>LA BANQUEROUTE.</speaker><lb/>
+                        <l>Partons vite, le tems nous eſt cher aujourd'hui ;</l>
+                        <l>Pour triompher, la fuite eſt néceſſaire :</l>
+                        <l>Il faut qu'un Contrat ſalutaire</l>
+                        <l>T'aſſure les deniers d'autrui :</l>
+                        <l>C'eſt-là le dernier trait de notre ſçavoir faire ;</l>
+                        <l>C'eſt mon chef-d'œuvre, enfin.</l>
+                        <l>Comme l'aſtre éclatant qui brille ſur la terre,</l>
+                        <l>Tu vas, après l'orage &amp; le tonnerre,</l>
+                        <l>Reparoître ici plus ſerein.</l>
+                    </sp>
+                    <sp who="Monsieur David">
+                        <speaker>Mr. DAVID.</speaker><lb/>
+                        <l>Après une telle aſſurance,</l>
+                        <l>Et muni largement de ce richer métal,</l>
+                        <l>Je vais partir plein d'eſpérance.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Dieu vous garde de mal.</l>
+                    </sp>
+                    <sp who="La Banqueroute">
+                        <speaker>LA BANQUEROUTE </speaker>
+                        <stage type="delivery"><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR.</sound>
+                        <l>Suis-moi ſans autre forme ;</l>
+                        <l>Emportons ces deniers.</l>
+                        <l>Attendez-nous ſous l'orme ,</l>
+                        <l>Meſſieurs les créanciers.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Elle ſort avec Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="10">
+                    <head>SCENE X.</head><lb/>
+                    <stage>MERCURE, PHEDRE, HIPOLITE.</stage><lb/>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE </speaker>
+                        <stage type="delivery"><hi rend="italic">d'un ton tragique.</hi></stage><lb/>
+                        <l><c type="lettrine">O</c>ui, Prince, je prétens rompre notre lien.</l>
+                    </sp>
+                    <pb n="111"/>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE.</speaker><lb/>
+                        <l>Non ; pour y conſentir, j'aime trop votre bien:</l>
+                        <l>Je veux que l'Intérêt le confirme lui-même.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>Et je viens implorer ſa puiſſance ſuprême.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE </speaker>
+                        <stage type="business"><hi rend="italic">montrant <name type="person" n="Phèdre">Phédre</name>.</hi></stage><lb/>
+                        <l>Conſervez-moi ma femme &amp; ſon bien précieux.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>Seigneur, délivrez-moi d'un époux odieux.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE.</speaker><lb/>
+                        <l part="I">Elle m'a recherché</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l part="F">Seigneur il m'a ſéduite.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE.</speaker><lb/>
+                        <l part="I">Ecoutez ma défenſe.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l part="F">Aprouvez ma pourſuite.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Parlez l'un après l'aut<sic>t</sic><corr>r</corr>e, ou taiſez-ovus tous deux.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>Rompez mon hymenée, il le faut, je le veux.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Madame, vous parlez dans votre humeur hautaine</l>
+                        <l part="I">D'un ton bien abſolu.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l part="F">je parle en Souveraine,</l>
+                        <l>En Princeſſe outragée, &amp; qui vient aujourd'hui</l>
+                        <l>Contre un indigne Epoux implorer votre apui.</l>
+                        <l>Soyez ſenſible aux pleurs d'une Reine douairiére,</l>
+                        <l>Qui du commandement deſcend à la priére.</l>
+                        <l>Que mes cris éclatans, que ma vive douleur...</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">ſur le même ton.</hi></stage><lb/>
+                        <l>Vous me percez l'oreille en me fendant le cœur.</l>
+                        <l>Finiſſez, grande Reine,</l>
+                        <l>Finiſſez des hoquets qui me font trop de peine;</l>
+                        <l>Dites-moi vos raiſons, &amp; tréve de clameur.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>Puiſque dans mes ſanglots votre pitié m'arrête ;</l>
+                        <pb n="112"/>
+                        <l>Et que les grands éclats vous ébranlent la tête,</l>
+                        <l>Je vais d'un ton plus doux, toucher le point fatal.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Parlez, je vous entens; voici mon tribunal.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>Jadis j'ai fait fleurir l'Empire dramatique.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Votre rgne eſt paſſé, point de panégyrique :</l>
+                        <l part="I">Venez au fait.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l part="F">Hé bien , ce petit Prince ingrat,</l>
+                        <l>Haï des Grands, du Peuple, &amp; rebut de l'Etat,</l>
+                        <l>Vint s'offrir à mes yeux dans ſon fort déplorable,</l>
+                        <l>Et <name type="person" n="Phèdre">Phédre</name> lui tendit une main ſecourable.</l>
+                        <l>Sur les cœurs généreux, que ne peut la pitié !</l>
+                        <l>Je la pouſſai trop loin, je devins ſa moitié.</l>
+                        <l>Que dis-je ? Je le fis maître de ma richeſſe.</l>
+                        <l>Ah  Devois-je compter ſur l'aveugle jeuneſſe ?</l>
+                        <l>Dès que de mes tréſors il ſe vit poſſeſſeur,</l>
+                        <l>De mille objets nouveaux il fut l'adorateur ;</l>
+                        <l>Mon cœur de ſon amour ne reçut plus de preuve,</l>
+                        <l>Et, mon époux vivant, je me vis enfin veuve.</l>
+                        <l>Avare de tendreſſe, il prodigue mon or;</l>
+                        <l>Pour ſe faire haïr, il le diſſipe encor;</l>
+                        <l>Et, brillant dans un char comme dans un nuage,</l>
+                        <l>Il excite les cris du public qu'il outrage :</l>
+                        <l>Il a tant fait enfin, par tous ſes vains éclats.</l>
+                        <l>Qu'il s'eſt vû juſtement bannir de nos états.</l>
+                        <l>Il eſt puni par-là de ſon ingratitude;</l>
+                        <l>Mais il mérite encore un châtiment plus rude.</l>
+                        <l>Seigneur, que l'Intérêt rompe dans ce moment</l>
+                        <l>Un hymen que j'ai fait contre ſon ſentiment !</l>
+                        <l>D'un bien qu'il chérit ſeul, privez ſon avarice :</l>
+                        <l>Oui, ma gloire le veut, comme votre juſtice ;</l>
+                        <l>Je ne puis plus, ſans honte, avouer pour mari</l>
+                        <l>Un Infant malheureux que l'exil a flétri,</l>
+                        <l>Et qui, puiſqu'à me plaindre il a forcé ma bouche,</l>
+                        <l>N'a pas du moindre gage honoré notre couche.</l>
+                    </sp>
+                    <pb n="113"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Qu'<name type="person" n="Hippolyte">Hipolite</name> réponde ainſi que défendeur.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE.</speaker><lb/>
+                        <l>C'eſt ce qu'en peu de mots je vais faire, Seigneur.</l>
+                        <l><name type="person" n="Phèdre">Phédre</name> ſe plaint qu'étant pour elle ſans tendreſſe,</l>
+                        <l>Mon cœur diſſipe ailleurs ſon bien &amp; ma jeuneſſe;</l>
+                        <l>Mais elle doit s'en prendre à ſes transports jaloux.</l>
+                        <l>Que dis-je? A-t-elle crû qu'un héros tel que nous,</l>
+                        <l>Jeune, &amp; dans l'âge ardent où le plaiſir l'apelle,</l>
+                        <l>Paſſeroit triſtement tous ſes jours auprès d'elle ?</l>
+                        <l>Non, pour tant de conſtance, on a trop d'agrémens.</l>
+                        <l>A cent plaiſirs divers je dois tous mes momens;</l>
+                        <l>Le Bal, le jeu, la table,en ont une partie.</l>
+                        <l>Autrefois ma fureur étoit la Comédie ;</l>
+                        <l>De mes heures, toujours, elle avoit ſa moitié.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>C'eſt-là de votre tems le plus mal employé.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLITE.</speaker><lb/>
+                        <l>J'ai vécu, j'en conviens, en héros petit-maître;</l>
+                        <l>Mais, Seigneur, à mon âge eſt-ce un crime de l'être;</l>
+                        <l>On dit que dans un char tous les jours je parois !</l>
+                        <l>Eh ! Pour marcher à pied les Infans ſont-ils faits ?</l>
+                        <l>Sont-ce-là des raiſons pour rompre un hymenée,</l>
+                        <l>L'ouvrage de ſon choix &amp; de plus d'une année ?</l>
+                        <l>Je ſuis, ajoute-t-il, un malheureux banni,</l>
+                        <l>Indigne déſormais d'être avec elle uni.</l>
+                        <l>De quel front, &amp; comment oſes-t-elle le dire,</l>
+                        <l>Elle, dont le fureur m'a ſeule fait proſcrire?</l>
+                        <l>Et de quelque façon que m'ait banni de l'Etat,</l>
+                        <l>Le ſuis-je de ſon lit, pour l'être au Sénat?</l>
+                        <l>Elle s'en prend à moi, Reine sexagénaire,</l>
+                        <l>De la douleur qu'elle a de ne pas être mere.</l>
+                        <l>Des miracles pareils, pour conclure en deux mots,</l>
+                        <l>Sont réſervés aux Dieux, &amp; paſſent le héros.</l>
+                        <l>Puniſſezlà, Seigneur, par un Arrêt ſévére,</l>
+                        <l>Et confirmez un nœud que vous m'avez fait faire.</l>
+                        <lb/><stage type="mixed"><hi rend="italic">(à part, en donnant à <name type="person" n="Mercure">Mercure</name>une bourſe pleine d'or.)</hi></stage>
+                        <l>Voilà pour augmenter la force de mes droits.</l>
+                    </sp>
+                    <pb n="114"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">bas en la prenant.</hi></stage><lb/>
+                        <l>Auprès de l'Intérêt ce moyen a du poids.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                        <l>Malgré la haute ſuffiſance</l>
+                        <l>D'<name type="person" n="Hippolyte">Hipolite</name>, Prince mineur,</l>
+                        <l>Attendu qu'aujourd'hui ſon droit eſt le meilleur,</l>
+                        <l>L'Intérêt, qui pour lui faire pancher la balance,</l>
+                        <l>Déclare l'hymen bon,</l>
+                        <l>Comme étant fait de ſa façon ;</l>
+                        <l>D'avoir un héritier, lui-même le diſpense :</l>
+                        <l>Pour punir <name type="person" n="Phèdre">Phédre</name> en même-tems,</l>
+                        <l>De n'avoir, à ſon âge,</l>
+                        <l>Ecouté que l'amour volage,</l>
+                        <l>Il la condamne à payer les dépens.</l>
+                    </sp>
+                    <sp who="Phèdre">
+                        <speaker>PHEDRE.</speaker><lb/>
+                        <l>O rage ! O déſeſpoir ! O vieilleſſe ennemie !</l>
+                        <l>N'ai-je donc tant vécu que pour cette infamie ;</l>
+                        <l>Pour garder un époux qui rit de mon affront,</l>
+                        <l>Et dont je ne puis plus faire rougir le front ?</l>
+                        <l>Mais, traître, ne crois pas qu'une injuſte ſentence</l>
+                        <l>Arrête un ſeul moment le cours de ma vengeance.</l>
+                        <l>J'irai porter ma plainte au bout de l'Univers;</l>
+                        <l>Je paſſerai les monts, traverſerai les mers ;</l>
+                        <l>Les airs retentiront de mes cris lamentables....</l>
+                        <l>Mais, où vont mégarer mes douleurs pitoyables ?</l>
+                        <l>Ne portons pas ſi loin ma fureur aujourd'hui:</l>
+                        <l>Courons à la chicane, implorons ſon apui ;</l>
+                        <l>Qu'elle ſeconde enfin la rage qui m'anime,</l>
+                        <l>Et m'ôte le fardeau d'un époux légitime.</l>
+                        <l>Va, perfide, il ſera beaucoup plus doux que moi</l>
+                        <l>De mourir en plaidant que de vivre avec toi.</l>
+                    </sp>
+                    <sp who="Hippolyte">
+                        <speaker>HIPOLOTE.</speaker><lb/>
+                        <l>On m'aſſure mon bien, en m'aſſurant ma femme.</l>
+                        <l>Je ne vous quitte point, Princeſſe de mon ame.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Il la ſuit.)</hi></stage>
+                    </sp>
+                </div2>
+                <pb n="115"/>
+                <div2 type="scene" n="11">
+                    <head>SCENE XI.</head><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <l><c type="lettrine">P</c>Our défendre ſes droits,</l>
+                        <l>Elle a recours à la chicane ;</l>
+                        <l>Mais l'Intérêt eſt ſont organe,</l>
+                        <l>Elle perdra deux fois.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="12">
+                    <head>SCENE XII.</head><lb/>
+                    <stage>MERCURE, Mr. VENTREBLEU.</stage><lb/>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l part="I"><c type="lettrine">E</c>Tes-vous l'Intérêt ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Je ſuis ſon ſubſtitut ;</l>
+                        <l>Cela revient au même.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>Je vous dirai donc pour début,</l>
+                        <l>Que je ſuis las de ma miſére extrême.</l>
+                        <l>Ventrebleu, c'eſt mon nom, partiſan de l'Honneur;</l>
+                        <l>J'ai ſuivi ſoixante ans ſon drapeau ſuborneur ;</l>
+                        <l>J'ai luté, pour lui ſeul, contre la voix commune,</l>
+                        <l>A pied comme à cheval, pour défendre ſes droits,</l>
+                        <l>Je e ſuis natu tant de fois,</l>
+                        <l>Qu'avec ce bras j'ai perdu ma fortune;</l>
+                        <l>Tandis que cent coquins dont j'étois la terreur,</l>
+                        <l>On<sic></sic><corr>t</corr> proſpéré par leurs ſoupleſſes,</l>
+                        <l>Et, qu'étant devenus enfans de la faveur,</l>
+                        <l>Ils ſe ſont élevés à force de baſſeſſes.</l>
+                        <l>Sur mon aveuglement affreux,</l>
+                        <pb n="116"/>
+                        <l>Mai raiſon quoique tard, vient porter ſa lumiére.</l>
+                        <l>Je renonce à l'Honneur, il ne fait que des gueux :</l>
+                        <l>L'Intérêt eſt lui ſeul le patron des heureux,</l>
+                        <l>Je me range ſous ſa banniére.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Vous auriez dû vous y ranger plûtôt.</l>
+                        <l>Je ſuis pourtant charmé que vous ſoyez des nôtres :</l>
+                        <l>Mais on rira de voir un financier manchot.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>Corbleu ! Nous pillerons auſſi bien que les autres !</l>
+                        <l>Mettez-moi vîte à même, &amp;, pour gagner du bien,</l>
+                        <l>Vous allez voir ſi j'y vais de main morte.</l>
+                        <lb/><stage type="business"><hi rend="italic">(ſerrant la main de <name type="person" n="Mercure">Mercure</name>.)</hi></stage><lb/>
+                        <l>Je n'ai que celle-là, mais elle eſt aſſez forte;</l>
+                        <l>Ce qu'elle ſçaura prendre, elle le tiendra bien.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Ouf! Vous m'eſtropiez !</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l part="F">Bon ! Vous criez de rien ;</l>
+                        <l>Et, pour un Dieu, vous êtes ſenſible.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Ah ! Monſieur Ventrebleu, vous ſerez ſûrement</l>
+                        <l>un Receveur très-excellent,</l>
+                        <l>Car vous avez une patte terrible.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>A vingt ans c'étoit bien autre choſe vraiment :</l>
+                        <l>Et, ſi on cœur que rien n'a pû corrompre....</l>
+                        <l>Mais, quel eſt ce fâcheux qui vient nous interrom-<lb/>pre ,</l>
+                        <l>Au diable l'importun, avec ſon air diſcret.</l>
+                    </sp>
+                </div2>
+                <pb n="117"/>
+                <div2 type="scene" n="13">
+                    <head>SCENE XIII.</head><lb/>
+                    <stage>MERCURE, Mr. VENTREBLEU, <lb/> Mr. TAPINOIS.</stage><lb/>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l><c type="lettrine">J</c>E voudrois bien, Seigneur, vous parler en ſe <lb/> cret.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à Mr. Ventrebleu.</hi></stage>
+                        <l>Pour un oment, éloignez-vous, de grace.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr VENTREBLEU </speaker>
+                        <stage type="delivery"><hi rend="italic">à Mr. Tapinois.</hi></stage>
+                        <l>Ventrebleu ! Soyez court; je ſuis des plus preſſés.</l>
+                        <l>J'ai ſoixante ans paſſés ,</l>
+                        <l>Et j'attens une place.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="14">
+                    <head>SCENE XIV.</head><lb/>
+                    <stage>MERCURE, Mr. TAPINOIS.</stage><lb/>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l><c type="lettrine">S</c>Eigneur, je tremble qu'en ces lieux</l>
+                        <l>Quelqu'un ne nous écoute.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Ne craignez rien ; quittez cet air myſtérieux.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l part="I">Je puis donc vous ouvrir mon cœur entier?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Sans doute.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>Je viens incognito, Seigneur; &amp;, pour raiſon,</l>
+                        <l>Aux regards curieux je veux cacher ma route.</l>
+                        <l>J'aime à couvrir mon jeu : Tapinois eſt mon nom ;</l>
+                        <l>tout mon deſir eſt de paroître</l>
+                        <pb n="118"/>
+                        <l>Honnête homme en public, ſans me piquer de l'être;</l>
+                        <l>Et quoique je me diſe eſclave de l'Honneur,</l>
+                        <l>De l'Intérêt, au fond, je ſuis très-ſerviteur :</l>
+                        <l>Je vous en convaincrai par ce que je vais dire.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Tous es inſtans ſont chers, hâtez-vous de m'inſtruire.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>Je ſuis premier commis</l>
+                        <l>De <name type="person" n="Timante">Timante</name> , homme en place;</l>
+                        <l>Il a grand nombre d'ennemis,</l>
+                        <l>Il faudra qu'il ſuccobe au coup qui le menace :</l>
+                        <l>Sa consuite paroît juſtifier leurs cris.</l>
+                        <l>Entre nous, il répand beaucoup plus qu'il n'amaſſe;</l>
+                        <l>Son cœur ne ſongeant qu'à jouir,</l>
+                        <l>Néglige l'Intérêt pour ſuivre le plaiſir.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>C'eſt un monſtre dans la finance.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>Je puis vous dire ici, ſans trop de confiance,</l>
+                        <l>Que nul autre que moi ne peut lui ſuccéder ;</l>
+                        <l>J'ai ſeul le clef de toutes ſes affaires,</l>
+                        <l>Je puis ſeul tout raccommoder ;</l>
+                        <l>Et, pour y réuſſir, j'ai de ſûres lumiéres.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Vous aurez, mon ami, ce que vous mérités,</l>
+                        <l>Mais j'ai beſoin de vos clartés;</l>
+                        <l part="I">Je ne ſuis pas au fait</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l part="F">Voici pour vous y mettre ?</l>
+                        <l>Cet écrit précieux que j'oſe vous remettre,</l>
+                        <l>Renferme exactement ce que vous ſouhaitez :</l>
+                        <l>Qu'il ſerve à ma grandeur, mais ſans me compromettre</l>
+                        <l>Que <name type="person" n="Timante">Timante</name> ignore à jamais</l>
+                        <l>Que ſa chûte eſt l'ouvrage</l>
+                        <l>D'un homme qui ſous lui fit ſon aprentiſſage ,</l>
+                        <l>Et qu'on a vû chargé de ſes bienfaits.</l>
+                        <l>Ce ſecret doit reſter dans une nuit profonde ;</l>
+                        <l>S'il parvenoit au jour</l>
+                        <pb n="119"/>
+                        <l>Je ſerois, dans le monde,</l>
+                        <l>Deshonoré ſans retour.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>J'admire, à dire vrai, votre délicateſſe.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>Que voulez-vous? Soit raiſon ou foibleſſe,</l>
+                        <l>Je peux paroître tel que j'ai toujours paru.</l>
+                        <l>L'eſtime des hommes m'eſt chère;</l>
+                        <l>Je les trompe bien ieux en étant bien reçû;</l>
+                        <l>Et le maſque de la vertu,</l>
+                        <l>Pour avoir cette eſtime, eſt toujours néceſſaire :</l>
+                        <l>Je la perdrois bien-tôt, ſi j'en étois connu.</l>
+                        <l>Perletter donc que je vous concilie</l>
+                        <l>Avec le rigoureux Honneur.</l>
+                        <l>Vous êtes ſûr de poſſéder le cœur,</l>
+                        <l>Il n'a que les dehors que je lui ſacrifie :</l>
+                        <l>Souffrez, encore un coup, ce partage aujourd'hui,</l>
+                        <l>Je vous ſervirai mieux en feignant d'être à lui.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Sans nuire à l'Intérêt, je veux punir ce traître,</l>
+                        <l>Et le priver du prix de ſa noirceur.</l>
+                        <l>J'ai l'hipocriſie en horreur :</l>
+                        <l>Lorſque je l'aurai fait connaître</l>
+                        <l>Dans le camp de l'Honneur,</l>
+                        <l>Le fourbe déaſqué n'oſera plus paroître ;</l>
+                        <l>Il ſera forcé d'être</l>
+                        <l>Fripon à découvert,</l>
+                        <l>Et d'avouer pour ſon unique maître,</l>
+                        <l>Ce même intérêt qui le perd :</l>
+                        <l>Et, pour augmenter ſa ſouffrance,</l>
+                        <l>Dans ce même moment,</l>
+                        <l>Je vais, au poſte qu'il attend,</l>
+                        <l>Placer un autre en ſa préſence.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>J'attens le prix de mon aveu.</l>
+                        <l>Et mon impatience eſt grande.</l>
+                        <l>Comptez, en m'exauçant, ſur une double offrance.</l>
+                    </sp>
+                </div2>
+                <pb n="120"/>
+                <div2 type="scene" n="15">
+                    <head>SCENE XV.</head><lb/>
+                    <stage>MERCURE, Mr. TAPINOIS ; <lb/> Mr. VENTREBLEU.</stage><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l><c type="lettrine">H</c>Olà, hé ! Monſieur Ventrebleu,</l>
+                        <l part="I">Aprochez.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l part="M">Me voilà.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Répondez à <name type="person" n="Mercure">Mercure</name>,</l>
+                        <l>Mais ſoyez vrai ; ceci n'eſt pas un jeu.</l>
+                        <l>Vous ſentez-vous l'ame bien dure ?</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>Comme du fer morbleu !</l>
+                        <l>Voulez-vous que j'en faſſe un ſerment effroyable !</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Oui jurez-moi d'avoir un cœur impitoyable,</l>
+                        <l>Et de n'ouvrir jamais la main,</l>
+                        <l>Que pour piller le miſérable.</l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>Je jure, ventrebleu!par mon nom redoutable,</l>
+                        <l>D'avoir un cœur de bronze, avec un bras d'airain ;</l>
+                        <l>Et dans relâche enfin,</l>
+                        <l>De voler comme un diable,</l>
+                        <l>La nuit, le jour, le ſoir &amp; le matin.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Après un tel ſerment, venez que je vous rendre</l>
+                        <l>Heureux à ſes dépens.</l>
+                        <l>Vous poſſédez tous els talens,</l>
+                        <l>Toutes les vertus que demande</l>
+                        <l>L'emploi qu'il vient dôter à ſon patron,</l>
+                        <l>Et qu'il croit mériter par cette trahiſon.</l>
+                    </sp>
+                    <pb n="121"/>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>De mon zèle pour vous, eſt-ce la récompenſe ?</l>
+                        <l>Dieu cruel ! Dieu trompeur !</l>
+                        <l>Vous menlevez le prix qu'attendoit mon labeur,</l>
+                        <l>Pour le donner à l'ignorance.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Va ſors ; tu peux te retirer,</l>
+                        <l>Preſentement que j'ai ſçu pénétrer</l>
+                        <l>Et démaſquer le fond de ton ame traîtreſſe.</l>
+                        <l>De protéger n fripon déclaré,</l>
+                        <l><name type="person" n="Mercure">Mercure</name> a ſouvent la foibleſſe ;</l>
+                        <l>Mais il eſt ennemi juré</l>
+                        <l>De tous maraud de ton eſpéce ;</l>
+                        <l>Qui veut avoir l'habileté</l>
+                        <l>De voiler ſa ſcélérateſſ</l>
+                        <l>Sous l'habit de la probité.</l>
+                    </sp>
+                    <sp who="Monsieur Tapinois">
+                        <speaker>Mr. TAPINOIS.</speaker><lb/>
+                        <l>Ah ! Je cours, de ce pas, me noyer ou me prendre <unclear>:</unclear></l>
+                    </sp>
+                    <sp who="Monsieur Ventrebleu">
+                        <speaker>Mr. VENTREBLEU.</speaker><lb/>
+                        <l>Le voilà bien puni de m'avoir fait attendre.</l>
+                        <l>Serviteur. Je cours vîte exercer mon emploi :</l>
+                        <l>Le tems m'eſt cher, j'en ai peu devant moi</l>
+                        <l>Pour bien mettre à profit cette heureuſe avanture.</l>
+                        <l>Je veux ; tout calculé, je veux tout rabattu,</l>
+                        <l>Qu'un an ou deux de pillage &amp; d'uſure,</l>
+                        <l>Réparent pleinement l'injure</l>
+                        <l>Et le tort que m'ont fait ſoixante ans de vertu.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="16">
+                    <head>SCENE XVI.</head><lb/>
+                    <stage>MERCURE, ARLEQUIN.</stage><lb/>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage type="entrance"><hi rend="italic">entrant d'un air <lb/> effronté.</hi></stage><lb/>
+                        <l><c type="lettrine">C</c>Ette ſalle eſt aſſez jolie ;</l>
+                        <l>Et voilà bien du logement.</l>
+                    </sp>
+                    <pb n="122"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Vous entrez, mon ami, bien familiérement.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Oh ! Je ſuis ſans cérémonie.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Eh ! Qui vous a conduit dans cet apartement ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Le hazard en partie ,</l>
+                        <l>Puis, d'un autre côté,</l>
+                        <l>La curioſité.</l>
+                        <l>Comme je paſſois dans la rue,</l>
+                        <l>Cet Hôtel m'a frappé la vûe ;</l>
+                        <l>J'y ſuis entré ſans autre compliment,</l>
+                        <l>Pour voir ſi le dedans, par ſa magnificence ,</l>
+                        <l>répondoit bien de l'aparence.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Eh ! Qu'en penſe Monſieur ? Quel eſt ſon jugement?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Eh ! Mais j'en ſuis aſſez content.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je fais cas d'un ſuffrage auſſi grand que le vôtre,</l>
+                        <l>Mais quel homme êtes-vous ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Un homme comme un autre.</l>
+                        <l>Je bois, je mange &amp; je dors bien;</l>
+                        <l>Je ris de peu de choſe, &amp; n'ai ſouci de rien.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Sa converſation me paroît ſinguliére,</l>
+                        <l>Et ſes diſcours naïfs commencent à me plaire :</l>
+                        <l>Je veux l'enrôler parmi nous ;</l>
+                        <l>Et, ſur ſes ſentimens, il faut que je le fonde.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                        <l part="I">Votre nom ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="M"><name type="person" n="Arlequin">Arlequin</name>.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Quel métier avez-vous ?</l>
+                    </sp>
+                    <pb n="123"/>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="I">Aucun.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Que faites-vous, dites moi, dans le monde ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="I">Rien.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="M">De quoi vivez-vous ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">De peu.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Il eſt laconique, parbleu.</l>
+                        <l part="I">Vos facultés ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Une petite rente.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Vous nourrit-elle ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F"><name type="person" n="Arlequin">Arlequin</name> s'en contente.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je prétens l'augmenter, &amp; vous rendre opulent.</l>
+                        <l>Aprenés que je ſuis <name type="person" n="Mercure">Mercure</name> :</l>
+                        <l>Je puis vous enrichir, &amp; dans un ſeul moment.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Vous n'en ferés rien, je vous jure ;</l>
+                        <l>Je me trouve fort bien d'être comme je ſuis;</l>
+                        <l>Je fais ce que je veux, je veux ce que je puis :</l>
+                        <l part="I">Pour de la joye...</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="M">Hé bien ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">J'en ai ma fourniture ,</l>
+                        <l>Et de la bonne, &amp; de la pure,</l>
+                        <l>Sans nul mêlange de chagrin,</l>
+                        <l>Car je la tiens de la premiére main.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Au ſein de l'indigence, eh ! qui vous la procure ?</l>
+                    </sp>
+                    <pb n="124"/>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Belle demande ! La nature.</l>
+                        <l>Elle m'a bâti de façon,</l>
+                        <l>Que tout me fait plaiſir, &amp; rien ne m'inquiéte.</l>
+                        <l>Je me paſſe de peu dans ma condition,</l>
+                        <l>Et je jouis d'une ſanté parfaite :</l>
+                        <l>Je puis me dire le garçon</l>
+                        <l>De la meilleure pâte, en un mot, qu'elle ait faite.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je le veux ; mais, malgré des dons ſi précieux ,</l>
+                        <l>N'eſt-il rien ici-bas que votre cœur ſouhaite ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Non, mon défaut n'eſt pas d'être envieux.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Quoi ! Vous ne ſentez pas qu'il manque quelque choſe</l>
+                        <l>Au bonheur de vos jours, tout grand qu'il vous paroît?</l>
+                        <l>Votre cœur inſenſible au bien qu'on lui propoſe,</l>
+                        <l>Ne connoît donc pas l'Intérêt :</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>J'ignore quel animal c'eſt.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Du monde preſqu'entier il eſt le Dieu, la Maître ;</l>
+                        <l>Et vous êtes le ſeul dont il n'eſt pas connu.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Soit animal ou Dieu, je ne l'ai jamais vû.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Il eſt honteux à vous de ne le pas connoître;</l>
+                        <l>C'eſt ſon art merveilleurx qui, ſans crimes aujourd'hui ;</l>
+                        <l>Sçait faire, dans vos mains, paſſer le bien d'autrui :</l>
+                        <l>Les tréſors, les grandeurs, c'eſt lui qui les diſpenſe ;</l>
+                        <l>Il préſide au Palais,</l>
+                        <l>Il gouverne dans la Finace</l>
+                        <l>Il eſt Pere des Procès,</l>
+                        <l>Et les malheurs publics augmentent ſa puiſſance.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Fi, c'eſt un vilain Dieu dont je n'ai pas beſoin.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Ah! C'eſt l'Honneur qui vous arrête ;</l>
+                        <pb n="125"/>
+                        <l>C'eſt lui j'en ſuis certain.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>L'Honneur ! V'eſt encore une bête</l>
+                        <l>Que ne connoît pas <name type="person" n="Arlequin">Arlequin</name>.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Mais, puiſqu'il ne veut pas que l'Intérêt l'éclaire,</l>
+                        <l>Il faut bien que l'Honneur le guide en ſon chemin :</l>
+                        <l>C'eſt par l'une ou l'autre lumiére</l>
+                        <l>Que ſe conduit le genre-humain.</l>
+                        <l>L'Intérêt cependant a toujours l'affluence,</l>
+                        <l>En voici la raiſon :</l>
+                        <l>C'eſt lui qui donne l'opulence,</l>
+                        <l>L'Honneur ne donne qu'un vain nom.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>L'un ni l'autre jamais n'aura ma confiance;</l>
+                        <l>Ils ſont tous deux ſujets à caution :</l>
+                        <l>L'Intérêt eſt Normand, &amp; l'Honneur eſt Gaſcon.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>L'univers, toutefois, marche ſous leurs banniéres.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Oh ! Moi, je ne ſuis pas ſi ſot ;</l>
+                        <l>Je ne m'engage point : je ſuis neutre, en un mot.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Pourquoi vous écartez des routes ordinaires ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Oh ! Vous me mettriés, morbleu ! dans des coléres...</l>
+                        <l>A quoi votre Intérêt ou l'Honneur m'eſt-il bon ?</l>
+                        <l>A moi qui ſuis l'embarras des affaires,</l>
+                        <l>Et qui craint le bruit du canon ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Mais, qui vous conduit dans la vie ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="I">Un guide ſûr.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="M">Qui donc ?</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Ma fantaiſie.</l>
+                    </sp>
+                    <pb n="126"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Elle ne ſuffit pas pour remplir tous vos vœux :</l>
+                        <l>C'eſt l'Intérêt qui peut lui ſeul vous rendre heureux.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>C'eſt de la drogue, fi, que vous voulez vendre;</l>
+                        <l>Il ôte le ſommeil, donne des ſoins fâcheux.</l>
+                        <l>Je n'ai que faire d'aprendre</l>
+                        <l>A devenir malheureux.</l>
+                        <l part="I">Allés, portés ailleurs ce poiſon dangereux.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Si vous étiez des nôtres,</l>
+                        <l part="I">Vous auriez caroſſe.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Oh! J'aime à marcher à pied.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Votre bonheur ſeroit d'un chacun envié.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Mes ſentimens, en tout, ſont différens des vôtres ;</l>
+                        <l>L'opinion d'autrui ne me rien, à moi :</l>
+                        <l>On eſt heureux pour ſoi,</l>
+                        <l>Et non pas pour les autres.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Vous boiriez de bon vin.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Comment avez-vous dit ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je dis que vous boiriez du vin par excellence</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Cela mérite qu'on y penſe.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Et vous auriez, ſans contredit,</l>
+                        <l>Des mets exquis en abondance.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Vous me réveillé l'appétit.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Pour de jolis tendront, il n'en eſt point en <name type="place" n="France">France</name></l>
+                        <l part="I">Qui ne vous fit la cour.</l>
+                    </sp>
+                    <pb n="127"/>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Adieu.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="I">Arrêtés donc.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Non, non, je me retire :</l>
+                        <l>Si je reſtois, Monſieur le Dieu,</l>
+                        <l>Vous êtes fripon qui pourriés me ſéduire.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Il s'enfuit.)</hi></stage>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <l>Il a raiſon, &amp; je l'admire ;</l>
+                        <l>De la nature, en lui je connois le pouvoir ;</l>
+                        <l>C'eſt là, de ſa façon, un parfait Philoſophe ;</l>
+                        <l>Un ſage de la bonne étoffe,</l>
+                        <l>Qui l'eſt ſans s'en apercevoir,</l>
+                        <l>Et qui n'eſt point gâté par le ſçavoir.</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="17">
+                    <head>SCENE XVII.</head><lb/>
+                    <stage>MERCURE, Mr. JACQUIN, FANCHON.</stage><lb/>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <sound>AIR? <hi rend="italic">Non, non, il n'eſt pas de ſi joli nom.</hi></sound><lb/>
+                        <l><c type="lettrine">N</c>On, non,</l>
+                        <l>J'eſtime trop un ſi beau ndon,</l>
+                        <l>Pour vouloir jamais le rendre ;</l>
+                        <l>Non, non,</l>
+                        <l>J'eſtime trop un ſi beau don,</l>
+                        <l>Pour en rendre un ſeul teſton.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN </speaker>
+                        <stage><hi rend="italic">recite.</hi></stage><lb/>
+                        <l>Je l'ai donné pour le reprendre.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Et moi, je l'ai pris tout de bon :</l>
+                        <l>J'aimerois cent fois mieux le vendre.</l>
+                        <l>Et vous connoiſſez mal <name type="person" n="Fanchon">Fanchon</name></l>
+                    </sp>
+                    <pb n="128"/>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Je veux que l'Intérêt en décide aujourd'hui.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Très-volontiers; je m'en raporte à lui.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Quel eſt donc le ſujet de votre brouillerie ?</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>C'eſt un objet de rien, une badinerie.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.])</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italic"> Eſt-ce que ça, &amp;c.</hi></sound><lb/>
+                        <l>Deux cens mille francs ſeulement,</l>
+                        <l>Que me coûte la belle.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Pour un riche Caiſſier, vraiment,</l>
+                        <l>C'eſt une bagatelle.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Dis à quel jeu</l>
+                        <l>As-tu, morbleu !</l>
+                        <l>Gagné ſomme ſi grande ?</l>
+                        <l>Parles, <name type="person" n="Fanchon">Fanchon</name>,</l>
+                        <l>Répons-moi donc.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Eſt-ce que ça ſe demande ?</l>
+                        <lb/><stage><hi rend="italic">[Elle déclame.]</hi></stage><lb/>
+                        <l>Il m'a, par tout <name type="place" n="Paris">Paris</name>, triolée à ſon gré.</l>
+                        <l>Ah ! Bon Dieu, quel martyre !</l>
+                        <l>Et, dans une Maiſon dès qu'il étoit entré :</l>
+                        <l>Il commençoit par me dire :</l>
+                        <lb/><sound>AIR. <hi rend="italic">Perroquet mignon.</hi></sound>
+                        <l>Aimable <name type="person" n="Fanchon">Fanchon</name>.</l>
+                        <l>Chante une Chanſon</l>
+                        <l>De ces bijoux je te fais don,</l>
+                        <l>Pour prix de ta peine.</l>
+                        <l>J'ai tant chanté,</l>
+                        <l>Répété,</l>
+                        <l>La mi ré,</l>
+                        <l>Que j'en ſuis hors d'haleine,</l>
+                    </sp>
+                    <pb n="129"/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>C'eſt tant mieux pour toi,</l>
+                        <l>Chanteuſe du Roi.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN </speaker>
+                        <stage><hi rend="italic">déclame.</hi></stage><lb/>
+                        <l>Ah ! Je ſuis ſi fort en colére,</l>
+                        <l>Que je ne me ſens plus la force de chanter.</l>
+                        <l>Je l'ai fait pour la ſatiſfaire ,</l>
+                        <l>Pour engager les gens à la voir débuter :</l>
+                        <l>La friponne, à préſent qu'elle eſt ſûre de plaire,</l>
+                        <l>Et qu'elle tient tous nos bijoux,</l>
+                        <l>Badine, &amp; ſe moque de nous.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>En un mot, pour lui complaire,</l>
+                        <l>j'en ai dit de toutes façons.</l>
+                        <lb/><stage><hi rend="italic">(Elle chante.])</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italic"> Il ſe fait une grande fête.</hi></sound><lb/>
+                        <l>Des Cantades, des Ariétes ,</l>
+                        <l>Grands airs de <name type="person" n="Phaéton">Phaëton</name>,</l>
+                        <l>Vaudevilles, Chanſonnettes,</l>
+                        <l>Sans compter le Cotillon ,</l>
+                        <l>Le cotillon ,</l>
+                        <l>Turlurette ,</l>
+                        <l>Le cotillon ,</l>
+                        <l>Turluron.</l>
+                        <lb/><stage><hi rend="italic">(Elle déclame.)</hi></stage><lb/>
+                        <l>Seigneur, n'ai-je pas bien gagné tous les preſens</l>
+                        <l>Et les largeſſes qu'il m'a faites ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Vous avez à profit çû mettre les inſtans.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Quoique Mademoiſelleen diſe ,</l>
+                        <l>Il n'eſt pas là de marchandiſe</l>
+                        <l>Pour deux cens mille francs.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Je vais vous prouver le contraire ,</l>
+                        <l>Et ſans perdre de tems.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Voyons, c'eſt un calcul très-curieux à faire;</l>
+                    </sp>
+                    <pb n="130"/>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Mettons cent mille francs d'abord ,</l>
+                        <l>Tant en récitatifs, qu'en fine arriétes :</l>
+                        <l part="I">Duo, trio.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l part="F">Chanſons, ſornettes.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l>Le compte eſt un peu fort.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Plus, pour un faux vernis de réputation</l>
+                        <l>Que 'a donné votre ardeur indiſcrette,</l>
+                        <l>Cent mille francs de réparation ,</l>
+                        <l>A moi qui de tout tems ai fait profeſſion</l>
+                        <l>D'une ſageſſe très-parfaite.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>La réputation de cette Dame-là</l>
+                        <l part="I">Cent mille francs !</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <l part="F">Il eſt vrai, c'eſt la vendre</l>
+                        <l part="I">Ce qu'elle vaut, &amp; par-delà.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>J'enrage de l'entendre.</l>
+                        <l>Le magaſin de l'Opéra</l>
+                        <l>Tout entier ne vaut pas cela</l>
+                        <l>Mais il faut, ſans délai, tenir votre promeſſe,</l>
+                        <l>Et de toute votre tendreſſe,</l>
+                        <l>Payer mes libéralités,</l>
+                        <l>Ou rendre les bijoux que je vous ai prêtés.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage><hi rend="italic">déclamant.</hi></stage><lb/>
+                        <l>Aprenez en ce jour, que lorſqu'une Princeſſe,</l>
+                        <l>Qu'une Héroïne, enfin, telle que moi, s'abaiſſe</l>
+                        <l>Juſques à recevoir les preſens d'un caiſſier ,</l>
+                        <l>Il doit benir ſon ſort, &amp; l'en remercier.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Quand le péril eſt agréable.</hi></sound>
+                        <l>Je vous rens grace, Dulcinée,</l>
+                        <l>D'avoir bien voulu vous donner</l>
+                        <pb n="131"/>
+                        <l>La peine de me ruiner</l>
+                        <l>Dans une après-dinée.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Ruine-t'on un homme comme lui ?</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Ne croyez pas que mon cœur aujourd'hui</l>
+                        <l>Soit la dupe du vôtre.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Oh ! Vous avez tort l'un &amp; l'autre ;</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Fanchon">Fanchon</name>.)</hi></stage> <sound>AIR.</sound> <stage><hi rend="italic">(Il chante.)</hi></stage>
+                        <l>Vous, de montrer du dégoût</l>
+                        <l>Dans la conjoncture ;</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
+                        <l>Vous, de n'avoir pas, ſur-tout ;</l>
+                        <l>Mis à profit, juſqu'au bout,</l>
+                        <l>La bonne avanture,</l>
+                        <l>O gué !</l>
+                        <l>La bonne avanture.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic">Que je regrette mon amant !</hi></sound>
+                        <l>Que je dois peu le regretter !</l>
+                        <l>L'Intérêt me l'avoit fait prendre,</l>
+                        <l>La raiſon me le fait quitter,</l>
+                        <l>Vieux, jaloux, groſſier &amp; peu tendre ;</l>
+                        <l><name type="person" n="Jacquin">Jacquin</name> m'aimoit ſi ſottement,</l>
+                        <l>Qu'il m'ennuyoit infiniment.</l>
+                        <l><name type="person" n="Jacquin">Jacquin</name> m'aimoit, le diſoit, me parloit, me ſuivoit ;</l>
+                        <l>Me lorgnoit, me donnoit ſi ſottement,</l>
+                        <l>Qu'il m'ennuyoit infiniment.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage type="delivery"><hi rend="italic">à Mr. <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
+                        <l>Pour vous, à ce retour vous deviez vous attendre;</l>
+                        <l>Et je ne vous plains nullement.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italic">Il faut que je file.</hi></sound><lb/>
+                        <l>Quand un gros richard s'allume,</l>
+                        <l>Pour quelque tendron charmant,</l>
+                        <l>Il doit ſçavoir la coutume,</l>
+                        <l>Et la ſubir doucement ;</l>
+                        <pb n="132"/>
+                        <l>Il faut qu'on le plume,</l>
+                        <l>Plume ,</l>
+                        <l>Qu'on le plume à tout moment.</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <l>Oui ; mais je dois crier, je penſe,</l>
+                        <l>Alors qu'avec la plume on m'arrache la peau.</l>
+                        <l>C'eſt contre un excès ſi nouveau,</l>
+                        <l>Que vous devez, Seigneur, juger en diligence.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Oui, décidez, s'il vous plaît,</l>
+                        <l>Sûr organe de l'Intérêt.</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l>Je vais donc prononcer. Silence.</l>
+                        <l>Ayant égard à l'état de <name type="person" n="Fanchon">Fanchon</name>,</l>
+                        <l>Dont les apas font toute la fortune ;</l>
+                        <l>En même-tems, faiſant attention</l>
+                        <l>A la richeſſe peu commune</l>
+                        <l>Du vieux galant de cette brune,</l>
+                        <l>Je lui défens la reſtitution ;</l>
+                        <l>Son droit inconteſtable, eſt la poſſeſſion.</l>
+                        <l>Tout Caiſſier doit donner, &amp; ne jamais reprendre :</l>
+                        <l>Toute fille à talen, en toute occaſion ,</l>
+                        <l>Doit recevoir, &amp; ne doit jamais rendre ;</l>
+                        <l>Ce quon lui prête, eſt réputé pour don.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <l>Ah ! Quelle joie !</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN </speaker>
+                        <stage><hi rend="italic">chnate.</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italic">On dit que l'amour eſt ſi charmant.</hi></sound><lb/>
+                        <l>Ah ! Quel ennui !</l>
+                        <l>Devois-je m'adreſſer à lui ?</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Ah ! Devant <name type="person" n="Mercure">Mercure</name> l'apui</l>
+                        <l>De la galanterie,</l>
+                        <l>Aurois-je pu perdre aujourd'hui,</l>
+                        <l>Moi qui ſuis jolie ?</l>
+                    </sp>
+                    <sp who="Monsieur Jacquin">
+                        <speaker>Mr. JACQUIN.</speaker><lb/>
+                        <sound>AIR. <hi rend="italic"><name type="person" n="Philis">Philis</name>, un autre amant t'engage.</hi></sound><lb/>
+                        <l>Que je regrete mes largeſſes !</l>
+                        <pb n="133"/>
+                        <l>C'eſt payer bien cher des chanſons.</l>
+                        <l>Quand j'ai t'ai prêté mes richeſſes,</l>
+                        <l>Que n'as-tu fait plus de façons ?</l>
+                        <l>Tu les prenois de ſi bon cœur, cruelle ?</l>
+                        <l>Qand je me rapelle</l>
+                        <l>Que tu tiens mon or le plus pur,</l>
+                        <l>Cela m'eſt bien dur.</l>
+                        <lb/><sound>AIR. <hi rend="italic">Eh, dru, dru, dru.</hi></sound><lb/>
+                        <l>Mais je n'ai pas encore perdu ; </l>
+                        <l>Je puis tout entreprendre:</l>
+                        <l>Je vais, car je ſuis un coſſu.</l>
+                        <l>Pour te faire tout rendre,</l>
+                        <l>Eh, dru, dru, dur,</l>
+                        <l>Faire pleuvoir l'écu.</l>
+                    </sp>
+                    <sp who="Fanchon">
+                        <speaker>FANCHON.</speaker><lb/>
+                        <l>Et moi, je vais tout vendre.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Ils ſortent.)</hi></stage>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="18">
+                    <head>SCENE XVIII.</head><lb/>
+                    <sp who="Mercure">
+                        <speaker>MERCURE </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <l><c type="lettrine">F</c>Ort bien ; c'eſt peu que leur talent fertile;</l>
+                        <l>Sur le Théatre auſe les eſprits,</l>
+                        <l>Il donne encore des ſcènes dans la Ville,</l>
+                        <l>Qui, doublement, divertiſſent <name type="place" n="Paris">Paris</name>.</l>
+                        <l>Quel bruit ſoudain ſe fait entendre ?</l>
+                        <l>Sans doute en ſon Palais l'Intérêt vient ſe rendre:</l>
+                        <l>Le ſon de la trompette &amp; le bruit du tambour,</l>
+                        <l>Annoncent ſon retour.</l>
+                        <l>Il vient; devant ſes pas marche la Renommée.</l>
+                        <l>Je ris de voir ce ſpectacle nouveau,</l>
+                        <l>D'argent &amp; de butin une troupe affamée,</l>
+                        <l>Des ſoldats en rabat, des ſoldats en manteau,</l>
+                        <l>Et le chef d'un bureau ;</l>
+                        <l>Le digne Général d'une pareille armée !</l>
+                    </sp>
+                </div2>
+                <pb n="134"/>
+                <div2 type="scene" n="19">
+                    <head>SCENE XIX.</head><lb/>
+                    <stage>MERCURE, L'INTEREST. <lb/> <hi rend="italic">Suivi de ſes Troupes.</hi></stage><lb/>
+                    <sp who="L'Interest">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l><c type="lettrine">E</c>Ntrez tous en bon ordre, avancez, compagnons ;</l>
+                        <l><name type="person" n="Mercure">Mercure</name> voit nos bataillons :</l>
+                        <l>En voilà de tout ſexe, en voilà de tout âge, </l>
+                        <l>En voilà de tous les états ;</l>
+                        <l>Ne font-ils pas <sic>e</sic><corr>u</corr>n brillant équipage ?</l>
+                        <l part="I">Répons-moi, qu'en dis-tu ?</l>
+                    </sp>
+                    <sp who="Mercure">
+                        <speaker>MERCURE.</speaker><lb/>
+                        <l part="F">Je gage,</l>
+                        <l>A voir tous ces braves ſoldats,</l>
+                        <l>Qu'ils ſont bons aux combats,</l>
+                        <l>Mais qu'ils excellent au pillage.</l>
+                        <l>Sur-tout, je croi que vous ne manquez pas,</l>
+                        <l>Parmi ce nouveau Militaire,</l>
+                        <l>D'Inſpecteur ni de Commiſſaire.</l>
+                        <l>Mais j'entens l'ennemi qui s'avance à grands pas :</l>
+                        <l>Courage ; ranimez votre vertu guerriére.</l>
+                    </sp>
+                    <sp who="L'Interest">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Il me vient une idée, elle eſt digne de moi ;</l>
+                        <l>Sous un tel artifice, il faudra qu'il ſuccombe,</l>
+                        <l>Pour ranger les ſujets de l'Honneur ſous ma loi :</l>
+                        <l>Ces armes feront plus que grenade ni bombe.</l>
+                        <l>Mais il vient, je le voi.</l>
+                    </sp>
+                </div2>
+                <pb n="135"/>
+                <div2 type="scene" n="20">
+                    <head>SCENE DERNIERE.</head><lb/>
+                    <stage>LES ACTEURS PRECEDENS, <lb/> L'HONNEUR <hi rend="italic">accompagné de ſes Soldats.</hi></stage><lb/>
+                    <sp who="L'Honneur">
+                        <speaker>L'HONNEUR </speaker>
+                        <stage><hi rend="italic">apercevant l'Intérêt.</hi></stage><lb/>
+                        <l><c type="lettrine">D</c>E ma juſte fureur rien ne peut te défendre,</l>
+                        <l>Monſtre ; nous allons t'étouffer</l>
+                        <l>Dans ton Palais réduit en cendre</l>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Sans répandre de ſang, moi, je veux triompher :</l>
+                        <l>D'un ſeul mot, à l'inſtant, je m'en vais te confondre;</l>
+                        <l>Tu n'auras rien à ma répondre.</l>
+                        <l>Qu'on tire ce rideau; qu'on étale à leurs yeux</l>
+                        <l>Les immenſes tréſors que renferment ces lieux.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(aux Soldats de l'Honneur.)</hi></stage><lb/>
+                        <l>Aveugles partiſans d'un rival qui m'outrage,</l>
+                        <l>Connoiſſez votre erreur à ce coup d'œil brillant.</l>
+                        <lb/><stage type="setting"><hi rend="italic">On voir, au fond du Théatre, couler des fleuves 
+                            <lb/> d'or &amp; d'argent, &amp; des monceaux de perles 
+                            <lb/> &amp; de diamants.</hi></stage><lb/>
+                        <l>Contemplez ce riche partage,</l>
+                        <l>Et voyez ce prix éclatant</l>
+                        <l>Que je deſtine à ceux qui me rendront hommage.</l>
+                        <l>Dites à votre Honneur qu'il vous en montre autant.</l>
+                        <lb/><stage type="business"><hi rend="italic">(Tous les Suivants de l'Honneur paſſent <lb/> du côté de l'Intérêt.</hi></stage>
+                    </sp>
+                    <sp who="L'Honneur">
+                        <speaker>L'HONNEUR.</speaker><lb/>
+                        <l>Ciel ! Tout fuit mes drapeaux, pour ſuivre cet infame !</l>
+                        <l>A peine au triſte Honneur reſte-t'il une femme !</l>
+                        <l>Allons, arachons-nous de ce profane lieu,</l>
+                        <l>Et diſons à la terre un éternel adieu.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Ils ſortent.)</hi></stage>
+                    </sp>
+                    <sp who="L'Intérêt">
+                        <speaker>L'INTEREST.</speaker><lb/>
+                        <l>Mes fidèles Sujets, prenez part à ma gloire,</l>
+                        <l>Célébrez mon triomphe, &amp; chantez ma victoire.</l>
+                        <pb n="136"/>
+                        <sound>AIR.</sound><lb/>
+                        <lg>
+                            <l><c type="lettrine">C</c>Hantons la puiſſance ſuprême</l>
+                            <l>De l'Intérêt, maître de l'Univers;</l>
+                            <l>Il aſſervit la terre, il enchaîne les mers ;</l>
+                            <l>Il triomphe de l'amour même :</l>
+                            <l>Les Mortels &amp; les Dieux ſont ſoumis a ſes fers.</l>
+                            <l>Chantons la ſuprême puiſſance</l>
+                            <l>De l'intérêt, maître de l'Univers.</l>
+                        </lg>
+                        <lb/><lb/>
+                        <lg>
+                            <l>C'eſt l'Intérêt, c'eſt ſa puiſſance</l>
+                            <l>Qui fait fleurir chaque métier ;</l>
+                            <l>Les arts &amp; la ſcience</l>
+                            <l>Lui doivent la naiſſance.</l>
+                            <l>I<sic></sic><corr>l</corr> inſtruit le marchand &amp; l'artiſan groſſier ;</l>
+                            <l>Il guide l'homme de finance;</l>
+                            <l>Il inſpire l'auteur, il arme le guerrier ;</l>
+                            <l>Et l'Avocat, ſans lui, garderoit le ſilence.</l>
+                        </lg>
+                    </sp>
+                </div2>
+                <pb n="137"/>
+                <div2 type="vaudeville">
+                    <head>VAUDEVILLE.</head><lb/>
+                    <lg>
+                        <l><c type="lettrine">E</c>N toute ſorte d'affaire ,</l>
+                        <l>Qui veut ſe rendre vainqueur ,</l>
+                        <l>Doit, pour arme néceſſaire ,</l>
+                        <l>Employer l'or ſéducteur.</l>
+                        <l>On ne choiſit plus pour guide</l>
+                        <l>La Juſtice ni l'Honneur,</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>Probié, vertu ſévére,</l>
+                        <l>Ne ſont plus qu'un vain jargon.</l>
+                        <l>A ſe rendre néceſſaire,</l>
+                        <l>Il faut mettre ſa raiſon :</l>
+                        <l>On laiſſe l'Honneur rigide,</l>
+                        <l>On avance le fripon ;</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>Pour gagner d'une fillette</l>
+                        <l>La tendreſſe promptement,</l>
+                        <l>Au lieu de conter fleurette,</l>
+                        <l>Il faut compter de l'argent:</l>
+                        <l>Les ſoins d'un amour timide</l>
+                        <l>Ne touchent plus maintenant,</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>Le mérite &amp; la tendreſſe</l>
+                        <l>Du plus charmant Cavalier,</l>
+                        <l>N'ont jamais pû de <name type="person" n="Lucrèce">Lucréce</name></l>
+                        <l>Déſarmer le cœur altier ;</l>
+                        <l>Mais cette beauté rigide</l>
+                        <l>S'adoucit pour un Caiſſier ;</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                    <lb/>
+                    <pb n="138"/>
+                    <lg>
+                        <l>Un Seigneur, d'une brunette</l>
+                        <l>Eſt prêt d'orner ſon ſérail ;</l>
+                        <l>On convient, la choſes eſt faite ;</l>
+                        <l>Il la croit dans ſon bercail :</l>
+                        <l>Un gros Abbé qu'amour guide,</l>
+                        <l>Se préſente, on rompt le bail ;</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                    <lb/>
+                    <lg>
+                        <l>Meſſieurs, de votre ſuffrage</l>
+                        <l>Tout notre bonheur dépend :</l>
+                        <l>Si vous trouvez cet ouvrage</l>
+                        <l>Digne d'aplaudiſſement,</l>
+                        <l>Pour témoignage ſolide,</l>
+                        <l>Aportez-nous votre argent;</l>
+                        <l>C'eſt l'Intérêt qui décide.</l>
+                    </lg>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

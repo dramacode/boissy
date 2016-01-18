@@ -1,0 +1,2608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>Le pouvoir de la sympathie: édition numérique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome sixième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <punctuation><p>La ponctuation d'origine a été respectée, elle est parfois signalée par l'élément pc.</p></punctuation>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1738-07-05">5 juillet 1738</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="75"/>
+                <docTitle>
+                    <titlePart type="main">LE POUVOIR <lb/>DE <lb/>LA SYMPATHIE<pc>,</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="76"/>
+            <castList>
+                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <castItem><role>CLITANDRE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>DORANTE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>LA BARONNE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>JULIE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>HORTENSE</role><pc type="affirmative">.</pc></castItem><lb/>
+                <castItem><role>LE COMTE</role><pc type="affirmative">.</pc></castItem><lb/>
+            </castList><lb/><lb/><lb/><lb/><lb/><lb/>
+            <set>
+                <p><hi rend="italic">La Scène eſt dans la Maiſon de la Baronne<pc type="affirmative">.</pc></hi></p>
+            </set>
+            <pb n="77"/>
+        </front>
+        <body>
+            <div1 type="title">
+                <head>LE POUVOIR <lb/>DE <lb/>LA SYMPATHIE<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
+            </div1>
+            <div1 type="play">
+                <div2 type="acte" n="1">
+                    <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">Q</c>UEL eſt le nœud fatal sont on veut nous <lb/> lier !</l>
+                            <l>Par le biſarre effet d'un hazard ſingulier ,</l>
+                            <l>Tu brûles pour <name type="person" n="Julie">Julie</name>,&amp; l'on me la deſtine:</l>
+                            <l>J'aime ſecretement <name type="person" n="Hortense">Hortenſe</name> ſa Couſine ,</l>
+                            <l>Et tu viens en ces lieux pour être ſon Epoux !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Tes vœux ſont écoutés , ton deſtin eſt trop doux : </l>
+                            <l>Mais moi, j'oſe aimer, qui? Je frémis quand j'y penſe ;</l>
+                            <pb n="78"/>
+                            <l>La fille du Marquis, elle qui dès l'enfance</l>
+                            <l>Ne prononce &amp; n'entend mon nom qu'avec horreur !</l>
+                            <l>De ſon Pere &amp; du mien l'implacable fureur ,</l>
+                            <l>Et l'intérêt plus fort que le ſang qui nous lie ,</l>
+                            <l>De ma proche parente ont fait mon ennemie ;</l>
+                            <l>J'ai tout à redouter de cette inimitié.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſçai que ton aour en doit être effrayé.</l>
+                            <l>D'autres te flatteroient , mais j'ai trop de franchiſe.</l>
+                            <l>La haine des parens ne quitte jamais priſe :</l>
+                            <l>Dans la ſienne ſur-tout, ton Pere eſt endurci.</l>
+                            <l>Tu ne verras jamais le Comte radouci ;</l>
+                            <l>Son fier reſſentiment ſuffit pour t'en convaincre,</l>
+                            <l>Et la mort du Marquis n'a pû même le vaincre.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Epargnes-toi le ſoin d'augmenter mon effroi.</l>
+                            <l>Qui connoît &amp; qui craint ſon courrous plus que moi ?</l>
+                            <l>Avant que de me rendre à <name type="place" n="Rennes">Rennes</name> chez ma Tante ,</l>
+                            <l>Moi-même, agent fatal de ſa fureur conſtante ,</l>
+                            <l>Au fond de la <name type="place" n="Bretagne">Bretagne</name>, eh, n'ai-je pas été,</l>
+                            <l>Pour remplir les projets de ſon cœur irrité ,</l>
+                            <l>Et pour y recouvrer des titres que j'abhorre,</l>
+                            <l>Et dont il veut s'armer contre ce que j'adore.</l>
+                            <l>Pardonnés, contre vous ſi j'ai fait un tel pas<unclear>.</unclear></l>
+                            <l><name type="person" n="Julie">Julie</name>, alors mon cœur ne vous connoiſſoit pas.</l>
+                            <l>Ce n'eſt pas que le Comte ait tort dans ſa colére.</l>
+                            <l>Non, mon amour n'eſt point injuſte envers mon Pere ;</l>
+                            <l>Jamais courroux ne fut mieux fondé que le ſien ,</l>
+                            <l>Et ſa cauſe a d'ailleurs le bon droit pour ſoutien.</l>
+                            <l>Il eſt né généreux, doux, humain, ſans caprice ;</l>
+                            <l>Mais ſon malheur, cauſé par la ſeule injuſtice,</l>
+                            <l>A de ſon caractére, altéré la douceur ,</l>
+                            <l>Et les ſiens l'ont forcé d'imiter leur rigueur.</l>
+                            <l>Il eſt certains revers dont l'attente bizarre</l>
+                            <l>Rendroient la bonté même inflexible &amp; barbare.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il eſt vrai qu'il a vû, contre toute raiſon.</l>
+                            <pb n="79"/>
+                            <l>Revêtir ſon cadet des Biens de ſa Maiſon ,</l>
+                            <l>Et que ſon frere a mis le comble à cet outrage ,</l>
+                            <l>En s'armant contre lui de tout ſon avantage.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce n'eſt-là de ſes maux qu'une foible moitié :</l>
+                            <l>Un trait qui doit bien plus exciter la pitié ,</l>
+                            <l>Un triat, par ſa noirceur unique, épouventable,</l>
+                            <l>Qui rend ſa haine juſte autant qu'inéxorable ;</l>
+                            <l>C'eſt celui dont je vais t'inſtruire en ce moment.</l>
+                            <l>Mon ayeul s'attira jadis imprudemment,</l>
+                            <l>Pour un vain droit de chaſſe, une affaire fatale</l>
+                            <l>Qui faillit à cauſer ſa ruine totale.</l>
+                            <l>Pour l'éteindre, il paya vint mille écus comptans</l>
+                            <l>Et la choſe ſurvint dans un ſi cruel tems</l>
+                            <l>Que n'ayant pû trouver cet argent néceſſaire ,</l>
+                            <l>Il fallut l'emprunter d'une main uſuriére :</l>
+                            <l>Par des Lettres de change enfin il s'engagea ;</l>
+                            <l>Mon Pere, alors majeur, pour lui les endoſſa,</l>
+                            <l>Et remplit le devoir d'un fils ſenſible &amp; tendre.</l>
+                            <l>Il en fut bien payé ! Le devoit-il attendre ?</l>
+                            <l>Mon ayeul meurt un an après ces Billets faits ,</l>
+                            <l>Et fruſtre de ſes Biens le Comte à ſon décès.</l>
+                            <l>Le Marquis ſon cadet, le croiras-tu, <name type="person" n="Dorante">Dorante</name> ?</l>
+                            <l>Dans le tems qu'il obtient ſa dépouille éclatante ,</l>
+                            <l>Le laiſſe dans l'horreur d'un tel engagement.</l>
+                            <l>On aſſigne mon Pere, &amp; faute de payement,</l>
+                            <l>On ſaiſit ſa perſonne, en priſon on le traîne,</l>
+                            <l>Et ſon frere a pour lors la rigueur inhuaine</l>
+                            <l>De l'y laiſſer languir dans un état honteux.</l>
+                            <l>Lié cruellement par ces Billets affreux</l>
+                            <l>Dont ce frere a lui ſeul recueilli le ſalaire,</l>
+                            <l>Il faut, pour les payer, que mon malheureux Pere</l>
+                            <l>Vende ſa légitime, &amp; par la pauvreté ,</l>
+                            <l>Rachete durement ſa triſte liberté.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Un procédé ſi noir paroît preſqu'incroyable;</l>
+                            <l>De tant de dureté peut-on être capable ?</l>
+                        </sp>
+                        <pb n="80"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Juge, après cet affront qui l'a fait vivre errant,</l>
+                            <l>Si je puis condamner ſon courroux éclatant.</l>
+                            <l>Tu ſçais que plus une ame eſt noble &amp; bien placée,</l>
+                            <l>Et plus, quand on l'offenſe, elle paroît bleſſée.</l>
+                            <l>Le mal comme le bien s'y grave avec des traits,</l>
+                            <l>Qui plus forts que le tems, ne s'effaſſent jamais.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Clitandre">Clitandre</name>, ce diſcours qui rend ton pere à plaindre,</l>
+                            <l>Fait voir en même-tems qu'il en eſt plus à craindre.</l>
+                            <l>Ton malheur eſt certain, il m'allarme beaucoup ;</l>
+                            <l>Je vois qu'il va cauſer le mien par contre-coup.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je me conſolerois dans ma diſgrace extrême</l>
+                            <l>Si j'avois, comme toi, le cœur que j'aie ;</l>
+                            <l part="I">Si j'oſois eſpérer....</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, ne l'eſpére pas ;</l>
+                            <l>C'eſt un cœur ennemi que jamais tu n'auras.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! Flattes-moi plûtôt pour adoucir ma peine,</l>
+                            <l>Flattes-moi, par pitié, d'une eſpérance vaine.</l>
+                            <l>Dis-moi qu'elle m'a vû ſans montrer de courroux,</l>
+                            <l>Qu'elle a même pour moi des regards aſſez doux.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Moi, je te trahirois en parlant de la ſorte ?</l>
+                            <l>La vérité ſur moi fût toujours la plus forte.</l>
+                            <l>Ta Couſine t'a fait un accueil des plus froids ;</l>
+                            <l>Et s'il faut en juger par tout ce que je vois,</l>
+                            <l part="I">Son cœur cache en ſecret....</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">N'en dis pas davantage.</l>
+                            <l>Tu déchires le mien par ce cruel langage.</l>
+                            <l>Je n'ai jamais connu d'amis plus accablant !</l>
+                            <l>Malheureux mille fois qui t'a pour Confident.</l>
+                            <l>L'amitié ordinaire eſt douce &amp; conſolante,</l>
+                            <l>Mais la tienne eſt toujours dure &amp; deſeſpérante ;</l>
+                            <pb n="81"/>
+                            <l>Elle porte avec ſoi le découragement ,</l>
+                            <l>Doute toujours du bien, &amp; voit le mal plus grand.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plus je t'eſtime, &amp; plus je dois être ſincére ;</l>
+                            <l>De toutes les vertus c'eſt la plus néceſſaire.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt plûtôt un defaut &amp; des plus révoltans ,</l>
+                            <l>Quand on l'a, comme toi, toujours à contre-tems.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>On ne ſçauroit jamais placer mal la franchiſe ;</l>
+                            <l>En tous lieux, à toute heure, aprens qu'elle eſt de miſe.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'eſt-elle quand tu dois ménager ma douleur?</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'art des ménagemens eſt celui d'un flâteur ;</l>
+                            <l part="I">Mais on vient, c'eſt <name type="person" n="Julie">Julie</name>.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">En la voyant je tremble !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton cœur peut s'éclaircir, &amp; je vous laiſſe enſemble</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l><c type="lettrine">A</c>U trouble de mes ſens j'ai peine à commander !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Voilà <name type="person" n="Clitandre">Clitandre</name> ſeul. Il craint de m'aborder.</l>
+                            <l>Rentrons ; je dois moi-même éviter ſa préſence</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous fuyez mon abord  je vois qu'il vous offenſe.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Moi, Monſieur : j'aurois tort ; ce ſeroit ſans <unclear>ſujet</unclear>.</l>
+                        </sp>
+                        <pb n="82"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon nom ſeul contre moi vous prévient en ſecret.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>De tous nos démêlés vous n'êtes point blâmable.</l>
+                            <l>Et ma prévention ſeroit déraiſonnable.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon Pere vous pourſuit ; ſa fureur, à vos yeux,</l>
+                            <l>Doit rendre, avec raiſon, tout ſon ſang odieux.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je dois croire plûtôt que ſa haine ſévére</l>
+                            <l part="I">A paſſé dans ſon fils.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, Madame, au contraire ;</l>
+                            <l>Je condamne l'excès de ſon averſion ,</l>
+                            <l>Et je recherche en tout votre aprobation.</l>
+                            <l>Vous ſçavez que je dois être l'époux d'<name type="person" n="Hortense">Hortenſe</name>;</l>
+                            <l>Je vais dans peu de jours, voir par cette alliance,</l>
+                            <l>Serrez les nœuds du ſang qui m'uniſſent à vous,</l>
+                            <l>Et, par-là, ce lien m'en deviendra plus doux.</l>
+                            <l>Je ne ſçai de quel œil vous verrez une chaîne</l>
+                            <l part="I">Qui va nous raprocher.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais , Monſieur, avec peine.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Avec peine.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, vraiment, de ma Tante, à regret ;</l>
+                            <l part="I">Je vous verrai le Gendre.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ah! votre cœur me hait,</l>
+                            <l part="I">Je n'en puis plus douter !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="F">Que viens-je de lui dire ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Votre air me le confirme, &amp; la haine tranſpire.</l>
+                            <l>Je lis dans vos regards, à travers leur douceur,</l>
+                            <l part="I">Un fond d'averſion.</l>
+                        </sp>
+                        <pb n="83"/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Vous liſez mal, Monſieur.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pourquoi donc de plus près craindre de m'être unie ?</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je la ſuis déja trop par le sang qui nous lie.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ciel ! Quel aveu cruel ! Il me remplit d'effroi !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je romprois votre hymen, s'il dépendoit de moi ,</l>
+                            <l>Il révolte mes ſens, &amp; mon cœur s'en irrite ;</l>
+                            <l>Le parti qui me reſte eſt celui de la fuite.</l>
+                            <l part="I">Adieu.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Je ſuis perdu !</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DORANTE <pc>,</pc> HORTENSE <pc>,</pc> CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l part="F"><c type="lettrine">N</c>On, non, vous avez tort,</l>
+                            <l>Et jamais ſur ce point nous ne ſerons d'accord.</l>
+                            <l>Trop de ſincérité choque pa ſa rudeſſe ,</l>
+                            <l>Nuit en croyant ſervir, &amp; devient mal-adreſſe ;</l>
+                            <l>Nous fait haïr des grands, mépriſer des petis,</l>
+                            <l>Et nous rend le fléau de nos meilleurs amis.</l>
+                            <l>Oui, Monſieur, croyez-m'en, je ſuis une étourdie,</l>
+                            <l>Qui vous parle raiſon ſous l'air de la folie.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous me parlez raiſon ? Ah ! J'en ſuis enchanté.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Pourquoi donc s'il vous plaît ?</l>
+                        </sp>
+                        <pb n="84"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais , pour la nouveauté.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous montrez de l'eſprit, la choſe eſt auſſi rare.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>J'en ai trop dit, peut-être, &amp; le feu qui s'empare...</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non c'eſt le ton que j'aime, &amp; je hais la fadeur.</l>
+                            <l>Mais j'aperçois <name type="person" n="Clitandre">Clitandre</name> : il eſt triſte &amp; rêveur.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il ſort d'avec <name>Julie</name> ,&amp; ſon air fait connoître</l>
+                            <l part="I">Qu'il n'eſt pas ſatisfait.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je n'ai pas lieu de l'être.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je te l'avois bien dit.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Gardez-vous d'écouter</l>
+                            <l part="I">Ses diſcours.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais pourquoi voulez-vous le flâter ?</l>
+                            <l part="I">Il ne peut être aimé.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Sur quelles conjectures</l>
+                            <l part="I">L'oſez-vous décider <sic>¿</sic></l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Sur des preuves très-ſûres.</l>
+                            <l>Le préjugé d'abord de l'éducation</l>
+                            <l>S'élevent fortement contre ſa paſſion.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il n'a point de pouvoir ſur l'eſprit de <name type="person" n="Julie">Julie</name> ;</l>
+                            <l>Et pour ſuivre la haine, elle eſt trop accomplie.</l>
+                            <l>Le ſang parle plûtôt dans le fond de ſon cœur.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'aparence détruit un diſcours ſi flâteur.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'aparence eſt pour lui de toutes les maniéres.</l>
+                        </sp>
+                        <pb n="85"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'air dont il eſt reçû ne le témoigne guéres.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il ne peut l'être mieux. Sa douceur marque aſſez....</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Sa douceur ne dit rien.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Ses égards...</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Sont forcés.</l>
+                            <l>Dès qu'elle voit <name type="person" n="Clitandre">Clitandre</name>, elle n'eſt plus la même ,</l>
+                            <l part="I">Sa gayté diſparoît.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Bon, ſigne qu'elle l'aime.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Son front en même-tems ſe couvre de rougeur.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt l'Amour qui le peint de ſa vive couleur.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">C'eſt plûtôt le dépit.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Croyez-m'en l'un &amp; l'autre,</l>
+                            <l>Mon ſexe eſt connoiſſeur beaucoup plus que le vôtre.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais, que lui-même ici diſe la vérité.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Sa haine, devant moi, n'a que trop éclaté.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'eſprit facilement croit tout ce qu'il redoute ;</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Son entretien fatal ne m'en laiſſe aucun doute.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Que vous a-t'elle dit de ſi deſeſpérant ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce qu'on peut témoigner de plus déſobligeant.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quoi donc ?</l>
+                        </sp>
+                        <pb n="86"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Qu'elle voyoit d'une ame mécontente</l>
+                            <l>Que j'allois devenir le Gendre de ſa Tante.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Elle n'aprouve pas, dites-vous, notre hymen ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Elle eſt au deſeſpoir de voir que ce lien</l>
+                            <l part="I">Raproche nos maiſons.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Un aveu ſincére</l>
+                            <l part="I">Prouve-t'il qu'elle hait ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ce diſcours au contraire</l>
+                            <l>Montre qu'elle a pour lui de l'inclination ,</l>
+                            <l>Et ſert à m'affermir dans mon opinion ;</l>
+                            <l>L'Amour ſeul lui fait voir cet hymen avec peine.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, non, ſa répugnance eſt l'effet de ſa haine.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><stage type="delivery"><hi rend="italic">(à <name type="person" n="Hortense">Hortenſe</name>.)</hi></stage> Vous me rendez l'eſpoir.
+                                <stage type="delivery"><hi rend="italic">(à <name type="person" n="Dorante">Dorante</name>.)</hi></stage> Tu combles ma terreur.</l>
+                            <l part="I">Qui convaincra mes ſens ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Moi, pour votre bonheur.</l>
+                            <l>Il n'offre jamais rien dans un jour favorable,</l>
+                            <l>Je montre les objets par leur face agréable.</l>
+                            <l>Il portera toujours l'effroi dans votre cœur ;</l>
+                            <l>Moi, je le remplirai d'un eſpoir ſéducteur.</l>
+                            <l>Se peut-il ſur le choix que votre ame balance ?</l>
+                            <l>Il eſt le deſeſpoir ; je ſuis la confiance.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne balance plus ; &amp; mon cœur , dans ce jour,</l>
+                            <l>Se range du côté qui flatte ſon amour.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Il en ſera le dupe.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Clitandre">Clitandre</name>.</hi></stage><lb/>
+                            <l>Allez, il a beau dire,</l>
+                            <pb n="87"/>
+                            <l>Je veux vous rendre heureux,laiſſez-moi vous conduire.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh! Pour le coup, mon cher, ton bonheur eſt certain ;</l>
+                            <l>Dors dans un plein repos, il eſt en bonne main.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante">Dorante</name>, là-deſſus, tréve de raillerie ,</l>
+                            <l>Très ſérieuſement je répons de <name type="person" n="Julie">Julie</name> ;</l>
+                            <l>Je ſçai qu'elle a déjà de l'eſtime pour lui,</l>
+                            <l>Que ne ſuis-je, du Comte, auſſi ſûre aujourd'hui !</l>
+                            <l>Je crains ſur le portrait que m'en a fait ma Mere.</l>
+                            <l>Pour déſarmer ſon cœur, parlez, qu'allons-nous faire ?</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Rien. Vos efforts unis ne ſçauroient le dompter.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh ! jamais ſelon vous, on ne doit rien tenter.</l>
+                            <l>Quand la foudre menace, il faut courber ſa tête ,</l>
+                            <l>Et, les deux bras  croiſés, attendre la tempête :</l>
+                            <l>Mais votre exemple ici ne peut m'intimider.</l>
+                            <l>J'imagine un moyen que je veux hazarder ;</l>
+                            <l>C'eſt de mettre au plûtôt , dans votre confidence ,</l>
+                            <l part="I">Ma Mere adroitement.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Quelle eſt votre imprudence !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous ne pouviez trouver un moyen plus heureux.</l>
+                            <l>La paix a toujours fait le ſujet de ſes vœux.</l>
+                            <l>Elle a, pour raprocher le cœur de ſes deux Freres ,</l>
+                            <l>Employé conſtamment tous ſes efforts ſincères ;</l>
+                            <l>Et dans leurs démêlés, eu le don peu commun</l>
+                            <l>D'être chère à tous deux ſans en trahir aucun.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je compte réuſſir</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je ſuis ſûr du contraire.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Clitandre">Clitandre</name>.</hi></stage><lb/>
+                            <l>Repoſez vous ſur moi, je gagnerai ma Mere ;</l>
+                            <l>Votre Pere l'écoute, elle le fléchira.</l>
+                        </sp>
+                        <pb n="88"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Jamais, Mademoiſelle, elle ne le vaincra.</l>
+                            <l>Fera-t'elle par l'art de deux ou trois journées ,</l>
+                            <l>Ce que n'a pû l'effort de plus de vingt années ?</l>
+                            <l>Vous bravez le danger, je vous le fais ſentir.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, ſans donner jamais les moyens de le fuir.</l>
+                            <l>Dans tous les incidens que le ſort nous ſuſcite ,</l>
+                            <l>Vous voyez le revers, jamais la réuſſite ;</l>
+                            <l>Elle paroît toujours impoſſible à vos yeux.</l>
+                            <l>Vous n'avez de la foi qu'aux ſuccès malheureux.</l>
+                            <l part="I">J'entens ma Mere, allez...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je ſors plein d'aſſûrance.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je pars plus amoureux, mais j'ai moins d'eſpérance.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="4">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA BARONNE<pc>,</pc> HORTENSE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">Q</c>U'avez vous donc ma Fille, &amp; pourquoi ſoupirer ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je voudrois... Mais je crains de vous le déclarer.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Parlez, que craignez-vous ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je crains votre reproche.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Verriez-vous en tremblant votre hymen qui s'aproche?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mais...</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Mais , expliquez-vous.</l>
+                        </sp>
+                        <pb n="89"/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Il m'allarme en effet.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Auriez-vous pour l'hymen quelque dégoût ſecret ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne dis pas cela, ma mere. Mais <name type="person" n="Clitandre">Clitandre</name>...</l>
+                            <l part="I">J'ai peur de vous fâcher.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, je veux tout aprendre.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Puiſqu'il faut découvrir mon apréhenſion ,</l>
+                            <l><name type="person" n="Clitandre">Clitandre</name> n'a pour moi nulle inclination.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Ce nœud la formera.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, il n'eſt pas poſſible.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Pourquoi ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Son cœur y met un obſtacle invincible.</l>
+                            <l>Du courroux de ſon pere il n'a point hérité.</l>
+                            <l>Les charmes de <name type="person" n="Julie">Julie</name> ont ſoumis ſa fierté.</l>
+                            <l part="I">Il en eſt très épris.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ma ſurpriſe eſt extrême !</l>
+                            <l part="I">De qui le ſçavez-vous ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je le ſçai de lui-même.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je ſuis dans l'embarras.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais dans un cas pareil ,</l>
+                            <l>Si vous vouliez, ma mere, écouter mon conſeil ;</l>
+                            <l>De tout raccommoder il vous ſeroit facile.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Voyons, je le ſuivrai, s'il me paroît utile.</l>
+                        </sp>
+                        <pb n="90"/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pour le bien de la choſe, il faudroit ſimplement,</l>
+                            <l>De notre double hymen changer l'arrangement.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qu'entendez-vous par là? J'ai peine à vous comprendre</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais vous pourriez unir <name type="person" n="Julie">Julie</name> avec <name type="person" n="Clitandre">Clitandre</name> ;</l>
+                            <l part="I">Et <name type="person" n="Dorante">Dorante</name>....</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">J'entens ; je vous le donnerois.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pour le bonheur commun je me ſacrifierois.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">L'effort eſt noble &amp; grand. L'aimez-vous ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, ma mere</l>
+                            <l>Mais il m'eſtime fort, &amp; je le conſidére.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vos lumiéres, vraiment, éclairent mon eſprit ;</l>
+                            <l>Et comme je le dois, j'en ferai mon profit.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ce que je vous en dis, &amp; vous devez m'en croire,</l>
+                            <l>Eſt pour mon intérêt moins que pour votre gloire.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Oh, je le crois.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><name type="person" n="Julie">Julie</name> épouſant mon couſin,</l>
+                            <l>A tous les différends mettroit pour jamais fin.</l>
+                            <l>Je ſonge en même-tems qu'une union ſi ſage ,</l>
+                            <l>De vos prudentes mains ſeroit l'heureux ouvrage?</l>
+                            <l>Ces nœuds où l'on verroit briller votre bon cœur,</l>
+                            <l>Vous feroient dans le monde infiniment d'honneur</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Le ſoin que vous prenez de ma gloire, m'enchante.</l>
+                            <l>C'eſt vraiment un tréſor qu'une fille prudente.</l>
+                            <l>Ce conſeil eſt par moi d'autant plus admiré ,</l>
+                            <l>Qu'un motif généreux vous l'a ſeul inſpiré.</l>
+                            <pb n="91"/>
+                            <l>Vos avis déſormais régleront ma conduite ,</l>
+                            <l>Et je rendrai juſtice à tout votre mérite.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma mere, parlez-vous bien ſérieuſement ?</l>
+                            <l part="I">Et puis-je me flatter ?</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">N'en doutez nullement.</l>
+                            <l>Allez, &amp; de la part, avertiſſez <name type="person" n="Clitandre">Clitandre</name> ;</l>
+                            <l>Je prétens ſans témoins lui parler, &amp; l'entendre ;</l>
+                            <l>Lui même il m'aprendra ſes ſentimens ſecrets ;</l>
+                            <l>Et de vous conſulter j'aurai l'honneur après.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                            <l>Le diſcours de ma mere eſt aſſez équivoque ,</l>
+                            <l>Et de moi, dans le fond je crois qu'elle ſe moque.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">M</c>a fille a prétendu me ſurprendre, &amp; j'en ris.</l>
+                            <l>Je ne formerai point de nœuds mal aſſortis.</l>
+                            <l>Je veux que ma bonté pour elle &amp; pour <name type="person" n="Julie">Julie</name>,</l>
+                            <l>Aille plus loin encore que ſon étourderie.</l>
+                            <l><name type="person" n="Clitandre">Clitandre</name>... Mais, il vient, &amp; ſon ſort m'attendrit.</l>
+                            <l>Sur moi les malheureux ont le premier crédit.</l>
+                        </sp>
+                    </div3>
+                    <pb n="92"/>
+                    <div3 type="scene" n="6">
+                        <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> LA BARONNE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">M</c>On frere eſt en chemin, il vient de me l'écrire.</l>
+                            <l>Monſieur, voici ſa lettre, &amp; je dois vous la lire.</l>
+                            <lb/><stage><hi rend="italic">Elle lit.</hi></stage><lb/>
+                            <p><hi rend="italic">Je prens la poſte au moment où je vous écris, pour 
+                                <lb/> unir <name type="person" n="Clitandre">Clitandre</name> à votre fille. Je compte que ce mariage 
+                                <lb/> ſera d'autant plus avantageux pour elle , que je vais 
+                                <lb/> inceſſamment rentrer d<sic> </sic><corr>a</corr>ns la poſſeſſion des biens dont on 
+                                <lb/> m'avoit injuſtement privé. Mon fils a heureuſement entre 
+                                <lb/> ſes mains les Titres qui prouvent inconteſtablement que 
+                                <lb/> ces biens me ſont ſubſtitués, &amp; que mon pere,par conſé-
+                                <lb/>quent , n'a pû les donner à mon frere à mon préjudice. 
+                                <lb/> Mon ſort n'eſt plus douteux, &amp; je ſuis rétabli dans mes 
+                                <lb/> droits ſans le ſecours des Juges.</hi></p>
+                            <lb/><stage type="mixed"><hi rend="italic">à <name type="person" n="Clitandre">Clitandre</name> après avoir lû.)</hi></stage><lb/>
+                            <l>Vous voilà conſterné. Parlez en cet inſtant ;</l>
+                            <l>Pourquoi donc ce Billet vous afflige-t'il tant ?</l>
+                            <l>J'attendois de la joye, &amp; non de la triſteſſe.</l>
+                            <l>Plaindriez-vous , Monſieur , le deſtin de ma niéce ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, je crains ſa ruine , elle fait ma douleur ,</l>
+                            <l>Et je mourrai plûtôt que d'en être l'auteur.</l>
+                            <l>Des cruautés des ſiens elle n'eſt point coupable :</l>
+                            <l>Ses charmes, ſes vertus, ſon caractére aimable ,</l>
+                            <l>Tout parle en ſa faveur, &amp; mon juſte chagrin....</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous parlez en amant, beaucoup plus qu'en couſin.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il eſt vrai, puiſqu'il faut vous découvrir mon ame ,</l>
+                            <l>Pour elle je reſſens la plus ardente flâme.</l>
+                            <pb n="93"/>
+                            <l>Votre cœur offenſé par un ſi libre aveu ,</l>
+                            <l part="I">Peut-être blâmera l'ardeur....</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, mon neveu.</l>
+                            <l>Quoiqu'un pareil aveu ait lieu de me ſurprendre,</l>
+                            <l>Et qu'il m'ôte l'eſpoir de vous avoir pour gendre ;</l>
+                            <l>Mon intérêt doit être écouté le dernier ;</l>
+                            <l>Et mon cœur à vos feux veut tout ſacrifier.</l>
+                            <l>Je vous dirai bien plus, vous m'en voyez ravie.</l>
+                            <l>Cet amour dès long-tems, fait ma plus chére envie.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Puiſque vous l'aprouvez, daignez le protéger.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La paix, le bien commun, tout m'y doit obliger.</l>
+                            <l>Si je puis parvenir à vous donner <name type="person" n="Julie">Julie</name>,</l>
+                            <l>L'union par ce nœud ſe verra rétablie.</l>
+                            <l>Cette gloire me flatte , &amp; le plus grand des biens ,</l>
+                            <l>Eſt pour moi d'aſſurer celui de tous les miens.</l>
+                            <l>Je ne vous cache pas que mon frere m'allarme ;</l>
+                            <l>Son ame eſt endurcie, &amp; rien ne la déſarme.</l>
+                            <l>Mais je redoublerai près de lui mon effort,</l>
+                            <l>Adieu. Si ſon courroux eſt toujours le plus fort ,</l>
+                            <l>Vous trouverez du moins en moi, pendant ma vie,</l>
+                            <l>Tout l'apui d'une mere, &amp; les ſoins d'une amie.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="7">
+                        <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE </speaker>
+                            <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <l><c type="lettrine">Q</c>Uel excès de bonheur ! mes ſens ſont tranſportés,</l>
+                            <l>Ma ſurpriſe &amp; ma joye égalent ſes bontés.</l>
+                        </sp>
+                    </div3>
+                    <pb n="94"/>
+                    <div3 type="scene" n="8">
+                        <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>HORTENSE <pc>,</pc> CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">L</c>A curioſité près de vous me raméne.</l>
+                            <l part="I">Que vous a dit ma mere ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Elle entre dans ma peine ;</l>
+                            <l>Sa bonté, qui plus eſt , aprouve mon ardeur,</l>
+                            <l>Et doit près de mon pere agir en ma faveur.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Tout de bon!</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Le ſuccès ſurpaſſe mon attente.</l>
+                            <l>Vous aviez préparé ſon ame bienfaiſante;</l>
+                            <l>Et je crois vous devoir un bien ſi ſurprenant.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon art fait réuſſir tout ce qu'il entreprend.</l>
+                            <l>Je n'étois pas d'abord contente de ma mere ;</l>
+                            <l>Et l'air de ſes diſcours m'a paru peu ſincére.</l>
+                            <l>Mais je me ſuis trompée, &amp; ſon goût ſuit le mien.</l>
+                            <l>Elle ne peut mieux faire , &amp; je la conduis bien.</l>
+                            <l>Ai-je tort à préſent d'être ſi confiante ?</l>
+                            <l>Que j'aurai de plaiſir à confondre <name type="person" n="Dorante">Dorante</name> !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma couſine, voilà d'heureux commencemens.</l>
+                            <l part="I">Mais, <name type="person" n="Julie">Julie</name>....</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Eh bien, quoi ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">M'alarme en ces momens.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je vous ai<sic></sic><corr> </corr>déja dit que je répondrois d'elle.</l>
+                            <pb n="95"/>
+                            <l>Soyez ſûr du ſuccès, ſi-tôt que je m'en mêle.</l>
+                            <l>Vous pouvez hardiment lui déclarer vos feux.</l>
+                            <l>J'ai des preſſentimens qu'il ſeront très-heureux.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">J'ai lieu d'apréhender.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Votre crainte eſt blâmable.</l>
+                            <l>C'eſt mon jour de raiſon, je dois être croyable.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Du diſcours de tantôt mon cœur eſt agité.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh, vous l'avez, Monſieur, fort mal interprêté ;</l>
+                            <l>Et je viens de parler à <name type="person" n="Julie">Julie</name> elle-même.</l>
+                            <l>Vou lui faites, dit-elle, une injuſtice extrême.</l>
+                            <l>Elle ne ſent pour vous ni haine, ni mépris ;</l>
+                            <l>Rien n'eſt plus vrai, Monſieur, que ce que je vous dis.</l>
+                            <l part="I">Je la vois qui revient.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="9">
+                        <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
+                        <stage>HORTENSE <pc>,</pc> CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><c type="lettrine">A</c>prochez, ma couſine.</l>
+                            <l>Je ne puis détromper <name>Clitandre</name>, qui s'obstine</l>
+                            <l>A penser, malgré moi, que vous le haïssez.</l>
+                            <l part="I">Détruiſez son erreur.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mais vous m'enbarraſſez,</l>
+                            <l part="I">Je ne ſçai que répondre.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Et je ne ſçai que croire.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>De votre réunion je veux avoir la gloire.</l>
+                            <pb n="96"/>
+                            <l>Pour la mieux affermir, <name type="person" n="Julie">Julie</name>, en cet inſtant</l>
+                            <l>Monſieur doit vous aprendre un ſecret important.</l>
+                            <l>Je ne badine point , l'affaire eſt des plus graves ,</l>
+                            <l>Songez que de vos vœux nous ſommes tous eſclaves.</l>
+                            <l>Dans vos mains ſont remis nos communs intérêts ;</l>
+                            <l>Vous pouvez d'un ſeul mot décider de la paix ;</l>
+                            <l>Et de notre deſtin arbitre ſouveraine ,</l>
+                            <l>Eteindre ou conſacrer le flambeau de la haine.</l>
+                            <l part="I">Adieu.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="10">
+                        <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
+                        <stage>JULIE <pc>,</pc>CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">M</c>Ais ce diſcours , m'étonne &amp; m'interdit ,</l>
+                            <l>Je n'en puis concevoir le motif ni l'eſprit.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Daignez dans ce moment, daignez , belle <name type="person" n="Julie">Julie</name> ,</l>
+                            <l>Tourner les yeux vers moi , vous ſerez éclaircie.</l>
+                            <l>Dans mon air ſupliant, dans mon trouble expreſſif ,</l>
+                            <l>De ce même diſcours vous tirez le motif :</l>
+                            <l>Et pour vous l'expliquer tout eſt d'intelligence ,</l>
+                            <l>Tout vous dit mon ſecret, juſques à mon ſilence.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon ame juſqu'ici n'a pû le pénétrer.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Paroître devant vous, c'eſt vous le déclarer.</l>
+                            <l>Mon tranſport le dévoile, &amp; pour vous en inſtruire ,</l>
+                            <l>L'Amour dans mes regards a pris ſoin de l'écrire.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Qu'aprens-je ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Cet aveu révolte vos eſprits ,</l>
+                            <l>De l'avoir proféré , moi-même je frémis.</l>
+                            <pb n="97"/>
+                            <l>J'aurois caché mes feux malgré leur violence ;</l>
+                            <l>Mais mon malheur me force à rompre le ſilence.</l>
+                            <l>On prépare des nœuds dont gémit mon amour ,</l>
+                            <l>Pour les former , mon Pere arrive dans ce jour ,</l>
+                            <l>Et c'eſt le ſeul moment que j'ai pour vous le dire.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Chaque mot que j'entends ne ſert qu'à m'interdire.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Prononcés mon arrêt, je l'attends en tremblant.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je ne puis.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mon deſtin de vous ſeule dépend.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>De moi ! Vous m'étonnez, <name type="person" n="Clitandre">Clitandre</name>.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">De vous-même.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Puis-je croire ?</l><note resp="Loterie, Josephine">Erreur d'imprimeur, cette seconde partie de vers est notée en début de ligne.</note>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ou<sic>l</sic><corr>i</corr>, <name type="person" n="Julie">Julie</name> eſt mon juge ſuprême,</l>
+                            <l>L'excède de vos rigueurs, ou de votre bonté ,</l>
+                            <l>Va faire mon malheur, ou ma félicité.</l>
+                            <l>Votre haine eſt pour moi le coup le plus terrible ;</l>
+                            <l>Si j'en ſuis accablé, mon ſuplice eſt horrible.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>S'il faut pour châtiment que vous ſoyez haï ,</l>
+                            <l>Je ſens que dans ce jour vous ſerez mal puni.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Quoi, votre cœur  pour moi ne reſſent nulle haine :</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non , il a trop ſouffert d'une guerre inhumaine.</l>
+                            <l>Ce cœur qui vous eſtime, &amp; qui vous eſt uni ,</l>
+                            <l>Voit en vous un parent &amp; non un ennemi.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon bonheur eſt trop doux, mais il ſeroit extrême,</l>
+                            <l>Si votre ame y pouvoit voir un Amant qu'elle aime.</l>
+                        </sp>
+                        <pb n="98"/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Avoir ſans nul courroux écouté votre feu ,</l>
+                            <l>Eh! N'eſt-ce pas du mien vous avoir fait l'aveu ?</l>
+                            <l>Une autre eût fait paroître une fierté contrainte :</l>
+                            <l>Mais mon ame ſincére abhorre en tout la feinte ;</l>
+                            <l>Et quand l'amour eſt pur , on ne doit point rougir ,</l>
+                            <l>Ni de le déclarer , nI de le reſſentir</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Dieux ! Quel raviſſement, &amp; quel comble de gloire !</l>
+                            <l>Je ne puis l'exprimer, &amp; j'ai peine à le croire.</l>
+                            <l>Nos cœurs heureuſement ſe font donc rencontrés ?</l>
+                            <l>Le Ciel, pour les unir , les avoit préparés.</l>
+                            <l>Dès le premier abord vos regards m'enchantérent.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Et dès le premier jour les vôtres me touchérent.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>L'hymen d'<name type="person" n="Hortense">Hortenſe</name> alors me remplit de frayeur.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante">Dorante</name> me jetta dans la même terreur.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon cœur jura de fuir un nœud ſi redoutable.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Et le mien en ſecret fit un ſerment ſemblable.</l>
+                            <l>Sur votre Hymen tantôt quand vous m'avez parlé,</l>
+                            <l>Malgré moi, devant vous, mon cœur s'eſt décelé.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qu'avantageuſement vous détrompez ma flâme !</l>
+                            <l>Ce qui faiſoit ma peur , charme a preſent mon ame.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Heureuſe ſympathie !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Accord plein de douceur,</l>
+                            <l>Qui d'une paix prochaine eſt le garant flâteur !</l>
+                            <l><name type="person" n="Julie">Julie</name> à mon deſir ne fera point contraire.</l>
+                        </sp>
+                        <sp who="Julie"><note resp="Loterie, Josephine">Il est noté qu'il s'agit d'une réplique de Julie, mais ce serait plutôt la suite de la réplique de Clitandre.</note>
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plût au Ciel qu'il n'eût pas plus à craindre d'un Pere !</l>
+                            <l>Je ne puis y penſer qu'avec frémiſſement.</l>
+                            <pb n="99"/><note resp="Loterie, Josephine">Erreur d'imprimeur, page numérotée 89 au lieu de 99/</note>
+                            <l>Ah ! n'empoiſonnés point un inſtant ſi charmant;</l>
+                            <l>Ne livrons nos eſprits qu'à la ſeule eſpérance.</l>
+                            <l>Vos charmes ſouverains , le tems, notre conſtance ;</l>
+                            <l>La Baronne &amp; ſes ſoins triompheront de lui.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Rentrons, je vais moi-même implorer ſon apui.</l>
+                            <l>Puiſſe-t'elle fléchir le courroux qui l'entraîne.</l>
+                            <l>Eh ! Le cœur des Parens eſt-il fait pour la haine ;</l>
+                            <l>Peut-elle ſi long-tems y faire ſon ſéjour ?</l>
+                            <l>Je ſens trop par le mien qu'il eſt né pour l'Amour.</l>
+                        </sp>
+                        <p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
+                    </div3>
+                </div2>
+                <pb n="100"/>
+                <div2 type="acte" n="2">
+                    <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">R</c>eſpirons. Mon ardeur n'eſt plus ſi malheureuſe :</l>
+                            <l>On n'aime, &amp; j'ai pour moi ma Tante généreuſe.</l>
+                            <l>Je viens de lui parler ; grace à ſa bonté ,</l>
+                            <l>L'eſpérance renaît dans mon cœur enchanté.</l>
+                            <l>Cher <name type="person" n="Clitandre">Clitandre</name>, avec vous, quoi, je ſerois unie,</l>
+                            <l>Et nous étoufferions la diſcorde ennemie !</l>
+                            <l>Par l'Hymen &amp; l'Amour tous nos jours enchaînés,</l>
+                            <l>Dans le ſein de la paix couleroient fortunés ,</l>
+                            <l>Et j'aurois le bonheur de fléchir votre Pere <unclear>!</unclear></l>
+                            <l>Où vais-je m'égarer ? Et qu'eſt-ce que j'eſpére ?</l>
+                            <l>Pour oſer me flâter d'un bien ſi ſéducteur ,</l>
+                            <l>Sans l'avoir jamais vû, je connois trop ſon cœur.</l>
+                            <l>Je ſçai que du Marquis il pourſuit la famille :</l>
+                            <l>Il déteſtoit le Pere, il doit haïr la fille.</l>
+                            <l>Mais quel eſt ce Vieillard ? Qu'il a l'air impoſant !</l>
+                            <l>Je me ſens pénétrer de crainte en le voyant.</l>
+                        </sp>
+                    </div3>
+                    <pb n="101"/>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LE COMTE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE </speaker>
+                            <stage><hi rend="italic">ſans voir <name type="person" n="Julie">Julie</name>.</hi></stage><lb/>
+                            <l><c type="lettrine">E</c>nfin, après dix jours de fatigue &amp; de peines,</l>
+                            <l>Ma courſe eſt terminée, &amp; me voilà dans <name type="place" n="Rennes">Rennes</name>,</l>
+                            <l>Où mon eſprit doit être à tous égards content.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Dieu! Ne ſeroit-ce pas mon Oncle qu'on attend?</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE </speaker>
+                            <stage><hi rend="italic">ſans voir <name type="person" n="Julie">Julie</name>.</hi></stage><lb/>
+                            <l>Je brûle de revoir dans mon impatience</l>
+                            <l>La Baronne ma Sœur, après douze ans d'abſence.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>La Baronne ſa Sœur! Ah ! Je n'en doute plus.</l>
+                            <l>Ces mots comblent l'effroi de mes ſens éperdus.</l>
+                            <l part="I">C'eſt le Comte.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE </speaker>
+                            <stage type="mixed"><hi rend="italic">à part apercevant <name type="person" n="Julie">Julie</name>.</hi></stage><lb/>
+                            <l part="F">Quelle eſt cette jeune perſonne ?</l>
+                            <l>Sa douceur me prévient, &amp; ſa beauté m'étonne.</l>
+                            <l>Il faut que ce ſoit-là la fille de ma Sœur ;</l>
+                            <l>Certain air de famille en aſſure mon cœur;</l>
+                            <l>Et pour ne pas l'en croire, il frape trop ma vûe.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Plus il m'obſerve, &amp; plus je ſens mon ame émûe ;</l>
+                            <l>Son regard cependant n'eſt pas d'un ennemi.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Parlons-lui, pour me voir dans ma joye affermi.</l>
+                            <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                            <l>Ne me trompai-je point, en vous croyant ma Niéce ?</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage><hi rend="italic">d'un air tr<sic>o</sic><corr>e</corr>mblante.</hi></stage><lb/>
+                            <l part="I">Oui, Monſieur, je la ſuis.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE </speaker>
+                            <stage type="business"><hi rend="italic">l'embraſſant.</hi></stage><lb/>
+                            <l>Mon cœur plein de tendreſſe</l>
+                            <pb n="102"/>
+                            <l>Ne s'étoit pas mépris dans ſon preſſentiment.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Pardonnés, mais mon ame eſt dans l'étonnement.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous étiez dans l'enfance à mon dernier voyage.</l>
+                            <l>Quel air doux &amp; modeſte! Il a tant d'avantage,</l>
+                            <l>Qu'il me fait oublier tout mon reſſentiment ,</l>
+                            <l>Et me fait ſouhaiter de vous voir promptement</l>
+                            <l>Changer le nom de Niéce en celui de ma fille.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Quel bonheur !</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Il ſera plus grand pour ma famille,</l>
+                            <l><name type="person" n="Clitandre">Clitandre</name> vous a vûe, il doit preſſer ces nœuds,</l>
+                            <l>Et de vous poſſéder il ſera trop heureux.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je ne puis exprimer ma joye.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Adieu, ma Niéce.</l>
+                            <l>Pour embraſſe ma Sœur un inſtant je vous laiſſe ;</l>
+                            <l>Je vais lui faire part de mon raviſſement,</l>
+                            <l>Et de votre hymenée avancer le moment.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <l><c type="lettrine">Q</c>Uel heureux changement ! Dieu ! j'ai peine à le <lb/> croire.</l>
+                            <l>Sans combattre je viens d'obtenir la victoire ,</l>
+                            <l>Et le cœur de mon Oncle a prévenu le mien.</l>
+                            <l>Ma tante, j'en ſuis ſûre, eſt l'Auteur d'un tel bien,</l>
+                            <l>Il faut qu'elle ait écrit en ſecret à ſon frere :</l>
+                            <l>Ses Lettres ont eu l'art de vaincre ſa colére,</l>
+                            <l>Elles ont diſpoſé ſon ame en ma faveur ,</l>
+                            <l>Et je leur dois ſans doute un acueil ſi flâteur,</l>
+                        </sp>
+                    </div3>
+                    <pb n="103"/>
+                    <div3 type="scene" n="4">
+                        <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">A</c>H! <name type="person" n="Clitandre">Clitandre</name>, je ſuis au comble de la joye.</l>
+                            <l>Rien n'eſt égal au bien que le Ciel nous envoye.</l>
+                            <l>Votre Pere....</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Achevés !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">M'a vûe, en arrivant.</l>
+                            <l>Loin de me témoigner ſa haine en m'abordant ,</l>
+                            <l>Il a fait éclater la plus vive tendreſſe,</l>
+                            <l>Dès que j'ai, devant lui, dit que j'étois ſa Niéce ,</l>
+                            <l>Il eſt prêt à combler nos deſirs les plus doux,</l>
+                            <l>Et veut que ſans délai vous ſoyez mon époux.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qu'entens-je! A nos deſirs il ne met plus d'obſtacle?</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Non, <name type="person" n="Clitandre">Clitandre</name>.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Vos yeux ont donc fait ce miracle,</l>
+                            <l>Par un charme ſecret ils ont, en un moment,</l>
+                            <l>Vaincu toute l'aigreur de ſon reſſentiment.</l>
+                            <l>Mais tout leur eſt poſſible, &amp; je ſens par moi-même ?</l>
+                            <l>Qu'il n'eſt rien qui réſiſte à leur douceur extrême.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ma Tante, la premiére, a préparé ſon cœur.</l>
+                            <l part="I">Sa bonté...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, cous ſeule en avez tout l'honneur.</l>
+                            <l>De vos premiers regards la force enchantereſſe ,</l>
+                            <l>A , dans le ſein du fils , allumé la tendreſſe ;</l>
+                            <pb n="104"/>
+                            <l>Il n'eſt pas étonnant que leur pouvoir vainqueur</l>
+                            <l>Ait, dans l'ame du Pere , étouffé la fureur.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je n'ai pas cet orgueil. Mais on vient, c'eſt <name type="person" n="Dorante">Dorante</name> :</l>
+                            <l>Je vous laiſſe, &amp; je vais remercier ma Tante.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante"><c type="lettrine">D</c>Orante</name>,approches, viens, partage mon tranſport?</l>
+                            <l>Un inſtant a changé ma fortune &amp; ton ſort.</l>
+                            <l>Nous allons être heureux contre ton eſpérance.</l>
+                            <l>J'épouſe enfin <name type="person" n="Julie">Julie</name>, &amp; l'on t'accorde <name type="person" n="Hortense">Hortenſe</name>.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Voilà des changemens...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, rien n'eſt plus certain.</l>
+                            <l>Tout conſpire à la fois à combler mon deſtin.</l>
+                            <l>D'abord, ce qui m'enchante &amp; qui va te <sic>&amp;</sic><corr></corr> ſurprendre,</l>
+                            <l><name type="person" n="Julie">Julie</name> a pour mes feux le retour le plus tendre.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je te reconnois-là, tu crois facilement.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt elle qui m'a fait un aveu ſi charmant ,</l>
+                            <l>Ma Tante en même-tems protége notre flâme.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>S'il eſt vrai... Mais <name type="person" n="Hortense">Hortenſe</name> aura déçu ton ame.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, ce que je te dis eſt dans la vérité;</l>
+                            <l>Et pour mettre le comble à ma félicité ,</l>
+                            <l>Mon pere eſt dans ces lieux, il vient de voir <name type="person" n="Julie">Julie</name> ;</l>
+                            <l>Et charmé d'elle, il veut qu'un même ſort nous lie.</l>
+                        </sp>
+                        <pb n="105"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton Pere a vû <name type="person" n="Julie">Julie</name> ? Il eſt prêt daprouver?...</l>
+                            <l>Tu te moques, <name type="person" n="Clitandre">Clitandre</name>, &amp; tu veux m'éprouver.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je dis vrai </l>
+                        </sp>    
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Quand tu veux compoſer une hiſtoire</l>
+                            <l>Rends-la plus vraiſemblble &amp; l'on pourra la croire.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">C'eſt un fait.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Tu diras tout ce que tu voudras,</l>
+                            <l>Je répondrai toujours : cela ne ſe peut pas.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Tu me pouſſes à bout, &amp; je perds patience.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh ! Je la perds auſſi. Contre tout aparance ;</l>
+                            <l>Le moyen qu'on le croye, en une heure de tems,</l>
+                            <l>Tu plais à ta ouſine en depit du bon ſens ;</l>
+                            <l>Tu retournes l'eſprit d'une Tante ſenſée ;</l>
+                            <l>Elle devient l'appui d'une ardeur déplacée ;</l>
+                            <l>Et par un trait encore incroyable à nos yeux,</l>
+                            <l>Tu ſubjugues le cœur d'une pere furieux.</l>
+                            <l>Un inſtant déracine une haine envieillie,</l>
+                            <l>Que dans tous ſes replis vingt an ont endurcie.</l>
+                            <l>On trouveroit, morbleu de pareils incidens</l>
+                            <l>Outrés dans un Roman, même des plus Romans.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais, bourreau, ce n'eſt point une fable inventée,</l>
+                            <l>C'eſt une vérité par <name type="person" n="Julie">Julie</name> atteſtée.</l>
+                            <l>Elle vient tout-à-l'heure, &amp;, dans ce même endroit,</l>
+                            <l part="I">De rencontrer mon Pere &amp; de lui parler.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Soit.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Accordes-tu ce point ? Car je veux te convaincre.</l>
+                        </sp>
+                        <pb n="106"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, mon eſprit n'eſt pas ſi difficile à vaincre :</l>
+                            <l>C'eſt l'incroyable ſeul dont il n'eſt pas d'accord.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il a paru charmé dès le premier abord.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Sa beauté l'a frapé. Je le croirois ſans peine.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt quelque choſe encore que ta bouche en convienne</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon intérêt me porte à te croire aujourd'hui.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Sois donc ſûr de l'accueil qu'elle a reçû de lui.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il eſt homme du monde, il ſe peut qu'à ſa Niéce,</l>
+                            <l>Par ſimple bienſéance, il ait fait politeſſe.</l>
+                            <l>Dans ſon ſexe une fille a toujours un apui ;</l>
+                            <l>On doit le reſpecter même étant ennemi.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il n'eſt pas queſtion d'égards, de bienſéance,</l>
+                            <l>Il s'agit que le Comte a fait en ſa preſence</l>
+                            <l>Eclater tout l'amour d'un parent attendri ,</l>
+                            <l>Et qu'il veut que je ſois au plûtôt ſon mari.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oh! voilà juſtement ce qui n'eſt pas croyable.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, cet homme eſt en tout mon fléau redoutable.</l>
+                            <l>Quand le ſort me menace, il m'ôte tout eſpoir ,</l>
+                            <l>Il ne m'annonce tien que de triſte &amp; de noir ;</l>
+                            <l>Et quand je ſuis heureux, il ne veut pas me croire ;</l>
+                            <l>Il traite mon bonheur de ridicule hiſtoire.</l>
+                            <l>Sortons ; je ſuis bien bon de perdre ici mon tems</l>
+                            <l part="I">A le perſuader !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="business"><hi rend="italic">l'arrêtant.</hi></stage><lb/>
+                            <l part="F">Mais calme un peu tes ſens.</l>
+                            <l>Dis-moi, de qui tiens-tu cette grande nouvelle ?</l>
+                        </sp>
+                        <pb n="107"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je la tiens de <name type="person" n="Julie">Julie</name>, &amp; ſors d'auprès d'elle.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Elle-même t'a dit que ton Pere y conſent ?</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Oui, <name type="person" n="Dorante">Dorante</name> éternel, ſa bouche en eſt garant;</l>
+                            <l>Pour la cinquiéme fois faut-il te le redire ?</l>
+                            <l>Mais viens voir les aprêts du nœud que je deſire , </l>
+                            <l part="I">Ils convaincront tes yeux.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage><hi rend="italic">d'un air froid.</hi></stage><lb/>
+                            <l part="F">Puiſque tu me le dis,</l>
+                            <l>Je n'objecte plus <sic>t</sic><corr>r</corr>ien, &amp; je m'en réjouis.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Si tu t'en réjouis, témoigne donc ta joye.</l>
+                            <l>D'un effroi malheureux ceſſe d'être la proye :</l>
+                            <l>De tes amis par-là tu troubles le bonheur,</l>
+                            <l>Tu détruis le tien même en altérant le leur.</l>
+                            <l>Si u ne parviens pas juſqu'à la confiance,</l>
+                            <l>Oſe livrer du moins ton ame à l'eſpérance.</l>
+                            <l>Goûte, goûte un plaiſir qui fait notre ſoutien ;</l>
+                            <l>Le plus doux eſt ſouvent dans l'attente du bien.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><name type="person" n="Dorante">Dorante</name> ne ſçauroit, d'une eſpérance vaine,</l>
+                            <l part="I">Se flatter comme un ſot.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ah ! La tienne eſt certaine.</l>
+                            <l>Mais fut-elle une erreur, &amp; l'erreur d'un inſtant,</l>
+                            <l>Ton cœur profiteroit toujours de ce moment,</l>
+                            <l>Et ce ſeroit autant de minutes volées,</l>
+                            <l>Aux craintes, aux terreurs dans ton ſein raſſemblée</l>
+                            <l>D'un chimérique bien l'eſpoir qui nous conduit</l>
+                            <l>Devient un vrai bonheur pendant qu'il nous ſéduit.</l>
+                            <l>Tous nos plaiſirs ne ſont qu'une heureuſe mépriſe;</l>
+                            <l>Notre opinion ſeule au fond les réaliſe ;</l>
+                            <l>Et j'aime mieux en ſot, être heureux deux inſtans,</l>
+                            <l>Que toujours miſérable en homme de bon ſens.</l>
+                        </sp>
+                        <pb n="108"/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Quelqu'agréablement qu'une erreur préoccupe,</l>
+                            <l>J'aurois un vrai regret ſi j'en étois la dupe.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Tu ne le ſeras pas dans cette occaſion,</l>
+                            <l><name type="person" n="Hortense">Hortenſe</name>, qui paroît, ſera ma caution,</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="6">
+                        <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
+                        <stage>HORTENSE <pc>,</pc> CLITANDRE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">V</c>enez pour achever de convaincre <name type="person" n="Dorante">Dorante</name> ,</l>
+                            <l>Car vous ſçavez,ſans<sic></sic><corr> </corr>doute,un bonheur qui m'enchante,</l>
+                            <l>Faiſons-le, de concert, rougir de ſes frayeurs.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je viens plûtôt augmenter ſes terreurs.</l>
+                            <l part="I">Tout eſt perdu.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ces mots excitent ma ſurpriſe.</l>
+                            <l part="I"><name type="person" n="Julie">Julie</name> a vû mon Pere...</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ah ! C'eſt une mépriſe.</l>
+                            <l part="I">Il l'a priſe pour moi.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Comment !</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">L'accueil flatteur</l>
+                            <l>Qu'elle a reçû de lui, venoit de cette erreur.</l>
+                            <l>Son ame en ce moment vient d'être détrompée,</l>
+                            <l>Comme d'un coup de foudre elle a paru frapée;</l>
+                            <l>Il a pali d'abord, enſuite il a frei ,</l>
+                            <l>Et repris par degré le front d'un ennemi.</l>
+                            <l>Son air 'a fait trembler ; vous m'en voyez émue,</l>
+                            <pb n="109"/>
+                            <l>D'autant plus qu'il veut voir nottre union conclue.</l>
+                            <l>J'ai ſenti ma gayté s'éteindre avec ma voix ,</l>
+                            <l>Et j'ai perdu l'eſpoir pour le premiére fois.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſuis pétrifié par ce revers terrible.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Eh bien, quand je t'ai dit qu'il étoit impoſſible</l>
+                            <l>Que ton pere aprouvât ton hymen prétendu,</l>
+                            <l>Dans mon opinion je m'étois donc déçû?</l>
+                            <l>Plains-toi préſentement que je ſuis intraitable,</l>
+                            <l>Et qu'à mes yeux toujours le bien eſt incroyable.</l>
+                            <l>Je pourrois, à mon tour, avec plus d'équité,</l>
+                            <l>Te reprocher l'excès de ta crédulité.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qui pouvoit ſe douter d'une telle diſgrace ?</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Un autre en auroit fait fait tout autant à ſa place.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Moi, je ne donne pas dans de pareils panneaux.</l>
+                            <l>Et j'ai trop de bons yeux pour jamais croire à faux.</l>
+                            <l part="I">Le Comte m'eſt connu.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">J'ai cru que pour <name type="person" n="Julie">Julie</name>,</l>
+                            <l>Le ſang avoit parlé dans ſon ame attendrie.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Je le penſois auſſi.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Fauſſes préventions !</l>
+                            <l>Que diroit la Nature en ces occaſions ?</l>
+                            <l>Les bons procédés ſeuls de la part de nos proches</l>
+                            <l>Leur conduite envers nous, exempte de reproches,</l>
+                            <l>Ont le droit ſouverain de parler à nos cœurs.</l>
+                            <l>De <name type="person" n="Julie">Julie</name>, un moment, les charmes ſéducteurs,</l>
+                            <l>Ont pû fraper les yeux &amp; l'ame de ton Pere;</l>
+                            <l>Mais c'étoit-là l'effet d'une erreur paſſagére,</l>
+                            <l>Et ſon courroux repris en la reconnoiſſant,</l>
+                            <l>Suffit pour nous prouver la chimére du ſang.</l>
+                        </sp>
+                        <pb n="110"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non rien ne pourra plus déſarmer ſa colére.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTEN<sic>C</sic><corr>C</corr>E<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous devez en trembler , puiſque j'en deſeſpére.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Votre crainte à preſent ſurpaſſe mon effroi,</l>
+                            <l>Et je vous vois tous les deux plus abattus que moi.</l>
+                            <l>Voilà ce que produit le trop de confiance ,</l>
+                            <l>Vous vous êtes flattés d'une vaine eſpérance;</l>
+                            <l>Elle enyvroit vos ſens &amp; ſes fauſſes douceurs,</l>
+                            <l>Du coup qui la détruit, augente les horreurs.</l>
+                            <l>D'une félicité qu'on croyoit peu commune,</l>
+                            <l>Il eſt dur de paſſer au ſein de l'infortune.</l>
+                            <l>Ces inſtans de plaiſir que tu me vantois tant,</l>
+                            <l>Par un cruel retour, ſont payés chérement.</l>
+                            <l>Ils ne m'ont pas ſéduit. J'ai ſur toit l'avantage ;</l>
+                            <l>J'ai ſçû, par ma raiſon, affermir mon courage ;</l>
+                            <l>J'ai prévû mon malheur, j'en ſuis moins effrayé :</l>
+                            <l>Un revers attendu ne frape qu'à moitié.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ceſſe de m'accabler par un diſcours ſemblable !</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <l><name type="person" n="Dorante">Dorante</name> qui me perd n'eſt pas inconſolable !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah! Je le ſuis autant que peut l'être un amant.</l>
+                            <l>Mon déſeſpoir n'a pas attendu ce moment;</l>
+                            <l>Depuis un mois entier il éclate ſans ceſſe,</l>
+                            <l>Et j'en cache à préſent la moitié par tendreſſe.</l>
+                            <l>Je tremble plus qu'un autre avant le coup affreux ;</l>
+                            <l>Mais quand il eſt porté, je deviens courageux :</l>
+                            <l>Loin de vouloir, <name type="person" n="Clitandre">Clitandre</name>, inſulter à ta peine,</l>
+                            <l>Ma fermeté plûtôt veut ſoutenir la tienne.</l>
+                            <l>Nous pouvons défier les deſtins ennemis,</l>
+                            <l>Quoique leur couroux tente, il ne peut faire pis;</l>
+                            <l>Et grace au trait fatal qui vient de nous détruire ,</l>
+                            <l>Le tems peut nous ſervir, &amp; ne ſçauroit nous nuire.</l>
+                        </sp>
+                        <pb n="111"/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Au même point que moi tu n'es pas malheureux ,</l>
+                            <l>Vous fléchirez pour vous, la Baronne, tous deux.</l>
+                            <l>Mais qui vaincra pour moi mon Pere inexorable !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Que ſçait-on? Il ne faut qu'un inſtant favorable.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Tu nous parlois tantôt ſur un différent ton.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Parce que vous étiez ſortis de la raiſon.</l>
+                            <l>Aveugles dans l'eſpoir, foibles dans la diſgrace,</l>
+                            <l>Le premier vous égare, &amp; l'autre vous terraſſe.</l>
+                            <l>Je tâche d'éviter ces dangereux excès :</l>
+                            <l>Rien ne peut m'éblouir ni m'abattre jamais.</l>
+                            <l>Des plus grands biens les maux ſont quelquefois les <lb/> ſources,</l>
+                            <l>Et l'extrême malheur eſt pere des reſſources.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Des reſſources! Ce mot ranime ſeul mon cœur.</l>
+                            <l part="I">Ma Mere, par mes ſoins...</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Secours foible &amp; trompeur !</l>
+                            <l>La Baronne, ſans doute, a beaucoup de prudence,</l>
+                            <l>De monde, de bonté, d'eſprit, d'expérience,</l>
+                            <l>Mais elle aporte en tout trop de ménagement,</l>
+                            <l>Et , pour le Comte, il faut fraper plus fortement.</l>
+                            <l>La douceur, près de lui, n'eſt qu'un foible amorce,</l>
+                            <l>Et c'eſt par la vigueur qu'on peut vaincre la force.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Qui l'oſera tenter ? Le coup eſt hazardeux : </l>
+                            <l>Ma Mere a le droit ſeul... Mais ils viennent tous deux,</l>
+                            <l part="I">Ils parlent vivement.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Mon Pere eſt infléxible,</l>
+                            <l>Et je lis mon arrêt dans ſon regard terible.</l>
+                        </sp>
+                    </div3>
+                    <pb n="112"/>
+                    <div3 type="scene" n="7">
+                        <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LE COMTE <pc>,</pc> LA BARONNE<pc>,</pc> HORTENSE<pc>,</pc>
+                            <lb/> CLITANDRE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I"><c type="lettrine">M</c>On Frere, écoutez-moi.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Vos ſoins ſont ſuperflus,</l>
+                            <l>Rien ne pourra jamais me fléchir là-deſſus ;</l>
+                            <l part="I">Vous me connoiſſez trop.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Quoi! votre ame peut-elle</l>
+                            <l>Aux volontés du Ciel, être à ce point rebellle ?</l>
+                            <l>Peut-elle rejetter un accommodément,</l>
+                            <l>Qu'à préparé ſa main dans cette heureux moment?</l>
+                            <l>Pour rétablir les droits de l'union bannie ,</l>
+                            <l>Le Ciel, à haute voix, vient d'élire <name type="person" n="Julie">Julie</name>,</l>
+                            <l>Et c'eſt lui qui 'loffrant la premiére à vos yeux,</l>
+                            <l>Pour changer votre cœur , l'a co<sic>u</sic><corr>n</corr>duite en ces lieux.</l>
+                            <l>Votre ame s'eſt émus en la voyant paroître,</l>
+                            <l>Et vous l'avez aimée avant de la connoître.</l>
+                            <l>Voudriez-vous du ſang démentant le retour ,</l>
+                            <l>Pour reprendre la haine, éteindre cet amour,</l>
+                            <l>Sur elle apeſantir votre main rigoureuſe ,</l>
+                            <l>Et rendre pour jamais ſa deſtinée affreuſe?</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ſuis bien éloigné d'avoir ce ſentiment !</l>
+                            <l>Mon courroux n'agira jamais que noblement.</l>
+                            <l>Les titres recouvrés que mon Fils doit me rendre,</l>
+                            <l>De mes vœux abſolus vont la faire dépendre.</l>
+                            <l>Le bien de mes ayeux va rentrer dans mes mains ;</l>
+                            <l>Je vais être, à mon tour, maître de mes deſtins.</l>
+                            <l>Mais l'exemple des ſiens, auteurs de mes diſgraces,</l>
+                            <pb n="113"/>
+                            <l>Ne ſçauroit m'obliger à marcher ſur leurs traces.</l>
+                            <l>Je veux me rétablir ſans m'avilir comme eux.</l>
+                            <l>J'ai vécu trop long-tems au rang des malheureux,</l>
+                            <l>Pour me livrer jamais au noir plaiſir d'en faire ,</l>
+                            <l>Et je veux être humain juſques dans ma colére.</l>
+                            <l>Loin d'accabler <name type="person" n="Julie">Julie</name> en Tyran odieux,</l>
+                            <l>J'adoucirai ſon ſort même en fuyant ſes yeux.</l>
+                            <l>A rentrer dans mes droits je borne ma vengeance.</l>
+                            <l>Le devoir du vainqueur eſt toujours la clémence.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ne vous arrêtez pas au milieu du bienfait ,</l>
+                            <l>Mon frere, montrez-vous généreux tout-à-fait :</l>
+                            <l>Uniſſez dans ce jour <name type="person" n="Clitandre">Clitandre</name> avec <name type="person" n="Julie">Julie</name>,</l>
+                            <l>C'eſt un nœud néceſſaire, une chaîne aſſortie</l>
+                            <l>Pour ramener la paix, &amp;, dans notre maiſon,</l>
+                            <l>Eteindre un démêlé honteux à notre nom.</l>
+                            <l>Rendez-vous aux ſoupirs d'une ſœur qui vous aime,</l>
+                            <l>Un courroux ſi conſtant vous fait tort à vous-même ,</l>
+                            <l>Il n'a qué trop rempli votre eſprit irrité,</l>
+                            <l>Le Marquis, au tombeau, doit l'avoir emporté.</l>
+                            <l>Par le tems &amp; la mort il n'eſt rien qu'on n'oublie.</l>
+                            <l>Je voudrois l'étouffer aux dépens de ma vie :</l>
+                            <l>La nature &amp; le ſang vous parlent par ma voix ;</l>
+                            <l>Daignez les écouter, &amp; rentrer ſous leurs loix.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Les miens ſeuls ont aux pieds foulé ces loix ſacrées :</l>
+                            <l>Dans mes plus grands tranſports je les ai révérées.</l>
+                            <l>Je n'éclaterai point en procédés honteux :</l>
+                            <l>Mais je n'aurai jamais nul commerce avec eux.</l>
+                            <l>J'accorderai la paix, mais jamais d'alliance :</l>
+                            <l>De me vaincre en ce point perdez toute eſpérance.</l>
+                            <l>Et mon fils doit lui-même aplaudir mon deſſein.</l>
+                            <l>La guerre trop lon-tems a déchiré mon ſein,</l>
+                            <l>Et m'a rendu la vie agitée &amp; pénible ;</l>
+                            <l>J'en veux finir le cours dans un état paiſible,</l>
+                            <l>Ne voir devant mes yeux que des traits conſolans</l>
+                            <l>Dont l'aſpect adouciſſe en moi le poids des ans.</l>
+                            <pb n="114"/>
+                            <l>Je veux, ſur-tout, je veux mettre dans ma famille</l>
+                            <l>Un objet que je puiſſe aimer comme ma fille,</l>
+                            <l>Qui faſſe ma douceur &amp; mon ſouverain bien,</l>
+                            <l>Trouver dans ſa préſence &amp; dans ſon entretien ,</l>
+                            <l>Le repos deſiré, cette paix douce &amp; pure,</l>
+                            <l>Où je puiſe l'oubli <sic>n</sic><corr>d</corr>e ma ſanglante injure.</l>
+                            <l>Je le vois dans <name type="person" n="Hortense">Hortenſe</name>, &amp; je m'en aplaudis.</l>
+                            <l>Si mon cœur choiſiſſoit la fille du Marquis,</l>
+                            <l>Malgré les dons flateurs dont le Ciel l'a pourvue ,</l>
+                            <l>Elle retraceroit tous les jours à ma vûe</l>
+                            <l>L'image des affronts que ſes parens m'ont faits.</l>
+                            <l>Je croirois retrouver, malgré moi, dans ſes traits,</l>
+                            <l>Ceux q'un frere cruel dont elle tient la vie,</l>
+                            <l>E<sic>r</sic><corr>t</corr> j'y verrois par-là toujours une ennemie.</l>
+                            <l>Mon bonheur &amp; le ſien m'interdiſent ces nœuds ;</l>
+                            <l>Ils nous rendroient, ma ſœur, infortunés tous deux.</l>
+                            <l>Je ſignale en fuyant cette chaîne cruelle ,</l>
+                            <l>Moins mon reſſentiment que ma bonté pour elle.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, la haine toujours régne dans votre cœur ;</l>
+                            <l>Si vous le vouliez bien vous en ſeriez vainqueur.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ne me reprochez pas cette haine fatale,</l>
+                            <l>C'eſt un malheur pour moi que nul autre n'égale.</l>
+                            <l>On a contraint mon cœur de haïr malgré lui.</l>
+                            <l>Que dis-je? Dans le fond il n'a jamais haï,</l>
+                            <l>Il n'eſt que pénétré de ſa diſgrace horrible ;</l>
+                            <l>Plus il étoit né tendre, &amp; plus il eſt ſenſible.</l>
+                            <l>Au comble des douleurs on l'a fait parvenir,</l>
+                            <l>Et mon reſſentiment n'eſt qu'un dur ſouvenir</l>
+                            <l>Des maux où l'a plongé la cruauté d'un frere,</l>
+                            <l>Et dont j'ai vû ma ſœur ſoupirer la premiére.</l>
+                            <l>Je ne mérite pas d'être blâmé ni craint ;</l>
+                            <l>On m'a perſécuté, mon ſort doit être plaint.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Il l'eſt auſſi, mon frere, autant qu'il peut-être,</l>
+                            <l>Et vos malheurs fameux vous ont trop fait connoître.</l>
+                            <pb n="115"/>
+                            <l>D'une juſte pitié le monde eſt pénétré ;</l>
+                            <l>Mais c'eſt peu d'être plaint, il faut être admiré.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Ce n'eſt pas-là le ton.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Il faut, pour votre gloire,</l>
+                            <l>Obtenir ſur vous-même une entiére victoire.</l>
+                            <l>Que mes vœux redoublés, que ma vive douleur ,</l>
+                            <l>Hâtent, dans ce moment, ce triomphe flâteur !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Madame étale-là des ſentimens louables;</l>
+                            <l>On ne peut qu'aplaudir à des efforts ſemblables.</l>
+                            <l>Mais auprès de Monſieur il faut d'autres diſcours,</l>
+                            <l>Les ſoupirs &amp; les pleurs ſont un foible ſecours</l>
+                            <l>La force des raiſons ſeule a droit de le vaincre.</l>
+                            <l>J'oſe les employer, Monſieur, pour vous convaincre;</l>
+                            <l>Je vous dois, ſans détour, montrer la vérité,</l>
+                            <l>Et vous devez vous rendre à la ſincérité.</l>
+                            <l>Deux grands motifs auſquels vous n'avez rien à dire,</l>
+                            <l>S'opoſent au lien que votre ame deſire,</l>
+                            <l>Et vous forcent d'unir la fille du Marquis,</l>
+                            <l>Indiſpenſablement aux jours de votre fils.</l>
+                            <l>Monſieur, en quatre mots, puiſqu'il faut vous l'apren-<lb/>dre,</l>
+                            <l>Je brûle pour <name type="person" n="Hortense">Hortenſe</name>, &amp; le cœur de <name type="person" n="Clitandre">Clitandre</name></l>
+                            <l part="I">Eſt épris de <name type="person" n="Julie">Julie</name>.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Il l'aime !</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Eperdument.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Qu'oſe-t'il dire?</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ainſi vous voyez clairement...</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A ce diſcours fatal je prens ma colére.</l>
+                        </sp>
+                        <pb n="116"/>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l>Il renverſe d'un mot l'ouvrage de ma Mere.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Cet amour déteſté manquoit à mon malheur !</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Mon frere, c'eſt un bien, &amp; ſongez....</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>Le COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, ma ſœur ,</l>
+                            <l>C'eſt le plus grand fléau que mon ame eût à craindre,</l>
+                            <l>Et de vous-même ici, je dois, je dois me plaindre.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Calmez...</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je n'entends rien, &amp; je ſors furieux.</l>
+                            <l>Vous, mon fils, oubliez un objet odieux;</l>
+                            <l>Le nommer ſeulement c'eſt vous rendre coupable.</l>
+                            <l>J'ai prononcé l'arrêt : il eſt irrévocable.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE </speaker>
+                            <stage type="exit"><hi rend="italic">ſuivant le Comte.</hi></stage><lb/>
+                            <l part="I">Je ne vous quitte pas.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Que vais-je devenir !</l>
+                            <lb/><stage type="exit"><hi rend="italic">Il ſort déſeſperé.</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="8">
+                        <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
+                        <stage>DORANTE<pc>,</pc> HORTENSE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">C</c>Et homme eſt ſingulier ; je n'en puis revenir.</l>
+                        </sp>
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>La douceur près du Comte eſt un foible amorce ,</l>
+                            <l>Et c'eſt par la vigueur qu'on peut vaincre la force.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mais c'eſt ſans contredit : je devois l'emporter.</l>
+                        </sp>
+                        <pb n="117"/> 
+                        <sp who="Hortense">
+                            <speaker>HORTENSE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Allez, il vous ſied bien, Monſieur , de vous flatter.</l>
+                            <l>Votre franchiſe perd <name type="person" n="Clitandre">Clitandre</name> avec <name type="person" n="Julie">Julie</name> ,</l>
+                            <l>Et fais pis aujourd'hui que mon étourderie.</l>
+                            <lb/><stage type="exit"><hi rend="italic">( Elle ſort.)</hi></stage><lb/>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE </speaker>
+                            <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                            <l>Qu'<name type="person" n="Hortense">Hortenſe</name> me condamne autant qu'elle voudra ,</l>
+                            <l>Il n'eſt plus d'eſpérance après ce grand coup-là.</l>
+                        </sp>
+                        <p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>
+                    </div3>
+                </div2>
+                <pb n="118"/>
+                <div2 type="acte" n="3">
+                    <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
+                    <div3 type="scene" n="1">
+                        <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">N</c>ON, ne me parle plus, aprés ton imprudence,</l>
+                            <l>Mon déſeſpoir s'accroit par ta ſeule préſence ,</l>
+                            <l>Tu brouilles à la fois, par un funeſte avis,</l>
+                            <l>le frere avec la ſœur, le pere avec le fils ;</l>
+                            <l>Tu nuis en même-tems à ce que ton cœur aime;</l>
+                            <l>Tu révoltes ſa mere, &amp; te trahis toi-même;</l>
+                            <l>Tu perds <name>Julie</name>, &amp; rends ſon malheur accompli,</l>
+                            <l>Et tu portes la mort dans le ſein d'un ami.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je ne ſuis pas l'auteur du malheur qui t'accable,</l>
+                            <l>Mon cœur, s'il étoit vrai, ſeroit inconſolable.</l>
+                            <l>Tout l'art de la Baronne eût été ſans effet :</l>
+                            <l>Perſonne ne fera ce que je n'ai pas fait.</l>
+                            <l>Je te l'ai toujours dit, la haine fraternelle</l>
+                            <l>Ne s'allume jamais que pour être éternelle :</l>
+                            <l>Les nœuds du ſang ne ſont qu'avec peine rompu<unclear>s</unclear>:</l>
+                            <l>Mais quand ils ſont briſés, il ne ſe joignent plus.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>En te juſtifiant, va, tu me déſeſperes.</l>
+                        </sp>
+                        <sp who="Dorante">
+                            <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Si tu prêtois l'oreille à mes conſeils ſincéres.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ils ſont trop malheureux, je ne t'écoute plus.</l>
+                            <l>Je voudrois, dans l'horreur de mes ſens éperdus,</l>
+                            <l>Avec le monde entier, pouvoir me fuir moi-même ;</l>
+                            <pb n="119"/>
+                            <l>Mais on vient, c'eſt <name type="person" n="Julie">Julie</name>. O  déſeſpoir extrême !</l>
+                            <l>Pour la derniere fois, va, laiſſes-nous jouir</l>
+                            <l>De la triſte douceur de nous entretenir.</l>
+                        </sp> 
+                    </div3>
+                    <div3 type="scene" n="2">
+                        <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                        <stage>CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I"><c type="lettrine">Q</c>Uel retour !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Quel revers !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Ah ! <name type="person" n="Clitandre">Clitandre</name>!</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ah ! <name type="person" n="Julie">Julie</name> !</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Notre félicité ſe voit évanouie ;</l>
+                            <l>Tout eſpoir eſt détruit &amp; pour vous &amp; pour moi :</l>
+                            <l>Je ne vous verrai plus ! &amp; j'en frémis d'effroi !</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Périſſe des parens la guerre criminelle!</l>
+                            <l>De mon pere en fureur la défenſe cruelle</l>
+                            <l>M'épouvante aujourd'hui moins pour moi que pour vous</l>
+                            <l>Sa main peut vous porter les plus funeſtes coups!</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! Qu'ai-je à craindre après le coup qui nous ſépare?</l>
+                            <l>Je brave tous les traits de ſon courroux barbare.</l>
+                            <l>Ils vous a commandé d'éteindre votre amour,</l>
+                            <l>De me fuir &amp; de rompre avec moi ſans retour.</l>
+                            <l>Il ne pouvoit trouver de plus forte vengeance,</l>
+                            <l>Et tout ce que je crains c eſt votre obéiſſance.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je reſpecte mon pere, &amp; révére ſes loix,</l>
+                            <pb n="120"/>
+                            <l>Mais le ſang &amp; l'amour ſont plus forts que ſes droits ;</l>
+                            <l>Leur doux lien m'attache à vous, belle <name type="person" n="Julie">Julie</name> ;</l>
+                            <l>Il doit durer autant que celui de ma vie.</l>
+                            <l>Vous devez redouter un malheur plus réel ;</l>
+                            <l>Je vois, en frémiſſant, qu'armé d'un droit cruel ,</l>
+                            <l>Il va précipiter votre perte infaillible.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Et moi je l'enviſage avec un œil paiſible,</l>
+                            <l>Qu'il m'ôte tous mes biens, ſans peine je ſouſcris.</l>
+                            <l>Qu'il me laiſſe l'amour &amp; le cœur de ſon fils ;</l>
+                            <l>je ſerai trop heureuſe au milieu de ma chute ;</l>
+                            <l>Et c'eſt le ſeul tréſor que mon feu diſpute.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plus vous avez d'amour, &amp; plus j'ai de frayeur.</l>
+                            <l>Etre deshérité , proſcrit par ſa fureur,</l>
+                            <l>N'eſt qu'un foible revers près de votre ruine.</l>
+                            <l>J'aurois trempé moi-même au ſort qu'on vous deſtine!</l>
+                            <l>J'en ſerois l'inſtrument ! Non, il n'en fera rien :</l>
+                            <l>Pour détourner ce co<sic>n</sic><corr>u</corr>p je ſçais un ſûr moyen.</l>
+                            <lb/><stage type="business"><hi rend="italic">(Il tire des papiers.)</hi></stage><lb/>
+                            <l>Ces titres malheureux qui cauſent mes allarmes,</l>
+                            <l>Deviendroient contre vous d'inévitables armes.</l>
+                            <l>Il doit les employer pour vous perdre aujourd'hui :</l>
+                            <l>Ils ſeront dans vos mains moins à craindre pour lui</l>
+                            <l>Vous êtes généreuſe, &amp; c'eſt une défenſe,</l>
+                            <l>Dont je dois vous armer contre ſa violence.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Non, ma main les refuſe, &amp; j'aurois à rougir</l>
+                            <l>Si par votre ruine elle oſoit s'enrichir.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Affermir votre ſort , c'eſt combler ma fortune ;</l>
+                            <l>Sans ce bonheur certain, je n'en connois aucune.</l>
+                            <l>Acceptez ce ſecours, je l'exige de vous.</l>
+                            <l>Ah ! Ne m'enlevez pas le plaiſir le plus doux</l>
+                            <l>Que je puiſſe goûter en un jour ſi funeſte ;</l>
+                            <l>Ce plaiſir eſt le ſeul peut-être qui me reſte.</l>
+                        </sp>
+                        <pb n="121"/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>C'eſt vous précipiter dans un malheur affreux.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Si je puis vous ſauver, eh ! Suis-je malheureux ?</l>
+                            <l>Ne privés pas mon cœur de la douceur extrême,</l>
+                            <l>D'aſſurer, par ce don, l'étant de ce qu'il aime.</l>
+                            <l>Que dis-je par ce don ? Ce n'eſt pas un preſent.</l>
+                            <l>En dérobant vos jours au danger menaçant ,</l>
+                            <l>Je ne fais qu'écouter &amp; ſuivre la Juſtice :</l>
+                            <l>Me refuſer, enfin, c'eſt me rendre complice.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">L'Amour vous ſéduit.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Non, vous jouiſſez d'un bien</l>
+                            <l>Que vous tenez d'un Pere, &amp; qu'il devoit au ſien.</l>
+                            <l>Leurs volontés pour vous l'ont rendu légitime :</l>
+                            <l>On ne peut déſormais vous l'enlever ſans crime.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Et vous, pour aſſurer le repos de mes jours,</l>
+                            <l>Vous trahirez un Pere, &amp; ſeriez, ſans ſecours,</l>
+                            <l part="I">Privé de bien...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Pour moi, ſoyés en aſſurance,</l>
+                            <l>L'état d'un Gentilhomme eſt ſûr ſans l'opulence ;</l>
+                            <l>Il eſt riche par tout quand il a de l'honneur,</l>
+                            <l>Et ſon nom lui ſuffit, aidé de ſa valeur.</l>
+                            <l>C'eſt vous qui devez fuir &amp; craindre l'indigence ,</l>
+                            <l>C'eſt le plus grand malheur des filles de naiſſance.</l>
+                            <l>Songés que, ſans les Biens, leur état eſt affreux ;</l>
+                            <l>Tout leur devient funeſte ou ſuperflu ſans eux.</l>
+                            <l>Contraintes dans leur peine à demeurer tranquilles</l>
+                            <l>Pour elles les talens ſont des dons inutiles,</l>
+                            <l>La vanité leur fait un devoir d'en rougir,</l>
+                            <l>Et, ſans honte, leur art ne peut les ſecourir.</l>
+                            <l>Leur nom perce &amp; trahit l'obſcurité propice ;</l>
+                            <l>La fierté de leur cœur met le comble met le comble au ſuplice.</l>
+                            <l>Leur Nobleſſe eſt un poids dont gémit leur orgueil ;</l>
+                            <pb n="122"/>
+                            <l>Leur jeuneſſe un péril, &amp; leur grace un écueil.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>j'en ſens toute l'horreur ; mais, <name type="person" n="Clitandre">Clitandre</name>, il me reſte</l>
+                            <l>Un plus noble parti contre ce coup funeſte.</l>
+                            <l>La Sageſſe &amp; l'amour le mettent dans mon ſein,</l>
+                            <l>C'eſt le Couvent qui m'offre un aſyle certain.</l>
+                            <l>A l'abri des dangers il mettra ma jeuneſſe,</l>
+                            <l>Et ſauvera ma gloire en ſervant ma tendreſſe.</l>
+                            <l>D'un Pere il vous rendra l'eſtime &amp; l'amité ;</l>
+                            <l>Si je n'ai ſon amour, j'obtiendrai ſa pitié.</l>
+                            <l>Vous aurez tous mes Biens, &amp; dans l'objet que j'aime,</l>
+                            <l>Avec plus de douceur j'en jouirai moi-même.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous n'accomplirez point de ſi cruels projets.</l>
+                            <l>Non, recevés plûtôt l'offre que je vous fais ;</l>
+                            <l>A de nouveaux efforts tant de vertu m'invite.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ceſſez de m'outrager, ma gloire s'en irrite.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah ! ce refus conſtant me met au deſeſpoir :</l>
+                            <l>Rien ne ſçauroit fléchir votre auſtére devoir.</l>
+                            <l>Mais mon amour, ſans vous, peut vous rendre juſtice,</l>
+                            <l>Il en va ſur le champ faire le ſacrifice.</l>
+                            <l>Vous n'exiſterez plus , papiers trop déteſtés ;</l>
+                            <l part="I">Je vais vous mettre en piéce.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE </speaker>
+                            <stage type="business"><hi rend="italic">lui arrachant les papiers, &amp; les cachant.</hi></stage><lb/>
+                            <l part="F">Ah ! L'on vient , arrêtez !</l>
+                        </sp>
+                    </div3>
+                    <pb n="123"/>
+                    <div3 type="scene" n="3">
+                        <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA BARONNE <pc>,</pc>CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">T</c>Out eſt deſeſpéré. Votre Pere, <name type="person" n="Clitandre">Clitandre</name> ,</l>
+                            <l>Diſpoſe ſon départ, &amp; ne veut plus m'entendre,</l>
+                            <l>Des obſtacles qu'il voit il accuſe on cœur.</l>
+                            <l>Et l'aveu de <name type="person" n="Dorante">Dorante</name> a comblé ſa fureur.</l>
+                            <l>Je ne puis l'arrêter, &amp; ma douleur extrême</l>
+                            <l>Eſt qu'il parte irrit contre une Sœur qui l'aime.</l>
+                            <l>Séparez-vous tous deux. <name type="person" n="Julie">Julie</name> éloignez-vous ,</l>
+                            <l>Et craignés d'augmenter l'aigreur de ſon courroux.</l>
+                            <l>S'il vous voyoit enſemble, elle ſeroit accrue ,</l>
+                            <l>Et par amour pour lui vous devez fuir ſa vûe.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Je céde à mon malheur , Madame, &amp; j'obéis.</l>
+                            <lb/><stage type="exit"><hi rend="italic">(Elle rentre.)</hi></stage><lb/>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="4">
+                        <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LA BARONNE <pc>,</pc> CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l><c type="lettrine">L</c>'Eſpoir de l'obtenir ne m'eſt donc plus permis ?</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Non , mes efforts ſont vains.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Je n'ai donc plus de Pere :</l>
+                            <l>Mais vous m'avez promis de me ſervir de Mere.</l>
+                        </sp>
+                        <pb n="124"/>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Plût au Ciel ! Mon apui pût-il vous rendre heureux !</l>
+                            <l>Quoiqu'il dût m'en coûter , je comblerois vos vœux :</l>
+                            <l part="I">Mais votre Pere vient...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE </speaker>
+                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <l part="F">Quel inſtant pour ma flâme</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="5">
+                        <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LE COMTE <pc>,</pc> LA BARONNE <pc>,</pc> CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Le Comte">
+                            <speaker>LA COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I"><c type="lettrine">V</c>Enés, mon fils, partons.</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="M">Vous partez ?</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, Madame.</l>
+                            <l>Tout preſſe mon départ, quand, pour mes ennemis,</l>
+                            <l>Votre main rompt les nœuds que je m'étois promis.</l>
+                            <l>Et quand vous aprouvez , en ſecret dans <name type="person" n="Clitandre">Clitandre</name>,</l>
+                            <l>Un amour que ſans vous il n'auroit oſé prendre.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Mon Pere , ſi ma ſlâme eſt un crime en effet,</l>
+                            <l>Je n'ai point de complice, &amp; mon cœur a tout fait :</l>
+                            <l>Un inſtant a rendu ſa défaite accomplie ;</l>
+                            <l>C'eſt l'Ouvrage ſubit d'un regard de <name type="person" n="Julie">Julîe</name>.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Vous êtes bien hardi de proférer ce nom,</l>
+                            <l>Et d'oſer perſiſter dans votre paſſion ,</l>
+                            <l>Contre mes volontés &amp; contre ma défenſe.</l>
+                            <l>Venés, ſuivés mes pas. Quoi ! votre ame balance ;</l>
+                            <l>Partons ſans plus tarder, &amp; craignés de m'aigrir.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Donnez don à mon cœur la force d'obéir.</l>
+                        </sp>
+                        <pb n="125"/>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ah  cette reſiſtance augmente ma colére.</l>
+                            <l>Tu n'as que deux partis. Veux-tu ſuivre ton Pere,</l>
+                            <l>Prendre ſes ſentimens, &amp; te montrer ſoumis ;</l>
+                            <l>Ou veux-tu demeureur avec mes ennemis,</l>
+                            <l>Te déclarer pour eux contre ma juſte cauſe ;</l>
+                            <l part="I">Decide promptement.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Naturel Amour!.. je n'oſe.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LA COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Ton lâche cœur héſite entre ta flâme &amp; moi.</l>
+                            <l>Va , je rompt les liens qui m'attachent à toi ;</l>
+                            <l>Tu ne mérites plus, fils ingrat, de me ſuivre :</l>
+                            <l>A ton mauvais deſtin tout entier je te livre.</l>
+                            <l>Je ne veux plus te voir. Rends moi dans ces inſtans,</l>
+                            <l>Rends-moi, ſans différer, les titres que j'attends.</l>
+                            <l>Donnes, que tardes-tu ? Rompras-tu ce ſilence?</l>
+                            <l part="I">Réponds.</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ils ne ſont plus, mon Pere, en ma puiſſance.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LA COMTE </speaker>
+                            <stage><hi rend="italic">frapé de ſurpriſe.</hi></stage><lb/>
+                            <l>Comment! Que me dis-tu? Ces papiers où mon rang,</l>
+                            <l>Où mon ſort, mon repos, où ma gloire, où mon ſang,</l>
+                            <l>Où tout eſt attaché, ti n'en es plus le maître !</l>
+                            <l>Et qu'en as-tu donc fait? Parles, où peuvent-ils être ?</l>
+                            <l>Tu ne réponds rien, tu pâlis devant moi.</l>
+                            <l>Ce trouble te décèle, &amp; ſur ton front je vois</l>
+                            <l>Que tu les a remis en des mains trop fatales.</l>
+                            <l>Ah ! Barbare ! Ah ! Perfide ! O douleurs ſans égales !</l>
+                            <l>Dieu ! Plus affreuſement peut-on être trahi !</l>
+                            <l>Et peut-on l'être encore par un bras plus chéri !</l>
+                            <l>Il ne te reſte plus que de trancher ma vie.</l>
+                            <l>Par une lâcheté digne d'être punie ,</l>
+                            <l>Tu ſers, à mon inſçû, mes Tyran<sic>t</sic><corr>s</corr> inhumains ;</l>
+                            <l>En leur pouvoir fatal tu livres mes deſtins.</l>
+                            <l>Tu trahis un dépôt, &amp; le dépôt d'un Pere,</l>
+                            <l>D'où dépend ſa fortune, &amp; tout ce qu'il eſpére.</l>
+                            <pb n="126"/>
+                            <l>Tu violes, ingrat, le droit le plus ſacré,</l>
+                            <l>Droit qui chez le Barbare eſt même révéré.</l>
+                            <l>Ah! De ma haine encore me fera-t-on un crime ?</l>
+                            <l>N'y ſui-je pas forcé par le ſort qui m'oprime ?</l>
+                            <l>Tous mes jours ont été marqués par des horreurs.</l>
+                            <l>Mon Pere a le premier commencé mes malheurs.</l>
+                            <l>Il m'a deshérité contre tout juſtice :</l>
+                            <l>Mon frere a durement ſouffert que je gémiſſe</l>
+                            <l>Dans l'horreur des Priſons ſans m'avoir ſecouru.</l>
+                            <l>A de pareils revers je m'étois attendu.</l>
+                            <l>Mais mon fils, mon appui , mon unique eſpérance ;</l>
+                            <l>Mon fils qui poſſédoit tout ma confiance ,</l>
+                            <l>A mes Perſécuteurs lui-même m'a livré.</l>
+                            <l>Mon courage, à ce coup, n'étoit point préparé ;</l>
+                            <l>Sous ce poids imprévû je ſens que je ſuccombe,</l>
+                            <l>Il accable mes ans, &amp; va m'ouvrir la tombe.</l>
+                            <l>Eh bien ! Cruel, eh bien ! Remplis tes attentats,</l>
+                            <l>Sois le modèle affreux de tous les fils ingrats.</l>
+                            <l>Outrage la nature &amp; comble ma miſére ,</l>
+                            <l>Enrichis tes Tyrans &amp; dépouille ton Pere.</l>
+                            <l part="I">Acheve.</l>
+                        </sp>
+                    </div3>
+                    <div3 type="scene" n="6">
+                        <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
+                        <stage>LE COMTE <pc>,</pc> LA BARONNE <pc>,</pc> <lb/> CLITANDRE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F"><c type="lettrine">N</c>On , Monſieur, vous ne le ferez pas.</l>
+                            <l>Voilà ces titres chers, armés-en votre bras.</l>
+                            <l>De votre fils ma main vient réparer le crime ,</l>
+                            <l>Seule , de vos fureurs, rendés-moi la victime.</l>
+                            <l>Vous me voyez ici paroître devant vous,</l>
+                            <l>Pour attendre l'arrêt d'un ſi juſte courroux.</l>
+                        </sp>
+                        <pb n="127"/>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Que vois-je ?</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">De mon ſort ſoyés juge vous-même.</l>
+                            <l>Votre malheur fut grand, rendés le mien extrême ,</l>
+                            <l>Ne me laiſſez, Monſieur, ni ſecours ni ſoutien :</l>
+                            <l>Otés-moi mon état, ôtés-moi, tout mon Bien.</l>
+                            <l>Egalés, s'il ſe peut, la vengeance à l'injure,</l>
+                            <l>Vous me verrez ſubir tous ces coups ſans murmure.</l>
+                            <l>Je ne puis, dans ce jour, par d'aſſez rudes traits,</l>
+                            <l>Expier tous les maux que les miens vous ont faits.</l>
+                            <l>La grace qu'à genoux ma bouche vous demande,</l>
+                            <l>Ne me haïſſés plus, que votre cœur ſe rende</l>
+                            <l>Aux ſincéres ſoupirs, <sic>o</sic><corr>a</corr>ux pleurs que je répands ;</l>
+                            <l>Du reſpect le plus tendre ils vous ſont les garans,</l>
+                            <l>Votre pitié du moins doit payer ma tendreſſe :</l>
+                            <l>Soyés mon Oncle enfin quand je ſuis votre Niéce.</l>
+                            <l>La perte de mes Biens, les beſoins effrayans,</l>
+                            <l>Sont pour moi mille fois moins durs, moins accablans</l>
+                            <l>Que le poids &amp; l'horreur de votre haine affreuſe :</l>
+                            <l>Si je puis l'étouffer, je ſerai trop heureuſe.</l>
+                            <l>Je borne uniquement mes vœux à ce bienfait.</l>
+                            <l>Mais vous n'exaucez point un ſi juſte ſouhait ,</l>
+                            <l>Et pour moi, je le vois, vous êtes inflexible.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Non , je réſiſte en vain.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Quoi ! Vous êtes ſenſible ?</l>
+                            <l part="I">J'aurois !</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Oui, je le ſuis, &amp; ce trait généreux ,</l>
+                            <l>Rapelle la nature, &amp; ratache ſes nœuds.</l>
+                            <l>On eſt trop ſûr de vaincre avec tant d'avantage,</l>
+                            <l>Et vous subjugueriez l'ame la plus ſauvage.</l>
+                            <l>A mon reſſentiment dont vous êtes vainqueur</l>
+                            <l>L'eſtime &amp; l'amitié ſuccédent dans mon cœur.</l>
+                            <l>Ma Niéce, ramenés la paix dans ma famille ;</l>
+                            <pb n="128"/>
+                            <l>Rendés <name type="person" n="Clitandre">Clitandre</name> heureux en devenant ma fille ,</l>
+                            <l>Et montrés ce que peut la généroſité ,</l>
+                            <l>Qu'inſpire la ſageſſe, &amp; qu'aide la beauté.</l>
+                        </sp>
+                        <sp who="Julie">
+                            <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="I">Tant de bonheur m'étonne, &amp; ma voix...</l>
+                        </sp>
+                        <sp who="Clitandre">
+                            <speaker>CLITANDRE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l part="F">Ah ! Mon Pere !</l>
+                        </sp>
+                        <sp who="La Baronne">
+                            <speaker>LA BARONNE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>A ce retour heureux je reconnois un frere.</l>
+                        </sp>
+                        <sp who="Le Comte">
+                            <speaker>LE COMTE<pc type="affirmative">.</pc></speaker><lb/>
+                            <l>Par un double lien couronnons ce grand jour ,</l>
+                            <l>Et célébrons le Sang rétabli par l'Amour.</l>
+                        </sp>
+                        <lb/><lb/><lb/><lb/><p rend="center"><hi rend="italic">FIN</hi></p>
+                    </div3>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>

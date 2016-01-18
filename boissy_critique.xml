@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>La critique: édition numérique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Ce texte a visiblement visiblement pour prologue la pièce L'Auteur Superſtitieux qui vient juste avant dans le volume et où il est question de la Critique.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome quatrième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1732-02-09">9 février 1732</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="17"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">LA <lb/>CRITIQUE,</titlePart><lb/><lb/>
+                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/><lb/><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="18"/>
+            <castList>
+                <head rend="center">ACTEURS DU PROLOGUE.</head><lb/>
+                <castItem><role>APOLLON</role>.</castItem>
+                <castItem><role>THALIE</role>.</castItem>
+                <castItem><role>LE CRITIQUE</role>.</castItem>
+                <castItem><role>UN AUTEUR SATIRIQUE</role>.</castItem>
+                <castItem><role>CHRISANTE</role>, <roleDesc>homme ſingulier.</roleDesc></castItem>
+                <castItem><role>LA MEDISANCE</role>.</castItem>
+                <castItem><role>LE VAUDEVILLE</role>.</castItem>
+                <castItem><role>CORESUS</role>, <roleDesc>Arlequin.</roleDesc></castItem>
+                <castItem><role>La Contredanſe</role>, <role>le Tambourin</role><role>le Me-<lb/>nuet</role>, &amp;c.</castItem>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="center"><hi rend="italic">La Scène eſt au <name type="place" n="Parnasse">Parnaſſe</name>.</hi></p>
+            </set>
+            <pb n="19"/>
+        </front>
+        <body>
+            <div1 type="title">
+                <head>LA <lb/>CRITIQUE, <lb/><hi rend="italic">COMEDIE.</hi></head><lb/>
+            </div1>
+            <div1 type="play">
+                <div2 type="scene" n="1">
+                    <head>SCENE I.</head><lb/>
+                    <stage>APOLLON, THALIE.</stage><lb/>
+                    <sp who="Thalie">
+                        <speaker>THALIE.</speaker><lb/>
+                        <l><c type="lettrine">S</c>EIGNEUR, malgré la brigue &amp; la cla-<lb/>meur publique,</l>
+                        <l>Parmi les doctes Sœurs, vous venez de <lb/> placer</l>
+                        <l>La juſte &amp; la ſaine Critique :</l>
+                        <l>Elle vient s'établir dans l'Etat Poëtique,</l>
+                        <l>Pour y maintenir l'ordre, &amp; pour le policer.</l>
+                        <l>Je ne ſçaurois, pour moi qui préſide au Comique,</l>
+                        <l>Et qui tiens de ſes traits mon plus grand agr"ment,</l>
+                        <l>Donner à votre choix trop d'aplaudiſſement.</l>
+                        <l>Quel bonheur de la voir gouverner le <name type="place" n="Parnasse">Parnaſſe</name>,</l>
+                        <l>Elle par qui le Vrai, ſe régle uniquement,</l>
+                        <l>Et ne fait à perſonne injuſtice ni grace !</l>
+                    </sp>
+                    <pb n="20"/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Dans le monde on a d'elle une autre opinion ;</l>
+                        <l>Par un injuſte effet de la prévention,</l>
+                        <l>De tout le genre humain on la croit l'ennemie :</l>
+                        <l>On croit, que ſans égars &amp; ſans diſtinction,</l>
+                        <l>Elle condamne tout par une baſſe envie.</l>
+                        <l>Pour détruire les faux portraits</l>
+                        <l>Qu'a fait d'elle, en tous lieux, la noire Calomnie,</l>
+                        <l>Il faut, au yeux de tous, qu'elle ſe juſtifie,</l>
+                        <l>Et dévoile au grand jour ſes véritables traits.</l>
+                        <l>Chacun viendra lui rendre hommage,</l>
+                        <l>Et la féliciter ſur ſes honneurs nouveaux.</l>
+                        <l>Elle doit faire voir que ſon goût toujours ſage ,</l>
+                        <l>Sçait aprouver le vrai, comme blâmer le faux ;</l>
+                        <l>Qu'elle reprend ſans fiel, &amp; que ſon badinage,</l>
+                        <l>Sans bleſſer la perſonne, attaque les défauts.</l>
+                        <l>Elle ne prétend plus, ſur-tout, qu'on la confonde</l>
+                        <l>Avec la Satyre ſa ſœur,</l>
+                        <l>Qui ſous ſon nom s'affichant dans le monde,</l>
+                        <l>Lui fait partager ſa noirceur.</l>
+                        <l>Elle ſent trop qu'il eſt de ſon honneur</l>
+                        <l>De démaſquer cette même Satyre,</l>
+                        <l>Oui, dans ſa maligne fureur,</l>
+                        <l>Ne reprend point par le deſir d'inſtruire,</l>
+                        <l>Mais par le noir plaiſir qu'elle prend à médire,</l>
+                        <l>Et de déſacouer tous ces Auteurs obſcurs,</l>
+                        <l>Dont la plume anonyme</l>
+                        <l>Juſques ſur la Vertu répand ſes traits impurs ,</l>
+                        <l>Et qu'inſpire en ſecret ſa ſœur illégitime.</l>
+                        <l>Je dois moi-même les punir,</l>
+                        <l>Et pou jamais bannir,</l>
+                        <l>Cette engeance coupable,</l>
+                        <l>Pour la gloire de l'art qu'elle rend mépriſable.</l>
+                        <l>Mais j'en vois un qui paroît en ces lieux:</l>
+                        <l>Par <sic></sic><corr>l</corr>e talent de mordre, il s'eſt rendu fameur ;</l>
+                        <l>Son eſprit fécond en injures,</l>
+                        <l>Innonde le public d'un torrent de brochure.</l>
+                    </sp>
+                    <pb n="21"/>
+                    <sp who="Thalie">
+                        <speaker>THALIE.</speaker><lb/>
+                        <l>C'eſt la Critique aparemment</l>
+                        <l></l>
+                        <l></l>
+                        <l part="I">Je vous laiſſe avec lui.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Elle s'en va.)</hi></stage><lb/>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l part="F">J'admire ſon audace !</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>APOLLON, UN AUTEUR.</stage><lb/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l><c type="lettrine">P</c>Arlez. Qui vous conduit dans le ſacré valon?</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR.</speaker><lb/>
+                        <l>Je me ſuis diſtingué dans votre république;</l>
+                        <l>Et je viens, ſçavant <name type="person" n="Apollon">Apollon</name>,</l>
+                        <l>Pour complimenter la Critique,</l>
+                        <l>En qualité de nourriſſon.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Vous êtes bien hardi de prendre un pareil nom,</l>
+                        <l>Et de paroître en ma préſence,</l>
+                        <l>Vous que guide la Haine &amp; la Prévention;</l>
+                        <l>Qui n'êtes inſpiré que par la Médiſance,</l>
+                        <l>Dont les écrits remplis de contradiction,</l>
+                        <l>Tronquent la Vérité, dégradent la Raiſon ;</l>
+                        <l>A qui la Satyre efferée</l>
+                        <l>Dicte tant de faux jugemens,</l>
+                        <l>Et dont l'haleine empoiſonnée</l>
+                        <l>Obſcurcit le mérite, &amp; ternit les talens !</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR.</speaker><lb/>
+                        <l>Ce ſont de petits badinages</l>
+                        <l>Fait pour égayer mes ouvrages,</l>
+                        <l>Et pour divertir le lecteur :</l>
+                        <l>Je croyois par-là même obtenir votre ſuffrage.</l>
+                    </sp>
+                    <pb n="22"/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Allez, je mérpiſe un Auteur</l>
+                        <l>Qui n'a pour Muſe que l'Envie,</l>
+                        <l>Et dont le mauvais cœur</l>
+                        <l>N'eſt racheté d'aucun trait de génie.</l>
+                        <l>Sortez de votre erreur,</l>
+                        <l>Et connoiſſez mieux la Critique:</l>
+                        <l>Contre la Vérité jamais elle n'agit;</l>
+                        <l>Elle veut qu'un Auteur, dans tout ce qu'il écrit,</l>
+                        <l>Cenſure en galant homme, &amp; non en ſatyrique</l>
+                        <l>Qui ne reſpecte rien, &amp; qui mord à crédit.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR.</speaker><lb/>
+                        <l>Je ne la croyais pas capable de ſcrupule :</l>
+                        <l>J'ai penſé juſqu'ici qu'elle mettroit ſon art</l>
+                        <l>A tourner tout en ridicule;</l>
+                        <l>Qu'au mérite réel elle avoit peu d'égard ;</l>
+                        <l>Que le ſuccès d'un livre étoit chez cette Dame,</l>
+                        <l>Un droit pour le fronder, fut-il blâmable ou non ?</l>
+                        <l>Et qu'elle préféroit une bonne Epigramme</l>
+                        <l>A la plus ſolide raiſon.</l>
+                        <l>Pour moi, je l'avoûrai, je ne lis une Piéce,</l>
+                        <l>Que pour déchirer l'Auteur ;</l>
+                        <l>Et jamais je ne gopute un plaiſir plus flatteur,</l>
+                        <l>Que lorſque j'emporte la piéce.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Le charmant petit cœur !</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR.</speaker><lb/>
+                        <l>Là , ſans détour, Seigneur,</l>
+                        <l>Parlons de la Critique, &amp; rendons-lui juſtice :</l>
+                        <l>Son eſprit n'eſt point fait pour abolir le beau;</l>
+                        <l>Elle eſt, autant que moi, portée à la malice;</l>
+                        <l>Sa main pour rien ne tient pas un flambeau ;</l>
+                        <l>Brûler, eſt pour elle un délice.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Otez-vous de mes yeux, ſortez de l'<name type="palce" n="Hélicon">Hélicon</name> ;</l>
+                        <l>je jure à vos pareils une éternelle haine,</l>
+                        <l>Et vous défens, ſous la plus rude peine</l>
+                        <l>D'oſer à l'avenir vous parer de ſon nom.</l>
+                        <pb n="23"/>
+                        <l>Aprenez qu'en tout tems le Vrai ſeul la tranſporte;</l>
+                        <l>Que jamais aucun fiel n'empoiſonne ſes traits,</l>
+                        <l>Et que le flambeau qu'elle porte</l>
+                        <l>Eclaire &amp; ne brûle jamais.</l>
+                    </sp>
+                    <stage type="exit"><hi rend="italic">(L'auteur s'en va.)</hi></stage>
+                </div2>
+                <div2 type="scene" n="3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>APOLLON, CHRISANTE.</stage><lb/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l part="I"><c type="lettrine">Q</c>Ue demande Monſieur ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l part="F">Je viens voir la Critique ;</l>
+                        <l>Pour un deſſein qu'il faut que je lui communique.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Vous pouvez vous ouvrir à moi,</l>
+                        <l>Car elle ne gouverne ici que ſous ma loi.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Seigneur, c'eſt ce que je vais faire.</l>
+                        <l>Vos voyez devant vous un homme ſingulier:</l>
+                        <l>J'ai le goût excellent, mais très-particulier:</l>
+                        <l>Ce qui plaît au Public, a droit de me déplaire ;</l>
+                        <l>Je blâme conſtamment ce qu'il ſemble eſtimer,</l>
+                        <l>Et j'eſtime au contraire,</l>
+                        <l>Ce qu'il affecte de blâmer.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Pourquoi vous écartez du chemin ordinaire ?</l>
+                        <l>Et qui peut contre lui ſi fort vous animer ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt la droite Equité que jamais il n'écoute:</l>
+                        <l>Conduit pas ſon caprice, il eſt extrême en tout:</l>
+                        <l>Et je viens vous prier de réformer ſon goût.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Sur le vôtre, ſans doute ?</l>
+                    </sp>
+                    <pb n="24"/>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Ne penſez pas railler ; tout n'en iroit que mieux,</l>
+                        <l>S'il ſuivoit aujourd'hui mon goût judicieux;</l>
+                        <l>La raiſon fixeroit ſon eſprit trop volage,</l>
+                        <l>Et lui feroit tenir une route plus ſage ;</l>
+                        <l>On verroit moins d'abus ; la prudence &amp; la paix,</l>
+                        <l>Dans tous les lieux publics, régneroient à jamais ;</l>
+                        <l>Nuls orages, ſur-tout, nuls flots &amp; nuls obſtacles</l>
+                        <l>Ne troubleroient, Seigneur, les tranquilles ſpectacles;</l>
+                        <l>On n'entendroit plus de ſifflets:</l>
+                        <l>L'humanité condamne un inſtrument ſi triſte ;</l>
+                        <l>Je ne m'en ſuis ſervi que contre <name type="person" n="Inès">Inès</name></l>
+                        <l>Et contre <name type="person" n="Rhadamiste">Rhadamiſte</name>.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Qui vous rend leur antagoniſte ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Belle demande ! Leur ſuccès.</l>
+                        <l>Le ſentiment commun eſt toujours le mauvais,</l>
+                        <l>Je vous l'ai déjà dit, c'eſt pourquoi j'y réſiſte :</l>
+                        <l>Par la même raiſon, je me pique aujourd'hui</l>
+                        <l>D'être le Chevalier des Piéces malheureuſes !</l>
+                        <l>Mes poumons éloquens &amp; mes mains généreuſes</l>
+                        <l>Combattent pour leur cauſe, en dépit de l'ennui;</l>
+                        <l>Et tout Auteur qui tombe, en moi trouve un apui.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Voislà des ſentimens tout-à-fait charitacles.</l>
+                        <l>Mais, entre nous, mon cher Monſieur,</l>
+                        <l>N'auriez-vous point pitié de vos ſemblables ?</l>
+                        <l>Et du public qui cauſe votre aigreur,</l>
+                        <l>N'auriez-vous pas vous-même éprouvé la rigueur ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Il m'a bruſqué, Seigneur, une fois dans ma vie ;</l>
+                        <l>Mais à la charge il n'eſt pas revenu,</l>
+                        <l>Car je m'en ſuis fort ſagement tenu</l>
+                        <l>A ma première Tragédie.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>je ne m'étonne plus de votre antipathie.</l>
+                    </sp>
+                    <pb n="25"/>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>J'ai l'avantage maintenant</l>
+                        <l>De le contrarier ſans ceſſe,</l>
+                        <l>Et de me déchaîner contre ſon jugement,</l>
+                        <l>Sans redouter ſa fureur vengereſſe ;</l>
+                        <l>C'eſt pour jouir de ce contentement,</l>
+                        <l>Que je vais à la Comédie.</l>
+                        <l>Critique-t-il ? J'apologie.</l>
+                        <l>Aplaudit-il N Je ſuis ardent</l>
+                        <l>A faire la contre-partie.</l>
+                        <l>Ce qui me flatte enfin, &amp; qui doit le piquer,</l>
+                        <l>Puiſqu'avec vous il faut que je m'épanche ,</l>
+                        <l>C'eſt qu'il n'a jamais pû qu'une fois m'ataquer,</l>
+                        <l>Et qu'il me donne, lui, tous les jours ma revanche.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Vous n'êtes pas ingrat, je puis vous l'atteſter;</l>
+                        <l>Vous lui rendez, Monſieur, ce qu'il peut vous prêter.</l>
+                        <l>Sans vous donner le ſoin de rimer &amp; d'écrire,</l>
+                        <l>Vous n'avez qu'à parler &amp; qu'à vous préſenter,</l>
+                        <l>Pour mériter d'abord les traits de ſa ſatyre.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Vous avez beau, dans ce moment,</l>
+                        <l>Prendre ſa cauſe en main à mon déſavantage,</l>
+                        <l>J'ai là dans mon cerveau le deſſein d'un Ouvrage</l>
+                        <l>Qui vous fera bientôt changer de ſentiment.</l>
+                        <l>Vous l'allez aplaudir, je gage :</l>
+                        <l>Son titre ſeul m'eſt un bon pronoſtic.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Quel eſt donc ce deſſein digne de mon ſuffrage ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt la Critique du Public :</l>
+                        <l>Ses écarts démontrés par ſa propre conduite ,</l>
+                        <l>Par ſon peu de lumiére, ou ſon peu d'équité,</l>
+                        <l>Et ſon infaillibilité</l>
+                        <l>Totalement détruite ;</l>
+                        <l>Par tous ſes jugemens pleins de prévention,</l>
+                        <l>D'erreur, de contradiction,</l>
+                        <l>Par ſes geſtes &amp; dit, qui n'ont ni fin ni fuite.</l>
+                    </sp>
+                    <pb n="26"/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Le projet eſt nouveau ! Mais, voudriez-vous bien</l>
+                        <l>Me détailler &amp; m'aprendre</l>
+                        <l>Ce que dans le Public vous trouver à reprendre,</l>
+                        <l>Soit dans ſes actions, ou dans ſon entretien ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Mille travers, mille bévûes,</l>
+                        <l>Son goût pour le clinquant dont il eſt le ſoutien,</l>
+                        <l>Et pour la nouveauté qu'il porte juſqu'aux nues,</l>
+                        <l>Ou qu'il met au deſſous du rien;</l>
+                        <l>Car jamais il ne garde un milieu raiſonnable :</l>
+                        <l>Chez lui tous eſt divin, ou tout eſt miſérable :</l>
+                        <l>Sa fureur pour la mode &amp; pour tout charlatant :</l>
+                        <l>Tous les uſages fous dont il eſt Partiſan ;</l>
+                        <l>Toutes ſes politeſſes fades,</l>
+                        <l>Ses viſites,  ſes embraſſades ;</l>
+                        <l>Et ſes ſaluts du premier jour de l'an ;</l>
+                        <l>Du arnaval ſes maſcarades,</l>
+                        <l>Du mardi-gras ſon tranſport Calotin,</l>
+                        <l>Et ſon air ſot le lendemain :</l>
+                        <l>Son exercice aux <name type="place" n="Tuileries">Thuileries</name>,</l>
+                        <l>Ses caracols, ſes lorgneries;</l>
+                        <l>Aux ſpectacles ſes flots, ſes vertiges fréquens,</l>
+                        <l>Ses battemens de mains donnés à contre-tems ;</l>
+                        <l>Toutes ſes moucheries,</l>
+                        <l>Ses bâillemens, ſes crachemens,</l>
+                        <l>Aux endroits les plus beau, les plus intéreſſans ;</l>
+                        <l>Son ridicule étrange</l>
+                        <l>De recevoir avidement</l>
+                        <l>La plus inſipide louange,</l>
+                        <l>Et d'aplaudir toujours le banal compliment,</l>
+                        <l>Qu'on lui retourne inceſſamment,</l>
+                        <l>Sa rage opiniâtre</l>
+                        <l>De crier preſqu'à tout moment;</l>
+                        <l>Place au Dames, place au Théâtre ;</l>
+                        <l>Parlés plus haut ; l'habit noir, chapeau bas ;</l>
+                        <l>Paix. Monſieur l'Abé, haut les bras : </l>
+                        <l>Annoncés ; <hi rend="italic">bis</hi> ; la captiole.</l>
+                        <pb n="27"/>
+                        <l>Et pour tout dire, enfin, l'inſuportable rôle</l>
+                        <l>Qu'il fait, dès qu'au Parterre il ſe trouve preſſé,</l>
+                        <l>Ce qui révolte l'ame, &amp; fait hauſſer l'épaule</l>
+                        <l>A tout homme de goût, à tout homme ſenſé.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Vous peignez-là la multitude,</l>
+                        <l>Mere du tumulte &amp; du bruit,</l>
+                        <l>Que n'arrête aucun frein, que l'exemple ſéduit ;</l>
+                        <l>Qu'entraîne la coutume ou l'aveugle habitude,</l>
+                        <l>Et non le vrai Public que la raiſon conduit,</l>
+                        <l>D'où part ce grand corps de lumiére,</l>
+                        <l>Qui me guide moi-même, &amp; ſans ceſſe m'éclaire :</l>
+                        <l>Ce Public, en un mot, avec choix aſſemblé,</l>
+                        <l>Tel qu'on le voit paroître</l>
+                        <l>Au jeux d'un Théâtre réglé,</l>
+                        <l>Quand il écoute en ſage, &amp; qu'il prononce en maîtr<sic></sic><corr>e</corr></l>
+                        <l>Ses arrêt qui le font ſi dignement connoître,</l>
+                        <l>Et dont nul, avant vous, n'a jamais apellé.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Vous nous repreſentés une belle chimére :</l>
+                        <l>Le Public que nous connoiſſons,</l>
+                        <l>Tient juſtement un chemin tout contraire;</l>
+                        <l>Et pour en apeller, j'ai de bonnes raiſons,</l>
+                        <l>Quand dans ſa fougue extrême</l>
+                        <l>Il juge ſans entendre &amp; s'inſtruire du fond,</l>
+                        <l>Et qu'il ſe contredit à chaque inſtant lui-même</l>
+                        <l>Par ſes oui, &amp; par ſes non.</l>
+                        <l>Je porte ici de quoi prouver la choſe:</l>
+                        <l>Tenés, liſés, ſans attendre plus tard,</l>
+                        <l>Vous verrez qu'il aprouve ou condamne au haſard.</l>
+                        <l>Et ſans connoiſſance de cauſe.</l>
+                        <l>La Liſte que voilà</l>
+                        <l>Montre ſon injuſtice,</l>
+                        <l>Sa légéreté, ſon caprice,</l>
+                        <l>Et ſon goût dépravé, qui toujours l'emporta.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON </speaker>
+                        <stage><hi rend="italic">lit.</hi></stage><lb/>
+                        <l><hi rend="italic">Piéces que le Public a ſifflées, &amp; qu'il devoît aplaudir.</hi></l>
+                        <l>LE CHEVALIER <name type="person" n="Bayard">BAYARD</name>.</l>
+                    </sp>
+                    <pb n="28"/>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Il l'a condamné ſans l'entendre,</l>
+                        <l>Ce généreux <name type="person" n="Bayard">Bayard</name> qu'on nous a peint ſi <sic></sic><corr>t</corr>endre ;</l>
+                        <l>Et ſi plein d'amitié.</l>
+                        <l>Il l'a proſcrit ſans aucune pitié</l>
+                        <l>Pour les vertus de l'aimable <name type="person" n="Julie">Julie</name>.</l>
+                        <l>Sans nul égard pour le brave Monfort,</l>
+                        <l>Qui d'abord quoiqu'aimé, par un ſublime effort</l>
+                        <l>A <name type="person" n="Bayard">Bayard</name> céde ſa maîtreſſe,</l>
+                        <l>Et prend en même-tems, par un trait de Nobleſſe</l>
+                        <l>Et plus grand &amp; plus fort,</l>
+                        <l>Tout l'argent du convoi que ſon rival lui laiſſe.</l>
+                        <l>Sans reſpecter enfin dans ſon tranſport</l>
+                        <l>Madame <name type="person" n="Marc">Marc</name>, la bonne amie</l>
+                        <l>De ce pauvre Saint <name type="person" n="Pol">Pol</name> que j'aime à la folie,</l>
+                        <l>De rage contre lui, j'en ſuis tout tranſporté.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Sçachez que le Public juſtement révolté,</l>
+                        <l>A proſcrit dans <name type="person" n="Bayard">Bayard</name> un monſtre drammatique ,</l>
+                        <l>Dont on n'admire plus que ſon premier renom,</l>
+                        <l>Où, ſans intéreſſer, tout choque la raiſon,</l>
+                        <l>A qui l'on fait l'honneur d'en faire la critique.</l>
+                        <l><stage><hi rend="italic">(Il lit.)</hi></stage>   <name type="person" n="Erigone">ERIGONE</name>.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>C<sic></sic><corr>H</corr>RISANTE.</speaker><lb/>
+                        <l>Voyons un peu comment, &amp; par quelle couleur</l>
+                        <l>Vous pourrez du Public excuſer la rigueu,</l>
+                        <l>Pour cette Reine infortunée,</l>
+                        <l>Preſque en naiſſant abandonnée ?</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Sa conduit epour elle eſt pleine d'équité.</l>
+                        <l>Au ſecond Acte il a rendu juſtice,</l>
+                        <l>Aplaudiſſant à ſa beauté.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt ce qui prouve ſon caprice,</l>
+                        <l>Et qui fait voir le mauvais goût qu'il a</l>
+                        <l>De préférer cet Acte-là,</l>
+                        <l>Qui n'eſt qu'un r'habillage</l>
+                        <l>D'<name type="person" n="Héraclius">Heraclius</name>, d'<name type="person" n="Amasis">Amaſis</name>, de <name type="person" n="Cinna">Cinna</name>.</l>
+                    </sp>
+                    <pb n="29"/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Mais le dernier eſt pis que tout cela.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt juſtement le plus beau de l'Ouvrage;</l>
+                        <l>Le bon cœur &amp; l'honneteté</l>
+                        <l>En ſont par-tout la baſe.</l>
+                        <l>On y voit la vertu régner dans chaque phraſe.</l>
+                        <l><name type="person" n="Erigone">Erigone</name> &amp; <name type="person" n="Nérée">Nérée</name> offrent en vérité</l>
+                        <l>Un combat de civilité,</l>
+                        <l>Qui doit toucher les belles ames ;</l>
+                        <l>Pour moi, je n'ai pû voir, ſans en être enchanté,</l>
+                        <l>La politeſſe de ces Dames,</l>
+                        <l>Qui font aſſaut de compliment,</l>
+                        <l>En ſe renvoyant la couronne.</l>
+                        <l>L'une la quitte galamment</l>
+                        <l>L'autre fait des façons pour s'aſſeoir ſur le Trône</l>
+                        <l>Qu'on lui preſente poliment.</l>
+                        <l>Voilà, Seigneur, voilà de ces traits qui font rire</l>
+                        <l>Le Public d'aujourd'hui fauſſement délicat.</l>
+                        <l>Pour moi, je les admire,</l>
+                        <l>Et je trouve charmant ce qu'il trouve ſi plat.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>C'eſt pour le contredire.</l>
+                        <lb/><stage><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                        <l><hi rend="italic">Piéce que le Public a aplaudie, &amp; qu'il devoit ſiffler.</hi></l>
+                        <l>LE GLORIEUX.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt ici que je vous attends,</l>
+                        <l>Je vous défie en ces inſtans,</l>
+                        <l>De me juſtifier ſa grande réuſſite.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Il a le ſuccès qu'il mérite.</l>
+                        <l>Et le Public par-là, vous fait voir hautement....</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Le comble de l'égarement,</l>
+                        <l>D'aplaudir un pareil Ouvrage,</l>
+                        <l>Dont le Héros n'eſt qu'un plat perſonnage,</l>
+                        <l>Copié d'après l'important,</l>
+                        <pb n="30"/>
+                        <l>Et choquant de toute maniére;</l>
+                        <l>Avec ſa maîtreſſe inſolent,</l>
+                        <l>Malhonnête homme envers ſon pere;</l>
+                        <l>C'eſt le plus mauvais caractére.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Tout eſt ſauvé par l'art d'avoir ſçû l'aſſortir:</l>
+                        <l>Ses contractes le font ſortir,</l>
+                        <l>D'une façon brillante &amp; ſinguliére.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Oh, vous avez raiſon;</l>
+                        <l>L'art de la Piéce eſt grand, &amp; la conduite exacte;</l>
+                        <l>Car l'expoſition,</l>
+                        <l>Ne s'en fait qu'au quatriéme Acte.</l>
+                        <l>Quant à l'intrigue, elle eſt neuve vrayment;</l>
+                        <l>Une reconnoiſſance en eſt le fondement :</l>
+                        <l>Oh le beau nœud de Comédie,</l>
+                        <l>Qu'un lieu commun de la Tragédie</l>
+                        <l>Qui fait pleurer les gens !</l>
+                        <l>Et l'heureux dénouement de la Piéce,</l>
+                        <l>Que celui qu'on a vû dans plus de vingt Romans!</l>
+                        <l>Encore y prenoient-ils ſix francs<hi rend="italic">!</hi></l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>N'importe, il intéreſſe.</l>
+                        <l>Le Public dépouillant ſa rigueur à propos,</l>
+                        <l>En faveur des beautés a fait grace aux défauts;</l>
+                        <l>Et, tout peſé dans la balance,</l>
+                        <l>Il n'a pû refuſer ſon aplaudiſſement</l>
+                        <l>A qui l'a ſçu divertir noblement,</l>
+                        <l>Et dans la bienſéance.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Et dans la bienſéance? Ah ! le trait eſt fort bon !</l>
+                        <l>Et comment nommez-vous la propoſition</l>
+                        <l>Que <name type="person" n="Lisimond">Liſimond</name> fait à <name type="person" n="Lisette">Liſette</name>,</l>
+                        <l>A qui juſqu'au valet chacun conte fleurette,</l>
+                        <l>De lui meubler une maiſo ?</l>
+                        <l>Vous nous vantez les mœurs, la choſe eſt ſans égale;</l>
+                        <l>D'un ouvrage qui peint le vice tout à nu,</l>
+                        <l>Et qui préciſément ouvre par le ſcandal.</l>
+                    </sp>
+                    <pb n="31"/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Mais il finit par la vertu.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Adieu, Seigneur, adieu, je quitte la partie,</l>
+                        <l>Après un pareil trait ,</l>
+                        <l>Le Public me révolte; &amp; qui le juſtifie,</l>
+                        <l>Ne peut être mon fait.</l>
+                    </sp>
+                    <sp who="Apollon">
+                        <speaker>APOLLON.</speaker><lb/>
+                        <l>Vous êtes fort le nôtre, &amp; je vous certifie</l>
+                        <l>Que pour la raillerie,</l>
+                        <l>On ne ſçauroit trouver un plus heureux ſujet</l>
+                        <l>Ne craignez pas avec votre projet,</l>
+                        <l>Que la Critique vous oublie.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Je ſçai qu'à nos dépens, chargeant le portrait;</l>
+                        <l>Vous allez divertir le peuple Poëtique ;</l>
+                        <l>Tirer ſur les paſſans fut toujours votre tic:</l>
+                        <l>Mais aprenez, Monſieur, le Dieu cauſtique,</l>
+                        <l>Que qui ſe moque du Public,</l>
+                        <l>Se moque auſſi de la Critique,</l>
+                        <l>Et d'<name type="person" n="Apollon">Apollon</name> &amp; de toute ſa clique.</l>
+                        <lb/><stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="4">
+                    <head>SCENE IV.</head><lb/>
+                    <sp who="Apollon">
+                        <speaker>APOLLON </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <l><c type="lettrine">S</c>On ridicul eſt ſans égal;</l>
+                        <l>Tout ſingulier qu'il eſt dans ſa folie,</l>
+                        <l>C'eſt pourtant un Original,</l>
+                        <l>Qui dans <name type="place" n="Paris">Paris</name> a plus d'une Copie.</l>
+                        <l>La Critique paroît ; c'eſt elle, je la vois.</l>
+                    </sp>
+                </div2>
+                <pb n="32"/>
+                <div2 type="scene" n="5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>APOLLON, LA CRITIQUE.</stage><lb/>
+                    <sp who="Apollon">
+                        <speaker><sic>ARLEQUIN</sic><corr>APOLLON</corr>.</speaker><lb/>
+                        <l><c type="lettrine">V</c>Enez, juſte Critique, il eſt tems qu'au <name type="place" n="Parnasse">Parnaſſe</name></l>
+                        <l>Vous faſſiez reſpecter mes loix ;</l>
+                        <l>De vos faux nourriſſons j'ai confondu l'audace:</l>
+                        <l>Je vous ai fait connoître en proſcrivant leur race.</l>
+                        <l>Juſtifiés mon choix,</l>
+                        <l>Dans le haut rang où je vous place ;</l>
+                        <l>Et donnez le précepte &amp; l'exemple à la fois.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Pour mériter, Seigneur, tous les ſuffrages,</l>
+                        <l>Et remplir dignement ces pénibles honneurs,</l>
+                        <l>Je tâcherai d'inſtruire en cenſurant les mœurs;</l>
+                        <l>Et ne reprendrai les Ouvrages ,</l>
+                        <l>Que pour éclairer les Auteurs.</l>
+                    </sp>
+                    <stage type="exit"><hi rend="italic">(<name type="person" n="Apollon">Apollon</name> s'en va.)</hi></stage>
+                </div2>
+                <div2 type="scene" n="6">
+                    <head>SCENE VI.</head><lb/>
+                    <stage>LA CRITIQUE, LA MEDISANCE.</stage><lb/>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l><c type="lettrine">M</c>Adame, je prens part, comme votre parente,</l>
+                        <l>A votre fortune brillante.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Pardon , j'ai de la peine à remettre vos traits</l>
+                        <l>J'ai beau vous regarder de près.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>J'ai pourtant avec vous aſſez de reſſemblance.</l>
+                        <l>La Critique ne dévroit pas</l>
+                        <pb n="33"/>
+                        <l>Méconnoître la Médiſance;</l>
+                        <l>Et de moi, dans le monde, on fait aſſez de cas.</l>
+                        <l>Pour m'avouer d'abord ſans nulle répugnance.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Si je vous méconnoîs, il n'eſt pas ſurprenant;</l>
+                        <l>Le chemin que je tiens eſt différent du vôtre:</l>
+                        <l>La Raiſon &amp; le Vrai e guident conſtamment;</l>
+                        <l>Et vous plaiſez le plus ſouvent,</l>
+                        <l>Aux dépens de l'un &amp; l'autre.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>Vous, ſi vous m'imitiez, vous feriez ſagement.</l>
+                        <l>Par la vérité trop ſincére,</l>
+                        <l>On eſt preſque toujours aſſuré de déplaire ;</l>
+                        <l>Et l'on ennuie indiſpenſablement,</l>
+                        <l>En ſuivant trop exactement</l>
+                        <l>Les pas de la Raiſon ſévére.</l>
+                        <l>C'eſt le trop de franchiſe avec l'auſtérité,</l>
+                        <l>Qui vous rend le fléau de la ſociété.</l>
+                        <l>Vous n'avez point de politique ;</l>
+                        <l>Je ſuis autant que vous mordante &amp; ſatirique :</l>
+                        <l>Mais je préviens d'abord par mon air ſéducteur.</l>
+                        <l>Je ſçai, pleine d'adreſſe,</l>
+                        <l>Colorer mon poiſon avec délicateſſe :</l>
+                        <l>Par l'art que j'ai de flâter l'auditeur,</l>
+                        <l>Je couronne toujours ma victime de fleurs,</l>
+                        <l>Et l'égorge avec politeſſe.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Il eſt vrai que j'agis avec plus de rudeſſe ;</l>
+                        <l>Aux auditeurs je ne tends point d'apas,</l>
+                        <l>Et devant eux je dis ce que je penſe.</l>
+                        <l>Ma langue n'a pas la prudence,</l>
+                        <l>de ne percer que ceux qui n'y ſont pas.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>C'eſt pas cette conduite &amp; mes façons polies,</l>
+                        <l>Que je me vois reçûe avec empreſſement</l>
+                        <l>Dans les meilleures compagnies;</l>
+                        <l>J'en fais tous les plaiſirs &amp; tout l'amuſement;</l>
+                        <l>Je porte avec moi l'enjoûment.</l>
+                        <pb n="34"/>
+                        <l>Et réveille par mes ſaillies.</l>
+                        <l>Par exemple, je ſors d'un cercle maintenant,</l>
+                        <l>Où j'ai trouvé d'abord en arivant,</l>
+                        <l>Les Hommes aſſoupis, les Dames endormies.</l>
+                        <l>Faiſant ſur un ſopha des nœuds nonchalamment, </l>
+                        <l>Une Coquette aſſez jolie,</l>
+                        <l>De ſa parure ennuyoit ſon amie,</l>
+                        <l>Qui ſommeilloit en l'écoutant.</l>
+                        <l>Une prude enrageoit, &amp; parloit de la pluie :</l>
+                        <l>Un Officier barbon jurant entre ſes dents,</l>
+                        <l>Contre l'extrême diſette</l>
+                        <l>Des nouvelles du tems,</l>
+                        <l>Déploroit de la paix les malheurs éclatans,</l>
+                        <l>Qui faiſoit tomber la Gazette</l>
+                        <l>Faute d'événemens,</l>
+                        <l>Et réduiſoit les braves gens</l>
+                        <l>A raiſonner cornette.</l>
+                        <l>Dans un miroir un jeune Préſident,</l>
+                        <l>Se contemploit fort amoureuſement:</l>
+                        <l>Et redreſſant ſon encolure,</l>
+                        <l>Converſoit agréablement .</l>
+                        <l>A<unclear>v</unclear>ec ſa longue chevelure,</l>
+                        <l>Qu'il rajuſtoit en fredonnant.</l>
+                        <l>Et pour achever la peinture,</l>
+                        <l>Un Marquis tout brillant</l>
+                        <l>Et tout chamaré de dorure,</l>
+                        <l>Dans un fauteuil étendu poliment,</l>
+                        <l>S'amuſoit en ſifflant.</l>
+                        <l>A lire le <name n="Mercure">Mercure</name>.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Vous peignez admirablement.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>Toute cette Troupe réunie,</l>
+                        <l>S'ennuyoit mutuellement ;</l>
+                        <l>Aucun d'eux n'avoit le génie</l>
+                        <l>De ranimer la converſation</l>
+                        <l>Et d'amuſer la compagnie:</l>
+                        <l>monde, en un mot,bâilloit à l'uniſſon</l>
+                        <pb n="35"/>
+                        <l>Je paroîs ; me preſence</l>
+                        <l>D'abord du cercle entier fixe l'attention.</l>
+                        <l>Je décoche (admirez l'effet de ma puiſſance!)</l>
+                        <l>Je décoche en riant un trait de ma façon,</l>
+                        <l>Qui peint un homme abſent de notre connoiſſance:</l>
+                        <l>De ma bouche le trait eſt à peine parti,</l>
+                        <l>Qu'il répand la chaleur dans toute l'aſſemblée;</l>
+                        <l>L'on badine, l'on cauſe, on n'eſt plus aſſoupi,</l>
+                        <l>Dans tous les cœurs la joie eſt réveillée;</l>
+                        <l>Chacun dit ſon bon mot, &amp; médit à l'envi :</l>
+                        <l>Je triomphe dans la mêlée,</l>
+                        <l>Par un raffinement de malice nouveau ;</l>
+                        <l>Et profitant de leur yvreſſe,</l>
+                        <l>Je leur débite un conte, où mon adreſſe,</l>
+                        <l>Sous des noms empruntés, fait leur propre tableau,</l>
+                        <l>Sans qu'aucun d'eux s'y reconnoiſſe:</l>
+                        <l>On m'interrompt par mille ris;</l>
+                        <l>A peine, en éclatant, permet-on que j'acheve !</l>
+                        <l>je ſuis charmante, je ravis,</l>
+                        <l>Juſqu'aux Cieux on m'éleve :</l>
+                        <l>J'avoue, en ces momens flâteurs,</l>
+                        <l>Que rien n'eſt comparable à mon bonheur ſuprême;</l>
+                        <l>Je me fais des amis de tous mes auditeurs,</l>
+                        <l>En goûtant le plaiſir de médire d'eux-même.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Je ſuis au déſeſpoir, moi qui ſuis ſans noirceur,</l>
+                        <l>Qui ſeulement exerce ma cenſure,</l>
+                        <l>Pour rendre le monde meilleur;</l>
+                        <l>Et ne montre jamais d'aigreur</l>
+                        <l>Que contre le faux goût, le vice &amp; l'impoſture,</l>
+                        <l>Je n'ai pas le même bonheur.</l>
+                        <l>On me fuit, on me redoute :</l>
+                        <l>Avec répugnance on m'écoute;</l>
+                        <l>Et l'on traite ma candeur,</l>
+                        <l>D'eſprit cauſtique &amp; de mauvaiſe humeur;</l>
+                        <l>Tandis que, pleine d'artifices,</l>
+                        <l>Par le plaiſir de nuire exerçant vos malices,</l>
+                        <l>Et de vos traits parés de fleurs &amp; de rubans,</l>
+                        <pb n="36"/>
+                        <l>Perçant ſous main les plus honnêtes gens,</l>
+                        <l>De l'Univers entier vous faites les délices,</l>
+                        <l>Et recevez mille aplaudiſſemens.</l>
+                        <l>Non, cela me dépite :</l>
+                        <l>Et plus j'y ſonge, &amp; plus mon eſprit s'en irrite.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>C'eſt votre faute auſſi, pourquoi vous aviſer</l>
+                        <l>De reprendre les gens &amp; de moraliser ?</l>
+                        <l>On hait le ton pédant dans le ſiécle où nous ſommes.</l>
+                        <l>Renoncez à l'honneur de corriger les hommes;</l>
+                        <l>Pour gagner leur eſprit &amp; pour les maîtriſer,</l>
+                        <l>Faites comme je fais, ne ſongez qu'à leur plaire,</l>
+                        <l>Et qu'à les amuſer.</l>
+                        <l>Dépouillez-moi cet air ſévére ;</l>
+                        <l>Et dans le grand monde aujourd'hui,</l>
+                        <l>Venez avec moi vous répandre ,</l>
+                        <l>Y puiſer l'agrément qu'on ne prend qu'avec lui ;</l>
+                        <l>Et quittez-moi ſans plus attendre,</l>
+                        <l>Votre <name type="place" n="Hélicon">Hélicon</name>, le ſéjour de l'ennui.</l>
+                        <l>Les Muſes &amp; <name type="person" n="Phébus">Phœbus</name>, je vous parle en amie,</l>
+                        <l>Vont la plus ſotte compagnie</l>
+                        <l>Qu'on puiſſe fréquenter,</l>
+                        <l>N'en déplaiſe à leur beau génie;</l>
+                        <l>Qu'on a grand tort de nous vanter.</l>
+                        <l>Votre <name type="person" n="Apollon">Apollon</name> n'a que ſes vers en tête.</l>
+                        <l>Tirez-le de la rime, il eſt ſot, emprunté,</l>
+                        <l>Fait mille quiproquois dans la ſociété,</l>
+                        <l>Et je ne vis jamais un Dieu d'eſprit ſi bête,</l>
+                        <l><name type="person" n="Clio">Clio</name> , la lunette à la main,</l>
+                        <l>En voulant parcourir le ſéjour ru Tonnerre,</l>
+                        <l>Fait mille faux pas ſur la terre,</l>
+                        <l>Et s'écarte du grand chemin.</l>
+                        <l><name type="person" n="Euterpe">Euterpe</name> avec ſon chien &amp; ſa flûte champêtre,</l>
+                        <l>Ne fait plus qu'affadir par ſes vieilles chanſons,</l>
+                        <l>Et n'eſt bonne qu'à mener paître</l>
+                        <l>Ses geniſſes &amp; ſes moutons.</l>
+                        <l><name type="person" n="Melpomène">Melpoméne</name> fatigue avec ſes confidences,</l>
+                        <l>Et déſeſpére par ſes pleurs;</l>
+                        <pb n="37"/>
+                        <l>Le public aujourd'hui qui rit de ſes ſouffrances,</l>
+                        <l>Eſt rebattu de ſes clameurs,</l>
+                        <l>De ſes ſonges, de ſes terreurs,</l>
+                        <l>Raſſaſié de ſes ſermens, de ſes fureurs,</l>
+                        <l>De ſes oracles pleins d'horreur,</l>
+                        <l>Et de ſes cruelles vengeances :</l>
+                        <l>Pour moi, ſon ſeul mouchoir me donne des vapeurs.</l>
+                        <l>A la faveur de la Satire,</l>
+                        <l><name type="person" n="Thalie">Thalie</name> a le ſecret de nous mieux réveiller:</l>
+                        <l>Mais par malheur pour elle, &amp; puiſqu'il faut tout dire,</l>
+                        <l>Son devoir eſt de faire rire,</l>
+                        <l>Et ſon deſtin, ſouvent, eſt de faire bâiller,</l>
+                        <l>Pour votre plaiſir propre, &amp; pour celui des autres,</l>
+                        <l>Partons enſemble croyez-moi,</l>
+                        <l>Nous vivrons comme ſœurs &amp; dans la bonne-foi:</l>
+                        <l>Vous ſçaurez mes ſecrets &amp; me direz les vôtres,</l>
+                        <l>Nous mordrons en commun. Vos talens joints aux <lb/> nôtres,</l>
+                        <l>Soumettront tout à notre loi,</l>
+                        <l>Et nous ſerons du monde, &amp; l'amour &amp; l'effroi.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Par vos diſcours vous êtes ſéduiſante,</l>
+                        <l>Votre air eſt engageant, &amp; votre abord enchant<sic></sic><corr>e</corr></l>
+                        <l>Avec peine l'on s'en défend;</l>
+                        <l>Et vous êtes charmante</l>
+                        <l>A ne voir qu'en paſſant ;</l>
+                        <l>Mais à l'uſer, la choſe eſt différente ;</l>
+                        <l>Et pour cauſe, entre nous,</l>
+                        <l>Vous me diſpenſerez de faire choix de vous</l>
+                        <l>Pour mon amie, &amp; pour ma confidente.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l part="I">Eh, pourquoi, s'il vous plaît ?</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l part="F">Pourquoi , belle parente,</l>
+                        <l>C'eſt que ſous un air prévenant ?</l>
+                        <l>Vous êtes fauſſe &amp; méchante;</l>
+                        <l>Que vous ne careſſez les gens ſi tendrement</l>
+                        <l>Que pour mieux exercer contre eux, en les quittant,</l>
+                        <pb n="38"/>
+                        <l>Votre langue mordante.</l>
+                        <l>Vous le voyez, je parle franchement ;</l>
+                        <l>De l'art de déguiſer je ſuis très ignorante;</l>
+                        <l>Et pour faire de vous ce portrait reſſemblant,</l>
+                        <l>Je n'attens pas que vous ſoyez abſente.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>Quoi que vous e diſiez, &amp; malgré vos refus,</l>
+                        <l>J'aime votre perſonne, &amp; j'ai pour vos vertus,</l>
+                        <l>Une eſtime infinie;</l>
+                        <l>Vous n'avez point de plus parfaite amie :</l>
+                        <l>Si vous ſçaviez les tendres ſentimens</l>
+                        <l>Que j'ai pour vous... <stage type="delivery"><hi rend="italic">(à part.)</hi></stage>(comme je mens :)</l>
+                        <l>Vous auriez de mon cœur une meilleure idée;</l>
+                        <l>Vous feriez cas ſur-tout de ma ſincérité.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Oh ! Je ſuis très-perſuadée</l>
+                        <l>De votre cordialité.</l>
+                    </sp>
+                    <sp who="La Médisance">
+                        <speaker>LA MEDISANCE.</speaker><lb/>
+                        <l>Adieu, Critique aimable, à regret je vous quitte;</l>
+                        <l>Et je vais, en tous lieux, prôner votre mérite,</l>
+                        <l>Et célébrer votre candeur.</l>
+                        <lb/><stage type="mixed"><hi rend="italic">(bas en s'en allant.)</hi></stage><lb/>
+                        <l>Quelle prude ſauvage ! Ah ! je brûle</l>
+                        <l>D'arriver a <name type="place" n="Paris">Paris</name> pour ſoulager mon cœur,</l>
+                        <l>Et la tourner en ridicule</l>
+                    </sp>
+                </div2>
+                <div2 type="scene" n="7">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>LA CRITIQUE, LE VAUDEVILLE.</stage><lb/>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Souffrez que je dreſſe.</hi></sound>
+                        <l><c type="lettrine">V</c>Otre régne aimable ;</l>
+                        <l>Critique agréable,</l>
+                        <pb n="39"/>
+                        <l>Votre régne aimable</l>
+                        <l>M'attire en ces lieux,</l>
+                        <l>Daignez à mes vœux</l>
+                        <l>Vous montrer favorable:</l>
+                        <l>Votre régne aimable</l>
+                        <l>M'attire en ces lieux.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Ayez la bonté de m'aprendre</l>
+                        <l>Qui vous êtes premiérement,</l>
+                        <l>Beau chanteur qui venez me rendre</l>
+                        <l>Viſite ſi gayment ?</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Je ſuis, ma belle Reine,</l>
+                        <l>Flon, flon, larira dondaine,</l>
+                        <l>Un Dieu plaiſant &amp; gai gai</l>
+                        <l>Larira dondé,</l>
+                        <l>Soumis à votre empire,</l>
+                        <l>Talarari ta la ra rire,</l>
+                        <l>Et dans la nouveauté couru</l>
+                        <l>Lanturlu, lanturlu.</l>
+                        <l>A la Cour, à la Ville,</l>
+                        <l>Je célébre <name type="person" n="Jean-Gille">Jean-Gille</name> ;</l>
+                        <l>Et de <name type="person" n="Bacchus">Bacchus</name> &amp; de l'Amour,</l>
+                        <l>La nuit &amp; le jour</l>
+                        <l>Je chante la, la, la, la, la,</l>
+                        <l>Je chante la Folie.</l>
+                        <l>J'amuſe, tout à tour,</l>
+                        <l>La laide &amp; la jolie,</l>
+                        <l>L'homme d'eſprit &amp; le nigaut,</l>
+                        <l>La mirtan plan lantirelarigaut.</l>
+                        <l>Par mes tourelourirettes</l>
+                        <l>Je mets en train les fillettes,</l>
+                        <l>Et je leur fais faire un ſaut,</l>
+                        <l>Deux ſauts.</l>
+                        <l>Ma puiſſance eſt entiére,</l>
+                        <l>Tout le ong de la riviére ;</l>
+                        <l>Et je mets tout, dans mes airs fous,</l>
+                        <l>Sans deſſus deſſous,</l>
+                        <pb n="40"/>
+                        <l>Sans devant derriére :</l>
+                        <l>Mon caprice eſt on ſeul roi,</l>
+                        <l>Et toute la terre eſt à moi.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>A ce langage, à ces refreins,</l>
+                        <l>Je reconnois le Vaudeville,</l>
+                        <l>Qui fait les plaiſirs de la Ville,</l>
+                        <l>Et l'ame de tous les feſtins.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">Tu croyois en aimant <name type="person" n="Colette">Colette</name>.</hi></sound>
+                        <l>Oui, de <name type="person" n="Comus">Comus</name> que je fais rire,</l>
+                        <l>je ſuis le plus cher favori.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Je ne m'étonne plus beau ſire,</l>
+                        <l>Si vous êtes ſi bien nourri.</l>
+                        <lb/><stage><hi rend="italic">(Elle récite.)</hi></stage><lb/>
+                        <l>Mais dans ces lieux quel ſujet vous améne !</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
+                        <l>C'eſt mon penchant qui m'entraîne,</l>
+                        <l>Madame, vers vos attraits,</l>
+                        <l>Daignez annoblir a veine,</l>
+                        <l>Et me prêter tous vos traits.</l>
+                        <sound>AIR, <hi rend="italic">La bonne avanture o gué des trois couſines.</hi></sound><lb/>
+                        <l>Comme vous du monde entier</l>
+                        <l>Je fais la cenſure ,</l>
+                        <l>Mon plaiſir &amp; mon métier</l>
+                        <l>Sont toujours de publier</l>
+                        <l>La bonne avanture,</l>
+                        <l>O gué,</l>
+                        <l>La bonne avanture.</l>
+                        <sound>AIR, <hi rend="italic">Quand le péril eſt agréable.</hi></sound><lb/>
+                        <l>Je fais ſeul létude profonde</l>
+                        <l>Des jeunes Robins d'à-preſent,</l>
+                        <l>Et tout le ſçavoir éminent</l>
+                        <l>Des Abbés du grand monde.</l>
+                        <sound>AIR, <hi rend="italic">Le Ciel béniſſe la beſogne.</hi></sound><lb/>
+                        <l>De ces Meſſieurs le plus ſouvent.</l>
+                        <pb n="41"/>
+                        <l>L'eſprit eſt un recueil vivant</l>
+                        <l>De mes chanſons les plus badines.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Pour ne pas dire libertines.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Tout couple de ce genre eſt d'un ſel enchanté :</l>
+                        <l>Dans un repas aimable.</l>
+                        <l>Il eſt toujours le plus goûté.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Mais du beau ſexe il n'eſt point écouté.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">On paſſe les nuits à table.</hi></sound><lb/>
+                        <l>Que chanté d'un air aimable</l>
+                        <l>Il faſſe rougir ſa ſierté,</l>
+                        <l>Voilà la fable :</l>
+                        <l>Mais qu'il en ſourie à table,</l>
+                        <l>Que ſon goût en ſoit flatté,</l>
+                        <l>Voilà la vérité.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Pour paſſer doucement la vie.</hi></sound><lb/>
+                        <l>Oh ! Je vous trouve condamnable</l>
+                        <l>En ce point-là préciſément :</l>
+                        <l>Vous rendez le vice agréable ,</l>
+                        <l>En lui prêtant votre enjoûment.</l>
+                        <lb/><stage><hi rend="italic">(Elle récite.)</hi></stage><lb/>
+                        <l>Il faut pour plaire même au grand nombre de femmes.</l>
+                        <l>Qui ne ſçauroient vous chanter ſans rougir,</l>
+                        <l>Vous corriger &amp; m'obéir.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Me voir employé par les Dames</l>
+                        <l>Fait mon plus grand plaiſir.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">L'auſtére Philoſophe.</hi></sound><lb/>
+                        <l>Oui : ma gloire véritable,</l>
+                        <l>Et mon triomphe certain</l>
+                        <l>Eſt quand leur bouche adorable</l>
+                        <l>Me chante, le verre en main :</l>
+                        <l>A mes couplets tous leurs charmes</l>
+                        <pb n="42"/>
+                        <l>Semblent s'imprimer ſoudain ;</l>
+                        <l>L'Amour alors n'a point d'armes</l>
+                        <l>Plus ſûres que mon refrein.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>La table fut toujours votre champ de bataille,</l>
+                        <l>Et le fils de <name type="person" n="Vénus">Vénus</name> votre Dieu favori.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Pour l'honneur de ce Dieu, dont je ſuis fort chéri,</l>
+                        <l>Il eſt vrai toujours je travaille ;</l>
+                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <l>Selon l'objet, ſelon l'occaſion,</l>
+                        <l>Je fais adroitement changer d'air &amp; de ton :</l>
+                        <l>Je prens ce dernier pour mon guide;</l>
+                        <l>Car ſoit caprice, ou ſoit raiſon,</l>
+                        <l>Dans le monde toujours, c'eſt le ton qui décide.</l>
+                        <l>Si je veux, par exemple, enflâmer un tendron</l>
+                        <l>Encore novice &amp; timide,</l>
+                        <l>Ma voix lui gliſſe ainſi doucement ſon poiſon.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">D'un <name type="person" n="Zéphir">Zéphir</name> mutin.</hi></sound><lb/>
+                        <l>Voyez un Amant</l>
+                        <l>D'amour tout ardent,</l>
+                        <l>Dont votre air enchanteur</l>
+                        <l>S'eſt rendu vainqueur ;</l>
+                        <l>Fixez vos beaux yeux</l>
+                        <l>Sur les miens pleins de feux,</l>
+                        <l>Dans un combat ſi doux,</l>
+                        <l>Engagez-vous,</l>
+                        <l>Que ma flâme</l>
+                        <l>Dans vo<sic>r</sic><corr>t</corr>e ame</l>
+                        <l>Porte mes brûlans ſoupirs ;</l>
+                        <l>De ma peine,</l>
+                        <l>Belle Reine,</l>
+                        <l>De tous mes deſirs</l>
+                        <l>Faites des plaiſirs.</l>
+                        <l>Voyez un Amant,</l>
+                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <l>Si je rencontre en mon chemin</l>
+                        <pb n="43"/>
+                        <l>Une Beauté plus aguerrie,</l>
+                        <l>Et dans le grand monde nourrie ,</l>
+                        <l>Je prends alors un ton plus vif &amp; plus badin ;</l>
+                        <l>Et, ſans perdre le tems en des diſcours frivoles,</l>
+                        <l>Voici comment je change d'air ſoudain,</l>
+                        <l>Sans changer de paroles.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage>
+                        <sound>AIR, <hi rend="italic">Laiſſons-nous charmer.</hi></sound><lb/>
+                        <l>Voyez un Amant</l>
+                        <l>D'amour tout ardent,</l>
+                        <l>Dont votre air enchanteur</l>
+                        <l>S'eſt rendu vainqueur ;</l>
+                        <l>Fixez vos beaux yeux</l>
+                        <l>Sur les miens pleins de feux,</l>
+                        <l>Dans un combat ſi doux,</l>
+                        <l>Engagez-vous,</l>
+                        <l>Que ma flame</l>
+                        <l>Dans vo<sic>r</sic><corr>t</corr>e ame</l>
+                        <l>Porte mes brûlans ſoupirs ;</l>
+                        <l>De ma peine,</l>
+                        <l>Belle Reine,</l>
+                        <l>De tous mes deſirs</l>
+                        <l>Faites des plaiſirs.</l>
+                        <l>Voyez un amant, &amp; c.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Vous êtes, je l'avoue un dangereux fripon,</l>
+                        <l>Monſieur le Vaudeville :</l>
+                        <l>Moi-même, en cet inſtant, ſéduite par le ton,</l>
+                        <l>J'ai peine à vous entendre avec un cœur tranquille.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Ah ! Vous avez raiſon</l>
+                        <l>D'être ſenſible à ma chanſon.</l>
+                        <lb/><stage><hi rend="italic">[il chante.]</hi></stage><lb/>
+                        <l>Pour plaire à vos yeux je me tourne, tourne, tourne,</l>
+                        <l>Je me tourne de tout côté?</l>
+                        <l>L'air que je tourne &amp; retourne,</l>
+                        <l>C'eſt pour vous que je l'ai chanté.</l>
+                        <l>Vers votre amant</l>
+                        <l>Votre bel œil ſe tourne,</l>
+                        <pb n="44"/>
+                        <l>Tourne tendrement,</l>
+                        <l>Qu'un doux baiſer. .encore que j'y retourne.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>N'y retournez plus vraiment.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Chantez petit Colin.</hi></sound><lb/>
+                        <l>Ce baiſer innocent, </l>
+                        <l>Cette faveur légere,</l>
+                        <l>Ce baiſer innocent</l>
+                        <l>De votre cœur m'eſt-il garant ?</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>La Critique eſt ſincére,</l>
+                        <l>Vous avez ſçû me plaire,</l>
+                        <l>Puiſque je le dis,</l>
+                        <l>Vos airs, quoique pris,</l>
+                        <l>Charment es eſprits.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Premier Menuet.</hi></sound><lb/>
+                        <l>Quelle douceur</l>
+                        <l>Dans mon cœur</l>
+                        <l>Vient répandre un aveu ſi flatteur !</l>
+                        <l>Quelle douceur</l>
+                        <l>Dans mon cœur</l>
+                        <l>Répand mon bonheur !</l>
+                        <l>De votre ſel piquant</l>
+                        <l>Naît mon agrément;</l>
+                        <l>pour unir leurs traits</l>
+                        <l>Nos eſprits ſont faits?</l>
+                        <l>Comblez mes ſouhaits:</l>
+                        <l>je vous adore &amp; je vous plais.</l>
+                        <lb/><sound>AIR, <hi rend="italic">Second menuet.</hi></sound><lb/>
+                        <l>Votre amour, quand on lui plaît,</l>
+                        <l>Se tait,</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Qui ſe taît communément,</l>
+                        <l>Se rend</l>
+                        <l>Notre gloire eſt d'être unis :</l>
+                        <l>Vous deviendrez plus ſage.</l>
+                        <pb n="45"/>
+                        <l>Ecoutant mes avis ?</l>
+                        <l>Et vos airs réjouiſſans,</l>
+                        <l>Vos chants,</l>
+                        <l>Vont me rendre moins ſauvage.</l>
+                        <l>Tous deux nous allons unir</l>
+                        <l>L'enjoûment aux leçons, la ſageſſe aux plaiſirs.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Troiſiéme Menuet.</hi></sound><lb/>
+                        <l>O journée</l>
+                        <l>Douce &amp; fortunée !</l>
+                        <l>Que de biens à ce lieux</l>
+                        <l>Promettent ces beaux nœuds !</l>
+                        <l>Que d'ouvrages</l>
+                        <l>Hardis, piquans, mais ſages;</l>
+                        <l>De traits heureux,</l>
+                        <l>De badinages,</l>
+                        <l>De jeux,</l>
+                        <l>D'airs fameux,</l>
+                        <l>Vont naître de nous deux !</l>
+                        <l>O journée ! &amp;c.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Quel ſons réveillent les Echos ?</l>
+                        <l>C'eſt <name type="person" n="Corésus">Coréſus</name>. De loin je croi le reconnoître ;</l>
+                        <l>Pour nous unir vraiment il arrive à propos,</l>
+                        <l>Car de <name type="person" n="Bacchus">Bacchus</name> il eſt le Grand-Prêtre.</l>
+                        <l>Il faut l'un et l'autre, aujourd'hui,</l>
+                        <l>Employer l'ironie,</l>
+                        <l>Pour nous moquer plus joliment de lui.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Taupe à la raillerie.</l>
+                    </sp>
+                </div2>
+                <pb n="46"/>
+                <div2 type="scene" n="8">
+                    <head>SCENE VIII.</head><lb/>
+                    <stage>LA CRITIQUE, LE VAUDEVILLE, <lb/> ARLEQUIN.</stage><lb/>
+                    <sound><hi rend="italic">On joue la Marche de <name type="person" n="Coresus">Coreſus</name>, ſur l'air , Faites de-<lb/>croter vos ſouliers.</hi></sound><lb/>
+                    <sp who="La Critique, le Vaudeville">
+                        <speaker>LA CRITIQUE &amp; LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">de <name type="person" n="Couperin">Couprin</name>.</hi></sound><lb/>
+                        <l><c type="lettrine">D</c>E <name type="person" n="Corésus">Coréſus</name></l>
+                        <l>Chantons la gloire,</l>
+                        <l>Chantons en chorus</l>
+                        <l>Ses airs à boire ;</l>
+                        <l>Tous ſes rigaudons,</l>
+                        <l>Ses cotillons.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Propre, ajuſté,</l>
+                        <l>En vérité,</l>
+                        <l>Il eſt tout fait pour charmer les plus fiéres,</l>
+                        <l><name type="person" n="Callirhoé">Calliroé</name></l>
+                        <l>A d'ailleurs des maniéres,</l>
+                        <l>Et tout ſon train à neuf eſt remonté.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Suivant de <name type="person" n="Phaéton">Phaëton</name> l'exemple ,</l>
+                        <l>Il a fait l'achat d'un beau Temple :</l>
+                        <l>Hélas ! Ce ſont tous frais perdus !</l>
+                        <l>de <name type="person" n="Corésus">Coréſus</name></l>
+                        <l>Chantons la gloire,</l>
+                        <l>Chantons les vertus,</l>
+                        <l>Chantons les Prêtres de Bacchus,</l>
+                        <l>Chantons leurs chanſons à boire,</l>
+                        <l>Leurs ſauts périlleux,</l>
+                        <pb n="47"/>
+                        <l>Armés de feux,</l>
+                        <l>En rond ils danſent tous entr'eux</l>
+                        <l>Juſqu'à ſe brûler les cheveux.</l>
+                        <l>De <name type="person" n="Corésus">Coréſus</name></l>
+                        <l>Chantons la gloire,</l>
+                        <l>Et les vertus.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Mais, Seigneur, Mais, Madame....</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">Un Préfet beau, bien fait.</hi></sound>
+                        <l>On trahit vos ardeurs....</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Eſt-ce pour inſulter au dépit qui m'enflâme ?</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">reprend.</hi></stage><lb/>
+                        <l>On trahit vos ardeurs :</l>
+                        <l>Mais le Dieu des Buveurs</l>
+                        <l>Exauce toutes vos fureurs ;</l>
+                        <l>Par un vin infernal ,</l>
+                        <l>Il cauſe un baccanal</l>
+                        <l>Brutal,</l>
+                        <l>Qui devient général ;</l>
+                        <l>Il rend les peuples fous ,</l>
+                        <l>Ils s'entr'egorgent tous :</l>
+                        <l>O ! courroux ſurprenant !</l>
+                        <l>Qui pour objet de ſa vengeance,</l>
+                        <l>Prend l'innocence:</l>
+                        <l>Votre noble tranſport</l>
+                        <l>Punit qui n'a pas tort ;</l>
+                        <l>Et généreux pour qui l'offenſe,</l>
+                        <l>Sauve <name type="person" n="Agenor">Agenor</name></l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>De m'exalter ainſi, finiſſez, je vous prie ;</l>
+                        <l part="I">Et daignez m'écouter.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l part="F">Vous avez trop de modeſtie.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">des fraizes.</hi></sound><lb/>
+                        <l>Piqué contre tout <name type="place" n="Paris">Paris</name>,</l>
+                        <pb n="48"/>
+                        <l>Je viens de ſon caprice,</l>
+                        <l>Et de ſes cruels mépris,</l>
+                        <l>Vous demander à grands cris</l>
+                        <l>Juſtice, juſtice, juſtice</l>
+                        <lb/><stage><hi rend="italic">[Il récite.)</hi></stage><lb/>
+                        <l>Rien n'égale l'horreur de mon chagrin cuiſant ;</l>
+                        <l>Je charmois autrefois, &amp; j'ennuie à préſent.</l>
+                        <l>Ramenez le bon goût, &amp; vengez mon injure.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Ture lure.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">des Pendus.</hi></sound><lb/>
+                        <l>Solitaire, triſte, confus,</l>
+                        <l>Je m'en vais ſur l'air des pendus,</l>
+                        <l>Vous réciter ma décadence.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>Seigneur ; parlez-moi de la danſe,</l>
+                        <l>Et trêve de récitatif,</l>
+                        <l>Il eſt par trop ſoporatif.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Quand on a prononcé.</hi></sound>
+                        <l>Je veux me plaindre en vain vous m'impoſez le ſilence.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">lui coupant la parole.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">Dans nos champs,</hi></sound><lb/>
+                        <l>D'une voix</l>
+                        <l>Chacun admire</l>
+                        <l>Et deſire</l>
+                        <l>Le beau pas de trois</l>
+                        <l>Plus légeres</l>
+                        <l>Qu'un vent flateur,</l>
+                        <l>Deux Bergeres</l>
+                        <l>Suivent un Paſteur.</l>
+                        <l>Que de grace !</l>
+                        <l>Elle efface</l>
+                        <l>Et ſurpaſſe,</l>
+                        <l>Le Décorateur.</l>
+                        <l>O ! rare honneur !</l>
+                        <l>Grande gloire,</l>
+                        <pb n="49"/>
+                        <l>Et victoire</l>
+                        <l>Pour l'Auteur !</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Folies d'Eſpagne.</hi></sound><lb/>
+                        <l>Ah, ventrebleu! c'eſt ſe moquer du monde.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Mariés ; mariés, mariés-moi.</hi></sound><lb/>
+                        <l>C'eſt-là qu'on voit <name type="person" n="Agenor">Agenor</name>.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage><hi rend="italic">recite.</hi></stage><lb/>
+                        <l>Je ne puis dire un mot, ma rage eſt ſans ſeconde.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">reprend.</hi></stage><lb/>
+                        <l>C'eſt-là qu'on voit <name type="person" n="Agenor">Agenor</name></l>
+                        <l>Arriver avec vîteſſe,</l>
+                        <l>Et ſaiſi d'un beau tranſport,</l>
+                        <l>Crier en fandant la preſſe :</l>
+                        <l>Retenés, retenés, retenés-moi,</l>
+                        <l>Je m'offre pour la Princeſſe,</l>
+                        <l>Retenés, retenés, retenés-moi,</l>
+                        <l>Ou je mourrai ſur ma foi.</l>
+                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italic">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
+                        <l>Mais vous lui dérobs, Sire,</l>
+                        <l>La gloire de ce trépas.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Cette mort que l'on admire ,</l>
+                        <l>Je ne l'imiterois pas.</l>
+                    </sp>
+                    <sp who="Arlequin">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Pere je me confeſſe.</hi></sound><lb/>
+                        <l>A tort je le confeſſe</l>
+                        <l>On l'aplaudit beaucoup ;</l>
+                        <l>Car j'étois dans l'yvreſſe</l>
+                        <l>Quand j'ai fait ce beau coup.</l>
+                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <l>Mais d'oüir ma Complainte ayez la politeſſe.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">l'interrompant toujours, <lb/> &amp; continuant l'air.</hi></stage><lb/>
+                        <l>Dans le bien comme dans le mal,</l>
+                        <l><name type="person" n="Corésus">Coréſus</name> eſt extrême ;</l>
+                        <pb n="50"/>
+                        <l>Dans le bien comme dans le mal,</l>
+                        <l>Il eſt original.</l>
+                        <l>Il s'immole lui-même,</l>
+                        <l>Pour unir ce qu'il aime.</l>
+                        <l>A ſon heureux rival.</l>
+                        <l>Le trait eſt ſans égal !</l>
+                    </sp>
+                    <sp who="Le Vaudeville, la Critique">
+                        <speaker>LE VAUDEVILLE &amp; LA CRITIQUE.</speaker><lb/>
+                        <l>Exaltons</l>
+                        <l>Et chantons</l>
+                        <l>Sa nobleſſe</l>
+                        <l>Dans l'yvreſſe,</l>
+                        <l>Ce héros peu commun,</l>
+                        <l>Je fait le crime qu'à jeun.</l>
+                    </sp>
+                    <lb/><stage type="exit">ARLEQUIN <hi rend="italic">s'en va de dépit de ne pouvoir parler.</hi></stage>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound>AIR, <hi rend="italic">Ma commére quand je danſe.</hi></sound><lb/>
+                        <l>A moi vive Contredanſe,</l>
+                        <l>Tambourin &amp; Menuet,</l>
+                        <l>Venez former notre Balet;</l>
+                        <l>je veux, qu'ici, pour le rendre complet,</l>
+                        <l>Le cheval <name n="Pégase">Pégaſe</name> danſe ,</l>
+                        <l>Et qu'il hanniſſe un couplet.</l>
+                    </sp>
+                </div2>
+                <pb n="51"/>
+                <div2 type="scene" n="9">
+                    <head>SCENE DERNIERE.</head><lb/>
+                    <stage>LE VAUDEVILLE, LA CRITIQUE, <lb/> LA CONTREDANSE, <lb/> LE MENUET, &amp;c.</stage><lb/>
+                    <stage type="business"><hi rend="italic">On danſe.</hi></stage>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <lg>
+                            <l><c type="lettrine">L</c>E ton fait plus que le diſcours,</l>
+                            <l>On ſe laiſſe prendre toujours</l>
+                            <l>Par les dehors frivoles ;</l>
+                            <l>Et, dans le monde, ainſi qu'à l'Opéra,</l>
+                            <l>C'eſt l'air, o gué lon la,</l>
+                            <l>Qui fait paſſer les paroles.</l>
+                        </lg>
+                        <lb/><lb/>
+                        <lg>
+                            <l><name type="person" n="Dorante">Dorante</name> a ſeul le droit charmant,</l>
+                            <l>De pouvoir dire impunément,</l>
+                            <l>Les choſes les plus folles ;</l>
+                            <l>De ſes diſcours la plus ſage rira,</l>
+                            <l>C'eſt l'air, o gué lon la,</l>
+                            <l>Qui fait paſſer les paroles.</l>
+                        </lg>
+                        <lb/><lb/>
+                        <lg>
+                            <l>Nous ennuyons avec bon ſens.</l>
+                            <l>Une femme en parlant rubans,</l>
+                            <l>Ponpons &amp; babioles,</l>
+                            <l>Plus qu'un Sçavant cent fois amuſera :</l>
+                            <l>C'eſt l'air, o gué lon la,</l>
+                            <l>Qui fait paſſer les paroles.</l>
+                        </lg>
+                        <pb n="52"/>
+                        <lg>
+                            <l>Bruſquez d'abord un jeune cœur,</l>
+                            <l>Vous allarmerez ſa pudeur,</l>
+                            <l>Par vos maniéres folles :</l>
+                            <l>prenés un ton plus doux, il ſe rendra ;</l>
+                            <l>C'eſt l'air, o gué lon la,</l>
+                            <l>Qui fait paſſer les paroles.</l>
+                        </lg>
+                        <lb/><lb/>
+                        <p rend="center"><hi rend="italic">FIN.</hi></p>
+                    </sp>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
