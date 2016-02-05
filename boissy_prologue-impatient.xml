@@ -6,7 +6,8 @@
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>L'impatient, comédie. Prologue: édition numérique</title>
+                <title>L'Impatient</title>
+                <title type="sub">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
