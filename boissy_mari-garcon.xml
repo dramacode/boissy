@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le Mari garçon: édition numérique</title>
+                <title type="main">Le Mari garçon</title>
+                <title type="subtitle">Édition électronique.</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -87,10 +88,9 @@
             <div1 type="title">
                 <head>LE MARI <lb/>GARÇON<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Finette">
@@ -288,8 +288,8 @@
                             <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vais, ſans différer, m'acquitter de ce ſoin.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur de la Joie">
@@ -445,8 +445,8 @@
                             <l>Quand il faut ordonner un repas ſolemnel.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -805,9 +805,9 @@
                             <l>Non, elle vous favoriſe,</l>
                             <l>Puiſqu'elle ſert de frein à vos feux imprudens.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="18"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LA COMTESSE<pc>,</pc> <lb/>CIDALISE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cidalise">
@@ -1040,8 +1040,8 @@
                             <l part="F">Adieu, Madame, adieu, ma ſœur.</l>
                             <lb/><stage>(Elle<sic></sic><corr>s</corr> ſortent.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
@@ -1054,9 +1054,9 @@
                             <l>Déguiſons-nous en ſa préſence,</l>
                             <l>Et jouons bien l'étonnement.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="23"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -1422,8 +1422,8 @@
                             <l>Non, non, je ne veux point, Marquis,</l>
                             <l>Te mettre dans le cas de la reconnoiſſance.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LE MARQUIS<pc>,</pc> <lb/>M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur de la Joie">
@@ -1591,13 +1591,13 @@
                             <l part="F">Non, je me caractériſe.</l>
                             <l>Trois bouteilles encore, &amp; nous voilà parfaits.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du premier Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="34"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
@@ -1634,8 +1634,8 @@
                             <l>Tâchons, par ſon éclat, de ſéduire <name type="person" n="Finette">Finette</name>;</l>
                             <l>Et courons de ce pas... Mais elle vient ici.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS <pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -1844,9 +1844,9 @@
                             <l>Je me retire vîte, &amp; ſuis votre ſervante.</l>
                             <lb/><stage type="exit" rend="italic">(Elle s'enfuit.)</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="39"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
@@ -1892,8 +1892,8 @@
                             <l>Par bonheur, j'ai fini , ſans qu'il m'en ait coûté ;</l>
                             <l>Et je rends grace à ma facilité.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> CIDALISE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cidalise">
@@ -2073,8 +2073,8 @@
                             <l>Ah! Je cours, à <name type="person" n="Léandre">Léandre</name>, aprendre ſon bonheur.</l>
                             <l>Quels ſeront ſes tranſports ! Mais je le vois paroître.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> CIDALISE<pc>,</pc> <lb/>LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2096,8 +2096,8 @@
                             <l>De t'aquitter de celui d'une Amant.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> CIDALISE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2263,17 +2263,17 @@
                             <l>J'en fais autant. Adieu. J'y vole de ce pas.</l>
                             <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
                             <stage rend="italic">ſeul.</stage><lb/>
                             <l><c type="lettrine">B</c>On, je l'envoye où ma femme n'eſt pas.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="48"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2447,8 +2447,8 @@
                             <l>Je t'en prie. Elle vient. Saiſis ce moment-là.</l>
                             <lb/><stage>(Il ſort vîte.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -2652,9 +2652,9 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Lui-même, &amp; je le vois venir.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="55"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LA COMTESSE<pc>,</pc> <lb/>M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2758,13 +2758,13 @@
                             <l>Eſt d'en purger la Compagnie,</l>
                             <l>Et d'extirper ce mal de bonne-foi.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du ſecond Acte.</p>
-                        </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du ſecond Acte.</trailer>
+                        </div2>
+                </div1>
                 <pb n="58"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2967,8 +2967,8 @@
                             <l>Et moi, pour m'expliquer, ſans plus long-tems attendre,</l>
                             <l>Je vais mettre à profit ce bienfait du hazard.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -3047,9 +3047,9 @@
                             <l>Près d'elle votre apui me devient néceſſaire.</l>
                             <l>C'eſt, puiſqu'il faut vous la nommer...</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="64"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LA COMTESSE<pc>,</pc> <lb/>CIDALISE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cidalise">
@@ -3266,9 +3266,9 @@
                             <l>Je lui veux devant vous, daignez me le permettre,</l>
                             <l>Demander compte de ma Lettre.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="68"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LES ACTEURS PRECEDENS<pc type="affirmative">.</pc> <lb/>LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -3389,8 +3389,8 @@
                             <l>Et vous riſquez, Marquis,de ne plus me revoi<sic>s</sic><corr>r</corr>.</l>
                             <lb/><stage type="exit" rend="italic">[Elle ſuit la Comteſſe.]</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -3463,8 +3463,8 @@
                             <l>Ah ! de mes feux tu te moques toujours</l>
                             <l>Par ton langage impénétrable.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LE MARQUIS<pc>,</pc> M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -3497,8 +3497,8 @@
                             <l>Je ſuis perdu , mes jours ne tiennent plus à rien.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> M. DE LA JOIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur de la Joie">
@@ -3603,8 +3603,8 @@
                             <l>Il périclite en ce moment;</l>
                             <l>Et,ſans un prompt ſecours, je crains fort qu'il n'en <lb/>meure.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> M. DE LA JOIE<pc>,</pc> <lb/>LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -3709,9 +3709,9 @@
                             <l>Ma ſœur qui vient, de cet oracle,</l>
                             <l>Va diſſiper l'obſcurité.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="77"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> M. DE LA JOIE<pc>,</pc> <lb/>LA MARQUIS<pc>,</pc> LA COMTESSE <lb/>CIDALISE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -3890,10 +3890,9 @@
                             <l>En dépit des fâcheux, vous parler &amp; vous voir ,</l>
                             <l>Madame, &amp; votre Epoux va l'être enfin ce ſoir.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="center">FIN.</p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
