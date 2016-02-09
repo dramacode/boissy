@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le François à Londres: édition numérique</title>
+                <title type="main">Le François à Londres</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -100,8 +101,7 @@
                 <pb n="3"/>
                 <head>LE FRANÇOIS <lb/> A LONDRES<pc>,</pc> COMÉDIE<pc type="affirmative">.</pc><lb/></head>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+            <div1 type="scene" n="1">
                     <head>SCENE PREMIERE.</head><lb/>
                     <stage>LE BARON DE POLINVILLE<pc>,</pc> <lb/> LE MARQUIS DE POLINVILLE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
@@ -370,9 +370,9 @@
                             <lb/>propos pour cela.
                         </p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="8"/>
-                <div2 type="scene" n="2">
+                <div1 type="scene" n="2">
                     <head>SCENE II.</head><lb/>
                     <stage>LE BARON<pc>,</pc> LE MARQUIS<pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
@@ -496,8 +496,8 @@
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="3">
+                </div1>
+                <div1 type="scene" n="3">
                     <head>SCENE III.</head><lb/>
                     <stage>LE BARON<pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Eliante">
@@ -587,8 +587,8 @@
                             <lb/><stage type="exit" rend="italic">(Il s'en va.)</stage>
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV.</head>
                     <sp who="Eliante">
                         <speaker>ELIANTE </speaker>
@@ -601,9 +601,9 @@
                             <lb/>quis continue...
                         </p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="12"/>
-                <div2 type="scene" n="5">
+                <div1 type="scene" n="5">
                     <head>SCENE V.</head><lb/>
                     <stage>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Finette">
@@ -758,9 +758,9 @@
                             <lb/><name type="person" n="houzey">Houzey</name> votre frere, c'eſt du fruit nouveau.
                         </p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="15"/>
-                <div2 type="scene" n="6">
+                <div1 type="scene" n="6">
     				<head>SCENE VI.</head><lb/>
     				<stage>MILORD HOUZEY<pc>,</pc> ELIANTE<pc>,</pc> <lb/>FINETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Milord Houzey">
@@ -897,8 +897,8 @@
     					    <lb/>gens.
     					</p>
     				</sp>
-    			</div2>
-                <div2 type="scene" n="7">
+    			</div1>
+                <div1 type="scene" n="7">
     				<head>SCÈNE VII.</head><lb/>
     				<stage>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Finette">
@@ -924,8 +924,8 @@
     					    <lb/>congédier à la Françoiſe.  <stage type="exit" rend="italic">(<name type="person" n="Eliante">Eliante</name> rentre.)</stage>
     					</p>
     				</sp>
-    			</div2>
-                <div2 type="scene" n="8">
+    			</div1>
+                <div1 type="scene" n="8">
     				<head>SCENE VIII.</head><lb/>
     				<stage>JACQUES<sic><pc>,</pc></sic><corr></corr> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Rosbif">
@@ -1029,9 +1029,9 @@
     						<lb/>parler.
     					</p>
     				</sp>
-                </div2>
+                </div1>
                 <pb n="20"/>
-                <div2 type="scene" n="9">
+                <div1 type="scene" n="9">
                     <head>SCENE IX.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Finette">
@@ -1044,8 +1044,8 @@
                         </p>
                     </sp>
                     <p rend="center">***</p>
-                </div2> 
-                <div2 type="scene" n="10">
+                </div1> 
+                <div1 type="scene" n="10">
                     <head>SCENE X.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
@@ -1152,8 +1152,8 @@
                             <lb/>bouffon, &amp; vous valez bien trois ſchelins. <stage type="exit" rend="italic">(Il ſort.)</stage>
                         </p>
                     </sp>
-                </div2> 
-                <div2 type="scene" n="11">
+                </div1> 
+                <div1 type="scene" n="11">
                     <head>SCENE XI.</head><lb/>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
@@ -1162,8 +1162,8 @@
                             <lb/>épée.
                         </p>
                     </sp>
-                </div2> 
-                <div2 type="scene" n="12">
+                </div1> 
+                <div1 type="scene" n="12">
                     <head>SCENE XII.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Finette">
@@ -1280,8 +1280,8 @@
                         </p>
                         <lb/><stage type="exit" rend="italic">(Elle ſort avec <name type="person" n="Finette">Finette</name>.</stage>
                     </sp>
-                </div2> 
-                <div2 type="scene" n="13">
+                </div1> 
+                <div1 type="scene" n="13">
                     <head>SCENE XIII.</head><lb/>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
@@ -1293,9 +1293,9 @@
                             <lb/>ger.
                         </p>
                     </sp>
-                </div2> 
+                </div1> 
                 <pb n="25"/>
-                <div2 type="scene" n="14">
+                <div1 type="scene" n="14">
                     <head>SCENE XIV.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> MILORD HOUZEY<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Milord Houzey">
@@ -1439,9 +1439,9 @@
                         <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Je n'y manquerai pas.</p>
                     </sp>
-                </div2> 
+                </div1> 
                 <pb n="28"/>
-                <div2 type="scene" n="15"> 
+                <div1 type="scene" n="15"> 
     				<head>SCENE XV.</head><lb/>
     				<stage>MILORD CRAFF<pc>,</pc> LE MARQUIS<pc>,</pc> MILORD HOUZEY<pc type="affirmative">.</pc></stage><lb/>   
                     <sp who="Milord Craff">
@@ -1662,9 +1662,9 @@
                         </p>
                         <lb/><stage type="exit" rend="italic">[Milord <name type="person" n="Houzey">Houzey</name> s'e<sic>u</sic><corr>n</corr> va.]</stage>
                     </sp>
-                </div2> 
+                </div1> 
                 <pb n="32"/>
-                <div2 type="scene" n="16">
+                <div1 type="scene" n="16">
                     <head>SCENE XVI.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> MILORD CRAFF<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
@@ -1851,9 +1851,9 @@
                             <lb/>que. <stage type="business" rend="italic">(Il tire l'épée.)</stage>
     					</p>
     				</sp>              
-    			</div2> 
+    			</div1> 
     			<pb n="35"/>
-                <div2 type="scene" n="17">
+                <div1 type="scene" n="17">
     				<head>SCENE XVII.</head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> MILORD CRAFF<pc>,</pc> LE BARON<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Le Baron">
@@ -1890,8 +1890,8 @@
     					    <lb/>la Ville. <stage type="exit" rend="italic">[Il ſort.]</stage>
     					</p>
     				</sp>     
-                </div2>          
-                <div2 type="scene" n="18">
+                </div1>          
+                <div1 type="scene" n="18">
                     <head>SCENE XVIII.</head><lb/>
                     <stage>LE BARON<pc>,</pc> MILORD CRAFF<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Baron">
@@ -1958,9 +1958,9 @@
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
     					</p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="37"/>
-                <div2 type="scene" n="19">
+                <div1 type="scene" n="19">
     				<head>SCENE XIX.</head><lb/>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
@@ -1971,8 +1971,8 @@
                             <lb/>préjugés de l'éducation.
     					</p>
     				</sp>
-    			</div2>          
-    			<div2 type="scene" n="20">
+    			</div1>          
+    			<div1 type="scene" n="20">
     				<head>SCENE XX.</head><lb/>
     				<stage>LE BARON<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Finette">
@@ -2007,9 +2007,9 @@
     						<lb/>l'accepter pour gendre.
     					</p>
     				</sp>
-    			</div2>  
+    			</div1>  
     			<pb n="38"/>
-                <div2 type="scene" n="21">
+                <div1 type="scene" n="21">
     				<head>SCENE XXI.</head><lb/>
     				<stage>LE BARON<pc>,</pc> ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Le Baron">
@@ -2028,8 +2028,8 @@
     				    <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
     					<p>Madame , j'y vole.</p>
     				</sp> 
-    			</div2>         
-    			<div2 type="scene" n="22">
+    			</div1>         
+    			<div1 type="scene" n="22">
     				<head>SCENE XXII.</head><lb/>
     				<stage>ELIANTE<pc>,</pc> FINETTE.</stage><lb/>
     				<sp who="Finette">
@@ -2045,8 +2045,8 @@
     						<lb/>le mépris qu'il mérite.
     					</p>
     				</sp>
-    			</div2> 
-    			<div2 type="scene" n="23">
+    			</div1> 
+    			<div1 type="scene" n="23">
     				<head>SCENE XXIII.</head><lb/>
     				<stage>MILORD CRAFF<pc>,</pc> LE BARON<pc>,</pc> 
     				    <lb/>ROSBIF<pc>,</pc> ELIANTE <pc>,</pc> FINETTE<pc>.</pc></stage><lb/>
@@ -2057,9 +2057,9 @@
     			            <lb/>ſence de ma fille. Mais la voici.
     					</p>
     				</sp>
-    			</div2> 
+    			</div1> 
                 <pb n="39"/>
-                <div2 type="scene" n="24">
+                <div1 type="scene" n="24">
                     <head>SCENE DERNIERE.</head><lb/>
                     <stage>MILORD CRAFF<pc>,</pc> LE BARON<pc>,</pc> LE MAR-
                         <lb/>QUIS <pc>,</pc> MILORD HOUZEY<pc>,</pc> ROSBIF <pc>,</pc> 
@@ -2186,9 +2186,8 @@
                             <lb/>rien n'aproche d'un François raiſonnable.
                         </p>
                     </sp>
-                    <lb/><lb/><lb/><p rend="center">FIN.</p>
-                </div2>
-            </div1>
+                    <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
+                </div1>
         </body>
     </text>
 </TEI>
