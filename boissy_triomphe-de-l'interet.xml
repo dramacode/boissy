@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le triomphe de l'intérest: édition numérique.</title>
+                <title type="main">Le Triomphe de l'intérêt</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -63,12 +64,12 @@
             <titlePage type="half-title">
                 <docTitle>
                     <titlePart type="main">LE TRIOMPHE <lb/> DE <lb/> L'INTÉREST ,</titlePart>
-                    <titlePart type="desc" rend="italics">COMEDIE</titlePart>
+                    <titlePart type="desc" rend="italicss">COMEDIE</titlePart>
                 </docTitle>
             </titlePage>
             <pb n="88"/>
             <castList>
-                <head rend="italics">ACTEURS</head>
+                <head rend="italicss">ACTEURS</head>
                 <castItem><role>MERCURE</role>.</castItem>
                 <castItem><role>L'HONNEUR</role>.</castItem>
                 <castItem><role>L'INTÉREST</role>.</castItem>
@@ -89,8 +90,7 @@
                 <head>LE TRIOMPHE <lb/> DE <lb/> L'INTÉREST ,<lb/>COMEDIE.</head>
                 <lb/><lb/><p><hi rend="italique">Le Théâtre repréſente un Palais de Financier.</hi></p>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+           <div1 type="scene" n="1">
                     <head>SCENE PREMIERE.</head><lb/>
                     <sp who="Mercure">
                         <speaker>MERCURE.</speaker><lb/>
@@ -111,11 +111,11 @@
                         <l>Je le mépriſe en ſon abſence,</l>
                         <l>Mais je le reſpecte préſent.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="2">
+                </div1>
+                <div1 type="scene" n="2">
                     <head>SCENE II.</head><lb/>
                     <stage>MERCURE, L'INTEREST.</stage><lb/>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l><c type="lettrine">S</c>Alut au Dieu <name type="person" n="Mercure">Mercure</name>.</l>
                         <l>Et par quelle avanture.</l>
@@ -132,7 +132,7 @@
                         <l>J'ai crû ne pouvoir pas mieux faire,</l>
                         <l>Que de venir chez vous exercer mes talens.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Une intriguant habile eſt toujours néceſſaire;</l>
                         <l>Il eſt par-tout le bien venu.</l>
@@ -144,7 +144,7 @@
                         <l>Et le voilà, ma foi ; vêtu</l>
                         <l>En héros de finance.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Je n'ai point dans <name type="place" n="Paris">Paris</name> de plus zèlés ſujets,</l>
                         <l>Ils ont bâti pour moi ce ſuperbe palais.</l>
@@ -167,7 +167,7 @@
                         <l>Je vais lancer ſur vous quelque trait de ſatyre,</l>
                         <l>Et cela vous réveillera.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Oh ! Tu perds le reſpect, &amp; je t'arrête-là.</l>
                         <l>Je ſuis un Dieu que le monde révére ;</l>
@@ -178,7 +178,7 @@
                         <l>Mais j'ai l'honneur d'être votre confrère ;</l>
                         <l>Je ſuis Dieu comme vous.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>D'accord ; mais un Dieu miſérable</l>
                         <l>Ne vaut pas un mortel en fond.</l>
@@ -188,7 +188,7 @@
                         <l>D'un financier qui ſort de table,</l>
                         <l>Oh, que voilà bien le jargon !</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Quoi qu'il en ſoit, je hais la médiſance.</l>
                         <l>Si tu veux être bien reçû,</l>
@@ -200,7 +200,7 @@
                         <l>C'eſt m'ordonner de garder le ſilence,</l>
                         <l>Ou de mentir ſur un ſujet connu.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Eh ! Ments plûtôt, pour te rendre agréable.</l>
                         <pb n="92"/>
@@ -216,7 +216,7 @@
                         <l>Au gré de vos deſirs vous ſçavez le conduire :</l>
                         <l>Vous déclarez la guerre, &amp; vous donner la paix.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>C'eſt parler comme je deſire;</l>
                         <l part="I">On nepeut mieux louer.</l>
@@ -228,7 +228,7 @@
                         <l>Fait moins votre panégirique,</l>
                         <l>Que le procès du genre-humain.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Eh ! Qu'importe, pourvû qu'il vante ma puiſſance ?</l>
                         <l>Elle eſt au plus haut point ; on n'écoute que moi.</l>
@@ -249,7 +249,7 @@
                         <l>Craignez ſes forces ramaſſées;</l>
                         <l>Il portera le feu juſques dans ce Palais.</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Je brave un effort inutile.</l>
                         <l>Eh ! Contre l'Intérêt, que peut le foible Honneur !</l>
@@ -265,12 +265,12 @@
                         <l>Et me demander quelque grace :</l>
                         <l>Sers-moi de ſubſtitut, &amp; remplis bien ma place.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="3">
+                </div1>
+                <div1 type="scene" n="3">
                     <head>SCENE III.</head><lb/>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                        <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                         <l><c type="lettrine">S</c>'il fait marcher tous ſes ſoldats</l>
                         <l>En de telles allarmes,</l>
                         <l>Que de robes &amp; de rabats</l>
@@ -278,8 +278,8 @@
                         <l>Mais quel objet s'avance ? Ah, le joli tendron !</l>
                         <l>Interrogeons un peu cette aimable perſonne</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV.</head><lb/>
                     <stage>MERCURE, FANCHON.</stage><lb/>
                     <sp who="Mercure">
@@ -455,7 +455,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Oh ! Dans la paſſion qu'elle entre vivement !</l>
                         <l>Elle eſt grande Actrice vraiment,</l>
                         <l>Et j'en augure bien, ſi cela continue.</l>
@@ -550,8 +550,8 @@
                         <l>Je ſçaurai lui répondre, &amp; ſur le même ton :</l>
                         <l>C'eſt mon premier métier, &amp; j'entens ce jargon.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="5">
+                </div1>
+                <div1 type="scene" n="5">
                     <head>SCENE V.</head><lb/>
                     <stage>MERCURE, FANCHON, Mr. JACQUIN.</stage><lb/>
                     <sp who="Mercure">
@@ -563,7 +563,7 @@
                         <l>C'eſt lui-même, Seigneur, c'eſt lui qui vous ſalue.</l>
                         <l>Je viens remercier</l>
                         <l>L'Intérét qui ma fait Caiſſier.</l>
-                        <lb/><sound>AIR. <hi rend="italic">Ah ! Qu'il fait bon-là !</hi></sound><lb/>
+                        <lb/><sound>AIR. <hi rend="italics">Ah ! Qu'il fait bon-là !</hi></sound><lb/>
                         <l>Qu'avoir une caiſſe</l>
                         <l>Eſt un bon métier !</l>
                         <l>Ah ! J'ai de l'eſpéce</l>
@@ -576,7 +576,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">parodiant le refrein, &amp; <lb/> montrant <name type="person" n="Fanchon">Fanchon</name>.</hi></stage><lb/>
+                        <stage><hi rend="italics">parodiant le refrein, &amp; <lb/> montrant <name type="person" n="Fanchon">Fanchon</name>.</hi></stage><lb/>
                         <l>Voici pour vous en défaire,</l>
                         <l>Laire</l>
                         <l>Lon lan la,</l>
@@ -584,12 +584,12 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Ah ! Qu'il fait bon-là !</l>
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Tuton...</hi></sound>
+                        <sound>AIR. <hi rend="italics">Tuton...</hi></sound>
                         <l>Ah ! Bon jour, brunette aux yeux doux ;</l>
                         <pb n="100"/>
                         <l>Dès ce moment le voulez-vous</l>
@@ -607,7 +607,7 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Ah ! Qu'il y va gaiment !</hi></sound><lb/>
+                        <sound>AIR. <hi rend="italics">Ah ! Qu'il y va gaiment !</hi></sound><lb/>
                         <l>C'eſt débuter fort joliment.</l>
                         <l>Ah ! Qu'il y va gaiment !</l>
                     </sp>
@@ -620,7 +620,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Qu'un mari ſoit pulmonique.</hi></sound><lb/>
+                        <sound>AIR. <hi rend="italics">Qu'un mari ſoit pulmonique.</hi></sound><lb/>
                         <l>Vous aurez bon équipage</l>
                         <l>En femme de haut étage ;</l>
                         <l>Des bijoux, de l'or, en voila ,</l>
@@ -634,10 +634,10 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">chante.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">chante.</hi></stage><lb/>
                         <l>Allés, mignons de ruelles,</l>
                         <l>Rengainés votre jargon.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(Il déclame.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(Il déclame.)</hi></stage><lb/>
                         <l>Mais je parle l'argot du Théâtre lyrique ;</l>
                         <pb n="101"/>
                         <l>C'eſt un mal qui ſe communique :</l>
@@ -645,7 +645,7 @@
                         <l>A cette eſpéce de manie.</l>
                         <l>Pour ne pas rompre l'harmonie,</l>
                         <l>Le ſage doit parler le langage des fous.</l>
-                        <stage type="delivery"><hi rend="italic">[Il reprend le chant.]</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">[Il reprend le chant.]</hi></stage><lb/>
                         <l>Allés, mignons de ruelles ,</l>
                         <l>Rengainés votre jargon.</l>
                         <l>Pour vaincre les plus cruelles ;</l>
@@ -656,14 +656,14 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage type="delivery"><hi rend="italic">déclame.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">déclame.</hi></stage><lb/>
                         <l>Vous ſuivez trop, Seigneur, l'ardeur qui vous agite,</l>
                         <l>Telle que je parois, je penſe noblement ;</l>
                         <l>Je veux un Protecteur, &amp; non pas un Amant.</l>
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Ah ! La petite hypocrite !</l>
                     </sp>
                     <sp who="Monsieur Jacquin">
@@ -679,16 +679,16 @@
                         <l>Et, juſqu'au moindre terme, annoblit tout enfin ;</l>
                         <l>La preſence d'un tiers gêne d'ailleurs ſon ame ;</l>
                         <l>Je vais vous laiſſez ſeul expliquer votre flamme.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Il s'en va.)</hi></stage>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="102"/>
-                <div2 type="scene" n="6">
+                <div1 type="scene" n="6">
                     <head>SCENE VI.</head><lb/>
                     <stage>Mr. JACQUIN, FANCHON.</stage><lb/>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Je ne ſçaurois.</hi></sound>
+                        <sound>AIR. <hi rend="italics">Je ne ſçaurois.</hi></sound>
                         <l><c type="lettrine">S</c>'il faut jouer une Piéce,</l>
                         <l>Ne la jouons qu'à huit clos:</l>
                         <l>La, vous ſerez ma Princeſſe ,</l>
@@ -705,7 +705,7 @@
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
                         <l>J'en mourrois.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(Elle continue.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(Elle continue.)</hi></stage><lb/>
                         <sound>AIR.</sound><lb/>
                         <l>Je prétens de mon jeu faire admirer ſans ceſſe</l>
                         <l>La beauté,</l>
@@ -719,12 +719,12 @@
                         <speaker>FANCHON.</speaker><lb/>
                         <l>Exciter doublement, unique en mon eſpéce ;</l>
                         <l>La curioſite.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(Elle déclame.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(Elle déclame.)</hi></stage><lb/>
                         <l>Oui,<name type="person" n="Fanchon">Fanchon</name>  au public veut plaire uniquement.</l>
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Dans nos Bois il y a un Hermite.</hi></sound>
+                        <sound>AIR. <hi rend="italics">Dans nos Bois il y a un Hermite.</hi></sound>
                         <l>Rien qu'à lui ſeul ! Ah ! le pénible ouvrage,</l>
                         <l>Avec tant d'agrément !</l>
                     </sp>
@@ -756,11 +756,11 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage><hi rend="italic">déclamant.</hi></stage><lb/>
+                        <stage><hi rend="italics">déclamant.</hi></stage><lb/>
                         <l>Vous pouvez, en Héros qui ſoulage mes peines ;</l>
                         <l>Mer verſer vos faveurs ſans attendre des miennes.</l>
-                        <l>Et je les recevrai, mais d'un cœur, <stage><hi rend="italic">(vivement.)</hi></stage> mais d'un front </l>
-                        <l>Qui vous feront juger... <stage><hi rend="italic">(froidement.)</hi></stage> de mon reſpect profond. </l>
+                        <l>Et je les recevrai, mais d'un cœur, <stage><hi rend="italics">(vivement.)</hi></stage> mais d'un front </l>
+                        <l>Qui vous feront juger... <stage><hi rend="italics">(froidement.)</hi></stage> de mon reſpect profond. </l>
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
@@ -775,7 +775,7 @@
                         <l>En ce cas vous êtes le maître.</l>
                         <l>Car j'ai l'un &amp; l'autre talent.</l>
                         <l>Me voilà prête à chanter ſur le champ.</l>
-                        <lb/><sound>AIR parodié. <hi rend="italic">Carnaval &amp; la Folie.</hi></sound><lb/>
+                        <lb/><sound>AIR parodié. <hi rend="italics">Carnaval &amp; la Folie.</hi></sound><lb/>
                         <l>Qu'en ces lieux chacun chante,</l>
                         <l>Que l'éco chante avec nous.</l>
                         <l><name type="person" n="Fanchon">Fanchon</name> plaît, ſa voix enchante,</l>
@@ -789,8 +789,8 @@
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
                         <l>Ah ! Mon ame eſt ravie.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(Il chante.)</hi></stage><lb/>
-                        <sound>AIR <hi rend="italic"><name type="person" n="Bacchus">Baccus</name>, laiſſés-moi ſoupirer <lb/> Du Carnaval &amp; la Folie.</hi></sound><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR <hi rend="italics"><name type="person" n="Bacchus">Baccus</name>, laiſſés-moi ſoupirer <lb/> Du Carnaval &amp; la Folie.</hi></sound><lb/>
                         <l>Pour vous, que je vais ſoupirer !</l>
                         <l>A vous , que je vais boire !</l>
                         <l>Vos talens forceront tous les yeux à pleurer,</l>
@@ -799,7 +799,7 @@
                         <l>Pour hâter nos plaiſirs, je vais hâter leur gloire.</l>
                         <l>Pour vous, que je vais ſoupirer</l>
                         <l>A vous, que je vais boire !</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(Il déclame.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(Il déclame.)</hi></stage><lb/>
                         <l>Mais venés avec moi vous-même vous montrer ;</l>
                         <l>Un mot de votre bouche aura plus de puiſſance :</l>
                         <l>Un ſeul regard de vos yeux ſéduiſans,</l>
@@ -831,11 +831,11 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Qu'il ne s'aviſe pas de le redemander.</l>
                         <pb n="105"/>
-                        <stage type="delivery"><hi rend="italic">[elle chante.]</hi></stage><lb/>
-                        <sound>AIR. <hi rend="italic">Mariez, mariez-moi.</hi> </sound>
+                        <stage type="delivery"><hi rend="italics">[elle chante.]</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italics">Mariez, mariez-moi.</hi> </sound>
                         <l>Menez <name type="person" n="Fanchon">Fanchon</name> maintenant</l>
                         <l>Chez tous les gens d'importance,</l>
                         <l>Pour leur faire un compliment,</l>
@@ -850,8 +850,8 @@
                         <l>Promenons, promenons-la,</l>
                         <l>Et chacun l'aplaudira.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="7">
+                </div1>
+                <div1 type="scene" n="7">
                     <head>SCENE VII.</head><lb/>
                     <stage>MERCURE, Mr. JACQUIN, FANCHON.</stage><lb/>
                     <sp who="Mercure">
@@ -861,7 +861,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Le Tambourineur.</hi></sound>
+                        <sound>AIR. <hi rend="italics">Le Tambourineur.</hi></sound>
                         <l>Malgré des juſtes allarmes ,</l>
                         <l>Mon cœur lui rend les armes :</l>
                         <l>Je vais aſſembler l'eſcadron,</l>
@@ -872,7 +872,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Il étoit trois fille.</hi></sound>
+                        <sound>AIR. <hi rend="italics">Il étoit trois fille.</hi></sound>
                         <l>A la Debutante</l>
                         <l>Il faut du ſoutien ;</l>
                         <l>D'une brigue ardente</l>
@@ -880,12 +880,12 @@
                         <pb n="106"/>
                         <l>Qu'on me la claque, claque,</l>
                         <l>Qu'on me la claque bien.</l>
-                        <stage type="exit"><hi rend="italic">(M. <name type="person" n="Jacquin">Jacquin</name> &amp; <name type="person" n="Fanchon">Fanchon</name> ſortent.)</hi></stage>
+                        <stage type="exit"><hi rend="italics">(M. <name type="person" n="Jacquin">Jacquin</name> &amp; <name type="person" n="Fanchon">Fanchon</name> ſortent.)</hi></stage>
                     </sp>
-                </div2>
-                <div2 type="scene" n="8">
+                </div1>
+                <div1 type="scene" n="8">
                     <head>SCENE VIII.</head><lb/>
-                    <stage>MERCURE, Mr. DAVID <hi rend="italic">entrant d'un <lb/> air effrayé, une caſſette à la main.</hi></stage><lb/>
+                    <stage>MERCURE, Mr. DAVID <hi rend="italics">entrant d'un <lb/> air effrayé, une caſſette à la main.</hi></stage><lb/>
                     <sp who="Mercure">
                         <speaker>MERCURE.</speaker><lb/>
                         <l><c type="lettrine">Q</c>Ui vous fait dnc courir ſi vîte ?</l>
@@ -991,8 +991,8 @@
                         <speaker>MERCURE.</speaker><lb/>
                         <l>Vous êtes faits pour vous aimer tous deux.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="9">
+                </div1>
+                <div1 type="scene" n="9">
                     <head>SCENE IX.</head><lb/>
                     <stage>MERCURE, Mr. DAVID. <lb/> LA BANQUEROUTE.</stage><lb/>
                     <sp who="Mercure">
@@ -1009,7 +1009,7 @@
                         <l>Entre mes favoris fameux</l>
                         <l>J'ai toujours compté les Hébreux;</l>
                         <l>Avec diſtinction toujours je les regarde.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(à Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
                         <l>Raſſures-toi. Mon nom fait la terreur</l>
                         <l>Du créancier que j'accable ;</l>
                         <l>Ma main prompte &amp; ſecourable,</l>
@@ -1102,21 +1102,21 @@
                     </sp>
                     <sp who="La Banqueroute">
                         <speaker>LA BANQUEROUTE </speaker>
-                        <stage type="delivery"><hi rend="italic">chante.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">chante.</hi></stage><lb/>
                         <sound>AIR.</sound>
                         <l>Suis-moi ſans autre forme ;</l>
                         <l>Emportons ces deniers.</l>
                         <l>Attendez-nous ſous l'orme ,</l>
                         <l>Meſſieurs les créanciers.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Elle ſort avec Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(Elle ſort avec Monſieur <name type="person" n="David">David</name>.)</hi></stage><lb/>
                     </sp>
-                </div2>
-                <div2 type="scene" n="10">
+                </div1>
+                <div1 type="scene" n="10">
                     <head>SCENE X.</head><lb/>
                     <stage>MERCURE, PHEDRE, HIPOLITE.</stage><lb/>
                     <sp who="Phèdre">
                         <speaker>PHEDRE </speaker>
-                        <stage type="delivery"><hi rend="italic">d'un ton tragique.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">d'un ton tragique.</hi></stage><lb/>
                         <l><c type="lettrine">O</c>ui, Prince, je prétens rompre notre lien.</l>
                     </sp>
                     <pb n="111"/>
@@ -1131,7 +1131,7 @@
                     </sp>
                     <sp who="Hippolyte">
                         <speaker>HIPOLITE </speaker>
-                        <stage type="business"><hi rend="italic">montrant <name type="person" n="Phèdre">Phédre</name>.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">montrant <name type="person" n="Phèdre">Phédre</name>.</hi></stage><lb/>
                         <l>Conſervez-moi ma femme &amp; ſon bien précieux.</l>
                     </sp>
                     <sp who="Phèdre">
@@ -1178,7 +1178,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">ſur le même ton.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">ſur le même ton.</hi></stage><lb/>
                         <l>Vous me percez l'oreille en me fendant le cœur.</l>
                         <l>Finiſſez, grande Reine,</l>
                         <l>Finiſſez des hoquets qui me font trop de peine;</l>
@@ -1279,15 +1279,15 @@
                         <l>Sont réſervés aux Dieux, &amp; paſſent le héros.</l>
                         <l>Puniſſezlà, Seigneur, par un Arrêt ſévére,</l>
                         <l>Et confirmez un nœud que vous m'avez fait faire.</l>
-                        <lb/><stage type="mixed"><hi rend="italic">(à part, en donnant à <name type="person" n="Mercure">Mercure</name>une bourſe pleine d'or.)</hi></stage>
+                        <lb/><stage type="mixed"><hi rend="italics">(à part, en donnant à <name type="person" n="Mercure">Mercure</name>une bourſe pleine d'or.)</hi></stage>
                         <l>Voilà pour augmenter la force de mes droits.</l>
                     </sp>
                     <pb n="114"/>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">bas en la prenant.</hi></stage><lb/>
+                        <stage><hi rend="italics">bas en la prenant.</hi></stage><lb/>
                         <l>Auprès de l'Intérêt ce moyen a du poids.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                         <l>Malgré la haute ſuffiſance</l>
                         <l>D'<name type="person" n="Hippolyte">Hipolite</name>, Prince mineur,</l>
                         <l>Attendu qu'aujourd'hui ſon droit eſt le meilleur,</l>
@@ -1323,22 +1323,22 @@
                         <speaker>HIPOLOTE.</speaker><lb/>
                         <l>On m'aſſure mon bien, en m'aſſurant ma femme.</l>
                         <l>Je ne vous quitte point, Princeſſe de mon ame.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Il la ſuit.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Il la ſuit.)</hi></stage>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="115"/>
-                <div2 type="scene" n="11">
+                <div1 type="scene" n="11">
                     <head>SCENE XI.</head><lb/>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                         <l><c type="lettrine">P</c>Our défendre ſes droits,</l>
                         <l>Elle a recours à la chicane ;</l>
                         <l>Mais l'Intérêt eſt ſont organe,</l>
                         <l>Elle perdra deux fois.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="12">
+                </div1>
+                <div1 type="scene" n="12">
                     <head>SCENE XII.</head><lb/>
                     <stage>MERCURE, Mr. VENTREBLEU.</stage><lb/>
                     <sp who="Monsieur Ventrebleu">
@@ -1382,7 +1382,7 @@
                         <l>Corbleu ! Nous pillerons auſſi bien que les autres !</l>
                         <l>Mettez-moi vîte à même, &amp;, pour gagner du bien,</l>
                         <l>Vous allez voir ſi j'y vais de main morte.</l>
-                        <lb/><stage type="business"><hi rend="italic">(ſerrant la main de <name type="person" n="Mercure">Mercure</name>.)</hi></stage><lb/>
+                        <lb/><stage type="business"><hi rend="italics">(ſerrant la main de <name type="person" n="Mercure">Mercure</name>.)</hi></stage><lb/>
                         <l>Je n'ai que celle-là, mais elle eſt aſſez forte;</l>
                         <l>Ce qu'elle ſçaura prendre, elle le tiendra bien.</l>
                     </sp>
@@ -1408,9 +1408,9 @@
                         <l>Mais, quel eſt ce fâcheux qui vient nous interrom-<lb/>pre ,</l>
                         <l>Au diable l'importun, avec ſon air diſcret.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="117"/>
-                <div2 type="scene" n="13">
+                <div1 type="scene" n="13">
                     <head>SCENE XIII.</head><lb/>
                     <stage>MERCURE, Mr. VENTREBLEU, <lb/> Mr. TAPINOIS.</stage><lb/>
                     <sp who="Monsieur Tapinois">
@@ -1419,18 +1419,18 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à Mr. Ventrebleu.</hi></stage>
+                        <stage type="delivery"><hi rend="italics">à Mr. Ventrebleu.</hi></stage>
                         <l>Pour un oment, éloignez-vous, de grace.</l>
                     </sp>
                     <sp who="Monsieur Ventrebleu">
                         <speaker>Mr VENTREBLEU </speaker>
-                        <stage type="delivery"><hi rend="italic">à Mr. Tapinois.</hi></stage>
+                        <stage type="delivery"><hi rend="italics">à Mr. Tapinois.</hi></stage>
                         <l>Ventrebleu ! Soyez court; je ſuis des plus preſſés.</l>
                         <l>J'ai ſoixante ans paſſés ,</l>
                         <l>Et j'attens une place.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="14">
+                </div1>
+                <div1 type="scene" n="14">
                     <head>SCENE XIV.</head><lb/>
                     <stage>MERCURE, Mr. TAPINOIS.</stage><lb/>
                     <sp who="Monsieur Tapinois">
@@ -1533,7 +1533,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Sans nuire à l'Intérêt, je veux punir ce traître,</l>
                         <l>Et le priver du prix de ſa noirceur.</l>
                         <l>J'ai l'hipocriſie en horreur :</l>
@@ -1555,9 +1555,9 @@
                         <l>Et mon impatience eſt grande.</l>
                         <l>Comptez, en m'exauçant, ſur une double offrance.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="120"/>
-                <div2 type="scene" n="15">
+                <div1 type="scene" n="15">
                     <head>SCENE XV.</head><lb/>
                     <stage>MERCURE, Mr. TAPINOIS ; <lb/> Mr. VENTREBLEU.</stage><lb/>
                     <sp who="Mercure">
@@ -1639,13 +1639,13 @@
                         <l>Réparent pleinement l'injure</l>
                         <l>Et le tort que m'ont fait ſoixante ans de vertu.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="16">
+                </div1>
+                <div1 type="scene" n="16">
                     <head>SCENE XVI.</head><lb/>
                     <stage>MERCURE, ARLEQUIN.</stage><lb/>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage type="entrance"><hi rend="italic">entrant d'un air <lb/> effronté.</hi></stage><lb/>
+                        <stage type="entrance"><hi rend="italics">entrant d'un air <lb/> effronté.</hi></stage><lb/>
                         <l><c type="lettrine">C</c>Ette ſalle eſt aſſez jolie ;</l>
                         <l>Et voilà bien du logement.</l>
                     </sp>
@@ -1698,7 +1698,7 @@
                         <l>Et ſes diſcours naïfs commencent à me plaire :</l>
                         <l>Je veux l'enrôler parmi nous ;</l>
                         <l>Et, ſur ſes ſentimens, il faut que je le fonde.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                         <l part="I">Votre nom ?</l>
                     </sp>
                     <sp who="Arlequin">
@@ -1972,11 +1972,11 @@
                         <l part="F">Non, non, je me retire :</l>
                         <l>Si je reſtois, Monſieur le Dieu,</l>
                         <l>Vous êtes fripon qui pourriés me ſéduire.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Il s'enfuit.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Il s'enfuit.)</hi></stage>
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                         <l>Il a raiſon, &amp; je l'admire ;</l>
                         <l>De la nature, en lui je connois le pouvoir ;</l>
                         <l>C'eſt là, de ſa façon, un parfait Philoſophe ;</l>
@@ -1984,13 +1984,13 @@
                         <l>Qui l'eſt ſans s'en apercevoir,</l>
                         <l>Et qui n'eſt point gâté par le ſçavoir.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="17">
+                </div1>
+                <div1 type="scene" n="17">
                     <head>SCENE XVII.</head><lb/>
                     <stage>MERCURE, Mr. JACQUIN, FANCHON.</stage><lb/>
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
-                        <sound>AIR? <hi rend="italic">Non, non, il n'eſt pas de ſi joli nom.</hi></sound><lb/>
+                        <sound>AIR? <hi rend="italics">Non, non, il n'eſt pas de ſi joli nom.</hi></sound><lb/>
                         <l><c type="lettrine">N</c>On, non,</l>
                         <l>J'eſtime trop un ſi beau ndon,</l>
                         <l>Pour vouloir jamais le rendre ;</l>
@@ -2000,7 +2000,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN </speaker>
-                        <stage><hi rend="italic">recite.</hi></stage><lb/>
+                        <stage><hi rend="italics">recite.</hi></stage><lb/>
                         <l>Je l'ai donné pour le reprendre.</l>
                     </sp>
                     <sp who="Fanchon">
@@ -2025,8 +2025,8 @@
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
                         <l>C'eſt un objet de rien, une badinerie.</l>
-                        <lb/><stage><hi rend="italic">(Il chante.])</hi></stage><lb/>
-                        <sound>AIR. <hi rend="italic"> Eſt-ce que ça, &amp;c.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Il chante.])</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italics"> Eſt-ce que ça, &amp;c.</hi></sound><lb/>
                         <l>Deux cens mille francs ſeulement,</l>
                         <l>Que me coûte la belle.</l>
                     </sp>
@@ -2046,12 +2046,12 @@
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
                         <l>Eſt-ce que ça ſe demande ?</l>
-                        <lb/><stage><hi rend="italic">[Elle déclame.]</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">[Elle déclame.]</hi></stage><lb/>
                         <l>Il m'a, par tout <name type="place" n="Paris">Paris</name>, triolée à ſon gré.</l>
                         <l>Ah ! Bon Dieu, quel martyre !</l>
                         <l>Et, dans une Maiſon dès qu'il étoit entré :</l>
                         <l>Il commençoit par me dire :</l>
-                        <lb/><sound>AIR. <hi rend="italic">Perroquet mignon.</hi></sound>
+                        <lb/><sound>AIR. <hi rend="italics">Perroquet mignon.</hi></sound>
                         <l>Aimable <name type="person" n="Fanchon">Fanchon</name>.</l>
                         <l>Chante une Chanſon</l>
                         <l>De ces bijoux je te fais don,</l>
@@ -2069,7 +2069,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN </speaker>
-                        <stage><hi rend="italic">déclame.</hi></stage><lb/>
+                        <stage><hi rend="italics">déclame.</hi></stage><lb/>
                         <l>Ah ! Je ſuis ſi fort en colére,</l>
                         <l>Que je ne me ſens plus la force de chanter.</l>
                         <l>Je l'ai fait pour la ſatiſfaire ,</l>
@@ -2082,8 +2082,8 @@
                         <speaker>FANCHON.</speaker><lb/>
                         <l>En un mot, pour lui complaire,</l>
                         <l>j'en ai dit de toutes façons.</l>
-                        <lb/><stage><hi rend="italic">(Elle chante.])</hi></stage><lb/>
-                        <sound>AIR. <hi rend="italic"> Il ſe fait une grande fête.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Elle chante.])</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italics"> Il ſe fait une grande fête.</hi></sound><lb/>
                         <l>Des Cantades, des Ariétes ,</l>
                         <l>Grands airs de <name type="person" n="Phaéton">Phaëton</name>,</l>
                         <l>Vaudevilles, Chanſonnettes,</l>
@@ -2092,7 +2092,7 @@
                         <l>Turlurette ,</l>
                         <l>Le cotillon ,</l>
                         <l>Turluron.</l>
-                        <lb/><stage><hi rend="italic">(Elle déclame.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Elle déclame.)</hi></stage><lb/>
                         <l>Seigneur, n'ai-je pas bien gagné tous les preſens</l>
                         <l>Et les largeſſes qu'il m'a faites ?</l>
                     </sp>
@@ -2128,7 +2128,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l>Le compte eſt un peu fort.</l>
                     </sp>
                     <sp who="Fanchon">
@@ -2146,7 +2146,7 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l part="F">Il eſt vrai, c'eſt la vendre</l>
                         <l part="I">Ce qu'elle vaut, &amp; par-delà.</l>
                     </sp>
@@ -2162,7 +2162,7 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage><hi rend="italic">déclamant.</hi></stage><lb/>
+                        <stage><hi rend="italics">déclamant.</hi></stage><lb/>
                         <l>Aprenez en ce jour, que lorſqu'une Princeſſe,</l>
                         <l>Qu'une Héroïne, enfin, telle que moi, s'abaiſſe</l>
                         <l>Juſques à recevoir les preſens d'un caiſſier ,</l>
@@ -2170,7 +2170,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Quand le péril eſt agréable.</hi></sound>
+                        <sound>AIR. <hi rend="italics">Quand le péril eſt agréable.</hi></sound>
                         <l>Je vous rens grace, Dulcinée,</l>
                         <l>D'avoir bien voulu vous donner</l>
                         <pb n="131"/>
@@ -2189,10 +2189,10 @@
                     <sp who="Mercure">
                         <speaker>MERCURE.</speaker><lb/>
                         <l>Oh ! Vous avez tort l'un &amp; l'autre ;</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Fanchon">Fanchon</name>.)</hi></stage> <sound>AIR.</sound> <stage><hi rend="italic">(Il chante.)</hi></stage>
+                        <lb/><stage type="delivery"><hi rend="italics">(à <name type="person" n="Fanchon">Fanchon</name>.)</hi></stage> <sound>AIR.</sound> <stage><hi rend="italics">(Il chante.)</hi></stage>
                         <l>Vous, de montrer du dégoût</l>
                         <l>Dans la conjoncture ;</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(à <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
                         <l>Vous, de n'avoir pas, ſur-tout ;</l>
                         <l>Mis à profit, juſqu'au bout,</l>
                         <l>La bonne avanture,</l>
@@ -2201,7 +2201,7 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic">Que je regrette mon amant !</hi></sound>
+                        <sound>AIR. <hi rend="italics">Que je regrette mon amant !</hi></sound>
                         <l>Que je dois peu le regretter !</l>
                         <l>L'Intérêt me l'avoit fait prendre,</l>
                         <l>La raiſon me le fait quitter,</l>
@@ -2214,11 +2214,11 @@
                     </sp>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage type="delivery"><hi rend="italic">à Mr. <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à Mr. <name type="person" n="Jacquin">Jacquin</name>.)</hi></stage><lb/>
                         <l>Pour vous, à ce retour vous deviez vous attendre;</l>
                         <l>Et je ne vous plains nullement.</l>
-                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
-                        <sound>AIR. <hi rend="italic">Il faut que je file.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italics">Il faut que je file.</hi></sound><lb/>
                         <l>Quand un gros richard s'allume,</l>
                         <l>Pour quelque tendron charmant,</l>
                         <l>Il doit ſçavoir la coutume,</l>
@@ -2257,13 +2257,13 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
                         <l>Ah ! Quelle joie !</l>
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN </speaker>
-                        <stage><hi rend="italic">chnate.</hi></stage><lb/>
-                        <sound>AIR. <hi rend="italic">On dit que l'amour eſt ſi charmant.</hi></sound><lb/>
+                        <stage><hi rend="italics">chnate.</hi></stage><lb/>
+                        <sound>AIR. <hi rend="italics">On dit que l'amour eſt ſi charmant.</hi></sound><lb/>
                         <l>Ah ! Quel ennui !</l>
                         <l>Devois-je m'adreſſer à lui ?</l>
                     </sp>
@@ -2276,7 +2276,7 @@
                     </sp>
                     <sp who="Monsieur Jacquin">
                         <speaker>Mr. JACQUIN.</speaker><lb/>
-                        <sound>AIR. <hi rend="italic"><name type="person" n="Philis">Philis</name>, un autre amant t'engage.</hi></sound><lb/>
+                        <sound>AIR. <hi rend="italics"><name type="person" n="Philis">Philis</name>, un autre amant t'engage.</hi></sound><lb/>
                         <l>Que je regrete mes largeſſes !</l>
                         <pb n="133"/>
                         <l>C'eſt payer bien cher des chanſons.</l>
@@ -2286,7 +2286,7 @@
                         <l>Qand je me rapelle</l>
                         <l>Que tu tiens mon or le plus pur,</l>
                         <l>Cela m'eſt bien dur.</l>
-                        <lb/><sound>AIR. <hi rend="italic">Eh, dru, dru, dru.</hi></sound><lb/>
+                        <lb/><sound>AIR. <hi rend="italics">Eh, dru, dru, dru.</hi></sound><lb/>
                         <l>Mais je n'ai pas encore perdu ; </l>
                         <l>Je puis tout entreprendre:</l>
                         <l>Je vais, car je ſuis un coſſu.</l>
@@ -2297,14 +2297,14 @@
                     <sp who="Fanchon">
                         <speaker>FANCHON.</speaker><lb/>
                         <l>Et moi, je vais tout vendre.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Ils ſortent.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Ils ſortent.)</hi></stage>
                     </sp>
-                </div2>
-                <div2 type="scene" n="18">
+                </div1>
+                <div1 type="scene" n="18">
                     <head>SCENE XVIII.</head><lb/>
                     <sp who="Mercure">
                         <speaker>MERCURE </speaker>
-                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                         <l><c type="lettrine">F</c>Ort bien ; c'eſt peu que leur talent fertile;</l>
                         <l>Sur le Théatre auſe les eſprits,</l>
                         <l>Il donne encore des ſcènes dans la Ville,</l>
@@ -2320,11 +2320,11 @@
                         <l>Et le chef d'un bureau ;</l>
                         <l>Le digne Général d'une pareille armée !</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="134"/>
-                <div2 type="scene" n="19">
+                <div1 type="scene" n="19">
                     <head>SCENE XIX.</head><lb/>
-                    <stage>MERCURE, L'INTEREST. <lb/> <hi rend="italic">Suivi de ſes Troupes.</hi></stage><lb/>
+                    <stage>MERCURE, L'INTEREST. <lb/> <hi rend="italics">Suivi de ſes Troupes.</hi></stage><lb/>
                     <sp who="L'Interest">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l><c type="lettrine">E</c>Ntrez tous en bon ordre, avancez, compagnons ;</l>
@@ -2354,36 +2354,36 @@
                         <l>Ces armes feront plus que grenade ni bombe.</l>
                         <l>Mais il vient, je le voi.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="135"/>
-                <div2 type="scene" n="20">
+                <div1 type="scene" n="20">
                     <head>SCENE DERNIERE.</head><lb/>
-                    <stage>LES ACTEURS PRECEDENS, <lb/> L'HONNEUR <hi rend="italic">accompagné de ſes Soldats.</hi></stage><lb/>
+                    <stage>LES ACTEURS PRECEDENS, <lb/> L'HONNEUR <hi rend="italics">accompagné de ſes Soldats.</hi></stage><lb/>
                     <sp who="L'Honneur">
                         <speaker>L'HONNEUR </speaker>
-                        <stage><hi rend="italic">apercevant l'Intérêt.</hi></stage><lb/>
+                        <stage><hi rend="italics">apercevant l'Intérêt.</hi></stage><lb/>
                         <l><c type="lettrine">D</c>E ma juſte fureur rien ne peut te défendre,</l>
                         <l>Monſtre ; nous allons t'étouffer</l>
                         <l>Dans ton Palais réduit en cendre</l>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Sans répandre de ſang, moi, je veux triompher :</l>
                         <l>D'un ſeul mot, à l'inſtant, je m'en vais te confondre;</l>
                         <l>Tu n'auras rien à ma répondre.</l>
                         <l>Qu'on tire ce rideau; qu'on étale à leurs yeux</l>
                         <l>Les immenſes tréſors que renferment ces lieux.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(aux Soldats de l'Honneur.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(aux Soldats de l'Honneur.)</hi></stage><lb/>
                         <l>Aveugles partiſans d'un rival qui m'outrage,</l>
                         <l>Connoiſſez votre erreur à ce coup d'œil brillant.</l>
-                        <lb/><stage type="setting"><hi rend="italic">On voir, au fond du Théatre, couler des fleuves 
+                        <lb/><stage type="setting"><hi rend="italics">On voir, au fond du Théatre, couler des fleuves 
                             <lb/> d'or &amp; d'argent, &amp; des monceaux de perles 
                             <lb/> &amp; de diamants.</hi></stage><lb/>
                         <l>Contemplez ce riche partage,</l>
                         <l>Et voyez ce prix éclatant</l>
                         <l>Que je deſtine à ceux qui me rendront hommage.</l>
                         <l>Dites à votre Honneur qu'il vous en montre autant.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Tous les Suivants de l'Honneur paſſent <lb/> du côté de l'Intérêt.</hi></stage>
+                        <lb/><stage type="business"><hi rend="italics">(Tous les Suivants de l'Honneur paſſent <lb/> du côté de l'Intérêt.</hi></stage>
                     </sp>
                     <sp who="L'Honneur">
                         <speaker>L'HONNEUR.</speaker><lb/>
@@ -2391,9 +2391,9 @@
                         <l>A peine au triſte Honneur reſte-t'il une femme !</l>
                         <l>Allons, arachons-nous de ce profane lieu,</l>
                         <l>Et diſons à la terre un éternel adieu.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Ils ſortent.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Ils ſortent.)</hi></stage>
                     </sp>
-                    <sp who="L'Intérêt">
+                    <sp who="interet">
                         <speaker>L'INTEREST.</speaker><lb/>
                         <l>Mes fidèles Sujets, prenez part à ma gloire,</l>
                         <l>Célébrez mon triomphe, &amp; chantez ma victoire.</l>
@@ -2420,9 +2420,9 @@
                             <l>Et l'Avocat, ſans lui, garderoit le ſilence.</l>
                         </lg>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="137"/>
-                <div2 type="vaudeville">
+                <div1 type="vaudeville">
                     <head>VAUDEVILLE.</head><lb/>
                     <lg>
                         <l><c type="lettrine">E</c>N toute ſorte d'affaire ,</l>
@@ -2484,8 +2484,7 @@
                         <l>Aportez-nous votre argent;</l>
                         <l>C'eſt l'Intérêt qui décide.</l>
                     </lg>
-                </div2>
-            </div1>
+                </div1>
         </body>
     </text>
 </TEI>
