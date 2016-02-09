@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le Plagiaire: édition numérique</title>
+                <title type="main">Le Plagiaire</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -65,12 +66,12 @@
                 <pb n="91"/>
                 <docTitle>
                     <titlePart type="main">LE PLAGIAIRE<pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="92"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LA COMTESSE</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LUCILE</role><pc>,</pc><roleDesc> Niéce de la Comteſſe</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LE<sic></sic><corr> </corr>MARQUIS</role><pc>,</pc><roleDesc> Amant caché de <name type="person" n="Lucile">Lucile</name></roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
@@ -81,7 +82,7 @@
                 <castItem><role>ARLEQUIN</role><pc>,</pc><roleDesc> Valet du Baron</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Sçène eſt à <name type="place" n="Paris">Paris</name> chez la Comteſſe<pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Sçène eſt à <name type="place" n="Paris">Paris</name> chez la Comteſſe<pc type="affirmative">.</pc></p>
             </set>
             <pb n="93"/>
         </front>
@@ -89,10 +90,9 @@
             <div1 type="title">
                 <head>LE PLAGIAIRE<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -169,13 +169,13 @@
                             <l>L'obliger d'en rougir &amp; d'être enfin ſincére ;</l>
                             <l>Le MArquis vient, jouons l'aimable à l'ordinaire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>LISETTE<pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS <pc type="affirmative">.</pc></speaker>
-                            <stage type="business" rend="italic">lui preſentant un bouquet.</stage>
+                            <stage type="business" rend="italics">lui preſentant un bouquet.</stage>
                             <l><c type="lettrine">M</c>Adame, je préviens le pas de mon rival:</l>
                             <l>Si l'eſprit a ſur vous un aſcendant fatal ,</l>
                             <l>Mes fleurs ne vaudront pas celles qu'il vous prépare ;</l>
@@ -308,8 +308,8 @@
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Adieu, je vous attends.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -363,10 +363,10 @@
                             <l>Pour hâter l'entretien que votre amour deſire,</l>
                             <l>Je vais vous diſpoſer. Dans peu je vous rejoins ,</l>
                             <l>Daignés ici m'attendre , &amp; comptés ſur mes ſoins.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE BARON <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Baron">
@@ -456,7 +456,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour te prouver, Baron, le contraire à l'inſtant.</l>
                             <l>Ecoute un air de flûte auſſi neuf que brillant.</l>
-                            <lb/><stage type="delivery" rend="italic">Il chante.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">Il chante.</stage><lb/>
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
@@ -469,7 +469,7 @@
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage type="delivery" rend="italic">déclame.</stage><lb/>
+                            <stage type="delivery" rend="italics">déclame.</stage><lb/>
                             <lg>
                                 <l>Un Pigeon reſſentoit l'amour le plus ardent</l>
                                 <l>Pour une Colombe diſcréte,</l>
@@ -477,13 +477,13 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">joue &amp; l'interrompt.</stage><lb/>
+                            <stage rend="italics">joue &amp; l'interrompt.</stage><lb/>
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah! ſuſpens les accords de ta voix indiſcrette :</l>
                             <l>Entends , entends mes Vers, ſens-en tout l'agrément.</l>
-                            <lb/><stage rend="italic">Il reprend.</stage><lb/>
+                            <lb/><stage rend="italics">Il reprend.</stage><lb/>
                             <lg>
                                 <l>Pour une Colombe diſcrete,</l>
                                 <l>Un Pigeon reſſentoit l'amour le plus ardent.</l>
@@ -492,23 +492,23 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="mixed" rend="italic">l'interrompt toujours <lb/> en chantant &amp; le pourſuit.</stage><lb/>
+                            <stage type="mixed" rend="italics">l'interrompt toujours <lb/> en chantant &amp; le pourſuit.</stage><lb/>
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">piqué.</stage><lb/>
+                            <stage rend="italics">piqué.</stage><lb/>
                             <l>Que le diable t'emporte,excécrable Chanteur !</l>
                             <l>Je bouche mon oreille, &amp; je ſors de fureur.</l>
                             <l>Ceſſe de me pourſuivre , arrête-toi Barbare :</l>
                             <l>Pour éviter tes ſons, je fuirois au Tartare.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">ſeul éclate de rire.</stage><lb/>
+                            <stage rend="italics">ſeul éclate de rire.</stage><lb/>
                             <l><c type="lettrine">J</c>'En ſuis grace à on chant, jen ſuis débarraſſé ,</l>
                             <l>Par le Muſicien le Poëte eſt chaſſé ,</l>
                             <l>J'ai chargé le premier exprès pour m'en défaire.</l>
@@ -519,9 +519,9 @@
                             <l>Et malheur à celui qu'il trouve en ſon paſſage.</l>
                             <l>Il ne le quitte pas , qu'il ne l'ait aſſommé.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="102"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur du Berceau">
@@ -546,13 +546,13 @@
                             <speaker>M. DU BERCEAU<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Les voici. Modérés vos tranſports.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> M. DU BERCEAU<pc>,</pc> <lb/>LE BARON <pc>,</pc> LUCILE<pc>,</pc> <lb/>LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage rend="italic">au Baron dans le fond du Théâtre.</stage><lb/>
+                            <stage rend="italics">au Baron dans le fond du Théâtre.</stage><lb/>
                             <l><c type="lettrine">V</c>Ous allez en juger, ſur votre goût je compte.</l>
                             <lb/><stage>Au Marquis &amp; à M. <name type="person" n="du Berceau">Duberceau</name></stage><lb/>
                             <l part="I">Meſſieurs je vous préviens.</l>
@@ -620,7 +620,7 @@
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery" rend="italic">à M. <name type="person" n="du Berceau">du Berceau</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à M. <name type="person" n="du Berceau">du Berceau</name>.</stage><lb/>
                             <l>Décrivez-nous ſon Temple avant que de le voir.</l>
                         </sp>
                         <pb n="104"/>
@@ -656,14 +656,14 @@
                         <sp who="Monsieur du Berceau">
                             <speaker>M. DU BERCEAU<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre déſir ſera rempli dans le moment,</l>
-                            <l>Madame, &amp; vous, Monſieur, <stage type="delivery" rend="italic">au Baron</stage>, avancez-<lb/>vous de grace ,</l>
+                            <l>Madame, &amp; vous, Monſieur, <stage type="delivery" rend="italics">au Baron</stage>, avancez-<lb/>vous de grace ,</l>
                             <l>Pour bien voir le coup d'œil, voici la bonne place.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="105"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
-                        <stage type="location" rend="italic">Le Théâtre change &amp; repreſente le Parvis d'un Temple, 
+                        <stage type="location" rend="italics">Le Théâtre change &amp; repreſente le Parvis d'un Temple, 
                             <lb/>dont la Porte eſt fermée. La Comteſſe &amp; le Baron 
                             <lb/>ſont en dedans. <name type="person" n="Lucile">Lucile</name> &amp; le Marquis ſont en dehors.</stage>
                         <stage>LUCILE<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
@@ -675,7 +675,7 @@
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne vois point d'iſſue. Il n'eſt que cette Porte :</l>
-                            <lb/><stage type="business" rend="italic">Il fait ſes efforts pour l'ouvrir, mais inutilement.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il fait ſes efforts pour l'ouvrir, mais inutilement.</stage><lb/>
                             <l part="I">Et je ne puis l'ouvrir.</l>
                         </sp>
                         <sp who="Lucile">
@@ -723,7 +723,7 @@
                             <l>Tiennent toujours ma bouche &amp; mes yeux en con-<lb/>trainte.</l>
                             <l>Je n'ai depuis ſix mois que je vous aime enfin,</l>
                             <l>Je n'ai pu parvenir à vous baiſer la main.</l>
-                            <lb/><stage type="business" rend="italic">Il lui baiſe la main.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il lui baiſe la main.</stage><lb/>
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
@@ -831,14 +831,14 @@
                             <l>Le Parvis diſparoît , &amp; dans l'éloignemen<sic>r</sic><corr>t</corr> ,</l>
                             <l>Je vois ma Tante, allez près d'elle promptement.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
-                        <stage type="location" rend="italic">Le Parvis diſparoît , &amp; l'on voit l'intérieur du <lb/>Temple.</stage>
+                        <stage type="location" rend="italics">Le Parvis diſparoît , &amp; l'on voit l'intérieur du <lb/>Temple.</stage>
                         <stage>LE MARQUIS<pc>,</pc> LUCILE<pc>,</pc> LE BARON<pc>,</pc> <lb/>LA COMTESSE<pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à la Comteſſe.</stage><lb/>
+                            <stage type="delivery" rend="italics">à la Comteſſe.</stage><lb/>
                             <l><c type="lettrine">A</c>H! je benis l'inſtant qui vous rend à ma vûe ,</l>
                             <l part="I">J'ai maudit...</l>
                         </sp>
@@ -867,19 +867,19 @@
                             <speaker>M. DU BERCEAU<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vais preſentement régaler votre oreille ,</l>
                             <l>Ecoutez l'ouverture. Elle peint le ſecret.</l>
-                            <lb/><sound rend="italic">On joue l'ouverture.</sound><lb/>
+                            <lb/><sound rend="italics">On joue l'ouverture.</sound><lb/>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>A la flûte, tout bas joignons mon chant diſcret.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du premier Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="109"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS <pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur du Berceau">
@@ -889,7 +889,7 @@
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'en ſuis très-ſatisfait. La preuve , la voici.</l>
-                            <lb/><stage type="business" rend="italic">Il lui donne de l'argent.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il lui donne de l'argent.</stage><lb/>
                         </sp>
                         <sp who="Monsieur du Berceau">
                             <speaker>M. DU BERCEAU<pc type="affirmative">.</pc></speaker><lb/>
@@ -938,13 +938,13 @@
                             <l>Les momens ſont ſi courts, qu'on n'en eſt pas le maître,</l>
                             <l>Preſſez donc le Baron, mais je vois paroître.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS <pc>,</pc> LE BARON <pc>,</pc> <lb/>M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage type="delivery" rend="italic">à M. <name type="person" n="du Berceau">du Berceau</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à M. <name type="person" n="du Berceau">du Berceau</name>.</stage><lb/>
                             <l><c type="lettrine">M</c>Onſieur, voilà les vers que vous me demandez.</l>
                         </sp>
                         <sp who="Monsieur du Berceau">
@@ -954,7 +954,7 @@
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">reculant du Marquis.</stage><lb/>
+                            <stage rend="italics">reculant du Marquis.</stage><lb/>
                             <l part="I">Je crains ſes airs de flûte.</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -975,14 +975,14 @@
                             <pb n="111"/>
                             <l>Quand l'ouvrage eſt goûté, c'eſt par notre art ſuprême,</l>
                             <l>S'il tombe, c'eſt toujours la faute du Poëme.</l>
-                            <lb/><stage type="exit" rend="italic">Il ſort avec M. <name type="person" n="du Berceau">du Berceau</name>.</stage>
+                            <lb/><stage type="exit" rend="italics">Il ſort avec M. <name type="person" n="du Berceau">du Berceau</name>.</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">C</c>E diſcours eſt injuſte, &amp; pourtant des plus vrais,</l>
                             <l>Je veux réuſſir ſeul , ou tomber déſormais ;</l>
                             <l>Rimons plutôt, rimons pour la ſeule Comteſſe ,</l>
@@ -994,13 +994,13 @@
                             <l>Elle vient ſeule ici, l'inſtant eſt précieux ,</l>
                             <l part="I">Et je vais le ſaiſir.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>Le BARON<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F"><c type="lettrine">L</c>E Baron en ces lieux.</l>
                             <l>Plus je le hais, &amp; plus je lui fait politeſſe.</l>
                             <l>Pour mieux cacher mon cœur, &amp; tromper la Comteſſe.</l>
@@ -1037,7 +1037,7 @@
                         <sp who="Le Baron">
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Perſonne mieux que vous ne peut en décider.</l>
-                            <lb/><stage rend="italic">Il lit.</stage>
+                            <lb/><stage rend="italics">Il lit.</stage>
                             <lg>
                                 <l>Pour une Colombe diſcrete</l>
                                 <l>Un Pigeon reſſentoit l'amour le plus ardent.</l>
@@ -1064,7 +1064,7 @@
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">reprend avec entouſiaſme.</stage><lb/>
+                            <stage rend="italics">reprend avec entouſiaſme.</stage><lb/>
                             <lg>
                                 <l>Pour une Colombe diſcrete</l>
                                 <l>Un Pigeon reſſentoit l'amour le plus ardent.</l>
@@ -1122,15 +1122,15 @@
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, ſans votre bonté tout ſon eſpoir ſuccombe</l>
                             <l>Vous voyez le Pigeon aux pieds de la Colombe</l>
-                            <lb/><stage type="business" rend="italic">Il ſe jette à ſes pieds.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il ſe jette à ſes pieds.</stage><lb/>
                         </sp>
                         <pb n="114"/>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Son chant n'eſt pas nouveau. Puniſſons aujourd'hui</l>
                             <l>L'audace du Copiſte, en nous moquant de lui.</l>
-                            <lb/><stage type="delivery" rend="italic">au Comte.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">au Comte.</stage><lb/>
                             <l>Je pourrois m'offenſer d'un aveu fait en proſe ,</l>
                             <l>Mais tout s'excuſe en vers , un rimeur , quoiqu'il oſe,</l>
                             <l>Obtient notre indulgence ; il a le droit charmant,</l>
@@ -1154,10 +1154,10 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>La Colombe aujourd'hui veut payer votre fable ,</l>
                             <l>Au moins d'un chanſon, &amp; court y travailler.</l>
-                            <lb/><stage type="exit" rend="italic">Elle ſort.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Elle ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE BARON<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -1194,7 +1194,7 @@
                         <sp who="Le Baron">
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>LE cruel embarras ! Madame, j'obéis.</l>
-                            <lb/><stage rend="italic">Il fait ſemblant de lire.</stage><lb/>
+                            <lb/><stage rend="italics">Il fait ſemblant de lire.</stage><lb/>
                             <l part="I">Dans ce beau jour....</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1212,10 +1212,10 @@
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage type="business" rend="italic">lui offrant une fleur.</stage><lb/>
+                            <stage type="business" rend="italics">lui offrant une fleur.</stage><lb/>
                             <l part="F">Vous offre cette fleur.</l>
                             <l>Je voudrois que ce ſoir.... au gré de mon ardeur....</l>
-                            <lb/><stage rend="italic">Il s'interompt.</stage><lb/>
+                            <lb/><stage rend="italics">Il s'interompt.</stage><lb/>
                             <l>Au gré de mon ardeur eſt mis là pour la rime.</l>
                             <l>Il exprime pourtant le beau feu qui m'anime ,</l>
                             <l part="I">Et vous excuſerez....</l>
@@ -1230,22 +1230,22 @@
                             <l part="F">Malgré moi je ſuis long.</l>
                             <l>L'endroit eſt raturé. C'eſt-là ce qui m'arrête.</l>
                             <l part="I">J'y ſuis.</l>
-                            <lb/><stage rend="italic">Il reprend.</stage><lb/>
+                            <lb/><stage rend="italics">Il reprend.</stage><lb/>
                             <l part="F">Dans ce beau jour marqué pour votre fête,</l>
                             <l>L'amour vous offre cette fleur.</l>
                             <l>Je voudrois que ce ſoir , au gré de mon ardeur ,</l>
                             <l>Je voudrois que l'Hymen en parât votre tête.</l>
                             <pb n="116"/>
                             <l>Et que ce fût en ma faveur.</l>
-                            <lb/><stage rend="italic">Il s'interrompt.</stage><lb/>
+                            <lb/><stage rend="italics">Il s'interrompt.</stage><lb/>
                             <l part="I">Et que ce fût, eſt dur.</l>
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Le ſouhait eſt flateur.</l>
-                            <l>Je veux avoir ces Vers , <stage type="business" rend="italic">(elle lui arrache le papier <lb/> &amp; lit tout bas.)</stage><lb/> Les relire moi-même.</l>
+                            <l>Je veux avoir ces Vers , <stage type="business" rend="italics">(elle lui arrache le papier <lb/> &amp; lit tout bas.)</stage><lb/> Les relire moi-même.</l>
                             <l>Colombe de mon cœur... ramagez je vous aime.</l>
-                            <lb/><stage rend="italic">Après avoir lû.</stage><lb/>
+                            <lb/><stage rend="italics">Après avoir lû.</stage><lb/>
                             <l>Ah! voilà pour ma fête un fort joli Bouquet ,</l>
                             <l>Je ne m'étonne plus qu'on men fit un ſecret.</l>
                             <l>La Colombe diſcrete a tout l'air de ma Niéce.</l>
@@ -1322,24 +1322,24 @@
                             <l>L'amour eſt un nœud libre , &amp; non un eſclavage.</l>
                             <l>Adieu, je ſens, Monſieur, d'autant moins cet af<sic>l</sic><corr>f</corr>ront,</l>
                             <l>Qu'il eſt ici des cœurs qui m'en conſoleront.</l>
-                            <lb/><stage type="mixed" rend="italic">à part, en s'en allant.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">à part, en s'en allant.</stage><lb/>
                             <l>De ma feinte bonté, le fat ſera la dupe.</l>
                             <l>Son erreur va ſervir au projet qui m'occupe.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="118"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">J'Aurois trouvé mon compte à me voir ſon mari,</c></l>
                             <l>Mais on renonce au bien pour un objet chéri.</l>
                             <l><name type="person" n="Lucile">Lucile</name> eſt adorable , &amp; je prens auprès d'elle.</l>
                             <l>N'y penſons plus , je dois mon cœur à la plus belle.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> LE BARON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile">
@@ -1446,19 +1446,19 @@
                             <l part="F">Profitez du beau feu qui l'inſpire,</l>
                             <l>Pour ne pas l'interrompre , adieu , je me retire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">E</c>Cris, mon cher Baron , écris-toi ; tendrement.</l>
                             <l>Les talens de l'Auteur , doivent ſervir l'Amant.</l>
-                            <lb/><stage type="business" rend="italic">Il s'aſſied près d'une table , rêve quelque tems , <lb/>puis il écrit &amp; récite tout haut.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il s'aſſied près d'une table , rêve quelque tems , <lb/>puis il écrit &amp; récite tout haut.</stage><lb/>
                             <l>Je veux.... de monſecret, vous faire confidence ,</l>
                             <l>Confidence.... ſur tout de la diſcrétion ,</l>
                             <l>Mon eſtime.... paroît.... par cette confiance.</l>
-                            <lb/><stage rend="italic">Il s'interrompt.</stage><lb/>
+                            <lb/><stage rend="italics">Il s'interrompt.</stage><lb/>
                             <l>Il me faut à préſent une rime en ion.</l>
                             <l>Un jeune homme charmant.... c'eſt moi, l'expreſſion.</l>
                             <l>Eſt flateuſe, mon cher , &amp; c'eſt un peu trop dire ,</l>
@@ -1470,13 +1470,13 @@
                             <l>Levons-nous &amp; marchons pour mieux ſaiſir la rime.</l>
                             <l>Pourſuivons la rebelle, elle ſuit vainement.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE BARON<pc>,</pc> CORALINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON <pc>,</pc> </speaker>
-                            <stage type="business" rend="italic">ſaiſiſſant le bras <lb/>de <name type="person" n="Coraline">Coraline</name>.</stage><lb/>
+                            <stage type="business" rend="italics">ſaiſiſſant le bras <lb/>de <name type="person" n="Coraline">Coraline</name>.</stage><lb/>
                             <l part="I"><c type="lettrine">P</c>Our le coup je la tiens.</l>
                         </sp>
                         <sp who="Coraline">
@@ -1514,7 +1514,7 @@
                         </sp>
                         <sp who="Coraline">
                             <speaker>CORALINE </speaker>
-                            <stage rend="italic">éclatant de rire.</stage><lb/>
+                            <stage rend="italics">éclatant de rire.</stage><lb/>
                             <l>Ah ! ah! l'amaible Brune ! Oh je crois qu'il compoſe,</l>
                             <l>Ou bien qu'il extravague : eh! c'eſt la même choſe.</l>
                         </sp>
@@ -1566,15 +1566,15 @@
                             <l>Et comme la premiére aujourd'hui j'y figure ,</l>
                             <l>Que par un pas brillant , je dois me ſurpaſſer ,</l>
                             <l>Je ſuis votre Servante, &amp; cours le repaſſer.</l>
-                            <lb/><stage type="exit" rend="italic">Elle ſort en lui faiſant la révérence.</stage>
+                            <lb/><stage type="exit" rend="italics">Elle ſort en lui faiſant la révérence.</stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="123"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Baron">
                             <speaker>LE BARON </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">L</c>A danſe , par malheur , a mis la rime en fuite</l>
                             <l>Au diable mille fois cette Fête maudite.</l>
                             <l>Voilà mon <name type="person" n="Apollon">Apollon</name> dérouté tout-à-fait.</l>
@@ -1595,9 +1595,9 @@
                             <l>Meſſieurs, volés mes Vers , ſi je pille les vôtres.</l>
                             <l>Ne vous contraignez pas,&amp; faites comme moi.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="124"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE BARON<pc>,</pc> M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Monsieur du Berceau">
@@ -1643,7 +1643,7 @@
                             <l>S'aplaudit avec elle , &amp; l'élevant aux Cieux ,</l>
                             <l>Il danſe un tambourin , &amp; diſparoît aux yeux.</l>
                             <l>Maïs avec le Marquis la Comteſſe s'avance.</l>
-                            <lb/><stage type="delivery" rend="italic">A l'Orqueſtre.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">A l'Orqueſtre.</stage><lb/>
                             <l>Partés, Meſſieurs, partés , il eſt tems qu'on com-<lb/>mence.</l>
                         </sp>
                         <sp who="Le Baron">
@@ -1652,12 +1652,12 @@
                             <l>Le Vers en queſtion , &amp; pour les envoyer.</l>
                             <l>Le plaiſir de m'écrire au nom de ma Maîtreſſe ,</l>
                             <l>Eſt la Fête pour moi la plus enchantereſſe.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="12">
+                    </div2>
+                    <div2 type="scene" n="12">
                         <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
-                        <stage>DIVERTISSEMENT <hi rend="italic">des Oiſeaux</hi><pc type="affirmative">.</pc></stage><lb/>
+                        <stage>DIVERTISSEMENT <hi rend="italics">des Oiſeaux</hi><pc type="affirmative">.</pc></stage><lb/>
                         <sound>AIR<pc type="affirmative">.</pc></sound><lb/>
                         <lg>
                             <l><c type="lettrine">V</c>Olés, oiſeaux, volés de toutes parts;</l>
@@ -1669,26 +1669,26 @@
                             <l>Volés, oiſeaux, volez de toutes parts,</l>
                             <l>Raſſemblez-vous dans ces bocages.</l>
                         </lg>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="126"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">O</c>Ui, <name type="person" n="Lisette">Liſette</name> , c'eſt toi que je viens d'apeller ,</l>
                             <l>Vois ma Niéce, &amp; dis-lui que je veux lui parler.</l>
-                            <lb/><stage type="exit" rend="italic"><name type="person" n="Lisette">Liſette</name> ſort.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics"><name type="person" n="Lisette">Liſette</name> ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">N</c>On, le Baron n'eſt pas l'Amant qu'elle préfére,</l>
                             <l>Il ſe cacheroit mieux, s'il avoit ſçu lui plaire,</l>
                             <l>L'Amant qu'on favoriſe eſt plus diſcret en tout.</l>
@@ -1698,9 +1698,9 @@
                             <l>Comme infailliblement elle me mentira,</l>
                             <l>Je croirai l'opoſé de ce qu'elle dira.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="127"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -1739,7 +1739,7 @@
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>C'eſt un piége. Gardons de lui rien déclarer.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1761,7 +1761,7 @@
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Auroit-elle en effet découvert mon Amant ?</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1774,7 +1774,7 @@
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Je reſpire à preſent.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1783,7 +1783,7 @@
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ah ! par un faux aveu confirmons ſa mépriſe.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1807,12 +1807,12 @@
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/><lb/>
                             <l part="I">Tu mens !</l>
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Elle n'eſt pas ma Rivale. Son trouble </l>
                             <l>Me l'annonce trop bien , &amp; ma joye en redouble.</l>
                         </sp>
@@ -1833,15 +1833,15 @@
                             <l>J'ai craint que le Marquis ne fût votre vainqueur.</l>
                             <l>Puiſqu'il faut l'avouer , il a touché mon cœur ;</l>
                             <l>Je ſuis preſentement me déclarer ſans crainte.</l>
-                            <lb/><stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Sa douleur , à ces mots, perce à travers la feinte ;</l>
                             <l>Et doit me confirmer dans mon opinion.</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Lucile">Lucile</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Lucile">Lucile</name>.</stage><lb/>
                             <l>Adieu. Je vais preſſer notre double union.</l>
-                            <lb/><stage type="exit" rend="italic">Elle ſort.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Elle ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
@@ -1858,9 +1858,9 @@
                             <l>Et l'arracher lui-même à ſon incertitude.</l>
                             <l>Notre intérêt commun... mais qu eveut ce Valet ?</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="130"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Arlequin">
@@ -1878,8 +1878,8 @@
                         <sp who="Lucile">
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Attendez , que <unclear>je</unclear> voye.</l>
-                            <lb/><stage type="mixed" rend="italic">Elle lit. <name type="person" n="Arlequin">Arlequin</name> s'éloigne.</stage><lb/>
-                            <p rend="italic">Je vous envoye , ma Déeſſe , les vers où tout mon eſ-
+                            <lb/><stage type="mixed" rend="italics">Elle lit. <name type="person" n="Arlequin">Arlequin</name> s'éloigne.</stage><lb/>
+                            <p rend="italics">Je vous envoye , ma Déeſſe , les vers où tout mon eſ-
                                 <lb/>poir eſt renfermé. J'en attens la copie de votre main, 
                                 <lb/>comme le ſceau de mon bonheur.
                             </p>
@@ -1896,7 +1896,7 @@
                                 <l>Si ce n'eſt pas-là comme on aime ,</l>
                                 <l>Aprenez-moi ce que c'eſt que l'amour.</l>
                             </lg>
-                            <lb/><stage type="mixed" rend="italic">à <name type="person" n="Arlequin">Arlequin</name> après avoir lû.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">à <name type="person" n="Arlequin">Arlequin</name> après avoir lû.</stage><lb/>
                             <l>L'ouvrage eſt juſtement tel que je le ſouhaite.</l>
                             <l>Aſſurez le Baron que j'en ſuis ſatisfaite.</l>
                         </sp>
@@ -1918,10 +1918,10 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Dites-lui qu'au plutôt je vais la copier ,</l>
                             <l>Et que j'aurai grand ſoin après de l'envoyer.</l>
-                            <lb/><stage type="exit" rend="italic">Elle rentre.</stage>
+                            <lb/><stage type="exit" rend="italics">Elle rentre.</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
@@ -1936,8 +1936,8 @@
                             <l>Mais je crois en ce lieu , je crois apercevoir</l>
                             <l>Quelqu'un qui lui reſſemble. Oh c'eſt une bévue.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>ARLEQUIN<pc>,</pc> CORALINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Coraline">
@@ -1969,7 +1969,7 @@
                         <sp who="Coraline">
                             <speaker>CORALINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Eh ! bon jour mon Couſin !</l>
-                            <lb/><stage type="business" rend="italic">Ils s'embraſſent.</stage>
+                            <lb/><stage type="business" rend="italics">Ils s'embraſſent.</stage>
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
@@ -2030,9 +2030,9 @@
                         </sp>
                         <sp who="Coraline">
                             <speaker>CORALINE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I"><name type="person" n="Scapin">Scapin</name> m'attend. Adieu</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
                             <l part="F">Je pars en diligence.</l>
                         </sp>
                         <sp who="Arlequin">
@@ -2048,18 +2048,18 @@
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Madame, j'aurai donc l'honneur de vous conduire.</l>
-                            <lb/><stage type="mixed" rend="italic">Il lit en lui donnant la main.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">Il lit en lui donnant la main.</stage><lb/>
                             <l>Qu'à <name type="place" n="Paris">Paris</name> <name type="person" n="Coraline">Coraline</name> a fait d'heureux progrès !</l>
                             <l>Et que ſes yeux bien vîte ont ſçû parler François.</l>
                         </sp>
                         <sp who="Coraline">
                             <speaker>CORALINE </speaker>
-                            <stage type="business" rend="italic">s'arrêtant.</stage><lb/>
+                            <stage type="business" rend="italics">s'arrêtant.</stage><lb/>
                             <l>Continuez, mon cher. Ce début m'intéreſſe.</l>
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage rend="italic">continue.</stage><lb/>
+                            <stage rend="italics">continue.</stage><lb/>
                             <l>Dès qu'on la voit, ſon feu, ſa gentileſſe ,</l>
                             <l>Son enjouement excite un battement de main.</l>
                             <l>Tout le Public devient le Rival d'<name type="person" n="Arlequin">Arlequin</name> ,</l>
@@ -2073,9 +2073,9 @@
                             <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>La preuve qu'il ſont bons, c'eſt que je les ai faits.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="134"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>CORALINE <pc>,</pc> ARLEQUIN <pc>,</pc> SCAPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Scapin">
@@ -2130,7 +2130,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Scapin">Scapin</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Scapin">Scapin</name>.</stage><lb/>
                             <l part="I">Votre nom ?</l>
                         </sp>
                         <pb n="135"/>
@@ -2152,7 +2152,7 @@
                         </sp>
                         <sp who="Coraline">
                             <speaker>CORALINE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
                             <l part="F">Adieu, pour ſuivre un Frere,</l>
                             <l part="I">On quitte ſon Couſin.</l>
                         </sp>
@@ -2170,13 +2170,13 @@
                             <l>Et moi, j'aurai celui de vous couper les vôtres.</l>
                             <l>Mais j'aperçois mon Maître, &amp; je l'entens peſter.</l>
                             <l>Madame, ſon abord m'oblige à vous quitter.</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Scapin">Scapin</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Scapin">Scapin</name>.</stage><lb/>
                             <l>Toi, rends dans ce moment grace à ſon arrivée.</l>
                             <l>Ma valeur ſans cela... tu l'aurois éprouvée.</l>
                         </sp>
                         <sp who="Scapin">
                             <speaker>SCAPIN </speaker>
-                            <stage type="business" rend="italic">lui donnant un ſoufflet.</stage><lb/>
+                            <stage type="business" rend="italics">lui donnant un ſoufflet.</stage><lb/>
                             <l>De la mienne reçois ce gage en attendant.</l>
                         </sp>
                         <sp who="Arlequin">
@@ -2184,9 +2184,9 @@
                             <l>Si j'avois le loiſir , je t'en rendrois autant.</l>
                         </sp>
                         <lb/><stage><name type="person" n="Scapin">Scapin</name> ſort avec <name type="person" n="Coraline">Coraline</name>.</stage>
-                    </div3>
+                    </div2>
                     <pb n="136"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA BARON<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Baron">
@@ -2256,11 +2256,11 @@
                             <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>On travaille aux aprêts. <name type="person" n="Coraline">Coraline</name> l'a vû.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE BARON <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
-                        <stage type="exit" rend="italic"><name type="person" n="Arlequin">Arlequin</name> ſort.</stage>
+                        <stage type="exit" rend="italics"><name type="person" n="Arlequin">Arlequin</name> ſort.</stage>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">J</c>E te cherche, Baron, &amp; je ſuis dans l'yvreſſe ,</l>
@@ -2348,7 +2348,7 @@
                             <l>C'eſt l'ouv<sic>z</sic><corr>r</corr>age tout pur de la délicateſſe,</l>
                             <l>Et pour le bien ſentir, il faut avoir aimé.</l>
                             <l>Ecoute, tu vas être &amp; ſurpris &amp; charmé.</l>
-                            <lb/><stage rend="italic">Il lit.</stage><lb/>
+                            <lb/><stage rend="italics">Il lit.</stage><lb/>
                             <lg>
                                 <l>Je vous nomme ſans que j'y penſe,</l>
                                 <l>Votre entretien me charme, &amp; je crains votre abſence.</l>
@@ -2362,7 +2362,7 @@
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle ſera plus grande, attens, que je te liſe.</l>
-                            <lb/><stage rend="italic">Il reprend.</stage><lb/>
+                            <lb/><stage rend="italics">Il reprend.</stage><lb/>
                             <lg>
                                 <l>J'aime à cauſer tous vos deſirs.</l>
                                 <l>Et votre rencontre imprévue</l>
@@ -2377,7 +2377,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">pourſuit<pc type="affirmative">.</pc></stage><lb/>
+                            <stage rend="italics">pourſuit<pc type="affirmative">.</pc></stage><lb/>
                             <lg>
                                 <l>Je ſonge à vous malgré moi-même,</l>
                                 <l>Je crois vous voir la nuit, je vous cherche le jour.</l>
@@ -2401,7 +2401,7 @@
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Oui, très-rare en effet,</l>
                             <l>Mais j'en veux par mes yeux voir la preuve bien claire.</l>
-                            <lb/><stage type="business" rend="italic">Il arrache le Papier des mains du Marquis<pc type="affirmative">.</pc></stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il arrache le Papier des mains du Marquis<pc type="affirmative">.</pc></stage><lb/>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -2463,8 +2463,8 @@
                             <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſens à ſon aſpect redoubler mon courroux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LE BARON <pc>,</pc> LA <lb/>COMTESSE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -2480,14 +2480,14 @@
                         </sp>
                         <sp who="Le Baron">
                             <speaker>LA BARON </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Lucile">Lucile</name><pc type="affirmative">.</pc></stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Lucile">Lucile</name><pc type="affirmative">.</pc></stage><lb/>
                             <l>Votre eſprit m'a joué d'une façon cruelle.</l>
                             <l>Et pour rendre aujourd'hui ma vengeance éternelle ,</l>
                             <l>Perfide, je vous vais épouſer à l'inſtant.</l>
                         </sp>
                         <sp who="Lucile">
                             <speaker>LUCILE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Juſte Ciel! j'en frémis, quel ſuplice effrayant!</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -2543,7 +2543,7 @@
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery" rend="italic">au Baron , &amp; au Marquis</stage><lb/>
+                            <stage type="delivery" rend="italics">au Baron , &amp; au Marquis</stage><lb/>
                             <l part="F">Ce mot doit calmer vos allarmes.</l>
                             <l>Je ne ſuis point, Meſſieurs, épriſe de vos charmes.</l>
                             <l>J'ai faint de l'être exprès pour éprouver ſon cœur,</l>
@@ -2591,7 +2591,7 @@
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery" rend="italic">au Baron<pc type="affirmative">.</pc></stage><lb/>
+                            <stage type="delivery" rend="italics">au Baron<pc type="affirmative">.</pc></stage><lb/>
                             <l>Au Pigeon, pour le coup, la Colombe eſt ravie.</l>
                         </sp>
                         <sp who="Le Baron">
@@ -2599,10 +2599,10 @@
                             <l>Certaine Tourterelle en ſecret mon amie,</l>
                             <l>Va m'en dédommager, &amp; je cours la trouver,</l>
                             <l>L'Hymen eſt une cage, heureux de s'en ſauver.</l>
-                            <lb/><stage type="exit" rend="italic">Il ſort.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Il ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="12">
+                    </div2>
+                    <div2 type="scene" n="12">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS <pc>,</pc> LA COMTESSE <pc>,</pc> LUCILE<pc>,</pc> <lb/>M. DU BERCEAU<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2640,8 +2640,8 @@
                             <l>Que ſon arc ſoit nué des plus tendres couleurs,</l>
                             <l>Et qu'il ſoit aplaudi de tous les Spectateurs.</l>
                         </sp>
-                    </div3>
-                    <div3 type="divertissement">
+                    </div2>
+                    <div2 type="divertissement">
                         <head>DIVERTISSEMENT<pc type="affirmative">.</pc></head><lb/>
                         <stage>D'Artificiers &amp; Artificiers<pc type="affirmative">.</pc></stage><lb/>
                         <sound>AIR<pc type="affirmative">.</pc></sound><lb/>
@@ -2655,10 +2655,9 @@
                             <l>Accourez, Cyclopes nouveaux,</l>
                             <l>Faites briller vos feux, votre victoire eſt ſûre.</l>
                         </lg>
-                        <p rend="center">FIN<pc type="affirmative">.</pc></p>
-                    </div3>
-                </div2>
-            </div1>
+                        <trailer rend="center">FIN<pc type="affirmative">.</pc></trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
