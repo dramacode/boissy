@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>La Frivolité: édition numérique</title>
+                <title type="main">La Frivolité</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -87,16 +88,15 @@
             <div1 type="title">
                 <head>LA <lb/>FRIVOLITÉ <pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+            <div1 type="scene" n="1" xml:id="S01">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRIVOLITÉ<pc>,</pc> L'HYVER<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-1">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">C</c>'EST vous, mon bel Hyver ! votre re-<lb/>tour m'enchante :</l>
                         <l>Vous voilà mis d'un goût divin.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-2">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>En <name type="person" n="Hyver">Hyver</name> de <name type="place" n="Paris">Paris</name>, qui ſe pare à deſſein,</l>
                         <l>Pour vous faire ſa cour , <name type="person" n="Frivolité">Frivolité</name> charmante.</l>
@@ -112,7 +112,7 @@
                         <l>Et pour vous je raméne ici les aquilons</l>
                         <l>Dans le fort de la canicule.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-3">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt me faire un honneur qu'on trouve ridicule,</l>
                         <l>Vous faites murmurer <name>Paris</name></l>
@@ -127,7 +127,7 @@
                         <l>Votre tirannie eſt extrême,</l>
                         <l part="I">Et le public s'en plaint.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-4">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Il n'eſt jamais content.</l>
                         <l>Il ſifloit autrefois , il bâille maintenant,</l>
@@ -141,7 +141,7 @@
                         <l>Je ris de ces emportemens,</l>
                         <l>Pourvû que vous ſoyez toujours ma partiſane.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-5">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Oui, vous êtes pour moi plus beau que le Printems,</l>
                         <l>Et vous ſerez toujours ma Saiſon favorite.</l>
@@ -151,7 +151,7 @@
                         <l>Spectacles , Jeux, Bals, Soupers raviſſans</l>
                         <l>Qui font briller tout mon mérite.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-6">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>D'un ſi rare bonheur, l'<name type="person" n="Hyver">Hyver</name> ſe félicite.</l>
                         <pb n="235"/>
@@ -161,7 +161,7 @@
                         <l>Votre trône fragile eſt aſſis ſur les vents,</l>
                         <l>Et toutefois rien ne peut vous détruire.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-7">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon trône eſt dans les airs par les Sylphes porté ,</l>
                         <l>Mais les Gnomes, qui ſont l'apui de ma puiſſance,</l>
@@ -183,14 +183,14 @@
                         <l>Et mon autel eſt ma toilette.</l>
                         <l>Où je reçois ſes vœux en minaudant.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-8">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Comme vous préſidez aux talens agréables,</l>
                         <l>Danſeurs, Muſiciens Poëtes tour-à-tour</l>
                         <l>Doivent faire pour vous éclater leur amour ,</l>
                         <l>Et former un concert de tous les arts aimables.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-9">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Les états les plus ſérieux,</l>
                         <l>Les perſonnages les plus graves</l>
@@ -206,11 +206,11 @@
                         <l>Il taille mes pompons, il leur donne la grace,</l>
                         <l>Et j'en fais ma Coëfeuſe, ou ma Dame d'atour.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-10">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Il le mérite bien.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S01-11">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Dans ce jour d'importance</l>
                         <l>Pour ieux étendre ma puiſſance,</l>
@@ -224,7 +224,7 @@
                         <l>Je veux, de mes attraits, qu'ils connoiſſent le prix,</l>
                         <l>Et qu'à mon éventail, ils ſoient tous aſſervis.</l>
                     </sp>
-                    <sp who="L'Hiver">
+                    <sp who="L'Hiver" xml:id="S01-12">
                         <speaker>L'HYVER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Votre victoire eſt trop certaine:</l>
                         <l>Pour mieux la célébrer, je vais, ma Souveraine,</l>
@@ -233,12 +233,12 @@
                         <l>PAr un Bal ſingulier, dont vous ſerez la Reine.</l>
                     </sp>
                     <stage type="exit" rend="italic">(Il ſort.)</stage>
-                </div2>
+                </div1>
                 <pb n="237"/>
-                <div2 type="scene" n="2">
+                <div1 type="scene" n="2" xml:id="S02">
                     <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRIVOLITÉ<pc>,</pc> M. FAUSTER<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-1">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">J</c>E donne le bon jour à tous vos agrémens ;</l>
                         <l>Madame, vous voyez un <name type="person" n="Socrate">Socrate</name> moderne,</l>
@@ -253,7 +253,7 @@
                         <l>Et pour aprendre promptement</l>
                         <l>Ce joli ſçavoir-là, je viens à votre école.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-2">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Votre ſincérité me plaît</l>
                         <l>Vous voyez, quoique tard, le monde tel qu'il eſt.</l>
@@ -279,19 +279,19 @@
                         <l>Par ce ſyſtême avantageux,</l>
                         <l>Il en eſt plus aimable, &amp; cent fois plus heureux.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-3">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt ce que j'ai ſenti. Pour marcher ſur ſa trace,</l>
                         <l>Donner dans le leger , voler ſur la ſurface ,</l>
                         <l>Je compoſe un Roman: j'oſe vous ſuplier</l>
                         <l>D'en agréer la dédicace.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-4">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Un Roman Suiſſe ! &amp; vous me le dédier !</l>
                         <l>L'honneur eſt rare, &amp; je m'en glorifie.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-5">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je l'é<sic>e</sic><corr>c</corr>ris en François, d'un ſtile fort leger.</l>
                         <l>Il contient votre éloge, ou votre apologie,</l>
@@ -301,31 +301,31 @@
                         <l>Eſt celui de tomber dans une Comédie ,</l>
                         <l>Ou de voir de trop près une Actrice jolie.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-6">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais vû par ce côté, votre ouvrage me rit.</l>
                         <l>Quel eſt le titre, je vous prie?</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-7">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt le Suiſſe qui rêve, ou la Philoſophie</l>
                         <l>Réduite à rien par un homme d'eſprit.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-8">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Suiſſe ſpirituel , &amp; qui rêve à profit ?</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-9">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ce p<sic>o</sic><corr>a</corr>radoxe vous étonne.</l>
                         <l>Il choque ouvertement le proverbe reçu.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-10">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il eſt vrai que l'eſprit n'eſt pas une vertu</l>
                         <l>Dont le grand nombre vous ſoupçonne.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-11">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Voilà préciſément ce que j'ai combattu.</l>
                         <pb n="239"/>
@@ -352,11 +352,11 @@
                         <l>En <name type="place" n="France">France</name> l'on s'eſt mis à l'eau,</l>
                         <l>Et l'on fait des vers en <name type="place" n="Russie">Ruſſie</name>.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-12">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Des vers Ruſſes , je crois, doivent être jolis.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-13">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Votre commerce, &amp; vous ouvrages</l>
                         <l>Nous ont polis, nous ont éclairés tous ;</l>
@@ -368,13 +368,13 @@
                         <l>A <name type="place" n="Copenhague">Coppenhague</name>, on le profeſſe ,</l>
                         <l>Et juſqu'en <name type="place" n="Amérique">Amérique</name> , il faut des Beaux-Eſprits.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-14">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Puiſſent-ils venir mieux dans la nouvelle <name type="place" n="France">France</name>,</l>
                         <l>Que depuis quelque tems ils ne viennent ici !</l>
                     </sp>
                     <pb n="240"/>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-15">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nous honorons , d'un accueil favorable ,</l>
                         <l>Plus que jamais, tous les Arts d'agrément.</l>
@@ -386,7 +386,7 @@
                         <l>Et pour les Arts qu'il récompenſe,</l>
                         <l><name type="place" n="Berlin">Berlin</name>, déja le diſpute à <name type="place" n="Paris">Paris</name>.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-16">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nous honorons , d'un accueil favorable ,</l>
                         <l>Plus que jamais, tous les Arts d'agrément.</l>
@@ -404,11 +404,11 @@
                         <l>Nous voulons déſarmer le Roi du Firmament,</l>
                         <l>Et ſoumettre le Ciel au pouvoir de la Terre.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-17">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous regardez cela comme un amuſement.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-18">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt, comme il faut tout voir, par le côté charmant.</l>
                         <l>Pour l'Erudition, dont la lourdeur accable,</l>
@@ -417,27 +417,27 @@
                         <l>L'eſprit lui ſeul fait l'homme aimable,</l>
                         <l>Qui chez nous eſt le vrai ſçavant.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-19">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">L'eſprit en fait par-tout.</l>
                     </sp>
                     <pb n="241"/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-20">
                         <speaker>LA FRIVOLITÉ </speaker>
                         <stage type="delivery" rend="italic">d'un ton ironique.</stage><lb/>
                         <l part="F">Et qui doivent nous vaincre.</l>
                         <l>Votre exemple, Monſieur, ſuffit pour nous convaincre.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-21">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le ton me fait ſentir le vrai ſens de ces mots.</l>
                         <l>Il dit en bon François que nous ſommes des ſots.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-22">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Vous l'interprêtez mal.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-23">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non , j'entens l'ironie.</l>
                         <l>Vos piéces de tout tems, ainſi que vos propos,</l>
@@ -453,15 +453,15 @@
                         <l>Ne doit plus ſe mocquer de nos treize Cantons ,</l>
                         <l>Madame , &amp; vos Marquis valent bien nos Barons.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-24">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Aux Etrangers, toutjours nous donnons l'avantage.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-25">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Madame , s'il vous plaît , tréve de perſiflage.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-26">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non , en votre faveur nous ſommes prévenus.</l>
                         <l>Le défaut du François eſt d'outrer là deſſus.</l>
@@ -473,7 +473,7 @@
                         <l>Une fort mauvaiſe Copie.</l>
                     </sp>
                     <pb n="242"/>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-27">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je blâme cet excès vraiment ,</l>
                         <l>Il forme en elle un autre ridicule.</l>
@@ -489,7 +489,7 @@
                         <l>Et dès qu'il eſt vanté par une belle bouche ,</l>
                         <l>L'ouvrage a de la vogue , &amp; l'Auteur réuſſit.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-28">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Sans avoir lû, je donne mon ſuffrage ,</l>
                         <l>De maiſon , en maiſon , j'irai prôner l'ouvrage.</l>
@@ -510,58 +510,58 @@
                         <l>Voilà , j'en excepte <name n="Cénie">Cénie</name> ,</l>
                         <l>Voilà nos grands ſuccès depuis quarante-neuf.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S02-29">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mille remercimens. Une Dame s'avance.</l>
                         <l>J'attendrai qu'elle ait fait , pour vous dire bon ſoir</l>
                         <l>Et je m'éloigne un peu par bienſéance.</l>
                     </sp>
                     <pb n="243"/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S02-30">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt une Angloiſe , &amp; de ma connoiſſance.</l>
                         <l>Je ne ſçaurois trop bien la recevoir.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="3">
+                </div1>
+                <div1 type="scene" n="3" xml:id="S03">
                     <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRIVOLIT<unclear>É</unclear> <pc>,</pc>M. FAUSTER<pc>,</pc> MISS-BLAR<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-1">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">V</c>Ous faites aujourd'hui les honneurs de la <name type="place" n="France">France</name> ;</l>
                         <l>Recevés donc ma révérence.</l>
                         <l>Avant que de partir , j'ai voulu vous revoir ,</l>
                         <l part="I">Madame.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-2">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Vous partez, Miſſ-<name type="person" n="Blar">Blar</name> !</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-3">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">En diligence ;</l>
                         <l>Et ſans avoir le tems d'aller même en <name type="place" n="Provence">Provence</name>.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-4">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais pour diſſiper , pour bannir l'eſprit noir ,</l>
                         <l>Qui vous travaille dès l'enfance ,</l>
                         <l>L'air de <name type="place" n="Paris">Paris</name> , eſt l'air par excellence.</l>
                         <l part="I">Vous l'avez dûſentir déja.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-5">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Moi ! point ; juſques ici ,</l>
                         <l>Madame, il a mal réuſſi.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-6">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous méritez que je vous gronde.</l>
                         <l>Que ne me croyez-vous ? C'eſt votre faute auſſi.</l>
                         <l>Il falloit vous répandre au milieu du grand monde,</l>
                         <l>Me ſuivre dans ſon tourbillon.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-7">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Dans l'eſpoir de ma guériſon ,</l>
                         <pb n="244"/>
@@ -572,29 +572,29 @@
                         <l>La bonne Compagnie eſt la plus ennuyeuſe.</l>
                         <l>La triſteſſe eſt aſſiſe à côté du bon ton.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-8">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt dans ſon ſein pourtant que le plaiſir habite ,</l>
                         <l>Avec les Jeux badins qui marchent à ſa ſuite ,</l>
                         <l>Et la gayté , ſon adorable Sœur.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-9">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>La ſienne n'eſt point vraye , &amp; puiſqu'il faut le dire;</l>
                         <l>Elle eſt au fonds de l'ame auſſi triſte que moi.</l>
                         <l>C'eſt l'ennui déguiſé , qui s'éfforce à ſourire ,</l>
                         <l>Et nous pas la gayté , qui rit de bonne fois.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-10">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Voulez-vous qu'elle éclate en Bourgeoiſe Mauſſade?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-11">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Oui , c'eſt la meilleure façon.</l>
                         <l>Quand elle a beſoin d'art , la joye eſt bien malade.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-12">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Sa plus grande ennemie eſt la réflexion.</l>
                         <l>Pardon , ſi je me mêle à l'entretien, Meſdames.</l>
@@ -608,12 +608,12 @@
                         <l>Elle fait haïr la clarté ,</l>
                         <l>C'eſt le poiſon de la ſanté.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-13">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Sçavoir quel eſt mon mal, c'eſt une bagatelle ,</l>
                         <l>Mais le guérir , Monſieur , c'eſt la difficulté.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-14">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>La Recette en eſt ſimple autant que naturelle.</l>
                         <pb n="245"/>
@@ -624,100 +624,100 @@
                         <l>Rire ſans cauſe , aller ſans que rien nous arrête ,</l>
                         <l>Se réduire à l'inſtinct qui nous guide à profit.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-15">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
-                        <l>Ah ! Peut-on exiſter , ſi l'on ne réfléchit ,</l>
+                        <l>Ah ! Peut-on exiſter, ſi l'on ne réfléchit,</l>
                         <l>Votre recette eſt révoltante :</l>
                         <l>C'eſt végeter comme une plante.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-16">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le grand nombre l'imite, &amp; le bon ſens nous dit</l>
                         <l>Qu'il vaut ieux vivre ſot , que mourir plein d'eſprit.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-17">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pour moi je ſuis votre Servante.</l>
                         <l>Ne vivre que pour mettre une coëffe, un panier,</l>
                         <l>Ah! j'aimerois autant orner un Eſpalier.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-18">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ne penſés donc qu'à l'agréable ,</l>
                         <l>Et ne faites, je cherche un terme favorable;</l>
                         <l>Ne faites que frivoler ,</l>
                         <l>Si de ce mot , il m'eſt permi d'uſer.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-19">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Voilà depuis trois mois ce qu'ici je lui crie ,</l>
                         <l>Diſſipés votre eſprit, ſans jamais l'occuper.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-20">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous m'impatientez , comment me diſſiper !</l>
                         <l>Rien ne m'amuſe, &amp; tout m'ennuye.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-21">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il ne faut pas ſe rebuter.</l>
                         <l>Comme l'oiſeau que rien ne lie ,</l>
                         <l>Parcourés, ſans vous arrêter ,</l>
                         <l>Le Cercle des plaiſirs, que chaque inſtant varie ,</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-22">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ces plaiſirs ! Je les cherche , &amp; je n'en trouve point.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-23">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">La promenade eſt un reméde...</l>
                     </sp>
                     <pb n="246"/>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-24">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Qui me fatigue au dernier point.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-25">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">La Table?...</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-26">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">M'eſt à charge.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-27">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Et le Bal?...</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-28">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Il m'excéde.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-29">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Le Jeu?...</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-30">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">M'eſt odieux.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-31">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Le Spectacle?...</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-32">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Importun.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-33">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Votre mal eſt tenace. En cet état funeſte,</l>
                         <l>A votre place , moi , je jourois de mon reſte.</l>
                         <l>C'eſt peu de folâtrer , pour chaſſer l'eſprit brun :</l>
                         <l part="I">Il faut l'extravaguer juſqu'à la frenéſie.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-34">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Eh, je n'ai pas le ſens comun ,</l>
                         <l>Depuis que j'ai quitté le ſein de ma Patrie.</l>
@@ -725,78 +725,78 @@
                         <l>J'étois malade à <name type="place" n="Londres">Londres</name> à force de raiſon.</l>
                         <l>Et je meurs à <name type="place" n="Paris">Paris</name> d'un excès de folie.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-35">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Madame, il vaudroit mieux mourir</l>
                         <l>Cinquante fois plûtôt d'un excès de plaiſir.</l>
                         <l>A ce propos, parlés, je vous ſuplie,</l>
                         <l part="I">A <name type="place" n="Londres">Londres</name> n'avez-vous rien aimé ?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-36">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non, jamais,</l>
                         <l>Et j'ai porté cher moi la froideur à l'excès.</l>
                     </sp>
                     <pb n="247"/>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-37">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Contre votre mélancolie,</l>
                         <l>Je ſçai donc en ce cas un reméde certain.</l>
                         <l part="I">Prenés.....</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-38">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Quoi donc ? Achevés, je vous prie.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-39">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Prenés vîte un Amant pour votre Médecin</l>
                         <l>Ses ſoins ſçauront bien-tôt , je vous le certifie ,</l>
                         <l>Vous donner du goût pour la vie ,</l>
                         <l>Et faire ſuccéder le plaiſir au chagrin.</l> 
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-40">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Il eſt de bon conſeil.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-41">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Ah ! je l'en remercie ;</l>
                         <l>Le reméde, madame, eſt pire que le mal.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-42">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais commentjugez-vous qu'il vous ſera fatal ,</l>
                         <l part="I">N'ayant point eſſayé....</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-43">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non pas, Monſieur, à <name type="place" n="Londres">Londres</name>.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-44">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>En <name type="place" n="France">France</name>, Miledi , l'auriez-vous éprouvé ?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-45">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Me taire, c'eſt aſſez répondre.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-46">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Chére Miſſ, votre cœur s'en eſt-il bien trouvé ?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-47">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Au mieux le premier jours ; je crus alors renaître.</l>
                         <l>Il ſe fit dans mon ame un changement nouveau.</l>
                         <l>Pour la premiére fois , je jour me parut beau,</l>
                         <l>Et je goûtai le bonheur d'être.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-48">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Le ſecond jour ?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-49">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Mon plaiſir s'altéra.</l>
                         <l>Mon Amant fut abſent , mon cœur en ſoupira.</l>
@@ -810,18 +810,18 @@
                         <l>J'en fus témoin. Mon deſeſpoir s'accrut,</l>
                         <l>Et dans mon cœur trahi ne laiſſa que la rage.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-50">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous êtes mal tombée , &amp; c'eſt un grand dommage.</l>
                         <l>J'en connois un, qui ſeroit plus conſtant.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-51">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>En quatre mots ; voilà mon hiſtoire finie.</l>
                         <l>Tout calculé bien juſtement</l>
                         <l>Je n'ai vécu que trois jours dans ma vie.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S03-52">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>D'un nœud leger , tiſſu pour un moment,</l>
                         <l>Il falloit avezc lui vous lier ſeulement.</l>
@@ -830,7 +830,7 @@
                         <l>Et vous recevez le juſte châtiment.</l>
                         <l>Mais quel eſt donc le petit-Maître;...</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-53">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt votre favori, ce fripon de Marquis,</l>
                         <l>Qu'ici pour mon malheur, vous m'avez fait connoître.</l>
@@ -842,11 +842,11 @@
                         <l>Malgré tout mon amour , j'ai très-exactement</l>
                         <l>Conſervé toute ma ſageſſe.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-54">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt un effort bien ſuprenant.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-55">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Cela tient un peu du miracle,</l>
                         <l>Monſieur , particuliérement</l>
@@ -855,20 +855,20 @@
                         <l>De cet aveu , vous êtes étourdi !</l>
                         <l part="I">Le préjugé ſur vous...</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-56">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non ; je ſçai le combattre ;</l>
                         <l part="I">Mais je vous croyois Miledi.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-57">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Souvent je le ſuis au Théatre.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-58">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous pourriez l'être ailleurs par un titre plus fort.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-59">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Jamais je ne m'allie avec aucun Milord.</l>
                         <l>Notre profeſſion à <name type="place" n="Londres">Londres</name> eſt glorieuſe.</l>
@@ -877,7 +877,7 @@
                         <l>Peut aſpirer chez nous au parti le plus grand,</l>
                         <l>On y rougit du vice, &amp; non pas du talent.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-60">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Moi , je l'honore infiniment.</l>
                         <l>Il devient entre un nœud de ſympathie.</l>
@@ -890,17 +890,17 @@
                         <l>Meſtris, une eſtime amoureuſe.</l>
                         <lb/><stage type="business" rend="italic">Il ſe jette à ſes genoux.</stage><lb/>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-61">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Que faites-vous ?</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-62">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Devant une Actrice fameuſe ,</l>
                         <l>Un Auteur doit toujours fléchir les deux genoux.</l>
                         <l>Nous devons , à votre art, nos ſuccès les plus doux.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S03-63">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ah ! Levez-vous, Monſieur. J'aperçois mon perfide.</l>
                         <l>La colére, àſa vûe, eſt mon ſeul ſentiment ;</l>
@@ -908,17 +908,17 @@
                         <l>Et pour ſçavoir , ici, qu'elle raiſon le guide ,</l>
                         <l>Je m'en vais dans ce coin me cacher un moment.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S03-64">
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Acceptez ma main , je vous prie.</l>
                         <l>Je vous y tiendrai compagnie.</l>
                         <lb/><stage type="exit" rend="italic">Il s'éloigne avec elle.</stage><lb/>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4" xml:id="S04">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>LISS-BLAR <pc>,</pc> M. FAUSTER , <hi rend="italic">cachés</hi><pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-1">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
                         <stage type="delivery" rend="italic">à la <name type="person" n="Frivolité">Frivolité</name>.</stage><lb/>
                         <l><c type="lettrine">J</c>E viens verſer ma joye en votre ſein :</l>
@@ -926,46 +926,46 @@
                         <l>Ils ne partiront pas. Ils demeurent enfin.</l>
                         <l>Nous allons les revoir , nous allons les entendre.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-2">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Qui donc? Expliquez-vous. Je crains de me méprendre.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-3">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
                         <stage rend="italic">parodiant Serpilla du Joueur<pc type="affirmative">.</pc></stage><lb/>
                         <l rend="italic">La charita , la charita.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-4">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc> </speaker>
                         <stage>Elle chante.</stage><lb/>
                         <l>Comment! nous entendrons encore , <hi rend="italic">Bella mia</hi>.</l>
                         <l rend="italic" part="I">Se ſon tuo ſpoſe.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-5">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Demain, ma Souveraine.</l>
                         <l>Ils reparoîtront ſur la Scène.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-6">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'airai donc avec eux y triompher demain.</l>
                         <l>Ma joye au moins , à la vôtre eſt égale.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-7">
                         <speaker>LA MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ah! vive l'<name type="place" n="Italie">Italie</name> &amp; ſon Trio divin.</l>
                     </sp>
                     <pb n="251"/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-8">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>La Mandoline , la Timbale.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-9">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
                         <stage rend="italic">contrefaiſant les Bouffons.</stage><lb/>
                         <l>Et le Violon, zin, zin, zin.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-10">
                         <speaker>LA FRIVOLITÉ <pc>,</pc></speaker>
                         <stage rend="italic">les parodiant auſſi.</stage><lb/>
                         <l>Pa , ta, pon , &amp; trin , trin .</l>
@@ -973,20 +973,20 @@
                         <l>Eſt une victoire pour nous.</l>
                         <l>Puis-je la célébrer par des tranſports trop fous ?</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-11">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
                         <stage>contrefaiſant le rire de <name type="person" n="Manelli">Manelli</name>, <lb/>dans le Joueur.</stage><lb/>
                         <l>Ah ! ah ! bouffonnons, rions tous.</l>
                         <l>Moi, pour modèle, je veux prendre ,</l>
                         <l>Dans ſes plaiſans éclats , l'agréble Joueur.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-12">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Moi, <name type="person" n="Serpilla">Serpilla</name>, dans ſonſoûris moqueur.</l>
                         <l>Elle que je chéris, dont l'adieu fut ſi tendre ,</l>
                         <l>Qu'elle verſa des pleurs, &amp; nous en fit répandre.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-13">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
                         <stage rend="italic">parodiant l'air, <hi>vuo dirlo <lb/>baſſo, baſſo,</hi> du Maître de Muſique.</stage><lb/>
                         <l>Ecoutez tout bas, tous bas ,</l>
@@ -996,71 +996,71 @@
                         <l>Nous irons tous à l'Opéra.</l>
                         <l>Mais main la cla, claquera.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-14">
                         <speaker>MISS-BLAR <pc>,</pc></speaker>
                         <stage rend="italic">s'aprochant &amp; l'interrompant.</stage><lb/>
                         <l>Quel ſecret dites-vous-là ?</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-15">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je lui diſois en confidence ,</l>
                         <l>Que je vous adore , Miſſ-<name type="person" n="Blar">Blar</name>.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-16">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt <name type="person" n="Serpilla">Serpilla</name> plûtôt qui vous lie à ſon Char ,</l>
                         <l>Vous voulez déguiſer en vain votre inconſtance.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-17">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Votre cœur ne doit pas en paroître jaloux.</l>
                         <l>Je folâtre avec elle, &amp; ſoupire avec vous.</l>
                     </sp>
                     <pb n="252"/>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-18">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon cœur veut tout ou rien. Ce partage m'offenſe</l>
                         <l>Sur le choix , il faut prononcer.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-19">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je ne rpononce point entre <name type="place" n="Londres">Londres</name> &amp; <name type="place" n="Florence">Florence</name></l>
                         <l>De vos talens divers , je ne puis me paſſer.</l>
                         <l>J'aprens à chanter d'elle, &amp; de vous à penſer.</l>
                         <l>C'eſt ainſi, de vos dons , que j'enrichis la <name type="place" n="France">France</name>.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-20">
                         <speaker>MISS BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Ciel! quel injuſte Arrêt ! Mais j'en apelle.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-21">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">A qui ?</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-22">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>A la raiſon, qui prendra ma défenſe.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-23">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>La raiſon, qui prendra ma défenſe.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-24">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'implore donc votre puiſſance.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-25">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt mon eſprit qu'il a ſuivi ,</l>
                         <l>Et je confirme la Sentence.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-26">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je n'attendois pas moins de la <name type="person" n="Frivolité">Frivolité</name>,</l>
                         <l>Protectrice de l'inconſtance ,</l>
                         <l>Et digne ſœur de la legéreté.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-27">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Voilà bien le François , dont elle eſt le génie.</l>
                         <l>La nommer , c'eſt le définir.</l>
@@ -1071,60 +1071,60 @@
                         <l>Aujourd'hui vient de le ſaiſir ;</l>
                         <l>C'eſt la fureur des accords d'<name type="place" n="Italie">Italie</name>.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-28">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ce ma épidémique a gagné tout <name type="place" n="Paris">Paris</name>.</l>
                         <l part="I">J'en enrage.</l>
                     </sp>
                     <pb n="253"/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-29">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Et moi j'en ris.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-30">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le choſe eſt en effet très-digne de riſée.</l>
                         <l part="I">Vous y perdez.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-31">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Nous y gagnons.</l>
                         <l>En changeant de plaiſirs , nous les multiplions.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-32">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Quelle rivale, ingrat , m'avez-vous opoſée?</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-33">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais, mais, j'admire en vous ces exclamations!</l>
                         <l>Cette Muſique Italienne</l>
                         <l>Que vous rabaiſſez tant , ſoumet tous les Pays,</l>
                         <l>Elle eſt par conſéquent &amp; la ſienne &amp; la vôtre.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-34">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non, je la méconnois, défigurée ainſi;</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-35">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nous voulons juſtement en embellir la nôtre.</l>
                         <l>Cet aliage a déja réuſſi.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-36">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ah! plutôt par ce pot pourri,</l>
                         <l>Vous la dénturez, &amp; gatez l'une &amp; l'autre.</l>
                         <l>C'eſt un chef-d'œuvre ailleurs, mais un vrai monſtre ici.*</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-37">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pour vous guérir de cette idée étrange ,</l>
                         <l>Je la veux toute ſeule établir ſans mélange ;</l>
                         <l>Et je veux qu'à ſa gloire, un autel ſoit dreſſé</l>
                         <l>Sur les derniers débris &amp; d'<name type="person" n="Armide">Armide</name>, &amp; d'<name type="person" n="Issé">Iſſé</name>.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-38">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>François dénaturé, quel tranſport vous égare !</l>
                         <l>Priver la Nation d'un ſi bel ornement?</l>
@@ -1135,7 +1135,7 @@
                         <l part="I">Vous les ſacrifiez, Monſieur ?</l>
                     </sp>
                     <pb n="254"/>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-39">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Oui, forcément,</l>
                         <l>Nous<sic></sic><corr> </corr>n'avons plus<sic></sic><corr> </corr>d'Acteurs aujourd'hui pour les rendre,</l>
@@ -1150,18 +1150,18 @@
                         <l>Nos Opéras nouveaux , par ton moyen charmant,</l>
                         <l>Pourront à l'avenir ſe paſſer de paroles.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-40">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>On en fait joliment encor :</l>
                         <l>Les Fêtes de l'Hymen, Monſieur, &amp; <name type="person" n="Zélindor">Zélindor</name> ,</l>
                         <l>Pour les Balets François, ſont deux bonnes écoles.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-41">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous ſerez donc réduits au Conſert ſeulement ,</l>
                         <l>Quand vous ſuprimerez leurs actions falottes.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-42">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non, la frivolité eſt toute dans les notes.</l>
                         <l>Je dois à leurs accords un nouvel agrément ,</l>
@@ -1170,44 +1170,44 @@
                         <l>Que dans l'Orqueſtre ſeul, je trouve heureuſement</l>
                         <l>Un Acteur accompli , qui jamais ne s'enrhume.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-43">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais rire à l'Opéra, ce n'eſt pas la coutume.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-44">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>On rit tous les jours, ſans façon,</l>
                         <l>Au François, que je crois d'auſſi bonne maiſon.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-45">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ah ! ne plaiſantez pas, c'eſt commettre une offenſe</l>
                         <l>Contre ſa dignité , qui proſcrit le badin.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-46">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>La dignité du magaſin!</l>
                     </sp>
                     <pb n="255"/>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-47">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Oui, je rougis pour lui de l'indécence.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-48">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>L'indécence de l'Opéra</l>
                         <l>Eſt dans la Muſique.</l>
                         <l>Celle qu'un amateur , toujours admirera ,</l>
                         <l>Eſt la plus noble ſans replique.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-49">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Tous ces prétendus amateurs</l>
                         <l>Qui la vantent par air , avec un ton de maître ,</l>
                         <l>A <name type="place" n="Paris">Paris</name> en font les honneurs ,</l>
                         <l>Sans avoir bien ſouvent celui de la connoître.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-50">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous avez contre nous trop de prévention.</l>
                         <l>Pour être Juge en notre Cauſe</l>
@@ -1215,16 +1215,16 @@
                         <l>Qui toujours neutre , agit ſans paſſion.</l>
                         <l>Je m'en raporte à lui, qu'il décide la choſe.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-51">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Je crains...</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-52">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Monſieur, point d'apréheſion.</l>
                         <l>Vous ne pouvez jamais que m'être favorable.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-53">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je vais en ces-là tâcher d'être équitable.</l>
                         <l>Votre Opéra Pariſien</l>
@@ -1240,32 +1240,32 @@
                         <l>Et ris tout bas du jeu de ſes Acteurs.</l>
                     </sp>
                     <pb n="256"/>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-54">
                         <speaker>LA MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Rire tout bas?</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-55">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Sans doute un homme raiſonnable</l>
                         <l>Craint d'éclater , Monſieur , &amp; rit modeſtement.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-56">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Eſt-ce en bien ? eſt-ce en mal?</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-57">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Un arrêt ſagement</l>
                         <l>S'interpréte toujours dans un ſens favorable.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-58">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il s'en tire fort joliment,</l>
                         <l>Et ſa déciſion eſt d'autant plus louable,</l>
                         <l>Qu'au fond chaque parti doit en être content.</l>
                         <l>Adieu. Je ſors moins triſte , après ce jugement.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-59">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Amenez ybe Troupe Angloiſe ,</l>
                         <l>Et revenez ici pour y jouer.</l>
@@ -1273,35 +1273,35 @@
                         <l>Vous verrez tout <name type="place" n="Paris">Paris</name> déſerter la Françoiſe,</l>
                         <l>Et vous venir en foule aplaudir &amp; louer.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-60">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le propoſition me touche.</l>
                         <l>Madame, j'attendrai que vous ſçachiez l'Anglois.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-61">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il ne faut ue paroître aux regards du François :</l>
                         <l>Il eſt au fait , avant qu'on ait ouvert la bouche.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-62">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Comme vous aimez le badin,</l>
                         <l>Nous jourons donc la Pantomime,</l>
                         <l>Et nous aprocherons, Monſieur, du Baladin,</l>
                         <l>Pour mieux mériter votre eſtime.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-63">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>On eſt ſûr de l'avoir dès qu'on eſt ſingulier.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-64">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nous avons tant pleuré , qu'il faut nous égayer.</l>
                         <l>Je ne vous offre pas ma main pour vous conduire.</l>
                         <pb n="257"/>
                         <l>Vous avez dans Monſieur un meilleur Ecuyer.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-65">
                         <speaker>M. FAUSTER </speaker>
                         <stage>à Miſſ-<name type="person" n="Blar">Blar</name>.</stage><lb/>
                         <l>Madame  avec tranſport j'accepte cet office</l>
@@ -1311,7 +1311,7 @@
                         <l>Nous ſommes faits pour nous lier.</l>
                         <l>La Raiſon eſt Angloiſe, &amp; le Bon ſens eſt Suiſſe.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-66">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Et l'Eſprit eſt François, qui n'en eſt point jaloux.</l>
                         <l>Il fait compliment à l'époux,</l>
@@ -1319,7 +1319,7 @@
                         <l>Sûr que le lendemain, apaiſant ſon courroux</l>
                         <l>Elle ſera ſa bonne amie.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-67">
                         <speaker>MISS-BLAR </speaker>
                         <stage>à M. <name type="person" n="Fauster">Fauſter</name>.</stage><lb/>
                         <l>Monſieur , je vous donne ma main.</l>
@@ -1327,12 +1327,12 @@
                         <l>Vous n'aurez point de lendemain.</l>
                         <l>Je pars, de tout vos traits parfaitement guérie.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S04-68">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le dépit ſeul vous dicte ce Diſcours ;</l>
                         <l>Quand je bleſſe quelqu'un c'eſt pour toute la vie.</l>
                     </sp>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-69">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non, je vous fais, Monſieur, mes adieux pour toujours.</l>
                         <l>Rien ne m'attire plus au ſein de cette ville.</l>
@@ -1347,12 +1347,12 @@
                         <l>Pour faire unſot emploi du nôtre qu'il envie ;</l>
                         <l>Et croyant s'enrichir , il ſe réduit à rien.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S04-70">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Vous partez mécontente !</l>
                     </sp>
                     <pb n="258"/>
-                    <sp who="Miss Blar">
+                    <sp who="Miss Blar" xml:id="S04-71">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Oui puiſqu'il faut répondre,</l>
                         <l>J'étois venuë en <name>France</name> aprendre expreſſément</l>
@@ -1376,7 +1376,7 @@
                         <l>Comme on outre le jeu, l'on charge la Muſique ,</l>
                         <l>Et tout <name type="place" n="Paris">Paris</name> n'eſt plus qu'un Opéra Comique.</l>
                     </sp>
-                    <sp who="Monsieur Fauster">
+                    <sp who="Monsieur Fauster" xml:id="S04-72">
                         <speaker>M. FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pour moi, qui de ſang froid, voit tout également ,</l>
                         <l>Je vous quitte, Monſieur, plein d'eſtime &amp; de zèle.</l>
@@ -1397,35 +1397,35 @@
                         <l>Je vous en félicite. Adieu, Bon jour, Bon an.</l>
                         <lb/><stage type="exit" rend="italic">Il ſort.</stage><lb/>
                     </sp>
-                </div2>
-                <div2 type="scene" n="5">
+                </div1>
+                <div1 type="scene" n="5" xml:id="S05">
                     <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S05-1">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">P</c>Our combattre l'éclat de cette réuſſite</l>
                         <l>Redoublons nos tranſports pour notre favorite</l>
                         <l>Célébrons ſon retour par un brillant duo.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S05-2">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Souffrez plûtôt par un trio</l>
                         <l>Que notre amour envers elle s'acquitte.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S05-3">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>A deux un trio ! rêvez-vous ?</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S05-4">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il eſt de la façon d'un Serin de <name type="place" n="Bergame">Bergame</name>.</l>
                         <l>Mais le voici qui vient, Madame ,</l>
                         <l>Pour l'exécuter avec nous.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="6">
+                </div1>
+                <div1 type="scene" n="6" xml:id="S06">
                     <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>ARLEQUIN <hi rend="italic">déguiſé en Maître de Muſique</hi><pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-1">
                         <speaker>ARLEQUIN </speaker>
                         <stage rend="italic">tout éſouflé &amp; l'habit en déſordre.</stage><lb/>
                         <l><c type="lettrine">O</c>Uf, Madame, pardon. Souffrez que je reſpire.</l>
@@ -1435,12 +1435,12 @@
                         <l>L'image encore eſt préſente à mon cœur ;</l>
                         <l>J'en frémis d'épouvante, &amp; j'en créve de rire.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-2">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Quel combat ?</l>
                     </sp>
                     <pb n="260"/>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-3">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Au Caffé. C'eſt le Champ de bataille.</l>
                         <l>Les deux partis , en ſont venus aux mains.</l>
@@ -1450,11 +1450,11 @@
                         <l>Miaule dans le haut, &amp; jape dans le bas.</l>
                         <l>L'autre, avec nos accords , exalte ſes éclats.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-4">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt une grande voix, pour peu qu'on la travaille.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-5">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nos railleurs inſiſtoient , mais ils ont du deſſous ,</l>
                         <l>Dans l'inſtant qu'une baſſe-taille ,</l>
@@ -1470,11 +1470,11 @@
                         <l>Un tel blaſphême eſt indigne de grace.</l>
                         <l>A la tête, à ces mots il lui jette une taſſe.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-6">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>O! Ciel! pour nous amis , je frémis de l'affront.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-7">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Notre gaſcon l'eſquive , &amp; ſon bras furibond</l>
                         <l>Lui lance un tabouret, au milieu de la face :</l>
@@ -1483,11 +1483,11 @@
                         <l>Bat des mains , pouſſe un cri de joie,</l>
                         <l>Et l'ennemi confus en pouſſe un de douleur.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-8">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Je reſpire.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-9">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Ce n'eſt qu'un prélude, Monſieur.</l>
                         <pb n="261"/>
@@ -1500,11 +1500,11 @@
                         <l>De toutes parts le ſang coule &amp; ſe mêle</l>
                         <l>Parmi les flots de thé, d'orgéat &amp; de canelle.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-10">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>CE recit ſur mon front, fait dreſſer mes cheveux.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-11">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pour arrêter l'horreur d'un combat ruineux ,</l>
                         <l>La Reine du Café ſort de ſon Trône en larmes ,</l>
@@ -1515,16 +1515,16 @@
                         <l>Et ſon mari qui veut leur arracher les armes,</l>
                         <l>Eſt inhumainement plongé dans un baquet.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-12">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Voilà du grand tragique.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-13">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Au fort de la bagarre,</l>
                         <l part="I">Que faiſiez vous Signor ?</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-14">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Tapi ſeul dans un coin ;</l>
                         <l>J'étois de la bataille un paiſible témoin,</l>
@@ -1539,11 +1539,11 @@
                         <l>Tout ſon parti l'imite , &amp; me roſſe à forfait.</l>
                     </sp>
                     <pb n="262"/>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-15">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Et le nôtre? achevez, votre malheur me touche.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-16">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il vole à mon ſecours, m'arrache de leurs mains,</l>
                         <l>Et m'élevant malgré leurs efforts inhumains ,</l>
@@ -1552,47 +1552,47 @@
                         <l>Juſques dans ce Palais, où quittant mes amis,</l>
                         <l>J'entre chargé de coups, &amp; tout couvert de gloire.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-17">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Se peut-il qu'on vous ait auſſi peu reſpecté ?</l>
                         <l>Ah! j'en rougis pour ma patrie !</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-18">
                         <speaker>LA FRIVOLITÉ </speaker>
                         <stage type="delivery" rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
                         <l>Quoi; vous êtes, Monſieur, ce Fauſſet ſi vanté ?</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-19">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non , Madame , je ſuis une taille accomplie.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-20">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Chanteur, danſeur, rimeur en même-tems,</l>
                         <l>Il compoſe lui ſeul des Opéras burleſques ,</l>
                         <l>Il fait des vers Gaſcons ; des airs Toſcans ,</l>
                         <l>Madame , &amp; des Balets Teudeſques.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-21">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'en tiens ici de sûr garants.</l>
                         <l>Voilà pour vous, Madame, une chanſon d'élite.</l>
                         <l>Et voici pour nous trois un morceau triomphant.</l>
                     </sp>
-                    <sp who="Le Marquis">
+                    <sp who="Le Marquis" xml:id="S06-22">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Nous y parodions chacun un Inſtrument.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-23">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pour aſſurer la réuſſite,</l>
                         <l>Il faut l'accompagner d'un Balet Allemand.</l>
                     </sp>
-                    <sp who="Arlequin">
+                    <sp who="Arlequin" xml:id="S06-24">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l>En attendant , Madame , un Danſeur Moſcovite.</l>
                     </sp>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-25">
                         <speaker>LA FRIVOLITÉ </speaker>
                         <stage type="delivery" rend="italic">chante.</stage><lb/>
                         <sound>AIR<pc type="affirmative">.</pc></sound><lb/>
@@ -1603,22 +1603,22 @@
                         <l>Peraber la libertat.</l>
                     </sp>
                     <lb/><sound rend="italic">Trio.</sound><lb/>
-                    <sp who="La Frivolité">
+                    <sp who="La_Frivolite" xml:id="S06-26">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Que la Vielle Inſtrument de ma Gloire ,</l>
                         <l>La Flutent , le Baſſon , célébre ma Victoire.</l>
                     </sp>
-                    <sp who="Le Marquis, Arlequin">
+                    <sp who="Le Marquis, Arlequin" xml:id="S06-27">
                         <speaker>LE MARQUIS ET ARLEQUIN </speaker>
                         <stage type="delivery" rend="italic">répétent enſemble.</stage><lb/>
                         <l>Que la Vielle Inſtrument de ma Gloire ,</l>
                         <l>La Flutent , le Baſſon , célébre ma Victoire.</l>
                     </sp>
                     <lb/><lb/><stage type="exit" rend="italic">Ils ſortent tous trois à reculons en ſaluant le Public <lb/>à la maniére des Boufons.</stage>
-                    <lb/><lb/><lb/><p rend="center">FIN.</p>
-                </div2>   
+                    <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
+                </div1>   
                 <pb n="264"/>
-                <div2 type="air">
+                <div1 type="air">
                     <head>LE PIOU PIOU<pc type="affirmative">.</pc></head><lb/>
                     <lg>
                         <l><c type="lettrine">C</c>Oumo l'auzel près dins un niou ,</l>
@@ -1642,9 +1642,9 @@
                         <l>Mon cor crido que fa piétat , que fa piétat ,</l>
                         <l>Mon cor crido que fa piétat , que fa piétat , <lb/>piétat , piétat a que fa piétat ,</l>
                     </lg>
-                </div2>
+                </div1>
                 <pb n="265"/>
-                <div2 type="divertissement">
+                <div1 type="divertissement">
                     <head>DIVERTISSEMENT <lb/>ALLEMAND<pc type="affirmative">.</pc></head><lb/>
                     <stage type="mixed" rend="italic">Le Théâtre repréſente un jardin, une terraſſe 
                         <lb/>dans le fond, ornés de vaſes &amp; de berceaux : 
@@ -1731,8 +1731,8 @@
                         <l>N'ont pour charme ,</l>
                         <l>En <name type="person" n="France">France</name> que des fleurs.</l>
                     </lg>
-                </div2>
-                <div2 type="vaudeville">
+                </div1>
+                <div1 type="vaudeville">
                     <head>VAUDEVILLE<pc type="affirmative">.</pc></head><lb/>
                     <sound>EN TRIO<pc type="affirmative">.</pc></sound><lb/>
                     <lg>
@@ -1789,8 +1789,7 @@
                         <lb/>termine le Divertiſſement.
                     </stage>
                     <lb/><lb/><lb/><p rend="italic ; center">Fin du huitiéme &amp; dernier Tome.</p>
-                </div2>
-            </div1>
+                </div1>
         </body>
     </text>
 </TEI>
