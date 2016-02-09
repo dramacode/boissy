@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le Folie du jour: édition numérique</title>
+                <title type="main">La Folie du jour</title>
+                <title type="subtitle"></title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -87,8 +86,7 @@
             <div1 type="title">
                 <head>LA FOLIE <lb/>DU <lb/>JOUR<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+            <div1 type="scene" n="1">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
@@ -96,7 +94,7 @@
                         <l><c type="lettrine">A</c>H! Ah! c'eſt vous, mon Fils? Dites-moi, <lb/>je vous prie,</l>
                         <l>Qui vous conduit dans ce ſéjour ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Puiſqu'il faut l'avouer, mon Pere, une folie.</l>
                     </sp>
@@ -105,7 +103,7 @@
                         <l part="I">Et quelle ? Il en eſt tant ?</l>
                     </sp>
                     <pb n="58"/>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Mais c'eſt celle du Jour;</l>
                         <l>J'y viens jouer la Comédie.</l>
@@ -116,7 +114,7 @@
                         <l>De cette fiévre qui ſe gagne ;</l>
                         <l>Car je dois l'y jouer auſſi.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon Pere, j'en ſuis très ravi,</l>
                         <l>Je ne puis m'égarer, quand je vous accompagne.</l>
@@ -132,10 +130,10 @@
                         <l>La Maîtreſſe de ce Château,</l>
                         <l>Sa bonté m'a chargé d'un emploi ſi nouveau,</l>
                         <l>Qui me remplit moi-même de ſurpriſe.</l>
-                        <l>Mais vous, <name type="person" n="Léandre">Léandre</name>, depuis quand</l>
+                        <l>Mais vous, <name type="person" n="Leandre">Léandre</name>, depuis quand</l>
                         <l part="I">La connoiſſez-vous donc ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">C'eſt d'hier ſeulement.</l>
                     </sp>
@@ -143,7 +141,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Qui vous a preſenté ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Mon Pere, la Marquiſe</l>
                         <l>Qui m'a trouvé quelque talent.</l>
@@ -161,7 +159,7 @@
                         <l>Ce trouble avec cette rougeur</l>
                         <l part="I">Me confirme...</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Mon Pere...</l>
                     </sp>
@@ -172,7 +170,7 @@
                         <l>Parlez donc hardiment, parlez, mon camarade:</l>
                         <l>Vous ne pouvez choiſir un plus diſcret ami.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>A ne vous cacher rien, ce titre m'autoriſe.</l>
                         <l>L'attachement que j'ai pour la Marquiſe</l>
@@ -189,7 +187,7 @@
                         <l>Dites-moi ſi pour vous cette Dame eſt ſenſible.</l>
                         <l part="I">Le plaiſir ſeul...</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non ; ſon cœur n'en eſt pas ſuſceptible.</l>
                         <l part="I">Le plaiſir ſeul...</l>
@@ -210,7 +208,7 @@
                         <l>Et la fortune eſt douce autant qu'elle eſt rapide ;</l>
                         <l>Quand on la rient de la main du plaiſir.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ce diſcours eſt très-véritable :</l>
                         <l>Mais le parfait &amp; ſincére lien</l>
@@ -221,7 +219,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Où trouver un objet digne d'un nœud ſi tendre?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'avois eu ce bonheur , puiſqu'il faut vous l'aprendre.</l>
                     </sp>
@@ -229,7 +227,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Dans quel endroit l'avez-vous rencontré.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'ai vû cette Belle accomplie</l>
                         <l>Dans un Couvent voiſin de notre Académie,</l>
@@ -240,7 +238,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Eh bien ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Je manque d'aſſurance.</l>
                         <l>Mon Pere, vous allez me traiter d'étourdi !</l>
@@ -250,7 +248,7 @@
                         <l>Non; comme confident je ſerai plus poli :</l>
                         <l>Parlez, je vous promets une entiére indulgence.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Comme un ſeul mur nous ſéparoit.</l>
                         <l>Qu'on pouvoit y monter par la cour du manége,</l>
@@ -284,7 +282,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Votre témérité s'en tint-là ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non, mon Pere.</l>
                         <l>De nous écrire , alors nous convimmes tous deux</l>
@@ -304,7 +302,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Le tour eſt noir!</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Il eſt deſeſpérant.</l>
                         <pb n="62"/>
@@ -315,7 +313,7 @@
                         <l>Après ce fatal incident,</l>
                         <l part="I">Que devient-elle ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Je l'ignore,</l>
                         <l>On la fit changer de Couvent,</l>
@@ -327,7 +325,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Après ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">L'hiſtoire finit-là.</l>
                         <l>J'ai perdu ce tréſor. Je n'ai plus rien à dire.</l>
@@ -336,7 +334,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Quoi! votre amour s'eſt contenté d'écrire ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Hélas ! malgré moi.</l>
                     </sp>
@@ -349,7 +347,7 @@
                         <l>D'être reſté, mon Fils, à moitié du chemin.</l>
                         <l part="I">Oubliez-la :</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Dans ce deſſein</l>
                         <l>J'ai fait à la Marquiſe une cour aſſidue ;</l>
@@ -362,7 +360,7 @@
                         <l>Tâchez donc de ſçavoir ce qu'elle eſt devenue:</l>
                         <l>S<sic>r</sic><corr>i</corr> le parti convient, je pourrai l'aprouver.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon Pere, il conviendra, ſi je puis la trouver.</l>
                     </sp>
@@ -371,7 +369,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>J'entens venir quelqu'un qui chante.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt <name type="person" n="Papillon">Papillon</name>, notre beau Chevalier.</l>
                         <l>Sa voix eſt legére &amp; brillante ;</l>
@@ -383,7 +381,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le voilà qui s'aproche ; avec lui je vous laiſſe.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Il ne faut pas vous écarter,</l>
                         <l>Mon Pere, &amp; voilà l'heure où l'on va répéter.</l>
@@ -394,15 +392,15 @@
                         <l>Je vais vîte donner mes ſoins ;</l>
                         <l>Et ſur le champ je vous rejoins.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="2">
+                </div1>
+                <div1 type="scene" n="2">
                     <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Chevalier">
                         <speaker>LE CHEVALIER </speaker>
                         <stage type="entrance" rend="italic">entre en danſant &amp; en <lb/>chantant.</stage><lb/>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">V</c>Ous chantez avec goût; vous danſez avec grace.</l>
                     </sp>
@@ -413,7 +411,7 @@
                         <l>Nos Dames ne ſont pas ici?</l>
                         <l>Elles ſont toujours pareſſeuſes.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Et nos Hommes le ſont auſſi.</l>
                     </sp>
@@ -424,8 +422,8 @@
                         <l>On devoit s'aſſembler à l'heure du midi.</l>
                         <l part="I">Il en eſt trois.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="3">
+                </div1>
+                <div1 type="scene" n="3">
                     <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc>,</pc> <lb/>LA FRANCE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Chevalier">
@@ -441,8 +439,8 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Courez-y.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Chevalier">
@@ -455,9 +453,9 @@
                         <l>Qu'on ſuit mal les ſtatuts qu'elle vient de dreſſer</l>
                         <l>Eſt la premiére à les enfreindre.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="65"/>
-                <div2 type="scene" n="5">
+                <div1 type="scene" n="5">
                     <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA MARQUISE<pc>,</pc> LE CHEVALIER<pc>,</pc> <lb/>LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Marquise">
@@ -487,9 +485,9 @@
                     <sp who="Le Chevalier">
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Des Barbades.</l>
-                        <l>Pour <name type="person" n="Léandre">Léandre</name> , il ne prend que du Parfait-Amour.</l>
+                        <l>Pour <name type="person" n="Leandre">Léandre</name> , il ne prend que du Parfait-Amour.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt la liqueur que je préfére.</l>
                     </sp>
@@ -497,7 +495,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le nom ſuffit pour la lui rendre chére.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je ne me défends pas, je ſens que ſuis fait,</l>
                         <l>Pour aimer d'un amour parfait.</l>
@@ -507,7 +505,7 @@
                         <l>Quelle folie ! Ah! c'eſt un ridicule</l>
                         <l>Dont il ſe défera bien-tôt auprès de nous.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je riſque bien plûtôt de le prendre avec vous.</l>
                     </sp>
@@ -517,7 +515,7 @@
                         <l>Non : de vous le donner, je me fais un ſcrupule.</l>
                         <l>Je vous veux par pitié, détromper là-deſſus.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais comme moi, chacun eſt idolâtre</l>
                         <l part="I">Du ſentiment.</l>
@@ -535,7 +533,7 @@
                         <l>Et pour trancher les diſcours ſuperflus,</l>
                         <l>On s'arrange aujourd'hui, mais on ne s'aime plus.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">On s'arrange !</l>
                     </sp>
@@ -543,7 +541,7 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Oui, c'eſt le mot.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Quel langage !</l>
                     </sp>
@@ -555,7 +553,7 @@
                         <l>De mes momens perdus, Monſieur, il eſt l'ouvrage;</l>
                         <l>Mais il n'en eſt pas moins parfait.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ces momens ſont chez vous un tems conſidérable.</l>
                     </sp>
@@ -568,7 +566,7 @@
                         <l>LE Titre ſeul eſt remarquable.</l>
                     </sp>
                     <pb n="67"/>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <p rend="italic">Le Dictionnaire du Jour , où l'on trouve tous les 
                             <lb/>mots, toutes les Anecdote , &amp; tous les uſages du jour 
@@ -663,7 +661,7 @@
                         <l>C'eſt un ſoin que je laiſſe au Chantre d'<name type="person" n="Henri">Henri</name> Quatre.</l>
                         <l>Il me ſiéroit très-mal d'en parler après lui.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le Chevalier a raiſon en ceci.</l>
                         <l>Nous ne devons jamais dans tous nos badinages</l>
@@ -686,7 +684,7 @@
                         <l>La Coquette du jour, ou plûtôt de l'inſtant;</l>
                         <l>Le petit-Maître du moment.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Plus ſuperficiel, &amp; plus frivole qu'elle,</l>
                         <l>Son mérite leger eſt compoſé de vent.</l>
@@ -696,7 +694,7 @@
                         <l>Liſés-en le portrait, c'eſt-là votre modèle.</l>
                         <l>Il vous corrigera du goût d'être fidèle.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE </speaker>
                         <stage rend="italic">lit.</stage><lb/>
                         <l>L'Aimable de l'inſtant paroît pour s'envoler ;</l>
@@ -742,7 +740,7 @@
                         <l>Votre Ouvrage prendra, c'eſt moi qui vous l'aſſure ;</l>
                         <l>De tous les Gens de goût, il mérite l'amour.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Et la critique du <name>Mercure</name>.</l>
                     </sp>
@@ -751,7 +749,7 @@
                         <l>Je me tiendrai, d'honneur, flaté de ſa cenſure ;</l>
                         <l>Car le livre du mois , n'eſt pas celui du jour.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Le vôtre eſt un preſent dont je vous remercie :</l>
                         <l>Il ſervira beaucoup à mon inſtruction.</l>
@@ -775,7 +773,7 @@
                         <l>Quoiqu'elle ſorte à peine du Couvent,</l>
                         <l>Elle penſe, Marquiſe, &amp; ſent plus vivement.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je brûle de la voir, je brûle de l'entendre,</l>
                         <l>Sur ce portrait avantageux.</l>
@@ -787,11 +785,11 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
-                        <l>La pauvre enfant! Elle eſt da<sic>u</sic><corr>n</corr>s l'erreur de <name type="person" n="Léandre">Léandre</name>.</l>
+                        <l>La pauvre enfant! Elle eſt da<sic>u</sic><corr>n</corr>s l'erreur de <name type="person" n="Leandre">Léandre</name>.</l>
                         <l>Elle croit que l'on doit aimer pour être heureuſe.</l>
                         <l>Et le ſort d'<name type="person" n="Héloïse">Héloïſe</name> eſt d'avoir le cœur tendre.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Qu'entends-je ? O Ciel ! Quel nom flateur ?</l>
                         <l part="I"><name type="person" n="Héloïse">Héloïſe</name> !</l>
@@ -802,7 +800,7 @@
                         <l><name type="person" n="Héloïse">Héloïſe</name> eſt le nom, Monſieur,</l>
                         <l>De la Niéce de <name type="person" n="Cidalise">Cidaliſe</name>.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Si c'étoit elle par bonheur?....</l>
                     </sp>
@@ -817,7 +815,7 @@
                         <l>Eſt-ce la Belle du Couvent</l>
                         <l>Dont vous m'avez conté l'hiſtoire ſinguliére ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je le voudrois, mon bonheur ſeroit grand.</l>
                     </sp>
@@ -835,7 +833,7 @@
                         <l>Peut-on réuſſir ſans cela ?</l>
                         <l><name type="place" n="Paris">Paris</name> jamais ne s'en raſſaſiera.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Si par l'effet de ma bonne fortune</l>
                         <l>C'étoit mon <name type="person" n="Héloïse">Héloïſe</name> , ah ! J'en jouerois bien<sic></sic><corr> </corr>une !</l>
@@ -846,7 +844,7 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Arrêtés. Quel eſt ce délire ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Laiſſez-moi, je ne puis aſſez-tôt m'en inſtruire.</l>
                     </sp>
@@ -864,7 +862,7 @@
                         <l>Quoi qu'avec un peu moins de zèle,</l>
                         <l>Si vous venez à réuſſir.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous m'encouragez fort ; mais je ne vois pas celle.....</l>
                     </sp>
@@ -873,74 +871,74 @@
                         <l>Elle ne peut tarder à venir.</l>
                         <l>La voilà. Regardés ſi c'eſt-là votre Belle.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt elle-même. Ah Ciel. Mon cœur vole vers elle.</l>
                         <l>Mais je n'ai pas la force d'aprocher ;</l>
                         <l>Mes pieds tremblant refuſent de marcher.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="73"/>
-                <div2 type="scene" n="6">
+                <div1 type="scene" n="6">
                     <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                     <stage>HELOYSE <pc>,</pc> LA MARQUISE <pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
-                        <l><stage type="delivery" rend="italic">A la Marquiſe.</stage><c type="lettrine">M</c>Adame....... <stage rend="italic">Apercevant <name type="person" n="Léandre">Léandre</name>.</stage></l>
+                        <l><stage type="delivery" rend="italic">A la Marquiſe.</stage><c type="lettrine">M</c>Adame....... <stage rend="italic">Apercevant <name type="person" n="Leandre">Léandre</name>.</stage></l>
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Sa ſurpriſe eſt aſſez naturelle.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I"><name type="person" n="Heloyse">Heloyſe</name> !</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Qu'entens-je? Et qu'eſt-ce que je vois,</l>
                         <l part="I">La parole me manque.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Et j'ai perdu la voix.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
-                        <l>Ne me trompai-je pas? Etes-vous ce <name type="person" n="Léandre">Léandre</name></l>
+                        <l>Ne me trompai-je pas? Etes-vous ce <name type="person" n="Leandre">Léandre</name></l>
                         <l>Qui m'écrivoit ſi tendrement</l>
                         <l part="I">Par le moyen....</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">D'un cordon.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Juſtement.</l>
                         <l part="I">Et qui venoit....</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Sur le mur d'un Couvent.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon amour pour le coup ne ſçauroit s'y méprendre.</l>
-                        <l>C'eſt <name type="person" n="Léandre">Léandre</name>, c'eſt lui, c'eſt mon fidèle Amant.</l>
+                        <l>C'eſt <name type="person" n="Leandre">Léandre</name>, c'eſt lui, c'eſt mon fidèle Amant.</l>
                         <pb n="74"/>
                         <l>L'étonnement , la joye &amp; le ſaiſiſſement....</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Le trouble &amp; le plaiſir.....</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Mes yeux, mon cœur, mon ame....</l>
                         <l>Je ne ſçai plus ce que je dis.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon feu, ma tendreſſe, ma flâme....</l>
                         <l>Le même égarement régne dans mes eſprits.</l>
@@ -968,7 +966,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ils l'outrent tous les deux , faute d'expérience.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mais dites-moi, dans les lieux où je ſuis,</l>
                         <l>Dites-moi quel bonheur, &amp; quelle circonſtance....</l>
@@ -980,7 +978,7 @@
                         <l>Vous livrer un peu moins à des tranſports ſi doux.</l>
                         <l>C'eſt oublier la bienſéance.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Pardonnés à mon trouble ; il eſt plus dort que moi.</l>
                         <l>Il vous a révélé le ſecret d'<name type="person" n="Héloïse">Héloyſe</name> :</l>
@@ -994,7 +992,7 @@
                         <l>Ah! peut-on s'empêcher d'avoir le cœur émû.</l>
                         <l>Et de faire éclater ſa joie ?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Non, charmante <name type="person" n="Héloïse">Héloyſe</name>, à ce juſte tranſport,</l>
                         <l>Livrons-nous tous les deux ſans crainte &amp; ſansre-<lb/>mord.</l>
@@ -1013,9 +1011,9 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Ils pourront parvenir.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE </speaker>
-                        <stage>à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                        <stage>à <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
                         <l>Oui, votre ardeur m'éclaire &amp; m'encourage;</l>
                         <l>D'un penchant vertueux je ne dois point rougir.</l>
                     </sp>
@@ -1025,7 +1023,7 @@
                         <l>Et qu'en oſant le découvrir</l>
                         <l>Vous allez contre la décence.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>A ſon voile impoſteur on ne doit recourir</l>
                         <l>Que pour cacher des fe<sic>u</sic><corr>n</corr>x qui bleſſent l'innocence,</l>
@@ -1034,7 +1032,7 @@
                         <l>N'a pas beſoin de ſa vaine aſſiſtance :</l>
                         <l>Comme il eſt né ſans honte ; il paroît ſans détour.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>On ne peut mieux répondre, &amp; ce diſcours m'enchante.</l>
                     </sp>
@@ -1044,7 +1042,7 @@
                         <l>Vous me paroiſſez bien ſavante!</l>
                     </sp>
                     <pb n="76"/>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je ne ſçai pas ſi je le ſuis.</l>
                         <l>Cet amour qui m'inſpire une flame ſincére,</l>
@@ -1058,7 +1056,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Voilà ce que je déſaprouve.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Et voilà ce que j'aplaudis.</l>
                         <l>Ma belle, ma tendre <name type="person" n="Héloïse">Héloyſe</name>,</l>
@@ -1070,7 +1068,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">N'achevés pas ce ſerment ſcandaleux.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="M">Scandaleux, Madame.</l>
                     </sp>
@@ -1087,7 +1085,7 @@
                         <l>Eſt aujourd'hui d'autant moins de ſaiſon</l>
                         <l part="I">Qu'on vous deſtine un<sic>e</sic><corr></corr> autre Epoux.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non, non.</l>
                         <l>Mon Pere eſt dans ma confidence ;</l>
@@ -1101,8 +1099,8 @@
                         <l>La <name type="place" n="France">France</name> que je vois entrer</l>
                         <l>Nous aporte quelque nouvelle.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="7">
+                </div1>
+                <div1 type="scene" n="7">
                     <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA FRANCE<pc>,</pc> LA MARQUISE<pc>,</pc> <lb/>HELOYSE <pc>,</pc> LEANDRE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Marquise">
@@ -1120,9 +1118,9 @@
                         <l>Pour jouer à ſa place, eſt tout exprès venue.</l>
                         <l>Vous l'allez voir paroître ; La voici.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="78"/>
-                <div2 type="scene" n="8">
+                <div1 type="scene" n="8">
                     <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                     <stage>Mlle. DU MESNI <pc>,</pc>LA MAQUISE<pc>,</pc> <lb/>HELOYSE<pc>,</pc> LEANDRE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Marquise">
@@ -1133,7 +1131,7 @@
                         <speaker>Mlle. DU MESNI<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Je ſuis charmée</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker><pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Et moi, je ſuis ravi.</l>
                     </sp>
@@ -1149,7 +1147,7 @@
                         <speaker>Mlle. DU MENI<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je compte avoir cet honneur-là, Madame.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>C'eſt pour nous-même un bonheur des plus <lb/>doux.</l>
                     </sp>
@@ -1219,7 +1217,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>S'il arrivoit, nous gagnerions au change.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Quel eſt donc ce Baron ?</l>
                     </sp>
@@ -1228,7 +1226,7 @@
                         <l part="F">Un homme ſurprenant,</l>
                         <l>Au-deſſus de toute louange.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vous faites, de mon frere, un éloge trop grand.</l>
                     </sp>
@@ -1242,11 +1240,11 @@
                         <l part="F">Mais le voici lui-même,</l>
                         <l>Il paroît dans l'éclat de ſa grandeur ſuprême.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="9">
+                </div1>
+                <div1 type="scene" n="9">
                     <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BARON <stage rend="italic">en habit de Théâtre</stage><pc>,</pc> LA MARQUISE<pc>,</pc> HELOYSE<pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">V</c>Ous arrivez, mon frere, en habit de combat ?</l>
                     </sp>
@@ -1282,7 +1280,7 @@
                         <speaker>LE MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Vous m'effrayez, Baron.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Et vous m'épouvantez.</l>
                     </sp>
@@ -1374,9 +1372,9 @@
                         <l>Oui : mais pour mon malheur aucun ne m'u diſpute</l>
                         <l>Le rôle du Mari, qu'il faut que j'exécute,</l>
                         <l>Et pour lequel au fond j'ai le moins de talent.</l>
-                        <l><name type="person" n="Léandre">Léandre</name> mon cadet eſt fait pour le bien rendre.</l>
+                        <l><name type="person" n="Leandre">Léandre</name> mon cadet eſt fait pour le bien rendre.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Un ſi grand Rôle étonne un Débutant.</l>
                     </sp>
@@ -1392,7 +1390,7 @@
                         <l>Elle ſera ma femme ; il ſuffit de ce nom</l>
                         <l>Pour m'inſpirer d'avance un fond d'averſion.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>En vérité, Monſieur, voilà pour elle</l>
                         <l>Une heureuſe diſpoſition !</l>
@@ -1424,11 +1422,11 @@
                             <lb/>naiſſance. C'eſt <name type="person" n="Héloïse">Héloyſe</name>,la Niéce de <name type="person" n="Cidalise">Cidaliſe</name>.
                         </p>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="I">Qu'entens-je ? Juſte Ciel ! Je me meurs.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Et j'expire.</l>
                     </sp>
@@ -1454,7 +1452,7 @@
                         <l>Leur trouble vous l'explique; il dit que <name type="person" n="Salisbury">Salisburi</name></l>
                         <l>Brûle pour la Ducheſſe , &amp; qu'elle l'aime auſſi.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Oui, mon Frere, ce nœud qui feroit votre peine</l>
                         <l>Peut ſeul aſſurer mon bonheur ;</l>
@@ -1472,7 +1470,7 @@
                         <l>J'en change véritablement;</l>
                         <l>Et l'eſtime ſuccéde à mon antipathie.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je frémis de ce changement.</l>
                     </sp>
@@ -1487,7 +1485,7 @@
                         <l>Je rends graces aux miens de vous avoir choiſie.</l>
                         <l>Je vous adore, ou peu s'en faut.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ah! Ne m'adorez pas. Haïſſez moi plutôt;</l>
                         <l>Haïſſez-moi, Monſieur, je vous en prie.</l>
@@ -1501,28 +1499,28 @@
                         <l part="F">Oui, j'en ſuis attendri.</l>
                     </sp>
                     <pb n="85"/>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je vais dans cette extrêmité</l>
                         <l>Me jetter aux pieds de mon Pere;</l>
                         <l>Et j'attends tout de ſa bonté.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE </speaker>
                         <stage type="delivery" rend="italic">au Baron.</stage><lb/>
                         <l>Moi je verrai ma Tante ; elle m'aime ; &amp; j'eſpére</l>
                         <l>Qu'en lui peignant, Monſieur, votre effroi généreux,</l>
                         <l>Elle diſpenſera votre cœur de ces nœuds.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Je compte le fléchir en dépit de mon Frere.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="10">
+                </div1>
+                <div1 type="scene" n="10">
                     <head>SCENE <sic>PREMIERE</sic><corr>DERNIERE</corr><pc type="affirmative">.</pc></head><lb/>
                     <stage>LE MARQUIS<pc>,</pc> LE BARON <pc>,</pc> LEANDRE <pc>,</pc> <lb/>LA MARQUISE<pc>,</pc>HELOYSE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <stage type="delivery" rend="italic">Au Marquis.</stage><lb/>
                         <l><c type="lettrine">A</c>H! Mon Pere ,d epuis que jene vous ai vû,</l>
@@ -1535,7 +1533,7 @@
                         <l part="F">Cette Beauté chérie,</l>
                         <l part="I">Mon Fils, où donc eſt-elle?</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Elle eſt devant vos yeux.</l>
                     </sp>
@@ -1558,7 +1556,7 @@
                         <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Monſieur, pour le titre d'époux</l>
                         <l>Rien ne peut ſurmonter ma haine opiniâtre.</l>
-                        <lb/><stage type="business" rend="italic">Se tournant vers <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                        <lb/><stage type="business" rend="italic">Se tournant vers <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
                         <l>Mon cher Frere, raſſurez-vous,</l>
                         <l>Tout ce que j'en ai fait, n'eſt qu'un jeu de Théatre,</l>
                         <l>Pour vous rendre à tous deux votre bonheur plus doux.</l>
@@ -1573,14 +1571,14 @@
                         <l><name type="person" n="Cidalise">Cidaliſe</name>, en ſecret , panche de ce côté.</l>
                         <l>Elle a raiſon ; leur âge eſt plus ſortable.</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon Pere je benis cet Arrêt favorable.</l>
                         <l>Une ſeconde fois je vous dois la clarté.</l>
                         <lb/><lb/><stage type="delivery" rend="italic">Au Baron.</stage><lb/><lb/>
                         <l>Mon Frere, à vos refus je ſuis trop redevable.</l>
                     </sp>
-                    <sp who="Héloyse">
+                    <sp who="Heloyse">
                         <speaker>HELOYSE </speaker>
                         <stage type="delivery" rend="italic">au Baron.</stage><lb/>
                         <l>Je ne dois pas, Monſieur, moins à vos bonté.</l>
@@ -1600,7 +1598,7 @@
                         <l>Pour combler mes bienfaits , ſignalons mon talent.</l>
                         <l part="I">Jouons...</l>
                     </sp>
-                    <sp who="Léandre">
+                    <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">Non; remettons la Piéce.</l>
                         <l>Votre Frere, ce ſoir, trop plein de ſa tendreſſe,</l>
@@ -1651,8 +1649,7 @@
                         <l>Non; un Duo ſuffit, s'il n'eſt encore trop fort...</l>
                     </sp>
                     <lb/><lb/><lb/><p rend="center">FIN.</p>
-                </div2>
-            </div1>
+                </div1>
             <pb n="89"/>
             <div1 type="divertissement">
                 <head>DIVERTISSEMENT<pc type="affirmative">.</pc></head>
