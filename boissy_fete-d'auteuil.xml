@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>La Feste d'Auteuil ou la fausse meprise: édition numérique</title>
+                <title type="main">La Feste d'Auteuil</title>
+                <title type="alternative">ou la fausse meprise</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -88,10 +90,9 @@
             <div1 type="title">
                 <head>LA FESTE <lb/>D'AUTEUIL <pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+           <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE COMMANDEUR<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Commandeur">
@@ -177,8 +178,8 @@
                             <l>Et je veux, avec elle, ouvrir le Bal ici.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
@@ -215,8 +216,8 @@
                             <l>Et je vais le faire avertir</l>
                             <l>Par <name type="person" n="Crispin">Criſpin</name> que je vois paroître.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -235,8 +236,8 @@
                             <l>Peut-être,a-t'il trouvé quelque bonne fortune ?</l>
                             <l>Mais on monte à grand bruit &amp; j'entens parler haut.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE <pc>,</pc> DAMON <hi rend="italic">déguiſé en femme</hi><pc>,</pc> <lb/> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -328,9 +329,9 @@
                             <l><name type="person" n="Crispin">Criſpin</name>, un moment laiſſez-nous.</l>
                         </sp>
                         <lb/><stage type="exit" rend="italic"><name type="person" n="Crispin">Criſpin</name> ſort.</stage><lb/>
-                    </div3>
+                    </div2>
                     <pb n="203"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMON <pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -544,9 +545,9 @@
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, ma gaité vous le promet.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="207"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMON <pc>,</pc> LA COMTESSE <pc>,</pc> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Crispin">
@@ -641,9 +642,9 @@
                             <l>Madame, &amp; vous, de grace, ayez plus de douceur.</l>
                         </sp>
                         <lb/><stage type="exit" rend="italic"><name type="person" n="Damon">Damon</name> ſort avec la Comteſſe.</stage><lb/>
-                    </div3>
+                    </div2>
                     <pb n="209"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Crispin">
                             <speaker>CRISPIN </speaker>
@@ -651,8 +652,8 @@
                             <l><c type="lettrine">Q</c>Uel eſt donc leur deſſein ? je n'y puis rien com-<lb/>prendre ;</l>
                             <l>Mais le Marquis paroît leſte, vif, empreſſé.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <hi rend="italic">déguiſée en Marquis</hi><pc>,</pc> FINETTE 
                             <lb/> déguiſée en Houſard <pc>,</pc> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
@@ -676,9 +677,9 @@
                             <l>Et ſa reſſemblance m'étonne.</l>
                             <lb/><stage type="exit" rend="italic">Il ſort.</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="210"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Finette">
@@ -1017,9 +1018,9 @@
                             <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour vous mieux recevoir, ſans doute elle ſe pare.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="217"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <pc>,</pc> LA COMTESSE <pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -1181,9 +1182,9 @@
                             <l>La Comteſſe eſt long-tems. On ouvre, quelqu'un <lb/>vient.</l>
                             <l>Ah! c'eſt-elle qui vous prévient.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="220"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> LA COMTESSE<pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Laure">
@@ -1419,12 +1420,12 @@
                             <l>J'ai déja démaſqué mon homme avant le Bal.</l>
                         </sp>
                         <lb/><lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="225"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Crispin">
                             <speaker>CRISPIN </speaker>
@@ -1459,8 +1460,8 @@
                             <l>Et nous déciderons après.</l>
                             <l>Bon, je n'irai pas loin, le voilà qui ſe montre.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>CRISPIN <pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Finette">
@@ -1687,8 +1688,8 @@
                             <l>Vous parlezrez alors; ou nous féraillerons.</l>
                             <lb/><stage type="exit" rend="italic">Il ſort.</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Laure">
@@ -1871,8 +1872,8 @@
                             <l>Laiſſes-nous ſeules toutes deux,</l>
                             <l>Je m'en vais profiter de ce moment heureux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Laure">
@@ -2142,8 +2143,8 @@
                             <stage type="delivery" rend="italic">à part.</stage><lb/>
                             <l>Pour le coup de bon cœur je maudis ſa préſence.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> DAMON<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -2188,8 +2189,8 @@
                             <l>J'eſpére un jour d'en convaincre Madame.</l>
                             <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE <sic>III</sic><corr>VI</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMON<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -2323,8 +2324,8 @@
                             <l>Jugés enfin ſi c'eſt à tort,</l>
                             <l>Que de fauſſeté je le blâme.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMON <pc>,</pc> LA COMTESSE <pc>,</pc> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Crispin">
@@ -2347,9 +2348,9 @@
                             <l>Dans cet équipage de femme.</l>
                             <lb/><stage>Il ſort avec <name type="person" n="Crispin">Criſpin</name>.</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="244"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE COMMANDEUR <pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Commandeur">
@@ -2558,9 +2559,9 @@
                             <l>Nous cauſerons demain plus à loiſir.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="248"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
@@ -2579,12 +2580,12 @@
                             <l>De rompre de concert ſon Hymen &amp; le mien.</l>
                         </sp>
                         <lb/><lb/><lb/><lb/><p rend="italic">Fin du ſecond Acte.</p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="249"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE <sic>II</sic><corr>III</corr><pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -2838,8 +2839,8 @@
                             <l>Et des Baronnes éternelles.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
@@ -2854,8 +2855,8 @@
                             <l>Et peut-être qu'ici ce Valet le devance.</l>
                             <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>CRISPIN <pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Crispin">
@@ -2886,8 +2887,8 @@
                             <l>Et qu'ils ſont tous à votre gloire.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Finette">
@@ -3004,8 +3005,8 @@
                             <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un rafinement qui me paſſe à l'entendre.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> FINETTE <pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur">
@@ -3037,8 +3038,8 @@
                             <l part="F">J'aurai grand ſoin de n'en rien faire.</l>
                             <lb/><stage type="exit" rend="italic"><name type="person" n="La Fleur">Lafleur</name> ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <pc>,</pc>FINETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Finette">
@@ -3088,8 +3089,8 @@
                             <stage type="delivery" rend="italic">à part.</stage><lb/>
                             <l>Sort fatal ! malgré moi je me vois arrêter.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc>DAMON<pc>,</pc> FINETTE<pc>,</pc> CRISPIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -3124,8 +3125,8 @@
                             <l>Je vais lui couper les chemin.</l>
                             <lb/><stage type="exit" rend="italic">Il co<sic>m</sic><corr>u</corr>rt après <name type="person" n="Finette">Finette</name>.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -3408,8 +3409,8 @@
                             <speaker>DAMON<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ma fortune m'enchante ; il n'eſt rien qui l'égale.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE<pc>,</pc> DAMON <pc>,</pc> LE COMMANDEUR <pc>,</pc> <lb/> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Commandeur">
@@ -3530,8 +3531,8 @@
                             <speaker>LE COMMANDEUR<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Volontiers</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LAURE <pc>,</pc> DAMON<pc>,</pc> LE COMMANDEUR <lb/>LA COMTESSE<pc>,</pc> CRISPIN<pc>,</pc> FINETTE</stage><lb/>
                         <sp who="Crispin">
@@ -3570,9 +3571,8 @@
                             <l>Je vais traiter ce ſoir les Huſſards ſans quartier.</l>
                         </sp>
                         <lb/><lb/><lb/><lb/><p rend="italic ; center">Fin du Tome VII.</p>
-                    </div3>
-                </div2>
-            </div1>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
