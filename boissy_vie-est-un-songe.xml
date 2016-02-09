@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>La vie est un songe: édition numérique</title>
+                <title type="main">La Vie est un songe</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -70,12 +71,12 @@
                 <pb n="53"/>
                 <docTitle>
                     <titlePart type="main">LA VIE <lb/>EST UN SONGE,</titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE HEROÏQUE.</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE HEROÏQUE.</titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="54"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>BASILE</role>, <roleDesc>Roi de <name type="place">Pologne</name>.</roleDesc></castItem><lb/>
                 <castItem><role>SIGISMOND</role>, <roleDesc>Fils de <name type="person" n="Basile">Baſile</name>.</roleDesc></castItem><lb/>
                 <castItem><role>FEDERIC</role>, <roleDesc>Grand Duc de <name type="place">Moſcovie</name> <choice><orig>&amp;</orig><reg>et</reg></choice> neveu du Roi.</roleDesc>.</castItem><lb/>
@@ -89,7 +90,7 @@
                 <castItem><roleDesc>SOLDATS.</roleDesc></castItem><lb/>
             </castList><lb/><lb/><lb/><lb/><lb/><lb/>
             <set>
-                <p><hi rend="italic">La Scène eſt en <name type="place">Pologne</name>.</hi></p>
+                <p><hi rend="italics">La Scène eſt en <name type="place">Pologne</name>.</hi></p>
             </set>
             <pb n="55"/>
         </front>
@@ -97,12 +98,11 @@
             <div1 type="title">
                 <head>LA VIE <lb/>EST UN SONGE, <lb/>COMÉDIE HEROÏQUE.</head><lb/>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <lb/>
                     <head>ACTE PREMIER.</head>
                     <lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head> <lb/>
                         <stage>LE ROI, ULRIC.</stage> <lb/>
                         <sp who="Ulric">
@@ -225,8 +225,8 @@
                             <l><name type="person" n="Clotalde">Clotalde</name> qui m'attend <choice><orig>&amp;</orig><reg>et</reg></choice> que j'ai fait inſtruire,</l>
                             <l>Doit bien-tôt... Je le vois qui vient pour nous con-<lb/>duire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head> <lb/>
                         <stage>LE ROI, ULRIC, CLOTALDE.</stage> <lb/>
                         <sp who="Clotalde">
@@ -238,14 +238,14 @@
                             <speaker>LE ROI.</speaker> <lb/>
                             <l>Je brûle en <choice><orig>même-tems</orig><reg>même temps</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> je crains de l'entendre.</l>
                             <l>Prépares-toi, mon coeur, à l'aſſaut le plus tendre.</l>
-                            <stage type="action"><hi rend="italic">(Il ſuit <name type="person" n="Clotalde">Clotalde</name> qui le conduit avec <name n="Ulric">Ulric</name>.)</hi></stage>
+                            <stage type="action"><hi rend="italics">(Il ſuit <name type="person" n="Clotalde">Clotalde</name> qui le conduit avec <name n="Ulric">Ulric</name>.)</hi></stage>
                         </sp> 
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head> <lb/>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN,</speaker>
-                            <stage type="setting"><hi rend="italic">ſeul.</hi></stage> <lb/>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage> <lb/>
                             <lb/>
                             <l><c rend="lettrine">V</c>Oyons un peu ce qui ſe fait ici.</l>
                             <l>Mes ſemblables <choice><orig>par-tout</orig><reg>partout</reg></choice> entrent ſans conſéquence;</l>
@@ -266,10 +266,10 @@
                             <l>Et ſes regards font peur. C'eſt le diable lui-même.</l>
                             <l part="I">Je ſuis perdu.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head> <lb/>
-                        <stage>SIGISMOND <hi rend="italic">enchaîné</hi>, ARLEQUIN.</stage> <lb/>
+                        <stage>SIGISMOND <hi rend="italics">enchaîné</hi>, ARLEQUIN.</stage> <lb/>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND.</speaker> <lb/> <lb/>
                             <l part="F"><c rend="lettrine">P</c>Arles, n'eſt-tu point las,</l>
@@ -331,12 +331,12 @@
                             <l>Mais <name type="person" n="Clotalde">Clotalde</name> revient. Cachons-nous dans un coin;</l>
                             <l>Pour ſçavoir s'il n'a pas commerce avec le Diable.</l>
                             <l>De tout, ſans être vû, je ſerai le témoin.</l>
-                            <stage type="action"><hi rend="italic">[Il ſe retire dans un coin]</hi></stage>
+                            <stage type="action"><hi rend="italics">[Il ſe retire dans un coin]</hi></stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head> <lb/>
-                        <stage>SIGISMOND, CLOTALDE,<lb/> ARLEQUIN <hi rend="italic">caché</hi>.</stage> <lb/>
+                        <stage>SIGISMOND, CLOTALDE,<lb/> ARLEQUIN <hi rend="italics">caché</hi>.</stage> <lb/>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND.</speaker><lb/>
                             <l><c rend="lettrine">M</c>Es maux ſont éternels comme ma ſolitude;</l>
@@ -432,14 +432,14 @@
                             <l>Et que la dépendance eſt un cruel ſuplice</l>
                             <l>Pour un cur qui ſe ſent digne de commander!</l>
                         </sp>
-                        <stage type="exit"><hi rend="italic">(On l'entraîne <choice><orig>&amp;</orig><reg>et</reg></choice> la porte de la Tour ſe referme.)</hi></stage>
-                    </div3>
-                    <div3 type="scene" n="6">
+                        <stage type="exit"><hi rend="italics">(On l'entraîne <choice><orig>&amp;</orig><reg>et</reg></choice> la porte de la Tour ſe referme.)</hi></stage>
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head> <lb/>
-                        <stage>LE ROI, ULRIC, CLOTALDE, <lb/>ARLEQUIN <hi rend="italic">caché</hi>.</stage><lb/>
+                        <stage>LE ROI, ULRIC, CLOTALDE, <lb/>ARLEQUIN <hi rend="italics">caché</hi>.</stage><lb/>
                         <sp who="Basile">
                             <speaker>LE ROI</speaker>
-                            <stage type="action"><hi rend="italic">ſortant du lieu où il <choice><orig>étoit</orig><reg>était</reg></choice> caché</hi>.</stage><lb/>
+                            <stage type="action"><hi rend="italics">ſortant du lieu où il <choice><orig>étoit</orig><reg>était</reg></choice> caché</hi>.</stage><lb/>
                             <l><c rend="lettrine">Q</c>Uel ſpectacle touchant pour les regards d'un <lb/>père!</l>
                             <l>Dieux? Qu'il accroît le remords de mon coeur!</l>
                             <pb n="63"/>
@@ -509,7 +509,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">ſortant de ſon coin.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">ſortant de ſon coin.</hi></stage><lb/>
                             <l>Seigneur, je viens m'y proſterner auſſi.</l>
                             <l>Ayez pitié d'un Fils que j'ai pris pour le Diable,</l>
                             <l>Tant vous l'avez réduit en un ſort pitoyable.</l>
@@ -596,7 +596,7 @@
                             <l>Se trouver les vertus que demande l'empire,</l>
                             <l>Et <choice><orig>paroître</orig><reg>paraître</reg></choice> à mes yeux tel que je le déſire!</l>
                             <l>Il eſt <choice><orig>tems</orig><reg>temps</reg></choice> de me rendre au conſeil qui m'attend.</l>
-                            <stage><hi rend="italic">[à <name type="person" n="Clotalde">Clotalde</name>.]</hi></stage>
+                            <stage><hi rend="italics">[à <name type="person" n="Clotalde">Clotalde</name>.]</hi></stage>
                             <l>Du ſort de <name n="Digismond">Sigiſmond</name> ton maître va l'inſtruire.</l>
                             <l>Toi, cours exécuter ce qu'il t'a <choice><orig>ſçû</orig><reg>su</reg></choice> preſcrire.</l>
                         </sp>
@@ -606,7 +606,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">ſautant au col du Roi.</hi></stage> <lb/>
+                            <stage type="action"><hi rend="italics">ſautant au col du Roi.</hi></stage> <lb/>
                             <l part="F">Papa Roi, pour ce trait éclatant,</l>
                             <l>Souffrez qu'<name type="person" n="Arlequin">Arlequin</name> vous embraſſe,</l>
                             <l>Et qu'il coure annoncer le Prince à vos états.</l>
@@ -615,19 +615,19 @@
                         </sp>
                         <lb/>
                         <lb/>
-                        <p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
-                    </div3>
-                </div2>
+                        <trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer>
+                    </div2>
+                </div1>
                 <pb n="67"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II.</head>
-                    <stage><hi rend="italic">Le Théâtre repréſente la chambre du Roi. <name type="person" n="Sigismond">Sigiſmond</name> <lb/><choice><orig>paroît</orig><reg>paraît</reg></choice> endormi ſur un Trône, <choice><orig>&amp;</orig><reg>et</reg></choice> richement vêtu ;<lb/> pluſieurs Officiers ſont prêts à le ſervir.</hi></stage>
-                    <div3 type="scene" n="1">
+                    <stage><hi rend="italics">Le Théâtre repréſente la chambre du Roi. <name type="person" n="Sigismond">Sigiſmond</name> <lb/><choice><orig>paroît</orig><reg>paraît</reg></choice> endormi ſur un Trône, <choice><orig>&amp;</orig><reg>et</reg></choice> richement vêtu ;<lb/> pluſieurs Officiers ſont prêts à le ſervir.</hi></stage>
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head> <lb/>                 
-                        <stage>SIGISMOND <hi rend="italic">endormi</hi>, ULRIC, ARLEQUIN, <lb/><hi rend="italic">pluſieurs Officiers</hi>.</stage><lb/>
+                        <stage>SIGISMOND <hi rend="italics">endormi</hi>, ULRIC, ARLEQUIN, <lb/><hi rend="italics">pluſieurs Officiers</hi>.</stage><lb/>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND </speaker>
-                            <stage type="business"><hi rend="italic">en s'éveillant.</hi></stage> <lb/>
+                            <stage type="business"><hi rend="italics">en s'éveillant.</hi></stage> <lb/>
                             <l><c rend="lettrine">O</c>U ſuis-je ? Justes Dieux ! Eſt-ce un ſonge <lb/>agréable ?</l>
                             <l>Eſt-ce l'effet d'un doux enchantement</l>
                             <l>Qui transforme, en un lieu charmant, </l>
@@ -653,7 +653,7 @@
                             <l>Et, pour mettre le comble à ma félicité, </l>
                             <l><choice><orig>Prouves-moi</orig><reg>Prouve-moi</reg></choice> que je veille en cet inſtant aimable; </l>
                             <l>Et que mon règne eſt une vérité.</l>
-                            <stage><hi rend="italic">(en conſidérant l'épée qu'on lui préſente.)</hi></stage>
+                            <stage><hi rend="italics">(en conſidérant l'épée qu'on lui préſente.)</hi></stage>
                             <l>Quel eſt cet ornement dont ma <choice><orig>vûe</orig><reg>vue</reg></choice> eſt frappée, </l>
                             <l>Et dont j'aime, <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, l'éclat ?</l>
                         </sp>
@@ -675,18 +675,18 @@
                         </sp>
                         <sp who="Ulric">
                             <speaker>ULRIC, </speaker>
-                            <stage type="action"><hi rend="italic">lui mettant l'épée à son côté.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">lui mettant l'épée à son côté.</hi></stage><lb/>
                             <l>C'eſt ainſi qu'on la porte, Sire.</l>
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">poussant une botte.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">poussant une botte.</hi></stage><lb/>
                             <l>Et c'eſt ainsi qu'on la tire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head>
-                        <stage><hi rend="italic">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, CLOTALDE.</stage>
+                        <stage><hi rend="italics">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, CLOTALDE.</stage>
                         <sp who="Clotalde">
                             <speaker>CLOTALDE.</speaker><lb/>
                             <l><c rend="lettrine">S</c>Eigneur, je viens, en vous, <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice> mon <lb/>Roi.</l>
@@ -772,22 +772,22 @@
                         </sp>
                         <sp who="Ulric">
                             <speaker>ULRIC </speaker>
-                            <stage type="action"><hi rend="italic">l'arrêtant.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">l'arrêtant.</hi></stage><lb/>
                             <l>Par un meurtre, Seigneur, ne vous noirciſſez pas.</l>
                         </sp>
                         <sp>
                             <speaker>CLOTALDE </speaker>
-                            <stage type="exit"><hi rend="italic">en ſortant.</hi></stage><lb/>
+                            <stage type="exit"><hi rend="italics">en ſortant.</hi></stage><lb/>
                             <l>Malheureux ! Il ſe perd ; <choice><orig>&amp;</orig><reg>et</reg></choice> ſa fureur extrême</l>
                             <l>Me fait trembler pour lui bien plus que pour moi-<lb/>même.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head>
                         <stage>SIGISMOND, ULRIC, ARLEQUIN.</stage>
                         <sp who="Sigismond">
                            <speaker>SIGISMOND </speaker>
-                           <stage><hi rend="italic">à <name type="person" n="Ulric">Ulric</name> qui veut le retenir.</hi></stage><lb/><lb/>
+                           <stage><hi rend="italics">à <name type="person" n="Ulric">Ulric</name> qui veut le retenir.</hi></stage><lb/><lb/>
                            <l><c type="lettrine">S</c>Ujet <choice><orig>audacieux</orig><reg>audacieux</reg></choice>, quoi, tu retiens mes pas ?</l>
                        </sp> 
                         <sp who="Ulric">
@@ -819,16 +819,16 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">ſaiſiſant <name type="person" n="Ulric">Ulric</name>.</hi></stage>
+                            <stage type="action"><hi rend="italics">ſaiſiſant <name type="person" n="Ulric">Ulric</name>.</hi></stage>
                             <l>Pardon c'eſt à regret, mais il commande en maître ;</l>
                             <l>Et je ne puis me diſpenser</l>
                             <l>De vous <choice><orig>jetter</orig><reg>jeter</reg></choice> par la fenêtre: </l>
                             <l>Je ſuis novice en cet emploi.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head>
-                        <stage><hi rend="italic">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, LE ROI.</stage>
+                        <stage><hi rend="italics">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, LE ROI.</stage>
                         <sp who="Basile">
                             <speaker>LE ROI.</speaker><lb/>
                             <l><c type="lettrine">D</c>E tels <choice><orig>emportemens</orig><reg>emportements</reg></choice> ſont indignes d'un Roi, </l>
@@ -859,10 +859,10 @@
                         </sp>
                         <sp who="Basile">
                             <speaker>LE ROI </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Ah ! de ma joie à peine ſuis-je maître !</l>
                             <l>Le ſang lui parle en ma faveur.</l>
-                            <stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                             <l>Quoi, Prince, j'<choice><orig>aurois</orig><reg>aurais</reg></choice> le bonheur</l>
                             <l>De triompher, par ma préſence</l>
                             <l>Des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> de haine <choice><orig>&amp;</orig><reg>et</reg></choice> de vengeance...</l>
@@ -882,9 +882,9 @@
                         </sp>
                         <sp who="Basile">
                             <speaker>LE ROI </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">O, pere trop heureux !</l>
-                            <stage type="delivery"><hi rend="italic">(hut.)</hi></stage>
+                            <stage type="delivery"><hi rend="italics">(hut.)</hi></stage>
                             <l part="F">Je me flatte, j'espére,</l>
                             <l>Quand je ſerai connu de vous, </l>
                             <l>De redoubler encore des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> ſi doux.</l>
@@ -1041,15 +1041,15 @@
                             <l>Crains de dormir encore dans tes tranſports divers,</l>
                             <l>Et tremble à ton réveil de te voir dans les fers,</l>
                             <l>Et dans ta première baſſeſſe.</l>
-                            <stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage>
+                            <stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage>
                          </sp>
                         <pb n="76"/>
-                    </div3>  
-                    <div3 type="scene" n="5">
+                    </div2>  
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND </speaker>
-                            <stage type="setting"><hi rend="italic">ſeul.</hi></stage><lb/><lb/>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
                             <l><choice><orig><c type="lettrine">S</c>Eroit</orig><reg>Serait</reg></choice>-il vrai, grands Dieux, que mon deſtin <lb/>brillant</l>
                             <l><choice><orig>Fût</orig><reg>Fut</reg></choice> d'un ſonge impoſteur, l'Ouvrage fantaſtique</l>
                             <l>Verrai-je, malheureux ! ma grandeur chimérique?</l>
@@ -1066,8 +1066,8 @@
                             <l>Dont mon Pere a rempli mes eſprits furieux.</l>
                             <l>Tout ce qui s'offre à moi me <choice><orig>paroît</orig><reg>paraît</reg></choice> odieux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head>
                         <stage>SIGISMOND, ARLEQUIN.</stage>
                         <sp who="Arlequin">
@@ -1083,7 +1083,7 @@
                         <pb n="77"/>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Ah ! je lui <choice><orig>dirois</orig><reg>dirais</reg></choice> bien qu'<name type="person" n="Arlequin">Arlequin</name> eſt son frere,</l>
                             <l>Mais il a, le brutal, trop mal reçu ſon Pere.</l>
                         </sp>
@@ -1093,11 +1093,11 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Quel air rébarbatif! J'en ſuis épouvanté.</l>
-                            <stage type="delivery"><hi rend="italic">(haut)</hi></stage>
+                            <stage type="delivery"><hi rend="italics">(haut)</hi></stage>
                             <l>Seigneur, je suis...</l>
-                            <stage type="delivery"><hi rend="italic">(bas)</hi></stage>
+                            <stage type="delivery"><hi rend="italics">(bas)</hi></stage>
                             <l>Je crains qu'il ne m'aſſomme.</l>
                         </sp>
                         <sp who="Sigismond">
@@ -1140,7 +1140,7 @@
                         </sp>   
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="F">Il me le dit d'un ton</l>
                             <l>À me faire trembler. La terreur qu'il m'<sic>inpire</sic><corr>inspire</corr></l>
                             <l>Me donne déjà le friſſon.</l>
@@ -1152,7 +1152,7 @@
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN.</speaker><lb/>
                             <l part="F">Tout-à-l'heure, Sire.</l>
-                            <stage type="delivery"><hi rend="italic">[à part]</hi></stage>
+                            <stage type="delivery"><hi rend="italics">[à part]</hi></stage>
                             <pb n="78"/>
                             <l>D'y réuſſir je ne puis me flatter.</l>
                             <l>Son viſage me deſeſpére.</l>
@@ -1164,7 +1164,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="F">Il eſt homme à le faire.</l>
                             <l>C'eſt ainſ qu'à la Cour on ſe voit balotté :</l>
                             <l>J'<choice><orig>étois</orig><reg>étais</reg></choice> tantôt <choice><orig>jetteur</orig><reg>jeteur</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> vais <sic>êtte</sic><corr>être</corr> <choice><orig>jetté</orig><reg>jeté</reg></choice>.</l>
@@ -1175,8 +1175,8 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker><lb/>
-                            <l>Sire, un moment. <stage type="delivery"><hi rend="italic">(à part.)</hi></stage> Quel eſt mon ſort infortuné !</l>
-                            <stage type="delivery"><hi rend="italic">(haut.)</hi></stage>
+                            <l>Sire, un moment. <stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Quel eſt mon ſort infortuné !</l>
+                            <stage type="delivery"><hi rend="italics">(haut.)</hi></stage>
                             <l>Riez-vous <sic>vous</sic><corr></corr> aiſément, dites-moi, je vous prie ?</l>
                         </sp>
                         <sp who="Sigismond">
@@ -1194,7 +1194,7 @@
                             <l>De faire rire Monſeigneur ;</l>
                             <l>De bien réjouir ſon Alteſſe,</l>
                             <l>À preſent je ſuis en humeur.</l>
-                            <stage type="business"><hi rend="italic">(après plusieurs Lazzis.)</hi></stage>
+                            <stage type="business"><hi rend="italics">(après plusieurs Lazzis.)</hi></stage>
                             <l>Je ne vous fais pas rire ? Et cette gentilleſſe...</l>
                         </sp>
                         <sp who="Sigismond">
@@ -1211,10 +1211,10 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Il me fera perdre l'eſprit.</l>
                             <pb n="79"/>
-                            <stage><hi rend="italic">[haut.]</hi></stage><lb/>
+                            <stage><hi rend="italics">[haut.]</hi></stage><lb/>
                             <l>Et ce lazzi que vous me voyez faire, </l>
                             <l>Ne le trouvez-vous pas charmant ?</l>
                         </sp>
@@ -1232,12 +1232,12 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Je ſuis au bout de mon rôle à preſent.</l>
                             <l>Que deviendrai-je, miſérable ?</l>
-                            <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                            <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                             <l part="I">Prince, êtes-vous chatouilleux ?</l>
-                            <lb/><stage type="action"><hi rend="italic">(il le chatouille.)</hi></stage><lb/>
+                            <lb/><stage type="action"><hi rend="italics">(il le chatouille.)</hi></stage><lb/>
                         </sp>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND.</speaker><lb/>
@@ -1246,7 +1246,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">ſe jettant à ſes pieds.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">ſe jettant à ſes pieds.</hi></stage><lb/>
                             <l>Ayés pitié d'un miſérable !</l>
                             <l>J'ai <choice><orig>crû</orig><reg>cru</reg></choice> vous faire rire <choice><orig>&amp;</orig><reg>et</reg></choice> je ſuis pardonnable.</l>
                         </sp>
@@ -1275,7 +1275,7 @@
                         <pb n="80"/>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="action"><hi rend="italic">tirant un almanach de ſa poche.</hi></stage><lb/>
+                            <stage type="action"><hi rend="italics">tirant un almanach de ſa poche.</hi></stage><lb/>
                             <l>Cet Almanach va vous le dire.</l>
                             <l>Tenez, Sire, (on vous a, ſans doute, apris à lire,)</l>
                             <l>Vous verrez là-dedans tous les noms des proſcrits.</l>
@@ -1295,16 +1295,16 @@
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN.</speaker><lb/>
                             <l>Lisons, quand je <choice><orig>dévrois</orig><reg>devrais</reg></choice> <choice><orig>épeller</orig><reg>épeler</reg></choice> chaque lettre.</l>
-                            <stage type="delivery"><hi rend="italic">(il lit.)</hi></stage>
-                            <l><hi rend="italic">Fédéric, âgé de trente ans,</hi></l>
-                            <l><hi rend="italic">Neveu du Roi, Grand Duc de <name type="place">Moſcovie</name>.</hi></l>
-                            <stage type="business"><hi rend="italic">(il s'interrompt.)</hi></stage>
+                            <stage type="delivery"><hi rend="italics">(il lit.)</hi></stage>
+                            <l><hi rend="italics">Fédéric, âgé de trente ans,</hi></l>
+                            <l><hi rend="italics">Neveu du Roi, Grand Duc de <name type="place">Moſcovie</name>.</hi></l>
+                            <stage type="business"><hi rend="italics">(il s'interrompt.)</hi></stage>
                             <l>Sur le Trône ce Duc <choice><orig>comptoit</orig><reg>comptait</reg></choice> depuis <choice><orig>long-tems</orig><reg>longtemps</reg></choice></l>
                             <l part="I">Mais il <choice><orig>comptoit</orig><reg>comptait</reg></choice> ſans l'Hôte.</l>
-                            <stage type="business"><hi rend="italic">(il continue à lire.)</hi></stage>
-                            <l part="F"><hi rend="italic"><name type="person" n="Sophronie">Sophronie</name>,</hi></l>
-                            <l><hi rend="italic">Dans ſa vingtième année, <choice><orig>&amp;</orig><reg>et</reg></choice> Niéce auſſi du Roi, </hi></l>
-                            <stage type="delivery"><hi rend="italic">(il parle.)</hi></stage>
+                            <stage type="business"><hi rend="italics">(il continue à lire.)</hi></stage>
+                            <l part="F"><hi rend="italics"><name type="person" n="Sophronie">Sophronie</name>,</hi></l>
+                            <l><hi rend="italics">Dans ſa vingtième année, <choice><orig>&amp;</orig><reg>et</reg></choice> Niéce auſſi du Roi, </hi></l>
+                            <stage type="delivery"><hi rend="italics">(il parle.)</hi></stage>
                             <l>Seigneur, vous avez là, ma foi,</l>
                             <l>Une cousine fort jolie :</l>
                             <l>C'eſt dommage, s'il faut qu'elle perde la vie.</l>
@@ -1317,8 +1317,8 @@
                             <l part="I">Mes ſens ſont enchantés.</l>
                         </sp>
                         <pb n="81"/>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head>
                         <stage>SIGISMOND, SOPHRONIE.</stage>
                         <sp who="Sophronie">
@@ -1470,8 +1470,8 @@
                             <l>Que la vertu la peut ſeule obtenir.</l>
                             <l part="I">Adieu.</l>
                         </sp>
-                    </div3>  
-                    <div3 type="scene" n="8">
+                    </div2>  
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <stage>SIGISMOND, ARLEQUIN.</stage><lb/>
                         <sp who="Sigismond">
@@ -1538,8 +1538,8 @@
                             <l>A son aſpect, je ne ſuis plus le maître</l>
                             <l>De mes <choice><orig>reſſentimens</orig><reg>ressentiments</reg></choice> jaloux.</l>
                         </sp>
-                    </div3>                   
-                    <div3 type="scene" n="9">
+                    </div2>                   
+                    <div2 type="scene" n="9">
                         <head>SCENE IX.</head>
                         <stage>SIGISMOND, FEDERIC, ARLEQUIN.</stage>
                         <sp who="Fédéric">
@@ -1591,13 +1591,13 @@
                             <l>Mais j'ai le ſuffrage du Roi,</l>
                             <l>Et vous-même y devez ſouſcrire.</l>
                         </sp>
-                    </div3>                    
-                    <div3 type="scene" n="10">
+                    </div2>                    
+                    <div2 type="scene" n="10">
                         <head>SCENE X.</head>
-                        <stage><hi rend="italic">Les Acteurs précédens</hi>, LE ROI.</stage>
+                        <stage><hi rend="italics">Les Acteurs précédens</hi>, LE ROI.</stage>
                         <sp who="Basile">
                             <speaker>LE ROI </speaker> 
-                            <stage><hi rend="italic">à <name type="person" n="Sigismond">Sigiſmond</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">à <name type="person" n="Sigismond">Sigiſmond</name>.</hi></stage><lb/>
                             <l><c type="lettrine">O</c>Ui, Prince, ſon hymen eſt aprouvé par moi ;</l>
                             <l>Songez que mon ſuffrage eſt pour vous une loi ;</l>
                             <l>Ces nuds ſont <choice><orig>importans</orig><reg>importants</reg></choice> au repos de l'empire.</l>
@@ -1665,8 +1665,8 @@
                             <l>Que mon bras, armé du tonnerre,</l>
                             <l>De mes Tyrans affreux n'ait purgé cette Cour.</l>                            
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI.</head>    
                            <stage>LE ROI, FEDERIC.</stage>
                         <sp who="Basile">
@@ -1680,11 +1680,11 @@
                             <l>Je <choice><orig>prétens</orig><reg>prétends</reg></choice> l'employer pour enchaîner ſon bras,</l>
                             <l>Et garantir mes jours du péril qui les preſſe.</l>
                         </sp>
-                    </div3> 
+                    </div2> 
                     <pb n="89"/>
-                    <div3 type="scene" n="12">
+                    <div2 type="scene" n="12">
                         <head>SCENE XII.</head>
-                        <stage><hi rend="italic">Les Acteurs précédens</hi>, SOPHRONIE.</stage>
+                        <stage><hi rend="italics">Les Acteurs précédens</hi>, SOPHRONIE.</stage>
                         <sp who="Sophronie">
                             <speaker>SOPHRONIE.</speaker><lb/>
                             <l><c type="lettrine">J</c>E viens vous implorer, Seigneur, pour votre fils ; </l>
@@ -1716,14 +1716,14 @@
                             <l>Et n'eſt rien qu'une vapeur vaine</l>
                             <l>Que le ſommeil enfante, <choice><orig>&amp;</orig><reg>et</reg></choice> le réveil détruit.</l>
                         </sp>
-                        <stage type="exit"><hi rend="italic">(Il ſort avec  <name type="person" n="Fédéric">Fédéric</name>.)</hi></stage>
-                    </div3>
+                        <stage type="exit"><hi rend="italics">(Il ſort avec  <name type="person" n="Fédéric">Fédéric</name>.)</hi></stage>
+                    </div2>
                     <pb n="90"/>
-                    <div3 type="scene" n="13">
+                    <div2 type="scene" n="13">
                         <head>SCENE XIII.</head>
                         <sp who="Sophronie">
                             <speaker>SOPHRONIE </speaker>
-                            <stage><hi rend="italic">ſeule</hi>.</stage> <lb/>
+                            <stage><hi rend="italics">ſeule</hi>.</stage> <lb/>
                             <l><c type="lettrine">A</c>H ! plûtôt que ta barbarie</l>
                             <l>Prives ton fils du pouvoir Souverain,</l>
                             <l>Et qu'un hymen funeſte à  <name type="person" n="Fédéric">Fédéric</name> me lie,</l>
@@ -1751,14 +1751,14 @@
                         </sp>
                         <lb/>
                         <lb/>
-                        <p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>
-                      </div3>    
-                </div2> 
+                        <trailer rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></trailer>
+                      </div2>    
+                </div1> 
                 <pb n="91"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III.</head>
-                    <stage><hi rend="italic">Le Théâtre repreſente la tour, à la porte de laquelle <lb/>le Prince <name type="person" n="Sigismond">Sigiſmond</name> <choice><orig>paroît</orig><reg>paraît</reg></choice> endormi : <choice><orig>&amp;</orig><reg>et</reg></choice> chargé de <lb/> ſa premiére chaîne.</hi></stage><lb/>
-                    <div3 type="scene" n="1">
+                    <stage><hi rend="italics">Le Théâtre repreſente la tour, à la porte de laquelle <lb/>le Prince <name type="person" n="Sigismond">Sigiſmond</name> <choice><orig>paroît</orig><reg>paraît</reg></choice> endormi : <choice><orig>&amp;</orig><reg>et</reg></choice> chargé de <lb/> ſa premiére chaîne.</hi></stage><lb/>
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>SIGISMOND, CLOTALDE, ARLEQUIN, <lb/> GARDES.</stage><lb/>
                         <sp who="Arlequin">
@@ -1784,16 +1784,16 @@
                             <l>C'eſt que j'aurai pour moi tous les honnêtes-gens,</l>
                             <l>La priſon qu'<name type="person" n="Arlequin">Arlequin</name> partage avec ſon Prince</l>
                             <l><choice><orig>Sçaura</orig><reg>Saura</reg></choice> lui faire honneur dans toute la Province.</l>
-                            <lb/><stage type="business"><hi rend="italic">On enferme <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage>
+                            <lb/><stage type="business"><hi rend="italics">On enferme <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="92"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
-                        <stage>CLOTALDE, SIGISMOND <hi rend="italic">endormi</hi>.</stage><lb/>
+                        <stage>CLOTALDE, SIGISMOND <hi rend="italics">endormi</hi>.</stage><lb/>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND </speaker>
-                            <stage type="business"><hi rend="italic">endormi.</hi></stage><lb/><lb/>
+                            <stage type="business"><hi rend="italics">endormi.</hi></stage><lb/><lb/>
                             <l><choice><orig><c type="lettrine">M</c>Eure, meure</orig><reg>Meurs, meurs</reg></choice>, <name type="person" n="Clotalde">Clotalde</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> tous mes ennemis !</l>
                             <l>Tombe le Roi <name type="person" n="Basile">Baſile</name> au pouvoir de ſon fils !</l>
                         </sp>
@@ -1807,7 +1807,7 @@
                         </sp>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND </speaker>
-                            <stage type="business"><hi rend="italic">en s'éveillant.</hi></stage><lb/>
+                            <stage type="business"><hi rend="italics">en s'éveillant.</hi></stage><lb/>
                             <l>Que voi-je , malheureux ! <choice><orig>&amp;</orig><reg>Et</reg></choice> quelle horreur efface</l>
                             <l>Tout mon bonheur évanoui !</l>
                             <l>Du ſceptre que j'ai crû poſſéder aujourd'hui,</l>
@@ -2056,20 +2056,20 @@
                             <l>Et l'on m'arrachera la vie,</l>
                             <l>Plûtôt que de m'ôter une ſi douce erreur.</l>
                         </sp>
-                        <stage type="exit"><hi rend="italic">(Il rentre dans la Tour, qui ſe referme.)</hi></stage>
-                    </div3>
-                    <div3 type="scene" n="3">
+                        <stage type="exit"><hi rend="italics">(Il rentre dans la Tour, qui ſe referme.)</hi></stage>
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head>
                         <sp who="Clotalde">
                             <speaker>CLOTALDE </speaker>
-                            <stage type="setting"><hi rend="italic">ſeul.</hi></stage><lb/><lb/>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
                             <l><c type="lettrine">D</c>'Un ſi parfait amour mon ame eſt attendrie.</l>
                             <l>Mais qui peut pénétrer dans cet Antre profond ?</l>
                             <l>C'eſt <name type="person" n="Ulric">Ulric</name> ! La terreur eſt peinte ſur ſon front.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="98"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <stage>CLOTALDE, ULRIC.</stage><lb/>
                         <sp who="Ulric">
@@ -2123,13 +2123,13 @@
                             <l>Evitons cette route, elle eſt trop difficile ;</l>
                             <l>Ce ſentier eſt plus court, <choice><orig>&amp;</orig><reg>et</reg></choice> bien moins périlleux.</l>
                         </sp>
-                        <stage type="exit"><hi rend="italic">[Il s'en va avec <name type="person" n="Ulric">Ulric</name>.)</hi></stage>
-                    </div3>
-                    <div3 type="scene" n="5">
+                        <stage type="exit"><hi rend="italics">[Il s'en va avec <name type="person" n="Ulric">Ulric</name>.)</hi></stage>
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="business"><hi rend="italic">mettant la tête à une fenêtre <lb/> de la Tour.</hi></stage><lb/><lb/>
+                            <stage type="business"><hi rend="italics">mettant la tête à une fenêtre <lb/> de la Tour.</hi></stage><lb/><lb/>
                             <l><c type="lettrine">A</c>H! Par cette lucarne exhalons notre rage,</l>                                
                             <l>Et tâchons de prendre un peu l'air.</l> 
                             <l>Je perds mon tems à regarder, j'enrage ;</l>
@@ -2141,9 +2141,9 @@
                             <l>Et font faire aux échos un affreux carillon !</l>
                             <l>Ce ſont des gens armés ! Qui, diantre, les améne ?</l>                                                                                   
                          </sp>
-                    </div3>
+                    </div2>
                     <pb n="100"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>ARLEQUIN, RODERIC, SOLDATS.</stage><lb/>
                         <sp who="Roderic">
@@ -2177,7 +2177,7 @@
                         </sp>                     
                         <sp who="Roderic">
                             <speaker>RODERIC.</speaker>
-                            <stage type="business"><hi rend="italic">répéte.</hi></stage><lb/>
+                            <stage type="business"><hi rend="italics">répéte.</hi></stage><lb/>
                             <l>Briſons ſes fers, <choice><orig>&amp;</orig><reg>et</reg></choice> vengeons ſon affront.</l> 
                         </sp>
                         <sp who="Arlequin">
@@ -2189,14 +2189,14 @@
                         </sp>
                         <sp who="Roderic">
                             <speaker>RODERIC.</speaker>
-                            <stage><hi rend="italic">après l'avoir mis en liberté.</hi></stage><lb/>
+                            <stage><hi rend="italics">après l'avoir mis en liberté.</hi></stage><lb/>
                             <l>Souffrés que vos Sujets ſoumis, humiliés,</l>                                
                             <l>Se proſternent tous à vos pieds.</l>
-                            <lb/><stage type="action"><hi rend="italic">(Ils ſe proſternent tous aux pieds d'Arlequin.)</hi></stage>
+                            <lb/><stage type="action"><hi rend="italics">(Ils ſe proſternent tous aux pieds d'Arlequin.)</hi></stage>
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN.</speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Profitons de l'erreur, <choice><orig>&amp;</orig><reg>et</reg></choice>, ſous cet habit mince,</l>                                
                             <l>Jouiſſons un moment du plaiſir d'être Prince ;</l>
                             <l>Je trouve ce métier fort doux.</l>
@@ -2222,18 +2222,18 @@
                             <l>Et jamais... Mais voici la Princeſſe elle-même ;</l>
                             <l>Elle a franchi pour vous l'horreur de ces déſerts.</l>
                         </sp>   
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head><lb/>
-                        <stage>SOPHRONIE, <hi rend="italic">les Acteurs précédens.</hi></stage> <lb/>                 
+                        <stage>SOPHRONIE, <hi rend="italics">les Acteurs précédens.</hi></stage> <lb/>                 
                         <sp who="Sophronie">
                             <speaker>SOPHRONIE </speaker>
-                            <stage><hi rend="italic">à Roderic.</hi></stage><lb/><lb/>
+                            <stage><hi rend="italics">à Roderic.</hi></stage><lb/><lb/>
                             <l><c type="lettrine">D</c>U Prince <name type="person" n="Sigismond">Sigiſmond</name> a-t-on briſé les fers ?</l>
                         </sp>
                         <sp who="Roderic">
                             <speaker>RODERIC </speaker>
-                            <stage><hi rend="italic">montrant <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">montrant <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/>
                             <l>Madame, le voilà prêt à monter au Trône.</l>
                         </sp>
                         <sp who="Sophronie">
@@ -2243,7 +2243,7 @@
                         <sp who="Roderic">
                             <speaker>RODERIC.</speaker><lb/>
                             <l part="F">Un tel discours m'étonne.</l>
-                            <lb/><stage><hi rend="italic">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
+                            <lb/><stage><hi rend="italics">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
                             <l part="I">Ce n'eſ donc pas vous ?</l>
                         </sp>
                         <sp who="Arlequin">
@@ -2265,10 +2265,10 @@
                             <l>De briſer cette Porte épargnez-vous la peine,</l>
                             <l>Je vois ſortir le Prince <name type="person" n="Sigismond">Sigiſmond</name>.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
-                        <stage>SIGISMOND, <hi rend="italic">les Acteurs précédens.</hi>.</stage><lb/>
+                        <stage>SIGISMOND, <hi rend="italics">les Acteurs précédens.</hi>.</stage><lb/>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND.</speaker><lb/><lb/>
                             <l><c type="lettrine">Q</c>Ui remplit donc ces lieux d'une rumeur ſou-<lb/>daine ?</l>
@@ -2417,10 +2417,10 @@
                             <l>De mes ſens égarés je ne crains plus l'<choice><orig>yvreſſe</orig><reg>ivresse</reg></choice> ;</l>
                             <l>En marchant ſur vos pas, je ſuivrai la ſageſſe.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX.</head><lb/>
-                        <stage><hi rend="italic"> Les Acteurs précédens</hi>, RODERIC.</stage><lb/>
+                        <stage><hi rend="italics"> Les Acteurs précédens</hi>, RODERIC.</stage><lb/>
                         <sp who="Roderic">
                             <speaker>RODERIC.</speaker><lb/><lb/>
                             <l><c type="lettrine">S</c>Ans combattre, Seigneur, vous venez d'obtenir</l>
@@ -2429,11 +2429,11 @@
                             <l>Il vient d'être arrêté dans la forêt prochaine ;</l>
                             <l>Avec <name type="person" n="Clotalde">Clotalde</name> on vous l'améne.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="106"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE DERNIERE.</head><lb/>
-                        <stage><hi rend="italic"> Les Acteurs précédens</hi>, LE ROI, CLOTALDE <lb/> SOLDATS.</stage><lb/><lb/>
+                        <stage><hi rend="italics"> Les Acteurs précédens</hi>, LE ROI, CLOTALDE <lb/> SOLDATS.</stage><lb/><lb/>
                         <sp who="Basile">
                             <speaker>LE ROI.</speaker><lb/><lb/>
                             <l><c type="lettrine">F</c>Ils coupable, aſſouvis toute ta cruauté ; </l>
@@ -2449,7 +2449,7 @@
                             <l>Qu'autant que notre cur eſt d'accord avec eux</l>
                             <l>Que notre volonté régle leur influence,</l>
                             <l>Et qu'on eſt, à ſon gré, cruel ou généreux.</l>
-                            <lb/><stage type="action"><hi rend="italic">(Il ſe jette aux pieds du Roi.)</hi></stage><lb/>
+                            <lb/><stage type="action"><hi rend="italics">(Il ſe jette aux pieds du Roi.)</hi></stage><lb/>
                             <l>Seigneur, loin de ſouiller ma gloire,</l>
                             <l>Et de faire éclater un barbare courroux,</l>
                             <l>Regardez-moi rougir de ma victoire,</l>
@@ -2506,7 +2506,7 @@
                         </sp>
                         <sp who="Sigismond">
                             <speaker>SIGISMOND </speaker>
-                            <stage><hi rend="italic">à <name type="person" n="Clotalde">Clotalde</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">à <name type="person" n="Clotalde">Clotalde</name>.</hi></stage><lb/>
                             <l><choice><orig>Aproches</orig><reg>Approche</reg></choice>, noble défenſeur</l>
                             <l>Du Roi mon pere, <choice><orig>&amp;</orig><reg>et</reg></choice> de ton Maître ;</l>
                             <l>Le zèle que pour lui ton ame a fait <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l>
@@ -2528,10 +2528,9 @@
                             <l>Notre eſpoir un fantôme, <choice><orig>&amp;</orig><reg>et</reg></choice> notre vie un ſonge.</l>
                         </sp> 
                         <lb/><lb/>
-                        <p rend="center"><hi rend="italic">FIN.</hi></p>
-                    </div3>
-                </div2>
-            </div1>
+                        <trailer rend="center"><hi rend="italics">FIN.</hi></trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
