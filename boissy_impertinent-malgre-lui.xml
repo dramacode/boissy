@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>L'impertinent malgré lui: édition numérique</title>
+                <title type="main">L'Impertinent malgré lui</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -90,10 +91,9 @@
                 <pb n="43"/>
                 <head>L'IMPERTINENT <lb/> MALGRÉ LUI<pc>,</pc> COMÉDIE<pc type="affirmative">.</pc><lb/></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>VALERE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -297,8 +297,8 @@
                             <l>Adieu. Je ne dois pas me le faire redire.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
@@ -316,9 +316,9 @@
                             <l>D'égards, de bienſéance elle parle ſans ceſſe,</l>
                             <l>Et m'affadit le cœur avec ſa politeſſe.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="48"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>JULIE <pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cloé">
@@ -420,8 +420,8 @@
                             <l>Je ne crois pas qu'il ſoit encore déraiſonnable</l>
                             <l>Juſqu'au point d'aprouver un ſyſtême ſemblable.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE <pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -538,8 +538,8 @@
                             <l>Placé près de mon frere, il fait le Gouverneur ;</l>
                             <l>Grand yvrogne de plus, &amp; mauvais rimailleur.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE <pc>,</pc> CLOÉ <pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -788,8 +788,8 @@
                             <l>Rentrons , Madame. Adieu, vieux pere <name type="person" n="Dulaurier">Dulaurier</name>.</l>
                             <lb/><stage type="mixed" rend="italic">(Elle lui tire la perruque en ſortant.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -842,9 +842,9 @@
                             <l>On m'en fait compliment enfin de tout côté.</l>
                             <l>Il écoute parler ; lorſqu'on l'interroge....</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="58"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> VALERE <pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
@@ -865,8 +865,8 @@
                             <l>Je m'en vais de ce pas écrire à votre pere ,</l>
                             <l>De la bonne encre. Adieu. Vous verrez. Laiſſez faire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> VALERE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -1036,13 +1036,13 @@
                             <l>On ne prend les bons airs qu'en fréquentant les Dames,</l>
                             <l>Et pour former les gens, ma foi, vive les femmes.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du premier Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="62"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>VALERE<pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cloé">
@@ -1103,8 +1103,8 @@
                             <l>Ce n'eſt pas d'aujourd'hui que j'en ſuis convaincu,</l>
                             <l>J'ai ſuivi vos conſeils autant que je l'ai pû.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> VALERE<pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Leandre">
@@ -1191,9 +1191,9 @@
                             <speaker>VALERE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">C'eſt à la militaire.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="65"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
@@ -1213,8 +1213,8 @@
                             <l>On doit me pardonner de prendre un peu l'eſſor ,</l>
                             <l>Je puis bien être fou deux ou trois ans encor.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -1373,8 +1373,8 @@
                             <l>Qu'à <name type="person" n="Paris">Paris</name>, vous avez la raiſon en partage,</l>
                             <l>Et que vous la perdrez en reſtant au Village.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> DAMON <pc>,</pc> MELITE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mélite">
@@ -1435,8 +1435,8 @@
                             <lb/><stage type="business" rend="italic">(ſe tournant vers <name type="person" n="Damon">Damon</name>.)</stage><lb/>
                             <l part="I">Ils ſe gâtent tous deux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> DAMON <pc>,</pc> MELITE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -1514,8 +1514,8 @@
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah! Je brûle déja de quitter la maiſon.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMON <pc>,</pc>JULIE <pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -1539,8 +1539,8 @@
                             <l>Quand vous priez les gens, c'eſt de ſi bonne grace ,</l>
                             <l>Qu'on ne peut refuſer. Je vous quitte la place.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
@@ -1558,9 +1558,9 @@
                             <l>Je voudrois, pour en rire, avoir ici <name type="person" n="Léandre">Léandre</name>.</l>
                             <l part="I">Je le vois.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="72"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -1661,9 +1661,9 @@
                             <l>Mais rien n'eſt ſi charmant que ces paroles-là !</l>
                             <l>On croiroit qu'elles ſont d'un nouvel Opéra.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="74"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> JULIE<pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
@@ -1762,9 +1762,9 @@
                             <stage>à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l>Sortons vîte. Venez chez <name type="person" n="Hortense">Hortenſe</name> un moment.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="76"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
@@ -1773,13 +1773,13 @@
                             <l>Et je leur ferai voir dans cette conjoncture,</l>
                             <l>Que <name type="person" n="Dulaurier">Dulaurier</name> eſt ferme , &amp; qu'il fuit l'impoſture</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du deuxiéme Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du deuxiéme Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="77"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -1806,9 +1806,9 @@
                             <l>Allez-vous là-deſſus me faire un long ſermon ,</l>
                             <l>Et m'ennuyer , Monſieur , à force de raiſon ?</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="78"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE <pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -1934,8 +1934,8 @@
                             <l>De prêcher la raiſon à qui ne l'entend pas.</l>
                             <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2003,9 +2003,9 @@
                             <l>Et malgré cent diſcours propres à m'aſſommer ,</l>
                             <l>Je vous ſouffre, &amp; ſuis foible aſſez pour vous aimer.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="82"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE <pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur">
@@ -2044,9 +2044,9 @@
                             <l>Qu'il ne remette plus le pied dans la maiſon.</l>
                             <lb/><stage type="exit" rend="italic">[Elle ſort.</stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="83"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> MONSIEUR REITER <pc>,</pc> <lb/> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2208,13 +2208,13 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Quelque état qu'il profeſſe, un François a du cœur.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du troiſiéme Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du troiſiéme Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="86"/>
-                <div2 type="acte" n="4">
+                <div1 type="acte" n="4">
                     <head>ACTE IV<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Mélite">
                             <speaker>MELITE </speaker>
@@ -2224,8 +2224,8 @@
                             <l>Je ſoupçonne une choſe, il faut la pénétrer.</l>
                             <l>Je veux ſçavoir de lui... Mais je le vois entrer.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELITE<pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
@@ -2267,16 +2267,16 @@
                             <l part="F">Oui. Va,</l>
                             <l>S'il en eſt tems encor, il les ſéparera.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Mélite">
                             <speaker>MELITE </speaker>
                             <stage type="mixed" rend="italic">ſeule, ſe laiſſant aller ſur un fauteuil.</stage><lb/>
                             <l><c type="lettrine">J</c>E me meurs! Je n'en puis plus, j'expire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELITE<pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mélite">
@@ -2300,9 +2300,9 @@
                             <l>Je ſuis au deſeſpoir! Je crains pour ſes jours.</l>
                             <l><name type="person" n="Damon">Damon</name> arrivera trop tard à ſon ſecours.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="88"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELITE <pc>,</pc> CLOÉ<pc>,</pc> VALERE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Valere">
@@ -2325,8 +2325,8 @@
                             <l>Il eſt bon d'étouffer cette affaire en naiſſant,</l>
                             <l>Et j'y vais travailler très-ſérieuſement.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLOÉ<pc>,</pc> VALERE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Valére">
@@ -2347,8 +2347,8 @@
                             <l>Et vous verrez dans peu, par une ſuite affreuſe,</l>
                             <l>Combien l'impertinence eſt en ſoi dangereuſe.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>VALERE<pc>,</pc> CLOÉ<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -2374,8 +2374,8 @@
                             <l>On eſt prêt de vous croire, ou du moins ébloui.</l>
                             <l>Mais <name type="person" n="Léandre">Léandre</name> paroît, je vous laiſſe avec lui.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> VALERE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -2478,7 +2478,7 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Verſifions, vourage, allons, mon cher <name type="person" n="Valère">Valére</name>,</l>
+                            <l>Verſifions, courage, allons, mon cher <name type="person" n="Valère">Valére</name>,</l>
                             <l>La palme vous attend au bout de la carriére.</l>
                         </sp>
                         <sp who="Valère">
@@ -2535,8 +2535,8 @@
                             <l part="F">Oh , je ſors pour les faire.</l>
                             <l>Dans deux tours de jardin vous aurez votre affaire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
@@ -2558,9 +2558,9 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Quelqu'un vient. C'eſt <name type="person" n="Damon">Damon</name>. Comment ! il nous <lb/>évite.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="93"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> DAMON <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2624,8 +2624,8 @@
                             <l>Vous vouliez nous quitter, &amp; c'eſt moi qui vous quitte,</l>
                             <l>La morale m'aſſomme, &amp; je ſors au plus vîte.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> DAMON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
@@ -2796,8 +2796,8 @@
                             <l>Adieu. Votre preſence augmente ma douleur ,</l>
                             <l>Et je fuis un objet qui me perce le cœur.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="12">
+                    </div2>
+                    <div2 type="scene" n="12">
                         <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
@@ -2816,13 +2816,13 @@
                             <l>Je me poignarderois après ce que j'ai fait.</l>
                             <l>Et je cours me cacher de honte &amp; de regret.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du quatriéme Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du quatriéme Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="99"/>
-                <div2 type="acte" n="5">
+                <div1 type="acte" n="5">
                     <head>ACTE V<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
@@ -2834,8 +2834,8 @@
                             <l>Où peut-il être allé ? Mais que peut-il donc faire ?</l>
                             <l>J'entens rire quelqu'un. C'eſt lui. Non , c'eſt ſon frere.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>VALERE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Valère">
@@ -2919,9 +2919,9 @@
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Bon dieu! Qu'il vient de faire une laide grimace !</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="101"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>VALERE <pc>,</pc> JULIE <pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
@@ -2995,8 +2995,8 @@
                             <speaker>VALERE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et moi j'en vais par-tout répandre des copies.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELITE <pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mélite">
@@ -3058,9 +3058,9 @@
                             <l>Soit. je ſors , mais jamais je ne me dédirai.</l>
                             <l>C'eſt <name type="person" n="Valère">Valere</name> ou <name type="person" n="Léandre">Léandre</name> , &amp; je le prouverai.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="104"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELITE <pc>,</pc> CLOÉ<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cloé">
@@ -3145,9 +3145,9 @@
                             <l>Je m'en vais de ce pas m'informer de la choſe,</l>
                             <l>Et je la punirai du trouble qu'elle cauſe.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="106"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Cloé">
                             <speaker>CLOÉ </speaker>
@@ -3157,8 +3157,8 @@
                             <l>Mais ſa fille paroît, &amp; j'aperçois <name type="person" n="Valère">Valere</name>,</l>
                             <l>J'ai peine à contenir devant lui ma colére.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLOÉ<pc>,</pc> JULIE<pc>,</pc> VALERE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Cloé">
@@ -3227,9 +3227,9 @@
                             <l>Mais mon eſprit enfin ne convient pas au vôtre,</l>
                             <l>Et l'on doit pour s'aier être fait l'un pour l'autre.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="108"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> VALERE<pc>,</pc>CLOÉ<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -3364,10 +3364,9 @@
                             <l>Et que mon repentir en ces mêmes momens,</l>
                             <l>Arrachât de ſes mains des aplaudiſſemens.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du cinquiéme &amp; dernier Acte.</p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><lb/><trailer rend="italic">Fin du cinquiéme &amp; dernier Acte.</trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
