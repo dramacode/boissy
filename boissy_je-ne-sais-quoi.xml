@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader xml:lang="fr">
        <fileDesc>
             <titleStmt>
-                <title>Le je ne sçai quoi: édition numérique</title>
+                <title type="main">Le Je ne sçai quoi</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -99,8 +100,7 @@
             <div1 type="title">
                 <head>LE <lb/> JE NE SÇAI QUOI, <lb/>COMEDIE</head>
             </div1>
-            <div1 type="play">
-            <div2 type="scene" n="1">
+            <div1 type="scene" n="1">
                 <head>SCENE PREMIERE.</head><lb/>
                 <stage>MOMUS, VENUS.</stage><lb/>
                 <sp who="Momus">
@@ -145,8 +145,8 @@
                     <l>Et, comme vous, ſans doute, il vient chercher ici</l>
                     <l>Le fier Je ne ſçai quoi que cache cette grotte.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="2" >
+            </div1>
+            <div1 type="scene" n="2" >
                 <head>SCENE II.</head><lb/>
                 <stage>APOLLON, MOMUS, VENUS.</stage><lb/>
                 <sp who="Apollon">
@@ -391,8 +391,8 @@
                     <l>Et pour ſonger au mien, moi , je quitte ce bord.</l>
                     <lb/><stage rend="italic">(Il s'en va.)</stage>
                 </sp>
-            </div2>
-            <div2 type="scene" n="3">
+            </div1>
+            <div1 type="scene" n="3">
                 <head>SCENE III.</head>
                 <stage>APOLLON, VENUS, ARLEQUIN</stage>
                 <sp who="Arlequin">
@@ -565,8 +565,8 @@
                     <l>Je vais ſuivre trop tard le conſeil de <name type="person" n="Momus">Momus</name>.</l>
                     <stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
                 </sp>
-            </div2>
-            <div2 type="scene" n="4">
+            </div1>
+            <div1 type="scene" n="4">
                 <head>SCENE IV.</head><lb/>
                 <stage>ARLEQUIN, UN GÉOMETRE.</stage><lb/>
                 <sp who="Le Géomètre">
@@ -746,8 +746,8 @@
                     <speaker>ARLEQUIN.</speaker><lb/>
                     <l>Si tu me <choice><orig>comprenois</orig><reg>comprenais</reg></choice>, je <choice><orig>perdrois</orig><reg>perdrais</reg></choice> mon crédit.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="5">
+            </div1>
+            <div1 type="scene" n="5">
                 <head>SCENE V.</head><lb/>
                 <stage>ARLEQUIN , LE PETIT MAISTRE.</stage><lb/>
                 <sp who="Le Petit Maître">
@@ -879,8 +879,8 @@
                     <l>Vous riſquez, à l'<name type="person" n="Amour">Amour</name>, de manquer de parol<unclear>e.</unclear></l> 
                     <l>Mais quel eſt le fâcheux qui vient encore nous voi<unclear>r</unclear></l> 
                 </sp>
-            </div2> 
-            <div2 type="scene" n="6">
+            </div1> 
+            <div1 type="scene" n="6">
                 <head>SCENE VI.</head><lb/>
                 <stage>ARLEQUIN, LE PETIT MAISTRE, <lb/>UN OFFICIER SUISSE.</stage><lb/><lb/>
                 <sp who="Le Suisse"> 
@@ -1181,8 +1181,8 @@
                     <l>Et li poire encore pien li reſte de mon fie.</l>
                     <lb/><stage type="exit"><hi rend="italic">(il s'en va en peſtant.]</hi></stage>
                 </sp>
-            </div2> 
-            <div2 type="scene" n="7"> 
+            </div1> 
+            <div1 type="scene" n="7"> 
                 <head>SCENE VII.</head><lb/>
                 <stage>ARLEQUIN, LE PETIT MAISTRE.</stage><lb/>
                 <sp who="Le petit maître">
@@ -1194,9 +1194,9 @@
                     <l>Vous faites ſagement de reſter au village.</l>
                     <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
                 </sp>
-            </div2>
+            </div1>
             <pb n="162"/>
-            <div2 type="scene" n="8">
+            <div1 type="scene" n="8">
                 <head>SCENE VIII.</head><lb/>
                 <stage>ARLEQUIN, LE PUBLIC FÉMININ.</stage><lb/>
                 <sp who="Le Public féminin">
@@ -1602,8 +1602,8 @@
                     <l>L'auteur plein d'agrément :</l>
                     <l>Et, juſqu'à mon mari, tout va m'être charmant.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="9">
+            </div1>
+            <div1 type="scene" n="9">
                 <head>SCENE IX.</head><lb/>
                 <stage>ARLEQUIN, Acteur_Français.</stage><lb/><lb/>
                 <sp who="Acteur_Français">
@@ -1738,8 +1738,8 @@
                     <l>Poignarder le ſouffleur, &amp; briser tous nos lustres.</l>
                     <lb/><stage type="exit"><hi rend="italic">[Il s'en va.]</hi></stage>
                 </sp>  
-            </div2>
-            <div2 type="scene" n="10">
+            </div1>
+            <div1 type="scene" n="10">
                 <head>SCENE X.</head><lb/>
                 <stage>LE MUSICIEN, LA DANSEUSE, ARLEQUIN.</stage><lb/>
                 <sp who="Le Musicien">
@@ -1953,8 +1953,8 @@
                     </lg>
                     <lb/><stage type="exit"><hi rend="italic">(Elle s'en va.]</hi></stage><lb/>
                 </sp>
-            </div2>
-            <div2 type="scene" n="11">
+            </div1>
+            <div1 type="scene" n="11">
                 <head>SCENE XI.</head><lb/>
                 <stage>ARLEQUIN, LE MUSICIEN.</stage><lb/>
                 <sp who="Le Musicien">
@@ -1986,8 +1986,8 @@
                     <stage type="action"><hi rend="italic">le contrefait, &amp; répéte.</hi></stage><lb/>
                     <l>Un pigeon qui roucoule.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="12">
+            </div1>
+            <div1 type="scene" n="12">
                 <head>SCENE XII.</head><lb/>
                 <stage>ARLEQUIN, SILVIA.</stage><lb/><lb/>
                 <sp who="Arlequin">
@@ -2136,8 +2136,8 @@
                     <l>Et vous ferez JE NE <choice><orig>SÇAI<reg>SAIS</reg></orig></choice> QU'EST-CE,</l>
                     <stage type="exit"><hi rend="italic">(Il part avec Silvia.)</hi></stage>
                 </sp>
-            </div2>
-            <div2 type="scene" n="13">
+            </div1>
+            <div1 type="scene" n="13">
                 <head>SCENE XIII.</head>
                 <sp>
                     <speaker>MOMUS </speaker>
@@ -2152,8 +2152,8 @@
                     <l>Par tout mon Régiment :</l>
                     <l>Par mon ordre, déjà la fête eſt préparée.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="14">
+            </div1>
+            <div1 type="scene" n="14">
                 <head>SCENE DERNIERE.</head><lb/>
                 <stage type="setting"><hi rend="italic">Le Theatre change, &amp; repréſente une ſalle ornée de <lb/>tout ce qui peut caractériſer la Folie &amp; l'agrément réunit <lb/> enſemble. <lb/> (On méne en triomphe <name type="person" n="Arlequin">Arlequin</name> et <name type="person" n="Silvia">Silvia</name>.)</hi></stage><lb/><lb/>
                 <sp who="Calotin1">
@@ -2195,8 +2195,8 @@
                     <l>Et la Morale embellie</l>
                     <l>Par le ſecours de l'Agrément.</l>
                 </sp>
-            </div2>
-            <div2 type="vaudeville">
+            </div1>
+            <div1 type="vaudeville">
                 <head>VAUDEVILLE.</head><lb/><lb/>
                 <div3>
                     <head>I.</head><lb/>
@@ -2257,10 +2257,10 @@
                             <l>Que la Marotte, &amp;c.</l>
                         </lg>
                     </sp>
-                    <lb/><lb/><p rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></p>
+                    <lb/><lb/><trailer rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></trailer>
                 </div3>
-            </div2>
-           </div1>     
+            </div1>
+    
         </body>
     </text>
 </TEI>
