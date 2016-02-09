@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Les talens a la mode: édition numérique</title>
+                <title type="main">Les Talents à la mode</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -65,25 +66,25 @@
                 <pb n="1"/>
                 <docTitle>
                     <titlePart type="main">LES TALENS <lb/>A LA MODE<pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="2"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>GERONTE</role><pc>,</pc> <roleDesc>partiſan de la vieille Muſique<pc type="affirmative">.</pc></roleDesc></castItem><lb/>
                 <castGroup rend="braced">
-                    <head>Filles de <name type="person" n="Géronte">Géronte</name><pc type="affirmative">.</pc></head>
+                    <head>Filles de <name type="person" n="Geronte">Géronte</name><pc type="affirmative">.</pc></head>
                     <castItem><role>ISABELLE</role><pc>,</pc></castItem><lb/>
                     <castItem><role>LUCINDE</role><pc>,</pc></castItem><lb/>
                     <castItem><role>MELANIE</role><pc>,</pc></castItem><lb/>
                 </castGroup>
                 <castItem><role>LEANDRE</role><pc>,</pc><roleDesc>qui aime, &amp; réunit tous les <lb/> Talens<pc type="affirmative">.</pc></roleDesc></castItem><lb/>
-                <castItem><role>L'EPINE</role><pc>,</pc><roleDesc>valet de <name type="person" n="Léandre">Léandre</name><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
+                <castItem><role>L'EPINE</role><pc>,</pc><roleDesc>valet de <name type="person" n="Leandre">Léandre</name><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
                 <castItem><role>LISETTE</role><pc type="affirmative">.</pc></castItem><lb/>
             </castList><lb/><lb/><lb/><lb/><lb/><lb/>
             <set>
-                <p><hi rend="italic">La Scène eſt dans la Maiſon de <name type="person" n="Géronte">Géronte</name><pc type="affirmative">.</pc></hi></p>
+                <p><hi rend="italics">La Scène eſt dans la Maiſon de <name type="person" n="Geronte">Géronte</name><pc type="affirmative">.</pc></hi></p>
             </set>
             <pb n="3"/>
         </front>
@@ -91,10 +92,9 @@
             <div1 type="title">
                 <head>LES TALENS <lb/>A LA MODE<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>ISABELLE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -199,11 +199,11 @@
                             <l>Soient de nos ſentimens les images parfaites ;</l>
                             <l>Qu'ils ſoient agréables, touchans.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>ISABELLE<pc>,</pc> LUCINDE<pc>,</pc><lb/>MELANIE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">E</c>T qu'ils ſoient ſur-tout bien danſans.</l>
                             <l>Point de récitatif, il aſſomme, il ennuye.</l>
@@ -216,7 +216,7 @@
                             <l>Comme la danſe eſt ſes amours ,</l>
                             <l>Elle voudroit que l'on danſât toujours.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui , le ch<unclear>a</unclear>nt langoureux me fait mal à la tête.</l>
                             <l>Je voudrois qu'on ôtat les ſcènes tout-à-fait.</l>
@@ -227,12 +227,12 @@
                         <pb n="6"/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Ma petite ſœur <name type="person" n="Mélanie">Mélanie</name> ,</l>
+                            <l>Ma petite ſœur <name type="person" n="Melanie">Mélanie</name> ,</l>
                             <l>Vous moquez-vos ? Sur ce pied-là</l>
                             <l>L'on feroit donc des Opéra ,</l>
                             <l>Sans conduite, ſans art, ſans eſprit, ſans génie?</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ma grande ſœur, qu'elle manie !</l>
                             <l>On les fait tels malgré cela.</l>
@@ -241,7 +241,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Que deviendra donc l'harmonie?</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vous permets, à la rigueur,</l>
                             <l>Trois Ariétes, un grand Chœur,</l>
@@ -251,7 +251,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! Grand-merci de la faveur.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous mettrez tout le reſte en danſes expreſſives ,</l>
                             <l>En pas nouveaux, &amp; des plus fins ,</l>
@@ -272,12 +272,12 @@
                             <l>Le plan d'un Balet fort joli.</l>
                             <l>Il fera dans un goût de Muſique nouvelle.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="7"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>ISABELLE<pc>,</pc> LUCINDE<pc>,</pc> GERONTE<pc>,</pc><lb/>MELANIE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">M</c>Oi, je prétends qu'il ſoit dans le goût de <name type="person" n="Lully">Lully</name>,</l>
                             <l>Entendez-vous, Mademoiſelle ?</l>
@@ -289,7 +289,7 @@
                             <l>Et tout l'effort que je puis faire ,</l>
                             <l>Eſt de donner pour vous un morceau dans l'uni.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Qu'eſt-ce à dire, un morceau ? Je veux être obéi.</l>
                             <l>J'entens que vous ſuiviez le ton de la nature.</l>
@@ -305,12 +305,12 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt une pſalmodie, un vrai ſoporatif !</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Loſque j'entens chanter ſur un ton ſi plaintif ,</l>
                             <l>Pour moî, je crois danſer une courante.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oſez-vous bien tenir , petite impertinente ,</l>
                             <l>Un diſcours ſi peu circonſpect ?</l>
@@ -321,19 +321,19 @@
                             <l>D'une façon qui raviſſoit.</l>
                             <l part="I">Imités-là plûtôt.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Moi ? Je ſerois la ſeule ;</l>
                             <l>Et tout <name type="place" n="Paris">Paris</name> de moi riroit certainement ,</l>
                             <l>Si je danſois ainſi que mon ayeule.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais tout <name type="place" n="Paris">Paris</name> auroit grand tort vraiment ;</l>
                             <l>Du vieux tems il a beau médire ,</l>
                             <l>On danſoit autrefois, &amp; l'on faute à préſent.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous me permettrez de vous dire</l>
                             <l>Qu'à peine ſçavoit-on jadis former ſes pas.</l>
@@ -343,7 +343,7 @@
                             <l>A porté ce talent à ſon point le plus haut.</l>
                             <l>C'eſt le vrai ſiécle de la danſe.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt celui de l'extravagance.</l>
                             <l>Cette perfection devient même un défaut.</l>
@@ -352,38 +352,38 @@
                             <l>D'entrechats &amp; de bonds, de gambade &amp; de ſaut.</l>
                             <l>O ſiécle ! O tems! O mœurs! Quelle indécence.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt où de ce grand art conſiſte l'excellence.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Gardez-vous bien d'en imiter le fin ,</l>
                             <l>Je vous en fais une expreſſe défenſe.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mon Pere, quel ordre inhumain !</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Aux nouveaux pas je déclare la guerre.</l>
                             <l>Le beau ſexe eſt foré pour danſer terre à terre.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>A fauter à vingt ans on a le cœur enclin.</l>
                         </sp>
                         <pb n="9"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Danſez le menuet, mais point de tambourin.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Mais , mon Pere, ſçachez....</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Mais aprenez, ma fille ,</l>
                             <l>Qu'on n'a jamais fauté dans ma famille.</l>
@@ -396,7 +396,7 @@
                             <l>La danſe haute eſt la danſe du jour.</l>
                             <l>Elle gagne à la Ville, elle prend à la Cour.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle gagne, elle prend, danſe du jour ; j'enrage.</l>
                             <l>Tout devient neuf pour moi, juſqu'au langage.</l>
@@ -413,7 +413,7 @@
                             <l>Votre ame cependant ſemble être conſternée ,</l>
                             <l>Quand notre langue s'enrichit.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cette richeſſe l'apauvrit.</l>
                             <l>Le jargon uſurpe ſa place.</l>
@@ -451,16 +451,16 @@
                             <l>Oh ! Des frais d'un mari, pour moi, diſpenſez-vous.</l>
                             <l>L'hymen gâte la voix, &amp; tout maître me bleſſe.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mes filles, les Talens ont des charmes plus doux,</l>
                             <l>Quand ils ſont cultivés par la main d'un époux.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ces Meſſieurs, la plûpart ont tant de mal-adreſſe !</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Quand vous les connoîtrez, vous changerez de ton.</l>
                             <l>J'ai pris ſoin à vos goûts d'aſſortir leur perſonne.</l>
@@ -485,9 +485,9 @@
                             <l>Sans compter que <name type="place" n="Paris">Paris</name> tous les ans nous fournit</l>
                             <l>Des modèles nouveaux qui ne penſent pas l'être.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>J'ai pour vous un mari dont vous me ſçaurez gré.</l>
                             <l>C'eſt un homme de poids, amateur éclairé</l>
                             <l>De la Muſique de nos peres.</l>
@@ -500,21 +500,21 @@
                             <l>Monſieur, n'aura jamais a foi.</l>
                             <l>Son goût avec le mien eſt trop antipathique.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Tu t'en trouveras bie, va, <name type="person" n="Lucinde">Lucinde</name>, crois-moi.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Mélanie">Mélanie</name>).</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Melanie">Mélanie</name>).</stage><lb/>
                             <l>Je vous deſtine, à vous , un Militaire,</l>
                             <l>Et qui poſſéde vos talens.</l>
                             <l>C'eſt l'homme , ſans que j'exagere,</l>
                             <l>Qui danſoit le mieux de mon tems.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! C'eſt une raiſon , mon Pere,</l>
                             <l>Pour qu'il d<unclear>a</unclear>nſe mal aujourd'hui.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il étoit du Balet du Roi, choſe aſſurée,</l>
                             <l>En ſix cens quatre-vingt, il danſoit une entrée.</l>
@@ -523,32 +523,32 @@
                             <l>S'il n'avoit pas perdu par malheur une jambe</l>
                             <l>A la priſe de <name type="place" n="Lérida">Lérida</name>.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſerois bien pourvûe avec ce mari-là ,</l>
                             <pb n="12"/>
                             <l>Moi, qui faute toujours ! C'eſt une raillerie.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt pour calmer l'excès de cette frénéſie.</l>
                             <l>Comme à fond de la danſe, il fait la théorie ,</l>
                             <l>Il vous fera danſer comme <name type="person" n="Balon">Balon</name>, <name type="person" n="Pécour">Pécour</name>.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>La danſe de la vieille Cour.</l>
                             <l part="I">Peut-on ſçavoir ſon nom ?</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Ma fille, c'eſt <name type="person" n="Nicandre">Nicandre</name>.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Mon Pere, il eſt bien laid.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Le mérite eſt ſon lot.</l>
                         </sp>
@@ -556,7 +556,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Comment apellez-vous le mien ?</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Mais, <name type="person" n="Périandre">Périandre</name>.</l>
                         </sp>
@@ -568,7 +568,7 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Votre troiſiéme gendre ?</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I"><name type="person" n="Damis">Damis</name>.</l>
                         </sp>
@@ -576,7 +576,7 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F"><name type="person" n="Damis">Damis</name></l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oh ! Que de diſco<sic>n</sic><corr>u</corr>rs inutiles ?</l>
                             <l>Il eſt bien ſot ! Il eſt bien vieux !</l>
@@ -590,10 +590,10 @@
                             <l>Veulent définir ſon eſſence ,</l>
                             <pb n="13"/>
                             <l>Et qui ne la connoiſſent pas.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> ISABELLE<pc>,</pc> MELANIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Isabelle">
@@ -607,25 +607,25 @@
                             <l>Trois hommes qui font de ſon âge,</l>
                             <l>Et qu'il nous donne encor pour combattre nos goûts.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! Fuſſent-ils jeunes, aimables,</l>
                             <l>Dès qu'à nos ſentimens leur cœur s'opoſeroit ,</l>
                             <l>Ce trait ſeul les enlaidiroit,</l>
                             <l>Et les rendroit déſagréables.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> MELANIE<pc>,</pc> ISABELLE<pc>,</pc><lb/> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">S</c>Ans doute, voilà les trois Sœurs.</l>
                             <l>Je ne les connois pas. Je ne ſçai comment rendre</l>
                             <l>Ces trois Billets. Je crains de me méprendre.</l>
-                            <lb/><stage type="business" rend="italic">(Il lit le deſſus d'un des Billets.)</stage><lb/>
-                            <l part="I">A <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <lb/><stage type="business" rend="italics">(Il lit le deſſus d'un des Billets.)</stage><lb/>
+                            <l part="I">A <name type="person" n="Melanie">Mélanie</name>.</l>
                         </sp>
                         <pb n="14"/>
                         <sp who="Isabelle">
@@ -634,8 +634,8 @@
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="delivery" rend="italic"> à part.</stage><lb/>
-                            <l>Celle qui parle eſt, je crois, <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <stage type="delivery" rend="italics"> à part.</stage><lb/>
+                            <l>Celle qui parle eſt, je crois, <name type="person" n="Melanie">Mélanie</name>.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
@@ -644,19 +644,19 @@
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="business" rend="italic"> regardant <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="business" rend="italics"> regardant <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>Plus je regarde celle-là,</l>
                             <l>Et plus il me paroît qu'elle à l'air d'<name type="person" n="Isabelle">Iſabelle</name>.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ce Valet inconnu viendroit-il de la part</l>
                             <l>Du jeune homme qui m'avoit trouvé la voix ſi belle</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="mixed" rend="italic">bas à <name type="person" n="Lucinde">Lucinde</name>,la tirant à l'écart.</stage><lb/>
+                            <stage type="mixed" rend="italics">bas à <name type="person" n="Lucinde">Lucinde</name>,la tirant à l'écart.</stage><lb/>
                             <l>Pardon, rien qu'un mot à l'écart.</l>
                             <l>N'eſt-ce pas vous, Mademoiſelle ,</l>
                             <l>Qu'on apelle <name type="person" n="Isabelle">Iſabelle</name>?</l>
@@ -669,10 +669,10 @@
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Un moment , pour raiſon.</l>
-                            <lb/><stage type="business" rend="italic">(Il ſe détourne, &amp; lit le deſſus d'un autre Billet.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il ſe détourne, &amp; lit le deſſus d'un autre Billet.)</stage><lb/>
                             <l>A <name type="person" n="Lucinde">Lucinde</name>. Prenez cette lettre en ſecret.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De danſer maintenant je n'ai plus le courage.</l>
                         </sp>
@@ -682,30 +682,30 @@
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="delivery" rend="italic"> à <name type="person" n="Mélanie">Mélanie</name>,à part.</stage><lb/>
+                            <stage type="delivery" rend="italics"> à <name type="person" n="Melanie">Mélanie</name>,à part.</stage><lb/>
                             <l>Mademoiſelle eſt, je le gage ,</l>
                             <l>La charmante <name type="person" n="Isabelle">Iſabelle</name> ; oui, c'eſt vous en effet.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="I">Non, je ſuis <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <l part="I">Non, je ſuis <name type="person" n="Melanie">Mélanie</name>.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Ah ! ventrebleu, j'enrage.</l>
-                            <lb/><stage type="delivery" rend="italic">(bas à <name type="person" n="Mélanie">mélanie</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(bas à <name type="person" n="Melanie">mélanie</name>.</stage><lb/>
                             <l>Daignez recevoir ce Billet.</l>
                             <pb n="15"/>
-                            <stage type="business" rend="italic">(Dans le tems qu'il donne par devant une Lettre à 
-                                <lb/> <name type="person" n="Mélanie">Mélanie</name> , il en preſente une autre, par derriére , à 
+                            <stage type="business" rend="italics">(Dans le tems qu'il donne par devant une Lettre à 
+                                <lb/> <name type="person" n="Melanie">Mélanie</name> , il en preſente une autre, par derriére , à 
                                 <lb/> <name type="person" n="Isabelle">Iſabelle</name>, qui la reçoit.)</stage><lb/>
-                            <stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                            <stage type="delivery" rend="italics">(à part.)</stage><lb/>
                             <l>Je reſpire à la fin. Chacune a ſon poulet.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE </speaker>
-                            <stage type="delivery" rend="italic">bas.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas.</stage><lb/>
                             <l part="I">Voyons ce qu'il m'écrit.</l>
                         </sp>
                         <sp who="Lucinde">
@@ -716,50 +716,50 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Inſtruiſons-nous à part de ce qu'il demande.</l>
                         </sp>
-                        <lb/><stage type="business" rend="italic">(Chacune s'éloigne pour lire à l'écart, &amp; n'être point 
+                        <lb/><stage type="business" rend="italics">(Chacune s'éloigne pour lire à l'écart, &amp; n'être point 
                             <lb/> aperçue des autres.)</stage><lb/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE </speaker><lb/>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p><hi rend="italic">Ce matin , à onze heures préciſes ,  j'irai verſifier 
-                                <lb/> avec vous.</hi>  <name type="person" n="Léandre">LEANDRE</name>.</p><lb/>
-                            <stage type="delivery" rend="italic">(après avoir lû.)</stage> <lb/>
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p><hi rend="italics">Ce matin , à onze heures préciſes ,  j'irai verſifier 
+                                <lb/> avec vous.</hi>  <name type="person" n="Leandre">LEANDRE</name>.</p><lb/>
+                            <stage type="delivery" rend="italics">(après avoir lû.)</stage> <lb/>
                             <l>Ne nous éloignons point, l'heure aproche déja.</l>
-                            <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> MELANIE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p><hi rend="italic"><c type="lettrine">A</c>Tendez-moi ſur les trois heures , je me rendrai 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p><hi rend="italics"><c type="lettrine">A</c>Tendez-moi ſur les trois heures , je me rendrai 
                                 <lb/> chez vous , pour chanter enſemble un Duo.</hi></p>
-                            <lb/><stage type="delivery" rend="italic">[à part.]</stage> <p><name type="person" n="Léandre">LEANDRE</name>.</p><lb/>
+                            <lb/><stage type="delivery" rend="italics">[à part.]</stage> <p><name type="person" n="Leandre">LEANDRE</name>.</p><lb/>
                             <l>Le tems va me durer juſqu'à ce moment-là.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="16"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELANIE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p><hi rend="italic"><c type="lettrine">A</c> Cinq heures ſans faute, comptez ſur moi. J'irai 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p><hi rend="italics"><c type="lettrine">A</c> Cinq heures ſans faute, comptez ſur moi. J'irai 
                                 <lb/> vous donner une leçon d'entrechats.</hi></p>
-                            <lb/><p><name type="person" n="Léandre">LEANDRE</name>.</p><lb/>
-                            <lb/><stage type="delivery" rend="italic">(après avoir lû.)</stage> <lb/>
+                            <lb/><p><name type="person" n="Leandre">LEANDRE</name>.</p><lb/>
+                            <lb/><stage type="delivery" rend="italics">(après avoir lû.)</stage> <lb/>
                             <l>Ce mot réveille en moi la fureur de la danſe ;</l>
                             <l>Et je m'en vais l'attendre avec impatience.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">U</c>N autre eût échoué dans un pareil emploi.</l>
                             <l>Ah ! quand on a de l'eſprit comme moi,</l>
                             <l>On ſe tire toujours d'affaire.</l>
@@ -767,11 +767,11 @@
                             <l>D'avoir fait choix d'un ſi bon émiſſaire.</l>
                             <l>Il a beſoin... mais je le vois.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">P</c>Arles , à chacune as-tu remis ma Lettre ?</l>
                         </sp>
@@ -782,19 +782,19 @@
                             <l>Ou bien plûtôt par un coup de mon art ,</l>
                             <l>Comme vous ſouhaitiez, je viens de tout remettre.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>N'as-tu point fait de <hi rend="italic">qui pro quo</hi></l>
+                            <l>N'as-tu point fait de <hi rend="italics">qui pro quo</hi></l>
                             <l>Ne me déguiſe rien ; je tremble.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, quoiqu'elles fuſſent enſemble.</l>
-                            <l>Chaque ſœur a reçû la ſienne <hi rend="italic">incognitò</hi>.</l>
+                            <l>Chaque ſœur a reçû la ſienne <hi rend="italics">incognitò</hi>.</l>
                             <l>Mais daignez, s'il vous plaît, m'éclaircir ſur un doute?</l>
-                            <l>Prétendez-vous, Monſieur, les aimer en <hi rend="italic">trio</hi> ?</l>
+                            <l>Prétendez-vous, Monſieur, les aimer en <hi rend="italics">trio</hi> ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Je ne ſçai.</l>
                         </sp>
@@ -802,7 +802,7 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">Comment ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Ecoute.</l>
                             <l>Je viens les voir ici pour la premiére fois.</l>
@@ -821,7 +821,7 @@
                             <l><name type="person" n="Isabelle">Iſabelle</name> l'aînée, aime la Poëſie ,</l>
                             <l>Avec elle je fais des vers.</l>
                             <l>Avec <name type="person" n="Lucinde">Lucinde</name> je ſilfie ;</l>
-                            <l>Et je bats l'entrechat auprès de <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <l>Et je bats l'entrechat auprès de <name type="person" n="Melanie">Mélanie</name>.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
@@ -838,7 +838,7 @@
                             <l>Que vous puiſſiez des trois être l'heureux Epoux.</l>
                             <l>Pour bien faire, Monſieur, menons-les en <name type="person" n="Turquie">Turquie</name>.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mon embarras, dans des plaiſirs ſi doux:</l>
                             <l>Eſt de bien ménager mes divers rendez-vous :</l>
@@ -857,7 +857,7 @@
                             <l>Un Pere, elles en ont un vraiſemblablement ,</l>
                             <l>Peut encore vous troubler plus incivilement.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je me ſuis embarqué , je dois braver l'orage.</l>
                             <l part="I"><name type="person" n="Isabelle">Iſabelle</name> paroît, elle rêve.</l>
@@ -868,7 +868,7 @@
                             <l>Devant l'ennemi point d'effroi ,</l>
                             <l>Et courés vîte à l'abordage.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Laiſſes-nous ſeuls, retires-toi.</l>
                         </sp>
@@ -876,24 +876,24 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Au revoir, Monſieur, bon voyage.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="19"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> ISABELLE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">E</c>Lle regarde ſans me voir.</l>
                             <l>Dans ſa profonde rêverie.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE </speaker>
-                            <stage rend="italic">déclame.</stage><lb/>
-                            <l rend="italic">Eſt-ce l'effet de la Magie ?</l>
-                            <l rend="italic">Ou de l'art des mortels eſt-ce l'eheureux pouvoir ?</l>
+                            <stage rend="italics">déclame.</stage><lb/>
+                            <l rend="italics">Eſt-ce l'effet de la Magie ?</l>
+                            <l rend="italics">Ou de l'art des mortels eſt-ce l'eheureux pouvoir ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Bon, la voilà qui verſifie.</l>
                             <l>Jouiſſons un moment ddu ſpectacle enchanteur</l>
@@ -902,17 +902,17 @@
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Il me faut une rime en <hi rend="italic">je</hi>.</l>
+                            <l>Il me faut une rime en <hi rend="italics">je</hi>.</l>
                             <l>Pour le coup je la tiens. Non, je ſuis dans l'erreur ;</l>
                             <l>Et je la vois qui fuit, cette rime ennemie.</l>
                             <l>Mais la plume pourra ſervir mieux mon ardeur.</l>
                             <l>Commençons toujours par écrire</l>
                             <l>Les Vers que m'a dictés la premiére chaleur.</l>
-                            <lb/><stage type="business" rend="italic">(Elle écrit dans un fauteuil.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Elle écrit dans un fauteuil.)</stage><lb/>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Qu'elle a de grace en ſon delire!</l>
                             <l>Le Sexe embellit tout juſqu'aux tranſports d'Auteur.</l>
                         </sp>
@@ -920,31 +920,31 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker>
                             <l>J'ai beau me tourmenter, je ne puis rien produire.</l>
                             <l>Cela me met au deſeſpoir.</l>
-                            <lb/><stage type="business" rend="italic">(Elle lit les Vers qu'elle a faits.]</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Elle lit les Vers qu'elle a faits.]</stage><lb/>
                             <lg>
-                                <l rend="italic">Eſt-ce l'effet de la Magie ?</l>
-                                <l rend="italic">Ou de l'art des mortels eſt-ce l'heureux pouvoir ?</l>
-                                <l rend="italic">Des clartés de la nuit la vûe eſt éblouie....</l>
+                                <l rend="italics">Eſt-ce l'effet de la Magie ?</l>
+                                <l rend="italics">Ou de l'art des mortels eſt-ce l'heureux pouvoir ?</l>
+                                <l rend="italics">Des clartés de la nuit la vûe eſt éblouie....</l>
                                 <pb n="20"/>
-                                <l rend="italic">Des clartés de la nuit la vûe eſt éblouie.</l>
+                                <l rend="italics">Des clartés de la nuit la vûe eſt éblouie.</l>
                             </lg>
-                            <lb/><stage rend="italic">(en s'interrompant.)</stage><lb/>
+                            <lb/><stage rend="italics">(en s'interrompant.)</stage><lb/>
                             <l>Ma ſéchereſſe excite mon courroux.</l>
                             <l>Marchons pour rechauſſer ma veine refroidie.</l>
-                            <lb/><stage type="business" rend="italic">(elle s'éloigne.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(elle s'éloigne.)</stage><lb/>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De ce moment ſaiſiſſons-nous</l>
                             <l>Pour marier mes vers avec ſa Poëſie.</l>
-                            <lb/><stage type="business" rend="italic">(Il écrit ſur le même papier qu'<name type="person" n="Isabelle">Iſabelle</name> a laiſſé 
+                            <lb/><stage type="business" rend="italics">(Il écrit ſur le même papier qu'<name type="person" n="Isabelle">Iſabelle</name> a laiſſé 
                                 <lb/> ſur la table.)</stage><lb/>
                             <l>Je l'entends qui revient, mettons-nous à l'écart.</l>
-                            <lb/><stage type="business" rend="italic">(Il ſe cache en un coin.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il ſe cache en un coin.)</stage><lb/>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE </speaker>
-                            <stage type="business" rend="italic">revenant ſur ſes pas.</stage><lb/>
+                            <stage type="business" rend="italics">revenant ſur ſes pas.</stage><lb/>
                             <l>Un Démon envieux vient de tarir ma veine ,</l>
                             <l>Que je demeure aſſiſe , ou que je me proméne ,</l>
                             <l>De mon cerveau maudit , rien ne ſort , rien ne part,</l>
@@ -952,21 +952,21 @@
                             <l>Que vois-je juſte Ciel ! par quel prodige étrange,</l>
                             <l>A la ſuite des miens, ces Vers ſont-ils écrits!</l>
                             <l>Mon cœur en eſt émû, mes yeux en ſont ſurpris.</l>
-                            <lb/><stage rend="italic">(Elle lit.)</stage><lb/>
+                            <lb/><stage rend="italics">(Elle lit.)</stage><lb/>
                             <lg>
-                                <l rend="italic">Et des globes de Cieux, je vois l'Onde embellie.</l>
-                                <l rend="italic">Un ſpectacle plus beau jamais ne ſe fit voir.</l>
-                                <l rend="italic">Dieux! qu'il eſt doux pour moi !</l>
-                                <l rend="italic">J'y ſuis près de <name type="person" n="Silvie">Silvie</name>.</l>
+                                <l rend="italics">Et des globes de Cieux, je vois l'Onde embellie.</l>
+                                <l rend="italics">Un ſpectacle plus beau jamais ne ſe fit voir.</l>
+                                <l rend="italics">Dieux! qu'il eſt doux pour moi !</l>
+                                <l rend="italics">J'y ſuis près de <name type="person" n="Silvie">Silvie</name>.</l>
                             </lg>
-                            <lb/><stage rend="italic">(après avoir lû.)</stage><lb/>
+                            <lb/><stage rend="italics">(après avoir lû.)</stage><lb/>
                             <l>Ce que je lis ne peut ſe concevoir !</l>
                             <l>Ma ſurpriſe redouble, &amp; je ſuis bien ſervie.</l>
                             <l>On ne peut mieux me ſeconder.</l>
                             <l>Eſt-ce un eſprit, eſt-ce un génie,</l>
                             <l>Qui, ſenſible à ma peine, &amp; qui prompt à m'aider ,</l>
                             <l>M'a fait cette galanterie ?</l>
-                            <l><name type="person" n="Léandre">Léandre</name> que j'attends eſt le ſeul aujourd'hui ,</l>
+                            <l><name type="person" n="Leandre">Léandre</name> que j'attends eſt le ſeul aujourd'hui ,</l>
                             <l>Que d'un pareil trait je ſoupçonne.</l>
                             <l>Mais je ne vois, ne je n'entens perſonne.</l>
                             <l>Il paroîtroit ſi c'étoit lui.</l>
@@ -976,17 +976,17 @@
                             <l>Je ſens qu'en ce moment tu me ſers d'<name type="person" n="Apollon">Apollon</name>,</l>
                             <l>Oui, tu m'inſpires, tu m'animes.</l>
                             <l>Ecrivons, écrivons, je tiens déja trois rimes.</l>
-                            <lb/><stage rend="italic">elle écrit, &amp; récite tout haut.].)</stage><lb/>
+                            <lb/><stage rend="italics">elle écrit, &amp; récite tout haut.].)</stage><lb/>
                             <lg>
-                                <l rend="italic">Fixés vos yeux ſur ce Palais charmant ,</l>
-                                <l rend="italic">Et regardés, <name type="person" n="Daphnis">Daphnis</name>, cette étincelle,</l>
-                                <l rend="italic">Vous l'allez voir dans un moment...</l>
-                                <l rend="italic">Y répandre l'éclat d'un vaſte embraſement.</l>
+                                <l rend="italics">Fixés vos yeux ſur ce Palais charmant ,</l>
+                                <l rend="italics">Et regardés, <name type="person" n="Daphnis">Daphnis</name>, cette étincelle,</l>
+                                <l rend="italics">Vous l'allez voir dans un moment...</l>
+                                <l rend="italics">Y répandre l'éclat d'un vaſte embraſement.</l>
                             </lg>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">derriére le fauteuil d'<name type="person" n="Isabelle">Iſabelle</name>.</stage><lb/>
+                            <stage rend="italics">derriére le fauteuil d'<name type="person" n="Isabelle">Iſabelle</name>.</stage><lb/>
                             <l>Ainſi le regard d'une Belle</l>
                             <l>Met tout en feu dans le cœur d'un amant ;</l>
                             <l>Des jeux d'Amour c'eſt l'image fidèle.</l>
@@ -994,9 +994,9 @@
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Dieu ! Quel ſurcroît d'étonnement!</l>
-                            <l>Mais , que vois-je ? C'eſt vous, <name type="person" n="Léandre">Léandre</name> ?</l>
+                            <l>Mais , que vois-je ? C'eſt vous, <name type="person" n="Leandre">Léandre</name> ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pardon, j'ai voulu vous ſurprendre.</l>
                         </sp>
@@ -1006,7 +1006,7 @@
                             <l>Vous êtes donc l'<name type="person" n="Apollon">Apollon</name> qui m'inſpire,</l>
                             <l>Et qui vient me favoriſer ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous êtes, vous  la Muſe qui m'attire ;</l>
                             <l>D'exciter mes tranſports, vous avez la vertu.</l>
@@ -1018,7 +1018,7 @@
                             <l>Converſons en Vers impromptu ;</l>
                             <l>Et dans cet entretien n'employons qu'une rime.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Soit. Il me ſera doux d'être pour vous vaincu.</l>
                             <l part="I">Quelle rime choiſir,</l>
@@ -1027,86 +1027,86 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Faites ce choix vous-même.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Mais ſans chercher plus loin, prenons la rime en <hi rend="italic">éme</hi>.</l>
+                            <l>Mais ſans chercher plus loin, prenons la rime en <hi rend="italics">éme</hi>.</l>
                         </sp>
                         <pb n="22"/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Elle eſt pour le rimeurs d'une reſſource extrême.</l>
+                            <l rend="italics">Elle eſt pour le rimeurs d'une reſſource extrême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">D'elle j'attends mon bien ſuprême.</l>
+                            <l rend="italics">D'elle j'attends mon bien ſuprême.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Pour ſurprendre mon cœur, elle eſt un ſtratagême.</l>
+                            <l rend="italics">Pour ſurprendre mon cœur, elle eſt un ſtratagême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">la chanter de concert eſt le plus doux ſyſtême.</l>
+                            <l rend="italics">la chanter de concert eſt le plus doux ſyſtême.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Je ſens qu'elle m'arrête, &amp; devient un emblême.</l>
+                            <l rend="italics">Je ſens qu'elle m'arrête, &amp; devient un emblême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Par elle, vous pouvez réſoudre le problême.</l>
+                            <l rend="italics">Par elle, vous pouvez réſoudre le problême.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Le ſerpe<sic>u</sic><corr>n</corr>t eſt caché ſous les fleurs qu'Aour ſème.</l>
-                            <l part="I" rend="italic">Je ſuis....</l>
+                            <l rend="italics">Le ſerpe<sic>u</sic><corr>n</corr>t eſt caché ſous les fleurs qu'Aour ſème.</l>
+                            <l part="I" rend="italics">Je ſuis....</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="F" rend="italic">Je vous ſuivrai, fuſſiez-vous en <name type="person" n="Bohême">Bohême</name>.</l>
-                            <l part="I" rend="italic">J'arracherai l'aveu....</l>
+                            <l part="F" rend="italics">Je vous ſuivrai, fuſſiez-vous en <name type="person" n="Bohême">Bohême</name>.</l>
+                            <l part="I" rend="italics">J'arracherai l'aveu....</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="F" rend="italic">Grace, au nom de <name n="Barême">Barême</name>.</l>
+                            <l part="F" rend="italics">Grace, au nom de <name n="Barême">Barême</name>.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Non, je cours après vous à pas de <name type="person" n="Polyphème">Poliphême</name>.</l>
-                            <l part="I" rend="italic">Rimés.</l>
+                            <l rend="italics">Non, je cours après vous à pas de <name type="person" n="Polyphème">Poliphême</name>.</l>
+                            <l part="I" rend="italics">Rimés.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="F" rend="italic">Pour vous répondre, il faut que je blaſphême.</l>
+                            <l part="F" rend="italics">Pour vous répondre, il faut que je blaſphême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Un mot, de mes tourmens peut-être l'aposême.</l>
-                            <l part="I" rend="italic">Prononcés.</l>
+                            <l rend="italics">Un mot, de mes tourmens peut-être l'aposême.</l>
+                            <l part="I" rend="italics">Prononcés.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="F" rend="italic">Je ne puis, je rougis , je deviens blême ,</l>
-                            <l rend="italic">Comme un jeune Ecolier qui n'a pas fait ſon thême.</l>
+                            <l part="F" rend="italics">Je ne puis, je rougis , je deviens blême ,</l>
+                            <l rend="italics">Comme un jeune Ecolier qui n'a pas fait ſon thême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Hé quoi ! Me ferez-vous languir juſqu'au Carême ?</l>
+                            <l rend="italics">Hé quoi ! Me ferez-vous languir juſqu'au Carême ?</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Dieux  Pour me ſecourir je ne vois que <name>Telême</name>.</l>
+                            <l rend="italics">Dieux  Pour me ſecourir je ne vois que <name>Telême</name>.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l rend="italic">Pour vous réduire à ſec, je ſaiſis <name>Harpagême</name>.</l>
+                            <l rend="italics">Pour vous réduire à ſec, je ſaiſis <name>Harpagême</name>.</l>
                         </sp>
                         <pb n="23"/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Ah ! La rime me force à dire, <hi rend="italic">je vous aime</hi>,</l>
+                            <l>Ah ! La rime me force à dire, <hi rend="italics">je vous aime</hi>,</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>O rime deſirée, &amp; qui fait mon bonheur !</l>
                         </sp>
@@ -1116,7 +1116,7 @@
                             <l>Dans un tel badinage où votre art me ſurmonte,</l>
                             <l>Ce n'eſt que de l'eſprit que vous êtes vainqueur.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , je compte ſur votre cœur.</l>
                         </sp>
@@ -1127,7 +1127,7 @@
                             <l>Le cruel contretems ! J'en ai le cœur ſaiſi.</l>
                             <l>O Ciel ! Que va-t-il dire en vous voyant ici !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais ne pouvez-vous pas me ſouſtraire à ſa vue ,</l>
                             <l>Et me cacher dans quelque coin.</l>
@@ -1137,63 +1137,63 @@
                             <l>Non, je voudrois en vain prendre ce ſoin.</l>
                             <l>Il entre. Le voilà. Je demeure éperdue.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<sic>V</sic><corr>X</corr>I<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> ISABELLE<pc>,</pc> GERONTE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE </speaker>
-                            <stage rend="italic">s'emportant ſeul.</stage><lb/>
+                            <stage rend="italics">s'emportant ſeul.</stage><lb/>
                             <l><c type="lettrine">O</c>H ! Je le ſoutiens hautement.</l>
                             <l>Ce chœur eſt volé de <name type="person" n="Roland">Roland</name>.</l>
                             <l>Je ſuis ſûr de gagner la gageur  à bon compte.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc> </speaker>
-                            <stage rend="italic">à part.</stage><lb/>
-                            <l>O C<sic>l</sic><corr>i</corr>el ! Que vois-je? C'eſt <name type="person" n="Géronte">Géronte</name>.</l>
+                            <stage rend="italics">à part.</stage><lb/>
+                            <l>O C<sic>l</sic><corr>i</corr>el ! Que vois-je? C'eſt <name type="person" n="Geronte">Géronte</name>.</l>
                             <l>Oui, je le reconnois. Oh, bonheur ſans égal !</l>
                         </sp>
                         <pb n="24"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De m'y connoître je me pique.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Nous ſommes grand amis, &amp; j'ai parlé Muſique</l>
                             <l>Tr<unclear>e</unclear>nte fois avec lui dans le Palais Royal.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Un jeune homme eſt chez moi ſeul avec <name type="person" n="Isabelle">Iſabelle</name> :</l>
                             <l>A qui parlez-vous-là, dites, Mademoiſelle ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt à votre humble ſerviteur.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Quoi! <name type="person" n="Léandre">Léandre</name>, c'eſt vous ! Par quel hazard flatteur</l>
+                            <l>Quoi! <name type="person" n="Leandre">Léandre</name>, c'eſt vous ! Par quel hazard flatteur</l>
                             <l>Reçois-je ce matin de vous en viſite ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un devoir dont je m'acquitte.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Depuis long-tems je vous en ai prié.</l>
                             <l>Et de vous voir chez moi , je ſuis extaſié.</l>
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Je reſpire !</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je ſuis enchanté que ma fille</l>
                             <l>En mon abſence en ait fait les honneurs.</l>
@@ -1204,7 +1204,7 @@
                             <l>Et c'eſt un bien pour ma famille.</l>
                             <l>A vous voir, à vous fréquenter ,</l>
                             <l>Elle ne peut que profiter.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Isabelle">Iſabelle</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Isabelle">Iſabelle</name>.)</stage><lb/>
                             <l>Vos ſœurs &amp; vous, prené-le pour modèle;</l>
                             <l>Il peut vous donner des leçons :</l>
                             <l>Et vous inſtruira mieux que beaucoup de barbons.</l>
@@ -1215,7 +1215,7 @@
                             <l>A remplir vos deſirs ſera très-ponctuelle.</l>
                         </sp>
                         <pb n="25"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Elle fera fort bien.</l>
                         </sp>
@@ -1223,12 +1223,12 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Vous ſerez obéi.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne puis témoigner trop de reconnoiſſance;</l>
                             <l>Monſieur m'oblige, vrai, beaucoup plus qu'il ne penſe.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , je me fais plaiſir à moi-même en ceci.</l>
                         </sp>
@@ -1236,7 +1236,7 @@
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous m'en faites beaucoup auſſi.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais écoutés, mon ame eſt doublement charmée</l>
                             <l>De vous trouver preſentement ici.</l>
@@ -1264,7 +1264,7 @@
                             <l>Un petit Maître ſubalterne</l>
                             <l>Dont le ton &amp; l'accent décelent le couſis</l>
                             <pb n="26"/>
-                            <l>S'écrie alors, va pour le chant <hi rend="italic">moderne</hi>,</l>
+                            <l>S'écrie alors, va pour le chant <hi rend="italics">moderne</hi>,</l>
                             <l>Contre Monſſu, les dix plus beaux louis</l>
                             <l>Qui ſoient jamais ſortis de mon pays.</l>
                             <l>Les boilà. Jé ſuis ſûr dé gagner quand je gage.</l>
@@ -1275,57 +1275,57 @@
                             <l>Pour prouver que j'ai l'avantage,</l>
                             <l>Je viens prendre chez moi l'un &amp; l'autre Opera</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un pari que Monſie<sic>n</sic><corr>u</corr>r gagnera.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je veux que vous ſoyez le témoin de ma gloire ,</l>
                             <l>Vous m'aiderez vous-même à gagner la victoire.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſerai de moitié, comptés bien ſur cela.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker><sic>C</sic><corr>G</corr>ERONTE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Vous, ma fille, rentrés. Et vous, mon cher <name type="person" n="Léandre">Leandre</name>,</l>
+                            <l>Vous, ma fille, rentrés. Et vous, mon cher <name type="person" n="Leandre">Leandre</name>,</l>
                             <l>Vous ſçavez mon bon droit, venés pour le défendre ;</l>
                             <l>Avec un tel ſecond, j'oſe les braver tous.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Pour mieux me l'aſſurer, entrons dans ſon courroux.</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Géronte">Géronte</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Geronte">Géronte</name>.</stage><lb/>
                             <l>Je ſuis prêt à vous ſuivre, attaquons les profanes ;</l>
                             <l>Faiſons les reculer au yeux de tout <name type="place" n="Paris">Paris</name></l>
                             <l>Allons, des chants nouveaux, faire un vaſte débris.</l>
                             <l>Et ſur leurs Sectateurs, courons venger les mânes.</l>
                             <l>De l'Auteur de <name type="person" n="Cadmus">Cadmus</name>, de <name type="person" n="Thésée">Theſée</name> &amp; d'<name type="person" n="Atis">Atis</name>.</l>
-                            <lb/><stage type="exit" rend="italic">(Ils ſortent tous deux en chantant ce qui ſuit.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Ils ſortent tous deux en chantant ce qui ſuit.)</stage><lb/>
                             <lg>
-                                <l rend="italic">Pourſuivons juſqu'au trépas</l>
-                                <l rend="italic">L'ennemi qui nous offence.</l>
-                                <l rend="italic">Qu'il n'échape pas</l>
-                                <l rend="italic">A notre vengeance.</l>
+                                <l rend="italics">Pourſuivons juſqu'au trépas</l>
+                                <l rend="italics">L'ennemi qui nous offence.</l>
+                                <l rend="italics">Qu'il n'échape pas</l>
+                                <l rend="italics">A notre vengeance.</l>
                             </lg>
                         </sp>
-                        <lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
-                    </div3>
-                </div2>
+                        <lb/><trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer>
+                    </div2>
+                </div1>
                 <pb n="27"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I"><c type="lettrine">V</c>Ous  voilà bien content !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">J'ai lieu de le paroître;</l>
                             <l>Mes affaires ſon en bon train</l>
@@ -1335,7 +1335,7 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">Hé bien !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Par mon eſprit badin ,</l>
                             <l>Je ſuis auſſi-bien qu'on peut l'être,</l>
@@ -1358,7 +1358,7 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Monſieur, pour vos deſſeins l'heureuſe circonſtance !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce n'eſt pas tout. Aprends un bonheur inoui.</l>
                             <l>J'ai rendu raiſonnable un fat, un petit Maître ,</l>
@@ -1368,11 +1368,11 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous avez fait,Monſieur,un chef-d'œuvre aujourd'hui.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><name type="person" n="Géronte">Géronte</name>, le nom du Pere des trois belles ,</l>
+                            <l><name type="person" n="Geronte">Géronte</name>, le nom du Pere des trois belles ,</l>
                             <l>Dont les divers talens m'ont attiré chez lui ,</l>
-                            <l><name type="person" n="Géronte">Géronte</name> ſur les bras avoit cet ennemi.</l>
+                            <l><name type="person" n="Geronte">Géronte</name> ſur les bras avoit cet ennemi.</l>
                             <l>J'ai terminé leurs burleſques querelles.</l>
                             <l>Son adverſaire a payé le pari.</l>
                             <l>La douceur que j'ai fait paroître</l>
@@ -1385,7 +1385,7 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cet avantage eſt rémarquable.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce qui va te poroître encore plus incroyable ,</l>
                             <l>Lui-même à tous les deux il nous donne à diner.</l>
@@ -1394,11 +1394,11 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De la part d'un Gaſcon cela doit étonner !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Notre homme impatient de couronner la fpete,</l>
                             <l>Eſt allé commander le diner qui s'aprête.</l>
-                            <l><name type="person" n="Géronte">Géronte</name> a ſaiſi ce tems-là</l>
+                            <l><name type="person" n="Geronte">Géronte</name> a ſaiſi ce tems-là</l>
                             <l>Pour reporter chez lui ſes Livres dOpéra ,</l>
                             <l>Et pour écrire une Lettre preſſante,</l>
                             <l>D'où dépend le ſuccès d'une affaire importante.</l>
@@ -1411,13 +1411,13 @@
                             <pb n="29"/>
                             <l>Une réflexion ſur votre état préſent.</l>
                             <l>Vous arborez tout haut l'étendard du vieux chant,</l>
-                            <l>Que <name type="person" n="Géronte">Géronte</name> idolâtre tant :</l>
+                            <l>Que <name type="person" n="Geronte">Géronte</name> idolâtre tant :</l>
                             <l>Mais, par malheur, <name type="person" n="Lucinde">Lucinde</name> eſt du parti contraire.</l>
                             <l>Le pas me paroît très-gliſſant ,</l>
                             <l>En ſaiſant votre cour au Pere ,</l>
                             <l>A la fille, Monſieur, vous riſqués de déplaire.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Aprens, <name type="person" n="L'Epine">l'Epine</name>, à me connoître bien.</l>
                             <l>Je prend de tot le bon &amp; l'agréable,</l>
@@ -1434,7 +1434,7 @@
                             <l>Mais, Monſieur il n'eſt pas poſſible</l>
                             <l>Que vous ne panchiez pas d'un ou d'autre côté.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, je ſuis avec ſoin la partialité.</l>
                             <l>A nos amuſemens elle eſt toujours nuiſible.</l>
@@ -1472,7 +1472,7 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>L'Auteur eſt fort heureux de n'être pas tombé.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il a tout réuni dans ſes Fêtes d'<name type="person" n="Hébé">Hebé</name> ;</l>
                             <l>Et le Sçavant s'y marie à l'Aimable.</l>
@@ -1482,8 +1482,8 @@
                             <l>Mais, que dis-je ? il eſt plus, il eſt voluptueux.</l>
                             <l>Il remplit mes eſprits d'une yvreſſe nouvelle ,</l>
                             <l>Et je me ſens plonger dans des raviſſemens...</l>
-                            <l><hi rend="italic">Il eſt</hi>, quand je me les rapelle ,</l>
-                            <l rend="italic">Certains momens , Dieux ! Quels momens !</l>
+                            <l><hi rend="italics">Il eſt</hi>, quand je me les rapelle ,</l>
+                            <l rend="italics">Certains momens , Dieux ! Quels momens !</l>
                             <l>Où ſuis-je ? Et qu'eſt-ce que j'entens ?</l>
                             <l>Ah! C'eſt un Dieu qui chante. Ecoutons, il m'enflamme,</l>
                             <l>Juſqu'où vont les éclats de ſon gozier flâteur ?</l>
@@ -1503,10 +1503,10 @@
                             <l>Je lui déclare une guerre mortelle.</l>
                             <l>Je ſuis, juſqu'à la mort, ſerviteur de <name type="person" n="Lully">Lully</name>.</l>
                             <l>Il ſuffit qu'il ait fait, pour avoir mon apui ,</l>
-                            <l>L'Air de <hi rend="italic">Charmante <name type="person" n="Gabrielle">Gabrielle</name></hi>.</l>
+                            <l>L'Air de <hi rend="italics">Charmante <name type="person" n="Gabrielle">Gabrielle</name></hi>.</l>
                             <l>Je ne vois rien de ſi joli.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Bon , la chanſon eſt du tems d'<name type="person" n="Henri">Henri</name> IV.</l>
                         </sp>
@@ -1515,7 +1515,7 @@
                             <l>En ce cas-là, tant pis pour lui ;</l>
                             <l>Je ſuis obligé d'en rabattre.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Tu n'es qu'un ignorant, tais-toi.</l>
                         </sp>
@@ -1523,9 +1523,9 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Beaucoup d'honnêtes-gens s'y trompent comme moi.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Mais<sic></sic><corr> </corr><name type="person" n="Géronte">Géronte</name><sic></sic><corr> </corr>eſt long-tems.Ses trois filles,j'en tremble,</l>
+                            <l>Mais<sic></sic><corr> </corr><name type="person" n="Geronte">Géronte</name><sic></sic><corr> </corr>eſt long-tems.Ses trois filles,j'en tremble,</l>
                             <l>Peuvent ici ſe rendre enſemble.</l>
                             <l>Un pareil contre-tems me déconcerteroit ,</l>
                             <l>Et mon deſſein avorteroit.</l>
@@ -1544,96 +1544,96 @@
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Il ſuffit. Mais voilà <name type="person" n="Géronte">Géronte</name> qui s'avance.</l>
+                            <l>Il ſuffit. Mais voilà <name type="person" n="Geronte">Géronte</name> qui s'avance.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="32"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> GERONTE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><name type="person" n="Léandre"><c type="lettrine">L</c>Eandre</name> , pardonnés ; partons en diligence.</l>
+                            <l><name type="person" n="Leandre"><c type="lettrine">L</c>Eandre</name> , pardonnés ; partons en diligence.</l>
                             <l>Mais non, auparavant, je veux vous preſenter</l>
                             <l>A ma famille réunie.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je craindrois de vous arrêter.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Je veux que vous voyiez <name type="person" n="Lucinde">Lucinde</name> &amp; <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <l>Je veux que vous voyiez <name type="person" n="Lucinde">Lucinde</name> &amp; <name type="person" n="Melanie">Mélanie</name>.</l>
                             <l>Aux graces d'<name type="person" n="Isabelle">Iſabelle</name>, elles ne cédent pas.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Pour mon Maître, quel embarras !</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſuis forcé, quoique je ſois leur Pere ,</l>
                             <l>De convenir qu'elles ont des apas ,</l>
                             <l>Et des talens ſur-tout, dont je fais plus de cas.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre ſang eſt formé pour plaire.</l>
                             <l>Mais, Monſieur, pour les voir, je prendrai mieux <lb/> mon tems.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Hé ! pourquoi vouslez vous reculer ces inſtans ?</l>
                             <l part="I">Venés.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Monſieur , l'heure eſt peu convenable.</l>
                             <l>Ces Dames doivent être à table.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, elles ont dîné ; &amp; quand même Monſieur....</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un manque d'égards que je ne puis commettre.</l>
                         </sp>
                         <pb n="33"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais, étant avec moi, pourquoi cette frayeur ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un bien que je dois remettre ,</l>
                             <l>Je n'en pourrois jouir qu'un ſeul inſtant.</l>
                             <l>Il ſe fait tard notre Gaſcon attend.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ce jeune homme a pour moi des façons qui m'en-<lb/>traînent !</l>
                             <l>Voilà ce qui s'apelle un véritable ami !</l>
                             <l>Ce ne ſont point mes filles qui l'aménent ,</l>
                             <l>C'eſt pour moi ſeul qu'il vient ici.</l>
                             <l>Je ſerois trop heureux d'avoir un pareil gendre.</l>
                             <l>Et préférablement il doit être choiſi.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Léandre">Léandre</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Leandre">Léandre</name>.)</stage><lb/>
                             <l>A vos raiſons il faut ſe rendre.</l>
                             <l>J'ai mon deſſein quand je vous preſſe ainſi.</l>
                             <l>Mon eſtime pour vous ne peut trop loin s'étendre</l>
-                            <l>Partons ; venez, de ce projet, <name type="person" n="Léandre">Léandre</name>,</l>
+                            <l>Partons ; venez, de ce projet, <name type="person" n="Leandre">Léandre</name>,</l>
                             <l>Tout en chemin faiſant , vous ſerez éclairci.</l>
                         </sp>
-                        <lb/><stage type="exit" rend="italic">(Ils ſortent.)</stage><lb/>
-                    </div3>
-                    <div3 type="scene" n="3">
+                        <lb/><stage type="exit" rend="italics">(Ils ſortent.)</stage><lb/>
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage rend="italic">ſeul<pc type="affirmative">.</pc></stage><lb/>
+                            <stage rend="italics">ſeul<pc type="affirmative">.</pc></stage><lb/>
                             <l><c type="lettrine">P</c>Ar bonheur , à la fin, mon Maître ſe dégage</l>
                             <l>D'un pas qu'il n'avoit pas prévu ;</l>
                             <l>Mais il ne peut long-tems jouer ce perſonnage ;</l>
@@ -1653,10 +1653,10 @@
                             <l>Que <name type="person" n="Lucinde">Lucinde</name> ſoit ſans témoin.</l>
                             <l>Pour épier l'inſtant qu'il faudra prendre ,</l>
                             <l>Ecartons-nous, mais ſans aller trop loin.</l>
-                            <lb/><stage type="exit" rend="italic">(Il s'en va.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage><lb/>
                         </sp>
-                   </div3>
-                    <div3 type="scene" n="4">
+                   </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>ISABELLE<pc>,</pc> LUCINDE<pc>,</pc> MELANIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Isabelle">
@@ -1783,12 +1783,12 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Au Concert, chez <name n="Harmophilette" >Harmophilette</name>,</l>
                             <l>Notre connoiſſance s'eſt faite.</l>
-                            <l>J'y chantois dans un <hi rend="italic">Concertò</hi>.</l>
+                            <l>J'y chantois dans un <hi rend="italics">Concertò</hi>.</l>
                             <l>Il me loua beaucoup, &amp; nous nous fîmes</l>
-                            <l>Politeſſe de l'œil d'abord <hi rend="italic">incognitò</hi>.</l>
+                            <l>Politeſſe de l'œil d'abord <hi rend="italics">incognitò</hi>.</l>
                             <l>Enſuite il s'aprocha ; de plus près nous nous vîmes.</l>
                             <l>Nous parlâmes à fond Muſique, &amp; nous dinîmes</l>
-                            <l>Par chanter enſemble un <hi rend="italic">Duò</hi>.</l>
+                            <l>Par chanter enſemble un <hi rend="italics">Duò</hi>.</l>
                             <l>On nous battit des mains, &amp; nous nous aplaudîmes.</l>
                             <l>Ce n'eſt pas, vous le voyez bien,</l>
                             <l>Un ardeur déclarée, un amour véritable ,</l>
@@ -1804,7 +1804,7 @@
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>La préférence eſt juſte &amp; raiſonnable.</l>
-                            <l>Vous, <name type="person" n="Mélanie">Mélanie</name>, allons, parlez preſentement.</l>
+                            <l>Vous, <name type="person" n="Melanie">Mélanie</name>, allons, parlez preſentement.</l>
                             <l part="I">C'eſt votre tour.</l>
                         </sp>
                         <sp who="Lucinde">
@@ -1957,7 +1957,7 @@
                             <l>Oh? les mots ſont vraiment d'un ſecours admirable !</l>
                             <l>Par leur moyen, aux choſes, nous prêtons</l>
                             <l>Les couleurs que nous ſouhaitons.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Mélanie">Mélanie</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Melanie">Mélanie</name>.)</stage><lb/>
                             <l>Mais ſur un point, daignez m'inſtruire,</l>
                             <l>Celui que vous goûtez, a-t'il pris pas hazard</l>
                             <l>La liberté de vous écrire?</l>
@@ -1981,7 +1981,7 @@
                         </sp>
                         <sp who="Melanie">
                             <speaker>MELANIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>Celui que vous conſidérez</l>
                             <l>Vous a-t'il honoré d'un ſemblable meſſage ?</l>
                         </sp>
@@ -2044,7 +2044,7 @@
                         </sp>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Ma chere <name type="person" n="Mélanie">Mélanie</name>, &amp; moi, je vous le jure ,</l>
+                            <l>Ma chere <name type="person" n="Melanie">Mélanie</name>, &amp; moi, je vous le jure ,</l>
                             <l>Oui , je mourrai plûtôt que de céder.</l>
                         </sp>
                         <sp who="Melanie">
@@ -2055,7 +2055,7 @@
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'ai cet après-midi des emplettes à faire.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Mélanie">Mélanie</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Melanie">Mélanie</name>.)</stage><lb/>
                             <l>VOulez-vous l'accompagner ?</l>
                         </sp>
                         <sp who="Melanie">
@@ -2067,7 +2067,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Isabelle">Iſabelle</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Isabelle">Iſabelle</name>.</stage><lb/>
                             <l><name type="person" n="Isabelle">Iſabelle</name> je vous ſuplie,</l>
                             <l>Ne paſſez pas quatre heures &amp; demie,</l>
                             <l>Car nous devons aller enſemble à l'Opéra.</l>
@@ -2117,17 +2117,17 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Mélanie">Mélanie</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Melanie">Mélanie</name>.</stage><lb/>
                             <l>Ayez cette bonté. Nous allons revenir.</l>
                         </sp>
                         <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vîte. Ne perdez pas de tems à diſcourir.</l>
                         </sp>
-                        <lb/><stage type="exit" rend="italic">(<name type="person" n="Isabelle">Iſabelle</name> &amp; <name type="person" n="Lucinde">Lucinde</name> ſortent.)</stage><lb/>
-                    </div3>
+                        <lb/><stage type="exit" rend="italics">(<name type="person" n="Isabelle">Iſabelle</name> &amp; <name type="person" n="Lucinde">Lucinde</name> ſortent.)</stage><lb/>
+                    </div2>
                     <pb n="43"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>MELANIE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Melanie">
@@ -2138,9 +2138,9 @@
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! paroiſſons  voilà <name type="person" n="Lucinde">Lucinde</name> ſeule enfin.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Mélanie">Mélanie</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Melanie">Mélanie</name>.)</stage><lb/>
                             <l>Mademoiſelle, ici, mon Maître va ſe rendre :</l>
-                            <lb/><stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
                             <l>Mais....mais, je ſuis un ſot, je viens de me méprendre.</l>
                         </sp>
                         <sp who="Melanie">
@@ -2153,7 +2153,7 @@
                         </sp>
                         <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="F">Mais d'où vient que <name type="person" n="Léandre">Léandre</name></l>
+                            <l part="F">Mais d'où vient que <name type="person" n="Leandre">Léandre</name></l>
                             <l part="I">Vous envoyez à préſent ?</l>
                         </sp>
                         <sp who="L'Epine">
@@ -2242,19 +2242,19 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, mais.... remarquez.... je vous prie....</l>
                             <l>Que c'étoit... pour m'inſtruire mieux...</l>
-                            <l>Si vous n'étiez pas <name type="person" n="Mélanie">Mélanie.</name></l>
+                            <l>Si vous n'étiez pas <name type="person" n="Melanie">Mélanie.</name></l>
                         </sp>
                         <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Hom ! de tout ceci, je ſçai que penſer.</l>
                             <l>Mais ma ſœur eſt long-tems, &amp; je vais la preſſer.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">L</c>E fâcheux interrogatoire ;</l>
                             <l>Morbleu, que je viens de subir !</l>
                             <l>Ce n'eſt pas ſans effort que je viens d'en ſortir ,</l>
@@ -2262,8 +2262,8 @@
                             <l>Mais <name type="person" n="Lucinde">Lucinde</name> en perſonne ici porte ſes pas.</l>
                             <l>C'eſt elle pour le coup, je ne m'y trompe pas.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>L'EPINE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="L'Epine">
@@ -2281,11 +2281,11 @@
                             <l part="F">J'y vole.</l>
                             <pb n="46"/>
                             <l>Mais le voici lui-même , il m'épargne ce ſoin.</l>
-                            <lb/><stage type="mixed" rend="italic">(à part en s'en allant.)</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">(à part en s'en allant.)</stage><lb/>
                             <l>Je n'ai plus rien à faire, &amp; j'ai rempli mon rôle.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -2297,7 +2297,7 @@
                             <l>Elle eſt nouvelle, elle eſt unique.</l>
                             <l part="I">Vous en ſerez charmé.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Vous en êtes l'Auteur?</l>
                         </sp>
@@ -2305,7 +2305,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Juſte, vous venez de le dire,</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Sans contredit, d'avance je l'admire.</l>
                         </sp>
@@ -2314,7 +2314,7 @@
                             <l>Je ne dis rien des vers; car ils ſont de ma ſœur.</l>
                             <l>Ils ſont entre nous deux d une miſére extrême.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Tant mieux, vous ſçavez qu'à préſent</l>
                             <l>On ne prend plus garde au Poëme ,</l>
@@ -2330,7 +2330,7 @@
                             <l>Tenez, voilà votre Partie.</l>
                         </sp>
                         <pb n="47"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Bon.</l>
                         </sp>
@@ -2341,36 +2341,36 @@
                             <l>L'un &amp; l'autre enchantés des jeux que nous voyons ,</l>
                             <l>Nous admirons de compagnie.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Nous ne nous quittons pas, &amp; mon ame eſt ravie.</l>
                             <l>Allons, m'y voilà , commençons.</l>
-                            <lb/><stage rend="italic">(il chante.</stage><lb/>
-                            <l rend="italic">Eſt-ce l'effet de la magie ?</l>
-                            <l rend="italic">Ou de l'art des mortels eſt-ce l'heureux pouvoir ?</l>
-                            <l rend="italic">Des clartés de la nuit la vue eſt éblouie,</l>
-                            <l rend="italic">Et des globes des Cieux je vois l'onde embellie.</l>
-                            <l rend="italic">Un ſpectacle plus beau jamais ne ſe fit voir.</l>
-                            <l rend="italic">Dieux! Qu'il eſt doux pour moi! J'y ſuis près de <name type="person" n="Silvie">Silvie</name>.</l>
+                            <lb/><stage rend="italics">(il chante.</stage><lb/>
+                            <l rend="italics">Eſt-ce l'effet de la magie ?</l>
+                            <l rend="italics">Ou de l'art des mortels eſt-ce l'heureux pouvoir ?</l>
+                            <l rend="italics">Des clartés de la nuit la vue eſt éblouie,</l>
+                            <l rend="italics">Et des globes des Cieux je vois l'onde embellie.</l>
+                            <l rend="italics">Un ſpectacle plus beau jamais ne ſe fit voir.</l>
+                            <l rend="italics">Dieux! Qu'il eſt doux pour moi! J'y ſuis près de <name type="person" n="Silvie">Silvie</name>.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">Fixez vos yeux ſur ce Palais charmant,</l>
-                            <l rend="italic">Et regardez, <name type="person" n="Daphnis">Daphnis</name>, cette étincelle,</l>
-                            <l rend="italic">Vous l'allez voir dans un moment</l>
-                            <l rend="italic">Y répandre l'éclat d'un vaſte embraſement.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">Fixez vos yeux ſur ce Palais charmant,</l>
+                            <l rend="italics">Et regardez, <name type="person" n="Daphnis">Daphnis</name>, cette étincelle,</l>
+                            <l rend="italics">Vous l'allez voir dans un moment</l>
+                            <l rend="italics">Y répandre l'éclat d'un vaſte embraſement.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">Ainſi le regard d'une belle</l>
-                            <l rend="italic">Met tout en feu dans le cœur d'un Amant.</l>
-                            <l rend="italic">Des jeux de l'Amour c'eſt l'image fidèle.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">Ainſi le regard d'une belle</l>
+                            <l rend="italics">Met tout en feu dans le cœur d'un Amant.</l>
+                            <l rend="italics">Des jeux de l'Amour c'eſt l'image fidèle.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage rend="italic">parle.</stage><lb/>
+                            <stage rend="italics">parle.</stage><lb/>
                             <l>Souvent ſon cœur brûlé tout le premier</l>
                             <l>Des feux que ſon regard allume,</l>
                             <l>A le ſort de l'Artificier ,</l>
@@ -2378,9 +2378,9 @@
                             <l>Le ſalpêtre avec le bitume ,</l>
                             <l>Que ſes mains viennent d'employer.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">parle.</stage><lb/>
+                            <stage rend="italics">parle.</stage><lb/>
                             <l>De ce péril, à tort, votre eſprit tremble.</l>
                             <l>Lorſque l'amour aſſortit nos ardeurs,</l>
                             <l>Et fait jouer ſa mine dans nos cœurs,</l>
@@ -2389,159 +2389,159 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">Quel prodige nouveau !</l>
-                            <l rend="italic">Le feu diſpute</l>
-                            <l rend="italic">Les couleurs au pinceau.</l>
-                            <l rend="italic">Il peint, il exécute,</l>
-                            <l rend="italic">Il trace en beau</l>
-                            <l rend="italic">Le plus parfait tableau.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">Quel prodige nouveau !</l>
+                            <l rend="italics">Le feu diſpute</l>
+                            <l rend="italics">Les couleurs au pinceau.</l>
+                            <l rend="italics">Il peint, il exécute,</l>
+                            <l rend="italics">Il trace en beau</l>
+                            <l rend="italics">Le plus parfait tableau.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">L'Amour de même en notre ame</l>
-                            <l rend="italic">D'un objet vainqueur ,</l>
-                            <l rend="italic">Avec des traits de flamme</l>
-                            <l rend="italic">Peint l'éclat fl<unclear>a</unclear>teur.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">L'Amour de même en notre ame</l>
+                            <l rend="italics">D'un objet vainqueur ,</l>
+                            <l rend="italics">Avec des traits de flamme</l>
+                            <l rend="italics">Peint l'éclat fl<unclear>a</unclear>teur.</l>
                         </sp>
                         <sp who="Léandre, Lucinde">
                             <speaker>LEANDRE &amp; LUCINDE </speaker>
-                            <stage rend="italic">enſemble.</stage><lb/>
-                            <l rend="italic">Quel vaſte globe de lumiére</l>
-                            <l rend="italic">De ſes feux répand les amas !</l>
-                            <l rend="italic">Du Dieu du jour eſt-ce le ſphére</l>
-                            <l rend="italic">Qui vient de deſcendre ici-bas?</l>
+                            <stage rend="italics">enſemble.</stage><lb/>
+                            <l rend="italics">Quel vaſte globe de lumiére</l>
+                            <l rend="italics">De ſes feux répand les amas !</l>
+                            <l rend="italics">Du Dieu du jour eſt-ce le ſphére</l>
+                            <l rend="italics">Qui vient de deſcendre ici-bas?</l>
                             <lb/><lb/>
-                            <l rend="italic">De feux quelle ſource brillante !</l>
-                            <l rend="italic">Quels objets de flamme étincelante !</l>
-                            <l rend="italic">De l'<name type="place" n="Olyme">Olimpe</name> c'eſt le tableau.</l>
-                            <l rend="italic">Ah ! Rien n'eſt ſi beau.</l>
+                            <l rend="italics">De feux quelle ſource brillante !</l>
+                            <l rend="italics">Quels objets de flamme étincelante !</l>
+                            <l rend="italics">De l'<name type="place" n="Olyme">Olimpe</name> c'eſt le tableau.</l>
+                            <l rend="italics">Ah ! Rien n'eſt ſi beau.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">parle.</stage><lb/>
-                            <l>Et vraiment cet <hi rend="italic">Ah</hi> me ravit, m'enchante.</l>
+                            <stage rend="italics">parle.</stage><lb/>
+                            <l>Et vraiment cet <hi rend="italics">Ah</hi> me ravit, m'enchante.</l>
                             <l>Belle <name type="person" n="Lucinde">Lucinde</name>, qu'il peint bien</l>
                             <l>La ſurpriſe toujours conſtante,</l>
                             <l>Et le cri du Pariſien !</l>
-                            <lb/><stage rend="italic">(Il répete avec <name type="person" n="Lucinde">Lucinde</name>,
+                            <lb/><stage rend="italics">(Il répete avec <name type="person" n="Lucinde">Lucinde</name>,
                                 Ah! Rien n'eſt ſi beau )</stage><lb/>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">L'Amour ſemblable</l>
-                            <l rend="italic">A ce ſoleil radieux,</l>
-                            <l rend="italic">Répand une lumiére aimable,</l>
-                            <l rend="italic">Et brille d'un feu gracieux.</l>
-                            <l rend="italic">Sa clarté ſuprême</l>
-                            <l rend="italic">Fait trouver les cieux</l>
-                            <l rend="italic">Dans les yeux</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">L'Amour ſemblable</l>
+                            <l rend="italics">A ce ſoleil radieux,</l>
+                            <l rend="italics">Répand une lumiére aimable,</l>
+                            <l rend="italics">Et brille d'un feu gracieux.</l>
+                            <l rend="italics">Sa clarté ſuprême</l>
+                            <l rend="italics">Fait trouver les cieux</l>
+                            <l rend="italics">Dans les yeux</l>
                             <pb n="49"/>
-                            <l rend="italic">De ce qu'on aime.</l>
+                            <l rend="italics">De ce qu'on aime.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">La gerbe foudroyante</l>
-                            <l rend="italic">Peint les efforts,</l>
-                            <l rend="italic">Les tranſports<unclear>,</unclear></l>
-                            <l rend="italic">Les fureurs,</l>
-                            <l rend="italic">Les horreurs,</l>
-                            <l rend="italic">Qu'éprouvent les cœurs</l>
-                            <l rend="italic">Que l'Amour enchante</l>
-                            <l rend="italic">Il eſt l'image effrayante</l>
-                            <l rend="italic">Du chagrin noir ,</l>
-                            <l rend="italic">Du déſeſpoir</l>
-                            <l rend="italic">Que leur honneur enfante ;</l>
-                            <l rend="italic">Des combats ,</l>
-                            <l rend="italic">Du fracas,</l>
-                            <l rend="italic">Et des éclats</l>
-                            <l rend="italic">Qui naiſſent de leurs débats.</l>
-                            <l rend="italic">Mais quelle nuit profonde</l>
-                            <l rend="italic">Succéde au feu qui diſparoît !</l>
-                            <l rend="italic">Le calme règne ſur l'Onde,</l>
-                            <l rend="italic">Tout eſt éteint, tout ſe tait.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">La gerbe foudroyante</l>
+                            <l rend="italics">Peint les efforts,</l>
+                            <l rend="italics">Les tranſports<unclear>,</unclear></l>
+                            <l rend="italics">Les fureurs,</l>
+                            <l rend="italics">Les horreurs,</l>
+                            <l rend="italics">Qu'éprouvent les cœurs</l>
+                            <l rend="italics">Que l'Amour enchante</l>
+                            <l rend="italics">Il eſt l'image effrayante</l>
+                            <l rend="italics">Du chagrin noir ,</l>
+                            <l rend="italics">Du déſeſpoir</l>
+                            <l rend="italics">Que leur honneur enfante ;</l>
+                            <l rend="italics">Des combats ,</l>
+                            <l rend="italics">Du fracas,</l>
+                            <l rend="italics">Et des éclats</l>
+                            <l rend="italics">Qui naiſſent de leurs débats.</l>
+                            <l rend="italics">Mais quelle nuit profonde</l>
+                            <l rend="italics">Succéde au feu qui diſparoît !</l>
+                            <l rend="italics">Le calme règne ſur l'Onde,</l>
+                            <l rend="italics">Tout eſt éteint, tout ſe tait.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE<pc type="affirmative">.</pc> </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
-                            <l rend="italic">Amans, voilà la deſtinée</l>
-                            <l rend="italic">Du feu qui vous ſéduit.</l>
-                            <l rend="italic">Votre flamme, dès qu'elle eſt née,</l>
-                            <l rend="italic">Eclate, fait grand bruit.</l>
-                            <l rend="italic">Mais cette ardeur empreſſée,</l>
-                            <l rend="italic">Qui d'abord nous éblouit ,</l>
-                            <l rend="italic">Hélas ! Eſt bien-tôt paſſée.</l>
-                            <l rend="italic">Tout eſt éteint dans une nuit.</l>
+                            <stage rend="italics">chante.</stage><lb/>
+                            <l rend="italics">Amans, voilà la deſtinée</l>
+                            <l rend="italics">Du feu qui vous ſéduit.</l>
+                            <l rend="italics">Votre flamme, dès qu'elle eſt née,</l>
+                            <l rend="italics">Eclate, fait grand bruit.</l>
+                            <l rend="italics">Mais cette ardeur empreſſée,</l>
+                            <l rend="italics">Qui d'abord nous éblouit ,</l>
+                            <l rend="italics">Hélas ! Eſt bien-tôt paſſée.</l>
+                            <l rend="italics">Tout eſt éteint dans une nuit.</l>
                         </sp>
                         <sp who="Léandre, Lucinde">
                             <speaker>LEANDRE <pc>,</pc> LUCINDE </speaker>
-                            <stage rend="italic">enſemble.</stage><lb/>
-                            <l rend="italic">L'Amour où <hi rend="braced"><s>mon ame</s> <s>votre ame</s></hi> eſt livrée.</l>
-                            <l rend="italic">Sera <hi rend="braced"><s>tout à la fois</s> <s>-t'il à la fois</s></hi> ardent &amp; délicat.</l>
+                            <stage rend="italics">enſemble.</stage><lb/>
+                            <l rend="italics">L'Amour où <hi rend="braced"><s>mon ame</s> <s>votre ame</s></hi> eſt livrée.</l>
+                            <l rend="italics">Sera <hi rend="braced"><s>tout à la fois</s> <s>-t'il à la fois</s></hi> ardent &amp; délicat.</l>
                             <pb n="50"/>
-                            <l rend="italic"><hi rend="braced"><s>Je jure</s> <s>Jurés-moi</s></hi> que ſa durée</l>
-                            <l rend="italic">Egalera ſon éclat.</l>
+                            <l rend="italics"><hi rend="braced"><s>Je jure</s> <s>Jurés-moi</s></hi> que ſa durée</l>
+                            <l rend="italics">Egalera ſon éclat.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> LUCINDE<pc>,</pc> GERONTE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc> </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l><c type="lettrine">D</c>E quelle mélodie inſolente,</l>
                             <l>Ma fille, faites-vous retentir ma Maiſon !</l>
                             <l>Vous êtes bien impertinente</l>
                             <l>D'aller contre mon ordre &amp; contre la raiſon.</l>
-                            <l>Qui l'oſe exécuter avec vous ? C'eſt <name type="person" n="Léandre">Léandre</name>.</l>
-                            <l><name type="person" n="Léandre">Léandre</name>, juſte Ciel ! O meurtre ! O trahiſon !</l>
+                            <l>Qui l'oſe exécuter avec vous ? C'eſt <name type="person" n="Leandre">Léandre</name>.</l>
+                            <l><name type="person" n="Leandre">Léandre</name>, juſte Ciel ! O meurtre ! O trahiſon !</l>
                             <l>A cette perfidie aurois-je dû m'attendre ?</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>La ſurpriſe &amp; la peur on glacé tous mes ſens.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je n'avois pas prévû ce contre-tems funeſte.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc> </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
                             <l>Comment donc ? Vous venez céans</l>
                             <l>Pratiquer l'art maudit d'un Chant que je déteſte ?</l>
                             <l>Vous venez pervertir le goût de mes enfans ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Monſieur...</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Vous me jouez ce tour des plus ſanglans,</l>
                             <l>Vous, que je regardois comme un ami ſincére ;</l>
                             <l>Et comme un des grands Partiſans</l>
                             <l>De la bonne Muſique, elle qui m'eſt ſi chére !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Daignés...</l>
                         </sp>
                         <pb n="51"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous que jaimois comme mon fils enfin ;</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais, ayez donc, Monſieur, la bonté de m'entendre.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous, que je prétendois faire au plûtôt mon gendre</l>
                             <l>O Ciel ! Quel étoit mon deſſein !</l>
@@ -2549,34 +2549,34 @@
                             <l>J'allois chez moi, j'allois mettre un Anti-Lulliſte,</l>
                             <l>C'eſt-à-dire, placer un ſerpent dans mon ſein !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Monſieur, calmés vos ſens, &amp; m'écoutés, de grace,</l>
                             <l>Du bon chemin rien ne peut m'écarter.</l>
                             <l>Ce que j'en fais eſt pour mieux éxciter</l>
                             <l>Mademoiſelle, à ſuivre votre trace.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Quoi ! Le morceau qu'ici...</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">C'eſt pour l'en dégoûter ,</l>
                             <l>Que je viens de l'excécuter :</l>
                             <l>Pour lui faire ſentir le ridicule extrême</l>
                             <l>Du goût Italien qu'elle aime.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Seroit-il poſſible !</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Oui, pour n'en plus douter,</l>
                             <l>Un moment daignés écouter.</l>
-                            <lb/><stage type="business" rend="italic">(Il chante le morceau de la Gerbe foudroyante, &amp; <lb/> le charge beaucoup )</stage><lb/>
-                            <lb/><stage type="mixed" rend="italic">(à <name type="person" n="Lucinde">Lucinde</name>, après avoir chanté.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il chante le morceau de la Gerbe foudroyante, &amp; <lb/> le charge beaucoup )</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">(à <name type="person" n="Lucinde">Lucinde</name>, après avoir chanté.)</stage><lb/>
                             <l>Hem! Vous ſentez Mademoiſelle,</l>
                             <l>Combien cette Muſique eſt perfide &amp; cruelle,</l>
                             <l>Sous ſes accords chargés, la nature gémit.</l>
@@ -2585,31 +2585,31 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc> </speaker>
                             <l part="I">Elle a de l'harmonie.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc> </speaker>
                             <l part="F">Ah! Ce n'eſt qu'un vain bruit</l>
                         </sp>
                         <pb n="52"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un charivari, rien n'eſt plus miſérable.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un chaos de ſons, dont le grand nombre accable ;</l>
                             <l>Il étourdit les ſens, ſans rien peindre à l'eſprit.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui ce diſcours eſt véritable.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Preſentement, Monſieur, jugé ſi ces accens ,</l>
                             <l>Et la façon dont je les rends,</l>
                             <l>Doivent vous allarmer &amp; ſont faits pour ſéduire.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , j'avois pris le change, &amp; n'ai plus rien à dire.</l>
                             <l>Pardonnés , je vous prie , à ma vivacité.</l>
@@ -2618,23 +2618,23 @@
                             <l>En faveur du motid vous devez l'oublier.</l>
                             <l>C'eſt à moi maintenant de vous remercier.</l>
                             <l>Pour corriger ma fille, on ne peut mieux<sic></sic><corr> </corr>s'y prendre</l>
-                            <l>Continués, mon cher <name type="person" n="Léandre">léandre</name>,</l>
+                            <l>Continués, mon cher <name type="person" n="Leandre">léandre</name>,</l>
                             <l>Cultivés le bon goût au ſeil de ma Maiſon.</l>
                             <l>Je veux qu'à l'avenir vous y donniés le ton,</l>
                             <l>Et que de vos conſeils tout le monde y profite.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Courage, &amp; de deux. Paſſons vîte.</l>
                             <l>A notre troiſiéme leçon.</l>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p><lb/>
-                    </div3>
-                </div2>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></trailer><lb/>
+                    </div2>
+                </div1>
                 <pb n="53"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>ISABELLE<pc>,</pc>  LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Isabelle">
@@ -2740,7 +2740,7 @@
                         <sp who="Lucinde">
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Rien n'eſt plus fortuné, je m'en réjouis fort.</l>
-                            <l>La pauvre <name type="person" n="Mélanie">Mélanie</name>, elle ſeule eſt à plaindre.</l>
+                            <l>La pauvre <name type="person" n="Melanie">Mélanie</name>, elle ſeule eſt à plaindre.</l>
                             <l>On lui prépare un triſte ſort ;</l>
                             <l>Mais comment ferons-nous,ſi l'on veut la contraindre?</l>
                             <l>Nous avons f<unclear>a</unclear>it ſerment de prendre ſon parti.</l>
@@ -2769,28 +2769,28 @@
                             <l part="F">Ah ! Je les ai laiſſées</l>
                             <l>Sur ma table tantôt, &amp; je cours les chercher.</l>
                         </sp>
-                     </div3>
+                     </div2>
                     <pb n="56"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><c type="lettrine">V</c>ous entrez à propos ; allés dire à <name type="person" n="Léandre">léandre</name></l>
+                            <l><c type="lettrine">V</c>ous entrez à propos ; allés dire à <name type="person" n="Leandre">léandre</name></l>
                             <l>Que je m'en vais à l'Opéra ;</l>
                             <l>Qu'il ne manque pas de s'y rendre,</l>
                             <l>Qu'à coup ſûr il m'y trouvera.</l>
-                            <lb/><stage type="exit" rend="italic">(Elle part.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Elle part.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">J</c>E crois qu'elle aura beau l'attendre.</l>
                             <l>Elle &amp; ſa Sœur aînée ont eu déja leur tour ,</l>
-                            <l>C'eſt a préſent celui de <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <l>C'eſt a préſent celui de <name type="person" n="Melanie">Mélanie</name>.</l>
                             <l>Il attend pour venir lui faire ſa cour ,</l>
                             <l>Que l'une &amp; l'autre ſoit ſortie.</l>
                             <l>Je dois m'en informer &amp; puis l'en avertir.</l>
@@ -2800,9 +2800,9 @@
                             <l>Il faut qu'adroitement j'interroge <name type="person" n="Lisette">Liſette</name>.</l>
                             <l>Bon , la voilà qui vient comme je le ſouhaite.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="57"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>L'EPINE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="L'Epine">
@@ -2814,80 +2814,80 @@
                             <l>Les doux ſons de votre Vielle.</l>
                             <l>Dites-moi ſeulement.</l>
                         </sp>
-                        <lb/><stage rend="italic">(<name type="person" n="Lisette">Liſette</name> jouë en l'interrompant.)</stage><lb/>
+                        <lb/><stage rend="italics">(<name type="person" n="Lisette">Liſette</name> jouë en l'interrompant.)</stage><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Là, rien qu'un mot, je vous ſupplie,</l>
                             <l>Pour aller voir cet Opéra nouveau</l>
                             <l><name type="person" n="Isabelle">Iſabelle</name> eſt-elle partie ?</l>
                         </sp>
-                        <lb/><stage rend="italic">(<name type="person" n="Lisette">Liſette</name> jouë toujours.)</stage><lb/>
+                        <lb/><stage rend="italics">(<name type="person" n="Lisette">Liſette</name> jouë toujours.)</stage><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous me régalez-là d'un fort joli Cadeau ,</l>
                             <l>Et vous en jouez comme un Ange.</l>
                             <l>Mais, <name type="person" n="Isabelle">Iſabelle</name>... Ah ! quelle rage étrange !</l>
                         </sp>
-                        <lb/><stage rend="italic">(<name type="person" n="Lisette">Liſette</name> redouble ſans dire mot.)</stage><lb/>
+                        <lb/><stage rend="italics">(<name type="person" n="Lisette">Liſette</name> redouble ſans dire mot.)</stage><lb/>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vais batre des mains pour la faire ceſſer.</l>
-                            <lb/><stage rend="italic">(Il bat des mains.)</stage><lb/>
+                            <lb/><stage rend="italics">(Il bat des mains.)</stage><lb/>
                             <l>Mes aplaudiſſemens la font recommencer.</l>
                             <l>Pour converſer avec une pareille folle ,</l>
                             <l>Je ne vois qu'un parti : faiſons la capriole.</l>
                             <l>Pour ſignaler votre art, allons, n'épargnez rien.</l>
                             <l>Je vais faïre briller le mien.</l>
                         </sp>
-                        <lb/><lb/><stage rend="italic">(<name type="person" n="Lisette">Liſette</name> jouë toujours en ſautant , &amp; <name type="person" n="L'Epine">l'Epine</name> la 
+                        <lb/><lb/><stage rend="italics">(<name type="person" n="Lisette">Liſette</name> jouë toujours en ſautant , &amp; <name type="person" n="L'Epine">l'Epine</name> la 
                             <lb/> pourſuit en danſant. )</stage><lb/>
-                    </div3> 
+                    </div2> 
                     <pb n="58"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> L'EPINE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="L'Epine">l'Epine</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="L'Epine">l'Epine</name>.</stage><lb/>
                             <l><c type="lettrine">P</c>Arles donc, es-tu fou? Quelle ardeur te tranſporte?</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="business" rend="italic">danſant.</stage><lb/>
+                            <stage type="business" rend="italics">danſant.</stage><lb/>
                             <l>Les Talens, Monſieur, les Talens.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Comment donc ?</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="business" rend="italic">toujours danſant.</stage><lb/>
+                            <stage type="business" rend="italics">toujours danſant.</stage><lb/>
                             <l part="F">C'eſt l'amour des Talens qui m'emporte.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais il te convient bien, maraud, lorſque j'attends,</l>
                             <l part="I">De danſer...</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="business" rend="italic">danſant encore.</stage><lb/>
+                            <stage type="business" rend="italics">danſant encore.</stage><lb/>
                             <l part="F">Comme ils vous entraînent <name type="person" n="L'Epine">l'Epine</name>,</l>
                             <l>Sur-tout dès qu'il entre céans.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Dis, <name type="person" n="Lucinde">Lucinde</name>...</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE </speaker>
-                            <stage type="business" rend="italic">continuant à danſer.</stage><lb/>
+                            <stage type="business" rend="italics">continuant à danſer.</stage><lb/>
                             <l part="F">Oui, Monſieur, leur pouvoir me lutine ;</l>
                             <l>Ils ont percé dans ces lieux ſéduiſans,</l>
                             <l>Juſques dans l'anti-chambre où leur fureur domine.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Veux-tu?...</l>
                         </sp>
@@ -2896,7 +2896,7 @@
                             <l part="F">Vous voyez bien cette aimable coquine,</l>
                             <l>Elle en poſſéde d'étonnans.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">veux-tu bien me répondre?</l>
                         </sp>
@@ -2909,24 +2909,24 @@
                             <l>Et jamais elle ne babille.</l>
                             <l>Daignez un peu, Monſieur, l'interroger, pour voir.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt le parti que je vais prendre ;</l>
                             <l>Mais tu me le pairas ce ſoir.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Lisette">Liſette</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Lisette">Liſette</name>.)</stage><lb/>
                             <l>Ayez, ma belle enfant, la bonté de m'aprendre</l>
                             <l>Si <name type="person" n="Lucinde">Lucinde</name> n'eſt pas allée à l'Opéra.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! voyez donc comme elle <sic>t</sic><corr>r</corr>épondra !</l>
-                            <lb/><stage type="mixed" rend="italic">(<name type="person" n="Lisette">Liſette</name> joue &amp; s'en va.)</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">(<name type="person" n="Lisette">Liſette</name> joue &amp; s'en va.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> L'EPINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">C</c>ette fille eſt vraiment d'un plaiſant caractére ,</l>
                             <l part="I">Il faut que...</l>
@@ -2941,7 +2941,7 @@
                             <l>Que trois airs de Vielle avec un ſaut badin.</l>
                             <l>Pour <name type="person" n="Lucinde">Lucinde</name>, je ſçai qu'elle eſt déja partie.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><name type="person" n="L'Epine">L'Epine</name>, en es-tu bien certain ?</l>
                         </sp>
@@ -2953,7 +2953,7 @@
                             <l>De l'aller trouver.</l>
                         </sp>
                         <pb n="60"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Il ſuffit,</l>
                             <l part="I">Je ſuis content.</l>
@@ -2962,15 +2962,15 @@
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Mais, <name type="person" n="Isabelle">Iſabelle</name>?....</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle ſt à l'Opéra. J'ai pour garant fidele,</l>
                             <l>J'ai ce Billet qu'elle m'écrit.</l>
                             <l>Pour comble de fortune ,</l>
-                            <l><name type="person" n="Géronte">Géronte</name> y doit aller auſſi.</l>
+                            <l><name type="person" n="Geronte">Géronte</name> y doit aller auſſi.</l>
                             <l>Comme je crains ſa preſence importune,</l>
                             <l>J'attens qu'il ne ſoit plus ici ,</l>
-                            <l>Pour voir en liberté l'aimable <name type="person" n="Mélanie">Mélanie</name>.</l>
+                            <l>Pour voir en liberté l'aimable <name type="person" n="Melanie">Mélanie</name>.</l>
                         </sp>
                         <sp who="L'Epine">
                             <speaker>L'EPINE<pc type="affirmative">.</pc></speaker><lb/>
@@ -2978,7 +2978,7 @@
                             <l>Mais, <name type="person" n="Lucinde">Lucinde</name>, Monſieur, vous parle par ma voix.</l>
                             <l>de l'aller joindre elle vous preſſe.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Sa Sœur en fait autant par une lettre expreſſe ;</l>
                             <l>Mais je ne puis pas, à la fois,</l>
@@ -3002,7 +3002,7 @@
                             <l>Un véritable amant différemment la prouve.</l>
                         </sp>
                         <pb n="61"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais, tu me mets à tort au nombre des amans :</l>
                             <l>Songes que je ne ſuis qu'amateur des Talens</l>
@@ -3014,7 +3014,7 @@
                             <l>Mais ſatisfera-t'il ces trois objets charmans ?</l>
                             <l>Et croyez vous, Monſieur, que leur Pere l'aprouve</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>S'il aprouve, <name type="person" n="L'Epine">l'Epine</name>? Oh! vraiment je le croi.</l>
                             <l>Il fait plus, il m'en preſſe, il me le recommande ,</l>
@@ -3038,7 +3038,7 @@
                             <l>Négliger la beauté,dédaigner la ſageſſe :</l>
                             <l>Fait triompher le vice, &amp; même la laideur.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>On fait des plus beaux dons, les plus mauvais uſages;</l>
                             <l>Et des Talens tu cites les abus.</l>
@@ -3077,24 +3077,24 @@
                             <l>Les airs panchés, &amp; tel autre attirail,</l>
                             <l>Avant-coureurs certains de la coquetterie.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>La beauté que j'attens ici</l>
                             <l>N'eſt pas telle ; mais la voici.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="63"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> MELANIE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">A</c>H! nous pouvons enfin nous parler ſans obſtacle,</l>
                             <l>Mon Pere &amp; mes deux Sœurs ſont allés au ſpectacle.</l>
                             <l>Moi, je vous avouerai que je n'y vais jamais,</l>
                             <l>Que pour y voir danſer dans les Balets.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'adore comme vous la Danſe ;</l>
                             <l>Rien n'égale ſon éloquence.</l>
@@ -3103,12 +3103,12 @@
                             <l>La converſation n'eſt jamais languiſſante.</l>
                             <l>Ah! ce coulé, la releve toujours.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et ce pas de côté la rend intéreſſante.</l>
                             <l>Celle qui parle aux yeux eſt la plus amuſante.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour commencer notre entretien flâteur,</l>
                             <l>En arrivant , d'abord je vous ſaluë,</l>
@@ -3117,49 +3117,49 @@
                             <l>Sur tous les mouvemens de ſa jambe tendue ,</l>
                             <l>Eſt ſon premier admirateur.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et moi, je vous reçois avec l'air de grandeur</l>
                             <l>Qu'étalent à vos yeux nos Danſeuſes illuſtres ,</l>
                             <l>De qui les bras par leur hauteur</l>
                             <l>Semblent vouloir toucher &amp; dépendre les Luſtres.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce dévelopement annonce que mon cœur</l>
                             <l>Va devant vous dévoiler ſa langueur.</l>
                         </sp>
                         <pb n="64"/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce mouvement ſoudain qu'un trouble feint anime,</l>
                             <l>Prouve au moins que je ſçai bien jouer la pudeur.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Chaſſez une injuſte frayeur.</l>
                             <l>Ce pas de Loure vous exprime</l>
                             <l>La plus parfaite &amp; la plus tendre eſtime.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et je répons à cet aveu diſcret,</l>
                             <l>Par quatre pas de menuet.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous mépriſez ma flâme ſérieuſe;</l>
                             <l>Puiſque vous n'aimez pas la Danſe langoureuſe ,</l>
                             <l>Je vais plus vivement marquer mon feu ſecret.</l>
-                            <lb/><stage type="business" rend="italic">(Il fait la pirouette &amp; pluſieurs jettés battus.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il fait la pirouette &amp; pluſieurs jettés battus.)</stage><lb/>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je redoute un amour ſi vif &amp; ſi coquet.</l>
                             <l>Adieu, je fuis à tire d'aile ,</l>
                             <l>Et j'imite, en courant, le vol de l'Hirondelle.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cruelle! vous fuyez, mais vos efforts ſont vains ?</l>
                             <l>Pour vous punir d'une telle incartade ,</l>
@@ -3167,7 +3167,7 @@
                             <l>Et je vous ferme les chemins</l>
                             <l>Par une gargouillade.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne puis marcher. Que vais-je devenir?</l>
                             <l>Dans ce danger preſſant ne perdons point la tête,</l>
@@ -3181,7 +3181,7 @@
                             <l>Que l'on parvient à ſe faire chérir ?</l>
                         </sp>
                         <pb n="65"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſuis vaincu moi-même, &amp; vous demande grace ;</l>
                             <l>Par la ſeule douceur je veux vous attendrir ;</l>
@@ -3189,73 +3189,73 @@
                             <l>Mes pieds aurpès de vous ne tiennent point en place.</l>
                             <l>Mon cœur eſt tranſporté ! Que je baiſe ce bras.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Le baiſer ! doucement, car ce n'eſt pas un pas.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt une expreſſion, il en faut dans la Danſe.</l>
                             <l>Je puis d'ailleurs le baiſer en cadence.</l>
-                            <l part="I">Ah !   </l> <stage type="business" rend="italic">(il lui baiſe le bras en danſant.)</stage><lb/>
+                            <l part="I">Ah !   </l> <stage type="business" rend="italics">(il lui baiſe le bras en danſant.)</stage><lb/>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Taiſez-vous, petit badin,</l>
                             <l>Mon cœur en eſt ému, ma vertu s'en offenſe.</l>
                             <l>Vous m'avez fait un vrai chagrin.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre pudeur a tort, dites-lui de ſe taire.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je me fâcherois à la fin !</l>
                             <l>Reſpectez mieux la bienſéance.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mes moindres pas ſont ſoumis à ſon frein ;</l>
                             <l>Et juſques dans mes ſauts je ets de la décence.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Le Danſeur qu'elle guide eſt le plus ſéducteur.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vais donc employer ſon coloris flateur ,</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De ce pas-là j'admire l'élégance.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De celui-ci regardez la douceur.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Qu'il eſt tendre ! Ah ! je ſens qu'il me ravit le cœur !</l>
                             <l>Je combats vainement ſa puiſſance ſecrette.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>O ciel ! Eſt-il bien vrai ? Suis-je votre vainqueur ?</l>
                         </sp>
                         <pb n="66"/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cette attitude-là vous marque ma défaite.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Que mon bonheur eſt doux! Que ma joye eſt parfaite!</l>
                             <l>Et que ma victoire à d'éclat !</l>
                             <l>Je vais la célébrer par un double entrechat.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, modérez plûtôt l'ardeur qui vous domine.</l>
                             <l>Soyez vainqueur modeſte, &amp; triomphez ſans bruit.</l>
@@ -3263,23 +3263,23 @@
                             <l>Veut célébrer un bien qui le ſéduit,</l>
                             <l>Que ce ſoit par une ſourdine.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ainſi qu'un Papillon, je vole ſans fracas.</l>
                             <l>Mon eſſor eſt rapide , &amp; l'on ne l'entend pas.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous imitez par l'inconſtance</l>
                             <l>Ce même Papillon dont le vol eſt ſi doux.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Par mes pas ſeulement j'imite ſon ſilence.</l>
                             <l>Si l'on me voit voler, ce n'eſt qu'au tour de vous.</l>
-                            <lb/><stage type="business" rend="italic">Il voltige autour d'elle.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il voltige autour d'elle.)</stage><lb/>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et moi je voltige incertaine....</l>
                             <l>La Raiſon me retient, &amp; le Penchant m'entraîne.</l>
@@ -3288,21 +3288,21 @@
                             <l>L'Amour veut triompher ; l'effroi vient le combattre.</l>
                             <l>Il me fait reculer trois pas.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="business" rend="italic">lui tendant la main.</stage><lb/>
+                            <stage type="business" rend="italics">lui tendant la main.</stage><lb/>
                             <l>Ah ! Dans le même inſtant, pour en avancer quatre ,</l>
                             <l>L'Amour vous préſente mon bras.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'accepte avec plaiſir le ſecours qu'il m'envoye.</l>
-                            <l><name type="person" n="Léandre">Léandre</name>, enfin vous l'emportez ,</l>
+                            <l><name type="person" n="Leandre">Léandre</name>, enfin vous l'emportez ,</l>
                             <l>Et cette main que vous me préſentez</l>
                             <l>Me raméne au penchant dont je deviens la proye.</l>
                         </sp>
                         <pb n="67"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous comblez mon raviſſement</l>
                             <l>Par un doux entrelacement,</l>
@@ -3310,8 +3310,8 @@
                             <l>Et par nos pas, que nos pieds, tour à tour ,</l>
                             <l>Tracent en l'air divers chiffres d'amour.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> MELANIE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -3319,7 +3319,7 @@
                             <l><c type="lettrine">V</c>Ous formez un tableau dont j'admire la grace.</l>
                             <l>L'attitude eſt parlante, &amp; je viens l'aplaudir.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Qui vous oblige donc ſi-tôt à revenir ?</l>
                         </sp>
@@ -3330,13 +3330,13 @@
                             <l>Vous avez vos raiſons pour reſter ſolitaire :</l>
                             <l>Et la Danſe particuliére</l>
                             <l>Vous paroît préférable aux Balets généraux.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Léandre">Léandre</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Leandre">Léandre</name>.)</stage><lb/>
                             <l>Pour vous, Monſieur, je dois vous faire une querelle.</l>
                             <l>Votre tems eſt bien pris pour danſer avec elle?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>Ah! De grace ; ne dites rien.</l>
                         </sp>
                         <sp who="Lucinde">
@@ -3345,18 +3345,18 @@
                             <l>Ce que j'en fais eſt pour un bien.</l>
                             <l>Vous avez tous les deux bien-tôt fait connoiſſance ?</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous même, à ne vous rien nier,</l>
                             <l>Vous parlez à Monſieur d'un air bien familier ?</l>
                         </sp>
                         <pb n="68"/>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Mélanie">Mélanie</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Melanie">Mélanie</name>.</stage><lb/>
                             <l>Pour votre gloire, ici ne faites rien paroître.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, non , ce point par moi veut être démêlé.</l>
                             <l part="I">Votre ton me ſurprend.</l>
@@ -3365,7 +3365,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Il eſt tel qu'il doit être.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous avez donc l'honneur de le connoître?</l>
                         </sp>
@@ -3373,15 +3373,15 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui vaiment, c'eſt celui dont je vous ai parlé.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Quo! Votre Chanteur eſt <name type="person" n="Léandre">Léandre</name> ?</l>
+                            <l>Quo! Votre Chanteur eſt <name type="person" n="Leandre">Léandre</name> ?</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il vous a déja dit ſon nom?</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><name type="person" n="Lucinde">Lucinde</name> qu'elle trahiſon !</l>
                             <l>Autant qu'elle m'étonne, elle va vous ſurprendre.</l>
@@ -3392,17 +3392,17 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Ah , le coquet!</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Ah , le fripon!</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> MELANIE<pc>,</pc> LUCINDE<pc>,</pc> <lb/> ISABELLE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><name type="person" n="Léandre"><c type="lettrine">L</c>Eandre</name>, je vous cherche, &amp; je ſuis très-ravie</l>
+                            <l><name type="person" n="Leandre"><c type="lettrine">L</c>Eandre</name>, je vous cherche, &amp; je ſuis très-ravie</l>
                             <l>De vous trouvez préſentement ici.</l>
                         </sp>
                         <sp who="Lucinde">
@@ -3412,7 +3412,7 @@
                         <pb n="69"/>
                         <sp who="Isabelle">
                             <speaker>ISABELLE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Je puis parler devant <name type="person" n="Lucinde">Lucinde</name> &amp; <name type="person" n="Mélanie">Mélanie</name> ,</l>
+                            <l>Je puis parler devant <name type="person" n="Lucinde">Lucinde</name> &amp; <name type="person" n="Melanie">Mélanie</name> ,</l>
                             <l>Elles ſçavent notre ſecret.</l>
                             <l>Je ſors d'avec mon pere, &amp; ſur votre ſujet,</l>
                             <l>Il vient de s'expliquer d'une façon charmante.</l>
@@ -3421,7 +3421,7 @@
                             <l>Som ame impatiente</l>
                             <l>Veut que l'hymen, ce ſoir, nous uniſſe tous deux.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous comptez être ſon épouſe ?</l>
                         </sp>
@@ -3430,7 +3430,7 @@
                             <l>Oui ; vous ne devez pas en paroître jalouſe,</l>
                             <l>C'eſt le Bel-eſprit qui me ſert.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il ne vous ſert pas ſeule, &amp; j'ai droit d'y prétendre</l>
                             <l part="I">C'eſt mon homme du Bal.</l>
@@ -3449,7 +3449,7 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour moi, je n'y puis rien comprendre.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous chantez, vous danſez, &amp; vous faites des Vers ?</l>
                             <l>C'eſt réunir, Monſieur, trop de talens divers.</l>
@@ -3459,7 +3459,7 @@
                             <l>Mais quel eſt donc l'eſpoir où votre eſprit ſe fonde.</l>
                             <l>Et quel rôle ici faites-vous ?</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais, celui d'un homme du monde.</l>
                             <l>Sans faire des talens une étude profonde,</l>
@@ -3474,7 +3474,7 @@
                             <l>Mais la méthode eſt admirable !</l>
                             <l>Et le voile eſt charmant pour ſa légéreté.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt un devoir indiſpenſable,</l>
                             <l>Dont le monde lui fait une néceſſité.</l>
@@ -3487,7 +3487,7 @@
                             <l>Vous raſſemblez toutes les trois,</l>
                             <l>Les différentes fleurs dont mon cœur a fait le choix.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mes Sœurs &amp; moi, nous ſommes la Grenade,</l>
                             <l>La fleur d'Orange, avec l'Oeillet</l>
@@ -3501,7 +3501,7 @@
                             <l>Vous prenez un mauvais parti.</l>
                             <l>Il vaut mieux ignorer, qu'être inſtruit à demi.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>A votre ſentiment ſouffrez que je m'opoſe.</l>
                             <l>Trop de ſçavoir fait un pédant,</l>
@@ -3519,23 +3519,23 @@
                             <l>Pour moi, je ne ſçai plus que dire.</l>
                         </sp>
                         <pb n="71"/>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je voudrois contre lui me fâcher &amp; très-fort.</l>
                             <l>Mais inutilement, il eſt fait pour ſéduire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> MELANIE<pc>,</pc> LUCINDE<pc>,</pc> <lb/> ISABELLE<pc>,</pc> GERONTE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">J</c>E viens dans ce moment, je viens hâter les nœuds,</l>
                             <l>Qui vont nous rendre tous heureux.</l>
                             <l>Mon cher <name>Léandre</name>, en épouſant ma fille ,</l>
                             <l>Vous ferez le bonheur de toute ma famille.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>L'honneur que je reçois flate mes plus doux vœux,</l>
                             <l>Et me voir votre Gendre eſt un bien où j'aſpire.</l>
@@ -3557,7 +3557,7 @@
                             <l>Et voilà ce qui rend mon eſprit incertain.</l>
                         </sp>
                         <pb n="72"/>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais j'ai choiſi pour vous; <name type="person" n="Isabelle">Iſabelle</name> eſt l'aînée ,</l>
                             <l>Et ma main vous l'a deſtinée.</l>
@@ -3575,7 +3575,7 @@
                             <l>Je ne dois pas céder en rien.</l>
                             <l>La gloire de mon art s'y trouve intéreſſée.</l>
                         </sp>
-                        <sp who="Mélanie">
+                        <sp who="Melanie">
                             <speaker>MELANIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Attendez, il me vient une bonne penſée.</l>
                             <l>De finir la diſpute, elle m'offre un moyen</l>
@@ -3595,18 +3595,18 @@
                             <l>Qui ſe diſputent à la fois,</l>
                             <l>L'honneur de ſoumettre à leurs loix</l>
                             <l>Un génie agréable &amp; plus léger encore.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Isabelle">Iſabelle</name>.)</stage><lb/>
-                            <l>Vous ſerez <name type="person" n="Melpomène"><hi rend="italic">Melpoméne</hi></name>, 
-                                &amp; <name type="person" n="Lucinde">Lucinde</name> <name type="person" n="Erato"><hi rend="italic">Erato</hi></name> ;</l>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Isabelle">Iſabelle</name>.)</stage><lb/>
+                            <l>Vous ſerez <name type="person" n="Melpomène"><hi rend="italics">Melpoméne</hi></name>, 
+                                &amp; <name type="person" n="Lucinde">Lucinde</name> <name type="person" n="Erato"><hi rend="italics">Erato</hi></name> ;</l>
                             <l>Moi , je ſerai la Muſe de la Danſe ;</l>
-                            <l><name type="person" n="Léandre">Léandre</name> , le génie enclin à l'inconſtance</l>
+                            <l><name type="person" n="Leandre">Léandre</name> , le génie enclin à l'inconſtance</l>
                             <pb n="73"/>
-                            <l>Qui volera autour du <hi rend="italic">trio</hi>.</l>
+                            <l>Qui volera autour du <hi rend="italics">trio</hi>.</l>
                             <l>Celle de nous dont l'art &amp; la puiſſance ,</l>
                             <l>Près d'elle fixeront ce Silphe favori ,</l>
                             <l>Obtiendra la victoire &amp; l'aura pour mari.</l>
                         </sp>
-                        <sp who="Géronte">
+                        <sp who="Geronte">
                             <speaker>GERONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je trouve cette idée heureuſe ,</l>
                             <l>Et je donne mon agrément</l>
@@ -3623,11 +3623,11 @@
                             <l>J'y conſens auſſi de bon cœur ,</l>
                             <l>Et j'eſpére y trouver ma gloire.</l>
                         </sp>
-                        <sp who="Léandre">
+                        <sp who="Leandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Moi, je ſuis ſûr d'y trouver mon bonheur.</l>
                         </sp>
-                        <p><hi rend="italic">La Piéce dénouë par une Pantomime, où l'on voit 
+                        <p><hi rend="italics">La Piéce dénouë par une Pantomime, où l'on voit 
                             <lb/> d'abord <name type="person" n="Melpomène">Melpoméne</name> endormie. Pluſieurs Songes volent 
                             <lb/> autour d'elle, &amp; veulent empêcher le Génie qui pa-
                             <lb/>roît d'aprocher du Trône où elle repoſe. <name type="person" n="Melpomène">Melpoméne</name> ſe 
@@ -3650,10 +3650,9 @@
                             <lb/> charmes de <name type="person" n="Terpsichore">Terpſicore</name>, qui triomphe de ſes deux Sœurs. 
                             <lb/> La Fête finit par un Tambourin danſé par le Génie, 
                             <lb/> &amp; par la Déeſſe des Entrechats.</hi></p>
-                        <lb/><lb/><lb/><p rend="center">FIN.</p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
