@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>La critique: édition numérique</title>
+                <title type="main">La Critique de l'Auteur superstitieux</title>
+                <title type="subtitle">Édition électronique.</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -91,8 +92,7 @@
             <div1 type="title">
                 <head>LA <lb/>CRITIQUE, <lb/><hi rend="italic">COMEDIE.</hi></head><lb/>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+                <div1 type="scene" n="1">
                     <head>SCENE I.</head><lb/>
                     <stage>APOLLON, THALIE.</stage><lb/>
                     <sp who="Thalie">
@@ -162,8 +162,8 @@
                         <speaker>APOLLON.</speaker><lb/>
                         <l part="F">J'admire ſon audace !</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="2">
+                </div1>
+                <div1 type="scene" n="2">
                     <head>SCENE II.</head><lb/>
                     <stage>APOLLON, UN AUTEUR.</stage><lb/>
                     <sp who="Apollon">
@@ -252,8 +252,8 @@
                         <l>Eclaire &amp; ne brûle jamais.</l>
                     </sp>
                     <stage type="exit"><hi rend="italic">(L'auteur s'en va.)</hi></stage>
-                </div2>
-                <div2 type="scene" n="3">
+                </div1>
+                <div1 type="scene" n="3">
                     <head>SCENE III.</head><lb/>
                     <stage>APOLLON, CHRISANTE.</stage><lb/>
                     <sp who="Apollon">
@@ -661,8 +661,8 @@
                         <l>Et d'<name type="person" n="Apollon">Apollon</name> &amp; de toute ſa clique.</l>
                         <lb/><stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV.</head><lb/>
                     <sp who="Apollon">
                         <speaker>APOLLON </speaker>
@@ -673,9 +673,9 @@
                         <l>Qui dans <name type="place" n="Paris">Paris</name> a plus d'une Copie.</l>
                         <l>La Critique paroît ; c'eſt elle, je la vois.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="32"/>
-                <div2 type="scene" n="5">
+                <div1 type="scene" n="5">
                     <head>SCENE V.</head><lb/>
                     <stage>APOLLON, LA CRITIQUE.</stage><lb/>
                     <sp who="Apollon">
@@ -697,8 +697,8 @@
                         <l>Que pour éclairer les Auteurs.</l>
                     </sp>
                     <stage type="exit"><hi rend="italic">(<name type="person" n="Apollon">Apollon</name> s'en va.)</hi></stage>
-                </div2>
-                <div2 type="scene" n="6">
+                </div1>
+                <div1 type="scene" n="6">
                     <head>SCENE VI.</head><lb/>
                     <stage>LA CRITIQUE, LA MEDISANCE.</stage><lb/>
                     <sp who="La Médisance">
@@ -964,8 +964,8 @@
                         <l>D'arriver a <name type="place" n="Paris">Paris</name> pour ſoulager mon cœur,</l>
                         <l>Et la tourner en ridicule</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="7">
+                </div1>
+                <div1 type="scene" n="7">
                     <head>SCENE VII.</head><lb/>
                     <stage>LA CRITIQUE, LE VAUDEVILLE.</stage><lb/>
                     <sp who="Le Vaudeville">
@@ -1296,9 +1296,9 @@
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
                         <l>Taupe à la raillerie.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="46"/>
-                <div2 type="scene" n="8">
+                <div1 type="scene" n="8">
                     <head>SCENE VIII.</head><lb/>
                     <stage>LA CRITIQUE, LE VAUDEVILLE, <lb/> ARLEQUIN.</stage><lb/>
                     <sound><hi rend="italic">On joue la Marche de <name type="person" n="Coresus">Coreſus</name>, ſur l'air , Faites de-<lb/>croter vos ſouliers.</hi></sound><lb/>
@@ -1525,9 +1525,9 @@
                         <l>Le cheval <name n="Pégase">Pégaſe</name> danſe ,</l>
                         <l>Et qu'il hanniſſe un couplet.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="51"/>
-                <div2 type="scene" n="9">
+                <div1 type="scene" n="9">
                     <head>SCENE DERNIERE.</head><lb/>
                     <stage>LE VAUDEVILLE, LA CRITIQUE, <lb/> LA CONTREDANSE, <lb/> LE MENUET, &amp;c.</stage><lb/>
                     <stage type="business"><hi rend="italic">On danſe.</hi></stage>
@@ -1571,8 +1571,8 @@
                         <lb/><lb/>
                         <p rend="center"><hi rend="italic">FIN.</hi></p>
                     </sp>
-                </div2>
-            </div1>
+                </div1>
+            
         </body>
     </text>
 </TEI>
