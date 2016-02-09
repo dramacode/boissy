@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le Sage étourdi: édition numérique</title>
+                <title type="main">Le Sage étourdi</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -65,12 +66,12 @@
                 <pb n="1"/>
                 <docTitle>
                     <titlePart type="main">LE SAGE <lb/>ÉTOURDI <pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="2"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>ELIANTE</role><pc>,</pc><roleDesc> Veuve</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LUCINDE</role><pc>,</pc><roleDesc> Niéce d'<name type="person" n="Eliante">Eliante</name>, &amp; promiſe <lb/> à <name type="person" n="Léandre">Léandre</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LEANDRE</role><pc type="affirmative">.</pc></castItem><lb/>
@@ -80,7 +81,7 @@
                 <castItem><role>FRONTIN</role><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Sçène eſt à la Campagne, chez <name type="person" n="Eliante">Eliante</name><pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Sçène eſt à la Campagne, chez <name type="person" n="Eliante">Eliante</name><pc type="affirmative">.</pc></p>
             </set>
             <pb n="3"/>
         </front>
@@ -88,10 +89,9 @@
             <div1 type="title">
                 <head>LE SAGE <lb/>ETOURDI<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE <pc>,</pc> MARTON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Marton">
@@ -247,8 +247,8 @@
                             <l>Si <name type="person" n="Léandre">Léandre</name> m'en croit , &amp; penſe comme moi,</l>
                             <l>Nous pourrons de concert tenter... mais je le voi.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> LUCINDE <pc>,</pc> MARTON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -415,7 +415,7 @@
                         </sp>
                         <sp who="Marton">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l>Vous faites ſon éloge avec beaucoup d'ardeur.</l>
                         </sp>
                         <sp who="Léandre">
@@ -450,13 +450,13 @@
                             <l>Sur moi, d'un pareil ſoin, vous pouvez vous remettre.</l>
                             <l>Je dirai ce qu'il faut. J'oſe vous le promettre.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="10"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">Q</c>Uel bonheur qu'elle ſoit dans de tels ſentimens :</l>
                             <l>C'eſt avoir réuſſi que d'obtenir du tems :</l>
                             <l>Loin de nuire à mes vœœux, elle leur eſt propice.</l>
@@ -468,8 +468,8 @@
                             <l>Dont l'air m'ait inſpiré la crainte &amp; le reſpect.</l>
                             <l>Tout hardi que je ſuis, je tremble à ſon aſpect.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>ELIANTE <pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Eliante">
@@ -636,8 +636,8 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Puiſque vous l'ordonnez, je vais vous en inſtruire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>MARTON <pc>,</pc> ELIANTE <pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Marton">
@@ -647,7 +647,7 @@
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l part="F">Je vous quitte &amp; vais la recevoir.</l>
                             <pb n="14"/>
                             <l>Sa viſite qui n'eſt que de cérémonie ,</l>
@@ -655,8 +655,8 @@
                             <l>Ne vous éloignez point, Monſieur ; &amp; ſongés bien</l>
                             <l>Que je veux au plûtôt finir notre entretien.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> MARTON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Marton">
@@ -689,9 +689,9 @@
                             <speaker>MARTON<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">C'eſt <name type="person" n="Frontin">Frontin</name>.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="15"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>FRONTIN <pc>,</pc> LEANDRE <pc>,</pc> MARTON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -731,9 +731,9 @@
                             <l>Je ne permettrai point qu'il me quitte aujourd'hui ;</l>
                             <l>Quand j'ai préciſément le plus beſoin de lui.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="16"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>MARTON <pc>,</pc> FRONTIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Marton">
@@ -780,13 +780,13 @@
                             <speaker>FRONTIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Serviteur ; le tems preſſe , je pars pour <name type="place" n="Paris">Paris</name>.</l>
                         </sp>
-                        <lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><p rend="italics">Fin du premier Acte.</p>
+                    </div2>
+                </div1>
                 <pb n="17"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE <pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Eliante">
@@ -989,7 +989,7 @@
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage rend="italic">d'un ton ironique.</stage><lb/>
+                            <stage rend="italics">d'un ton ironique.</stage><lb/>
                             <l part="F">Pardonnés-moi , <name type="person" n="Léandre">Léandre</name>,</l>
                             <l>je ſens qu'elle m'inſpire une juſte pitié.</l>
                         </sp>
@@ -1136,19 +1136,19 @@
                             <l>Un nœud qui ne peut être éloigné ni rompu,</l>
                             <l>Tâchés de retrouver votre bon ſens perdu.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">F</c>Aiſons, de quelque apui dont elle ſe ſoutienne ,</l>
                             <l>Que ſa raiſon plûtôt s'égare avec la mienne.</l>
                             <l>Le grand coup eſt frapé ; j'ai déclaré mon feu ;</l>
                             <l>Et l'Amour oſe tout, quand il a fait l'aveu.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>ERASTE<pc>,</pc> LÉANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -1509,8 +1509,8 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, à la fuite en vain tu veux avoir recours.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> LEANDRE<pc>,</pc> ERASTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -1526,8 +1526,8 @@
                             <l>Mon aſpect devant vous pourroit l'embarraſſer.</l>
                             <l>Il eſt un peu timide, &amp; je vais vous laiſſer.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> ERASTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -1844,7 +1844,7 @@
                         </sp>
                         <sp who="Eraste">
                             <speaker>ERASTE </speaker>
-                            <stage type="business" rend="italic">reculant toujours.</stage><lb/>
+                            <stage type="business" rend="italics">reculant toujours.</stage><lb/>
                             <l>Doucement. Vous allez contre nos ſyſtême.</l>
                             <l>Se parler quand on veut, &amp; ſe quitter de même,</l>
                             <l>Eſt la premiére loi, qu'enjoint la liberté.</l>
@@ -1858,16 +1858,16 @@
                         </sp>
                         <sp who="Eraste">
                             <speaker>ERASTE </speaker>
-                            <stage type="exit" rend="italic">en fuyant.</stage><lb/>
+                            <stage type="exit" rend="italics">en fuyant.</stage><lb/>
                             <l>Je reviendrai, d'honneur, finir notre leçon.</l>
                         </sp>
-                        <lb/><lb/><lb/><stage rend="italic">Fin du ſecond Acte.</stage>
-                     </div3>
-                </div2>
+                        <lb/><lb/><lb/><stage rend="italics">Fin du ſecond Acte.</stage>
+                     </div2>
+                </div1>
                 <pb n="36"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE <sic>II</sic><corr>III</corr><pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>ORONTE<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Oronte">
@@ -1937,12 +1937,12 @@
                             <l part="F">Soit. Ne me trompe pas ;</l>
                             <l>Ou crains de payer cher mon voyage &amp; mes pas.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">L</c>A Tante s'arme en vain d'un ſcrupule ſévére :</l>
                             <l>Je compte en triompher par l'effort de mon Pere.</l>
                             <l>Voyons d'abord la Niéce, &amp; ſçachons le progrès</l>
@@ -1950,9 +1950,9 @@
                             <l>Mais avant de porter le coup que je projette ,</l>
                             <l>Je veux voir de mes yeux ſon entiére défaite.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="38"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> FRONTIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2001,18 +2001,18 @@
                             <l>On doit m'en tenir compte, on doit m'en rendre grace.</l>
                             <l>C'eſt créer les talens, que de les mettre en place.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="39"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Frontin">
                             <speaker>FRONTIN </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">C</c>E diſcours-là me pique. Oh! parbleu, l'on verra</l>
                             <l>Qui ſera le plus fin, &amp; qui l'emportera.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>ERASTE <pc>,</pc> FRONTIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Frontin">
@@ -2165,8 +2165,8 @@
                             <speaker>FRONTIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">J'enrage, &amp; ma peine eſt perdue.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> ERASTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -2301,13 +2301,13 @@
                             <l>Celle qui ne l'eſt pas eſt digne de mépris.</l>
                             <l>Plus elle eſt mal-fondée, &amp; plus elle a de prix.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>MARTON<pc>,</pc> FRONTIN<pc>,</pc> ERASTE<pc>,</pc> <lb/>LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Marton">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l><c type="lettrine">T</c>Out eſt perdu. Je viens, la triſteſſe dans l'ame.</l>
                             <l>Je viens pour vous chercher de la part de Ma-<lb/>dame.</l>
                         </sp>
@@ -2365,7 +2365,7 @@
                         </sp>
                         <sp who="Frontin">
                             <speaker>FRONTIN </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
                             <l>Fuyez plutôt, prenez vers <name type="place" n="Paris">Paris</name> votre courſe,</l>
                             <l>Ou vous êtes perdu ſans eſpoir de reſſource.</l>
                         </sp>
@@ -2395,7 +2395,7 @@
                         </sp>
                         <sp who="Frontin">
                             <speaker>FRONTIN </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
                             <l part="F">Que<sic></sic><corr>l</corr> eſt votre délire?</l>
                             <l part="I">Que faites-vous, Monſieur?</l>
                         </sp>
@@ -2429,14 +2429,14 @@
                             <speaker>FRONTIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Et moi, je ſuis au déſeſpoir.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEANDRE<pc>,</pc> ERASTE<pc>,</pc> LUCINDE<pc>,</pc> <lb/>MARTON<pc>,</pc> FRONTIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">Q</c>Ue vois-je ? Quel coups d'œil ! L'attitude eſt <lb/>charmante !</l>
-                            <lb/><stage type="delivery" rend="italic">A <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">A <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
                             <l>Non ; demeure à ſes pieds, ce ſpectacle m'enchante.</l>
                             <l>C'eſt où je te voulois pour ta gloire &amp; mon bien.</l>
                         </sp>
@@ -2513,8 +2513,8 @@
                             <l>A mon Pere, <name type="person" n="Marton">Marton</name>, va, dis, ſans plus attendre :</l>
                             <l><sic>Qui l'eſt</sic><corr>Qu'il eſt</corr>, ici, par moi ſuplié de ſe rendre.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>ELIANTE<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Eliante">
@@ -2577,9 +2577,9 @@
                             <l part="F">Arrêtés, je vous prie.</l>
                             <l>A quoi m'expoſe ici ſa folle étourderie !</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="50"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>ORONTE<pc>,</pc> LEANDRE<pc>,</pc> ELIANTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
@@ -2618,7 +2618,7 @@
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Oronte">Oronte</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Oronte">Oronte</name>.</stage><lb/>
                             <l>N'écoutés pas, Monſieur, les diſcours qu'il vous <lb/>tient.</l>
                         </sp>
                         <sp who="Oronte">
@@ -2669,9 +2669,9 @@
                             <l>Poſſéder votre Niéce, eſt le bien qu'il deſire.</l>
                             <l>Lui-même qui paroît, peut mieux vous en inſ-<lb/>truire.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="52"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>ERASTE<pc>,</pc> ORONTE<pc>,</pc> LEANDRE<pc>,</pc> <lb/> ELIANTE<pc>,</pc> LUCINDE <pc>,</pc> MARTON<pc>,</pc> <lb/> FRONTIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Eraste">
@@ -2697,12 +2697,12 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>La <name type="place" n="France">France</name> vous ſera redevable à jamais.</l>
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</stage><lb/>
                             <l>A<sic>e</sic><corr>c</corr>ceptez-vous Monſieur ? Rompés donc ce ſilence ,</l>
                             <l part="I">Répondés.</l>
                         </sp>
@@ -2712,7 +2712,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/><lb/>
                             <l>Ce miracle, pourtant , c'eſt moi qui l'ai produit :</l>
                             <l>De cette tête folle, il eſt le ſage fruit.</l>
                             <l>J'attends, de cet effort, la juſte récompenſe.</l>
@@ -2723,7 +2723,7 @@
                         <pb n="53"/>
                         <sp who="Oronte">
                             <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
-                            <lb/><stage type="delivery" rend="italic">A <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">A <name type="person" n="Eraste">Eraſte</name>.</stage><lb/>
                             <l part="I">Formés ce double nœud.</l>
                         </sp>
                         <sp who="Eliante">
@@ -2799,9 +2799,8 @@
                             <l>Vous y venés pourtant ! en vain vous réſiſtiez.</l>
                             <l>Je vous l'avois bien dit que vous m'épouſeriez.</l>
                         </sp>
-                    </div3>
-                </div2>
-            </div1>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
