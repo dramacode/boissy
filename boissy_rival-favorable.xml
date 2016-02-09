@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le rival favorable: édition numérique.</title>
+                <title type="main">Le Rival favorable</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -64,12 +65,12 @@
                 <pb n="251"/>
                 <docTitle>
                     <titlePart type="main">LE RIVAL <lb/> FAVORABLE,</titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="252"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>CLARICE</role>, <roleDesc>Veuve</roleDesc>.</castItem>
                 <castItem><role>DAMON</role>, <roleDesc>Amant de <name type="person" n="Clarice">Clarice</name></roleDesc>.</castItem>
                 <castItem><role>LEANDRE</role>, <roleDesc>Ami <choice><orig>&amp;</orig><reg>et</reg></choice> Rival de <name type="person" n="Damon">Damon</name></roleDesc>.</castItem>
@@ -79,7 +80,7 @@
                 <castItem><role>MARTON</role>, <roleDesc>Suivante de <name type="person" n="Clarice">Clarice</name></roleDesc>.</castItem>
             </castList>
             <set>
-                <p rend="center"><hi rend="italic">La Scène eſt à <name type="place" n="Paris">Paris</name> chez <name type="person" n="Clarice">Clarice</name>.</hi></p>
+                <p rend="center"><hi rend="italics">La Scène eſt à <name type="place" n="Paris">Paris</name> chez <name type="person" n="Clarice">Clarice</name>.</hi></p>
             </set>
             <lb/>
             <lb/>
@@ -89,10 +90,9 @@
             <div1 type="title">
                 <head>LE RIVAL <lb/> FAVORABLE,<lb/> COMEDIE.</head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>LA FLEUR, MARTON.</stage><lb/>
                         <sp who="La_Fleur_RF">
@@ -271,8 +271,8 @@
                             <l>D'un pareil Gentilhomme, on doit faire grand cas.</l>
                             <l>Adieu. <choice><orig>Parles</orig><reg>Parle</reg></choice> à ton Maître ; il porte ici ſes pas.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <stage>DAMON, LA FLEUR.</stage><lb/>
                         <sp who="Damon_RF">
@@ -314,8 +314,8 @@
                             <speaker>LA FLEUR.</speaker><lb/>
                             <l part="F">Monſieur , voilà <name type="person" n="Leandre">Léandre</name> qui paroît.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>LEANDRE DAMON.</stage><lb/>
                         <sp who="Leandre_RF">
@@ -508,7 +508,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="business" rend="italics">tirant ſa montre.</stage><lb/>
+                            <stage type="business" rend="italicss">tirant ſa montre.</stage><lb/>
                             <l part="F"><choice><orig>Tien</orig><reg>Tiens</reg></choice>, il eſt <choice><orig>bien-tôt</orig><reg>bientôt</reg></choice></l>
                             <l>Cinq heures <choice><orig>&amp;</orig><reg>et</reg></choice> demie ; aux trois quarts, de plein ſaut,</l>
                             <pb n="261"/>
@@ -537,16 +537,16 @@
                         <sp who="Damon_RF">
                             <speaker>DAMON.</speaker><lb/>
                             <l>Va, crains qu'à tes dépens moi-même je ne danſe.</l>
-                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italicss">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italics">ſeul.</stage><lb/>
+                            <stage type="delivery" rend="italicss">ſeul.</stage><lb/>
                             <l><c type="lettrine">J</c>'Ai beſoin contre lui de mon art le plus fin.</l>
-                            <l>Je ſçai qu'il eſt aimé : <stage type="business" rend="italics">(Il tire une Lettre) </stage> j'en ai la <lb/> preuve en main.</l>
+                            <l>Je ſçai qu'il eſt aimé : <stage type="business" rend="italicss">(Il tire une Lettre) </stage> j'en ai la <lb/> preuve en main.</l>
                             <l>Ce Billet eſt pour lui, quoiqu'il n'ait point d'adreſſe.</l>
                             <l><name type="person" n="Marton">Marton</name> <choice><orig>devoit</orig><reg>devait</reg></choice> le rendre au nom de ſa Maîtreſſe,</l>
                             <l>Mais je l'ai <choice><orig>vû</orig><reg>vu</reg></choice> tomber de ſa poche, en entrant ,</l>
@@ -557,14 +557,14 @@
                             <l>Quand on a l'art de plaire, <choice><orig>&amp;</orig><reg>et</reg></choice> le don d'amuſer.</l>
                             <l>Je la vois qui s'avance, <choice><orig>&amp;</orig><reg>et</reg></choice> l'inſtant eſt propice.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="262"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>LEANDRE, CLARICE, MARTON.</stage><lb/>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italics">à <name type="person" n="Clarice">Clarice</name>.</stage><lb/>
+                            <stage type="delivery" rend="italicss">à <name type="person" n="Clarice">Clarice</name>.</stage><lb/>
                             <l><c type="lettrine">V</c>Ous évitez <name type="person" n="Damon">Damon</name>! D'où vous vient ce caprice?</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -766,21 +766,21 @@
                             <l>L'eſprit, comme il lui plaît, peut leur donner un ſens:</l>
                             <l>Puiſque du mot d'amour votre oreille eſt bleſſée ,</l>
                             <l><choice><sic>Dautres</sic><corr>D'autres</corr></choice> termes pourront exprimer ma penſée ;</l>
-                            <l>Et <choice><sic>l'orſqu'à</sic><corr>lorsqu'à</corr></choice> l'avenir je vous dirai <choice><orig rend="italics">bon jour</orig><reg rend="italics">bonjour</reg></choice> ,</l>
-                            <l>Ce <choice><orig rend="italics">bon jour</orig><reg>bonjour</reg></choice> voudra dire, <choice><orig>aprouvés</orig><reg>approuvez</reg></choice> mon amour :</l>
-                            <l>Lorſque <choice><orig>j'ajoûterai</orig><reg>j'ajouterai</reg></choice>, <hi rend="italic"><choice><orig>bon jour, bon jour</orig><reg>bonjour, bonjour</reg></choice>, Madame</hi></l>
+                            <l>Et <choice><sic>l'orſqu'à</sic><corr>lorsqu'à</corr></choice> l'avenir je vous dirai <choice><orig rend="italicss">bon jour</orig><reg rend="italicss">bonjour</reg></choice> ,</l>
+                            <l>Ce <choice><orig rend="italicss">bon jour</orig><reg>bonjour</reg></choice> voudra dire, <choice><orig>aprouvés</orig><reg>approuvez</reg></choice> mon amour :</l>
+                            <l>Lorſque <choice><orig>j'ajoûterai</orig><reg>j'ajouterai</reg></choice>, <hi rend="italics"><choice><orig>bon jour, bon jour</orig><reg>bonjour, bonjour</reg></choice>, Madame</hi></l>
                             <l>Ce terme répété vous fera de ma flamme</l>
                             <l>Sentir toute la force <choice><orig>&amp;</orig><reg>et</reg></choice> l'excès violent ,</l>
-                            <l>Quand je vous donnerai le <hi rend="italic"><choice><orig>bon ſoir</orig><reg>bonsoir</reg></choice></hi> en ſortant ,</l>
+                            <l>Quand je vous donnerai le <hi rend="italics"><choice><orig>bon ſoir</orig><reg>bonsoir</reg></choice></hi> en ſortant ,</l>
                             <l>Ce <choice><orig>bon ſoir</orig><reg>bonsoir</reg></choice> vous dirai, Cruelle, je vous aime,</l>
                             <l>Et je veux vous ſervir, en <choice><orig>depit</orig><reg>dépit</reg></choice> de vous-même.</l>
                             <l>Duſſiez-vous me priver du plus <choice><orig>leger</orig><reg>léger</reg></choice> eſpoir ,</l>
                             <l>Pour commencer , je vais vous donner le <choice><orig>bon ſoir</orig><reg>bonsoir</reg></choice> <sic> </sic></l>
-                            <lb/><stage type="exit" rend="italics">(Il ſort en lui faiſant une profonde révérence.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italicss">(Il ſort en lui faiſant une profonde révérence.)</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="266"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>CLARICE, MARTON</stage><lb/>
                         <sp who="Clarice_RF">
@@ -972,9 +972,9 @@
                             <speaker>CLARICE.</speaker><lb/>
                             <l part="F">Non, pour qui marche ferme.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="270"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head><lb/>
                         <stage>DAMON, CLARICE, MARTON, <lb/> LA FLEUR.</stage><lb/>
                         <sp who="Damon_RF">
@@ -994,10 +994,10 @@
                             <l part="F">Mon repos le <choice><orig>deſire</orig><reg>désire</reg></choice>,</l>
                             <l>Et mon bonheur le veut : ces mots doivent ſuffire ;</l>
                             <l>Ne me <choice><orig>revoyés</orig><reg>revoyez</reg></choice> plus, Adieu.</l>
-                            <lb/><stage type="exit" rend="italics">(Elle rentre.)</stage>
+                            <lb/><stage type="exit" rend="italicss">(Elle rentre.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <stage>DAMON, MARTON, LA FLEUR.</stage><lb/>
                         <sp who="Damon_RF">
@@ -1094,7 +1094,7 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italics">avec agitation.</stage><lb/>
+                            <stage type="delivery" rend="italicss">avec agitation.</stage><lb/>
                             <l>Pour le cacher, <name type="person" n="Marton">Marton</name>, il m'en coûtera peu !</l>
                             <l>Et je ſens la froideur ſuccéder à mon feu.</l>
                             <l>Je veux exactement obéir à <name type="person" n="Clarice">Clarice</name> ;</l>
@@ -1116,7 +1116,7 @@
                             <l>Non ; je <choice><orig>n'entens</orig><reg>n'entends</reg></choice> plus rien, après un trait pareil.</l>
                             <l><choice><orig>Ecoute</orig><reg>Écoute</reg></choice>, de ma part, dis-lui bien, je t'en prie,</l>
                             <l>Que je pars pour ne plus la revoir de ma vie.</l>
-                            <lb/><stage type="business" rend="italics">(Il lui ſerre le bras. <sic>¿</sic></stage><lb/>
+                            <lb/><stage type="business" rend="italicss">(Il lui ſerre le bras. <sic>¿</sic></stage><lb/>
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON.</speaker><lb/>
@@ -1137,10 +1137,10 @@
                             <l>Dis-lui qu'elle <choice><orig>voudroit</orig><reg>voudrait</reg></choice> me rapeller en vain :</l>
                             <l><choice><orig>M'offrit-elle</orig><reg>M'offrît-elle</reg></choice> ſon cœur, m'offrît-elle ſa main.</l>
                             <l part="I">Adieu.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX.</head><lb/>
                         <stage>MARTON, LA FLEUR.</stage><lb/>
                         <sp who="La_Fleur_RF">
@@ -1168,13 +1168,13 @@
                             <l>Et pour bien faire, il faut lui donner le loiſir</l>
                             <l>De croître, d'être fort, <choice><orig>&amp;</orig><reg>et</reg></choice> non pas de maigrir.</l>
                         </sp>
-                    <lb/><lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
-                    </div3>
-                </div2>
+                    <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer>
+                    </div2>
+                </div1>
                 <pb n="274"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>CLARICE, MARTON.</stage><lb/>
                         <sp who="Clarice_RF">
@@ -1281,17 +1281,17 @@
                             <speaker>MARTON.</speaker><lb/>
                             <l part="I">Madame, c'eſt aſſez.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italics">ſeule.</stage><lb/>
+                            <stage type="delivery" rend="italicss">ſeule.</stage><lb/>
                             <l part="F"><c type="lettrine">L</c>'Amour, elle a beau dire,</l>
                             <l>La tient <choice><orig>ſecrétement</orig><reg>scrètement</reg></choice> toujours ſous ſon empire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>MARTON, LA FLEUR.</stage><lb/>
                         <sp who="Marton_RF">
@@ -1357,9 +1357,9 @@
                             <l>Mais <name type="person" n="Arlequin">Arlequin</name>, qui vient, <choice><orig>allarme</orig><reg>alarme</reg></choice> mon amour,</l>
                             <l>Et mon foible cerveau ſe détraque à ſon tour.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="278"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <stage>LA FLEUR, MARTON, ARLEQUIN.</stage><lb/>
                         <sp who="Arlequin_RF">
@@ -1391,7 +1391,7 @@
                         <sp who="Marton_RF">
                             <speaker>MARTON.</speaker><lb/>
                             <l part="F">Un tel propos excite</l>
-                            <l>Ma curioſité. <stage type="delivery" rend="italic">(à <name type="person" n="La Fleur">la Fleur</name>.)</stage> 
+                            <l>Ma curioſité. <stage type="delivery" rend="italics">(à <name type="person" n="La Fleur">la Fleur</name>.)</stage> 
                                 <choice><orig>Laiſſes-nous</orig><reg>Laisse-nous</reg></choice> pour raiſon.</l>
                         </sp>
                         <sp who="La_Fleur_RF">
@@ -1431,7 +1431,7 @@
                         </sp>
                         <sp who="Arlequin_RF">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Marton">Marton</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Marton">Marton</name>.</stage><lb/>
                             <l>Tournez ſur ce brillant un peu votre regard.</l>
                         </sp>
                         <sp who="La_Fleur_RF">
@@ -1450,7 +1450,7 @@
                             <l><name>Damon</name> m'a revêtu du même <choice><orig>caractére</orig><reg>caractère</reg></choice>.</l>
                             <l>J'ai ma charge à remplir, <choice><orig>&amp;</orig><reg>et</reg></choice> mes <choice><orig>preſens</orig><reg>présents</reg></choice> à faire.</l>
                             <l>Pour obſerver les <choice><orig>loix</orig><reg>lois</reg></choice> du cérémonial,</l>
-                            <lb/><stage type="business" rend="italic">(Il lui préſente une <choice><orig>Tabatiére</orig><reg>Tabatière</reg></choice> d'or.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il lui préſente une <choice><orig>Tabatiére</orig><reg>Tabatière</reg></choice> d'or.)</stage><lb/>
                             <l>Permettez qu'<choice><sic>a</sic><reg>à</reg></choice> vos yeux j'étale ce métal ;</l>
                             <l>Madame, il eſt formé pour vaincre la plus <choice><orig>fiére</orig><reg>fière</reg></choice>,</l>
                             <l>Et l'ouvrage en eſt riche autant que la <choice><orig>matiére</orig><reg>matière</reg></choice>.</l>
@@ -1478,7 +1478,7 @@
                         <pb n="280"/>
                         <sp who="Arlequin_RF">
                             <speaker>ARLEQUIN </speaker>
-                            <stage rend="italics">lui offrant ſa Bague.</stage><lb/>
+                            <stage rend="italicss">lui offrant ſa Bague.</stage><lb/>
                             <l>Contemplez ce brillant ; ſa blancheur eſt parfaite,</l>
                             <l>Et l'œil eſt ébloui de tous les feux qu'il jette.</l>
                         </sp>
@@ -1571,7 +1571,7 @@
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
                             <l>Je te l'ai déja dit : ton erreur eſt extrême.</l>
                             <l>Comme de mon amant je veux faire un mari,</l>
                             <l>Ce n'eſt pas de l'eſprit que je demande en lui :</l>
@@ -1591,10 +1591,10 @@
                             <l>Je donnerai ma main au plus ſot de vous deux.</l>
                             <l>Vous m'entendez ? J'ai dit. Adieu, je me retire.</l>
                         </sp>
-                        <lb/><stage type="business" rend="italic">(<name type="person" n="La Fleur">La Fleur</name> <choice><orig>&amp;</orig><reg>et</reg></choice> <name type="person" n="Arlequin">Arlequin</name> ſe font de révérence.)</stage>
-                    </div3>
+                        <lb/><stage type="business" rend="italics">(<name type="person" n="La Fleur">La Fleur</name> <choice><orig>&amp;</orig><reg>et</reg></choice> <name type="person" n="Arlequin">Arlequin</name> ſe font de révérence.)</stage>
+                    </div2>
                     <pb n="282"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>LA FLEUR, ARLEQUIN.</stage><lb/>
                         <sp who="Arlequin_RF">
@@ -1636,9 +1636,9 @@
                             <speaker>ARLEQUIN.</speaker><lb/>
                             <l part="I">Je vois venir le mien.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="283"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>LEANDRE, ARLEQUIN.</stage><lb/>
                         <sp who="Leandre_RF">
@@ -1693,7 +1693,7 @@
                             <l>De remporter ſans elle une pleine victoire.</l>
                             <l>Il ſuffit de moi ſeul, <choice><orig>&amp;</orig><reg>et</reg></choice> je <choice><orig>ſçais</orig><reg>sais</reg></choice> plus de tours</l>
                             <l>Que toutes les <name>Martons</name> n'en <choice><orig>ſçavent</orig><reg>savent</reg></choice> en amours.</l>
-                            <l>Quand j'ai donné tantôt le <hi rend="italic">bon ſoir</hi> à <name type="person" n="Clarice">Clarice</name></l>
+                            <l>Quand j'ai donné tantôt le <hi rend="italics">bon ſoir</hi> à <name type="person" n="Clarice">Clarice</name></l>
                             <l>Elle a ri ; je l'ai <choice><orig>vû</orig><reg>vu</reg></choice> ; j'en tire un bon indice.</l>
                             <l>Son eſprit a trouvé le tour ingénieux,</l>
                             <l>Et j'en ai pour garant ſon <choice><orig>ſoûris</orig><reg>souris</reg></choice> <choice><orig>gracieux</orig><reg>grâcieux</reg></choice>,</l>
@@ -1719,22 +1719,22 @@
                             <l>Mon projet eſt détruit, s'ils ont une <choice><orig>entrevûe</orig><reg>entrevue</reg></choice>.</l>
                             <l>Quelqu'un vient. C'eſt lui-même, <choice><orig>&amp;</orig><reg>et</reg></choice> j'en ſuis étonné.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head><lb/>
                         <stage>LEANDRE, DAMON, ARLEQUIN.</stage><lb/>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l><choice><orig><c type="lettrine">A</c></orig><reg>À</reg></choice> Tout, pour la revoir , je ſuis déterminé.</l>
                             <l>Par l'aſpect d'un Rival ma <choice><orig>joye</orig><reg>joie</reg></choice> eſt retardée.</l>
                         </sp>
                         <pb n="285"/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je veux lui tendre un <choice><orig>piége</orig><reg>piège</reg></choice>, il me vient une idée.</l>
-                            <l part="I">Ecoute.</l><stage type="business" rend="italic">(il parle bas à <name type="person" n="Arlequin">Arlequin</name>.)</stage>
+                            <l part="I">Ecoute.</l><stage type="business" rend="italics">(il parle bas à <name type="person" n="Arlequin">Arlequin</name>.)</stage>
                         </sp>
                         <sp who="Arlequin_RF">
                             <speaker>ARLEQUIN.</speaker><lb/>
@@ -1742,16 +1742,16 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Il ſera des plus fins s'il échape à mes lacs!</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <stage>LEANDRE, DAMON</stage><lb/>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l><c type="lettrine">A</c>Ffectonns à ſes yeux un air de confiance.</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -1810,7 +1810,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Mais, contre ſa coutume, il eſt avantageux !</l>
                             <l>Malgré ma confiance, il <choice><orig>allarme</orig><reg>alarme</reg></choice> mes feux.</l>
                         </sp>
@@ -1832,10 +1832,10 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ah! Je cours, pour le coup, un danger manifeſte,</l>
                             <l>Il <choice><sic>à</sic><corr>a</corr></choice> fait du progrès puiſqu'il devient modeſte !</l>
-                            <lb/><note type="delivery" rend="italic">(haut.)</note><lb/>
+                            <lb/><note type="delivery" rend="italics">(haut.)</note><lb/>
                             <l>En me parlant ainſi, ne me trompes-tu point?</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -1843,13 +1843,13 @@
                             <l>Non ; je n'ai jamais <choice><orig>ſçû</orig><reg>su</reg></choice> déguiſer ſur ce point :</l>
                             <l>Tu <choice><orig>connois</orig><reg>connais</reg></choice> ma franchiſe ; elle eſt même trop grande<sic> </sic></l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX.</head><lb/>
                         <stage>DAMON, LEANDRE, ARLEQUIN.</stage><lb/>
                         <sp who="Arlequin_RF">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery" rend="italics">à <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italicss">à <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
                             <l><c type="lettrine">E</c>Xcuſez ; mais Monſieur, un Page vous demande.</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -1873,8 +1873,8 @@
                             <l>Je ſuis embaraſſé. Va dire de ma part,</l>
                             <l>Que je verrai le Duc dans une heure au <choice><orig>plûtard</orig><reg>plus tard</reg></choice>.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE X.</head><lb/>
                         <stage>LEANDRE, DAMON.</stage><lb/>
                         <sp who="Leandre_RF">
@@ -1935,7 +1935,7 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON.</speaker><lb/>
-                            <l>Non, j'aime mieux, <hi rend="italic">gratis</hi>, te compoſer ta Lettre.</l>
+                            <l>Non, j'aime mieux, <hi rend="italics">gratis</hi>, te compoſer ta Lettre.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
@@ -1943,7 +1943,7 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage rend="italic">écrivant.</stage><lb/>
+                            <stage rend="italics">écrivant.</stage><lb/>
                             <l>Conviens donc que pour toi j'ai bien de la bonté.</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -1975,19 +1975,19 @@
                             <l>Te laiſſe plus long-<choice><orig>tems</orig><reg>temps</reg></choice>-ignorer ſon bonheur.</l>
                             <l>Je n'ai fait à tes yeux voir qu'une fauſſe crainte.</l>
                             <l>Tiens lis;ma joye eſt vraye, <choice><orig>&amp;</orig><reg>et</reg></choice> ma peur étoit feinte.</l>
-                            <lb/><stage type="business" rend="italic">(Il tire un autre Billet qu'il lui donne.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il tire un autre Billet qu'il lui donne.)</stage><lb/>
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p rend="italic">Non , je ne puis plus m'en défendre , il faut que je 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p rend="italics">Non , je ne puis plus m'en défendre , il faut que je 
                                 <lb/>vous aime malgré moi. Si mon repos vous eſt cher , ne 
                                 <lb/>me revoyés plus. Votre preſence <choice><orig>&amp;</orig><reg>et</reg></choice> vos diſcours me 
                                 <lb/>cauſent trop de trouble, <choice><orig>&amp;</orig><reg>et</reg></choice> trop d'agitation : Mais non , 
                                 <lb/>revenés <choice><orig>plûtôt</orig><reg>plutôt</reg></choice>. Je ſuis trop inquiéte <choice><orig>&amp;</orig><reg>et</reg></choice> trop ennuyée quand 
                                 <lb/>je ne vous vois pas. Et, tourment pour tourment , je pré-
                                 <lb/>ſére le trouble à l'inquiétude, <choice><orig>&amp;</orig><reg>et</reg></choice> l'agitation à l'ennui.</p>
-                            <lb/><stage rend="italic">(après avoir lû.)</stage><lb/>
+                            <lb/><stage rend="italics">(après avoir lû.)</stage><lb/>
                             <l>La perfide ! Quel trait ! Je me ſens déchirer!</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -2012,15 +2012,15 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="mixed" rend="italic">à <name type="person" n="Damon">Damon</name> qui ſort.</stage><lb/>
+                            <stage type="mixed" rend="italics">à <name type="person" n="Damon">Damon</name> qui ſort.</stage><lb/>
                             <l>Rends-moi donc cette Lettre , <choice><orig>&amp;</orig><reg>et</reg></choice> ſuis moins ton <lb/>courroux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI.</head><lb/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">M</c>Ais il peut le garder ſans que j'en ſois jaloux.</l>
                             <l>Je goûte un bien nouveau : ce Billet de <name type="person" n="Clarice">Clarice</name></l>
                             <l>Dévroit faire ſa joye ; il ſert ſon ſuplice.</l>
@@ -2036,19 +2036,19 @@
                             <l>Il me tarde de voir <name type="person" n="Clarice">Clarice</name> de retour.</l>
                             <l part="I">J'attends.... mais la voici qui vient.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="12">
+                    </div2>
+                    <div2 type="scene" n="12">
                         <head>SCENE XII.</head><lb/>
                         <stage>CLARICE, LEANDRE.</stage><lb/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">tendrement.</stage><lb/>
-                            <l part="F"><hi rend="italic"><c type="lettrine">B</c>On ſoir</hi>, Madame.</l>
+                            <stage type="delivery" rend="italics">tendrement.</stage><lb/>
+                            <l part="F"><hi rend="italics"><c type="lettrine">B</c>On ſoir</hi>, Madame.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery" rend="italic">gaiement.</stage><lb/>
-                            <l part="I"><hi rend="italic">Bon ſoir</hi>, Monſieur.</l>
+                            <stage type="delivery" rend="italics">gaiement.</stage><lb/>
+                            <l part="I"><hi rend="italics">Bon ſoir</hi>, Monſieur.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
@@ -2064,14 +2064,14 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l>Si vous m'interdiſez juſqu'au mot de <hi rend="italic">bon ſoir</hi>,</l>
+                            <l>Si vous m'interdiſez juſqu'au mot de <hi rend="italics">bon ſoir</hi>,</l>
                             <l>Il faudroit me borner au plaiſir de vous voir :</l>
                             <l>L'entretien tomberoit , par cette gêne inſigne</l>
                             <l>Où je ſerois réduit à vous parler par ſigne.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l>On reçoit vos <hi rend="italic">bon ſo<sic>ri</sic><corr>ir</corr>s</hi> ; que voulez-vous de plus ?</l>
+                            <l>On reçoit vos <hi rend="italics">bon ſo<sic>ri</sic><corr>ir</corr>s</hi> ; que voulez-vous de plus ?</l>
                             <l part="I">Parlés.</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -2089,26 +2089,26 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l>Mais aprenés-moi donc à donner le <hi rend="italic">bon ſoir</hi>,</l>
+                            <l>Mais aprenés-moi donc à donner le <hi rend="italics">bon ſoir</hi>,</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l>Très-volontiers. Prenés mon ton. <hi rend="italic">Bon ſoir</hi>, Madame.</l>
+                            <l>Très-volontiers. Prenés mon ton. <hi rend="italics">Bon ſoir</hi>, Madame.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l part="I"><hi rend="italic">Bon ſoir</hi>, Monſieur.</l>
+                            <l part="I"><hi rend="italics">Bon ſoir</hi>, Monſieur.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
                             <l part="F">Il faut y mettre encore plus d'ame :</l>
-                            <l part="I"><hi rend="italic">Bon ſoir</hi>, Monſieur.</l>
+                            <l part="I"><hi rend="italics">Bon ſoir</hi>, Monſieur.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Mon cœur ne peut prendre ce ton ,</l>
-                            <l>Depuis qu'il ne dit plus de <hi rend="italic">bon ſoir</hi> à <name type="person" n="Damon">Damon</name>.</l>
+                            <l>Depuis qu'il ne dit plus de <hi rend="italics">bon ſoir</hi> à <name type="person" n="Damon">Damon</name>.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
@@ -2151,44 +2151,44 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l>Pour commencer, d'abord , rayons le mot d'<hi rend="italic">ardeur</hi>,</l>
-                            <l>Et celui de <hi rend="italic">langue<sic>n</sic><corr>u</corr></hi> , qui riment à fadeur.</l>
+                            <l>Pour commencer, d'abord , rayons le mot d'<hi rend="italics">ardeur</hi>,</l>
+                            <l>Et celui de <hi rend="italics">langue<sic>n</sic><corr>u</corr></hi> , qui riment à fadeur.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l>Suprimons les <hi rend="italic">ſoupirs</hi> , les <hi rend="italic">feux</hi> avec les <hi rend="italic"><choice><orig>flâme</orig><reg>flamme</reg></choice>s</hi> ,</l>
+                            <l>Suprimons les <hi rend="italics">ſoupirs</hi> , les <hi rend="italics">feux</hi> avec les <hi rend="italics"><choice><orig>flâme</orig><reg>flamme</reg></choice>s</hi> ,</l>
                             <l>Qui dévorent les cœurs, <choice><orig>&amp;</orig><reg>et</reg></choice> qui brûlent les ames.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l>Banniſſons les <hi rend="italic">ennuis</hi>, les <hi rend="italic">chaînes</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italic">fers</hi>.</l>
-                            <l>Les <hi rend="italic">martyres</hi>, les <hi rend="italic">pleurs</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italic">tourmens divers</hi>.</l>
+                            <l>Banniſſons les <hi rend="italics">ennuis</hi>, les <hi rend="italics">chaînes</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italics">fers</hi>.</l>
+                            <l>Les <hi rend="italics">martyres</hi>, les <hi rend="italics">pleurs</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italics">tourmens divers</hi>.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l part="I">Oui, les <hi rend="italic">tourmens divers</hi> !</l>
+                            <l part="I">Oui, les <hi rend="italics">tourmens divers</hi> !</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
                             <l part="F">Faiſons main-baſſe encore</l>
-                            <l>Sur tous les <hi rend="italic">je me meurs</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italic">je vous adore</hi>.</l>
+                            <l>Sur tous les <hi rend="italics">je me meurs</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> les <hi rend="italics">je vous adore</hi>.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l rend="italic">Votre beauté divine, <choice><orig>&amp;</orig><reg>et</reg></choice> vos brillans apas.</l>
+                            <l rend="italics">Votre beauté divine, <choice><orig>&amp;</orig><reg>et</reg></choice> vos brillans apas.</l>
                             <l>Oh ! Si vous m'en croyés, nous n'épargnerons pas</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l><hi rend="italic">Ni vos charmans attraits</hi>
+                            <l><hi rend="italics">Ni vos charmans attraits</hi>
                                 <note resp="Loterie, Joséphine">le "ni" ne devrait pas être en italique.</note>, 
-                                ni <hi rend="italic">attrait de vos charmes</hi> ,</l>
-                            <l rend="italic">Qui rempliſſent de trouble, <choice><orig>&amp;</orig><reg>et</reg></choice> cauſent tant d'alarmes.</l>
+                                ni <hi rend="italics">attrait de vos charmes</hi> ,</l>
+                            <l rend="italics">Qui rempliſſent de trouble, <choice><orig>&amp;</orig><reg>et</reg></choice> cauſent tant d'alarmes.</l>
                         </sp>
                         <pb n="293"/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l>Pour avoir <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> fait , mettons <choice><orig>&amp;</orig><reg>et</reg></choice> <hi rend="italic">cætera</hi> ,</l>
+                            <l>Pour avoir <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> fait , mettons <choice><orig>&amp;</orig><reg>et</reg></choice> <hi rend="italics">cætera</hi> ,</l>
                             <l>Et raturons d'un trait tous les ſers d'Opéra.</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2202,15 +2202,15 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
-                            <l part="F">Ceux d'<hi rend="italic">agrément</hi>, de <hi rend="italic">grace</hi> ,</l>
-                            <l>D'<hi>eſprit</hi> <choice><orig>&amp;</orig><reg>et</reg></choice> de <hi rend="italic">gaité</hi>, de <hi rend="italic">goût</hi>, d'<hi rend="italic">amuſement</hi> ,</l>
-                            <l>D'<hi rend="italic">agréable union</hi>, de <hi rend="italic">doux aſſortiment</hi> ;</l>
-                            <l>Et ſe ſervir des mots d'<hi rend="italic">égayer</hi>, de <hi rend="italic">diſtraire</hi> ,</l>
-                            <l>De <hi rend="italic">choiſir</hi> , d'<hi rend="italic">agréer</hi>, d'<hi rend="italic">intéreſſer</hi>, de <hi rend="italic">plaire</hi>.</l>
+                            <l part="F">Ceux d'<hi rend="italics">agrément</hi>, de <hi rend="italics">grace</hi> ,</l>
+                            <l>D'<hi>eſprit</hi> <choice><orig>&amp;</orig><reg>et</reg></choice> de <hi rend="italics">gaité</hi>, de <hi rend="italics">goût</hi>, d'<hi rend="italics">amuſement</hi> ,</l>
+                            <l>D'<hi rend="italics">agréable union</hi>, de <hi rend="italics">doux aſſortiment</hi> ;</l>
+                            <l>Et ſe ſervir des mots d'<hi rend="italics">égayer</hi>, de <hi rend="italics">diſtraire</hi> ,</l>
+                            <l>De <hi rend="italics">choiſir</hi> , d'<hi rend="italics">agréer</hi>, d'<hi rend="italics">intéreſſer</hi>, de <hi rend="italics">plaire</hi>.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE.</speaker><lb/>
-                            <l>De <hi rend="italic">goûter</hi>, de <hi rend="italic">ſentir</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> d'<hi rend="italic">aimer</hi>, au beſoin.</l>
+                            <l>De <hi rend="italics">goûter</hi>, de <hi rend="italics">ſentir</hi>, <choice><orig>&amp;</orig><reg>et</reg></choice> d'<hi rend="italics">aimer</hi>, au beſoin.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
@@ -2298,30 +2298,30 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p rend="italic">L'aprobation que vous avez donnée à ma tendreſſe , 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p rend="italics">L'aprobation que vous avez donnée à ma tendreſſe , 
                                 <lb/>mérite tous mes remercimens. Je me rapelle vos bontés 
                                 <lb/>avec tranſport , elle forment dans mon cœur un lien qui 
                                 <lb/>m'attache à vous pour jamais , <choice><orig>&amp;</orig><reg>et</reg></choice> qui rompt tout autre 
                                 <lb/>engagement. Ma Déeſſe....</p>
-                            <lb/><stage rend="italic">(s'interrompant.)</stage>
+                            <lb/><stage rend="italics">(s'interrompant.)</stage>
                             <pb n="295"/>
                             <l>Ma Déeſſe ! Ah ! vraiment, l'expreſſion eſt tendre.</l>
-                            <lb/><stage rend="italic">(elle reprend.)</stage><lb/>
-                            <p rend="italic">Ma Déeſſe, ne ſoyés donc plus jalouſe de la Dame en 
+                            <lb/><stage rend="italics">(elle reprend.)</stage><lb/>
+                            <p rend="italics">Ma Déeſſe, ne ſoyés donc plus jalouſe de la Dame en 
                                 <lb/>queſtion.</p>
-                            <lb/><stage rend="italic">(s'interrompant.)</stage><lb/>
+                            <lb/><stage rend="italics">(s'interrompant.)</stage><lb/>
                             <l part="I">Me voilà maintenant.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Cela commence à prendre.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p rend="italic">Avec tant de jeuneſſe <choice><orig>&amp;</orig><reg>et</reg></choice> tant de beauté , peut-on craindre 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p rend="italics">Avec tant de jeuneſſe <choice><orig>&amp;</orig><reg>et</reg></choice> tant de beauté , peut-on craindre 
                                 <lb/>une Rivale? Que n'ai-je un plus grand ſacrifice à vous 
                                 <lb/>faire ! Eh ! puis-je moins payer la plus legere de vos 
                                 <lb/>faveurs !</p>
@@ -2335,10 +2335,10 @@
                             <speaker>CLARICE.</speaker><lb/>
                             <l part="F">Non , je n'en doute plus</l>
                             <l>Je re<choice><orig>connois</orig><reg>connais</reg></choice>, Monſieur, <choice><orig>&amp;</orig><reg>et</reg></choice> ſa main <choice><orig>&amp;</orig><reg>et</reg></choice> ſa plume.</l>
-                            <lb/><stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
                             <l>Mon amour s'éteignoit , ce Billet le rallume !</l>
                             <l>Mais cachons ma douleur ; armons-nous de fierté.</l>
-                            <lb/><stage type="delivery" rend="italic">(haut.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(haut.)</stage><lb/>
                             <l>Mon cœur en eſt ravi , loin d'en être irrité.</l>
                             <l>Je ne receverai plus ſa viſite importune ;</l>
                             <l>Son infidélité même n'en eſt pas une :</l>
@@ -2360,7 +2360,7 @@
                         <pb n="296"/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Tous mes coups on porté! Tant de bonheur m'enchante!</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2419,7 +2419,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> que lui dire, à tout hazard nommons</l>
                             <l part="I">La premiére venuë.</l>
                         </sp>
@@ -2438,7 +2438,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="M">Tant pis.</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2450,7 +2450,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Qu'entens-je !</l>
                             <l>C'eſt un Médiateur qu'il faut que je dérange.</l>
                             <note resp="Loterie, Joséphine">La première ligne de cette réplique est notée comme étant la première partie d'un vers, 
@@ -2505,8 +2505,8 @@
                             <l>C'eſt le premier ſujet dont je l'informerai.</l>
                             <l part="I">Je la vois qui paroît.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="13">
+                    </div2>
+                    <div2 type="scene" n="13">
                         <head>SCENE XIII.</head><lb/>
                         <stage>ELIANTE, CLARICE, LEANDRE.</stage><lb/>
                         <sp who="Eliante">
@@ -2515,13 +2515,13 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ma bouche, à cet aſpect, demeure ſans reponſe !</l>
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE.</speaker><lb/>
                             <l>On garde, en me voyant un ſilence profond;</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Clarice">Clarice</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Clarice">Clarice</name>.)</stage><lb/>
                             <l>Qui fait naître chez vous ce froid qui me confond ?</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2533,7 +2533,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Sauvons-nous !</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2543,7 +2543,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">J'enrage !</l>
                         </sp>
                         <pb n="299"/>
@@ -2641,7 +2641,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="M">Je frémis !</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2650,12 +2650,12 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Je ſuis pris, pour le coup.</l>
                         </sp>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l part="F">Quoi vous avez l'audace...</l>
                         </sp>
                         <sp who="Leandre_RF">
@@ -2685,9 +2685,9 @@
                         <pb n="301"/>
                         <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Payons d'effronterie. 
-                                <stage type="delivery" rend="italic">(à <name type="person" n="Clarice">Clarice</name>.)</stage>
+                                <stage type="delivery" rend="italics">(à <name type="person" n="Clarice">Clarice</name>.)</stage>
                                 Ah ! ménagez ſa gloire.</l>
                         </sp>
                         <sp who="Eliante">
@@ -2747,8 +2747,8 @@
                         </sp>
                         <sp who="Leandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Clarice">Clarice</name>.</hi></stage>
-                            <l>A quoi bon l'éclaircir? <stage type="delivery"><hi rend="italic">à <name type="person" n="Eliante">Eliante</name>.</hi></stage> Pourquoi vous <choice><orig>allarme</orig><reg>alarme</reg></choice>r ?</l>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Clarice">Clarice</name>.</hi></stage>
+                            <l>A quoi bon l'éclaircir? <stage type="delivery"><hi rend="italics">à <name type="person" n="Eliante">Eliante</name>.</hi></stage> Pourquoi vous <choice><orig>allarme</orig><reg>alarme</reg></choice>r ?</l>
                             <l>Une belle, à vingt ans pour l'amour eſt formée,</l>
                             <l>Son état eſt d'aimer autant que d'être aimée ;</l>
                             <pb n="302"/>
@@ -2763,13 +2763,13 @@
                             <speaker>LEANDRE.</speaker><lb/>
                             <l>Célébrer vos amours, c'eſt chanter votre gloire.</l>
                         </sp>    
-                    </div3>
-                    <div3 type="scene" n="14">
+                    </div2>
+                    <div2 type="scene" n="14">
                         <head>SCENE XIV.</head><lb/>
                         <stage>MARTON, ELIANTE, CLARICE, <lb/> LEANDRE.</stage><lb/>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker><lb/>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Clarice">Clarice</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Clarice">Clarice</name>.</hi></stage><lb/>
                             <l><c type="lettrine">L</c>A Marquiſe eſt déja dans le ſalon voiſin,</l>
                             <l>Madame, <choice><orig>&amp;</orig><reg>et</reg></choice> vous attend les cartes à la main.</l>
                         </sp>
@@ -2797,14 +2797,14 @@
                             <speaker>LEANDRE.</speaker><lb/>
                             <l part="F">Eh ! La Marquiſe attend.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="303"/>
-                    <div3 type="scene" n="15">
+                    <div2 type="scene" n="15">
                         <head>SCENE XV.</head><lb/>
                         <stage>LEANDRE, CLARICE, ELIANTE.</stage><lb/>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker><lb/>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
                             <l><c type="lettrine">D</c>Ites, avec <name type="person" n="Damon">Damon</name> m'avez-vous jamais <choice><orig>vû</orig><reg>vu</reg></choice>e ?</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -2822,7 +2822,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker><lb/>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Clarice">Clarice</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Clarice">Clarice</name>.</hi></stage><lb/>
                             <l>C'eſt le premier qu'on m'a chargé de lui remettre.</l>
                         </sp>
                         <sp who="Eliante">
@@ -2847,9 +2847,9 @@
                             <l>Cette hiſtoire bien-tôt ſeroit celle du jour:</l>
                             <l>Vous devez toutes deux vous taire par prudence.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="304"/>
-                    <div3 type="scene" n="16">
+                    <div2 type="scene" n="16">
                         <head>SCENE XVI.</head><lb/>
                         <stage>LEANDRE, CLARICE, ELIANTE, <lb/> MARTON.</stage><lb/>
                         <sp who="Marton_RF">
@@ -2900,13 +2900,13 @@
                             <speaker>MARTON.</speaker><lb/>
                             <l part="F">Le voilà priſonnier.</l>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>    
-                    </div3>
-                </div2>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></trailer>    
+                    </div2>
+                </div1>
                 <pb n="305"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>MARTON, LA FLEUR.</stage><lb/>
                         <sp who="Marton_RF">
@@ -2942,7 +2942,7 @@
                         <sp who="Marton_RF">
                             <speaker>MARTON.</speaker><lb/>
                             <l>Ils tournent contre lui, grace à ſon ſtratagême.</l>
-                            <l>Ma Maîtreſſe eſt jalouſe, <hi rend="italic">ergo</hi>, ma Maîtreſſe aime.</l>
+                            <l>Ma Maîtreſſe eſt jalouſe, <hi rend="italics">ergo</hi>, ma Maîtreſſe aime.</l>
                             <l>Pour la mieux enchaîner, il faut dans ſon erreur,</l>
                             <pb n="306"/>
                             <l>Que ton Maitre nourriſſe <choice><orig>&amp;</orig><reg>et</reg></choice> confirme ſon cœur.</l>
@@ -2978,13 +2978,13 @@
                             <speaker>LA FLEUR.</speaker><lb/>
                             <l>Tu ne languiras pas, <name type="person" n="Marton">Marton</name> ; car le voici.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <stage>DAMON, MARTON, LA FLEUR.</stage><lb/>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage>
                             <note resp="Loterie, Joséphine">Cette réplique n'eſt pas à part.</note><lb/>
                             <l><c type="lettrine">D</c>E ta Maîtreſſe enfin j'imite l'inconſtance.</l>
                             <l>Ce changement flateur me tranſporte d'avance.</l>
@@ -3100,7 +3100,7 @@
                         </sp>
                         <sp who="La_Fleur_RF">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Marton">Marton</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Marton">Marton</name>.</stage><lb/>
                             <l>Il trouvera, peut-être, <name type="person" n="Eliante">Eliante</name> à ſon gré ,</l>
                         </sp>
                         <sp who="Damon_RF">
@@ -3154,8 +3154,8 @@
                             <speaker>MARTON.</speaker><lb/>
                             <l>Et je l'aprouve auſſi.... Mais <name type="person" n="Léandre">Léandre</name> s'échape.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>LEANDRE, DAMON, MARTON, <lb/> LA FLEUR.</stage><lb/>
                         <sp who="Leandre_RF">
@@ -3172,12 +3172,12 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="business" rend="italic">l'arrêtant.</stage><lb/>
+                            <stage type="business" rend="italics">l'arrêtant.</stage><lb/>
                             <l>Non, tu m'écouteras; la choſe t'intéreſſe.</l>
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">voulant ſortir.</stage><lb/>
+                            <stage rend="italics">voulant ſortir.</stage><lb/>
                             <l>Je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice>, te dis-je, une affaire me preſſe.</l>
                         </sp>
                         <sp who="Marton_RF">
@@ -3212,7 +3212,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">étonné.</stage><lb/>
+                            <stage rend="italics">étonné.</stage><lb/>
                             <l part="I"><name type="person" n="Eliante">Eliante</name> ?</l>
                         </sp>
                         <sp who="Damon_RF">
@@ -3230,7 +3230,7 @@
                         </sp>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ah ! <name type="person" n="Marton">Marton</name> l'a mis au fait de l'avanture.</l>
                         </sp>
                         <sp who="Damon_RF">
@@ -3256,9 +3256,9 @@
                         <pb n="311"/>
                         <sp who="Leandre_RF">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Son air me détrompe <choice><orig>&amp;</orig><reg>et</reg></choice> diſſipe ma crainte.</l>
-                            <lb/><stage type="delivery" rend="italic">(haut.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(haut.</stage><lb/>
                             <l>Ton cœur, s'il eſt ainſi, ne pouvoit choiſir mieux</l>
                             <l part="I">Ni pour toi, ni pour moi.</l>
                         </sp>
@@ -3287,17 +3287,17 @@
                             <speaker>DAMON.</speaker><lb/>
                             <l part="F">Je le veux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">I</c>L fuit très-à-propos; les voilà toutes deux.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="312"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>CLARICE, ELIANTE, MARTON.</stage><lb/>
                         <sp who="Eliante">
@@ -3313,8 +3313,8 @@
                             <l>Et ſans lui, votre cœur m'eût déclaré la choſe.</l>
                             <l><name type="person" n="Marton">Marton</name>, éloignez-vous.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>CLARICE, ELIANTE.</stage><lb/>
                         <sp who="Clarice_RF">
@@ -3386,13 +3386,13 @@
                             <l>Madame, vous verriez, par l'aveu de ſon cœur ;</l>
                             <l>Quel outrage me fait votre jalouſe erreur.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head><lb/>
                         <stage>DAMON, CLARICE, ELIANTE.</stage><lb/>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage><hi rend="italic">dans le fond du Théâtre.</hi></stage><lb/>
+                            <stage><hi rend="italics">dans le fond du Théâtre.</hi></stage><lb/>
                             <l><c type="lettrine">N</c>On, tes diſcours ſont vains, c'eſt devant l'infidèle</l>
                             <l>Que je veux déclarer ma tendreſſe nouvelle.</l>
                         </sp>
@@ -3447,7 +3447,7 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
                             <l>Quoi l'amour le plus pur qu'un homme puiſſe avoir</l>
                             <l>Doit-il être pour vous une ſi grande offenſe ?</l>
                         </sp>
@@ -3497,7 +3497,7 @@
                         <pb n="316"/>
                         <sp who="Eliante">
                             <speaker>ELIANTE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
                             <l>Faut-il que vous m'aimiez auſſi mal-à-propos ?</l>
                             <l>Haïſſés-moi <choice><orig>plûtôt</orig><reg>plutôt</reg></choice>, Monſieur, pour mon repos.</l>
                             <l>Faut-il pour l'obtenir, que je verſe des larmes ?</l>
@@ -3530,7 +3530,7 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
                             <l>C'eſt trop, vous-même ici jouer la Comédie :</l>
                             <l>D'une fauſſe douleur dépouillés les dehors ,</l>
                             <l>Et livrez-vous <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> à vos tendres tranſports.</l>
@@ -3562,8 +3562,8 @@
                             <l>Peut noircir la Sageſſe, <choice><orig>&amp;</orig><reg>et</reg></choice> jamais la détruire.</l>
                             <l part="I">Adieu</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <stage>DAMON, CLARICE.</stage><lb/>
                         <sp who="Clarice_RF">
@@ -3645,18 +3645,18 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="mixed" rend="italic">à part, après avoir lû.</stage><lb/>
+                            <stage type="mixed" rend="italics">à part, après avoir lû.</stage><lb/>
                             <l>O Ciel ! C'eſt le Billet que <name type="person" n="Léandre">Léandre</name>, en ces lieux,</l>
                             <l>M'a fait tracer tantôt pour ce Duc amoureux.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>L'Ingrat eſt convaincu, ſa ſurpriſe l'annonce !</l>
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Mais n'en témoignons rien.</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -3667,14 +3667,14 @@
                         <pb n="319"/>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="business" rend="italic">lui donnant un autre billet.</stage><lb/>
+                            <stage type="business" rend="italics">lui donnant un autre billet.</stage><lb/>
                             <l part="F">Madame , la voilà :</l>
                             <l>Connoiſſez-vous la main d'où part ce Billet-là?</l>
                             <l>Vous n'auriez jamais cru ma replique ſi proche.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage rend="italic">après avoir lû.</stage><lb/>
+                            <stage rend="italics">après avoir lû.</stage><lb/>
                             <l>Peride ! Il vous ſied bien de m'en faire un reproche,</l>
                             <l>Quand cet Ecrit fait vor l'excès de mon amour.</l>
                         </sp>
@@ -3731,8 +3731,8 @@
                             <l>Un doute ſi frivole eſt trop facile à vaincre ,</l>
                             <l part="I"><name type="person" n="Marton">Marton</name> ?</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX.</head><lb/>
                         <stage>CLARICE, DAMON, MARTON.</stage><lb/>
                         <sp who="Marton_RF">
@@ -3747,9 +3747,9 @@
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Je demeure confuſe.</l>
-                            <lb/><stage type="delivery" rend="italic">haut.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">haut.</stage><lb/>
                             <l part="I">Il eſt vrai ; mais...</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -3799,7 +3799,7 @@
                         <sp who="Clarice_RF">
                             <speaker>CLARICE.</speaker><lb/>
                             <l>C'eſt la faute , <name type="person" n="Marton">Marton</name> de votre négligence.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Damon">Damon</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Damon">Damon</name>.)</stage><lb/>
                             <l>Son raport cependant fait voir mon innocence.</l>
                         </sp>
                         <sp who="Damon_RF">
@@ -3861,14 +3861,14 @@
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Damon">Damon</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Damon">Damon</name>.</stage><lb/>
                             <l>Son amour eſt nourri  Monſieur , par cette erreur ;</l>
                             <l>Vous riſquez de l'éteindre , en détrompant ſon cœur;</l>
                             <l part="I">Je la <choice><orig>connois</orig><reg>connais</reg></choice>.</l>
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Clarice">Clarice</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Clarice">Clarice</name>.</stage><lb/>
                             <l part="M">La Lettre enfin...</l>
                         </sp>
                         <sp who="Clarice_RF">
@@ -3908,7 +3908,7 @@
                         </sp>
                         <sp who="Damon_RF">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">lui prenant la main.</stage><lb/>
+                            <stage type="delivery" rend="italics">lui prenant la main.</stage><lb/>
                             <l>Ce prix eſt trop charmant pour ne pas l'accepter;</l>
                             <l>Des bienfaits de l'Orgueil l'Amour va profiter :</l>
                             <l>D'<name type="person" n="Eliante">Eliante</name> , mon cœur vous fait le ſacrifice ,</l>
@@ -3921,11 +3921,11 @@
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
                             <l>Vous triophez enfin, <choice><orig>&amp;</orig><reg>et</reg></choice> l'Amour eſt le Maître.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE X.</head><lb/>
                         <stage>LEANDRE, CLARICE, MARTON, <lb/> DAMON</stage><lb/>
                         <sp who="Leandre_RF">
@@ -3998,7 +3998,7 @@
                         </sp>
                         <sp who="Marton_RF">
                             <speaker>MARTON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l>Pour avoir dans vos feux un ſuccès achevé ,</l>
                             <l>Rendez-moi le billet que vous avez trouvé.</l>
                         </sp>
@@ -4015,19 +4015,19 @@
                             <l>De ce crime aujourd'hui, mon bonheur le châtie,</l>
                             <l>Et tout haut d'<name type="person" n="Eliante">Eliante</name>, il fait l'apologie.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI.</head><lb/>
                         <stage>LEANDRE, CLARICE, MARTON , <lb/>DAMON, ARLEQUIN, LA FLEUR.</stage><lb/>
                         <sp who="Arlequin_RF">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
                             <l><c type="lettrine">V</c>Oilà les Violons que vous avez mandés ,</l>
                             <l part="I">Monſieur.</l>
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Damon">Damon</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Damon">Damon</name>.</hi></stage><lb/>
                             <l part="F">A quel propos les a-t'il commandés ?</l>
                         </sp>
                         <sp who="Damon_RF">
@@ -4043,7 +4043,7 @@
                         </sp>
                         <sp who="Clarice_RF">
                             <speaker>CLARICE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
                             <l>Vous nous donnez le Bal ! Mais rien n'eſt plus honnête !</l>
                         </sp>
                         <sp who="Leandre">
@@ -4051,9 +4051,9 @@
                             <l>Il n'eſt point de replique à de tels incidens ,</l>
                             <l>Et l'Amour , par Arrêt , me condamne aux dépens <unclear>!</unclear></l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="326"/>
-                    <div3 type="scene" n="12">
+                    <div2 type="scene" n="12">
                         <head>SCENE DERNIERE.</head><lb/>
                         <stage>MARTON, ARLEQUIN, LA FLEUR.</stage><lb/>
                         <sp who="Marton_RF">
@@ -4085,13 +4085,13 @@
                           <speaker>ARLEQUIN.</speaker><lb/>
                           <l>Ma gloire eſt ſatisfaite , <choice><orig>&amp;</orig><reg>et</reg></choice> ma crainte eſt bannie.</l>
                         </sp>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="327"/>
-                <div2 type="divertissement">
+                <div1 type="divertissement">
                     <head>DIVERTISSEMENT.</head>
-                    <stage type="business"><hi rend="italic">(on danſe.)</hi></stage>
-                    <div3 type="vaudeville">
+                    <stage type="business"><hi rend="italics">(on danſe.)</hi></stage>
+                    <div2 type="vaudeville">
                         <head>VAUDEVILLE.</head>
                         <lg>
                             <l><c type="lettrine">E</c>Tre aſſuré de ſa gageure ,</l>
@@ -4145,10 +4145,9 @@
                                 <l>Faites-moi gagner le pari.</l>
                             </lg>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin du Tome cinquiéme.</hi></p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du Tome cinquiéme.</hi></trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
