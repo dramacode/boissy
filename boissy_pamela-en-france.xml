@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Paméla en France ou la vertu mieux éprouvée: édition numérique</title>
+                <title type="main">Paméla en France</title>
+                <title type="alternative">ou la vertu mieux éprouvée</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -65,13 +67,13 @@
                 <pb n="133"/>
                 <docTitle>
                     <titlePart type="main">PAMÉLA <lb/>EN FRANCE <lb/>OU <lb/>LA VERTU <lb/>MIEUX EPROUVÉE <pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="134"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
-                <castItem><role>LE MARQUIS</role><pc>,</pc><roleDesc> Amant de <name type="person" n="Paméla">Paméla</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem><role>LE MARQUIS</role><pc>,</pc><roleDesc> Amant de <name type="person" n="Pamela">Paméla</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>PAMÉLA</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LE CHEVALIER</role><pc>,</pc><roleDesc> Gaſcon</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>NERINE</role><pc>,</pc><roleDesc> Concierge</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
@@ -80,7 +82,7 @@
                 <castItem><roleDesc>TROUPE DE DANSEURS</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Scène eſt à la Campagne, dans un Château<pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Scène eſt à la Campagne, dans un Château<pc type="affirmative">.</pc></p>
             </set>
             <pb n="135"/>
         </front>
@@ -88,14 +90,13 @@
             <div1 type="title">
                 <head>PAMÉLA <lb/>EN FRANCE <lb/>OU <lb/>LA VERTU <lb/>MIEUX EPROUVÉE <pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="mixed" rend="italic">ſeule écrivant. <lb/>S'interrompant.</stage><lb/>
+                            <stage type="mixed" rend="italics">ſeule écrivant. <lb/>S'interrompant.</stage><lb/>
                             <l><c type="lettrine">A</c>H ! que ma bonne Mere &amp; que mon cher <lb/> Papa</l>
                             <l>Vont etre tranſportés de joye,</l>
                             <l>En liſant cette Lettre-là !</l>
@@ -105,22 +106,22 @@
                             <l>De mon bonheur les inſtruira ,</l>
                             <l>Ma tendreſſe au long s'y déploye.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
-                        <stage>PAMELA<pc>,</pc> LE MARQUIS <hi rend="italic">déguiſé en femme</hi><pc type="affirmative">.</pc></stage><lb/>
+                        <stage>PAMELA<pc>,</pc> LE MARQUIS <hi rend="italics">déguiſé en femme</hi><pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
-                            <l><c type="lettrine">J</c>E ne puis un inſtant être ſans <name type="person" n="Paméla">Paméla</name>,</l>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
+                            <l><c type="lettrine">J</c>E ne puis un inſtant être ſans <name type="person" n="Pamela">Paméla</name>,</l>
                             <l>Je la cherche... mais la voilà :</l>
                             <l>Bon, elle a la main à la plume.</l>
                             <l>Pour m'éclaircir de ſes vrais ſentimens,</l>
                             <l>Aprochons-nous dans ces momens :</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Paméla">Paméla</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Pamela">Paméla</name>.</stage><lb/>
                             <l part="I">Vous écrivez ?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Pardon, c'eſt ma coutume.</l>
                         </sp>
@@ -129,7 +130,7 @@
                             <l>Ne vous excuſez pas, c'eſt en vous un talent,</l>
                             <l>A vos parens ſans doute, un tel écrit s'adreſſe ?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, je les inſtruits amplement</l>
                             <l>Des bontés qu'a pour moi ma nouvelle Maîtreſſe.</l>
@@ -140,7 +141,7 @@
                             <l>Très-inſtamment je vous prierois</l>
                             <l>De me faire voir votre Lettre.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Ah ! Madame, je crains....</l>
                         </sp>
@@ -148,7 +149,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Non, daignez me permettre....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Je dois me rendre à vos ſouhaits.</l>
                         </sp>
@@ -157,7 +158,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre façon d'écrire a pour moi des attraits.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre indulgence eſt néceſſaire ,</l>
                             <l>On ſçait que je m'exprime aſſez mal en François,</l>
@@ -167,8 +168,8 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour ſa naïveté dont je chéris les traits ,</l>
                             <l>Votre ſtile toujours aura l'art de me plaire.</l>
-                            <lb/><stage type="business" rend="italic">Il lit.</stage><lb/>
-                            <p rend="italic">Mes très-cher Pere &amp; Mere,
+                            <lb/><stage type="business" rend="italics">Il lit.</stage><lb/>
+                            <p rend="italics">Mes très-cher Pere &amp; Mere,
                                 <lb/>Réjouiſſez-vous , pour le coup ma gloire eſt en ſureté. 
                                 <lb/>J'ai trompé la vigilance de Me. Jeukes, &amp; je me ſuis 
                                 <lb/>ſauvée par la porte du Jardin , à la faveur d'une 
@@ -185,7 +186,7 @@
                             <l>J'aiderai de mon mieux à le rendre amuſant,</l>
                             <l>Mais vous retrancherez moitié de la premiére.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui pour reſter tous deux dans notre caractére ,</l>
                             <l>Mon Maître &amp; moi bornerons ſagement</l>
@@ -203,15 +204,15 @@
                             <l>La démarche , il eſt vrai n'eſt pas digne d'eſtime.</l>
                         </sp>
                         <pb n="138"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Voilà pourquoi je la ſuprime.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Ma chére <name type="person" rend="italic">Paméla</name>, vous me faites plaiſir.</l>
-                            <lb/><stage type="business" rend="italic">Il continue de lire.</stage><lb/>
-                            <p rend="italic">Madame &amp; moi, nous ſommes actuellement dans une 
+                            <l>Ma chére <name type="person" rend="italics">Paméla</name>, vous me faites plaiſir.</l>
+                            <lb/><stage type="business" rend="italics">Il continue de lire.</stage><lb/>
+                            <p rend="italics">Madame &amp; moi, nous ſommes actuellement dans une 
                                 <lb/>de ſes Terres, qui eſt à dix lieuës de <name type="place" n="Paris">Paris</name>. en vérité 
                                 <lb/>elle m'y traite , non pa<sic>r</sic><corr>s</corr> comme ſa femme de chambre , 
                                 <lb/>mais comme la plus tendre de ſes amies : les bontés de 
@@ -222,20 +223,20 @@
                                 <lb/>l'un &amp; l'autre me trompent peut-être...
                             </p>
                             <stage type="business">Il s'interrompt.</stage>
-                            <l>Nous, nous vous diſons vrai. Tout ſied à <name type="person" n="Paméla">Paméla</name>,</l>
+                            <l>Nous, nous vous diſons vrai. Tout ſied à <name type="person" n="Pamela">Paméla</name>,</l>
                             <l>Sa grace eſt partout naturelle ;</l>
                             <l>Elle pare l'habit qu'elle a,</l>
                             <l>Et rien n'eſt étranger pour elle.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je dois rougir de cet éloge-là.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Rougiſſez, rougiſſez, vous en êtes plus belle.</l>
-                            <lb/><stage type="business" rend="italic">Il continue à lire.</stage><lb/>
-                            <p rend="italic">L'habit qu'elle m'a fait faire (admirez ſa géneroſité, 
+                            <lb/><stage type="business" rend="italics">Il continue à lire.</stage><lb/>
+                            <p rend="italics">L'habit qu'elle m'a fait faire (admirez ſa géneroſité, 
                                 <lb/>mes bons parens ) eſt de la même étoffe que le ſien. On 
                                 <lb/>nous prendroit pour les deux ſœurs. Son amitié ne ſe bon-
                                 <lb/>ne pas-là Elle me prévient ſur-tout. Par exemple, j'aime 
@@ -245,7 +246,7 @@
                                 <lb/>n'eſt pas qu'elle ſoit belle, non, je mentirois.
                             </p>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Paſſez cet endroit, je vous prie</l>
                             <l>J'écris ce que je penſe un peu trop librement.</l>
@@ -255,7 +256,7 @@
                             <l>Vous m'obligez de parler franchement :</l>
                             <l>Ma vanité n'eſt pas de me croire jolie.</l>
                             <pb n="139"/>
-                            <lb/><stage type="business" rend="italic">Il continue à lire.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il continue à lire.</stage><lb/>
                             <p>Ses traits ne ſont pas réguliers , mais elle a une de ces 
                                 <lb/>phiſionomies, qui préviennent d'abord, par leur douceur 
                                 <lb/>Son caractére y répond. Elle eſt la politeſſe même : elle n'a 
@@ -267,7 +268,7 @@
                             <l>Vous me louez préciſément</l>
                             <l>Par le ſeul endroit qui me flâte.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mon cœur en dit beaucoup moins qu'il n'en ſent.</l>
                         </sp>
@@ -276,8 +277,8 @@
                             <l>Le mien en ſent pour vous encore davantage ,</l>
                             <l>Si vous pouviez entendre ſon langage ;</l>
                             <l>Vous ſeriez dans l'étonnement.</l>
-                            <lb/><stage type="business" rend="italic"> continue à lire.</stage><lb/>
-                            <p rend="italic">Je trouve ma Patrie en <name type="place" n="France">France</name> auprès de cette jeune 
+                            <lb/><stage type="business" rend="italics"> continue à lire.</stage><lb/>
+                            <p rend="italics">Je trouve ma Patrie en <name type="place" n="France">France</name> auprès de cette jeune 
                                 <lb/>veuve : il ne manque à mon bonheur que de vous y 
                                 <lb/>voir.
                             </p><stage rend="business">Il s'interrompt.</stage>
@@ -289,7 +290,7 @@
                             <l>Flâte mon cœur par l'endroit le plus doux ;</l>
                             <l>J'augmenterai ma joye en redoublant la vôtre.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous comblez tous mes vœux. De quel raviſſe-<lb/>ment.</l>
                             <l>Je vais les remplir l'un &amp; l'autre :</l>
@@ -299,7 +300,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne veux pour tout prix que votre attachement</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Si de mon zèle ſeul votre ame ſe contente ;</l>
                             <l part="I">Son ardeur....</l>
@@ -311,7 +312,7 @@
                             <l>Et mon cœur pour être payé,</l>
                             <l>Veut tout au moins de l'amitié.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Madame, ſi j'oſois , j'aurois de la tendreſſe.</l>
                         </sp>
@@ -326,14 +327,14 @@
                             <l>Je vais donner plus d'un ordre qui preſſe :</l>
                             <l>Je me fais par avance un plaiſir des plus grands ,</l>
                             <l>D'y voir briller tous vos talens.</l>
-                            <stage type="exit" rend="italic">Il ſort.</stage>
+                            <stage type="exit" rend="italics">Il ſort.</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">E</c>Crivons, écrivons. Pour mon pere &amp; ma mere ,</l>
                             <l>Nouveau ſujet de joye &amp; de douceur ,</l>
                             <l>Pour moi nouveaux diſcours à faire ;</l>
@@ -344,16 +345,16 @@
                             <l>Cette préciſion, dont on fait tant de cas,</l>
                             <l>Eſt le langage des ingrats.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="141"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA  MATHURIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mathurin">
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">A</c>lle eſt ſeule, avançons , prionslà....mais je <lb/>n'oſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! c'eſt vous , <name type="person" n="Mathurin">Mathurin</name> , voulez-vous quelque <lb/> choſe ?</l>
                         </sp>
@@ -363,7 +364,7 @@
                             <l>Si je ne craignions pas de vous être incommode !</l>
                             <l>Pour vous le dire, exprès autour de vous je rode.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Parlez, en quoi vous puis-je donc ſervir ?</l>
                             <l part="I">J'y ſuis très-diſpoſée.</l>
@@ -378,7 +379,7 @@
                             <l>Vous m'obligeriez tout à fait,</l>
                             <l>Si vous vouliez pour moi griffonner un Billet.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Dites-moi, s'il vous plaît, avant que je m'engage,</l>
                             <l>A qui l'écrivez-vous, quel en eſt le ſujet ?</l>
@@ -387,7 +388,7 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'écrivons à que<sic>u</sic><corr>l</corr>qu'un que j'aimons à la rage.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Quoi?</l>
                         </sp>
@@ -400,7 +401,7 @@
                             <l>Un vrai prodige de biauté ;</l>
                             <l>D'autant plus rare qu'âlle eſt ſage.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ignore-t-elle votre amour ?</l>
                         </sp>
@@ -409,7 +410,7 @@
                             <l>Oui, je voulons par-là l'en inſtruire en ce jour ,</l>
                             <l>Et j'aſpirons au mariage</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Mais êtes-vous pour elle ?</l>
                         </sp>
@@ -423,7 +424,7 @@
                             <l>Et moi, je ſuis neveu d'un aſſez gros Farmier,</l>
                             <l>Dont je ſerons l'unique Légataire.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je n'ai plus rien à dire, &amp; maintenant je voi</l>
                             <l>Que <name type="person" n="Mathurin">Mathurin</name> aime de bonne foi ;</l>
@@ -434,12 +435,12 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>.... C'eſt ce que j'allons faire,</l>
                             <l>Puiſque votre bonté fait cet effort pour moi.</l>
-                            <lb/><stage type="business" rend="italic">Il dicte , &amp; <name type="person" n="Paméla">Paméla</name> écrit :</stage><lb/>
-                            <p rend="italic">Mlle. j'étouffons d'amour pour vous , &amp; je croyons qu'il 
+                            <lb/><stage type="business" rend="italics">Il dicte , &amp; <name type="person" n="Pamela">Paméla</name> écrit :</stage><lb/>
+                            <p rend="italics">Mlle. j'étouffons d'amour pour vous , &amp; je croyons qu'il 
                                 <lb/>eſt plus ſage de vous le dire que d'en créver ;
                             </p>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce ſentiment eſt raiſonnable.</l>
                         </sp>
@@ -450,15 +451,15 @@
                             <l>Pour moi, ſans farlatter, je dis ce que je ſens.</l>
                         </sp>
                         <pb n="143"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cette façon de parler eſt préférable ,</l>
                             <l>C'eſt de l'amour ſans art dicté par le bon ſens.</l>
                         </sp>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage type="business" rend="italic">dictant.</stage><lb/>
-                            <p rend="italic">Je ne vous avons vû que quatre fois, &amp; ne vous avons 
+                            <stage type="business" rend="italics">dictant.</stage><lb/>
+                            <p rend="italics">Je ne vous avons vû que quatre fois, &amp; ne vous avons 
                                 <lb/>parlé qu'une ſeule en paſſant, &amp; ſi je ſommes plus raſ-
                                 <lb/>ſotté de vous que ſi je vous avions connuë toute notre 
                                 <lb/>vie. Sans tant tourner autour du pot , vous avez plus 
@@ -468,7 +469,7 @@
                                 <lb/>riche, &amp; l'autre me rendra plus content.
                             </p>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Plus content, eſt-ce tout ?</l>
                         </sp>
@@ -476,17 +477,17 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">.... J'avons encore à mettre</l>
                             <l>Trois mots ſans plus , pis je farmons ma Lettre.</l>
-                            <lb/><stage type="business" rend="italic">Il dicte.</stage><lb/>
-                            <p rend="italic">J'avons avec ma parſonne, un héritage de près de vingt 
+                            <lb/><stage type="business" rend="italics">Il dicte.</stage><lb/>
+                            <p rend="italics">J'avons avec ma parſonne, un héritage de près de vingt 
                                 <lb/>mille écus, je vous offrons l'eun &amp; l'autre de bon cœur , 
                                 <lb/>morgué acceptez-les de même. Boutez en même tems vo-
                                 <lb/>tre main blanche dans la mienne, quoi qu'alle ſoit plus 
-                                <lb/>noire, &amp; qui ſautera d'aiſe, ce ſera <name type="person" rend="italic">Mathurin</name>.
+                                <lb/>noire, &amp; qui ſautera d'aiſe, ce ſera <name type="person" rend="italics">Mathurin</name>.
                             </p>
-                            <lb/><stage type="business" rend="italic">Il parle.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il parle.</stage><lb/>
                             <l>Hem, comment trouvez-vous ce billet?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Tout au mieux,</l>
                             <l>Le cœur de Mathurin eſt tendre &amp; généreux,</l>
@@ -496,9 +497,9 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Attendez.... que je me rapelle,</l>
                             <l>C'eſt, à Mademoiſelle ,</l>
-                            <l>Mademoiſelle <name type="person" n="Paméla">Paméla</name>.</l>
+                            <l>Mademoiſelle <name type="person" n="Pamela">Paméla</name>.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ai-je bien entendu ! ma ſurpriſe eſt extrême,</l>
                             <l>Répétez je vous prie, à qui ce billet-là,</l>
@@ -509,9 +510,9 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">A vous-même.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je ne m'attendois pas à ce tour de ſa part;</l>
                             <l>Mais je dois ménager l'amour de tout le monde;</l>
                             <l>Le ſien mérite quelqu'égard ,</l>
@@ -523,7 +524,7 @@
                             <l>Pour ſçavoir notre ſort, j'attendons que ſans fard</l>
                             <l>Mademoiſelle nous réponde.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Puiſque je ſuis forcée à répartir....</l>
                             <l>Mais quelqu'un vient ſans qu'on l'annonce?</l>
@@ -532,13 +533,13 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je reviendrons tantôt pour prendre la réponſe,</l>
                             <l>Vous pouvez la faire à loiſir.</l>
-                            <lb/><stage type="exit" rend="italic">Il ſort.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Il ſort.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I"><c type="lettrine">Q</c>Ue demande Monſieur ?</l>
                         </sp>
@@ -555,10 +556,10 @@
                             <l>Que par envie on fronde injuſtement,</l>
                             <pb n="145"/>
                             <l>Et qu'on admire forcément.</l>
-                            <l>C'eſt <name type="person" n="Paméla">Paméla</name> que ce Péhnix s'apelle :</l>
+                            <l>C'eſt <name type="person" n="Pamela">Paméla</name> que ce Péhnix s'apelle :</l>
                             <l>Seroit-ce vous, Mademoiſelle?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je me reconnois à ce nom,</l>
                             <l>Mais au portrait que vous en faites,</l>
@@ -576,12 +577,12 @@
                             <l>Contre les eſprits prévenus,</l>
                             <l>A pied comme à cheval prêt à prendre les armes.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>C'eſt, pour les intérêts, montrer trop de chaleur.</l>
                             <l>La Critique me fait honneur,</l>
                             <l>Elle fait ſoupçonner que j'ai quelque mérite ;</l>
-                            <l>Mais il ne convient pas à <name type="person" n="Paméla">Paméla</name>, Monſieur,</l>
+                            <l>Mais il ne convient pas à <name type="person" n="Pamela">Paméla</name>, Monſieur,</l>
                             <l>De recevoir ici ſeule votre viſite ,</l>
                             <l>Et je vais avertir, Madame en ces inſtans.</l>
                         </sp>
@@ -603,7 +604,7 @@
                             <l>Moi, j'ai voulu vous rendre un hommage iſolé,</l>
                             <l>Et vous faire tout ſeul mon humble révérence.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Moi, je vous fais la mienne.......</l>
                         </sp>
@@ -611,7 +612,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Ah! vous fuyez à tort.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je n'entretiens jamais les hommes tête à tête.</l>
                         </sp>
@@ -625,7 +626,7 @@
                             <l>C'eſt toujours poliment , &amp; du ton qui convient.</l>
                             <l>Un Anglois les arrache, un François les obtient.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Plus vos maniéres ſont aimables,</l>
                             <l>Plus nous devons vous éviter ,</l>
@@ -654,7 +655,7 @@
                             <l>Elle paſſe par la coupelle</l>
                             <l>D'un jeune Amant François, &amp; Gaſcon, qui plus eſt.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah! ma ſageſſe a fait ſes preuves,</l>
                             <l>Et s'en tient prudemment aux premiéres épreuves.</l>
@@ -680,11 +681,11 @@
                             <l>Que pour bien éprouver la vertu d'une fille,</l>
                             <l>Il faut abſolument le creuſet de <name type="place" n="Paris">Paris</name>.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE <sic>V</sic><corr>VI</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage><sic>LE MARQUIS</sic><corr>LE CHEVALIER</corr><pc>,</pc>PAMELA<pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">I</c>L eſt vrai nos Amans ſont un peu mieux apris,</l>
                             <l>Que celui de Mademoiſelle.</l>
@@ -693,12 +694,12 @@
                             <l>Notre cœur ne pouvoit être plus mal tombé;</l>
                             <l>J'en ai ſenti pour vous une peine mortelle.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Héla, ſous ſa ruſe cruelle,</l>
                             <l>Il eſt trop ſûr qu'un autre eut ſuccombé.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, la victoire au fond n'eſt pas ſi ſurprenante,</l>
                             <l>Dans vos climats vous n'avez pas éprouvé,</l>
@@ -713,7 +714,7 @@
                             <l>Mlle. avoués ſans façon,</l>
                             <l>Qu'on n'a pas grand mérite à l'être.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il m'aimoit cependant, il étoit même bon.</l>
                         </sp>
@@ -723,7 +724,7 @@
                             <l>S'il eut embraſſé vos genoux,</l>
                             <l>Si vous baiſant la main d'une bouche preſſante....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Arrêtez...donc, Monſieur....</l>
                         </sp>
@@ -740,7 +741,7 @@
                             <l>Qu'au mourant vos bontés auroient ſauvé la vie.</l>
                         </sp>
                         <pb n="149"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">J'aurois ri......</l>
                         </sp>
@@ -750,7 +751,7 @@
                             <l>Commence d'être favorable,</l>
                             <l>On eſt bien près de plaire, alors qu'on eſt divertit.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce ton-là pour mon cœur n'eſt pas bien redoutable.</l>
                         </sp>
@@ -761,13 +762,13 @@
                             <l>Et la Comteſſe qui s'avance</l>
                             <l>Vous dira comme moi.... .... Mais que vois-je? <lb/>Sangdis !</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE <sic>VI</sic><corr>VII</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> LE CHEVALIER <pc>;</pc> <lb/>LE MARQUIS<pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">C</c>'Eſt le Chevalier ! je ſuis pris.</l>
                         </sp>
                         <sp who="Le Chevalier">
@@ -783,28 +784,28 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Moi de bon cœur, je te maudis.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Où ſuis-je! juſte Ciel, ma Maîtreſſe eſt un homme,</l>
                             <pb n="150"/>
                             <l>Je n'y puis réſiſter, &amp; ce revers m'aſſomme.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous quittez un Milord pour ſervir un Marquis?</l>
                             <l>Il ne faut pas qu'on s'en étonn<sic>n</sic><corr></corr>e ;</l>
                             <l>Car le torc eſt charmant, la condition bonne,</l>
                             <l>Et vous avez le goût exquis.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Rien ne reſſemble au deſtin qui m'aſſiége !</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Evanouiſſez-vous.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je le dévrois,</l>
                             <l>Mais le Public encore le trouveroit mauvais,</l>
@@ -817,7 +818,7 @@
                             <l>Pardonnés à l'Amour l'ecès de mon audace,</l>
                             <l part="I">Lui ſeul......</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, non, après cet outrage ſanglant,</l>
                             <l>Je dois vous regarder avec frémiſſement,</l>
@@ -828,7 +829,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Rien ne tranſpirera de tout ce qui ſe paſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Chacun va déchirer ma réputation.</l>
                         </sp>
@@ -836,7 +837,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I"> C'eſt un ſecret.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il eſt à la diſcrétion</l>
                             <l>D'un Gentilhomme d'<name type="place" n="Avignon">Avignon</name>;</l>
@@ -853,7 +854,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je vous juſtifierai, votre cauſe eſt la mienne.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Rien ne peut me laver qu'une fuite ſoudaine.</l>
                             <l>Adieu, je ne dois plus vous parler ni vous voir,</l>
@@ -878,11 +879,11 @@
                             <l>Par un déréglement, d'un beau fard revêtu,</l>
                             <l>Et ſous un faux dehors jouir au ſein du crime</l>
                             <l>De tout l'éclat de la vertu.</l>
-                            <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="152"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE <sic>VII</sic><corr>VIII</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS <pc>,</pc> NERINE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -895,10 +896,10 @@
                             <l>Il faut que ſous le mien je l'apaiſe &amp; l'enflâme :</l>
                             <l>Je le dois pour ma gloire, &amp; plus pour mon bonheur,</l>
                             <l>Ce matin ſa Maîtreſſe, &amp; ce ſoin ſon vainqueur.</l>
-                            <lb/><stage type="exit" rend="italic">(Il s'en va.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE <sic>VIII</sic><corr>IX</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>LE CHEVALIER <pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Chevalier">
@@ -909,15 +910,15 @@
                             <l>C'eſt mon ſyſtême &amp; mon humeur,</l>
                             <l>Qu'on faſſe bien ou mal, on me voit toujours rire,</l>
                             <l>Ou de la choſe, ou de l'Acteur.</l>
-                            <lb/><stage type="exit" rend="italic">(Il s'en va.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="153"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE <sic>III</sic><corr>X</corr><pc type="affirmative">.</pc></head><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">M</c>Oi, je brûle d'aller conter leurs avantures.</l>
                             <l>On nous en fait accroire avec de ſots écrits.</l>
                             <l>La ſageſſe par-tout dépend des conjonctures.</l>
@@ -930,16 +931,16 @@
                             <l>Elle tombe l'après-dinée,</l>
                             <l>Et ſe reléve le matin.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic ; center">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italics ; center">Fin du premier Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="154"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">V</c>Ous voilà pour combattre, &amp; pour vaincre le <lb/> Belle,</l>
                             <l>En habit ſortable &amp; décent,</l>
@@ -950,7 +951,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'ai de ſa part à craindre un ennemi puiſſant.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Quel ennemi ?</l>
                         </sp>
@@ -959,7 +960,7 @@
                             <l part="F">.... C'eſt ſa vertu rebelle,</l>
                             <l>Que lui fait un devoir de ſon éloignement.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour reculer elle eſt trop avancée.</l>
                         </sp>
@@ -967,7 +968,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle eſt vivement offenſée.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Un criminel aimable obtient grace aiſément.</l>
                         </sp>
@@ -985,7 +986,7 @@
                             <l>L'a par malheur bruſquée en me voyant ;</l>
                             <l>Il recule mon eſpérance.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous vous trompez , il l'avance plûtôt ;</l>
                             <l>Vous vouliez prendre ici la Plâce par adreſſe,</l>
@@ -994,9 +995,9 @@
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je prétens employer plûtôt la politeſſe;</l>
-                            <l>Mais, ma <name type="person" n="Nérine">Nérine</name>, il faut m'aider &amp; me ſervir.</l>
+                            <l>Mais, ma <name type="person" n="Nerine">Nérine</name>, il faut m'aider &amp; me ſervir.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Concierge de ces lieux, je dois vous obéir,</l>
                             <l>Que faut-il que je faſſe ? Inſtruiſez-moi bien vîte.</l>
@@ -1005,7 +1006,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Agiſſons de concert pour empêcher ſa fuite.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Volontiers, allez lui parler le premier,</l>
                             <l>Afin que votre effort ait plus de rëuſſite.</l>
@@ -1017,7 +1018,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Quel coup !</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Mais nous pourrons ſçavoir par lui, peut-être,</l>
                             <l>Si de ſon cœur déja vous n'êtes pas le maître.</l>
@@ -1027,22 +1028,22 @@
                             <l>Ah ! s'il m'en éclaircit, puis-je trop vous payer ?</l>
                             <l part="I">Mais je crains...</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">.... Point de crainte ; oſez vous confier,</l>
                             <l>A mon expérience ainſi qu'aà mon adreſſe.</l>
                             <l>J'entens ouvrir, c'eſt elle ; enſemble je vous laiſſe,</l>
                             <l>Et je ne paroîtrai que quand il faudra.</l>
-                            <lb/><stage type="exit" rend="italic">Elle s'éloigne.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Elle s'éloigne.</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="156"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">Q</c>U'elle me plaît! qu'elle eſt aimable</l>
                             <l>Dans cet équipage nouveau</l>
                             <l>Cette robe ſi ſimple &amp; ſon petit chapeau,</l>
@@ -1051,9 +1052,9 @@
                             <l>L'habit qui paroît préférable,</l>
                             <l>Eſt toujours le dernier qu'elle a.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">ſans apercevoir le Marquis.</stage><lb/>
+                            <stage rend="italics">ſans apercevoir le Marquis.</stage><lb/>
                             <l>Etrangére, ſans connoiſſance,</l>
                             <l>Je ne ſçais où porter mes pas dans mon effroi,</l>
                             <l>N'importe, de ces lieux, partons en diligence,</l>
@@ -1061,10 +1062,10 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">l'arrêtant.</stage><lb/><lb/>
+                            <stage rend="italics">l'arrêtant.</stage><lb/><lb/>
                             <l>A ce cruel deſſein ſouffrez que je m'opoſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Que vois-je? juſte Ciel ! je ne ſçais où je ſuis.</l>
                             <l>Ah ! qu'ile ſt bien dans ſes habits,</l>
@@ -1074,7 +1075,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Demeurez....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">....Je n'ai garde....</l>
                         </sp>
@@ -1082,7 +1083,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">....Ecoutez....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Je ne puis.</l>
                         </sp>
@@ -1091,7 +1092,7 @@
                             <l part="I">Daignez du moins me regarder....</l>
                         </sp>
                         <pb n="157"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Je n'oſe.</l>
                         </sp>
@@ -1099,7 +1100,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Devez-vous avec moi redouter quelque choſe?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Tout , après votre trahiſon.</l>
                         </sp>
@@ -1107,7 +1108,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je viens vous demander pardon.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Pour me tromper encor.</l>
                         </sp>
@@ -1116,7 +1117,7 @@
                             <l part="F">.... Non, j'en ſuis incapable.</l>
                             <l part="I">L'amour....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Quoique vous ayez fait,</l>
                             <l>L'amour, Meſſieurs, eſt toujours votre excuſe.</l>
@@ -1129,7 +1130,7 @@
                             <l>Je ſuis certain qu'elle vous toucheroit,</l>
                             <l>Et qu'à vos yeux je ſerois moins coupable.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais, cet amour que vous vantez ſi fort,</l>
                             <l>Par quel malheur l'ai-je fait naître?</l>
@@ -1140,7 +1141,7 @@
                             <l part="F">....Au Comté de <name n="Betfort">Betfort</name>,</l>
                             <l>Dans la maiſon de votre Maître.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">De mon Maître!...</l>
                         </sp>
@@ -1165,7 +1166,7 @@
                             <l>Par mes égards, par ma tendreſſe,</l>
                             <l>Je crois avoir acquitté ma promeſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Trop ! mille fois pour mon malheur ,</l>
                             <l>Et c'eſt cette amitié traîtreſſe ,</l>
@@ -1186,7 +1187,7 @@
                             <l>Augmentez-les plûtôt, vous ne devez pas craindre,</l>
                             <l>Qu'ils aprochent jamais de ceux que j'ai pour vous.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, je les dois étouffer de colére,</l>
                             <l>Et la raiſon m'inſpire ce courroux,</l>
@@ -1196,7 +1197,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ce pas, pour mon bonheur, qu'ils le faſſent, ma chére.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'aime mieux renoncer à l'honneur de vous voir,</l>
                             <pb n="159"/>
@@ -1208,7 +1209,7 @@
                             <l>Votre fureur eſt de vouloir</l>
                             <l>Vous en aller ſans ceſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et ma foibleſſe, hélas ! eſt de reſter toujours.</l>
                         </sp>
@@ -1218,7 +1219,7 @@
                             <l>Où voulez-vous aller dans l'hyver où nous ſommes?</l>
                             <l part="I">Ah! redoutez les Loups....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">.... Je crains plûtôt les hommes.</l>
                         </sp>
@@ -1227,7 +1228,7 @@
                             <l>Vous pourrez rencontrer quelqu'autre raviſſeur</l>
                             <l>Qui n'aura pas pour vous ma politeſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'en aurai moins à craindre pour mon cœur,</l>
                             <l>Il réſiſte à la force, il combat la rudeſſe ;</l>
@@ -1241,9 +1242,9 @@
                             <l>Mon incivil prédéceſſeur,</l>
                             <l>Et bruſquant le reſpect, que je vous embraſſe?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">l'arrêtant.</stage><lb/>
+                            <stage rend="italics">l'arrêtant.</stage><lb/>
                             <l>Imitez ſa hauteur, &amp; non pas ſon audace.</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -1253,7 +1254,7 @@
                             <l>Je ne le ſuivrai pas dans ſon impoliteſſe,</l>
                             <l>Et je ſerai toujours doux, flâteur &amp; ſoumis.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah! devenez brutal, c'eſt moi qui vous en preſſe.</l>
                         </sp>
@@ -1262,7 +1263,7 @@
                             <l part="I">Quelle étrange priére !</l>
                         </sp>
                         <pb n="160"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Ayez, pour mon repos,</l>
                             <l>Ayez à mon égard les façons les plus dures,</l>
@@ -1275,7 +1276,7 @@
                             <l>Des injures! à vous, mon Aſtre, ma Déeſſe,</l>
                             <l>A qui j'ai conſacré mes vœux &amp; ma tendreſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'en ai beſoin pour vous haïr.</l>
                         </sp>
@@ -1289,7 +1290,7 @@
                             <l>Si j'ai dans ce jour à me plaindre,</l>
                             <l>C'eſt l'excès de vos vertus.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ne me louez pas davantage ,</l>
                             <l>Mon cœur de vous douceurs ſe ſent trop pénétrer,</l>
@@ -1300,7 +1301,7 @@
                             <l>Si vou partez, je ſerai du voyage ;</l>
                             <l>je veux par-tout vous ſuivre &amp; vous idolâtrer.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous achevez de me deſeſpérer,</l>
                             <l>Je ne ſçai plus quel parti prendre ,</l>
@@ -1322,7 +1323,7 @@
                             <l>On ne peut honorer d'une trop grande eſtime,</l>
                             <l>La beauté qui ſe trouve unie à la vertu.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſuis perdue, hélas ! ſi votre amour inſiſte.</l>
                             <l>Ah! le moyen que j'y réſiſte?</l>
@@ -1336,36 +1337,36 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle eſt ici, ma chere, en pleine ſureté.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> LE MARQUIS<pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><name type="person" n="Nérine"><c type="lettrine">N</c>Erine</name> , déſormais, apliquez votre adreſſe ,</l>
-                            <l>A ſervir <name type="person" n="Paméla">Paméla</name> comme votre maîtreſſe.</l>
+                            <l><name type="person" n="Nerine"><c type="lettrine">N</c>Erine</name> , déſormais, apliquez votre adreſſe ,</l>
+                            <l>A ſervir <name type="person" n="Pamela">Paméla</name> comme votre maîtreſſe.</l>
                             <l>La reſpecter dans ce ſéjour,</l>
                             <l>C'eſt m'honorer moi-même, &amp; ſervir mon amour.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>A remplir ce devoir je ſerai ponctuelle.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="162"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> NERINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">V</c>Ous reſtez donc, Mademoiſelle?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais le cas eſt pour moi vraiment embarraſſant.</l>
                             <l>Mon cœur le voudroit bien, mais l'honneur le défend.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je dois vous dire en confidence,</l>
                             <l>Que vous pouvez ici demeurer hardiment,</l>
@@ -1373,86 +1374,86 @@
                             <l>Je ſuis chargée en ce moment,</l>
                             <l>De vous le déclarer bien poſitivemnt.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Qui vous a donné ce meſſage?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Une Dame du voiſinage,</l>
                             <l>Et votre état préſent la pénétre ſi fort,</l>
                             <l>Qu'elle veut après d'elle attacher votre ſort.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'admire ſon bon cœur, en me prenant chez elle;</l>
                             <l>Elle va donc m'arracher de ces lieux?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, elle veut, Mademoiſelle,</l>
                             <l>Vous y fixer plûtôt, pour juſtifier mieux</l>
                             <l>Votre conduite à tous les yeux.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">je ne vous entends pas....</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Pour mettre en tout ſon luſtre,</l>
                             <l>La généroſité de cette Dame illuſtre,</l>
                             <l>Sçachez que le Marquis doit être ſon époux.</l>
                         </sp>
                         <pb n="163"/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Son Epoux?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="M">Oui, vraiment....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Qu'entens-je? infortunée ?</l>
                             <l>Ce trait perce mon cœur, il oſe être jaloux.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et pour leur prochain Hymenée,</l>
                             <l>La fête de ce ſoir eſt exprès ordonnée.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Le méchant! il diſoit qu'il la donnoit pour nous !</l>
                             <l>Voyez un peu la tromperie.</l>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Nérine">Nérine</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Nerine">Nérine</name>.</stage><lb/>
                             <l>Sçavez-vous, dites-moi, le jour qu'il ſe marie.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mais je crois que ce nœud doit s'accomplir demain.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Si-tôt?...</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Aujourd'hui même il ſe fera peut-être,</l>
                             <l>La Dame en queſtion loge au hâteau-voiſin,</l>
                             <l>Bien-tpot vous l'allez voir paroître.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Voilà qui met ſa perfidie au jour,</l>
                             <l>Il en épouſe une autre &amp; me parle d'amour.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle brûle de vous connoître.</l>
                             <l>Quoiqu'elle aime beaucoup le Marquis en ſecret,</l>
@@ -1463,7 +1464,7 @@
                             <l>De ſe taire à votre ſujet.</l>
                             <l>Là, n'admirez-vous pas un ſi généreux trait ?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>De ſa bonté je ſuis reconnoiſſante?</l>
                             <pb n="164"/>
@@ -1471,45 +1472,45 @@
                             <l>Elle preſſe ma fuite au lieu de l'arrêter.</l>
                             <l>Je lui rends grace, &amp; ſuis votre ſervante.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Comment ! vous refuſez le bienfait inoüi,</l>
                             <l>Que ſon amitié vous accorde ?</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Mon devoir me l'ordonne  entr'elle &amp; ſon mari,</l>
                             <l>Je ſerois tôt où tard , un ſujet de  diſcorde ,</l>
                             <l>La retraite eſt pour moi le plus ſage parti.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle aime le Marquis, ſa douleur me l'annonce.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage type="delivery" rend="italic">s'en allant.</stage><lb/><lb/>
+                            <stage type="delivery" rend="italics">s'en allant.</stage><lb/><lb/>
                             <l>Oh! puiſqu'il ſe marie &amp; qu'il me trompe ainſi ,</l>
                             <l>Je veux pour m'en venger, me marier auſſi ;</l>
                             <l>A <name type="person" n="Mathurin">Mathurin</name> faiſons réponſe,</l>
                             <l>Et qu'il m'aide lui-même à me tirer d'ici.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE <sic>IV</sic><corr>V</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>NERINE <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage type="mixed" rend="italic">au Marquis qui arrive.</stage><lb/><lb/>
+                            <stage type="mixed" rend="italics">au Marquis qui arrive.</stage><lb/><lb/>
                             <l><c type="lettrine">P</c>Our le coup, triomphe, victoire,</l>
                             <l>Mon artifice a réuſſi.</l>
-                            <l><name type="person" n="Paméla">Paméla</name> reſtera; votre amour peut m'en croire.</l>
+                            <l><name type="person" n="Pamela">Paméla</name> reſtera; votre amour peut m'en croire.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Vous l'a-t-elle dit?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Non, ce ſeroit vous tromper.</l>
                         </sp>
@@ -1517,7 +1518,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Comment donc ſçavez-vous?...</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Pour en être éclaircie,</l>
                             <pb n="165"/>
@@ -1527,7 +1528,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Tant pis...</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Raſſurez-vous, c'eſt d'une main polie,</l>
                             <l>J'ai découvert à travers ſon courroux,</l>
@@ -1537,7 +1538,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'ai tiré de ſon cœur preſque un aveu ſi doux.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'ai fait plus ſur ce cœur, je l'ai rendu jaloux,</l>
                             <l>Sa défaite n'eſt plus douteuſe,</l>
@@ -1548,7 +1549,7 @@
                             <l>Mais quel moyen venez-vous d'employer,</l>
                             <l>Pour exciter ſa jalouſie ?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Un qui part d'un trait de génie,</l>
                             <l>Dont vous m'allez remercier ,</l>
@@ -1559,7 +1560,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">La mienne l'eſt auſſi....</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">J'ajote à ce diſcours,</l>
                             <l>Que votre épouſe prétendue,</l>
@@ -1572,7 +1573,7 @@
                             <l part="F">A ce langage,</l>
                             <l>Dites, qu'a-t-elle répondu?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Qu'elle ne vouloit pas être un ſujet d'ombrage,</l>
                             <l>Et que cet hymen imprévu,</l>
@@ -1585,7 +1586,7 @@
                             <l>A reſter elle étoit portée,</l>
                             <l>Et ce coup violent va la faire partir.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Moi, je ſuis sûre &amp; puis vous garantir,</l>
                             <l>Qu'elle demeurera, ſon ame eſt retenue</l>
@@ -1604,7 +1605,7 @@
                             <l>Et je veux une fois lui paroître innocent :</l>
                             <l>J'exige de vous ce ſervice.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, venez goûter à longs traits</l>
                             <l>Le plaiſirs d'être aimé d'un objet plein d'attraits,</l>
@@ -1614,33 +1615,33 @@
                             <l>De raccommodement vous me devrez les charmes,</l>
                             <l>Vous me blâmez d'avoir rempli ſon cœur d'allarmes,</l>
                             <l>Vous m'en remercirez après.</l>
-                            <lb/><stage type="exit" rend="italic">Ils ſortent.</stage>
+                            <lb/><stage type="exit" rend="italics">Ils ſortent.</stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="167"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE <sic>V</sic><corr>VI</corr><pc type="affirmative">.</pc></head><lb/>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">D</c>E notre joie à peine étions-je maître !</l>
                             <l>Comme j'étions dans le jardin ,</l>
-                            <l><name type="person" n="Paméla">Paméla</name> viant par ſa fenêtre ,</l>
+                            <l><name type="person" n="Pamela">Paméla</name> viant par ſa fenêtre ,</l>
                             <l>De me faire tenir ſoudin</l>
                             <l>Ce billet écrit de ſa main ,</l>
                             <l>Alle m'a fait réponſe en fille qui ſçait vivre.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE <sic>VI</sic><corr>VII</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>MATHURIN <pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">L</c>A curioſité, Sangbious , m'oblige à ſuivre.</l>
                             <l>Ce maroufle de Jardinier ,</l>
                             <l>Je l'ai vû ramaſſer tout à l'heure un papier ,</l>
-                            <l>Que <name type="person" n="Paméla">Paméla</name> lui vient de jetter en cachette,</l>
+                            <l>Que <name type="person" n="Pamela">Paméla</name> lui vient de jetter en cachette,</l>
                             <l>Sur la terraſſe où je marchois tout doux.</l>
                             <l>Quelque myſtére eſt caché là-deſſous ;</l>
                             <l>Pour l'éclaircir il faut que je le guette ;</l>
@@ -1678,7 +1679,7 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ah ! j'envie à part moi , le bonheur du faquin ;</l>
                             <l>ll eſt plus fortuné cent fois qu'un honnête homme.</l>
                             <l>Ces Manans tous les jours nous diſputent la pomme ,</l>
@@ -1740,7 +1741,7 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="mixed" rend="italic">à part après avoir parcouru <lb/> le Billet.</stage><lb/>
+                            <stage type="mixed" rend="italics">à part après avoir parcouru <lb/> le Billet.</stage><lb/>
                             <l>Il peut ſe dire heureux à juſte titre.</l>
                             <l>De ſon deſtin elle le fait arbitre ,</l>
                             <l>Et le charge de ſon départ.</l>
@@ -1762,12 +1763,12 @@
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , m'y voilà , le ſtile eſt vraiment des plus doux.</l>
-                            <lb/><stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
                             <l>Ah ! faiſons-la parler comme elle auroit dû faire,</l>
                             <pb n="178"/>
                             <l>En écrivant à ce rameur de choux.</l>
-                            <lb/><stage type="business" rend="italic">Il fait ſemblant de lire.</stage><lb/>
-                            <p rend="italic">Aprenés , Monſieur <name type="person" n="Mathurin">Mathurin</name> , que <name type="person" n="Paméla">Paméla</name> n'eſt 
+                            <lb/><stage type="business" rend="italics">Il fait ſemblant de lire.</stage><lb/>
+                            <p rend="italics">Aprenés , Monſieur <name type="person" n="Mathurin">Mathurin</name> , que <name type="person" n="Pamela">Paméla</name> n'eſt 
                                 <lb/>pas faite pour être la femme d'un Jardinier. Une autre 
                                 <lb/>vous diroit peut-être pour ſe ſervir du langage qui 
                                 <lb/>vous conviennt , que vous n'êtes , pour tout potage , qu'un 
@@ -1782,8 +1783,8 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="business" rend="italic">liſant.</stage><lb/>
-                            <p rend="italic">Mais je ſuis trop douce &amp; trop polie pour employer 
+                            <stage type="business" rend="italics">liſant.</stage><lb/>
+                            <p rend="italics">Mais je ſuis trop douce &amp; trop polie pour employer 
                                 <lb/>de pareils termes , quoique l'excès de votre audace , 
                                 <lb/>&amp; la force de la vérité euſſent pû mes les arracher. Si la 
                                 <lb/>perſonne qui s'interreſſe à moi , &amp; de qui vous dépen-
@@ -1819,18 +1820,18 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non, je m'en ſuis comme un pardu,</l>
                             <pb n="171"/>
-                            <l>A preſent <name type="person" n="Paméla">Paméla</name> me paroît effroyable.</l>
+                            <l>A preſent <name type="person" n="Pamela">Paméla</name> me paroît effroyable.</l>
                             <l>Alle, ſon Billet ſaugrenu ,</l>
                             <l>Et vous morgué, qui l'avez lû,</l>
                             <l>Tous de bon cœur je vous envoye au guiable.</l>
-                            <lb/><stage type="exit" rend="italic">Il s'en va.</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">Il s'en va.</stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE <sic>VI</sic><corr>VIII</corr><pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">J</c>E m'en ſuis plaiſamment défait,</l>
                             <l>Me voilà maître du Billet,</l>
                             <l>Et j'eſpére bien-tôt de l'être de la Belle.</l>
@@ -1840,15 +1841,15 @@
                             <l>Je me divertirai toujours à leur ſujet ,</l>
                             <l>Et je ſatisferai ma gité naturelle.</l>
                             <l>Mais on vient, cette fois &amp; j'entends diſcourir ;</l>
-                            <l>C'eſt la <name type="person" n="Nérine">Nérine</name> que je penſe.</l>
+                            <l>C'eſt la <name type="person" n="Nerine">Nérine</name> que je penſe.</l>
                             <l>Elle eſt interreſſée , &amp; pourra me ſervir.</l>
                             <l>Mettons-la dans la confidence.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE <sic>VII</sic><corr>IX</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>NERINE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker> <pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">P</c>Uiſqu'elle ne veut pas ouvrir ,</l>
                             <l>Je laiſſe le Marquis , &amp; n'ai pas ſa conſtance.</l>
@@ -1858,15 +1859,15 @@
                             <l>Seule , de qui parlez-vous ?</l>
                         </sp>
                         <pb n="172"/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Je parle du Marquis , &amp; de ſa <name type="person" n="Paméla">Paméla</name>.</l>
+                            <l>Je parle du Marquis , &amp; de ſa <name type="person" n="Pamela">Paméla</name>.</l>
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Et vous dites?....</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je dis malgré ſa réſiſtance</l>
                             <l>Que cette fille l'aime, &amp; qu'elle reſtera.</l>
@@ -1876,7 +1877,7 @@
                             <l>Moi , je gage deux vens piſtoles,</l>
                             <l>Qu'elle en préfére un autre , &amp; qu'elle partira.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous nous contés des fabrioles.</l>
                         </sp>
@@ -1884,7 +1885,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>J'accuſe vrai , la preuve , la voilà.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Une Lettre d'elle ?</l>
                         </sp>
@@ -1892,7 +1893,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Oui, tendre , s'il en eſt une.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Elle s'adreſſe à qui ?</l>
                         </sp>
@@ -1900,7 +1901,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Belle demande, à moi.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">A vous?</l>
                         </sp>
@@ -1913,7 +1914,7 @@
                             <l>Sois diſcrette &amp; ſéconde-moi.</l>
                             <l part="I">Sur ma parole....</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Bon vous n'en avez aucune.</l>
                         </sp>
@@ -1932,7 +1933,7 @@
                             <l>A toute bride je galope ,</l>
                             <l>Et la conduis en <name type="place" n="Avignon">Avignon</name>.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous oubliez en partant avec elle</l>
                             <l>Le diamant que vous m'avez promis.</l>
@@ -1942,7 +1943,7 @@
                             <l>En attendant une bague plus belle ,</l>
                             <l>Ma chére , tient, prend toujours ce rubis.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je trahirois mon Maître ! Et pour ſi peu de choſe ?</l>
                         </sp>
@@ -1950,7 +1951,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour guérir ce ſcrupule il faut doubler la doſe.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , ſongés qu'au MArquis l'amitié vous unit.</l>
                         </sp>
@@ -1960,17 +1961,17 @@
                             <l>La tromperie eſt toujours bonne ,</l>
                             <l>Un tendron eſt de droit à l'Amant qu'il choiſit.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne ſçaurois vous croire &amp; vous avez beau dire ,</l>
-                            <l><name type="person" n="Paméla">Paméla</name> ne ſe livre à vous que par dépit ,</l>
+                            <l><name type="person" n="Pamela">Paméla</name> ne ſe livre à vous que par dépit ,</l>
                             <l>Si vous ne mentés pas &amp; vous &amp; votre Ecrit.</l>
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Nous ſommes vrais tous deux ; toi-même tu peux lire.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui , par mes yeux je veux m'en éclaircir,</l>
                             <l>Et j'en vais faire la lecture</l>
@@ -1981,9 +1982,9 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! n'en fais rien je t'en conjure !</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="174"/>
-                    <div3 type="scene" n="10">
+                    <div2 type="scene" n="10">
                         <head>SCENE <sic>VIII</sic><corr>X</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> NERINE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -1993,7 +1994,7 @@
                             <l>Elle ſe tient conſtamment enfermée ,</l>
                             <l>Ne veut rien écouter &amp; s'obſtine à partir.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle ne part pas ſeule, elle a fait choix d'un guide,</l>
                             <l>Qui contre les voleurs &amp; les monſtres des Bois,</l>
@@ -2003,16 +2004,16 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Et ſur qui tombe ce choix ?</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage type="business" rend="italic">montrant le Chevalier.</stage><lb/>
+                            <stage type="business" rend="italics">montrant le Chevalier.</stage><lb/>
                             <l part="I">Sur Monſieur....</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Bon , elle veut rire.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Lui-même vient de me le dire ,</l>
                             <l>Je ne ſuis pas capable de mentir ?</l>
@@ -2025,17 +2026,17 @@
                             <l>Le Chevalier n'eſt pas croyable ,</l>
                             <l>Quand lui-même il l'aſſureroit.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Si vous n'en croyés pas ma parole &amp; la ſienne,</l>
-                            <l>De <name type="person" n="Paméla">Paméla</name>, du moins vous croirez ce Billet.</l>
+                            <l>De <name type="person" n="Pamela">Paméla</name>, du moins vous croirez ce Billet.</l>
                             <l>Au Chevalier il s'adreſſe en effet.</l>
                             <l>Puiſque ſa main l'a remis à la mienne.</l>
                         </sp>
                         <pb n="175"/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">au Chevalier.</stage><lb/>
+                            <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
                             <l>Quoi , tu t'oſes vanter d'une telle faveur ?</l>
                         </sp>
                         <sp who="Le Chevalier">
@@ -2066,11 +2067,11 @@
                             <l>Tant d'incrédulité m'irrite ,</l>
                             <l>Pour confondre ſa vanité ,</l>
                             <l>Et faire en même-tems rougir ma modeſtie.</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Nérine">Nérine</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Nerine">Nérine</name>.</stage><lb/>
                             <l>Liſés tout haut ; mais nons , donnés , je vous ſuplie ,</l>
                             <l>Moi-même je la veux lire avec volupté ,</l>
                             <l>Il verra ſi ma gloire eſt une fauſſeté.</l>
-                            <lb/><stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                             <l>Son écriture t'eſt connue?</l>
                             <l>Jette ſur ce papier , jette un moment la vûe.</l>
                         </sp>
@@ -2082,14 +2083,14 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Voyant ce qu'il contient , tu vas l'être encore plus.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="176"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE <sic>IX</sic><corr>XI</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>MATHURIN <pc>,</pc> LE MARQUIS<pc>,</pc> <lb/>NERINE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage rend="italic">ſans voir perſonne.</stage><lb/>
+                            <stage rend="italics">ſans voir perſonne.</stage><lb/>
                             <l><c type="lettrine">O</c>H ! jons dans ma colére , agi comme un <name type="person" n="Nicaise">Ni-<lb/>caiſe</name></l>
                             <l>Pour ravoir le Billet , je revians ſur mes pas ;</l>
                             <l>De queuque trahiſon , je nous doutons tout bas,</l>
@@ -2097,14 +2098,14 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="business" rend="italic">lit.</stage><lb/>
-                            <p rend="italic">Dans le nouveau malheur qui m'arrive , vous êtes 
+                            <stage type="business" rend="italics">lit.</stage><lb/>
+                            <p rend="italics">Dans le nouveau malheur qui m'arrive , vous êtes 
                                 <lb/>le ſeule perſonne , à qui je puiſſe m'adreſſer. Ma priére 
                                 <lb/>va vous marquer ma confiance , j'ai tout à craindre 
                                 <lb/>d'un trompeur qui veut me ſéduire , j'implore votre 
                                 <lb/>aide pour me tirer de ſes mains.
                             </p>
-                            <lb/><stage type="delivery" rend="italic">Au Marquis en s'interrompant.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">Au Marquis en s'interrompant.</stage><lb/>
                             <l>Hem , que dis-tu de ce début flâteur ?</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -2117,13 +2118,13 @@
                             <l>Et toi , celui de ſéducteur ,</l>
                             <l>De la vertu, toujours je fus le protecteur.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Une autrefois j'en ſerai cruë ?</l>
                         </sp>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Que venons-je d'entendre ? avons-nous la barluë ?</l>
                             <l>Non , c'eſt-là mon Billet que ce maudit Gaſcon</l>
                             <l>Lit à des Etrangers tout d'eune autre magniére.</l>
@@ -2133,25 +2134,25 @@
                         <pb n="177"/>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="business" rend="italic">continue à lire.</stage><lb/>
-                            <p rend="italic">Vous m'avez témoigné tantôt les ſentimens d'un honnête 
+                            <stage type="business" rend="italics">continue à lire.</stage><lb/>
+                            <p rend="italics">Vous m'avez témoigné tantôt les ſentimens d'un honnête 
                                 <lb/>homme , prouvez-les-moi en mettant à couvert mon in-
                                 <lb/>nocence expoſée , &amp; trouvez-vous dès qu'il fera nuit à 
                                 <lb/>la petite porte du Jardin , j'irai vous y joindre ſeule &amp; 
                                 <lb/>vous me conduirez chez votre Oncle.
                             </p>
-                            <lb/><stage type="business" rend="italic">Il s'interrompt.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il s'interrompt.</stage><lb/>
                             <l>Le Comte d'<name n="Asbarrac">Asbarrac</name> , qui demeure à <name type="place" n="Paris">Paris</name>.</l>
                         </sp>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je n'y manquerons pas , j'ons les ſens tous ravis.</l>
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="business" rend="italic">continue</stage><lb/>
-                            <p rend="italic">Je ſçai que lui &amp; votre Tante ſont des gens de bien , 
+                            <stage type="business" rend="italics">continue</stage><lb/>
+                            <p rend="italics">Je ſçai que lui &amp; votre Tante ſont des gens de bien , 
                                 <lb/>ils auront pitié de ma jeuneſſe ; &amp; je les laiſſerai les 
                                 <lb/>maîtres de mon ſort.
                             </p>
@@ -2165,9 +2166,9 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Peſte ſoit du mâtin ! payons d'effronterie ;</l>
-                            <lb/><stage type="delivery" rend="italic">Haut.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">Haut.</stage><lb/>
                             <l>Quel eſt cet inſolent? il eſt yvre , je croi.</l>
                         </sp>
                         <sp who="Mathurin">
@@ -2203,7 +2204,7 @@
                         <sp who="Mathurin">
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....Je mourrons, morgué, plûtôt que de le rendre</l>
-                            <l><name type="person" n="Paméla">Paméla</name> nous l'acrit , &amp; c'eſt eune faveur ,</l>
+                            <l><name type="person" n="Pamela">Paméla</name> nous l'acrit , &amp; c'eſt eune faveur ,</l>
                             <l>Qu'au péril de ma vie , on me verra défendre.</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -2215,9 +2216,9 @@
                             <l part="F">....Oui , de tout mon cœur ;</l>
                             <l>Piſque ſa trahiſon me force à vous l'aprendre.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage type="delivery" rend="italic">au Chevalier</stage><lb/>
+                            <stage type="delivery" rend="italics">au Chevalier</stage><lb/>
                             <l>Quoi, des Billets d'autrui vous vous faites honneur !</l>
                         </sp>
                         <sp who="Le Chevalier">
@@ -2243,14 +2244,14 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Par le vrai je me ſens confondre ,</l>
                             <l>Avec tout mon eſprit, je reſte ſans répondre</l>
                         </sp>
                         <pb n="179"/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage type="delivery" rend="italic">au Chevalier</stage><lb/>
+                            <stage type="delivery" rend="italics">au Chevalier</stage><lb/>
                             <l>Je ris du trait , il eſt bien du pays.</l>
                             <l>C'eſt dommage qu'on ait ſangdis,</l>
                             <l>Démaſqué votre tromperie ,</l>
@@ -2259,7 +2260,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">au Chevalier</stage><lb/>
+                            <stage type="delivery" rend="italics">au Chevalier</stage><lb/>
                             <l>Il faut que tu ſois bien hardi ,</l>
                             <l>On n'a jamais pouſſé l'audace.</l>
                         </sp>
@@ -2293,7 +2294,7 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Arrêtes-toi, <name type="person" n="Mathurin">Mathurin</name> , ſors d'erreur ,</l>
                             <l>Et vois en moi ton véritable Maître.</l>
-                            <l>De <name type="person" n="Paméla">Paméla</name> je ſuis adorateur ;</l>
+                            <l>De <name type="person" n="Pamela">Paméla</name> je ſuis adorateur ;</l>
                             <l>Tu dois y renoncer quand je me fais connoître.</l>
                         </sp>
                         <sp who="Mathurin">
@@ -2316,21 +2317,21 @@
                             <l>Mais fuſſiez-vous ſon frere , en cette affaire-ci,</l>
                             <l>Je nous moquons du parentage ,</l>
                             <l>Et nous allons li conter tout ceci;</l>
-                            <l>Alle aime <name type="person" n="Paméla">Paméla</name> comme une fille ſage,</l>
+                            <l>Alle aime <name type="person" n="Pamela">Paméla</name> comme une fille ſage,</l>
                             <l>Qui ne veut point de favori ;</l>
                             <l>Maugré vous &amp; vos dents je ſerons ſon mari.</l>
                             <l>Vous ne la recherchez qu'à ſon déſavantage ;</l>
                             <l>Madame prendra mon parti ,</l>
                             <l>Vous allez voir un biau tapage.</l>
-                            <lb/><stage type="exit" rend="italic">Il ſort.</stage>
+                            <lb/><stage type="exit" rend="italics">Il ſort.</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="12">
+                    </div2>
+                    <div2 type="scene" n="12">
                         <head>SCENE <sic>X</sic><corr>XII</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LE CHEVALIER<pc>,</pc> <lb/>NERINE<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE </speaker>
-                            <stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                            <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                             <l><c type="lettrine">M</c>Onſieur , vous voilà ſur les bras</l>
                             <l>Un rival tout nouveau que vous n'attendiez pas.</l>
                         </sp>
@@ -2356,7 +2357,7 @@
                             <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>A ce diſcours je te réplique</l>
                             <l>Qu'au ſeul titre d'amant tu bornes ton ardeur ;</l>
-                            <l><name type="person" n="Paméla">Paméla</name> eſt ſage &amp; veut un épouſeur,</l>
+                            <l><name type="person" n="Pamela">Paméla</name> eſt ſage &amp; veut un épouſeur,</l>
                             <l>Par-là ton Jardinier aura la préférence ,</l>
                             <l>Si tu prétens l'emporter de hauteur.</l>
                             <l>Pourſuis plûtôt, crois-moi, ſur le ton ſéducteur ;</l>
@@ -2387,12 +2388,12 @@
                             <l>Et punis <name type="person" n="Mathurin">Mathurin</name> d'une façon comique.</l>
                             <l>Il faut te faire un jeu de ſa terreur ,</l>
                             <l>Qu'il en ſoit quitte pour la peur ;</l>
-                            <l>Pour <name type="person" n="Paméla">Paméla</name> le Spectacle la charme ,</l>
+                            <l>Pour <name type="person" n="Pamela">Paméla</name> le Spectacle la charme ,</l>
                             <l>La Danſe la ravit, &amp; le Chant la déſarme.</l>
                             <l>Pour la ſoumettre enléve-la.</l>
                             <l>Dans une gloire d'Opéra....</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, quand elle ſera parmi ces Demoiſelles,</l>
                             <l>Comptez qu'elle fera comme elles.</l>
@@ -2401,7 +2402,7 @@
                         </sp>
                         <sp who="Le Chevalier">
                             <speaker>LE CHEVALIER </speaker>
-                            <stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                            <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                             <l>Je puis t'en répondre d'avance,</l>
                             <l>Morbleu l'air de ce Pays-là</l>
                             <l>Eſt ſi contraire à l'innocence,</l>
@@ -2413,7 +2414,7 @@
                             <l>J'aprouve ce moeyn ; le jour eſt favorable ;</l>
                             <l>Pour le faciliter, la Fête vient au mieux.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Oui, la ruſe en ſera d'autant plus praticale,</l>
                             <l>Qu'on doit jouer pour elle un Balet dans ces lieux.</l>
@@ -2424,7 +2425,7 @@
                             <l>Qui fait &amp; le héros &amp; le fonds de la Piéce ;</l>
                             <l>Je compte le repreſenter.</l>
                         </sp>
-                        <sp who="Nérine">
+                        <sp who="Nerine">
                             <speaker>NERINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous ne pouviez choſir un Rôle plus aimable.</l>
                             <l>Vous faites pour le chant voir un goût admirable;</l>
@@ -2439,18 +2440,18 @@
                             <l>Siſa vertu réſiſte à ce choc redoutable,</l>
                             <l>Il faudra qu'elle ſoit, ſangbious, invulnérable.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="italic">Fin du ſecond Acte.</p>
-                    </div3>
-                </div2>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du ſecond Acte.</trailer>
+                    </div2>
+                </div1>
                 <pb n="183"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
-                        <lb/><stage type="setting" rend="italic">La rampe eſt baiſſée.</stage><lb/>
-                        <sp who="Paméla">
+                        <lb/><stage type="setting" rend="italics">La rampe eſt baiſſée.</stage><lb/>
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">V</c>Oilà la nuit venue, &amp; je n'entens perſonne</l>
                             <l>Tout eſt tranquille ! ah ! mon cœur ne l'eſt point;</l>
                             <l>L'Amour jaloux l'agite, &amp; la frayeur l'étonne;</l>
@@ -2485,15 +2486,15 @@
                             <l>Mais je ſens augmenter la terreur qui me preſſe ,</l>
                             <l>Quelqu'un eſt-là, j'entens marcher...</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> MATHURIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Mathurin">
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">J</c>E ne la trouvons pas, &amp; j'ons biau la charcher.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Eſt-ce vous, <name type="person" n="Mathurin">Mathurin</name> ?</l>
                         </sp>
@@ -2501,7 +2502,7 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">...Oui , ma belle Maîtreſſe.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! partons vîte, allons-nous en.</l>
                         </sp>
@@ -2525,7 +2526,7 @@
                             <l>Que ce damné Marquis, qui veut maugré les gens</l>
                             <l>Etre le maître de céans.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il 'eſt auſſi, c'eſt lui, vous l'avouerai-je ?</l>
                             <l>Qui m'a conduite ici , ſous le nom de ſa ſœur.</l>
@@ -2538,7 +2539,7 @@
                             <l>Morgué, c'eſt pis qu'un ſortilége,</l>
                             <l part="I">Par le menu comptez-nous....</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">....<name type="person" n="Mathurin">Mathurin</name></l>
                             <l>Je vous dirai tout en chemin,</l>
@@ -2551,7 +2552,7 @@
                             <l>Faiſons ſi bian que le chaſſeur malin</l>
                             <l>Ne trouve plus la bête au gite.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">Ah ! je tremble !</l>
                         </sp>
@@ -2559,11 +2560,11 @@
                             <speaker>MATHURIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Avec moi n'ayez point de frayeur,</l>
                             <l>Pour quatre j'avons du courage,</l>
-                            <lb/><stage rend="italic">On entend tonner.</stage><lb/>
+                            <lb/><stage rend="italics">On entend tonner.</stage><lb/>
                             <l>Mais, qu'eſt-ceci? veut-on nous faire peur?</l>
                             <l>Queu charivari ! queu tapage !</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il éclaire, &amp; j'entens tonner</l>
                             <l>Je ſens tout mon corps friſſonner !</l>
@@ -2580,7 +2581,7 @@
                             <l>C'eſt-là queuque magie où je ne voyons rian :</l>
                             <l>Le Marquis eſt ſorcier, &amp; je vous diſions bian.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ciel ! de pfantomes noirs, qu'elle troupe effroyable,</l>
                             <l>Au devant de nos pas, vient ſe jetter ſoudain ?</l>
@@ -2593,8 +2594,8 @@
                             <l>Qui s'avance vars nous une torche à la main.</l>
                             <l part="I">Je ſis défunt!....</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA <pc>,</pc> MATHURIN <pc>,</pc> TROUPE DE <lb/>FAUX LUTINS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Un lutin">
@@ -2609,15 +2610,15 @@
                         </sp>
                         <sp who="Mathurin">
                             <speaker>MATHURIN </speaker>
-                            <stage type="business" rend="italic">deſcendant avec lui par une trape.</stage><lb/>
+                            <stage type="business" rend="italics">deſcendant avec lui par une trape.</stage><lb/>
                             <l>Me vla, miſérable englouti tout vivant.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="187"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA <pc>,</pc>UN LUTIN <pc>,</pc> ET AUTRES<pc type="affirmative">.</pc></stage><lb/>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">J</c>E trouve, hélas, un Amant de ma ſorte,</l>
                             <l>Le ſeul qui m'aimoit ſagement ;</l>
@@ -2631,13 +2632,13 @@
                             <l>Vient doucement de tomber dans la cave</l>
                             <l>Il eſt bien là, car il aime le vin.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Malgré la frayeur qui m'occupe,</l>
                             <l>De tout ce que je vois, je ne ſuis pas la dupe ;</l>
                             <l>Ce n'eſt qu'un piége tendu</l>
                             <l>Par le nouveau Maître qui m'aime ,</l>
-                            <l>Pour arrêter mes pas, &amp; tromper ma vertu. * <note resp="author" place="bottom" rend="italic">* Le Palais &amp; la rampe remontent.</note></l>
+                            <l>Pour arrêter mes pas, &amp; tromper ma vertu. * <note resp="author" place="bottom" rend="italics">* Le Palais &amp; la rampe remontent.</note></l>
                             <l>Armons mon cœur contre ce ſtatagême ;</l>
                             <l>Mais quel éclat, en un Palais brillans,</l>
                             <l>Vient de changer ce ſombre apartement ?</l>
@@ -2649,9 +2650,9 @@
                         <sp who="Le lutin">
                             <speaker>LE LUTIN<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="I">C'eſt le plaiſir qui les habite.</l>
-                            <lb/><sound rend="italic">On entend un prélude.</sound>
+                            <lb/><sound rend="italics">On entend un prélude.</sound>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah ! je le reconnois à ces ſons gracieux !</l>
                             <pb n="188"/>
@@ -2662,11 +2663,11 @@
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage type="business" rend="italic">chante dans la couliſſe.</stage><lb/>
+                            <stage type="business" rend="italics">chante dans la couliſſe.</stage><lb/>
                             <l>Pour exprimer la beauté de mon choix,</l>
                             <l>De vos accords redoublez l'harmonie.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Pour ſurcroit de péril, je crois ouir la voix</l>
                             <l>De l'objet dangereux dont je ſuis trop aimée.</l>
@@ -2674,24 +2675,24 @@
                             <l>Dieux ! qui protégera ma ſageſſe allarmée ?</l>
                             <l>Je voudrois, &amp; n'ai pas la force de le fuir.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>PAMELA<pc>,</pc> LE PLAISIR<pc>,</pc> SA SUITE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l><c type="lettrine">Q</c>Ue votre crainte ceſſe.</l>
                             <l>Pour obtenir votre tendreſſe ,</l>
                             <l>J'ai pris la forme du Plaiſir</l>
                             <l>Et j'adore en vous la ſageſſe.</l>
                             <l>A vos divins apas je brûle de m'unir :</l>
                             <l>Rendez-vous au feu qui me preſſe.</l>
-                            <lb/><stage type="business" rend="italic">Il lui baiſe la main.</stage>
+                            <lb/><stage type="business" rend="italics">Il lui baiſe la main.</stage>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">déclamant.</stage><lb/>
+                            <stage rend="italics">déclamant.</stage><lb/>
                             <l part="F">De ſa vivacité</l>
                             <l>Que votre ardeur modére une partie.</l>
                             <l>Vous allarmez ma modeſtie ;</l>
@@ -2699,7 +2700,7 @@
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">déclame</stage><lb/>
+                            <stage rend="italics">déclame</stage><lb/>
                             <l>C'eſt une liberté permiſe.</l>
                             <l>La Décence avec la Gaïté</l>
                             <pb n="189"/>
@@ -2708,7 +2709,7 @@
                         </sp>
                         <sp who="La Décence">
                             <speaker>LA DECENCE </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Sageſſe, calmez votre effroi,</l>
                             <l>Chantez &amp; danſez avec moi.</l>
                             <l>Tout eſt ſauvé par la Décence ,</l>
@@ -2720,33 +2721,33 @@
                             <l>Sageſſe, calmez votre effroi ,</l>
                             <l>Chantez &amp; danſez avec moi.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Je céde à des conſeils ſi doux,</l>
                             <l>Je chante, &amp; je danſe avec vous.</l>
                         </sp>
-                        <sp who="La Gayté">
+                        <sp who="La Gayte">
                             <speaker>LA GAYTÉ </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Moi je déride la ſageſſe,</l>
                             <l>Je donne à tout un air badin,</l>
                             <l>Je guide partout la jeuneſſe,</l>
                             <l>Et je marche toujours au ſon du tambourin.</l>
-                            <lb/><stage type="business" rend="italic">On danſe.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">On danſe.</stage><lb/>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE<sic></sic><corr> </corr>PLAISIR </speaker>
-                            <stage rend="italic">chante à ſa ſuite.</stage><lb/>
+                            <stage rend="italics">chante à ſa ſuite.</stage><lb/>
                             <l>Chantez mes feux</l>
                             <l>Troupe agréable,</l>
                             <l>Chantez le plaiſir amoureux,</l>
                             <l>Célébrez la ſageſſe aimable.</l>
-                            <lb/><stage type="mixed" rend="italic">Le Chœur répéte ces quatre vers, &amp; on danſe.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">Le Chœur répéte ces quatre vers, &amp; on danſe.</stage><lb/>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Sans le plaiſir, ah ! la ſageſſe ennuye,</l>
                             <l>Sans la ſageſſe, on outre le plaiſir ,</l>
                             <l>Pour bien goûter le charme de la vie,</l>
@@ -2754,7 +2755,7 @@
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>De la flûte &amp; de la muſette,</l>
                             <l>Ecoutez l'accord flateur ;</l>
                             <l>Il vous peint mon ardeur.</l>
@@ -2762,19 +2763,19 @@
                             <l>Que ſa douceur parfaite</l>
                             <l>Vous touche en ma faveur.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">déclamant.</stage><lb/>
+                            <stage rend="italics">déclamant.</stage><lb/>
                             <l>Il ſuffit... mon trouble eſt extréme ,</l>
                             <l>Ménagez la ſageſſe, épargnez ſa pudeur.</l>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE<sic></sic><corr> </corr>PLAISIR </speaker>
-                            <stage rend="italic">déclamant</stage><lb/>
+                            <stage rend="italics">déclamant</stage><lb/>
                             <l>Expliquez-vous , pour mon bonheur !</l>
                             <l part="I">Il ſuffit , diſiez-vous?...</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>....Il ſuffit de vous-même ,</l>
                             <l>Pour attendrir mon cœur.</l>
@@ -2786,10 +2787,10 @@
                             <l>Qu'entens-je ! ma voix vous déſarme?</l>
                             <l>Ah! cet aveu me charme.</l>
                         </sp>
-                        <lb/><stage type="business" rend="italic">On danſe.</stage><lb/>
+                        <lb/><stage type="business" rend="italics">On danſe.</stage><lb/>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Jettez les yeux ſur ces Amans,</l>
                             <l>Leurs pas à vos regards tracent leurs ſentimens.</l>
                             <l>Comme leurs bras dans ces momens.</l>
@@ -2799,25 +2800,25 @@
                             <l>Imitons leur exemple, &amp; ſuivons leur cadence.</l>
                             <l>D'une façon ſi tendre, il eſt doux de s'unir.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
                             <stage>ſoupire.</stage><lb/>
                             <l part="I">Ah !....</l>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">déclame</stage><lb/>
+                            <stage rend="italics">déclame</stage><lb/>
                             <l>....Qui fait naître ce ſoupir.</l>
                             <l>Vous gardez le ſilence !</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je le garde de plaiſir,</l>
                             <l>Je ſens trop pour le rendre.</l>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">déclame.</stage><lb/>
+                            <stage rend="italics">déclame.</stage><lb/>
                             <l>Ah! c'eſt me définir,</l>
                             <l>Et pour me comprendre</l>
                             <pb n="191"/>
@@ -2825,46 +2826,46 @@
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Formons l'un &amp; l'auter</l>
                             <l>Un nœud plein d'attraits,</l>
                             <l>Que mon cœur au vôtre</l>
                             <l>S'uniſſe à jamais.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">déclame.</stage><lb/>
+                            <stage rend="italics">déclame.</stage><lb/>
                             <l>J'y conſens, ſi l'Hymen ordonne les aprêts.</l>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Que la chaîne enchantereſſe</l>
                             <l>Qui doit nous unir tous deux,</l>
                             <l>Soit l'ouvrage heureux</l>
                             <l>Du goût &amp; de la tendreſſe,</l>
                             <l>Des ris &amp; des jeux.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">déclame.</stage><lb/>
+                            <stage rend="italics">déclame.</stage><lb/>
                             <l>Le plaiſir, je le vois, veut tromper la ſageſſe !</l>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage rend="italic">chante.</stage><lb/>
+                            <stage rend="italics">chante.</stage><lb/>
                             <l>Non, je veux vous faire jouir</l>
                             <l>D'un félicité ſuprême.</l>
                             <l>Venez dans les bras du plaiſir,</l>
                             <l>Venez goûter un bien qu'il attend de vous même.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je refuſe un bonheur dont j'aurois à rougir.</l>
                         </sp>
                         <sp who="Le Plaisir, Paméla" rend="braced">
                             <speaker>DUO </speaker>
-                            <stage rend="italic">chanté.</stage><lb/>
+                            <stage rend="italics">chanté.</stage><lb/>
                             <lg>
                                 <stage>LE PLAISIR<pc type="affirmative">.</pc></stage><lb/>
                                 <l>Amour, j'implore ta puiſ-<lb/>ſance,</l>
@@ -2873,17 +2874,17 @@
                                 <l>Livre mon Amante à mes <lb/>feux.</l>
                             </lg>
                             <lg>
-                                <stage>PAMELA <hi rend="italic">ſous le nom de ſageſſe.</hi></stage><lb/>
+                                <stage>PAMELA <hi rend="italics">ſous le nom de ſageſſe.</hi></stage><lb/>
                                 <l>Vertu, j'implore ta puiſſan-<lb/>ce ,</l>
                                 <l>Empêche qu'il ne ſoit heu-<lb/>reux.</l>
                                 <l>Par une ſage réſiſtance,</l>
                                 <l>Fais-moi triompher de ſes <lb/>feux.</l>
                             </lg>
-                            <lb/><stage rend="italic">L'Amour deſcend dans un char &amp; la Décence s'éloigne.</stage>
+                            <lb/><stage rend="italics">L'Amour deſcend dans un char &amp; la Décence s'éloigne.</stage>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA </speaker>
-                            <stage rend="italic">déclame.</stage><lb/>
+                            <stage rend="italics">déclame.</stage><lb/>
                             <l>Dans le péril, ah  la vertu me laiſſe :</l>
                             <pb n="192"/>
                             <l>L'AMour a prévenu ſes pas.</l>
@@ -2893,7 +2894,7 @@
                             <l>A la qualité de Déeſſe</l>
                             <l>Je veux élever vos apas.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Hélas ! de ma foibleſſe,</l>
                             <l>Plaiſir, n'abuſez pas.</l>
@@ -2901,9 +2902,9 @@
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Venez jouir d'une gloire brillante.</l>
-                            <lb/><sound rend="italic">On reprend la Ritournelle.</sound><lb/>
+                            <lb/><sound rend="italics">On reprend la Ritournelle.</sound><lb/>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ah! doucement; je ſens dans ce char-là</l>
                             <l>Chanceler ma vertu tremblante.</l>
@@ -2912,9 +2913,9 @@
                             <speaker>LE PLAISIR<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vole Amour, conduis-nous tout droit à l'Opéra.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Miſéricorde! ô Ciel! c'eſt fait de <name type="person" n="Paméla">Paméla</name>,</l>
+                            <l>Miſéricorde! ô Ciel! c'eſt fait de <name type="person" n="Pamela">Paméla</name>,</l>
                             <l>Mais non, cruel, non, vous avez beau faire,</l>
                             <l>L'Amour &amp; vous, ne me ſéduirez pas.</l>
                             <l>Non, je ſerai d'une ſageſſe auſtére,</l>
@@ -2922,11 +2923,11 @@
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIR </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Ah! ſes cris arrêtent mes pas,</l>
                             <l>Et d'un juſte remord ſa douleur me pénétre.</l>
                             <l>Je croyois triompher, je vais être vaincu.</l>
-                            <lb/><stage type="delivery" rend="italic">à <name type="person" n="Paméla">Paméla</name>.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à <name type="person" n="Pamela">Paméla</name>.</stage><lb/>
                             <l>Pardonnez à l'Amour ce qu'il vient de commettre;</l>
                             <l>Il vouloit éprouver votre cœur combattu,</l>
                             <l>Un ſort plus digne vous eſt dû,</l>
@@ -2934,7 +2935,7 @@
                             <l>Le plaiſir ne ſe doit unir à la ſageſſe</l>
                             <l>Que par les nœuds de la vertu.</l>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ſerois votre épouſe ô bonheur imprévu!</l>
                         </sp>
@@ -2947,16 +2948,16 @@
                         </sp>
                         <sp who="L'Amour">
                             <speaker>L'AMOUR </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Paméla">Paméla</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Pamela">Paméla</name>.</stage><lb/>
                             <l>Oh ! pour le coup, je vous tiens pas ma foi,</l>
                             <l>Et votre réſiſtance eſt vaine ,</l>
                             <l>L'Hymen vous livre toute à moi.</l>
                             <l>Vous me payerez ce ſoir , mon voyage &amp; ma peine.</l>
-                            <sound rend="italic">On entend un prélude.</sound>
+                            <sound rend="italics">On entend un prélude.</sound>
                         </sp>
                         <sp who="Le Plaisir">
                             <speaker>LE PLAISIE </speaker>
-                            <stage rend="italic">chante à ſa ſuite.</stage><lb/>
+                            <stage rend="italics">chante à ſa ſuite.</stage><lb/>
                             <l>Revenés, aimable Décence ,</l>
                             <l>Eclatés, charmante gaité.</l>
                             <l>Revenés, aimable Décence ,</l>
@@ -2964,9 +2965,9 @@
                             <l>Je vais goûter la volupté.</l>
                             <l>Revenés, aimable Décence ,</l>
                         </sp>
-                        <lb/><stage rend="italic">Le chœur répéte ces Vers.</stage><lb/>
-                    </div3>
-                    <div3 type="divertissement">
+                        <lb/><stage rend="italics">Le chœur répéte ces Vers.</stage><lb/>
+                    </div2>
+                    <div2 type="divertissement">
                         <head>DIVERTISSEMENT<pc type="affirmative">.</pc></head><lb/>
                         <stage>ON DANSE<pc type="affirmative">.</pc> <lb/>VAUDEVILLE<pc type="affirmative">.</pc> </stage><lb/>
                         <sp who="Le Plaisir">
@@ -2980,7 +2981,7 @@
                                 <l>Vive la joye &amp; point d'allarmes.</l>
                             </lg>
                         </sp>
-                        <sp who="Paméla">
+                        <sp who="Pamela">
                             <speaker>PAMELA<pc type="affirmative">.</pc></speaker><lb/>
                             <lg>
                                 <l>Lorſqu'on céde aux feux d'un Amant,</l>
@@ -2993,32 +2994,31 @@
                             </lg>
                             <lb/>
                             <lg>
-                                <l>L'auſtére vertu de ma Sœur ,</l>
+                                <l>L'auſtére vertu de ma Sœur,</l>
                                 <l>Du ſort  attire la rigueur,</l>
                                 <l>Ma gaité la déſarme.</l>
-                                <l>Je vais toujorus chantant, danſant,</l>
+                                <l>Je vais toujours chantant, danſant,</l>
                                 <l>Et fais fortune en badinant,</l>
                                 <l>Vive la joye &amp; plus d'allarme.</l>
                             </lg>
                         </sp>
-                        <sp who="La Gayté">
+                        <sp who="La Gayte">
                             <speaker>LA GAYTÉ </speaker>
-                            <stage type="delivery" rend="italic">au Parterre.</stage><lb/>
+                            <stage type="delivery" rend="italics">au Parterre.</stage><lb/>
                             <lg>
                                 <l>Le premier jour eſt un combat,</l>
-                                <l>Meſſieurs, j'ai peur , le cœur me bat,</l>
+                                <l>Meſſieurs, j'ai peur, le cœur me bat,</l>
                                 <l>Et je crains le vacarme;</l>
-                                <l>Mais quand vous faites * <note rend="author">* <stage type="business" rend="italic">Battre des mains.</stage></note> ce bruit-là</l>
+                                <l>Mais quand vous faites * <note rend="author">* <stage type="business" rend="italics">Battre des mains.</stage></note> ce bruit-là</l>
                                 <l>Je faute alors, &amp; tout y va,</l>
                                 <l>Vive la joye &amp; point d'allarme</l>
                             </lg>
                         </sp>
-                        <stage type="business" rend="italic">On danſe.</stage>
+                        <stage type="business" rend="italics">On danſe.</stage>
                         <lb/><lb/>
-                        <lb/><lb/><lb/><p rend="italic">Fin du troiſiéme et dernier Acte.</p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du troiſiéme et dernier Acte.</trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
