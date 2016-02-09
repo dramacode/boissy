@@ -6,7 +6,8 @@
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>Le Babillard: édition numérique </title>
+                <title type="main">Le Babillard</title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
