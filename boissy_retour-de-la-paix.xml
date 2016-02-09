@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
        <fileDesc>
            <titleStmt>
-               <title>Le Retour de la paix: édition numérique</title>
+               <title type="main">Le Retour de la paix</title>
+               <title type="subtitle">Édition électronique</title>
                <author>Louis de Boissy, 1694-1758</author>
                <principal><name>Dr. Ioana Galleron</name></principal>
                <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -66,12 +67,12 @@
                 <pb n="145"/>
                 <docTitle>
                     <titlePart type="main">LE RETOUR <lb/>DE <lb/>LA PAIX<pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="146"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LA JOYE</role><pc type="affirmative">.</pc></castItem>
                 <castItem><role>UNE ACTRICE</role><pc type="affirmative">.</pc></castItem>
                 <castItem><role>LA DECENCE</role><pc type="affirmative">.</pc></castItem>
@@ -86,8 +87,7 @@
             <div1 type="title">
                 <head>LE RETOUR <lb/>DE <lb/>LA PAIX<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc> <lb/>EN UN ACTE EN VERS<pc type="affirmative">.</pc></head><lb/>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+            <div1 type="scene" n="1">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA JOYE<pc>,</pc> UNE ACTRICE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Actrice">
@@ -291,9 +291,9 @@
                         <l>Quand même vous feriez cette heureuſe rencontre,</l>
                         <l>Une Dame <choice><orig>paroît</orig><reg>paraît</reg></choice>, qui <choice><orig>proteſteroit</orig><reg>protesterait</reg></choice> contre.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="152"/>
-                <div2 type="scene" n="2">
+                <div1 type="scene" n="2">
                     <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA JOYE<pc>,</pc> L'ACTRICE<pc>,</pc> LA DECENCE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Décence">
@@ -340,7 +340,7 @@
                     </sp>
                     <sp who="La Joie">
                         <speaker>LA JOYE </speaker>
-                        <stage type="delivery" rend="italic">à la Décence<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">à la Décence<pc type="affirmative">.</pc></stage><lb/>
                         <l>Peut-on ſçavoir quel objet vous attire ?</l>
                     </sp>
                     <pb n="153"/>
@@ -493,12 +493,12 @@
                     </sp>
                     <sp who="l'Actrice">
                         <speaker>L'ACTRICE </speaker>
-                        <stage type="business" rend="italic">lui faiſant la révérence.</stage><lb/>
+                        <stage type="business" rend="italics">lui faiſant la révérence.</stage><lb/>
                         <l>Madame , &amp; moi pareillement.</l>
                     </sp>
-                    <stage type="exit" rend="italic">(La Décence ſort.)</stage>
-                </div2>
-                <div2 type="scene" n="3">
+                    <stage type="exit" rend="italics">(La Décence ſort.)</stage>
+                </div1>
+                <div1 type="scene" n="3">
                     <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA JOYE<pc>,</pc> L'ACTRICE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Actrice">
@@ -515,12 +515,12 @@
                         <l>Pour régle, le Plaiſir, pour Loi, l'amuſement,</l>
                         <l>Pour guide, la Folie, &amp; pour ame, la Joye.</l>  
                     </sp>
-                    <stage type="exit" rend="italic">Elle ſort.</stage>
-                </div2>
+                    <stage type="exit" rend="italics">Elle ſort.</stage>
+                </div1>
                 <pb n="157"/>
-                <div2 type="scene" n="4">
+                <div1 type="scene" n="4">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
-                    <stage>LA JOYE<pc>,</pc> ARLEQUIN <hi rend="italic">en bouquetiére</hi><pc type="affirmative">.</pc></stage><lb/>
+                    <stage>LA JOYE<pc>,</pc> ARLEQUIN <hi rend="italics">en bouquetiére</hi><pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c rend="lettrine">J</c>E viens, Madame, avec beaucoup de modeſtie</l>
@@ -612,7 +612,7 @@
                         <l>Lire ce billet doux que l'on vient de m'écrire.</l>
                         <l>Comme le jour permet de tout riſquer</l>
                         <l>Il donne auſſi le droit de s'en moquer.</l>
-                        <lb/><stage rend="italic">(Elle lit)</stage><lb/>
+                        <lb/><stage rend="italics">(Elle lit)</stage><lb/>
                         <l>Je vous recommande , Madame,</l>
                         <l>Celle qui, de ma part, vous rendra ce billet.</l>
                         <l>C'eſt ma couſine de <name type="place" n="Bergame">Bergame</name>.</l>
@@ -622,17 +622,17 @@
                         <pb n="159"/>
                         <l>Et vous obligerez, ma Reine, tout-à-fait</l>
                         <l><name type="person" n="Arlequin">Arlequin</name> votre ami fidèle.</l>
-                        <lb/><stage rend="italic">( Après avoir lû. )</stage><lb/>
+                        <lb/><stage rend="italics">( Après avoir lû. )</stage><lb/>
                         <l>Ce nom peut tout ſur moi, chantez Mademoiſelle.</l>
                     </sp> 
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage rend="italic">chante<pc type="affirmative">.</pc></stage><lb/>
+                        <stage rend="italics">chante<pc type="affirmative">.</pc></stage><lb/>
                         <l>Accompagnez ma voix, Tambours , Fifres, Baſſons.</l>
                         <l>Je ſuis pour les grands airs, &amp; pour les hautes danſes.</l>
                         <l>Admirez tous, les éclats de mes ſons,</l>
                         <l>Et le brillant de mes cadences.</l>
-                        <lb/><stage type="business" rend="italic">(Il danſe enſuite un tambourin, &amp; à force de tourner <lb/> il fait la culbute.)</stage><lb/>
+                        <lb/><stage type="business" rend="italics">(Il danſe enſuite un tambourin, &amp; à force de tourner <lb/> il fait la culbute.)</stage><lb/>
                     </sp> 
                     <sp who="La Joie">
                         <speaker>LA JOYE<pc type="affirmative">.</pc></speaker><lb/>
@@ -663,11 +663,11 @@
                         <l>Vive l'Amour, vive la Paix ;</l>
                         <l>Vive le Roi qui nous l'<choice><orig>envoye</orig><reg>envoie</reg></choice>.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="160"/>
-                <div2 type="scene" n="5">
+                <div1 type="scene" n="5">
                     <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
-                    <stage>LA JOYE<pc>,</pc> M. BRUYANT <pc>,</pc> M. PRUDENT <lb/><hi rend="italic">Officier, un bras en écharpe<pc type="affirmative">.</pc><pc type="affirmative">.</pc></hi></stage><lb/>
+                    <stage>LA JOYE<pc>,</pc> M. BRUYANT <pc>,</pc> M. PRUDENT <lb/><hi rend="italics">Officier, un bras en écharpe<pc type="affirmative">.</pc><pc type="affirmative">.</pc></hi></stage><lb/>
                     <sp who="Monsieur Prudent">
                         <speaker>M. PRUDENT<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c rend="lettrine">C</c>Harmante Joye, au plutôt jugez-nous.</l>
@@ -778,7 +778,7 @@
                     </sp>
                     <sp who="Monsieur Bruyant">
                         <speaker>M. BRUYANT </speaker>
-                        <stage rend="italic">avec enthouſiaſme.</stage><lb/>
+                        <stage rend="italics">avec enthouſiaſme.</stage><lb/>
                         <l>Rien, quoique vous diſiez, n égale les combats ,</l>
                         <l>J'aime à les lire dans l'Hiſtoire.</l>
                         <l>Là, de <name type="person" n="César">Céſar</name>, j'accompagne les pas,</l>
@@ -930,7 +930,7 @@
                         <speaker>M. BRUYANT<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Vingt eſcadrons ne ſçauroient m'effrayer.</l>
                         <l>Et de ce même pas , je <choice><orig>deſcens</orig><reg>descends</reg></choice> au parterre,</l>
-                        <lb/><stage type="delivery" rend="italic">(D'un ton tragique.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(D'un ton tragique.)</stage><lb/>
                         <l>Si de flame &amp; de cris, <name type="place" n="Paris">Paris</name> eſt affamé,</l>
                         <l>Jamais de tant de feux, cet hôtel n'a fumé.</l>
                         <l>A mon aveugle ardeur tout ſera légitime,</l>
@@ -943,13 +943,13 @@
                         <l>Mes cris immoleront <name type="person" n="Scapin">Scapin</name> tout le premier.</l>
                         <l>Je ferai de leur ſale une ſeconde <name type="person" n="Troie">Troye</name> ,</l>
                         <l>Et d'un coup de ſiflet ; je percerai la joye.</l>
-                        <lb/><stage type="delivery" rend="italic">à la Joye<pc type="affirmative">.</pc></stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">à la Joye<pc type="affirmative">.</pc></stage><lb/>
                         <l>De votre arrêt, alors voyant les triſtes fruits,</l>
                         <l>Reconnoiſſez les coups que vous aurez conduits.</l>
-                        <stage type="exit" rend="italic">(Il ſort.)</stage>
+                        <stage type="exit" rend="italics">(Il ſort.)</stage>
                     </sp>
-                </div2>
-                <div2 type="scene" n="6">
+                </div1>
+                <div1 type="scene" n="6">
                     <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                     <stage>LA JOYE<pc>,</pc> M. PRUDENT<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Joie">
@@ -971,12 +971,12 @@
                         <l>Un Officier manchot, ſans aucune hyperbole ,</l>
                         <l>Vaut cinquante Avocats des plus forts en parole.</l>
                     </sp>
-                    <stage type="exit" rend="italic">Il ſort.</stage>
-                </div2>
-                <div2 type="scene" n="7">
+                    <stage type="exit" rend="italics">Il ſort.</stage>
+                </div1>
+                <div1 type="scene" n="7">
                     <sp who="La Joie">
                         <speaker>LA JOYE </speaker>
-                        <stage type="delivery" rend="italic">au Parterre<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">au Parterre<pc type="affirmative">.</pc></stage><lb/>
                         <l><c rend="lettrine">M</c>Algré l'apui dont il l'oſe flater</l>
                         <l>La joye eſt incertaine , elle attend ſa ſentence,</l>
                         <l>Mais la paix doit vous la dicter.</l>
@@ -987,9 +987,8 @@
                         <l>Que votre main me le témoigne ,</l>
                         <l>Et mes tranſports vont éclater.</l>
                     </sp>
-                    <stage rend="italic">La Pièce finit par le Divertiſſement Pantomime des <lb/> Enfans.</stage><lb/>
-                </div2>
-            </div1>
+                    <trailer rend="italics">La Pièce finit par le Divertiſſement Pantomime des <lb/> Enfans.</trailer><lb/>
+                </div1>
         </body>
     </text>
 </TEI>
