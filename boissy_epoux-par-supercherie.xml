@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title>L'Époux par supercherie: édition numérique</title>
+                <title type="main">L'Époux par supercherie</title>
+                <title type="subtitle"></title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -86,10 +87,9 @@
             <div1 type="title">
                 <head>LE MARI <lb/>GARÇON<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur">
@@ -404,9 +404,9 @@
                             <l>C'eſt, de ſa maladie , un effet trop certain.</l>
                             <l>Quel aſſaut pour ſon Pere ! Il mourra de chagrin.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="89"/>
-                    <div3 type="scene" n="2">
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>BELFORT<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
@@ -590,8 +590,8 @@
                             <lb/><stage type="delivery" rend="italic">à part.</stage><lb/>
                             <l>Sa ſituation eſt neuve, &amp; me fait rire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>EMILIE <pc>,</pc> BELFORT <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Emilie">
@@ -605,9 +605,9 @@
                             <l>D'<name type="person" n="Orville">Orville</name> en attendant, veut vous entretenir.</l>
                             <lb/><stage type="mixed" rend="italic">Il ſort en riant.</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="93"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> EMILIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Emilie">
@@ -767,8 +767,8 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Votre Couſine vient , Madame, &amp; je vous laiſſe.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>CONSTANCE <pc>,</pc> EMILIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Constance">
@@ -902,8 +902,8 @@
                             <l>De me fuir le premier, il n'aura pas la gloire !</l>
                             <l>La retraite pour moi devient une victoire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>BELFORT<pc>,</pc> CONSTANCE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
@@ -1277,9 +1277,9 @@
                             <l>Et vous fuir deſormais ſera mon premier ſoin.</l>
                             <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="105"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
@@ -1289,8 +1289,8 @@
                             <l>J'ai franchi le plus fort de la difficulté,</l>
                             <l>Et ma raiſon vaincra ſon incrédulité.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA FLEUR<pc>,</pc> BELFORT<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur">
@@ -1474,11 +1474,11 @@
                             <l>Lui-même, j'en ſuis ſûr, comme nous en rira.</l>
                         </sp>
                         <lb/><lb/><lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
-                    </div3>
-                </div2>
-                <div2 type="acte" n="2">
+                    </div2>
+                </div1>
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
@@ -1494,8 +1494,8 @@
                             <l>Je ne puis ſurmonter, ni démêler mon trouble.</l>
                             <l>On vient... C'eſt le Marquis. Son aſpect le redouble.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> EMILIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -1700,8 +1700,8 @@
                             <l>Votre trouble eſt trop grands;... &amp; le mien eſt extrême.</l>
                             <l>Adieu. <stage type="mixed" rend="italic">à part , en s'en allant.</stage> Je ne ſçai plus ce que <lb/> je dis moi-même.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
@@ -1718,8 +1718,8 @@
                             <l>Rien ne peut le ſouſtraire au tranſport durieux</l>
                             <l>Dont je ſuis juſtement... Mais je le vois paroître.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -1748,8 +1748,8 @@
                             <l part="F">Ton impudence eſt grande ?</l>
                             <l part="I">Et je vais...</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>BELFORT<pc>,</pc> LE MARQUIS<pc>,</pc> <lb/>LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur">
@@ -1829,8 +1829,8 @@
                             <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">J'obéis.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>BELFORT <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
@@ -1947,9 +1947,9 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je ne te quitte pas.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="118"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> BELFORT<pc>,</pc> EMILIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
@@ -2136,8 +2136,8 @@
                             <l>Que de ma volonté la vôtre en tout diſpoſe.</l>
                             <l>Adieu, prépares-toi, Marquis, à bien ſauter.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2163,9 +2163,9 @@
                             <l>Il vient de m'arriver un accident fâcheux.</l>
                             <l>Dépêches-toi, Maraud, &amp; vole ſur ſes traces.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="122"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -2185,8 +2185,8 @@
                             <l>Il la conduit chez elle, il lui donne la main ,</l>
                             <l>Et l'on a des ſecrets à lui dire en chemin.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA FLEUR<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Marquis">
@@ -2234,9 +2234,9 @@
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je reſpire, ces mots ſoulagent ma ſouffrance.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="124"/>
-                    <div3 type="scene" n="11">
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>CONSTANCE<pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Constance">
@@ -2283,9 +2283,9 @@
                             <speaker>CONSTANCE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><name type="person" n="Belfort">Belfort</name> va devenir l'exemple des Epoux.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="125"/>
-                    <div3 type="scene" n="12">
+                    <div2 type="scene" n="12">
                         <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> CONSTANCE<pc>,</pc> <lb/>BELFORT<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Constance">
@@ -2439,9 +2439,9 @@
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Elle vient. Je ne puis éviter la tempéte.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="128"/>
-                    <div3 type="scene" n="13">
+                    <div2 type="scene" n="13">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE MARQUIS<pc>,</pc> BELFORT<pc>,</pc> EMILIE<pc>,</pc> <lb/> CONSTANCE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Emilie">
@@ -2723,12 +2723,11 @@
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Oui, tout-à-fait,</l>
-                            <l>Quand one ſt Ami tendre, on eſt Mari parfait.</l>
+                            <l>Quand on eſt Ami tendre, on eſt Mari parfait.</l>
                         </sp>
-                        <lb/><lb/><p rend="center">FIN.</p>
-                    </div3>
-                </div2>
-            </div1>
+                        <lb/><lb/><trailer rend="center">FIN.</trailer>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
