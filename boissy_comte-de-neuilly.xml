@@ -88,10 +88,9 @@
             <div1 type="title">
                 <head>LE COMTE <lb/> DE <name type="place" n="Neuilly">NEUILLI</name>,<lb/> COMEDIE HEROÏQUE.</head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>NELTON, LUCIE.</stage><lb/>
                         <sp who="Lucie">
@@ -188,8 +187,8 @@
                             <l>Et vous m'excuserez, Monſieur, ſi je vous quitte.</l>
                             <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Lucie">Lucie</name> rentre.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <sp who="Nelton">
                             <speaker>NELTON </speaker>
@@ -214,8 +213,8 @@
                             <l>Mais je le vois paro<sic></sic><corr>î</corr>tre, &amp; je l'entens gémir ;</l>
                             <l>Mon doute, à ſon aſpect, ne fait que s'affermir.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>LE COMTE, NELTON <hi rend="italic">ſe tenant éloigné.</hi></stage><lb/>
                         <sp who="Le Comte">
@@ -486,8 +485,8 @@
                             <l>Je connois ta ſageſſe, &amp; je me livre à toi..</l>
                             <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Nelton">
                             <speaker>NELTON </speaker>
@@ -500,9 +499,9 @@
                             <l><name type="person" n="Léonore">Léonore</name> à pour elle une amit<sic></sic><corr>i</corr>é parfaite.</l>
                             <l>Je ne puis mieux choiſir Je vais .... Mais la voici.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="126"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>NELTON, LUCIE.</stage><lb/>
                         <sp who="Lucie">
@@ -633,12 +632,12 @@
                             <l>Ont produit de plus rare &amp; de plus vertueux.</l>
                         </sp>
                         <lb/><lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="129"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <sp who="La Marquise">
                             <speaker>LA MARQUISE.</speaker><lb/>
@@ -651,8 +650,8 @@
                             <l>Son ſort eſt un ſecret ignoré dans ces lieux.</l>
                             <l><name type="person" n="Lucie">Lucie</name> entre, je dois le cacher à ſes yeux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <stage>LA MARQUISE, LUCIE</stage><lb/>
                         <sp who="La Marquise">
@@ -697,8 +696,8 @@
                             <l>Gardez-vous de rien dire &amp; de la prévenir.</l>
                             <lb/><stage type="exit"><hi rend="italic">[Elle ſort.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <sp who="Lucie">
                             <speaker>LUCIE </speaker>
@@ -708,9 +707,9 @@
                             <l>Ne ceſſent un moment d'agiter mon eſprit ;</l>
                             <l>Je mets tout en uſage, &amp; rien ne l'en guérit.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="131"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <stage>LUCIE, NELTON.</stage><lb/>
                         <sp who="Nelton">
@@ -783,8 +782,8 @@
                             <l>Et je vais joindre Milord que je frémis d'inſtruire.</l>
                             <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>LE MARQUIS, LUCIE.</stage><lb/>
                         <sp who="Le Marquis">
@@ -862,9 +861,9 @@
                             <l>Sa triſteſſe m'allarme, &amp; près d'elle je tremble.</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Lucie">Lucie</name> ſort.)</hi></stage><lb/>
-                    </div3>
+                    </div2>
                     <pb n="134"/>
-                    <div3 type="scene" n="6">
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>LE MARQUIS, LÉONORE <hi rend="italic">plongée <lb/> dans la rêverie.</hi></stage><lb/>
                         <sp who="Léonore">
@@ -1146,12 +1145,12 @@
                             <l part="F">Et je vais expirer.</l>
                         </sp>
                         <lb/><lb/><p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="140"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage></stage><lb/>
                         <sp who="Le Comte">
@@ -1217,8 +1216,8 @@
                             <l>A vos ordre, Monſieur, j'obéis ſans remiſe.</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic"><name type="person" n="Nelton">Nelton</name> ſort.</hi></stage>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <stage></stage><lb/>
                         <sp who="Le Comte">
@@ -1369,8 +1368,8 @@
                             <l>Soyez ſûr que ſon choix inclinera vers vous.</l>
                             <l>Parlez à la Marquiſe, &amp; comptez ſur <name type="person" n="Lucie">Lucie</name>.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage></stage><lb/>
                         <sp who="Nelton">
@@ -1387,9 +1386,9 @@
                             <l>Demandons <name type="person" n="Léonore">Léonore</name>, il le faut ſans tarder;</l>
                             <l>Et quand l'amour craint tout, il doit tout haſa<sic></sic><corr>r</corr>der.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="145"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Lucie">
                             <speaker>LUCIE </speaker>
@@ -1408,8 +1407,8 @@
                             <l>Si ſa Mere ſçavoit... Mais je la vois rentrer.</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic">Elle ſort.</hi></stage>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage></stage><lb/>
                         <sp who="La Marquise">
@@ -1524,8 +1523,8 @@
                             <l>Et de vos fiers tyrans redoutés la puiſſance.</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage><lb/>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VIII.</head><note resp="Joséphine Loterie">Erreur de l'éditeur, il s'agit de la scène VI.</note><lb/>
                         <sp who="Léonore">
                             <speaker>LEONORE </speaker>
@@ -1551,12 +1550,12 @@
                             <l>Chaque inſtant que je perds met en danger ſes jours.</l>
                         </sp>
                         <lb/><lb/><lb/><p rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="150"/>
-                <div2 type="acte" n="4">
+                <div1 type="acte" n="4">
                     <head>ACTE IV.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>LA MARQUISE LUCIE.</stage><lb/>
                         <sp who="La Marquise">
@@ -1571,8 +1570,8 @@
                             <l>Je cours pour ſatisfaire votre impatience.</l>
                             <l>Mais, Madame, voilà le Comte qui s'avance.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <stage>LA COMTE LA MARQUISE.</stage><lb/>
                         <sp who="Le Comte">
@@ -1670,9 +1669,9 @@
                             <l>Un ſecret important qui, vous comblant de joye,</l>
                             <l>Va vous...</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="153"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>LA COMTE, LA MARQUISE, LUCIE.</stage><lb/>
                         <sp who="Lucie">
@@ -1696,8 +1695,8 @@
                             <l>Adieu, Comte ; tantôt vous ſçaurez mon ſecret.</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic">(Elle ſort, avec <name type="person" n="Lucie">Lucie</name>.)</hi></stage><lb/>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Le Comte">
                             <speaker>LE COMTE </speaker>
@@ -1708,9 +1707,9 @@
                             <l>S'il les favoriſoit, que j'en ſerois heureux !</l>
                         </sp>
                         <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
-                    </div3>
+                    </div2>
                     <pb n="154"/>
-                    <div3 type="scene" n="5">
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>LE MARQUIS LEONORE</stage><lb/>
                         <sp who="Léonore">
@@ -1874,8 +1873,8 @@
                             <l>Qui puiſſent déſormais ébranler ma confiance,</l>
                             <l>Et, qu'en dépit du ſort, je tiendrai mon ſerment.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
                         <stage>LE MARQUIS , LEONORE. <lb/> LA MARQUISE.</stage><lb/>
                         <sp who="La Marquise">
@@ -1911,8 +1910,8 @@
                             <speaker>LA MARQUISE.</speaker><lb/>
                             <l>C'en eſt aſſez. Rentrez dans votre apartement.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII.</head><lb/>
                         <stage>LA MARQUISE, LE MARQUIS.</stage><lb/>
                         <sp who="Le Marquis">
@@ -1970,8 +1969,8 @@
                             <l>Le tems le calmera, mon Fils, &amp; je vous laiſſe.</l>
                             <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
@@ -1984,12 +1983,12 @@
                             <l>Et qui m'eſt enlevé quand il devient permis.</l>
                         </sp>
                         <lb/><lb/><p rend="center"><hi rend="italic">Fin de quatriéme Acte.</hi></p>
-                    </div3>
-                </div2>
+                    </div2>
+                </div1>
                 <pb n="160"/>
-                <div2 type="acte" n="5">
+                <div1 type="acte" n="5">
                     <head>ACTE V.</head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE.</head><lb/>
                         <stage>LE MARQUIS, LEONORE.</stage><lb/>
                         <sp who="Le Marquis">
@@ -2109,8 +2108,8 @@
                             <l>Des plus grandes fureurs il deviendra capable,</l>
                             <l>Et, pour vous obtenir, croira tout pardonnable.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <sp who="Léonore">
                             <speaker>LEONORE </speaker>
@@ -2123,8 +2122,8 @@
                             <l>Mais le Comte paroît; je ſens, à ſon aſpect,</l>
                             <l>Un mouvement mêlé de crainte &amp; de reſpect.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <stage>LE COMTE, LEONORE.</stage><lb/>
                         <sp who="Le Comte">
@@ -2196,9 +2195,9 @@
                             <l>Mais, Madame, achevez de me percer le cœur,</l>
                             <l>Et dites-moi le nom de votre heureux vainqueur.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="165"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <stage>LE COMTE, LEONORE, <sic></sic><corr><lb/> LE MARQUIS.</corr></stage><lb/>
                         <sp who="Le Marquis">
@@ -2311,8 +2310,8 @@
                             <l>C'en eſt fait, dans mon ame elle reprend ſes droits,</l>
                             <l>Et, pour la ſignaler, je rentre ſous ſes loix.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
                         <stage>LE COMTE, LE MARQUIS, LEONORE, <lb/> LA MARQUISE.</stage><lb/>
                         <sp who="Le Comte">
@@ -2350,9 +2349,8 @@
                             <l>Pour vous remercier du bien que je vous dois.</l>
                         </sp>
                         <lb/><lb/><lb/><p rend="center">FIN.</p>
-                    </div3>
-                </div2>
-            </div1>
+                    </div2>
+                </div1>
         </body>
     </text>
 </TEI>
