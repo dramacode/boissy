@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
@@ -94,7 +95,7 @@
             <div type="title">
                 <head>LE <lb/>BABILLARD, <lb/>COMÉDIE.</head>
             </div>
-            <div type="scene" n="1">
+           <div type="scene" n="1">
                      <head>SCENE PREMIERE.</head> <lb/>
                      <stage>CLARICE, NERINE.</stage>
                      <sp who="Clarice">
@@ -939,29 +940,29 @@
                 </sp>
                 <sp who="Doris">
                     <speaker>DORIS</speaker>
-                                         <l part="I">Pour bien faire, parlons tour à tour.</l>
+                   <l part="I">Pour bien faire, parlons tour à tour.</l>
                 </sp>
                 <sp who="Leandre">
                     <speaker>LEANDRE</speaker>
                                         <l part="F">C'est bien dit. </l>
-                                        <l>La conversation doit être géniale. </l>
+                     <l>La conversation doit être générale. </l>
                 </sp>
                 <sp who="Melite">
                     <speaker>MELITE</speaker>
-                                        <l>Le moyen, si Monsieur saisit toujours la balle.</l>
+                    <l>Le moyen, si Monsieur saisit toujours la balle.</l>
                 </sp>
                 <sp who="Leandre">
                     <speaker>LEANDRE</speaker>
-                                        <l>Je n'ai pas entamé seulement un discours.</l>
+                    <l>Je n'ai pas entamé seulement un discours.</l>
                 </sp>
                 <sp who="Daphne">
                     <speaker>DAPHN&#201;, </speaker>
                     <stage type="delivery" rend="Italics"><hi>bas à <name>Léandre</name>.</hi></stage>
-                                         <l>Allés, laissez-les dire, et poursuivés toujours.</l>
+                    <l>Allés, laissez-les dire, et poursuivés toujours.</l>
                 </sp>
                 <sp who="Doris">
                     <speaker>DORIS</speaker>
-                                         <l>Mesdames, irez-vous à la Pièce nouvelle ?</l>
+                    <l>Mesdames, irez-vous à la Pièce nouvelle ?</l>
                 </sp>
                 <sp who="Leandre">
                     <speaker>LEANDRE</speaker>
@@ -1354,7 +1355,7 @@
                    <stage type="action"><hi rend="italic">(Il se mouche.)</hi></stage>
                 <sp who="Cephise">
                     <speaker>CEPHISE.</speaker>
-                                       <l part="F">Ah!J'expire.</l>
+                                       <l part="F">Ah! J'expire.</l>
                                        <l part="I">J'étouffe, et je m'en vais. </l>
                 </sp>
                 <stage type="exit"><hi rend="italic">(Elle sort.)</hi></stage>
@@ -1509,16 +1510,15 @@
                                              <l>Mais,pour me consoler de ce qui les fait rire, </l>                      
                                              <l>Allons chercher quelqu'un à qui pouvoir le dire.</l>
                             <stage type="delivery"><hi rend="italic">(Au Parterre en revenant sur ses pas.)</hi></stage>                         
-                        <l>Messieurs,un mot avant que de sortir; </l>
-                        <l>Je serai court, contre mon ordinaire. </l>
-                        <l>Si, par bonheur,j'ai pû vous divertir, </l>
-                        <l>Si mon babil a su vous plaire, </l>
-                        <l>Daignez le témoigner tout haut. </l>
-                        <l>Si je vous déplais, au contraire, </l>                      
+                    <l>Messieurs,un mot avant que de sortir; </l>
+                    <l>Je serai court, contre mon ordinaire. </l>
+                    <l>Si, par bonheur,j'ai pû vous divertir, </l>
+                    <l>Si mon babil a su vous plaire, </l>
+                    <l>Daignez le témoigner tout haut. </l>
+                    <l>Si je vous déplais, au contraire, </l>                      
                     <l>Retirez-vous sans dire mot,</l>
                     <l>N'imitez pas mon caractère. </l>                      
                 </sp>
-            </div>
             </div>
         </body> 
     </text>
