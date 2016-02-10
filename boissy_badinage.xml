@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
-<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
@@ -82,7 +83,7 @@
             </castList>
             <lb/><lb/><lb/><lb/>
             <set>
-                <p rend="italic">La Scène eſt ſur le Théâtre de la Comédie <lb/> Françoiſe.</p>
+                <p rend="italics">La Scène eſt ſur le Théâtre de la Comédie <lb/> Françoiſe.</p>
             </set>
         </front>
         <body>
@@ -90,8 +91,7 @@
                 <pb n="113"/>
                 <head>LE BADINAGE<pc>,</pc> COMEDIE<pc type="affirmative">.</pc><lb/></head>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+            <div1 type="scene" n="1">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>L'AUTOMNE <pc>,</pc> UN ACTEUR COMIQUE <pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Automne">
@@ -200,11 +200,11 @@
                         <l>J'y vais employer tout mon art, </l>
                         <l>Et réparer par-là le tort qu'ont pût vous faire</l>
                         <l>Tous les malheurs de ma Saiſon contraire.</l>
-                        <lb/><stage type="exit" rend="italic">(Il ſort.)</stage><lb/>
+                        <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="116"/>
-                <div2 type="scene" n="2">
+                <div1 type="scene" n="2">
                     <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                     <stage>L'INDULGENCE <pc>,</pc> L'ACTEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Indulgence">
@@ -289,17 +289,17 @@
                         <l>Vient m'annoncer cet aimable Génie.</l>
                         <l>Je le vois; c'eſt lui-même, &amp; mes vœux ſont remplis ?</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="118"/>
-                <div2 type="scene" n="3">
+                <div1 type="scene" n="3">
                     <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE<pc>,</pc> L'INDULGENCE<pc>,</pc> <lb/>L'ACTEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Badinage">
                         <speaker><sic>E</sic><corr>L</corr>E BADINAGE </speaker><lb/>
-                        <stage type="delivery" rend="italic">à l'Acteur.</stage>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage>
                         <l><c type="lettrine">E</c>H! bonſoir, m<sic>e</sic><corr>o</corr>n très-cher ; point de mélanco-<lb/>lie.</l>
                         <l>Je viens tenir tout ce que j'ai promis.</l>
-                        <lb/><stage type="delivery" rend="italic">(à l'Indulgence.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à l'Indulgence.)</stage><lb/>
                         <l>Vous, touchez-là, ma bonne amie.</l>
                         <l>A mon aſpect je prétens que tout rie.</l>
                         <l>Je veux d'abord , par un baiſer ,</l>
@@ -357,7 +357,7 @@
                     </sp>
                     <sp who="L'Indulgence">
                         <speaker>L'INDULGENCE </speaker>
-                        <stage type="delivery" rend="italic">à l'Acteur.</stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
                         <l>Entre nous ce diſcours eſt aſſez véritable.</l>
                         <l>Sur la cène il ſuffit que l'élégance aimable</l>
                         <l>Prête ſon voile à ſes expreſſions ,</l>
@@ -370,7 +370,7 @@
                     </sp>
                     <sp who="La Badinage">
                         <speaker>LA BADINAGE </speaker>
-                        <stage type="delivery" rend="italic">à l'Indulgence<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Indulgence<pc type="affirmative">.</pc></stage><lb/>
                         <l>Vous faites bien de prendr ema défenſe.</l>
                         <l>Quand il arriveroit qu'aujourd'hui dans ce lieu</l>
                         <l>Nous échaperions un peu,</l>
@@ -405,7 +405,7 @@
                     </sp>
                     <sp who="L'Indulgence">
                         <speaker>L'INDULGENCE </speaker>
-                        <stage type="delivery" rend="italic">à l'Acteur.</stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
                         <l part="I">Que riſquez-vous ?</l>
                     </sp>
                     <sp who="L'Acteur">
@@ -432,13 +432,13 @@
                         <speaker>L'INDULGENCE </speaker>
                         <stage>au Badinage<pc type="affirmative">.</pc></stage><lb/>
                         <l>Seigneur arrêtez un moment.</l>
-                        <lb/><stage type="delivery" rend="italic">(à l'Acteur.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à l'Acteur.)</stage><lb/>
                         <l>Il eſt ſi joli , ſi charmant !</l>
                         <l>Paſſez-lui quelque choſe en faveur de ſa grace.</l>
                     </sp>
                     <sp who="L'Acteur">
                         <speaker>L'ACTEUR </speaker>
-                        <stage type="delivery" rend="italic">au Badinage.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Badinage.</stage><lb/>
                         <l>Vous le voulez abſolument ?</l>
                         <l>Eh bien, pour vous avoir, il n'eſt rien qu'on ne faſſe.</l>
                     </sp>
@@ -483,7 +483,7 @@
                     </sp>
                     <sp who="L'Indulgence">
                         <speaker>L'INDULGENCE </speaker>
-                        <stage type="delivery" rend="italic">à l'Acteur.</stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
                         <l>Quand on le voît de près la différence frape,</l>
                         <l>Et mon erreur m'étonne fort.</l>
                     </sp>
@@ -499,7 +499,7 @@
                         <l>Mais d'être détrompé comme il mérite peu ,</l>
                         <l>Je le laiſſe dans l'ignorance ,</l>
                         <l>Et je m'en fais ſouvent un jeu.</l>
-                        <lb/><stage type="delivery" rend="italic">(à l'Acteur.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à l'Acteur.)</stage><lb/>
                         <l>Monſieur, pour vous, mon ame eſt très-ſurpriſe</l>
                         <l>Que vous ayez donné dans la même mépriſe,</l>
                         <l>Et je croyois que Meſſierus les Acteurs</l>
@@ -514,7 +514,7 @@
                     </sp>
                     <sp who="La Badinage">
                         <speaker>LA BADINAGE </speaker>
-                        <stage type="delivery" rend="italic">à l'Acteur.</stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Acteur.</stage><lb/>
                         <l>Allez, laiſſez-moi ſeul recevoir mes amis.</l>
                         <l>Et vous, Déeſſe ſecourable,</l>
                         <l>Tandis qu'au Théâtre où je ſuis,</l>
@@ -522,8 +522,8 @@
                         <l>Allés dans le Parterre adoucir les eſprits,</l>
                         <l>Et rendés par vos ſoins mon juge favorable.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE<pc>,</pc> UN OFFICIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Officier">
@@ -610,8 +610,8 @@
                         <l>D'un tel refus vous me cachez la cauſe.</l>
                         <l>de grace à ce départ dites-moi qui s'opoſe ?</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="5">
+                </div1>
+                <div1 type="scene" n="5">
                     <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE <pc>,</pc> L'OFFICIER<pc>,</pc> <lb/>UN AUTEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Auteur">
@@ -740,7 +740,7 @@
                     </sp>
                     <sp who="L'Auteur">
                         <speaker>L'AUTEUR </speaker>
-                        <stage type="delivery" rend="italic">à l'Officier<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">à l'Officier<pc type="affirmative">.</pc></stage><lb/>
                         <l>Moi , j'ai ſur vous cet avantage,</l>
                         <l>Que je connois ce Dieu charmant,</l>
                         <l>Et le poſſéde également.</l>
@@ -775,7 +775,7 @@
                     </sp>
                     <sp who="L'Officier">
                         <speaker>L'OFFICIER </speaker>
-                        <stage type="delivery" rend="italic">au Badinage<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">au Badinage<pc type="affirmative">.</pc></stage><lb/>
                         <l part="F">Qui? moi, que je vous céde?</l>
                         <l>Je crois ſur vous avoir trop de crédit;</l>
                         <l part="I">Mon droit...</l>
@@ -931,7 +931,7 @@
                     </sp>
                     <sp who="Le Badinage">
                         <speaker>LE BADINAGE </speaker>
-                        <stage type="delivery" rend="italic">bas à l'Officier<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">bas à l'Officier<pc type="affirmative">.</pc></stage><lb/>
                         <l>Leur politeſſe méthodique</l>
                         <l>Eſt dans la théorie, &amp; non dans la pratique.</l>
                     </sp>
@@ -950,9 +950,9 @@
                         <l>Je vais donc... Mais qu'elle aimable enfant</l>
                         <l>Porte vers nous ſa démarche timide ?</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="131"/>
-                <div2 type="scene" n="6">
+                <div1 type="scene" n="6">
                     <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE <pc>,</pc> L'OFFICIER <pc>,</pc> <lb/>L'AUTEUR <pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Badinage">
@@ -978,7 +978,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery" rend="italic">d'un air froid.</stage><lb/>
+                        <stage type="delivery" rend="italics">d'un air froid.</stage><lb/>
                         <l part="I">Je ne puis.</l>
                     </sp>
                     <sp who="L'Officier">
@@ -1038,7 +1038,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage rend="italic">d'un air piqué.</stage><lb/>
+                        <stage rend="italics">d'un air piqué.</stage><lb/>
                         <l>Monſieur, j'entends ce badinage</l>
                         <l>Qui n'eſt que du reſſort purement de l'eſprit.</l>
                         <l>Dont peut parler la fille la plus ſage,</l>
@@ -1049,7 +1049,7 @@
                         <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>A l'extrême jeuneſſe elle joint la raiſon.</l>
                         <l>C'eſt un exemple à ſuivre.</l>
-                        <lb/><stage type="delivery" rend="italic">(à l'Auteur.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à l'Auteur.)</stage><lb/>
                         <l>Voilà pour vous une leçon,</l>
                         <l>Et vous voyez l'effet de l'éducation.</l>
                         <l>Un enfant de quinze ans , Monſieur , vous montre à <lb/>vivre.</l>
@@ -1070,7 +1070,7 @@
                         <l>Vos pareils ſemblent m'y forcer,</l>
                         <l>Sans compter que chez moi la morale eſt de miſe,</l>
                         <l>Et que j'ai le ſecret de la faire paſſer.</l>
-                        <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Angélique">Angélique</name>.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Angélique">Angélique</name>.)</stage><lb/>
                         <l>Pour vous , mon doux objet, reprenez la parole.</l>
                         <l>S'il eſt vrai que pour moi vous ayez quelque amour,</l>
                         <l>Vous êtes bien payée aujourd'hui de retour.</l>
@@ -1100,7 +1100,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <l part="I">Qu'il eſt galant !</l>
                     </sp>
                     <sp who="L'Auteur">
@@ -1111,7 +1111,7 @@
                     <pb n="134"/>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
-                        <l><stage type="delivery" rend="italic">(à part.]</stage> Ah ! Qu'il eſt fat ! <stage>(au Badinage<pc type="affirmative">.</pc>)</stage> Sans de plus longs délais;</l>
+                        <l><stage type="delivery" rend="italics">(à part.]</stage> Ah ! Qu'il eſt fat ! <stage>(au Badinage<pc type="affirmative">.</pc>)</stage> Sans de plus longs délais;</l>
                         <l>Découvrez-moi tous vos ſecrets.</l>
                     </sp>
                     <sp who="Le Badinage">
@@ -1157,10 +1157,10 @@
                     </sp>
                     <sp who="L'Auteur">
                         <speaker>L'AUTEUR </speaker>
-                        <stage rend="italic">l'interrompant.</stage><lb/>
+                        <stage rend="italics">l'interrompant.</stage><lb/>
                         <l part="F">Moi, je les ai tous</l>
                         <l>Je parle bien, à propos, avec grace.</l>
-                        <lb/><stage type="delivery" rend="italic">(au Badinage.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(au Badinage.)</stage><lb/>
                         <l>Anſi, ſans vanité, je crois,</l>
                         <l>Entre vos favoris mériter une place.</l>
                     </sp>
@@ -1237,12 +1237,12 @@
                     </sp>
                     <sp who="L'Auteur">
                         <speaker>L'AUTEUR </speaker>
-                        <stage rend="italic">l'interrompant.</stage><lb/>
+                        <stage rend="italics">l'interrompant.</stage><lb/>
                         <l part="F">Ecoutons. Paix-là, Monſieur, ſilence.</l>
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage rend="italic">reprend.</stage><lb/>
+                        <stage rend="italics">reprend.</stage><lb/>
                         <l>L'Officier naturellement ,</l>
                         <l>Eſt galant &amp; poli, ſans vouloir le paroître.</l>
                         <l>L'Auteur qui s'étudie à l'être,</l>
@@ -1269,7 +1269,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery" rend="italic">avec vivacité.</stage><lb/>
+                        <stage type="delivery" rend="italics">avec vivacité.</stage><lb/>
                         <l>Je n'ai porté qu'en badinant,</l>
                         <l>L'Arrêt qui vous met en colére,</l>
                         <l>Et je n'écoute qu'en riant,</l>
@@ -1279,11 +1279,11 @@
                         <l>Et quoique vous diſiez, tout m'eſt indifférent,</l>
                         <l>Vous n'aurez jamais le talent,</l>
                         <l>De m'offenſer ni de me plaire.</l>
-                        <lb/><stage type="delivery" rend="italic">(au Badinage gracieuſement.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(au Badinage gracieuſement.)</stage><lb/>
                         <l>Adieu, Seigneur, je cours dans ces inſtans</l>
                         <l>Mettre à profit tous vos preéſens,</l>
                         <l>Et pratiquer la ſcience légere</l>
-                        <l>D'épuiſer les riens amuſans. <stage type="delivery" rend="italic">(en tirade.]</stage><lb/></l>
+                        <l>D'épuiſer les riens amuſans. <stage type="delivery" rend="italics">(en tirade.]</stage><lb/></l>
                         <l>Je vais éfleurer tout dans les cercles brillans,</l>
                         <l>Traiter la Paix, faire la Guerre,</l>
                         <l>Attaquer l'ennemi, le prendre priſonnier,</l>
@@ -1291,7 +1291,7 @@
                         <l>Pour le départ de l'Officier ;</l>
                         <l>Et maudire tout bas la préſence importune,</l>
                         <l>Du jeune Robin familier,</l>
-                        <lb/><stage rend="italic">(en regardant l'Auteur.)</stage><lb/>
+                        <lb/><stage rend="italics">(en regardant l'Auteur.)</stage><lb/>
                         <l>Qui diſpute à Monſieur, l'art de nous ennuyer :</l>
                         <l>Et pour me diſſpier dans cette conjoncture,</l>
                         <l>Railler Monſieur l'Abbé, badiner ſa figure,</l>
@@ -1308,14 +1308,14 @@
                         <l>Sera bien-tôt votre Ecolier.</l>
                     </sp>
                     <lb/><stage>[<name type="person" n="Angélique">Angélique</name> ſort.]</stage><lb/>
-                </div2>
+                </div1>
                 <pb n="138"/>
-                <div2 type="scene" n="7">
+                <div1 type="scene" n="7">
                     <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE <pc>,</pc> L'OFFICIER <pc>,</pc> <lb/> L'AUTEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Officier">
                         <speaker>L'OFFICIER </speaker>
-                        <stage type="delivery" rend="italic">au Badinage<pc type="affirmative">.</pc></stage><lb/>
+                        <stage type="delivery" rend="italics">au Badinage<pc type="affirmative">.</pc></stage><lb/>
                         <l><c type="lettrine">M</c>Oi, je pars, &amp; je vais prendre congé des Dames</l>
                         <l>Elles ſont à plaindre en ce jour,</l>
                         <l>Je vous les recommande. Attendant mon retour ,</l>
@@ -1344,9 +1344,9 @@
                         <l>Le Badinage plus aimable ,</l>
                         <l>Le plaiſir plus piquant &amp; le repos plus doux.</l>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="139"/>
-                <div2 type="scene" n="8">
+                <div1 type="scene" n="8">
                     <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE <pc>,</pc> L'AUTEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="L'Auteur">
@@ -1405,13 +1405,13 @@
                         <l>Et je veux que preſſé de l'un à l'autre bout,</l>
                         <l>Tu doutes où je ſuis, &amp; me trouves par-tout.</l>
                     </sp>
-                </div2>
-                <div2 type="scene" n="9">
+                </div1>
+                <div1 type="scene" n="9">
                     <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>LE BADINAGE <pc>,</pc> LE PARTERRE <pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <l><c type="lettrine">P</c>Eſte de la Muſique! au diable le Poëme !</l>
                         <l>Payer quarante ſol un mal de tête extrême!</l>
                     </sp>
@@ -1422,7 +1422,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <l>Je ſuis encore ému des flots &amp; de l'orage ,</l>
                         <l>Que je viens exciter dans mon juſte courroux.</l>
                         <l part="I">Je chercher ici....</l>
@@ -1471,7 +1471,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">(en bâillant.)</stage><lb/>
+                        <stage rend="italics">(en bâillant.)</stage><lb/>
                         <l>Reconnoiſſez à ce bâillement-là,</l>
                         <l>Le Parterre qui ſort du nouvel Opéra.</l>
                     </sp>
@@ -1555,7 +1555,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en muſicien.</stage><lb/>
+                        <stage rend="italics">en muſicien.</stage><lb/>
                         <l>Je rends juſtice à la Muſique.</l>
                         <l>Elle eſt bien travaillée, elle a de grands morceaux.</l>
                         <l>Les accompagnemens &amp; les cœurs ſont beaux.</l>
@@ -1575,7 +1575,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en Auteur.</stage><lb/>
+                        <stage rend="italics">en Auteur.</stage><lb/>
                         <l>Pour le Poëme, il m'effarouche,</l>
                         <l>On n'a jamais commis de tels larcins.</l>
                         <l>Piller effrontément, piller <name type="person" n="Phèdre">Phédre</name>, <name type="person" n="Avilie">Avilie</name> ;</l>
@@ -1600,7 +1600,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">contrefaiſant l'Abbé.</stage><lb/>
+                        <stage rend="italics">contrefaiſant l'Abbé.</stage><lb/>
                         <l>Sans m'échauffer les Sens, moi, je fais mes remar-<lb/>ques :</l>
                         <l>Je fronde les Enfers, &amp; le Trio des Parques.</l>
                         <l>Outre que dans <name type="perosn" n="Isis">Iſis</name> il ſont pris tout du long,</l>
@@ -1624,7 +1624,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en petit Maître.</stage><lb/>
+                        <stage rend="italics">en petit Maître.</stage><lb/>
                         <l>Le Poëme, en honneur, ne ſçauroit ſe payer.</l>
                         <l>Entre pluſieurs endroits dont je ſuis Chevalier,</l>
                         <l>Je trouve le retour de <name type="person" n="Thesée">Theſée</name> impayable,</l>
@@ -1645,7 +1645,7 @@
                     <pb n="145"/>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en Robin.</stage><lb/>
+                        <stage rend="italics">en Robin.</stage><lb/>
                         <l>Le Poëme en premiére inſtance</l>
                         <l>A perdu ſon Procès tout net.</l>
                         <l>De le mettre à néant on a ſagement fait,</l>
@@ -1663,7 +1663,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en Gaſcon.</stage><lb/>
+                        <stage rend="italics">en Gaſcon.</stage><lb/>
                         <l>Pour moi, je me rends toujours-là,</l>
                         <l>Juſte à la fin dé l'Opéra.</l>
                         <l>Pſt, lé gaillard avec ſa redingote</l>
@@ -1687,7 +1687,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en Commis ſubalterne.</stage><lb/>
+                        <stage rend="italics">en Commis ſubalterne.</stage><lb/>
                         <l>Je ſuis fort mécontent de cette Comédie.</l>
                         <l>Tout ſuputé dans mon génie ,</l>
                         <l>L'Opéra, ventrebleu, nous prend pour des zéros,</l>
@@ -1706,56 +1706,56 @@
                         <l>J'en ai fait la lecture , étant petit enfant.</l>
                         <l>D'une peinture ſi jolie ,</l>
                         <l>J'ai retenu ces deux Vers ſeulement.</l>
-                        <l rend="italic">Son front large eſt armé d'écailles jauniſſantes ;</l>
-                        <l rend="italic">Tout ſon corps eſt couvert de cornes menaçantes.</l>
+                        <l rend="italics">Son front large eſt armé d'écailles jauniſſantes ;</l>
+                        <l rend="italics">Tout ſon corps eſt couvert de cornes menaçantes.</l>
                     </sp>
                     <sp who="Le Badinage">
                         <speaker>LE BADINAGE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Oh ! du plus ruſtre des Commis ,</l>
                         <l>Qui ſoient dans les Aydes blotis.</l>
-                        <l>Voilà les <hi rend="italic">quiproquos</hi> , &amp; l'ignorance craſſe.</l>
+                        <l>Voilà les <hi rend="italics">quiproquos</hi> , &amp; l'ignorance craſſe.</l>
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">contrefaiſant l'Abbé.</stage><lb/>
+                        <stage rend="italics">contrefaiſant l'Abbé.</stage><lb/>
                         <l>J'oubliois le meilleur. Un petit mot de grace.</l>
                         <l>Je reviens aux Enfers. L'Oracle qu'on y rend</l>
                         <l>Me paroit d'un naöf frapant.</l>
-                        <lb/><stage rend="italic">(s'interrompant en Marchand.)</stage><lb/>
+                        <lb/><stage rend="italics">(s'interrompant en Marchand.)</stage><lb/>
                         <l>Et digne de riſée....... Et digne de riſée !</l>
                         <l>Songés, Monſieur l'Abbé, qu'il prédit à <name type="person" n="Thesée">Théſée</name> ,</l>
                         <l>Qu'il va trouver l'Enfer chez lui.</l>
                         <l>Cette prédiction ſe trouve véritable :</l>
                         <l>En y trouvant ſa femme , il y trouve le diable.</l>
-                        <lb/><stage rend="italic">[il rit en Abbé.]</stage><lb/>
+                        <lb/><stage rend="italics">[il rit en Abbé.]</stage><lb/>
                         <l>Cela ſent la Boutique &amp; ſon homme établi,</l>
                         <l part="I">Hi, hi....</l>
-                        <lb/><stage rend="italic">(en Marchand, contrefaiſant l'Abbé.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Marchand, contrefaiſant l'Abbé.)</stage><lb/>
                         <l part="F">Hi, hi ! Pourquoi ricanez-vous ainſi?</l>
                         <l>Vous trouveriez l'Oracle inconteſtable ,</l>
                         <l>Si vous aviez une femme aujourd'hui.</l>
-                        <lb/><stage rend="italic">(en Abbé.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Abbé.)</stage><lb/>
                         <l>Monſieur le Trafiquant, la vôtre eſt-elle aimable ?</l>
                         <pb n="147"/>
-                        <stage rend="italic">(en Gaſcon.)</stage><lb/>
+                        <stage rend="italics">(en Gaſcon.)</stage><lb/>
                         <l>Abec tout lé reſpect que je dois au rabat,</l>
                         <l>Bous abez tort, Mouſſu l'Abbat,</l>
                         <l>Aux dépend du Marchand, dé faire l'agréable.</l>
                         <l>C'eſt de tout l'Opéra l'endroit lé plus paſſable,</l>
                         <l>Cela fait Epigramme, ou jé ne ſuis qu'un fat.</l>
-                        <lb/><stage rend="italic">(en Auteur.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Auteur.)</stage><lb/>
                         <l>Ciel ! Peut-on ſoutenir un Oracle exécrable ?</l>
-                        <lb/><stage rend="italic">(en petit Maître.)</stage><lb/>
+                        <lb/><stage rend="italics">(en petit Maître.)</stage><lb/>
                         <l>Monſe l'Auteur , n'en ſoyés pas ſurpris ,</l>
                         <l>Sans doute le Marchand fait crédit au Couſis.</l>
-                        <lb/><stage rend="italic">(en Commis.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Commis.)</stage><lb/>
                         <l>Je n'en ſçai rien , Monſieur le petit Maître,</l>
                         <l>Je ſuis toujours de leur avis.</l>
                         <l>L'Oracle eſt auſſi clair que trois &amp; trois font ſix,</l>
-                        <lb/><stage rend="italic">(en Avocat.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Avocat.)</stage><lb/>
                         <l>C'eſt à moi de parler, que je faſſe ma Charge,</l>
                         <l>Place au Barreau ; place, petit Commis,</l>
-                        <lb/><stage rend="italic">(en Gaſcon.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Gaſcon.)</stage><lb/>
                         <l>Mais, Mouſſu l'Abocat, bous m'écraſés, ſandis</l>
                         <l>Botre éloquence m'eſt à charge.</l>
                     </sp>
@@ -1765,19 +1765,19 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en Avocat.</stage><lb/>
+                        <stage rend="italics">en Avocat.</stage><lb/>
                         <l part="F">La Cour veut être au large.</l>
-                        <lb/><stage rend="italic">(en Gaſcon.)</stage><lb/>
+                        <lb/><stage rend="italics">(en Gaſcon.)</stage><lb/>
                         <l>Ellé caſſé l'Oracle. Et jé lé rétablis.</l>
-                        <lb/><stage rend="italic">(en cohuë.)</stage><lb/>
+                        <lb/><stage rend="italics">(en cohuë.)</stage><lb/>
                         <l>J'attaque, je défens, je ſifle, j'aplaudis,</l>
                         <l>Je proſcris, je fais grace,</l>
                         <l>Je m'obſtine, je me dédis,</l>
                         <l>J'ajoute, je ſuprie. Et moi, je fais main-baſſe.</l>
-                        <lb/><stage rend="italic">(il touſſe, il crache, il ſe mouche.)</stage><lb/>
-                        <stage rend="italic">(en fauſſet.)</stage><lb/>
+                        <lb/><stage rend="italics">(il touſſe, il crache, il ſe mouche.)</stage><lb/>
+                        <stage rend="italics">(en fauſſet.)</stage><lb/>
                         <l>Paix, les moucheurs, pais donc l'endroit eſt des plus <lb/>beaux.</l>
-                        <lb/><stage rend="italic">(en baſſe - taille.)</stage><lb/>
+                        <lb/><stage rend="italics">(en baſſe - taille.)</stage><lb/>
                         <l>Il en eſt des plus mauvais. Silence, les Courtauts.</l>
                     </sp>
                     <pb n="148"/>
@@ -1788,7 +1788,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">d'un air calme</stage><lb/>
+                        <stage rend="italics">d'un air calme</stage><lb/>
                         <l>Paix. Ce n'eſt rien. Je ſuis en priſe avec moi-même :</l>
                         <l>Nous avons tous les jours cets altercations.</l>
                         <l>Je vais les apaiſer ſans tarder davantage ,</l>
@@ -1804,7 +1804,7 @@
                     </sp>
                     <sp who="Le Parterre">
                         <speaker>LE PARTERRE </speaker>
-                        <stage rend="italic">en public indulgent.</stage><lb/>
+                        <stage rend="italics">en public indulgent.</stage><lb/>
                         <l>Juge ſans paſſion, indulgent ſans foibleſſe,</l>
                         <l>Au ſpectacle toujours je cherche le plaiſir.</l>
                         <l>Je ne ſifle jamais no l'Acteur, ni la Piéce ;</l>
@@ -1877,7 +1877,7 @@
                         <l>J'y viendrai donc. Je me prête à l'abſence.</l>
                         <l>Pour ſigne de paix maintenant ,</l>
                         <l>Recevés cet embraſſement.</l>
-                        <lb/><stage type="business" rend="italic">(Il embraſſe le badinage.)</stage><lb/>
+                        <lb/><stage type="business" rend="italics">(Il embraſſe le badinage.)</stage><lb/>
                         <l>Mon frere qui dit bis , je penſe ,</l>
                         <l>Ne ſeroit pas fâché d'en avoir fait autant,</l>
                         <l>A propos de ce frere , il eſt bon, &amp; pour cauſe,</l>
@@ -1889,16 +1889,16 @@
                         <l>Si vous voulez que la paix tienne ,</l>
                         <l>Dites-lui qu'il ait la bonté</l>
                         <l>D'aprouver à préſent lui-même le traité.</l>
-                        <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
+                        <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
                     </sp>
                     <sp who="Le Badinage">
                         <speaker>LE BADINAGE </speaker>
-                        <stage type="delivery" rend="italic">au vrai Parterre.</stage><lb/>
+                        <stage type="delivery" rend="italics">au vrai Parterre.</stage><lb/>
                         <l>Meſſiers du bon Public prenés le caractére</l>
                         <l>Vous gagnerez vous-même à paroître indulgens.</l>
                         <l>En nous ôtant la crainte, aux Acteurs ſi contraire ;</l>
                         <l>Vous augementerez nos talens ,</l>
-                        <l>Et vous paliſirs en même-tems.</l>
+                        <l>Et vous plaiſirs en même-tems.</l>
                         <l>Que notre état vous touche &amp; vous engage</l>
                         <l>A ſouſcrire ce ſoir à l'accord propoſé ;</l>
                         <l>Vous plaire eſt pournous tous un difficile ouvrage.</l>
@@ -1906,11 +1906,10 @@
                         <l>Faites donc grace au Badinage ;</l>
                         <l>Qu'il obtienne votre ſuffrage.</l>
                         <l>Faire notre bonheur ne dépend que de vous.</l>
-                        <lb/><stage type="delivery" rend="italic">(d'un ton tragique.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(d'un ton tragique.)</stage><lb/>
                         <l>Seigneur, dites un mot, &amp; vous nous ſauvez tous.</l>
                     </sp>
-                </div2>
-            </div1>
+                </div1>
         </body>
     </text>
 </TEI>
