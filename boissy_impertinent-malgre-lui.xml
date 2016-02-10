@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -83,7 +84,7 @@
             </castList>
             <lb/><lb/><lb/><lb/>
             <set>
-                <p rend="italic">La Scène eſt à <name type="place" n="Fontenay">Fontenai</name>.</p>
+                <p rend="italics">La Scène eſt à <name type="place" n="Fontenay">Fontenai</name>.</p>
             </set>
         </front>
         <body>
@@ -295,14 +296,14 @@
                         <sp who="Valère">
                             <speaker>VALERE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Adieu. Je ne dois pas me le faire redire.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
                         </sp>
                     </div2>
                     <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">I</c>L eſt impertinent avec ſon ton moral.</l>
                             <l>C'eſt dommage après tout qu'il ſoit tombé ſi mal.</l>
                             <l>Il me plaiſoit d'abord beaucoup plus que ſon frere,</l>
@@ -580,13 +581,13 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">d'un air malin.</stage><lb/>
+                            <stage type="delivery" rend="italics">d'un air malin.</stage><lb/>
                             <l part="F">Là...</l>
                             <l>Demandés à Madame, elle vous le dira.</l>
                         </sp>
                         <sp who="Cloé">
                             <speaker>CLOÉ </speaker>
-                            <stage type="delivery" rend="italic">d'un air froid.</stage><lb/>
+                            <stage type="delivery" rend="italics">d'un air froid.</stage><lb/>
                             <l part="I">Moi , je ne l'ai pas vû.</l>
                         </sp>
                         <sp who="Dulaurier">
@@ -613,7 +614,7 @@
                         <sp who="Dulaurier">
                             <speaker>DULAURIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Volontiers. De vous-même il eſt fait mention.</l>
-                            <lb/><stage type="business" rend="italic">(Il tire ſes lunettes.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il tire ſes lunettes.)</stage><lb/>
                             <l>Excuſés, je ſuis vieux. Ce n'eſt pas-là ma lettre.</l>
                         </sp>
                         <pb n="54"/>
@@ -628,14 +629,14 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="business" rend="italic">ramaſſant le premier billet qu'il a laiſſé <lb/>tomber, en croyant le remettre dans ſa poche.</stage><lb/>
+                            <stage type="business" rend="italics">ramaſſant le premier billet qu'il a laiſſé <lb/>tomber, en croyant le remettre dans ſa poche.</stage><lb/>
                             <l>Ramaſſons celui-ci , c'eſt ſans doute un poulet.</l>
                             <l>Cachons-le pour ſçavoir ce qu'il dit à ma mere.</l>
                         </sp>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
-                            <stage rend="italic">lit.</stage><lb/>
-                            <p rend="italic">Je n'ai pas pû me rendre à <name type="place" n="Fontenay">Fontenai</name> comme je le 
+                            <stage rend="italics">lit.</stage><lb/>
+                            <p rend="italics">Je n'ai pas pû me rendre à <name type="place" n="Fontenay">Fontenai</name> comme je le 
                                 <lb/>croyois, mais je compte partir inceſſamment. J'écris 
                                 <lb/>à <name type="person" n="Mélite">Mélite</name> ; tu lui remettras ma lettre en main propre. 
                                 <lb/>Mandes-moi ſi <name type="person" n="Valère">Valere</name> n'eſt pas plus ſage, tu ſçais que 
@@ -647,7 +648,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Cloé">Cloé</name> d'un air railleur.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Cloé">Cloé</name> d'un air railleur.</stage><lb/>
                             <l part="I">Madame, il vous connoît.</l>
                         </sp>
                         <sp who="Cloé">
@@ -658,8 +659,8 @@
                             <speaker>DULAURIER<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne puis plus trouver l'endroit où j'en étois ,</l>
                             <l>Et je ſuis dérouté. M'y voilà , Monſieur. Paix.</l>
-                            <lb/><stage rend="italic">(Il continuë.)</stage><lb/>
-                            <p rend="italic">Des leçons de monde &amp; de ſageſſe. Ce qui me fait 
+                            <lb/><stage rend="italics">(Il continuë.)</stage><lb/>
+                            <p rend="italics">Des leçons de monde &amp; de ſageſſe. Ce qui me fait 
                                 <lb/>de la peine, c'eſt qu'on m'a dit en même-tems que ſon 
                                 <lb/>frere n'eſt plus le même depuis qu'il aime <name type="person" n="Julie">Julie</name>. Elle 
                                 <lb/>eſt remplie d'eſprit &amp; de charmes , mais je crains qu'il 
@@ -675,8 +676,8 @@
                         </sp>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
-                            <stage type="business" rend="italic">lui montrant la lettre.</stage><lb/>
-                            <l>Liſés. <hi rend="italic">Vivacité qui me paroît extrême.</hi></l>
+                            <stage type="business" rend="italics">lui montrant la lettre.</stage><lb/>
+                            <l>Liſés. <hi rend="italics">Vivacité qui me paroît extrême.</hi></l>
                         </sp>
                         <pb n="55"/>
                         <sp who="Julie">
@@ -784,9 +785,9 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Cloé">Cloé</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Cloé">Cloé</name>.</stage><lb/>
                             <l>Rentrons , Madame. Adieu, vieux pere <name type="person" n="Dulaurier">Dulaurier</name>.</l>
-                            <lb/><stage type="mixed" rend="italic">(Elle lui tire la perruque en ſortant.)</stage>
+                            <lb/><stage type="mixed" rend="italics">(Elle lui tire la perruque en ſortant.)</stage>
                         </sp>
                     </div2>
                     <div2 type="scene" n="6">
@@ -871,7 +872,7 @@
                         <stage>LEANDRE<pc>,</pc> VALERE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">riant</stage><lb/>
+                            <stage rend="italics">riant</stage><lb/>
                             <l><c type="lettrine">I</c>L le prend avec toi ſur un fort joli ton !</l>
                         </sp>
                         <sp who="Valère">
@@ -1036,7 +1037,7 @@
                             <l>On ne prend les bons airs qu'en fréquentant les Dames,</l>
                             <l>Et pour former les gens, ma foi, vive les femmes.</l>
                         </sp>
-                        <lb/><lb/><lb/><trailer rend="italic">Fin du premier Acte.</trailer>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du premier Acte.</trailer>
                     </div2>
                 </div1>
                 <pb n="62"/>
@@ -1066,7 +1067,7 @@
                         </sp>
                         <sp who="Valère">
                             <speaker>VALERE </speaker>
-                            <stage rend="italic">d'un air contraint.</stage><lb/>
+                            <stage rend="italics">d'un air contraint.</stage><lb/>
                             <l>Autant que je le puis, autant que je le dois,</l>
                             <l>Je ſens tout mon bonheur &amp; le prix de mon choix.</l>
                         </sp>
@@ -1088,7 +1089,7 @@
                         </sp>
                         <sp who="Valère">
                             <speaker>VALERE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Elle a quelque raiſon.</l>
                         </sp>
                         <sp who="Cloé">
@@ -1121,7 +1122,7 @@
                             <l>Et je crois voir <name type="person" n="Vénus">Venus</name> entretenir l'Amour:</l>
                             <l>L'inſtruire tendrement, lui montrer l'art de plaire:</l>
                             <l>Mais vous ne dites mot, ni le fils ni la mere?</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Valère">Valere</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Valère">Valere</name>.)</stage><lb/>
                             <l>Tu fais le langoureux? Allons, animes-toi.</l>
                             <l>Tu ne t'y prens pas bien. Tiens, tiens, regardes-moi.</l>
                             <l>Attaques-moi d'abord la place en militaire,</l>
@@ -1138,7 +1139,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="business" rend="italic">baiſant <name type="person" n="Cloé">Cloé</name>.</stage><lb/>
+                            <stage type="business" rend="italics">baiſant <name type="person" n="Cloé">Cloé</name>.</stage><lb/>
                             <l>Puis ſaiſiſſant la main, on prend d'un air courbé,</l>
                             <l>Un baiſer.... Celui-là , je le tiens d'un Abbé.</l>
                         </sp>
@@ -1230,11 +1231,11 @@
                         </sp>
                         <sp who="Damon">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Comment te porte-tu ? La phraſe eſt admirable !</l>
                             <pb n="66"/>
                             <l>Ce qu'on m'a dit de lui, me paroît véritable.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Léandre">Léandre</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Léandre">Léandre</name>.)</stage><lb/>
                             <l part="I"><name type="person" n="Alcandre">Alcandre</name> enfin....</l>
                         </sp>
                         <sp who="Léandre">
@@ -1398,7 +1399,7 @@
                         <pb n="69"/>
                         <sp who="Mélite">
                             <speaker>MELITE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
                             <l>Son pere , dites-moi , ne vient-il pas nous voir ?</l>
                         </sp>
                         <sp who="Damon">
@@ -1432,7 +1433,7 @@
                             <speaker>MELITE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">A vous parler ſans nulle flatterie,</l>
                             <l>Vous changez tous les jours auſſi-bien que <name type="person" n="Julie">Julie</name>,</l>
-                            <lb/><stage type="business" rend="italic">(ſe tournant vers <name type="person" n="Damon">Damon</name>.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(ſe tournant vers <name type="person" n="Damon">Damon</name>.)</stage><lb/>
                             <l part="I">Ils ſe gâtent tous deux.</l>
                         </sp>
                     </div2>
@@ -1441,7 +1442,7 @@
                         <stage>LEANDRE<pc>,</pc> DAMON <pc>,</pc> MELITE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damon">
                             <speaker>DAMON </speaker>
-                            <stage rend="italic">ſans voir <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                            <stage rend="italics">ſans voir <name type="person" n="Julie">Julie</name>.</stage><lb/>
                             <l part="F"><c type="lettrine">I</c>L eſt vrai, je crains bien....</l>
                         </sp>
                         <sp who="Julie">
@@ -1460,7 +1461,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="perosn" n="Mélite">Mélite</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="perosn" n="Mélite">Mélite</name>.</stage><lb/>
                             <l>Ah! C'étoit en rabat un fripon dangereux!</l>
                             <l>En public retenu ; mais hardi tête à tête,</l>
                             <l>Des plus fiéres beautés il faiſoit la conquête ;</l>
@@ -1520,9 +1521,9 @@
                         <stage>DAMON <pc>,</pc>JULIE <pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">I</c>L faut premiérement que je m'en débarraſſe.</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Damon">Damon</name>.]</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Damon">Damon</name>.]</stage><lb/>
                             <l>Je voudrois bien, Monſieur, vous prier d'une grace.</l>
                         </sp>
                         <sp who="Damon">
@@ -1544,16 +1545,16 @@
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage rend="italic">ſeule tirant une lettre.</stage><lb/>
+                            <stage rend="italics">ſeule tirant une lettre.</stage><lb/>
                             <l><c type="lettrine">J</c>E ſuis libre. Voyons notre lettre à préſent,</l>
                             <l>Je n'ai depuis tantôt pû trouver un inſtant.</l>
-                            <lb/><stage type="business" rend="italic">(Elle lit le deſſus.)</stage><lb/>
-                            <l>Je ſuis impatiente.... <hi rend="italic">à Madame <name type="person" n="Mélite">Mélite</name></hi>....</l>
+                            <lb/><stage type="business" rend="italics">(Elle lit le deſſus.)</stage><lb/>
+                            <l>Je ſuis impatiente.... <hi rend="italics">à Madame <name type="person" n="Mélite">Mélite</name></hi>....</l>
                             <l>Bon, c'eſt-là le Billet que je veux. Ouvrons vîte.</l>
                             <l>Diantre! J'ai déchiré tout l'endroit du cachet,</l>
                             <l>Continuons toujours, &amp; liſons le poulet.</l>
-                            <lb/><stage type="business" rend="italic">(Elle lit la lettre.)</stage><lb/>
-                            <l rend="italic">Je ne puis plus ſuporter votre abſence. Je brûle....</l>
+                            <lb/><stage type="business" rend="italics">(Elle lit la lettre.)</stage><lb/>
+                            <l rend="italics">Je ne puis plus ſuporter votre abſence. Je brûle....</l>
                             <l>Ah! Voilà qui promet du touchant &amp; du tendre.</l>
                             <l>Je voudrois, pour en rire, avoir ici <name type="person" n="Léandre">Léandre</name>.</l>
                             <l part="I">Je le vois.</l>
@@ -1588,8 +1589,8 @@
                             <l part="F"><name type="person" n="Dulaurier">Dulaurier</name> l'ai laiſſé </l>
                             <l>Tomber ici tantôt, &amp; je l'ai ramaſſé.</l>
                             <l part="I">Mais, voyons promptement,</l>
-                            <lb/><stage rend="italic">(Elle lit.)</stage><lb/>
-                            <p rend="italic">Je ne puis plus ſuporter votre abſence. Je brûle de vous 
+                            <lb/><stage rend="italics">(Elle lit.)</stage><lb/>
+                            <p rend="italics">Je ne puis plus ſuporter votre abſence. Je brûle de vous 
                                 <lb/>aller trouver , ma charmante veuve.
                             </p>
                         </sp>
@@ -1602,8 +1603,8 @@
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Monſieur,n'eſt-il pas vrai que cela fend le cœur,</l>
                             <l>Écoutez, écoutez. Voici bien le meilleur.</l>
-                            <lb/><stage rend="italic">(Elle continue.)</stage><lb/>
-                            <p rend="italic">J'ai mille choſes à vous dire, que je vous ai déja 
+                            <lb/><stage rend="italics">(Elle continue.)</stage><lb/>
+                            <p rend="italics">J'ai mille choſes à vous dire, que je vous ai déja 
                                 <lb/>dites ; mais qu'il faut que vous écoutiez une fois ſérieu-
                                 <lb/>ſement. Vous ſçavez que je vous ai aimée avant votre 
                                 <lb/>mariage, que mon amour ne s'eſt jamais démenti un ſeul 
@@ -1632,8 +1633,8 @@
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Ne ſongeons maintenant qu'au plaiſir qu'il nous cauſe,</l>
                             <l>Puis nous remédirons, s'il ſe peut, à la choſe ,</l>
-                            <lb/><stage rend="italic">(Elle pourſuit.)</stage><lb/>
-                            <p rend="italic">Vous n'avez rien à m'opoſer , notre age eſt ſorta-
+                            <lb/><stage rend="italics">(Elle pourſuit.)</stage><lb/>
+                            <p rend="italics">Vous n'avez rien à m'opoſer , notre age eſt ſorta-
                                 <lb/>ble , auſſi-bien que nos inclinations. Vous avez trente 
                                 <lb/>ans, &amp; j'en ai quarante.
                             </p>
@@ -1645,8 +1646,8 @@
                         <sp who="Julie">
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Il fait grace à ma mere au moins de cinq ou ſix.</l>
-                            <lb/><stage rend="italic">(Elle reprend.)</stage><lb/>
-                            <p rend="italic">Que tardez-vous donc , Madame , à faire mon 
+                            <lb/><stage rend="italics">(Elle reprend.)</stage><lb/>
+                            <p rend="italics">Que tardez-vous donc , Madame , à faire mon 
                                 <lb/>bonheur en couronnant ma flâme ?
                             </p>
                         </sp>
@@ -1668,15 +1669,15 @@
                         <stage>LEANDRE<pc>,</pc> JULIE<pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
-                            <stage type="mixed" rend="italic">entrant en homme qui cherche.</stage><lb/>
+                            <stage type="mixed" rend="italics">entrant en homme qui cherche.</stage><lb/>
                             <l><c type="lettrine">J</c>'Ai beau courir , chercher... Mais <name type="person" n="Julie">Julie</name> &amp; <name type="person" n="Léandre">Léandre</name>,</l>
                             <l>Liſent ſeuls une lettre. Aprochons pour entendre.</l>
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Achevons au plûtôt de lire le poulet.</l>
-                            <lb/><stage rend="italic">(Elle lit.)</stage><lb/>
-                            <p rend="italic">Que tardez-vous donc , Madame , à faire mon 
+                            <lb/><stage rend="italics">(Elle lit.)</stage><lb/>
+                            <p rend="italics">Que tardez-vous donc , Madame , à faire mon 
                                 <lb/>bonheur en couronnant ma flâme ? J'irai vous en preſſer 
                                 <lb/>au plûtôt. <hi rend="smallcap">Lisimon</hi>. 
                             </p>
@@ -1686,7 +1687,7 @@
                             <l>Je n'en puis douter, &amp; voilà mon billet.</l>
                             <l>Que vois-je ! Malheureux, que venez-vous de faire ?</l>
                             <l>Décacheter &amp; lire un billet de ſon pere,</l>
-                            <lb/><stage type="delivery" rend="italic">[à <name type="person" n="Julie">Julie</name>.]</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">[à <name type="person" n="Julie">Julie</name>.]</stage><lb/>
                             <l>Ecrit à votre mere, &amp; dont je ſuis chargé !</l>
                             <l>Où ſommes-nous ? ô tems ! ô mœurs ! Tout eſt <lb/> changé.</l>
                         </sp>
@@ -1727,7 +1728,7 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="business" rend="italic">lui préſentant le billet.</stage><lb/>
+                            <stage type="business" rend="italics">lui préſentant le billet.</stage><lb/>
                             <l>Pour un mauvais billet , que de bruit ! Le voilà.</l>
                         </sp>
                         <sp who="Dulaurier">
@@ -1768,12 +1769,12 @@
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">M</c>Oi , j'attens pour pa<sic></sic><corr>r</corr>ler, ſon pere ſeulement,</l>
                             <l>Et je leur ferai voir dans cette conjoncture,</l>
                             <l>Que <name type="person" n="Dulaurier">Dulaurier</name> eſt ferme , &amp; qu'il fuit l'impoſture</l>
                         </sp>
-                        <lb/><lb/><lb/><trailer rend="italic">Fin du deuxiéme Acte.</trailer>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du deuxiéme Acte.</trailer>
                     </div2>
                 </div1>
                 <pb n="77"/>
@@ -1837,7 +1838,7 @@
                             <l>Enſuite vous ſortez, vous allez chez les gens,</l>
                             <l>Plaiſanter là-deſſus, &amp; rire à leurs dépens :</l>
                             <l>Vous étendez vos traits juſques ſur votre pere.</l>
-                            <lb/><stage type="business" rend="italic">(En montrant <name type="person" n="Julie">Julie</name>.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(En montrant <name type="person" n="Julie">Julie</name>.)</stage><lb/>
                             <l>D'un prétendu billet qu'il écrit à ſa mere ,</l>
                             <l>Vous montrez la copie &amp; vous allez compter</l>
                             <l>l'hiſtoire de ſa flâme à qui veut l'écouter.</l>
@@ -1932,7 +1933,7 @@
                             <speaker>DAMON<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Ç'en eſt trop, je ſuis las !</l><note resp="Loterie, Josephine">Cette ligne n'a pas été décalée vers la droite comme elle le devait.</note>
                             <l>De prêcher la raiſon à qui ne l'entend pas.</l>
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
                         </sp>
                     </div2>
                     <div2 type="scene" n="3">
@@ -2018,7 +2019,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
                             <l>Attendez. <stage>(à <name type="person" n="La Fleur">la Fleur</name>.)</stage> Va, dis-lui....</l>
                         </sp>
                         <sp who="La Fleur">
@@ -2042,7 +2043,7 @@
                             <speaker>JULIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Parlez à cet homme, d'un ton</l>
                             <l>Qu'il ne remette plus le pied dans la maiſon.</l>
-                            <lb/><stage type="exit" rend="italic">[Elle ſort.</stage>
+                            <lb/><stage type="exit" rend="italics">[Elle ſort.</stage>
                         </sp>
                     </div2>
                     <pb n="83"/>
@@ -2051,11 +2052,11 @@
                         <stage>LEANDRE <pc>,</pc> MONSIEUR REITER <pc>,</pc> <lb/> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l><c type="lettrine">I</c>L faut rompre avec lui d'une façon polie.</l>
-                            <lb/><stage type="delivery" rend="italic">(haut.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(haut.)</stage><lb/>
                             <l>Un fauteuil à Monſieur. Séyez-vous je vous prie.</l>
-                            <lb/><stage type="mixed" rend="italic">(<name type="person" n="La Fleur">La Fleur</name> tire un fauteuil , &amp; puis ſort.)</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">(<name type="person" n="La Fleur">La Fleur</name> tire un fauteuil , &amp; puis ſort.)</stage><lb/>
                         </sp>
                         <sp who="Monsieur Reiter">
                             <speaker>M. REITER<pc type="affirmative">.</pc></speaker><lb/>
@@ -2064,7 +2065,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">d'un air important.</stage><lb/>
+                            <stage type="delivery" rend="italics">d'un air important.</stage><lb/>
                             <l>On ſçait trop....</l>
                         </sp>
                         <sp who="Monsieur Reiter">
@@ -2084,7 +2085,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">d'un air de Seigneur.</stage><lb/>
+                            <stage type="delivery" rend="italics">d'un air de Seigneur.</stage><lb/>
                             <l>Expliquez-vous, de grace, &amp; daignez être aſſis.</l>
                         </sp>
                         <sp who="Monsieur Reiter">
@@ -2121,7 +2122,7 @@
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">en le contre-faiſant.</stage><lb/>
+                            <stage type="delivery" rend="italics">en le contre-faiſant.</stage><lb/>
                             <l>Un petit compliment ? La mode en eſt paſſée ;</l>
                             <l>D'ailleurs, votre parente a tort d'être offenſée ,</l>
                             <l>Et s'il m'eſt échapé de rire ce matin,</l>
@@ -2208,7 +2209,7 @@
                             <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Quelque état qu'il profeſſe, un François a du cœur.</l>
                         </sp>
-                        <lb/><lb/><lb/><trailer rend="italic">Fin du troiſiéme Acte.</trailer>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du troiſiéme Acte.</trailer>
                     </div2>
                 </div1>
                 <pb n="86"/>
@@ -2218,7 +2219,7 @@
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Mélite">
                             <speaker>MELITE </speaker>
-                            <stage type="delivery" rend="italic">ſeule.</stage><lb/>
+                            <stage type="delivery" rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">I</c>L faut qu'à <name type="person" n="Dulaurier">Dulaurier</name> on ait ſurpris la Lettre,</l>
                             <l>Que je ſçai qu'en main propre il devoit me re-<lb/>mettre.</l>
                             <l>Je ſoupçonne une choſe, il faut la pénétrer.</l>
@@ -2230,7 +2231,7 @@
                         <stage>MELITE<pc>,</pc> DULAURIER<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dulaurier">
                             <speaker>DULAURIER </speaker>
-                            <stage rend="italic">d'un air effaré.</stage><lb/>
+                            <stage rend="italics">d'un air effaré.</stage><lb/>
                             <l part="I"><name type="person" n="Léandre"><c type="lettrine">L</c>Eandre</name> ! ...</l>
                         </sp>
                         <sp who="Mélite">
@@ -2272,7 +2273,7 @@
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Mélite">
                             <speaker>MELITE </speaker>
-                            <stage type="mixed" rend="italic">ſeule, ſe laiſſant aller ſur un fauteuil.</stage><lb/>
+                            <stage type="mixed" rend="italics">ſeule, ſe laiſſant aller ſur un fauteuil.</stage><lb/>
                             <l><c type="lettrine">J</c>E me meurs! Je n'en puis plus, j'expire.</l>
                         </sp>
                     </div2>
@@ -2380,13 +2381,13 @@
                         <stage>LEANDRE<pc>,</pc> VALERE<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name></stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name></stage><lb/>
                             <l><c type="lettrine">A</c>H Je vous attendois avec impatience.</l>
                             <l>Venez u'on vous embraſſe &amp; qu'on vous récompenſe.</l>
                         </sp>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="business" rend="italic">embraſſant <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                            <stage type="business" rend="italics">embraſſant <name type="person" n="Julie">Julie</name>.</stage><lb/>
                             <l part="I">Un tel prix m'eſt bien doux.</l>
                         </sp>
                         <pb n="90"/>
@@ -2593,7 +2594,7 @@
                         </sp>
                         <sp who="Damon">
                             <speaker>DAMON </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l>Adieu. Je vous dirois des vérités trop dures.</l>
                         </sp>
                         <sp who="Léandre">
@@ -2801,13 +2802,13 @@
                         <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">J</c>Uſte Ciel ! Quel reproche ! Et quel trait de lu-<lb/>miére.</l>
                             <l>Sur mes égaremens en cet inſtant m'éclaire !</l>
                             <l>Où ſui-je ? Quel réveil ! J'ai peine à concevoir</l>
                             <l>Le travers que j'ai pris ſans m'en paercevoir.</l>
                             <l>Je connois, mais trop tard, l'excès de ma folie.</l>
-                            <l>Pour ſuivre vos conſeils , pour vous plaire , <name type="person" rend="italic">Julie</name>.</l>
+                            <l>Pour ſuivre vos conſeils , pour vous plaire , <name type="person" rend="italics">Julie</name>.</l>
                             <pb n="98"/>
                             <l>J'ai terni dans ce jour ma réputation ,</l>
                             <l>J'ai tout ſacrifié, fortune, ami, patron ;</l>
@@ -2816,7 +2817,7 @@
                             <l>Je me poignarderois après ce que j'ai fait.</l>
                             <l>Et je cours me cacher de honte &amp; de regret.</l>
                         </sp>
-                        <lb/><lb/><lb/><trailer rend="italic">Fin du quatriéme Acte.</trailer>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du quatriéme Acte.</trailer>
                     </div2>
                 </div1>
                 <pb n="99"/>
@@ -2826,7 +2827,7 @@
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">N</c>Os couplets ſont publics , ma joye eſt incroya-<lb/>ble ,</l>
                             <l>Ils font dans le Village un bruit épouventable.</l>
                             <l>On le chante par-tout. Pour les chanter auſſi,</l>
@@ -2840,7 +2841,7 @@
                         <stage>VALERE <pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Valère">
                             <speaker>VALERE </speaker>
-                            <stage rend="italic">éclatant de rire.</stage><lb/>
+                            <stage rend="italics">éclatant de rire.</stage><lb/>
                             <l><c type="lettrine">H</c>A! Ha ! Mon vieux faquin ! Ha! Ha! Mon vieux <lb/> maraud !</l>
                         </sp>
                         <sp who="Julie">
@@ -2934,7 +2935,7 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Dulaurier">Dulaurier</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Dulaurier">Dulaurier</name>.</stage><lb/>
                             <l>Le deſtin tôt ou tard couronne le mérite.</l>
                             <l>Vous voilà , pour le coup , je vous en félicite,</l>
                             <l>Auteur en bonne forme, &amp; Poëte inſtalé ,</l>
@@ -2989,7 +2990,7 @@
                             <l>Adieu. Pour les chanter je vais chercher <name type="person" n="Léandre">Léandre</name>,</l>
                             <l>Attendant que je faſſe imprimer la chanſon ,</l>
                             <l>Avec vos qualités, Monſieur, &amp; votre nom.</l>
-                            <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
                         </sp>
                         <sp who="Valère">
                             <speaker>VALERE<pc type="affirmative">.</pc></speaker><lb/>
@@ -3183,7 +3184,7 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>S'ils pouvoient ſe brouiller , que je ſerois ravie !</l>
                         </sp>
                         <sp who="Valère">
@@ -3217,7 +3218,7 @@
                         </sp>
                         <sp who="Julie">
                             <speaker>JULIE </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Valère">Valére</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Valère">Valére</name>.</stage><lb/>
                             <l part="I">Je la prendrois au mot.</l>
                         </sp>
                         <sp who="Valère">
@@ -3234,7 +3235,7 @@
                         <stage>LEANDRE <pc>,</pc> VALERE<pc>,</pc>CLOÉ<pc>,</pc> JULIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Léandre">
                             <speaker>LEANDRE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
                             <l><c type="lettrine">J</c>'Ai de ma faute enfin obtenu le pardon,</l>
                             <l>Et je ſuis éclairé de toute ma raiſon.</l>
                             <l>Revenu pour toujours des erreurs imprudentes ,</l>
@@ -3335,7 +3336,7 @@
                         </sp>
                         <sp who="Valère">
                             <speaker>VALERE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name>.</stage><lb/>
                             <l>Nous voilà, pour le coup, congédié tous deux.</l>
                             <l>Si ces Dames vouloient, nous pourrions beaucoup <lb/>mieux</l>
                             <l>Aſſortir nos humeurs, ſuivre la ſympathie;</l>
@@ -3355,7 +3356,7 @@
                             <l>Vous prévenez mon choix &amp; ne pouviez ſur-tout,</l>
                             <l>Me donner un conſeil qui fût plus de mon goût;</l>
                             <l>La raiſon , de vos fers, dégage enfin on ame,</l>
-                            <lb/><stage type="delivery" rend="italic">(montrant <name type="person" n="Cloé">Cloé</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(montrant <name type="person" n="Cloé">Cloé</name>.)</stage><lb/>
                             <l>Elle tourne mes vœux du côté de Madame.</l>
                             <l>A force de ſageſſe, &amp; de ſoins &amp; d'ardeur.</l>
                             <l>Je prétens mériter ſon eſtime &amp; ſon cœur.</l>
@@ -3364,7 +3365,7 @@
                             <l>Et que mon repentir en ces mêmes momens,</l>
                             <l>Arrachât de ſes mains des aplaudiſſemens.</l>
                         </sp>
-                        <lb/><lb/><lb/><trailer rend="italic">Fin du cinquiéme &amp; dernier Acte.</trailer>
+                        <lb/><lb/><lb/><trailer rend="italics">Fin du cinquiéme &amp; dernier Acte.</trailer>
                     </div2>
                 </div1>
         </body>
