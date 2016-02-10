@@ -2,11 +2,13 @@
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-              <title type="main">La Comédie anonyme ou La ****</title>
+              <title type="main">La Comédie anonyme</title>
+              <title type="alternative"> ou la ****</title>
               <title type="subtitle">Édition électronique</title>
               <author>Louis de Boissy, 1694-1758</author>
               <principal><name>Dr. Ioana Galleron</name></principal>
@@ -80,7 +82,7 @@
             <pb n="169"/>
             <docTitle>
               <titlePart type="main">LA ****,</titlePart><lb/>
-              <titlePart type="desc" rend="italic">COMEDIE ANONYME.</titlePart><lb/>
+              <titlePart type="desc" rend="italics">COMEDIE ANONYME.</titlePart><lb/>
             </docTitle>
           </titlePage>
           <pb n="170"/>
@@ -101,7 +103,7 @@
           </castList>
           <lb/><lb/><lb/>
           <set>
-            <p rend="center"><hi rend="italic">La Scène eſt à la Campagne, chez la <lb/> Marquiſe.</hi></p>
+            <p rend="center"><hi rend="italics">La Scène eſt à la Campagne, chez la <lb/> Marquiſe.</hi></p>
           </set> 
           <pb n="171"/>
         </front>
@@ -181,7 +183,7 @@
                 <speaker>Mlle. CATINE.</speaker><lb/>
                 <l part="F">Il eſt très condamnable.</l>
                 <l>Ces Meſſieurs on raiſon. Que veut dire aujourd'hui</l>
-                <l>Ce <hi rend="italic">La</hi> Myſtérieux, ce <hi rend="italic">La</hi> pitoyable,</l>
+                <l>Ce <hi rend="italics">La</hi> Myſtérieux, ce <hi rend="italics">La</hi> pitoyable,</l>
                 <l>Qui, de quatre étoiles ſuivi,</l>
                 <l><choice><orig>Frape</orig><reg>Frappe</reg></choice>, &amp; choque les yeux du Lecteur raiſonnable ?</l>
                 <l>Mais a-t-on <choice><orig>vû</orig><reg>vu</reg></choice> jamais une affiche ſemblable ?</l>
@@ -244,7 +246,7 @@
                 <l>Du bénévole ſpectateur;</l>
                 <l>Mais je ſouhaite de bon cœur.</l>
                 <l>Qu'il ſente plutôt ſa vengeance.</l>
-                <l><hi rend="italic">L'incognito</hi> révolte mes eſprits.</l>
+                <l><hi rend="italics">L'incognito</hi> révolte mes eſprits.</l>
                 <l>Sans détour ma bouche s'exprime;</l>
                 <l>A tous égards je proſris;</l>
                 <l>Et, s'il me vient jamais un Amant anonyme,</l>
@@ -386,7 +388,7 @@
               <head>SCENE II.</head><lb/>
               <sp who="Monsieur Romagnesi">
                 <speaker>M. ROMAGNESI </speaker>
-                <stage type="delivery"><hi rend="italic">ſeul, au Parterre.</hi></stage><lb/>
+                <stage type="delivery"><hi rend="italics">ſeul, au Parterre.</hi></stage><lb/>
                 <l><c type="lettrine">N</c>'En faites rien, je vous <choice><orig>ſuplie</orig><reg>supplie</reg></choice>.</l>
                 <l>L'Auteur, Meſſieurs, par ma voix vous en prie.</l>
                 <l>Ce qu'on vient de vous dire, a lieu de l'alarmer.</l>
@@ -402,7 +404,7 @@
                 <l>Le titre eſt de votre domaine;</l>
                 <l>Et, qui juge la <choice><orig>Piéce</orig><reg>Pièce</reg></choice>, a droit de la nommer.</l>
               </sp>
-              <p rend="center"><hi rend="italic">Fin du Prologue.</hi></p>
+              <p rend="center"><hi rend="italics">Fin du Prologue.</hi></p>
             </div2>
           </div1>
           <pb n="177"/>
@@ -468,7 +470,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="business"><hi rend="italic">lui ſaiſiſſant la main.</hi></stage>
+                  <stage type="business"><hi rend="italics">lui ſaiſiſſant la main.</hi></stage>
                   <l part="M">Doucement.</l>
                 </sp>
                 <sp who="Arlequin">
@@ -539,7 +541,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l>C'eſt l'inſtant que je crains, &amp; le friſſon me prend !</l>
                 </sp>
                 <sp who="La Marquise">
@@ -549,7 +551,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l part="F">Ah ! Je ſuis au ſuplice !</l>
                 </sp>
                 <sp who="La Marquise">
@@ -558,7 +560,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">bas.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">bas.</hi></stage><lb/>
                   <l part="F">Le cruel embarras!</l>
                 </sp>
                 <sp who="La Marquise">
@@ -599,7 +601,7 @@
                 <stage>LA MARQUISE, MARTON, <lb/> Madame NISON, FINETTE, <lb/> ARLEQUIN.</stage><lb/>
                 <sp who="Madame Nison">
                   <speaker>Mad. NISON </speaker>
-                  <stage type="delivery"><hi rend="italic">à la marquiſe.</hi></stage><lb/><lb/>
+                  <stage type="delivery"><hi rend="italics">à la marquiſe.</hi></stage><lb/><lb/>
                   <l part="F"><c rend="lettrine">V</c>Ous voyez, Madame, un vrai tréſor.</l>
                   <l>C'eſt un préſent unique, il vaut ſon <choice><orig>péſant</orig><reg>pesant</reg></choice> d'or.</l>
                 </sp>
@@ -629,7 +631,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l>Sa taille eſt aſſez gauche, &amp; ſa mine empruntée.</l>
                 </sp>
                 <sp who="Madame Nison">
@@ -719,7 +721,7 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE. </speaker>
-                  <stage type="delivery"><hi rend="italic">à Finette.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Finette.</hi></stage><lb/>
                   <l part="I">Vos <choice><orig>talens</orig><reg>talents</reg></choice> !</l>
                 </sp>
                 <sp who="Finette">
@@ -748,11 +750,11 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">à Finette.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Finette.</hi></stage><lb/>
                   <l part="F">C'eſt aujourd'hui ma fête ;</l>
                   <pb n="184"/>
                   <l>vos <choice><orig>talens</orig><reg>talents</reg></choice> <choice><orig>paroîtront</orig><reg>paraîtront</reg></choice> dans les jeux qu'on <choice><orig>aprête</orig><reg>apprête</reg></choice> ;</l>
-                  <lb/><stage type="delivery"><hi rend="italic">(à Marton.)</hi></stage><lb/>
+                  <lb/><stage type="delivery"><hi rend="italics">(à Marton.)</hi></stage><lb/>
                   <l>Ma fille, retouchez à ces deux boucles-ci ;</l>
                   <l part="I">Mais allez doucement.</l>
                 </sp>
@@ -772,9 +774,9 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à Marton.</hi></stage>
+                  <stage type="delivery"><hi rend="italics">à Marton.</hi></stage>
                   <l part="F">Un moment.</l>
-                  <lb/><stage type="delivery"><hi rend="italic">(à la Marquiſe.)</hi></stage><lb/>
+                  <lb/><stage type="delivery"><hi rend="italics">(à la Marquiſe.)</hi></stage><lb/>
                   <l part="I">Permettez que j'y touche.</l>
                 </sp>
                 <sp who="Madame Nison">
@@ -809,7 +811,7 @@
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
                   <l part="F">La <choice><orig>replique</orig><reg>réplique</reg></choice> me bleſſe..</l>
-                  <lb/><stage type="delivery"><hi rend="italic">(à Finette.)</hi></stage><lb/>
+                  <lb/><stage type="delivery"><hi rend="italics">(à Finette.)</hi></stage><lb/>
                   <l>Mes gens ſont bien payés, on doit vous l'avoir dit.</l>
                 </sp>
                 <sp who="Finette">
@@ -849,7 +851,7 @@
                   <l>Madame, j'en ſuis ſûre, &amp; plus vous l'aimerez.</l>
                   <l>Elle gagne à l'uſer, vous en ſerez contente ;</l>
                   <l>C'eſt vous en dire aſſez. Je ſuis votre ſervante</l>
-                  <stage type="exit"><hi rend="italic">(Elle ſort</hi></stage><lb/>
+                  <stage type="exit"><hi rend="italics">(Elle ſort</hi></stage><lb/>
                 </sp>
                 <sp who="Arlequin">
                   <speaker>ARLEQUIN.</speaker><lb/>
@@ -890,12 +892,12 @@
                 </sp>
                 <sp who="Marton, Finette">
                   <speaker>MARTON &amp; FINETTE </speaker>
-                  <stage type="business"><hi rend="italic">faiſant la référence.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">faiſant la référence.</hi></stage><lb/>
                   <l part="I">Monſieur, vous vous moquez.</l>
                 </sp>
                 <sp who="La Baron">
                   <speaker>LE BARON </speaker>
-                  <stage type="delivery"><hi rend="italic">à la Marquiſe.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à la Marquiſe.</hi></stage><lb/>
                   <l part="F">Non ; changeons d'entretien.</l>
                   <l>Je viens pour vous parler d'affaire ſérieuſe.</l>
                 </sp>
@@ -968,7 +970,7 @@
                 <head>SCENE IX.</head><lb/>
                 <sp who="La Marquise">
                  <speaker>LA MARQUISE </speaker>
-                 <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                 <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                  <l part="F"><c rend="lettrine">L</c>'Alternative eſt dure ,</l>
                  <l>Et je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> que faire en cette conjoncture.</l>
                </sp>
@@ -982,7 +984,7 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l>Non. <stage><hi rend="italic">(à part.)</hi></stage> Je ne fus jamais dans un tel embarras.</l>
+                  <l>Non. <stage><hi rend="italics">(à part.)</hi></stage> Je ne fus jamais dans un tel embarras.</l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -1083,7 +1085,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l part="I">Bon, je <choice><orig>prens</orig><reg>prends</reg></choice> auprès d'elle.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -1224,7 +1226,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l part="F"><choice><orig>O</orig><reg>Oh</reg></choice> ! bonheur ſans égal !</l>
                   <l part="I">C'eſt moi dont elle parle.</l>
                 </sp>
@@ -1256,14 +1258,14 @@
                 <stage>LA MARQUISE , FINETTE, <lb/> MARTON</stage><lb/>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l><c rend="lettrine">P</c>Our <name type="person" n="Finette">Finette</name> en ſecret ma haine eſt violente ;</l>
                   <l>Elle eſt avec <name type="person" n="Lucinde">Lucinde</name> &amp; mon dépit augmente.</l>
                   <l part="I">Ecoutons leurs diſcours.</l>
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">à Finette.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Finette.</hi></stage><lb/>
                   <l part="F">Dans le cours d'un inſtant ,</l>
                   <l>Je dévoile (quel eſt ſur moi ton aſcendant ! )</l>
                   <l>Je dévoile à tes yeux mon <choice><orig>ame</orig><reg>âme</reg></choice> toute entiére ,</l>
@@ -1273,7 +1275,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l>Ciel ! Qu'eſt-ce que j'entends ? Je ſuis hors de moi-<lb/> même.</l>
                 </sp>
                 <sp who="Finette">
@@ -1284,7 +1286,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l>Dévorons le dépit dont mon ame eſt preſſée.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -1320,7 +1322,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="business"><hi rend="italic">riant.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">riant.</hi></stage><lb/>
                   <l part="I">En <name type="person" n="Pantalon">Pantalon</name> ? Ah ! Ah !</l>   
                 </sp>
                 <sp who="Marton">
@@ -1437,7 +1439,7 @@
                   <l>J'entre en mon cabinet pour écrire à <name type="place" n="Paris">Paris</name>,</l>
                   <l>Je n'y ſuis qu'un moment, &amp; vous viendrez enſuite.</l>
                   <l>M'habiller <choice><orig>tout-à-fait</orig><reg>tout à fait</reg></choice> pour aller en viſite.</l>
-                  <lb/><stage type="exit"><hi rend="italic">(elle rentre.)</hi></stage>
+                  <lb/><stage type="exit"><hi rend="italics">(elle rentre.)</hi></stage>
                 </sp>
               </div3>
               <div3 type="scene" n="12">
@@ -1532,7 +1534,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON,</speaker>
-                  <stage type="business"><hi rend="italic">reprenant l'air modeſte.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">reprenant l'air modeſte.</hi></stage><lb/>
                   <l part="I">Madame, ce n'eſt rien.</l>
                 </sp>
                 <pb n="198"/>
@@ -1575,11 +1577,11 @@
                   <l>Toute ma confiance entre vous ſe partage :</l>
                   <l>Diſputez-la , <name type="person" n="Marton">Marton</name> , par vos ſoins redoublés,</l>
                   <l>Et non par la chaleur de vos ſots démêlés.</l>
-                  <lb/><stage type="exit"><hi rend="italic">(elle rentre.)</hi></stage>
+                  <lb/><stage type="exit"><hi rend="italics">(elle rentre.)</hi></stage>
                 </sp>
-                <stage type="exit"><hi rend="italic">(<name type="person" n="Marton">Marton</name> &amp; <name type="person" n="Finette">Finette</name> s'en allant, ſe menacent <choice><orig>derriére</orig><reg>derrière</reg></choice><lb/> leur Maîtreſſe. La Marquise ſe retourne, &amp; les fauſ-<lb/> ſes ſuivantes reprennent un maintien modeſte.)<lb/></hi></stage>
+                <stage type="exit"><hi rend="italics">(<name type="person" n="Marton">Marton</name> &amp; <name type="person" n="Finette">Finette</name> s'en allant, ſe menacent <choice><orig>derriére</orig><reg>derrière</reg></choice><lb/> leur Maîtreſſe. La Marquise ſe retourne, &amp; les fauſ-<lb/> ſes ſuivantes reprennent un maintien modeſte.)<lb/></hi></stage>
                 <lb/><lb/><lb/>
-                <p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
+                <p rend="center"><hi rend="italics">Fin du premier Acte.</hi></p>
               </div3>
             </div2>
             <pb n="199"/>
@@ -1754,7 +1756,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à Madame <name type="person" n="Nison">Niſon</name>.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Madame <name type="person" n="Nison">Niſon</name>.</hi></stage><lb/>
                   <l>C'eſt un original , je veux m'en divertir.</l>
                 </sp>
                 <sp who="Madame Nison">
@@ -1980,7 +1982,7 @@
                 <head>SCENE V.</head><lb/>
                 <sp who="Arlequin">
                   <speaker>ARLEQUIN </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeul.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
                   <l><c rend="lettrine">V</c>Ite , gare , culbute , abattez-vous l'épaule ,</l>
                   <l>Caſſez-vous une jambe , ou rompez-vous le col,</l>
                   <l>Vous me ferez plaiſir. Vit-on rien de plus fou ?</l>
@@ -2000,7 +2002,7 @@
                 <stage>LA MARQUISE, FINETTE, <lb/>MARTON.</stage><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="business"><hi rend="italic">lui <choice><orig>preſentant</orig><reg>présentant</reg></choice> un fauteuil.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">lui <choice><orig>preſentant</orig><reg>présentant</reg></choice> un fauteuil.</hi></stage><lb/>
                   <l><c rend="lettrine">D</c>Ans ce fauteuil, Madame, aſſeyez-vous de <choice><orig>grace</orig><reg>grâce</reg></choice></l>
                 </sp>
                 <sp who="Marton">
@@ -2066,12 +2068,12 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="business"><hi rend="italic">lui baiſant la main.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">lui baiſant la main.</hi></stage><lb/>
                   <l>Permettez que mon cœur vous témoigne ma <choice><orig>joïe</orig><reg>joie</reg></choice>.</l>  
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="business"><hi rend="italic">la lui baiſant auſſi.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">la lui baiſant auſſi.</hi></stage><lb/>
                   <l>Souffrez qu'en <choice><orig>même-tems</orig><reg>même temps</reg></choice> la mienne ſe <choice><orig>déploïe</orig><reg>déploie</reg></choice>.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -2110,7 +2112,7 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">à <name type="person" n="Marton">Marton</name>.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à <name type="person" n="Marton">Marton</name>.</hi></stage><lb/>
                   <l>Ah ! Doucement, <name type="person" n="Marton">Marton</name>, vous me bleſſez le bras.</l>
                 </sp>
                 <sp who="Marton">
@@ -2156,7 +2158,7 @@
                   <l>Et ſurtout, attendez, pour <choice><orig>paroître</orig><reg>paraître</reg></choice> à ma <choice><orig>vûe</orig><reg>vue</reg></choice>.</l>
                   <l>Que vous puiſſiez compter ſur plus de <choice><orig>retenuë</orig><reg>retenue</reg></choice>.</l>
                   <l part="I">Toi, <name type="person" n="Finette">Finette</name>, ſuis-moi.</l>
-                  <stage type="exit"><hi rend="italic">(Elle rentre avec Finette.)</hi></stage>
+                  <stage type="exit"><hi rend="italics">(Elle rentre avec Finette.)</hi></stage>
                 </sp>
               </div3>
               <pb n="210"/>
@@ -2164,7 +2166,7 @@
                 <head>SCENE VII.</head><lb/>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeule.</hi>.</stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeule.</hi>.</stage><lb/>
                   <l part="F"><name type="person" n="Finette"><c rend="lettrine">F</c>Inette</name> a ſa faveur,</l>
                   <l>Et la cruelle encore m'ordonne la douceur.</l>
                   <l>Non, non, l'amant jaloux n'en eſt pas ſuſceptible ;</l>
@@ -2317,7 +2319,7 @@
                 <head>SCENE IX.</head><lb/>
                 <sp who="Madame Nison">
                   <speaker>Mad. NISON </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                   <l><c rend="lettrine">J</c>'Ai bien fait d'arrêter cette fougue <choice><orig>indiſcrette</orig><reg>indiscrète</reg></choice>,</l>
                   <l>Et tout <choice><orig>étoit</orig><reg>était</reg></choice> perdu. Mais on vient, c'eſt <name type="person" n="Finette">Finette</name>.</l>
                 </sp>
@@ -2327,7 +2329,7 @@
                 <stage>Mad. NISON, FINETTE.</stage><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">tranſporté.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">tranſporté.</hi></stage><lb/>
                   <l><c rend="lettrine">H</c>Abit, habit charmant, préſent cher &amp; flatteur. ;</l>
                   <l>Puis-je trop vous baiſer ? Vous enchantez mon <lb/> cœur.</l>
                 </sp>
@@ -2436,7 +2438,7 @@
                 <stage>LE BARON, MARTON, FINETTE.</stage><lb/>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                   <l><c rend="lettrine">J</c>E ne puis l'accepter, Monſieur, je vous rends <lb/> <choice><orig>grace</orig><reg>grâce</reg></choice>.</l>
                 </sp>
                 <sp who="Le Baron">
@@ -2501,7 +2503,7 @@
                 </sp>
                 <sp who="La Baron">
                   <speaker>LE BARON </speaker>
-                  <stage type="delivery"><hi rend="italic">à Marton.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Marton.</hi></stage><lb/>
                   <l part="I">Tu n'as point de prétexte.</l>
                 </sp>
                 <sp who="Marton">
@@ -2515,7 +2517,7 @@
                 </sp>
                 <sp who="Le Baron">
                   <speaker>LE BARON </speaker>
-                  <stage type="delivery"><hi rend="italic">à Marton.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à Marton.</hi></stage><lb/>
                   <l>D'autant plus volontiers, tu <choice><orig>dévrois</orig><reg>devrais</reg></choice> l'accepter ,</l>
                   <l>Qu'au retour tu <choice><orig>pourrois</orig><reg>pourrais</reg></choice> rentrer chez la Marquiſe.</l>
                 </sp>
@@ -2613,9 +2615,9 @@
                   <speaker>LE BARON.</speaker><lb/>
                   <l>Un habit n'a jamais cauſé douleur égale ;</l>
                   <l>Et cette fille-là <choice><orig>paroît</orig><reg>parait</reg></choice> originale.</l>
-                  <lb/><stage type="delivery"><hi rend="italic">(à part.)</hi></stage><lb/>
+                  <lb/><stage type="delivery"><hi rend="italics">(à part.)</hi></stage><lb/>
                   <l>Ceci me détermine à la faire partir.</l>
-                  <l>Mais n'en témoignons rien. <stage type="delivery"><hi rend="italic">(A <name type="person" n="Marton">Marton</name>.)</hi></stage> Calme ton déplaiſir ,</l>
+                  <l>Mais n'en témoignons rien. <stage type="delivery"><hi rend="italics">(A <name type="person" n="Marton">Marton</name>.)</hi></stage> Calme ton déplaiſir ,</l>
                   <l>Ne pleure pas : <name type="person" n="Marton">Marton</name>, ſi  ce préſent te bleſſe ,</l>
                   <l>A t'en faire un plus beau, j'obligerai ma <choice><orig>Niéce</orig><reg>Nièce</reg></choice> ,</l>
                 </sp>
@@ -2625,7 +2627,7 @@
                 </sp>
                 <sp who="Le Baron">
                   <speaker>LE BARON.</speaker><lb/>
-                  <l><choice><orig>O</orig><reg>Oh</reg></choice> ! la plaiſante fille <hi rend="italic">!</hi> Adieu, <name type="person" n="Marton">Marton</name>, adieu.</l>
+                  <l><choice><orig>O</orig><reg>Oh</reg></choice> ! la plaiſante fille <hi rend="italics">!</hi> Adieu, <name type="person" n="Marton">Marton</name>, adieu.</l>
                 </sp>
               </div3>
               <pb n="219"/>
@@ -2684,7 +2686,7 @@
                 <head> SCENE XIII. </head><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                   <l><c rend="lettrine">M</c>Ais un ſoin plus preſſant m'occupe &amp; me re-<lb/>tient.</l>
                   <l><name type="person" n="Lucinde">Lucinde</name> doit avoir ... Je l'apperçois qui vient.</l>
                   <l>Elle lit un Billet, &amp; c'eſt le mien, ſans doute.</l>
@@ -2696,7 +2698,7 @@
                 <stage>LA MARQUISE, FINETTE</stage><lb/>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="entrance"><hi rend="italic">tenant un Billet <lb/> à la main. </hi></stage><lb/>
+                  <stage type="entrance"><hi rend="italics">tenant un Billet <lb/> à la main. </hi></stage><lb/>
                   <l><c rend="lettrine">C</c>'eſt un aveu formel. Mais c'eſt preſqu'un Roman</l>
                   <l>Dois-je m'en offenſer ? Non <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> rions-en.</l>
                   <l part="I"><name type="person" n="Finette">Finette</name> te voilà ?</l>
@@ -2711,7 +2713,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à part</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part</hi></stage><lb/>
                   <l part="F">Elle en eſt peu <choice><orig>frapée</orig><reg>frappée</reg></choice>.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -2730,7 +2732,7 @@
                 <pb n="221"/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage><hi rend="italic">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</hi></stage><lb/>
+                  <stage><hi rend="italics">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</hi></stage><lb/>
                   <l>Mais ce Billet n'eſt pas ſi plaiſant qu'on peut le dire.</l>
                   <l>Vous ne <choice><orig>dévriez</orig><reg>devriez</reg></choice> pas le prendre ſi <choice><orig>gaiment</orig><reg>gaiement</reg></choice> :</l>
                   <l>Il me <choice><orig>paroît</orig><reg>paraît</reg></choice> conçu <choice><orig>très-ſérieuſement</orig><reg>très sérieusement</reg></choice>.</l>
@@ -2977,13 +2979,13 @@
                   <speaker>FINETTE.</speaker><lb/>
                   <l part="F">Il faut le ménager ; </l>
                   <l>J'<choice><orig>aprouve</orig><reg>approuve</reg></choice> la douceur, bien loin que je la blâme. </l>
-                  <lb/><stage><hi rend="italic">(à part.) </hi></stage><lb/>
+                  <lb/><stage><hi rend="italics">(à part.) </hi></stage><lb/>
                   <l>Imitons de mon mieux l'écriture de femme. </l>
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">Dicte. </hi></stage><lb/>
-                  <l><hi rend="italic">Je n'<choice><orig>aurois</orig><reg>aurais</reg></choice> jamais cru qu'un entretien au Bal, </hi></l>
+                  <stage type="delivery"><hi rend="italics">Dicte. </hi></stage><lb/>
+                  <l><hi rend="italics">Je n'<choice><orig>aurois</orig><reg>aurais</reg></choice> jamais cru qu'un entretien au Bal, </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -2991,7 +2993,7 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l part="F"><hi rend="italic">Dût m'attirer, Monſieur, un billet tendre. </hi></l>
+                  <l part="F"><hi rend="italics">Dût m'attirer, Monſieur, un billet tendre. </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -2999,8 +3001,8 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l part="F"><hi rend="italic">Vous ignorez, &amp; je dois vous l'<choice><orig>aprendre</orig><reg>apprendre</reg></choice>, </hi></l>
-                  <l><hi rend="italic">Que d'un engagement, je fuis le n<sic>uœ</sic><corr>œu</corr>d fatal. </hi></l>
+                  <l part="F"><hi rend="italics">Vous ignorez, &amp; je dois vous l'<choice><orig>aprendre</orig><reg>apprendre</reg></choice>, </hi></l>
+                  <l><hi rend="italics">Que d'un engagement, je fuis le n<sic>uœ</sic><corr>œu</corr>d fatal. </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -3008,8 +3010,8 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l part="F"><hi rend="italic">Je ne <choice><orig>prens</orig><reg>prends</reg></choice> point le ton fier &amp; <choice><orig>ſévére</orig><reg>sévère</reg></choice> ; </hi></l>
-                  <l><hi rend="italic">Et la raiſon, plutôt, m'inſpire la douceur. </hi></l>
+                  <l part="F"><hi rend="italics">Je ne <choice><orig>prens</orig><reg>prends</reg></choice> point le ton fier &amp; <choice><orig>ſévére</orig><reg>sévère</reg></choice> ; </hi></l>
+                  <l><hi rend="italics">Et la raiſon, plutôt, m'inſpire la douceur. </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -3017,11 +3019,11 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l part="M"><hi rend="italic">Comme j'ai <choice><orig>lû</orig><reg>lu</reg></choice> votre aveu ...</hi></l>
+                  <l part="M"><hi rend="italics">Comme j'ai <choice><orig>lû</orig><reg>lu</reg></choice> votre aveu ...</hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
-                  <l part="F"><hi rend="italic">Sans colère ?</hi></l>
+                  <l part="F"><hi rend="italics">Sans colère ?</hi></l>
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
@@ -3034,15 +3036,15 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l part="M"><hi rend="italic">J'y <choice><orig>repons</orig><reg>réponds</reg></choice> ... </hi></l>
+                  <l part="M"><hi rend="italics">J'y <choice><orig>repons</orig><reg>réponds</reg></choice> ... </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
-                  <l part="F"><hi rend="italic">Sans aigreur ? </hi></l>
+                  <l part="F"><hi rend="italics">Sans aigreur ? </hi></l>
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
-                  <l>Sans aigreur. C'eſt le mot. <stage type="delivery"><hi rend="italic">(Elle dicte.) </hi></stage> <hi rend="italic">Ne m'aimez point, Monſieur. </hi></l>
+                  <l>Sans aigreur. C'eſt le mot. <stage type="delivery"><hi rend="italics">(Elle dicte.) </hi></stage> <hi rend="italics">Ne m'aimez point, Monſieur. </hi></l>
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
@@ -3050,11 +3052,11 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">reprend.</hi></stage><lb/>
-                  <l><hi rend="italic">Ne m'aimez point, Monſieur. C'eſt moi qui vous en <lb/>preſſe ; </hi></l>
-                  <l><hi rend="italic">L'amour eſt un écueil trop fatal au bonheur : </hi></l>
-                  <l><hi rend="italic">C'eſt un co<sic>u</sic><corr>n</corr>ſeil autant qu'une défenſe expreſſe. </hi></l>
-                  <lb/><stage><hi rend="italic">(Elle s'interrompt.)</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">reprend.</hi></stage><lb/>
+                  <l><hi rend="italics">Ne m'aimez point, Monſieur. C'eſt moi qui vous en <lb/>preſſe ; </hi></l>
+                  <l><hi rend="italics">L'amour eſt un écueil trop fatal au bonheur : </hi></l>
+                  <l><hi rend="italics">C'eſt un co<sic>u</sic><corr>n</corr>ſeil autant qu'une défenſe expreſſe. </hi></l>
+                  <lb/><stage><hi rend="italics">(Elle s'interrompt.)</hi></stage><lb/>
                   <l>J'en dis trop. Effaçons tout ce commencement ; </l>
                   <l>Il peut s'interpréter trop favorablement. </l>
                 </sp>
@@ -3078,17 +3080,17 @@
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
                   <l part="F">Oui, <choice><orig>pourſui</orig><reg>poursuis</reg></choice>. </l>
-                  <lb/><stage type="delivery"><hi rend="italic">(Elle Dicte)</hi></stage><lb/>
-                  <l><hi rend="italic">J'ajoute un mot, Monſieur, pour conſoler votre <choice><orig>ame</orig><reg>âme</reg></choice>. </hi></l>
-                  <l><hi rend="italic">Des hommes que j'ai <choice><orig>vûs</orig><reg>vus</reg></choice>, vous êtes le premier </hi></l>
-                  <l part="I"><hi rend="italic">Que j'ai <choice><orig>ſçû</orig><reg>su</reg></choice> diſtinguer. </hi></l>
+                  <lb/><stage type="delivery"><hi rend="italics">(Elle Dicte)</hi></stage><lb/>
+                  <l><hi rend="italics">J'ajoute un mot, Monſieur, pour conſoler votre <choice><orig>ame</orig><reg>âme</reg></choice>. </hi></l>
+                  <l><hi rend="italics">Des hommes que j'ai <choice><orig>vûs</orig><reg>vus</reg></choice>, vous êtes le premier </hi></l>
+                  <l part="I"><hi rend="italics">Que j'ai <choice><orig>ſçû</orig><reg>su</reg></choice> diſtinguer. </hi></l>
                 </sp>
                 <pb n="227"/>
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
                   <l part="F">Mais dites-lui, Madame, </l>
                   <l>Quelque choſe, après tout, de plus particulier. </l>
-                  <l><hi rend="italic">Diſtinguer ; </hi>eſt un mot vague de ſa nature. </l>
+                  <l><hi rend="italics">Diſtinguer ; </hi>eſt un mot vague de ſa nature. </l>
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE.</speaker><lb/>
@@ -3097,8 +3099,8 @@
                 <sp who="Finette">
                   <speaker>FINETTE.</speaker><lb/>
                   <l>Voici celle, à peu près, qui peut le remplacer : </l>
-                  <l><hi rend="italic">Vous êtes le premier do<sic>u</sic><corr>n</corr>t l'eſprit, la figure, </hi></l>
-                  <l><hi rend="italic">Et dont les <choice><orig>entimens</orig><reg>sntiments</reg></choice> ont <choice><orig>ſçû</orig><reg>su</reg></choice> m'intéreſſer. </hi></l>
+                  <l><hi rend="italics">Vous êtes le premier do<sic>u</sic><corr>n</corr>t l'eſprit, la figure, </hi></l>
+                  <l><hi rend="italics">Et dont les <choice><orig>entimens</orig><reg>sntiments</reg></choice> ont <choice><orig>ſçû</orig><reg>su</reg></choice> m'intéreſſer. </hi></l>
                   <l part="I">Eſt-ce-là votre idée ? </l>
                 </sp>
                 <sp who="La Marquise">
@@ -3148,7 +3150,7 @@
                 <pb n="228"/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="business"><hi rend="italic">lui prenant la main pour l'engager <lb/> à ſigner. </hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">lui prenant la main pour l'engager <lb/> à ſigner. </hi></stage><lb/>
                   <l part="M">Madame ... </l>
                 </sp>
                 <sp who="La Marquise">
@@ -3161,7 +3163,7 @@
                 </sp>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="business"><hi rend="italic">ſignant.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">ſignant.</hi></stage><lb/>
                   <l>Elle obtient tout. <choice><orig>Prens</orig><reg>Prends</reg></choice> ſoin de le faire remettre. </l>
                 </sp>
                 <sp who="Finette">
@@ -3187,12 +3189,12 @@
                 <head> SCENE XV.</head><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                   <l><c rend="lettrine">D</c>E ſon eſtime enfin, je tiens un ſûr garant;</l>
                   <l>Déſiré pour ami, j'<choice><orig>eſpére</orig><reg>espère</reg></choice> comme amant.</l>
                 </sp>
                 <lb/><lb/><lb/>
-                <p><hi rend="italic">Fin du ſecond Acte.</hi></p>
+                <p><hi rend="italics">Fin du ſecond Acte.</hi></p>
               </div3>
             </div2>
             <pb n="229"/>
@@ -3252,7 +3254,7 @@
                 </sp>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l part="F">Ce n'est qu'une devise.</l>
                   <l>Je mens, pour <choice><orig>allarmer</orig><reg>alarmer</reg></choice> encore plus ſes eſprits.</l>
                 </sp>
@@ -3325,7 +3327,7 @@
                 <stage>FINETTE, MARTON, <lb/> LA COMTESSE.</stage><lb/>
                 <sp who="Marton">
                   <speaker>MARTON </speaker>
-                  <stage type="business"><hi rend="italic">rencontrant la Comteſſe au fond <lb/> du Théâtre.</hi></stage>
+                  <stage type="business"><hi rend="italics">rencontrant la Comteſſe au fond <lb/> du Théâtre.</hi></stage>
                   <l part="I"><c rend="lettrine">Q</c>Ue ſouhaite Madame ?</l>
                 </sp>
                 <sp who="La Comtesse">
@@ -3335,7 +3337,7 @@
                 </sp>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l part="F">C'eſt ma mère ! Ah je tremble.</l>
                 </sp>
                 <sp who="La Comtesse">
@@ -3356,7 +3358,7 @@
                 <sp who="Marton">
                   <speaker>MARTON.</speaker><lb/>
                   <l><name type="person" n="Finette">Finette</name> ira pour moi. Je vous laiſſe avec elle.</l>
-                  <lb/><stage type="exit"><hi rend="italic">(Elle ſort en lui faiſant la révérence.)</hi></stage>
+                  <lb/><stage type="exit"><hi rend="italics">(Elle ſort en lui faiſant la révérence.)</hi></stage>
                 </sp>
           </div3>
               <div3 type="scene" n="3">
@@ -3364,7 +3366,7 @@
                 <stage>LA COMTESSE, FINETTE.</stage><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker>
-                  <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                   <l><c rend="lettrine">O</c> Ciel ! Je ſuis perdu. Par où fuir maintenant ?</l>
                 </sp>
                 <sp who="La Comtesse">
@@ -3587,7 +3589,7 @@
                 <head>SCENE IV.</head><lb/>
                 <sp who="Finette">
                   <speaker>FINETTE </speaker> 
-                  <stage type="delivery"><hi rend="italic">ſeul</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeul</hi></stage><lb/>
                   <l><c rend="lettrine">J</c>E tombe dans l'effroi du ſein de l'eſpérance ;</l>
                   <l>On vient; c'eſt <name type="person" n="Arlequin">Arlequin</name>. Evitons ſa préſence.</l>
                 </sp>
@@ -3596,7 +3598,7 @@
                 <head>SCENE V.</head><lb/>
                 <sp who="Arlequin">
                   <speaker>ARLEQUIN </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeul</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeul</hi></stage><lb/>
                   <l><c rend="lettrine">I</c>L faut que je me plaigne à Monſieur le Baron ;</l>
                   <l>Et pour le haranguer, je parcours la maiſon :</l>
                   <l>Mais vers moi, par bonheur, je le vois qui s'avance.</l>
@@ -3717,7 +3719,7 @@
                 <head>SCENE VIII.</head><lb/>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                   <l><c rend="lettrine">D</c>Emain du ſérieux! Le terme eſt un peu proche,</l>
                   <l>Je crains bien, malgré moi, d'attirer ſon re-<lb/>proche</l>
                   <l>Cette reflexion trouble mon enjoument :</l>
@@ -3818,11 +3820,11 @@
                 <stage>LA MARQUISE, DAMON, LEANDRE.</stage><lb/>
                 <sp who="La Marquise">
                   <speaker>LA MARQUISE </speaker>
-                  <stage type="delivery"><hi rend="italic">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à <name type="person" n="Léandre">Léandre</name>.</hi></stage><lb/>
                   <l><choice><orig><c type="lettrine">A</c>proches</orig><reg>Approche</reg></choice>, te voilà tout au mieux <choice><orig>traveſtie</orig><reg>travesti</reg></choice>.</l>
-                  <l>Tourne toi. Qu'elle eſt bien ! <stage type="delivery"><hi rend="italic">à part</hi></stage> Je cois en cet inſtant ;</l>
+                  <l>Tourne toi. Qu'elle eſt bien ! <stage type="delivery"><hi rend="italics">à part</hi></stage> Je cois en cet inſtant ;</l>
                   <l>Je crois vois l'Inconnu, le rapport eſt <choice><orig>frapant</orig><reg>frappant</reg></choice>.</l>
-                  <lb/><stage type="delivery"><hi rend="italic">(haut)</hi></stage><lb/>
+                  <lb/><stage type="delivery"><hi rend="italics">(haut)</hi></stage><lb/>
                   <l>J'aime ce dehors ſage. Il augmente ſa grace.</l>
                 </sp>
                 <sp who="Damon">
@@ -3866,7 +3868,7 @@
                 </sp>
                 <sp who="Léandre">
                   <speaker>LEANDRE </speaker>
-                  <stage type="business"><hi rend="italic">ſoupirant.</hi></stage><lb/>
+                  <stage type="business"><hi rend="italics">ſoupirant.</hi></stage><lb/>
                   <l>Je ſuis triſte, il est vrai; j'en ai plus d'un ſujet.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -3980,7 +3982,7 @@
                   <l>Dans un premier aveu, dans un premier hommage <unclear>;</unclear></l>
                   <pb n="244"/>
                   <l>L'amour éclate moins, &amp; prend un ton plus ſage.</l>
-                  <lb/><stage type="business"><hi rend="italic">(regardant tendrement la Marquiſe)</hi></stage><lb/>
+                  <lb/><stage type="business"><hi rend="italics">(regardant tendrement la Marquiſe)</hi></stage><lb/>
                   <l>Un regard en dit plus, &amp; ſans être bruyant.</l>
                 </sp>
                 <sp who="La Marquise">
@@ -4005,7 +4007,7 @@
                 <stage>LA MARQUISE, LE BARON, <lb/>LA COMTESSE, LEANDRE, <lb/>DAMON, ARLEQUIN.</stage><lb/>
                 <sp who="La Marquise">
                  <speaker>LA MARQUISE </speaker>
-                 <stage type="delivery"><hi rend="italic">au Baron</hi></stage><lb/>
+                 <stage type="delivery"><hi rend="italics">au Baron</hi></stage><lb/>
                   <l><c rend="lettrine">V</c>Ous me voyez, Monſieur, en entretien ſecret</l>
                   <l>Avec deux Cavaliers dangereux tout-à-fait.</l>
                 </sp>
@@ -4090,7 +4092,7 @@
                   <speaker>LA MARQUISE.</speaker><lb/>
                    <l>Vous me percez le cœur tous deux en m'éclairant.</l>
                    <l>Leur crime eſt confirmé par leur profond ſilence.</l>
-                  <l>Quelle audace, <name type="person" n="Damon">Damon</name> ! <stage><hi rend="italic">(à <name type="person" n="Léandre">Léandre</name>.)</hi></stage> Et vous quelle imprudence !</l>
+                  <l>Quelle audace, <name type="person" n="Damon">Damon</name> ! <stage><hi rend="italics">(à <name type="person" n="Léandre">Léandre</name>.)</hi></stage> Et vous quelle imprudence !</l>
                 </sp>
                 <sp who="Léandre">
                   <speaker>LEANDRE.</speaker><lb/>
@@ -4265,7 +4267,7 @@
                 <stage>LA MARQUISE, LE BARON, <lb/>LA COMTESSE, LEANDRE, <lb/> ARLEQUIN.</stage><lb/>
                 <sp who="Le Baron">
                   <speaker>LE BARON </speaker>
-                  <stage type="delivery"><hi rend="italic">à la Marquiſe</hi></stage><lb/>
+                  <stage type="delivery"><hi rend="italics">à la Marquiſe</hi></stage><lb/>
                   <l part="F"><c rend="lettrine">V</c>Ous avez bien jugé,</l>
                   <l>Tous mes vœux ſont remplis contre mon eſpérance,</l>
                   <pb n="249"/>
@@ -4284,7 +4286,7 @@
                   <l>Mais nous en choiſirons d'un meilleur acabit.</l>
                 </sp>
                 <lb/>
-                <p rend="center"><hi rend="italic">Fin de la Comédie.</hi></p>
+                <p rend="center"><hi rend="italics">Fin de la Comédie.</hi></p>
               </div3>
             </div2>
           </div1>
@@ -4302,7 +4304,7 @@
                   <l>Que lorſque vous ſerez époux.</l>
                 </lg>
               </sp>
-              <lb/><stage type="business"><hi rend="italic">On danſe</hi></stage><lb/>
+              <lb/><stage type="business"><hi rend="italics">On danſe</hi></stage><lb/>
           </div1>
           <div1 type="vaudeville">
             <head>VAUDEVILLE.</head><lb/>
@@ -4357,13 +4359,11 @@
                 <l>Et voici le fatal inſtant</l>
                 <l>Meſſieurs, devant vous je m'incline</l>
                 <l>Pour montrer qu'elle a réuſſi,</l>
-                <l>Imitez ce mouvement-ci* <note resp="author" place="bottom"><hi rend="italic">* Un ſigne de tête qui marque l'<choice><orig>aprobation</orig><reg>approbation</reg></choice>.</hi></note>,</l>
+                <l>Imitez ce mouvement-ci* <note resp="author" place="bottom"><hi rend="italics">* Un ſigne de tête qui marque l'<choice><orig>aprobation</orig><reg>approbation</reg></choice>.</hi></note>,</l>
                 <l>Soyez Pagodes de la <name type="place" n="Chine">Chine</name>.</l>
               </lg>
               <lb/><lb/>
               <p rend="center">FIN.</p>
-                  
-                
               </sp>
           </div1>
           <pb/>
