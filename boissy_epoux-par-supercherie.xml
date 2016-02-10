@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -7,7 +8,7 @@
         <fileDesc>
             <titleStmt>
                 <title type="main">L'Époux par supercherie</title>
-                <title type="subtitle"></title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -66,12 +67,12 @@
                 <pb n="81"/>
                 <docTitle>
                     <titlePart type="main">L'ÉPOUX <lb/>PAR <lb/>SUPERCHERIE <pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="82"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LE MARQUIS D'ORVILLE</role><pc>,</pc><roleDesc> Mari <lb/>ſecret d'<name type="person" n="Emilie">Emilie</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>MILORD BELFORT</role><pc>,</pc><roleDesc> cru cru Mari <lb/>d'<name type="person" n="Emilie">Emilie</name></roleDesc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>EMILIE</role><pc type="affirmative">.</pc></castItem><lb/>
@@ -79,7 +80,7 @@
                 <castItem><role>LA FLEUR</role><pc>,</pc><roleDesc> Valet du Marquis</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Sçène eſt en <name type="place" n="Angleterre">Angleterre</name>, à la Campa-<lb/>gne, chez <name type="place" n="Belfort">Belfort</name>.<pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Sçène eſt en <name type="place" n="Angleterre">Angleterre</name>, à la Campa-<lb/>gne, chez <name type="place" n="Belfort">Belfort</name>.<pc type="affirmative">.</pc></p>
             </set>
             <pb n="83"/>
         </front>
@@ -338,7 +339,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Je penſe pour le coup qu'il eſt dans le délire.</l>
                         </sp>
                         <pb n="88"/>
@@ -348,7 +349,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Oh ! voilà les vapeurs qui troublent ſon bon ſens.</l>
                             <l>Par les diſcours qu'il tient , la choſe eſt avérée ;</l>
                             <l>Et je n'en doute plus , à ſa vûe égarée.</l>
@@ -388,7 +389,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Gardons de l'obſtiner , j'irriterois ſon ame ,</l>
                             <l>Et ne ferois qu'aigrir ſon mal encore plus fort.</l>
                         </sp>
@@ -400,7 +401,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="mixed" rend="italic">à part, en s'en allant.</stage><lb/>
+                            <stage type="mixed" rend="italics">à part, en s'en allant.</stage><lb/>
                             <l>C'eſt, de ſa maladie , un effet trop certain.</l>
                             <l>Quel aſſaut pour ſon Pere ! Il mourra de chagrin.</l>
                         </sp>
@@ -585,9 +586,9 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT <lb/></speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Adieu, je me retire.</l>
-                            <lb/><stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Sa ſituation eſt neuve, &amp; me fait rire.</l>
                         </sp>
                     </div2>
@@ -596,14 +597,14 @@
                         <stage>EMILIE <pc>,</pc> BELFORT <pc>,</pc> LE MARQUIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l part="I"><c type="lettrine">Q</c>Uand j'entre, vous ſortez ?</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je m'en vais revenir,</l>
                             <l>D'<name type="person" n="Orville">Orville</name> en attendant, veut vous entretenir.</l>
-                            <lb/><stage type="mixed" rend="italic">Il ſort en riant.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">Il ſort en riant.</stage><lb/>
                         </sp>
                     </div2>
                     <pb n="93"/>
@@ -756,7 +757,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
-                            <l>Mais je ne ſuis pas bien. <stage type="delivery" rend="italic">(à part.)</stage> Voilà le trait fatal</l>
+                            <l>Mais je ne ſuis pas bien. <stage type="delivery" rend="italics">(à part.)</stage> Voilà le trait fatal</l>
                             <l part="I">Que j'ai craint.</l>
                         </sp>
                         <sp who="Emilie">
@@ -908,9 +909,9 @@
                         <stage>BELFORT<pc>,</pc> CONSTANCE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                            <stage type="delivery" rend="italics">(à part.)</stage><lb/>
                             <l><c type="lettrine">L</c>A voilà , par bonheur, ſeule preſentement.</l>
-                            <l>Parlons-lui. <stage type="delivery" rend="italic">(haut)</stage> Ma Couſine, arrêtés un moment</l>
+                            <l>Parlons-lui. <stage type="delivery" rend="italics">(haut)</stage> Ma Couſine, arrêtés un moment</l>
                             <l part="I">J'ai pour vous une Lettre.</l>
                         </sp>
                         <sp who="Constance">
@@ -930,7 +931,7 @@
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Oui, Milord vous permet.</l>
-                            <lb/><stage type="business" rend="italic"><name type="person" n="Constance">Conſtance</name> lit bas.</stage><lb/>
+                            <lb/><stage type="business" rend="italics"><name type="person" n="Constance">Conſtance</name> lit bas.</stage><lb/>
                             <l>Comment donc? en liſant la Lettre d'une Tante,</l>
                             <l>Vous riés, rougiſſés? La choſe eſt donc plaiſante ?</l>
                         </sp>
@@ -939,11 +940,11 @@
                             <l>Vous allez en juger. On vient de me marquer</l>
                             <pb n="99"/>
                             <l>Que je dois ſur le champ vous la communiquer.</l>
-                            <lb/><stage type="business" rend="italic">Elle donne la Lettre à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Elle donne la Lettre à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">lit.</stage><lb/>
+                            <stage type="business" rend="italics">lit.</stage><lb/>
                             <p>» Il s'offre pour vous, ma Niéce , un parti que je 
                                 <lb/>» crois très-convenable. Milord <name type="person" n="Fauster">Fauſter</name> qui vous 
                                 <lb/>» a vûe chez moi, a pris pour vous une belle paſſion,
@@ -955,7 +956,7 @@
                                 <lb/>» Montre-lui ma Lettre &amp; conſultés-le là deſſus. Je 
                                 <lb/>» ſçais qu'il s'intéreſſe à vous, &amp; je crois qu'il ſera 
                                 <lb/>» de mon avis.
-                            <stage type="delivery" rend="italic">(à part.)</stage></p>
+                            <stage type="delivery" rend="italics">(à part.)</stage></p>
                             <l>Je n'en ſuis point du tout.</l>
                         </sp>
                         <sp who="Constance">
@@ -1053,7 +1054,7 @@
                             <l>Danſons, rions, chantons à l'uniſſon tous deux ;</l>
                             <l>Par des tranſports de joye exprimons nos tendreſſes,</l>
                             <l>Faiſons-nous jolimens cent douces politeſſes.</l>
-                            <lb/><stage type="business" rend="italic">Il lui baiſe la main.</stage><lb/>
+                            <lb/><stage type="business" rend="italics">Il lui baiſe la main.</stage><lb/>
                         </sp>
                         <sp who="Constance">
                             <speaker>CONSTANCE<pc type="affirmative">.</pc></speaker><lb/>
@@ -1275,7 +1276,7 @@
                             <l>Et plus que vos diſcours, vos procédés m'étonnent.</l>
                             <l>Ce n'eſt qu'avec douleur que j'en ſuis le témoin ,</l>
                             <l>Et vous fuir deſormais ſera mon premier ſoin.</l>
-                            <lb/><stage type="exit" rend="italic">(Elle ſort.)</stage><lb/>
+                            <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
                         </sp>
                     </div2>
                     <pb n="105"/>
@@ -1283,7 +1284,7 @@
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">V</c>Ous êtes dans l'erreur;mais elle a pris la fuite.</l>
                             <l>N'importe de mes feux elle eſt toujours inſtruite.</l>
                             <l>J'ai franchi le plus fort de la difficulté,</l>
@@ -1329,7 +1330,7 @@
                         <pb n="106"/>
                         <sp who="Belfort">
                             <speaker><sic>F</sic><corr>B</corr>ELFORT </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>Elle aura mal reçu ſa déclaration.</l>
                         </sp>
                         <sp who="La Fleur">
@@ -1389,7 +1390,7 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">éclatant de rire.</stage><lb/>
+                            <stage type="business" rend="italics">éclatant de rire.</stage><lb/>
                             <l>Ah ! rien n'eſt ſi plaiſant qu'une pareille idée !</l>
                         </sp>
                         <sp who="La Fleur">
@@ -1398,7 +1399,7 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">riant toujours.</stage><lb/>
+                            <stage type="business" rend="italics">riant toujours.</stage><lb/>
                             <l>Ah ! comme de ſon bien il peut en diſpoſer.</l>
                             <l>J'aurois tort là-deſſus de lui rien refuſer.</l>
                         </sp>
@@ -1466,14 +1467,14 @@
                             <l>Ah ! leur force me gagne &amp; s'empare de moi.</l>
                             <l>A preſent, comme à vous, l'avanture me ſemble</l>
                             <l>Très comique en effet, &amp; rions-en enſemble.</l>
-                            <lb/><stage type="business" rend="italic">(Il rit avec <name type="person" n="Belfort">Belfort</name>.)</stage><lb/>
+                            <lb/><stage type="business" rend="italics">(Il rit avec <name type="person" n="Belfort">Belfort</name>.)</stage><lb/>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Viens, montrons chez ton Maître, &amp; quand il l'apren-<lb/>dra,</l>
                             <l>Lui-même, j'en ſuis ſûr, comme nous en rira.</l>
                         </sp>
-                        <lb/><lb/><lb/><lb/><lb/><p rend="italic">Fin du premier Acte.</p>
+                        <lb/><lb/><lb/><lb/><lb/><p rend="italics">Fin du premier Acte.</p>
                     </div2>
                 </div1>
                 <div1 type="acte" n="2">
@@ -1482,7 +1483,7 @@
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage rend="italic">ſeule.</stage><lb/>
+                            <stage rend="italics">ſeule.</stage><lb/>
                             <l><c type="lettrine">D</c>E mon doute, à la fin , je ſuis trop éclaircie.</l>
                             <l>Du Marquis languiſſant la longue maladie,</l>
                             <l>D'un violent amour étoit l'effet ſecret ;</l>
@@ -1524,7 +1525,7 @@
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Je demeure interdit.</l>
-                            <lb/><stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="I">Le Maraut !</l>
                         </sp>
                         <sp who="Emilie">
@@ -1647,7 +1648,7 @@
                         </sp>
                         <sp who="Emilie">
                             <speaker>EMILIE<pc type="affirmative">.</pc></speaker><lb/>
-                            <l><stage type="delivery" rend="italic">(à part.)</stage> Il m'allarme. <stage type="delivery" rend="italic">(haut.)</stage> Ah! Marquis , calmez la violence...</l>
+                            <l><stage type="delivery" rend="italics">(à part.)</stage> Il m'allarme. <stage type="delivery" rend="italics">(haut.)</stage> Ah! Marquis , calmez la violence...</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>Le MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -1656,7 +1657,7 @@
                         </sp>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="business" rend="italic">l'arrêtant.</stage><lb/>
+                            <stage type="business" rend="italics">l'arrêtant.</stage><lb/>
                             <l part="F">Aſſeyez-vous plûtôt,</l>
                             <l>Vous en avez beſoin. Vous êtes...</l>
                         </sp>
@@ -1693,19 +1694,19 @@
                         </sp>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage rend="italic">troublée.</stage><lb/>
+                            <stage rend="italics">troublée.</stage><lb/>
                             <l part="F">On verra...</l>
                             <l>Quand vous ſerez plus calme, on vous écoutera...</l>
                             <pb n="113"/>
                             <l>Votre trouble eſt trop grands;... &amp; le mien eſt extrême.</l>
-                            <l>Adieu. <stage type="mixed" rend="italic">à part , en s'en allant.</stage> Je ne ſçai plus ce que <lb/> je dis moi-même.</l>
+                            <l>Adieu. <stage type="mixed" rend="italics">à part , en s'en allant.</stage> Je ne ſçai plus ce que <lb/> je dis moi-même.</l>
                         </sp>
                     </div2>
                     <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">ſeul.</stage><lb/>
+                            <stage rend="italics">ſeul.</stage><lb/>
                             <l><c type="lettrine">J</c>'Etouffe, je me meurs , je ſuis au déſeſpoir ;</l>
                             <l>Et mon état préſent ne peut ſe concevoir.</l>
                             <l>J'ai frémi de parler ; j'expire de me taire.</l>
@@ -1762,7 +1763,7 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">arrêtant le Marquis.</stage><lb/>
+                            <stage type="business" rend="italics">arrêtant le Marquis.</stage><lb/>
                             <l>Quel eſt donc ton deſſein ? Qui cauſe ces tranſports ?</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -1777,7 +1778,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l part="I">N'arrête plus mon bras.</l>
                         </sp>
                         <sp who="La Fleur">
@@ -1823,7 +1824,7 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
-                            <l part="I">C'eſt le prouver fort mal. <stage type="delivery" rend="italic">à <name type="person" n="La Fleur">la Fleur</name>.</stage> Sauves-toi.</l>
+                            <l part="I">C'eſt le prouver fort mal. <stage type="delivery" rend="italics">à <name type="person" n="La Fleur">la Fleur</name>.</stage> Sauves-toi.</l>
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker><lb/>
@@ -1954,7 +1955,7 @@
                         <stage>LE MARQUIS<pc>,</pc> BELFORT<pc>,</pc> EMILIE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">courant au-devant d'<name type="person" n="Emilie">Emilie</name>.</stage><lb/>
+                            <stage type="business" rend="italics">courant au-devant d'<name type="person" n="Emilie">Emilie</name>.</stage><lb/>
                             <l><c type="lettrine">Q</c>Uoi ! vous ſortez, Madame, en l'état où vous <lb/> êtes !</l>
                             <l>Je ſuis confus des ſoins &amp; des pas que vous faites.</l>
                             <l>Que ne m'attendiez-vous dans votre apartement ?</l>
@@ -2014,18 +2015,18 @@
                             <l>Je ne puis m'excuſer qu'à force de tendreſſe ,</l>
                             <l>Qu'en redoublant de ſoin, d'égard, de politeſſe.</l>
                             <l>Je dois réparer le tems que j'ai perdu,</l>
-                            <l>Ne vous quitter jamais... <stage type="delivery" rend="italic">bas au Marquis.</stage> Fais-je bien ? Qu'en dis-tu ?</l>
+                            <l>Ne vous quitter jamais... <stage type="delivery" rend="italics">bas au Marquis.</stage> Fais-je bien ? Qu'en dis-tu ?</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">bas.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas.</stage><lb/>
                             <l part="I">Non , tu t'échauffes trop.</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">bas au Marquis.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas au Marquis.</stage><lb/>
                             <l part="F">Mais l'action exige.</l>
-                            <lb/><stage type="mixed" rend="italic">à <name type="person" n="Emilie">Emilie</name> lui prenant la main.</stage><lb/>
+                            <lb/><stage type="mixed" rend="italics">à <name type="person" n="Emilie">Emilie</name> lui prenant la main.</stage><lb/>
                             <l part="I">Je ne veux plus ſonger qu'à vous.</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -2039,24 +2040,24 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">lui baiſant la main.</stage><lb/>
+                            <stage type="business" rend="italics">lui baiſant la main.</stage><lb/>
                             <l part="F">Oui, voilà ma caution.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="business" rend="italic">le tirant par la manche.</stage><lb/>
+                            <stage type="business" rend="italics">le tirant par la manche.</stage><lb/>
                             <l>Doucement, vous paſſez votre commiſſion ;</l>
                             <l part="I">Et ce baiſer, morbleu...</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">bas au Marquis.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas au Marquis.</stage><lb/>
                             <l part="F">Mais il eſt néceſſaire.</l>
                             <l>Je dois le répéter. * <note resp="author" place="below">* <stage>à <name type="person" n="Emilie">Emilie</name>, lui rebaiſant la main.</stage></note> Ce garant eſt ſincére.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">bas à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l>Pourſuis, Borreau ; tu ris, tu trouves très-plaiſant</l>
                             <l>De m'avoir fait mari, pour être ſon Amant !</l>
                         </sp>
@@ -2100,7 +2101,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">d'un air piqué.</stage><lb/>
+                            <stage rend="italics">d'un air piqué.</stage><lb/>
                             <l>Rien n'eſt plus obligeant pour moi que ce vœu-là :</l>
                             <l>Je vous en remercie, &amp; de toute mon ame.</l>
                         </sp>
@@ -2132,7 +2133,7 @@
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="business" rend="italic">lui donnant la main.</stage><lb/>
+                            <stage type="business" rend="italics">lui donnant la main.</stage><lb/>
                             <l>Que de ma volonté la vôtre en tout diſpoſe.</l>
                             <l>Adieu, prépares-toi, Marquis, à bien ſauter.</l>
                         </sp>
@@ -2257,7 +2258,7 @@
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage rend="italic">troublé.</stage><lb/>
+                            <stage rend="italics">troublé.</stage><lb/>
                             <l part="I">Non... Si fait...</l>
                         </sp>
                         <sp who="Constance">
@@ -2290,7 +2291,7 @@
                         <stage>LE MARQUIS<pc>,</pc> CONSTANCE<pc>,</pc> <lb/>BELFORT<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Constance">
                             <speaker>CONSTANCE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l><c type="lettrine">V</c>Ous venez à propos, &amp; je parlois de vous.</l>
                             <l>En bien preſentement vous vous faites connoître;</l>
                             <l>Et vous voilà, Monſieur, tel qu'un mari doit être.</l>
@@ -2369,18 +2370,18 @@
                         <sp who="Belfort">
                             <speaker>BELFORT<pc type="affirmative">.</pc></speaker><lb/>
                             <l>D'<name n="Orville">Orville</name> vous tiendra compagnie en ces lieux.</l>
-                            <lb/><stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                             <l>Je te laiſſe le ſoin de divertir ces Dames.</l>
                             <l>Le talent d'un François eſt d'amuſer les Femmes.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="business" rend="italic">retenant <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="business" rend="italics">retenant <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l part="I"><name type="person" n="Emilie">Emilie</name>.....</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">bas au Marquis.</stage><lb/>
+                            <stage type="delivery" rend="italics">bas au Marquis.</stage><lb/>
                             <l part="F">Eh! ce ſoir tu la détromperas.</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -2446,7 +2447,7 @@
                         <stage>LE MARQUIS<pc>,</pc> BELFORT<pc>,</pc> EMILIE<pc>,</pc> <lb/> CONSTANCE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l><c type="lettrine">M</c>Onſieur, me voilà prête à marcher ſur vos pas ;</l>
                             <l>Et j'ai tout diſpoſé pour ne vous quitter pas.</l>
                         </sp>
@@ -2515,7 +2516,7 @@
                         </sp>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="business" rend="italic">montrant <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
+                            <stage type="business" rend="italics">montrant <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
                             <l part="F">Ce Domeſtique,</l>
                             <l>Pour hâter ſon rapel, exprès eſt envoyé;</l>
                             <l>Et vous êtes inſtruit, puiſqu'il l'a publié,</l>
@@ -2523,7 +2524,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l>J'ai tout gâté tantôt, mais réparons la choſe.</l>
                         </sp>
                         <sp who="Emilie">
@@ -2549,7 +2550,7 @@
                         <sp who="Emilie">
                             <speaker>EMILIE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Son Pere blâmera peut-être ſa conduite.</l>
-                            <l>Pour moi, j'en ſuis charmée, * <note>* <stage type="delivery" rend="italic">Avec ne joië contrainte &amp; mêlée d'un depit caché.</stage></note> &amp; je l'en félicite.</l>
+                            <l>Pour moi, j'en ſuis charmée, * <note>* <stage type="delivery" rend="italics">Avec ne joië contrainte &amp; mêlée d'un depit caché.</stage></note> &amp; je l'en félicite.</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -2562,7 +2563,7 @@
                         </sp>
                         <sp who="La Fleur">
                             <speaker>LA FLEUR </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Constance">Conſtance</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Constance">Conſtance</name>.</stage><lb/>
                             <l part="I">Vous êtiez à la nôce.</l>
                         </sp>
                         <sp who="Emilie">
@@ -2580,18 +2581,18 @@
                         </sp>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="La Fleur">la Fleur</name>.</stage><lb/>
                             <l part="F">A qui dans ce Château</l>
                             <l part="I">A-t'il donc pû s'unir ?</l>
                         </sp>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="M">Je tremble.</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">à part.</stage><lb/>
+                            <stage type="delivery" rend="italics">à part.</stage><lb/>
                             <l part="F">Je friſſonne.</l>
                         </sp>
                         <sp who="La Fleur">
@@ -2612,9 +2613,9 @@
                         </sp>
                         <sp who="Constance">
                             <speaker>CONSTANCE </speaker>
-                            <stage type="business" rend="italic">éclatant de rire.</stage><lb/>
+                            <stage type="business" rend="italics">éclatant de rire.</stage><lb/>
                             <l part="F">Ah! le trait eſt charmant !</l>
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="Emilie">Emilie</name>.)</stage><lb/>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Emilie">Emilie</name>.)</stage><lb/>
                             <l>Sur ce nouvel hymen, je vous fais compliment.</l>
                             <l>Vous l'avez contracté, l'on vient de vous le dire ;</l>
                             <l>Et vous n'en ſçavez rien; &amp; c'eſt ce que j'admire.</l>
@@ -2628,7 +2629,7 @@
                         <pb n="131"/>
                         <sp who="Emilie">
                             <speaker>EMILIE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Belfort">Belfort</name>.</stage><lb/>
                             <l>Vous ne démentez point <name type="person" n="La Fleur">la Fleur</name> qui vous accuſe ?</l>
                         </sp>
                         <sp who="Belfort">
@@ -2707,12 +2708,12 @@
                         </sp>
                         <sp who="Constance">
                             <speaker>CONSTANCE </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Emilie">Emilie</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Emilie">Emilie</name>.</stage><lb/>
                             <l>Ah ! ma joye eſt égale à mon étonnement.</l>
                         </sp>
                         <sp who="Belfort">
                             <speaker>BELFORT </speaker>
-                            <stage type="delivery" rend="italic">à <name type="person" n="Constance">Constance</name>.</stage><lb/>
+                            <stage type="delivery" rend="italics">à <name type="person" n="Constance">Constance</name>.</stage><lb/>
                             <l>Eh bien, vous le voyez, je ſuis libre, <name type="person" n="Constance">Conſtance</name>,</l>
                             <l>Je ne vous mentois pas. J'attends la préférence.</l>
                         </sp>
