@@ -66,12 +66,12 @@
                 <pb n="175"/>
                 <docTitle>
                     <titlePart type="main">LES AMOURS <lb/>ANONYMES<pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="176"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LA COMTESSE</role><pc>,</pc> <roleDesc>Veuve<pc type="affirmative">.</pc></roleDesc></castItem><lb/>
                 <castItem><role>LUCINDE</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>AGATE</role><pc type="affirmative">.</pc></castItem><lb/>
@@ -81,7 +81,7 @@
                 <castItem><role>ARLEQUIN</role><pc>,</pc> <roleDesc>valet de <name type="person" n="Dorante">Dorante</name><pc type="affirmative">.</pc></roleDesc></castItem><lb/>
             </castList><lb/><lb/><lb/><lb/><lb/><lb/>
             <set>
-                <p><hi rend="italic">La Scène eſt en <name type="place" n="Touraine">Touraine</name>, ſur la Terraſſe <lb/> d'un Jardin<pc type="affirmative">.</pc></hi></p>
+                <p><hi rend="italics">La Scène eſt en <name type="place" n="Touraine">Touraine</name>, ſur la Terraſſe <lb/> d'un Jardin<pc type="affirmative">.</pc></hi></p>
             </set>
             <pb n="177"/>
         </front>
@@ -89,14 +89,13 @@
             <div1 type="title">
                 <head>LES AMOURS <lb/>ANONYMES<pc>,</pc> <lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="acte" n="1">
+            <div1 type="acte" n="1">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">ſeule<pc type="affirmative">.</pc></hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule<pc type="affirmative">.</pc></hi></stage><lb/>
                             <l><c type="lettrine">L</c>A beauté de ces lieux n'adoucit point ma <lb/> peine ;</l>
                             <l><name type="person" n="Dorante">Dorante</name> eſt à <name type="place" n="Paris">Paris</name>, je m'ennuie en <name type="place" n="Tourraine">Tour-<lb/>raine</name><pc type="affirmative">.</pc></l>
                             <l>On me croit inſenſible,&amp; perſonne ne ſçait</l>
@@ -115,8 +114,8 @@
                             <l>La Comteſſe paroît, &amp; tourne ici ſes pas ;</l>
                             <l>Feignons, &amp; que ſes yeux ne nous pénétrent pas<pc type="affirmative">.</pc></l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCINDE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -204,9 +203,9 @@
                         <pb n="180"/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="F">Mon époux !</l>
-                            <lb/><stage type="delivery"><hi rend="italic">(à la Comteſſe.)</hi></stage><lb/>
+                            <lb/><stage type="delivery"><hi rend="italics">(à la Comteſſe.)</hi></stage><lb/>
                             <l>Oh! Vous le ſoumettrez avec des yeux ſi doux.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -250,7 +249,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>O ſituation &amp; cruelle &amp; gênante !</l>
                             <l>Je ſuis en même-tems rivale &amp; confidente :</l>
                             <l>E<unclear>l</unclear>le m'ouvre ſon cœur, je dois cacher le mien ;</l>
@@ -266,7 +265,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="F">Elle s'adreſſe bien !</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -275,7 +274,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">Que trop !</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -293,7 +292,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Ah ! Si ma main oſoit toucher à ſa coëffure,</l>
                             <l>Elle lui donneroit une toute autre tournure.</l>
                         </sp>
@@ -317,11 +316,11 @@
                             <speaker>LUCINDE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Un moment je vous laiſſe ,</l>
                             <l>Pour achever d'écrire une lettre qui preſſe.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Elle ſe retire.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Elle ſe retire.)</hi></stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="182"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -445,15 +444,15 @@
                             <l>Madame, plus j'aurai pour vous d'obéiſſance ;</l>
                             <l>Et ce bien qu'on accorde à mon peud ebeauté ,</l>
                             <l>Augmentera on zèle, &amp; non ma vanité.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage>
+                            <lb/><stage type="exit"><hi rend="italics">(Elle ſort.)</hi></stage>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="185"/>
-                    <div3 type="scene" n="4">
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">E</c>Lle eſt digne, en effet, d'un ſort ſi favorable ;</l>
                             <l>Elle a tout ce qui peut rendre une fille aimable,</l>
                             <l>A l'exacte ſageſſe elle unit l'agrément ,</l>
@@ -463,14 +462,14 @@
                             <l>C'eſt lui-même. Je ſuis dans le raviſſement.</l>
                             <l>Et ſon maître, ſans doute, arrive en ce moment.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><name type="person" n="Dorante"><c type="lettrine">D</c>Orante</name> te ſuit-il? 
-                                <stage type="business"><hi rend="italic">(Il fait ſigne que non.)</hi></stage> 
+                                <stage type="business"><hi rend="italics">(Il fait ſigne que non.)</hi></stage> 
                                 Non. Il doit donc m'écrire?</l>
                             <l>Tu ne fais aucun ſigne, &amp; je ne ſçais que dire.</l>
                             <l>Mais je vois un billet que veut cacher ta main.</l>
@@ -479,10 +478,10 @@
                             <l>Tu dois me reconnoître, &amp; je ſuis la Comteſſe.</l>
                             <l>Pour l'obliger plus v<unclear>i</unclear>te à rendre ce papier ,</l>
                             <l>Du chemin qu'il a fait il faut le défrayer.</l>
-                            <lb/><stage type="business"><hi rend="italic">(<name type="person" n="Arlequin">Arlequin</name> tend les deux mains pour recevoir 
+                            <lb/><stage type="business"><hi rend="italics">(<name type="person" n="Arlequin">Arlequin</name> tend les deux mains pour recevoir 
                                 <lb/> l'argent de la Comteſſe, &amp; laiſſe tomber le 
                                 <lb/> billet.)</hi></stage><lb/>
-                            <lb/><stage type="business"><hi rend="italic">(elle ramaſſe le billet &amp; lit.)</hi></stage><lb/>
+                            <lb/><stage type="business"><hi rend="italics">(elle ramaſſe le billet &amp; lit.)</hi></stage><lb/>
                             <l>» Las de faire en public le role d'inſenſible,</l>
                             <l>» Je ſuivrai de près ce billet,</l>
                             <pb n="186"/>
@@ -493,7 +492,7 @@
                             <l>» Et je jure au fond de mon cœur,</l>
                             <l>» D'en conſerver toujours l'ardeur,</l>
                             <l>» Et de ne vivre que pour l'être.</l>
-                            <lb/><stage><hi rend="italic">(après avoir lû.)</hi></stage><lb/>
+                            <lb/><stage><hi rend="italics">(après avoir lû.)</hi></stage><lb/>
                             <l>Mes deſirs ſont remplis ! <name type="person" n="Dorante">Dorante</name> eſt amoureux ;</l>
                             <l>Et je ſuis en ſecret l'objet de tous ſes vœux !</l>
                             <l>Ce billet me répond de ſa vive tendreſſe.</l>
@@ -504,19 +503,19 @@
                             <l>De tout ce jeu badin ceſſe l'extravagance.</l>
                             <l>Va, je veux être ſeule. Obéi , laiſſes-moi ;</l>
                             <l>C'eſt trop me fatiguer. Vite, retires-toi.</l>
-                            <lb/><stage type="mixed"><hi rend="italic">(<name type="person" n="Arlequin">Arlequin</name> ſe retire avec peine, après avoir fait 
+                            <lb/><stage type="mixed"><hi rend="italics">(<name type="person" n="Arlequin">Arlequin</name> ſe retire avec peine, après avoir fait 
                                 <lb/> pluſieurs lazzis qui marquent l'embarras &amp; le 
                                 <lb/> chagrin où il eſt de voir entre les mains de la 
                                 <lb/> Comteſſe, le biller qui eſt pour <name type="person" n="Lucinde">Lucinde</name>, &amp; qu'il 
                                 <lb/> n'oſe redemander, de peur de découvrir l'anony-
                                 <lb/>me que <name type="person" n="Dorante">Dorante</name> lui a recommandé de garder.</hi></stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">J</c>'Attens, j'attens <name type="person" n="Lucinde">Lucinde</name> avec impatience ;</l>
                             <l>Je veux de mes tranſports lui faire confidence.</l>
                             <l>Dans le ſein d'une amie il eſt doux d'épancher</l>
@@ -524,28 +523,28 @@
                             <l>Quand on le communique, il flatte davantage ;</l>
                             <l>Et l'on ſent doublement un bien qui ſe partage.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="187"/>
-                    <div3 type="scene" n="7">
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">ſans voir la Comteſſe.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſans voir la Comteſſe.</hi></stage><lb/>
                             <l><c type="lettrine">P</c>Our chercher <name type="person" n="Arlequin">Arlequin</name> je reviens ſur mes pas ;</l>
                             <l>Je le croyois ici, mais je le vois pas.</l>
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage><hi rend="italic">apercevant <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">apercevant <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
                             <l>Ah ! <name type="person" n="Lucinde">Lucinde</name>, aprochez pour partager ma joye,</l>
                             <l>Et liſez ce billet que <name type="person" n="Dorante">Dorante</name> m'envoye,</l>
                             <l>Vous y verrez ma gloire, &amp; dans tout ſon éclat.</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">à part, ayant jetté les yeux ſur le billet.</hi></stage><lb/>
-                            <l>Voilà ſon caractére. <stage><hi rend="italic">(après avoir lû.)</hi></stage> 
+                            <stage><hi rend="italics">à part, ayant jetté les yeux ſur le billet.</hi></stage><lb/>
+                            <l>Voilà ſon caractére. <stage><hi rend="italics">(après avoir lû.)</hi></stage> 
                                 Ah ! Qu'ai-je lû ? L'ingrat !</l>
                             <l>A d'autre qu'à moi-même auroit-il dû l'écrire?</l>
                             <l>Mais cachons à ſes yeux le trouble qu'il m'inſpire;</l>
@@ -577,7 +576,7 @@
                         <pb n="187"/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Ah ! Je fais du contraire une épreuve cruelle.</l>
                             <l>Il étoit inſenſible, il devient infidelle.</l>
                         </sp>
@@ -592,7 +591,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Et la vive douleur, pour l'épouſe trahie.</l>
                             <l>J'ai peine à contenir ma juſte jalouſie !</l>
                         </sp>
@@ -604,7 +603,7 @@
                             <speaker>LUCINDEL</speaker><lb/>
                             <l>Non, non, vous vous trompez, je le ſens vivement,</l>
                             <l>Mais <name type="person" n="Damis">Damis</name> vient. Adieu. Son aſpect m'importune.</l>
-                            <lb/><stage type="mixed"><hi rend="italic">(à part en s'en allant.)</hi></stage><lb/>
+                            <lb/><stage type="mixed"><hi rend="italics">(à part en s'en allant.)</hi></stage><lb/>
                             <l>Allons ſeule, en ſecret, pleurer mon infortune.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -612,8 +611,8 @@
                             <l>Oui, c'eſt le beau <name type="person" n="Damis">Damis</name> : qu'il a l'air radieux !</l>
                             <l>Allons, préparons-nous à converſer au mieux.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> DAMIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damis">
@@ -693,12 +692,12 @@
                             <l part="I">Tire d'aîle.</l>
                             <lb/><stage type="exit">(Elle ſort.)</stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="9">
+                    </div2>
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                             <l part="F"><c type="lettrine">L</c>'Adieu me paroît ſingulier ;</l>
                             <l>Il eſt particulier, mais très-particulier !</l>
                             <l>Tout bien examiné ! ſa fuite eſt impolie.</l>
@@ -709,14 +708,13 @@
                             <l>Qui ne lui permet pas de me rompre en viſiére;</l>
                             <l>Que je ſuis tranſcendant en commerce réglé,</l>
                             <l>Et que, dès qu'il me voit, le beau ſexe eſt comblé.</l>
-                            <lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
-                        </sp>
-                    </div3>
-                </div2>
+                            <lb/></sp>
+                    <trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer></div2>
+                </div1>
                 <pb n="191"/>
-                <div2 type="acte" n="2">
+                <div1 type="acte" n="2">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Damis">
                             <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -732,19 +730,19 @@
                             <l>Aurois-je triomphé de ſa froideur glaçante ?</l>
                             <l>Elle parle ; écoutons pour en être éclairci.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMIS<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">ſans voir <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſans voir <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
                             <l><c type="lettrine">V</c>Oyage malheureux ! Pourquoi venois-je ici ?</l>
                             <l>L'amour m'y préparoit le coup le plus à craindre,</l>
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">Hem ! Qu'avois-je dit ?</l>
                         </sp>
                         <sp who="Lucinde">
@@ -755,7 +753,7 @@
                         <pb n="192"/>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="F">Un volage, un ingrat;</l>
                             <l>Voilà mes qualités ; c'eſt moi, ſans être fat;</l>
                         </sp>
@@ -765,7 +763,7 @@
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Oui , le lui rens des ſoins : autre preuve nouvelle.</l>
                             <l>Bon, j'ai déjà ſoumis la plus fiére des trois.</l>
                             <l>Parlons-lui, j'ai pitié du trouble où je la vois.</l>
@@ -776,7 +774,7 @@
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">haut.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">haut.</hi></stage><lb/>
                             <l>Il ne la trompe pas, c'eſt lui qui vous l'aſſure.</l>
                         </sp>
                         <sp who="Lucinde">
@@ -789,7 +787,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">Ah! Ciel !</l>
                         </sp>
                         <sp who="Damis">
@@ -798,7 +796,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Je ſuis au déſeſpoir ! M'auroit-il entendue ?</l>
                         </sp>
                         <sp who="Damis">
@@ -815,7 +813,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">Quel eſt mon embarras !</l>
                         </sp>
                         <sp who="Damis">
@@ -876,24 +874,24 @@
                             <l>Adieu. Je choiſirai, pour revenir vers vous.</l>
                             <l>Un tems où mon aſpect vous ſemblera plus doux,</l>
                             <l part="I">Plus doux.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſe retire.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſe retire.)</hi></stage><lb/>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="194"/>
-                    <div3 type="scene" n="3">
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
-                            <l part="F"><c rend="italic">V</c>It-on jamais orgueil plus mépriſable?</l>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
+                            <l part="F"><c rend="italics">V</c>It-on jamais orgueil plus mépriſable?</l>
                             <l>Son excès, après tout me devient favorable,</l>
                             <l>Puiſqu'il ferme les yeux au mérite d'autrui ,</l>
                             <l>Et ne laiſſe tourner ſes regards que ſur lui.</l>
                             <l>Mais qui vois-je paroître ? Ah ! c'eſt mon infidèle !</l>
                             <l>Et ſa preſence ajoûte à a peine mortelle !</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>DORANTE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorante">
@@ -928,8 +926,8 @@
                             <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Vous m'offenſez, <name type="person" n="Lucinde">Lucinde</name>, &amp; c'eſt plûtôt la ſienne.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>DORANTE<pc>,</pc> LUCINDE<pc>,</pc> LA COMTESSE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -940,28 +938,28 @@
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">bas à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
                             <l>Quoi ! Vous avez montré ma lettre à la Comteſſe ?</l>
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
                             <l>Ah ! Le tour eſt fort bon : C'eſt elle, ce matin !</l>
                             <l>Traître ! qui m'a fait voir un Billet de ta main.</l>
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l part="I">Qu'entens-je?...</l>
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
                             <l part="F">Mon diſcours paroît vous interdire.</l>
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l><name type="person" n="Arlequin">Arlequin</name> s'eſt mépris, &amp; je ne ſçai que dire.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -971,7 +969,7 @@
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage><hi rend="italic">d'un air embaraſſé.</hi></stage><lb/>
+                            <stage><hi rend="italics">d'un air embaraſſé.</hi></stage><lb/>
                             <l part="I">Je ſuis...</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -987,12 +985,12 @@
                         <pb n="196"/>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">bas à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
                             <l>Perfide ! tu voudrois que je me retiraſſe !</l>
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à la Comteſſe.</hi></stage><lb/>
                             <l>Je dois fuir tout témoin ; &amp; ſur cette terraſſe...</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -1001,10 +999,10 @@
                             <l>Nous ſerons beaucoup mieux, Monſieur, dans mon <lb/> Salon</l>
                             <l>Pour tromper les regards je vais ſeule m'y rendre ;</l>
                             <l>Vous y viendrés enſuite, &amp; je vais vous ttendre.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Elle rentre.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Elle rentre.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>DORANTE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucinde">
@@ -1118,21 +1116,21 @@
                             <l>L'hymen, par ce ſecours, devient un nœud charmant,</l>
                             <l>Et d'un commerce tendre il a tout l'agrément.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">O</c> Ciel ! inſpires-moi ce qu'il faut que je faſſe !</l>
                             <l>Autant qu'il me ſurprend, mon bonheur m'em-<lb/>barraſſe :</l>
                             <l>Je voudrois m'acquitter par le don de mon cœur ,</l>
                             <l>Mais, par malheur, un autre en eſt le poſſeſſeur.</l>
                             <l part="I">On vient. c'eſt <name type="person" n="Arlequin">Arlequin</name>.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="199"/>
-                    <div3 type="scene" n="8">
+                    <div2 type="scene" n="8">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>AGATE<pc>,</pc> ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Agate">
@@ -1150,7 +1148,7 @@
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="business"><hi rend="italic">retenant <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
+                            <stage type="business"><hi rend="italics">retenant <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
                             <l>Belle <name type="person" n="Agate">Agate</name>, arrêtez ; <name type="person" n="Arlequin">Arlequin</name> vous adore.</l>
                         </sp>
                         <sp who="Agate">
@@ -1196,7 +1194,7 @@
                             <l>J'ai feint d'être muet, moi qui ſuis grand parleur.</l>
                             <l>J'attends à vos genous , j'attends la récompenſe</l>
                             <l>D'un ſi parfait amour, &amp; d'un ſi dur ſilence.</l>
-                            <l>Prononcés, belle <name type="person" n="italic">Agate</name>, arbitre de mes jours ,</l>
+                            <l>Prononcés, belle <name type="person" n="italics">Agate</name>, arbitre de mes jours ,</l>
                             <l>Un mot va terminer ou prolonger leurs cours.</l>
                         </sp>
                         <sp who="Agate">
@@ -1342,26 +1340,26 @@
                             <l part="F">Prince <name type="person" n="Morachin">Morachin</name>, je vous ferme la bouche.</l>
                             <l>Quelqu'un vient. C'eſt <name type="person" n="Oronte">Oronte</name>. Allez, retirez vous.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="203"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>AGATE<pc>,</pc> ORONTE, ARLEQUIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Oronte">
                             <speaker>ORONTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l><c type="lettrine">B</c>Onjour, charmante <name type="person" n="Agate">Agate</name>. 
-                                <stage type="delivery"><hi rend="italic">(a <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage> 
+                                <stage type="delivery"><hi rend="italics">(a <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage> 
                                 Un moment laiſſez-<lb/>nous ;</l>
                             <l part="I">Je veux lui parler ſeul.</l>
                         </sp>
                         <sp who="Arlequin">
                             <speaker>ARLEQUIN </speaker>
-                            <stage type="mixed"><hi rend="italic">bas en s'en allant.</hi></stage><lb/>
+                            <stage type="mixed"><hi rend="italics">bas en s'en allant.</hi></stage><lb/>
                             <l part="F">Malheureux ! Je ſuffoque.</l>
                             <l>De nous &amp; de nos feux, la cruelle ſe moque.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="10">
+                    </div2>
+                    <div2 type="scene" n="10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>ORONTE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Oronte">
@@ -1439,10 +1437,10 @@
                         <sp who="Agate">
                             <speaker>AGATE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Monſieur... Mais <name type="person" n="Damis">Damis</name> vient : je vous laiſſe avec lui.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Agate">Agate</name> s'en va.)</hi></stage>
+                            <lb/><stage type="exit"><hi rend="italics">(<name type="person" n="Agate">Agate</name> s'en va.)</hi></stage>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="11">
+                    </div2>
+                    <div2 type="scene" n="11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <stage>ORONTE<pc>,</pc> DAMIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damis">
@@ -1668,13 +1666,13 @@
                             <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>On ne manque jamais , quand on eſt fin tireur.</l>
                         </sp>
-                        <lb/><p rend="italic"><hi rend="italic">Fin du ſecond Acte.</hi></p><lb/>
-                    </div3>
-                </div2>
+                        <lb/><trailer rend="italics"><hi rend="italics">Fin du ſecond Acte.</hi></trailer><lb/>
+                    </div2>
+                </div1>
                 <pb n="210"/>
-                <div2 type="acte" n="3">
+                <div1 type="acte" n="3">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div3 type="scene" n="1">
+                    <div2 type="scene" n="1">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE<pc>,</pc> LUCINDE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -1694,13 +1692,13 @@
                             <l>Ses yeux indifférens, qu'il détournoit toujours,</l>
                             <l>Et ſon maintien forcé, démentoient ſon diſcours.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="2">
+                    </div2>
+                    <div2 type="scene" n="2">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LA COMTESSE <pc>,</pc> LUCINDE<pc>,</pc> <lb/> DORANTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Dorante">Dorante</name>.</hi></stage><lb/>
                             <l><c type="lettrine">A</c>H ! Monſieur, vous voilà ! Je parlois de vous-<lb/>même.</l>
                             <l>Je n'ai rien caché pour <name type="person" n="Lucinde">Lucinde</name> que j'aime;</l>
                             <l>Et je lui témoignois que j'avois en ces lieux,</l>
@@ -1711,7 +1709,7 @@
                         <sp who="Dorante">
                             <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Non , leur expreſſion enchérit ſur ma lettre.</l>
-                            <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                            <lb/><stage type="delivery"><hi rend="italics">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
                             <l>Ils doivent aſſurer celle à qui je l'écris ,</l>
                             <l>Que plus je la regarde, &amp; plus j'en ſuis épris ;</l>
                             <l>Et pour en être ici pleinement convaincue,</l>
@@ -1732,7 +1730,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Ce triomphe eſt pour moi. La coquette eſt déçûe,</l>
                             <l>Et mon amour obtient ce qu'elle s'attribue.</l>
                             <l>Après tous les tourmens qu'elle m'a fait ſouffrir,</l>
@@ -1765,8 +1763,8 @@
                             <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Cet excès de bonté ne peut que m'interdire.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="3">
+                    </div2>
+                    <div2 type="scene" n="3">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LES ACTEURS PRECEDENS<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Agate">
@@ -1786,19 +1784,19 @@
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Le Ciel l'envoye exprès pour m'ôter d'embarras !</l>
-                            <lb/><stage type="delivery"><hi rend="italic">(à la Comteſſe.)</hi></stage><lb/>
+                            <lb/><stage type="delivery"><hi rend="italics">(à la Comteſſe.)</hi></stage><lb/>
                             <l part="I">Je vous quitte ; pardon.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                         </sp>
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Nous marchons ſur vos pas.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Elle s'en va avec <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Elle s'en va avec <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="4">
+                    </div2>
+                    <div2 type="scene" n="4">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMIS<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damis">
@@ -1814,7 +1812,7 @@
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage><hi rend="italic">d'un air myſtérieux.</hi></stage><lb/>
+                            <stage><hi rend="italics">d'un air myſtérieux.</hi></stage><lb/>
                             <l>Il eſt vrai, Sçavez-vous encore une nouvelle ?</l>
                         </sp>
                         <sp who="Agate">
@@ -1850,7 +1848,7 @@
                         </sp>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Avec ſon air pincé, l'inſuportable fat.</l>
                         </sp>
                         <sp who="Damis">
@@ -1862,7 +1860,7 @@
                         </sp>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>De m'aſſeoir un moment ayons la complaiſance,</l>
                             <l>Pour voir de ſon eſprit tout l'extravagance.</l>
                         </sp>
@@ -1970,8 +1968,8 @@
                             <l>Tout mot fraîchement fait eſt un vrai taliſman:</l>
                             <l>Celui du jour, ſur-tout, pour peu qu'on le répéte :</l>
                             <l>D'enchanter pleinement à la vertu ſecrette ;</l>
-                            <l>Il ſçait mettre en crédit les diſcours <hi rend="italic">brillantés</hi>.</l>
-                            <l>Et donner de la vogue à des <hi rend="italic">frivolités</hi>.</l>
+                            <l>Il ſçait mettre en crédit les diſcours <hi rend="italics">brillantés</hi>.</l>
+                            <l>Et donner de la vogue à des <hi rend="italics">frivolités</hi>.</l>
                             <l>De ce jargon divin la force eſt infinie ,</l>
                             <l>Et , du grand monde, on peut l'apeller la magie.</l>
                         </sp>
@@ -2032,7 +2030,7 @@
                         <pb n="217"/>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage type="business"><hi rend="italic">ſe levant avec dépit.</hi></stage><lb/>
+                            <stage type="business"><hi rend="italics">ſe levant avec dépit.</hi></stage><lb/>
                             <l>A ce dernier diſcours je me ſens émouvoir.</l>
                         </sp>
                         <sp who="Damis">
@@ -2147,21 +2145,21 @@
                             <l>C'eſt moi de vos mépris qui ſuis le ſerviteur.</l>
                             <l>A votre mauvais goût <name type="person" n="Damis">Damis</name> vous abandonne ,</l>
                             <l>Et je vous bruſque en plein, ma petite perſonne.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="5">
+                    </div2>
+                    <div2 type="scene" n="5">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><note resp="Loterie, Josephine">Erreur d'éditeur, il s'agit de la scène cinq et non six, toutes les scènes suivantes sont décalées.</note><lb/>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">Q</c>Ue dans un autre tems je l'aurois badiné!</l>
                             <l>Mais, vers d'autres objets mon cœur eſt entrainé.</l>
                             <l>Que ne puis-je étouffer l'ardeur qui me ſurmonte,</l>
                             <l>Et rendre à l'inconnu!... Mais j'aperçois <name type="person" n="Oronte">Oronte</name>.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="6">
+                    </div2>
+                    <div2 type="scene" n="6">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>ORONTE<pc>,</pc> AGATE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Oronte">
@@ -2367,8 +2365,8 @@
                             <l>J'ai voulu, pour l'avoir, conſulter votre goût ;</l>
                             <l>Et, puiſque vous m'aimez, c'eſt moi qui vous doit tout.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="7">
+                    </div2>
+                    <div2 type="scene" n="7">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>AGATE<pc>,</pc> ORONTE<pc>,</pc> LA COMTESSE<pc>,</pc> <lb/> DAMIS<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Comtesse">
@@ -2382,13 +2380,13 @@
                         </sp>
                         <sp who="Agate">
                             <speaker>AGATE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Oronte">Oronte</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Oronte">Oronte</name>.</hi></stage><lb/>
                             <l>La Comteſſe &amp; <name type="person" n="Damis">Damis</name> tournent ici leurs pas,</l>
                             <l part="I"><name type="person" n="Oronte">Oronte</name>, levez-vous.</l>
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Agate">Agate</name>.</hi></stage><lb/>
                             <l part="F">ne vous dérangez pas ; </l>
                             <l>Je vois qu'à ſes leçons vous êtes plus docile.</l>
                         </sp>
@@ -2410,7 +2408,7 @@
                         </sp>
                         <sp who="Oronte">
                             <speaker>ORONTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à la Comteſſe.</hi></stage><lb/>
                             <l>Je mets toute ma gloire à me voir ſon époux:</l>
                             <l>J'attends votre agrément pour un lien ſi doux.</l>
                         </sp>
@@ -2421,16 +2419,16 @@
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l><name type="person" n="Lucinde">Lucinde</name> me conſole, &amp; j'en ſuis adoré.</l>
                         </sp>
-                    </div3>
-                    <div3 type="scene" n="8">
+                    </div2>
+                    <div2 type="scene" n="8">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>LES ACTEURS PRECEDENS <pc>,</pc> <lb/> LUCINDE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>, au fond du <lb/> Théâtre.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucinde">Lucinde</name>, au fond du <lb/> Théâtre.</hi></stage><lb/>
                             <l><c type="lettrine">M</c>On Pere aprouve enfin notre hymen ignoré ;</l>
                             <l><name type="person" n="Cléon">Cléon</name>, par un Courier, m'aprend cette nouvelle.</l>
                         </sp>
@@ -2454,7 +2452,7 @@
                         </sp>
                         <sp who="Dorante">
                             <speaker>DORANTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
                             <l>De ma félicité ne faiſons plus myſtére,</l>
                             <l>Je puis la publier au gré de mon amour.</l>
                         </sp>
@@ -2467,7 +2465,7 @@
                         <sp who="La Comtesse">
                             <speaker>LA COMTESSE<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Je ne puis retenir le dépit qui m'enflame.</l>
-                            <lb/><stage><hi rend="italic">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
+                            <lb/><stage><hi rend="italics">(à <name type="person" n="Lucinde">Lucinde</name>.)</hi></stage><lb/>
                             <l>Courage, pourſuivez cet amoureux tranſport.</l>
                             <l>Vraiment, de vos froideurs vous vous corrigez fort.</l>
                         </sp>
@@ -2499,7 +2497,7 @@
                         </sp>
                         <sp who="Lucinde">
                             <speaker>LUCINDE </speaker>
-                            <stage><hi rend="italic">à la Comteſſe.</hi></stage><lb/>
+                            <stage><hi rend="italics">à la Comteſſe.</hi></stage><lb/>
                             <l>Je vous frape à regret par l'endroit le plus tendre :</l>
                             <l>Mais, puiſqu'il faut trancher les diſcours ſuperflus ,</l>
                             <l>Des motifs importans qui ne ſubſiſtent plus ,</l>
@@ -2508,7 +2506,7 @@
                         </sp>
                         <sp who="Damis">
                             <speaker>DAMIS </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucinde">Lucinde</name>.</hi></stage><lb/>
                             <l>Mais l'ingrat dont tantôt vous vous plaigniez ſi fort?....</l>
                         </sp>
                         <sp who="Lucinde">
@@ -2537,7 +2535,7 @@
                         </sp>
                         <sp who="Oronte">
                             <speaker>ORONTE </speaker>
-                            <stage><hi rend="italic">à <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">à <name type="person" n="Damis">Damis</name>.</hi></stage><lb/>
                             <l>Hé bien , l'événement a trompé ton eſpoir.</l>
                             <l><name type="person" n="Dorante">Dorante</name> à la Comteſſe a plû ſans le vouloir ;</l>
                             <l>Il poſſède <name type="person" n="Lucinde">Lucinde</name>, &amp; j'épouſe ta brune.</l>
@@ -2547,7 +2545,7 @@
                             <speaker>DAMIS<pc type="affirmative">.</pc></speaker><lb/>
                             <l>Va, je ne me tiens pas encore pour battu ;</l>
                             <l>Mes charmes prévaudront ſur toute leur vertu.</l>
-                            <lb/><stage><hi rend="italic">[à la Comt<sic> </sic><corr>e</corr>ſſe.]</hi></stage><lb/>
+                            <lb/><stage><hi rend="italics">[à la Comt<sic> </sic><corr>e</corr>ſſe.]</hi></stage><lb/>
                             <l>L'affront nous eſt commun, &amp; ma cauſe eſt la vôtre.</l>
                         </sp>
                         <sp who="La Comtesse">
@@ -2561,9 +2559,9 @@
                             <l>Forçons les tous les quatre à brûler d'autres flammes :</l>
                             <l>Ayez ſoin des maris, je me charge des femmes.</l>
                         </sp>
-                    </div3>
+                    </div2>
                     <pb n="227"/>
-                    <div3 type="scene" n="9">
+                    <div2 type="scene" n="9">
                         <head>SCENE DERNIERE. <lb/> DIVERTISSEMENT<pc type="affirmative">.</pc></head><lb/>
                         <stage>LE CHANTEUR<pc>,</pc> LES DANSEURS <lb/> LES DANSEUSES<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Le Chanteur">
@@ -2585,9 +2583,9 @@
                             <l>Venez, la nuit vous favoriſe :</l>
                             <l>Sous un maſque emprunté profitez des momens.</l>
                         </sp>
-                    </div3>
-                </div2>
-                <div2 type="vaudeville">
+                    </div2>
+                </div1>
+                <div1 type="vaudeville">
                     <head>VAUDEVILLE<pc type="affirmative">.</pc></head><lb/>
                     <sp who="Le Chanteur">
                         <speaker>LE CHANTEUR<pc type="affirmative">.</pc></speaker><lb/><lb/>
@@ -2621,16 +2619,15 @@
                         <lg>
                             <head>AU PARTERRE<pc type="affirmative">.</pc></head><lb/>
                             <l>Si, par bonheur, la Piéce a pris,</l>
-                            <l>Meſſieurs, par un aimable <hi rend="italic">bis</hi>,</l>
+                            <l>Meſſieurs, par un aimable <hi rend="italics">bis</hi>,</l>
                             <l>Que votre bouche nous l'exprime ;</l>
                             <l>Si l'ouvrage ne vous plaît pas,</l>
                             <l><name type="person" n="Arlequin">Arlequin</name> vous prie, en ce cas,</l>
                             <l>De garder l'anonyme.</l>
                         </lg>
                     </sp>
-                    <lb/><p rend="center"><hi rend="italic">Fin du quatriéme Tome.</hi></p><lb/>
-                </div2>
-            </div1>
+                    <lb/><trailer rend="center"><hi rend="italics">Fin du quatriéme Tome.</hi></trailer><lb/>
+                </div1>
         </body>
     </text>
 </TEI>
