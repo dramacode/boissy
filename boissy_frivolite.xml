@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -66,12 +67,12 @@
                 <pb n="231"/>
                 <docTitle>
                     <titlePart type="main">LA <lb/>FRIVOLITÉ<pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="232"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LA FRIVOLITÉ</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>L'HYVER</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>M. FAUSTER</role><pc> ,</pc><roleDesc> Suiſſe</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
@@ -80,7 +81,7 @@
                 <castItem><role>ARLEQUIN</role><pc>,</pc><roleDesc> déguiſe en Maître de <lb/>Muſique</roleDesc><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Sçène eſt à <name type="place" n="Paris">Paris</name> , dans l'Hôtel d'une <lb/>jeune Veuve de Finance<pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Sçène eſt à <name type="place" n="Paris">Paris</name> , dans l'Hôtel d'une <lb/>jeune Veuve de Finance<pc type="affirmative">.</pc></p>
             </set>
             <pb n="233"/>
         </front>
@@ -232,7 +233,7 @@
                         <l>Et je reviens après ſignaler mon retour</l>
                         <l>PAr un Bal ſingulier, dont vous ſerez la Reine.</l>
                     </sp>
-                    <stage type="exit" rend="italic">(Il ſort.)</stage>
+                    <stage type="exit" rend="italics">(Il ſort.)</stage>
                 </div1>
                 <pb n="237"/>
                 <div1 type="scene" n="2" xml:id="S02">
@@ -424,7 +425,7 @@
                     <pb n="241"/>
                     <sp who="La_Frivolite" xml:id="S02-20">
                         <speaker>LA FRIVOLITÉ </speaker>
-                        <stage type="delivery" rend="italic">d'un ton ironique.</stage><lb/>
+                        <stage type="delivery" rend="italics">d'un ton ironique.</stage><lb/>
                         <l part="F">Et qui doivent nous vaincre.</l>
                         <l>Votre exemple, Monſieur, ſuffit pour nous convaincre.</l>
                     </sp>
@@ -601,7 +602,7 @@
                         <l>Mais je ſuis Médecin , ſur-tout celui des femmes.</l>
                         <l>Sans être de la Faculté ,</l>
                         <l>J'ai traité bien des fois , guéri plus d'une belle.</l>
-                        <lb/><stage type="delivery" rend="italic">A MISS-<name type="person" n="Blar">BLAR</name>.</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">A MISS-<name type="person" n="Blar">BLAR</name>.</stage><lb/>
                         <l>De votre mal , d'un coup d'œil, je démêle</l>
                         <l>L'origine &amp; la qualité.</l>
                         <l>Miledi penſe trop. La penſée eſt mortelle.</l>
@@ -888,7 +889,7 @@
                         <l>Marions nos accens &amp; nos talens enſemble.</l>
                         <l>Tout-à-coup, dans mon cœur, je ſens naître pour vous,</l>
                         <l>Meſtris, une eſtime amoureuſe.</l>
-                        <lb/><stage type="business" rend="italic">Il ſe jette à ſes genoux.</stage><lb/>
+                        <lb/><stage type="business" rend="italics">Il ſe jette à ſes genoux.</stage><lb/>
                     </sp>
                     <sp who="Miss Blar" xml:id="S03-61">
                         <speaker>MISS-BLAR<pc type="affirmative">.</pc></speaker><lb/>
@@ -912,15 +913,15 @@
                         <speaker>MONSIEUR FAUSTER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Acceptez ma main , je vous prie.</l>
                         <l>Je vous y tiendrai compagnie.</l>
-                        <lb/><stage type="exit" rend="italic">Il s'éloigne avec elle.</stage><lb/>
+                        <lb/><stage type="exit" rend="italics">Il s'éloigne avec elle.</stage><lb/>
                     </sp>
                 </div1>
                 <div1 type="scene" n="4" xml:id="S04">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
-                    <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>LISS-BLAR <pc>,</pc> M. FAUSTER , <hi rend="italic">cachés</hi><pc type="affirmative">.</pc></stage><lb/>
+                    <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>LISS-BLAR <pc>,</pc> M. FAUSTER , <hi rend="italics">cachés</hi><pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis" xml:id="S04-1">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
-                        <stage type="delivery" rend="italic">à la <name type="person" n="Frivolité">Frivolité</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à la <name type="person" n="Frivolité">Frivolité</name>.</stage><lb/>
                         <l><c type="lettrine">J</c>E viens verſer ma joye en votre ſein :</l>
                         <l>Madame, elle eſt immenſe, &amp; rien ne peut la rendre:</l>
                         <l>Ils ne partiront pas. Ils demeurent enfin.</l>
@@ -932,14 +933,14 @@
                     </sp>
                     <sp who="Le Marquis" xml:id="S04-3">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
-                        <stage rend="italic">parodiant Serpilla du Joueur<pc type="affirmative">.</pc></stage><lb/>
-                        <l rend="italic">La charita , la charita.</l>
+                        <stage rend="italics">parodiant Serpilla du Joueur<pc type="affirmative">.</pc></stage><lb/>
+                        <l rend="italics">La charita , la charita.</l>
                     </sp>
                     <sp who="La_Frivolite" xml:id="S04-4">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc> </speaker>
                         <stage>Elle chante.</stage><lb/>
-                        <l>Comment! nous entendrons encore , <hi rend="italic">Bella mia</hi>.</l>
-                        <l rend="italic" part="I">Se ſon tuo ſpoſe.</l>
+                        <l>Comment! nous entendrons encore , <hi rend="italics">Bella mia</hi>.</l>
+                        <l rend="italics" part="I">Se ſon tuo ſpoſe.</l>
                     </sp>
                     <sp who="Le Marquis" xml:id="S04-5">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
@@ -962,12 +963,12 @@
                     </sp>
                     <sp who="Le Marquis" xml:id="S04-9">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
-                        <stage rend="italic">contrefaiſant les Bouffons.</stage><lb/>
+                        <stage rend="italics">contrefaiſant les Bouffons.</stage><lb/>
                         <l>Et le Violon, zin, zin, zin.</l>
                     </sp>
                     <sp who="La_Frivolite" xml:id="S04-10">
                         <speaker>LA FRIVOLITÉ <pc>,</pc></speaker>
-                        <stage rend="italic">les parodiant auſſi.</stage><lb/>
+                        <stage rend="italics">les parodiant auſſi.</stage><lb/>
                         <l>Pa , ta, pon , &amp; trin , trin .</l>
                         <l>Ce promt retour, que je n'oſois attendre ,</l>
                         <l>Eſt une victoire pour nous.</l>
@@ -988,7 +989,7 @@
                     </sp>
                     <sp who="Le Marquis" xml:id="S04-13">
                         <speaker>LE MARQUIS <pc>,</pc> </speaker>
-                        <stage rend="italic">parodiant l'air, <hi>vuo dirlo <lb/>baſſo, baſſo,</hi> du Maître de Muſique.</stage><lb/>
+                        <stage rend="italics">parodiant l'air, <hi>vuo dirlo <lb/>baſſo, baſſo,</hi> du Maître de Muſique.</stage><lb/>
                         <l>Ecoutez tout bas, tous bas ,</l>
                         <l>Je ſuis fou de ſes apas ;</l>
                         <l>Et pour faire un grand fracas,</l>
@@ -998,7 +999,7 @@
                     </sp>
                     <sp who="Miss Blar" xml:id="S04-14">
                         <speaker>MISS-BLAR <pc>,</pc></speaker>
-                        <stage rend="italic">s'aprochant &amp; l'interrompant.</stage><lb/>
+                        <stage rend="italics">s'aprochant &amp; l'interrompant.</stage><lb/>
                         <l>Quel ſecret dites-vous-là ?</l>
                     </sp>
                     <sp who="Le Marquis" xml:id="S04-15">
@@ -1385,7 +1386,7 @@
                         <l>Le chemin du bon goût dont il eſt le modèle.</l>
                         <l>Pour être bien, Meſſieurs, reſtés toujours François ,</l>
                         <l>N'imitez que vous-même , &amp; vous ſerez parfaits.</l>
-                        <lb/><stage type="business" rend="italic">En revenant.</stage><lb/>
+                        <lb/><stage type="business" rend="italics">En revenant.</stage><lb/>
                         <l>Je reviens ſur mes pas vous dire une nouvelle</l>
                         <l>Tout à coup il ſe léve une aurore ſi belle,</l>
                         <l>Qu'elle a rendu le jour à votre chant.</l>
@@ -1395,7 +1396,7 @@
                         <pb n="259"/>
                         <l>Le Beau ſexe ſurtout eſt ſon grand partiſan.</l>
                         <l>Je vous en félicite. Adieu, Bon jour, Bon an.</l>
-                        <lb/><stage type="exit" rend="italic">Il ſort.</stage><lb/>
+                        <lb/><stage type="exit" rend="italics">Il ſort.</stage><lb/>
                     </sp>
                 </div1>
                 <div1 type="scene" n="5" xml:id="S05">
@@ -1424,10 +1425,10 @@
                 </div1>
                 <div1 type="scene" n="6" xml:id="S06">
                     <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
-                    <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>ARLEQUIN <hi rend="italic">déguiſé en Maître de Muſique</hi><pc type="affirmative">.</pc></stage><lb/>
+                    <stage>LA FRIVOLITÉ <pc>,</pc> LE MARQUIS <pc>,</pc> <lb/>ARLEQUIN <hi rend="italics">déguiſé en Maître de Muſique</hi><pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Arlequin" xml:id="S06-1">
                         <speaker>ARLEQUIN </speaker>
-                        <stage rend="italic">tout éſouflé &amp; l'habit en déſordre.</stage><lb/>
+                        <stage rend="italics">tout éſouflé &amp; l'habit en déſordre.</stage><lb/>
                         <l><c type="lettrine">O</c>Uf, Madame, pardon. Souffrez que je reſpire.</l>
                         <l>Je n'en puis plus, je viens d'être le ſpectateur</l>
                         <l>D'un combat qui tient du délire.</l>
@@ -1559,7 +1560,7 @@
                     </sp>
                     <sp who="La_Frivolite" xml:id="S06-18">
                         <speaker>LA FRIVOLITÉ </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/>
                         <l>Quoi; vous êtes, Monſieur, ce Fauſſet ſi vanté ?</l>
                     </sp>
                     <sp who="Arlequin" xml:id="S06-19">
@@ -1594,7 +1595,7 @@
                     </sp>
                     <sp who="La_Frivolite" xml:id="S06-25">
                         <speaker>LA FRIVOLITÉ </speaker>
-                        <stage type="delivery" rend="italic">chante.</stage><lb/>
+                        <stage type="delivery" rend="italics">chante.</stage><lb/>
                         <sound>AIR<pc type="affirmative">.</pc></sound><lb/>
                         <l>Coumo l'auſel près ol niou ,</l>
                         <l>Mon cor crido que fat pietat,</l>
@@ -1602,7 +1603,7 @@
                         <l>Auzi que fa piou , piou ,</l>
                         <l>Peraber la libertat.</l>
                     </sp>
-                    <lb/><sound rend="italic">Trio.</sound><lb/>
+                    <lb/><sound rend="italics">Trio.</sound><lb/>
                     <sp who="La_Frivolite" xml:id="S06-26">
                         <speaker>LA FRIVOLITÉ<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Que la Vielle Inſtrument de ma Gloire ,</l>
@@ -1610,11 +1611,11 @@
                     </sp>
                     <sp who="Le Marquis, Arlequin" xml:id="S06-27">
                         <speaker>LE MARQUIS ET ARLEQUIN </speaker>
-                        <stage type="delivery" rend="italic">répétent enſemble.</stage><lb/>
+                        <stage type="delivery" rend="italics">répétent enſemble.</stage><lb/>
                         <l>Que la Vielle Inſtrument de ma Gloire ,</l>
                         <l>La Flutent , le Baſſon , célébre ma Victoire.</l>
                     </sp>
-                    <lb/><lb/><stage type="exit" rend="italic">Ils ſortent tous trois à reculons en ſaluant le Public <lb/>à la maniére des Boufons.</stage>
+                    <lb/><lb/><stage type="exit" rend="italics">Ils ſortent tous trois à reculons en ſaluant le Public <lb/>à la maniére des Boufons.</stage>
                     <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
                 </div1>   
                 <pb n="264"/>
@@ -1646,7 +1647,7 @@
                 <pb n="265"/>
                 <div1 type="divertissement">
                     <head>DIVERTISSEMENT <lb/>ALLEMAND<pc type="affirmative">.</pc></head><lb/>
-                    <stage type="mixed" rend="italic">Le Théâtre repréſente un jardin, une terraſſe 
+                    <stage type="mixed" rend="italics">Le Théâtre repréſente un jardin, une terraſſe 
                         <lb/>dans le fond, ornés de vaſes &amp; de berceaux : 
                         <lb/>des Allemands &amp; des Allemandes paroiſ-
                         <lb/>ſent en différentes attitudes , les hommes 
@@ -1674,7 +1675,7 @@
                         </lg>
                     </sp>
                     <lg>
-                        <head rend="italic">Second couplet.</head><lb/>
+                        <head rend="italics">Second couplet.</head><lb/>
                         <l>Soyés touchours en réchouiſſance,</l>
                         <l>Aimons , puſons, &amp; faiſons les fous :</l>
                         <l>Que chacun à l'envi chante &amp; danſe ,</l>
@@ -1688,7 +1689,7 @@
                     <lg>
                         <l>Soyons toujours, &amp;c.</l>
                     </lg>
-                    <stage type="business" rend="italic">Après ces Couplets les Allemandes com-
+                    <stage type="business" rend="italics">Après ces Couplets les Allemandes com-
                         <lb/>mencent leurs danſes ; les hommes boivent , 
                         <lb/>une Allemande ſeul attire tous les hommes &amp; 
                         <lb/>les force à danſer avec elle , après quoi ſuccé-
@@ -1783,12 +1784,12 @@
                         <l>Venez en gayté</l>
                         <l>Voir la Frivolité</l>
                     </lg>
-                    <stage type="business" rend="italic">Un Allemand vient inviter à danſer, la 
+                    <stage type="business" rend="italics">Un Allemand vient inviter à danſer, la 
                         <lb/>Frivolité ; Pas de deux , enſuite la contre 
                         <lb/>danſe générale, dans le goût Allemand , qui 
                         <lb/>termine le Divertiſſement.
                     </stage>
-                    <lb/><lb/><lb/><p rend="italic ; center">Fin du huitiéme &amp; dernier Tome.</p>
+                    <lb/><lb/><lb/><p rend="italics ; center">Fin du huitiéme &amp; dernier Tome.</p>
                 </div1>
         </body>
     </text>
