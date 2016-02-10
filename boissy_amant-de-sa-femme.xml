@@ -2,12 +2,13 @@
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title type="main">L'Amant de sa femme ou la rivale d'elle-mesme.</title>
-                <title type="sub">Édition électronique</title>
+                <title type="main">L'amant de sa femme ou la rivale d'elle-mesme.</title>
+                <title type="sub">Édition électronique.</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -65,12 +66,12 @@
             <titlePage type="half-title">
                 <docTitle>
                     <titlePart type="main">L'AMANT <lb/>DE SA FEMME <lb/>OU LA <lb/>RIVALE D'ELLE-MESMES <pc>,</pc></titlePart>
-                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart>
+                    <titlePart type="desc" rend="italicss">COMEDIE<pc type="affirmative">.</pc></titlePart>
                 </docTitle>
             </titlePage>
             <pb n="2"/>
             <castList>
-                <head rend="italics">ACTEURS</head>
+                <head rend="italicss">ACTEURS</head>
                 <castItem><role>PHILINTE</role>.</castItem>
                 <castItem><role>DORANTE</role>.</castItem>
                 <castItem><role>LEANDRE</role>, <roleDesc> Amant d'<name type="person" n="Angélique">Angélique</name>.</roleDesc></castItem>
@@ -83,7 +84,7 @@
                 <castItem><role>UN NOTAIRE</role>.</castItem>
             </castList>
             <set>
-                <p rend="center"><hi rend="italic">La scène est à <name type="place" n="Paris">Paris</name>, chez <name type="person" n="Philinte">Philinte</name>.</hi></p>
+                <p rend="center"><hi rend="italics">La scène est à <name type="place" n="Paris">Paris</name>, chez <name type="person" n="Philinte">Philinte</name>.</hi></p>
             </set>
         </front>
         <pb n="3"/>
@@ -91,8 +92,7 @@
             <div1 type="title">
                 <head>L'AMANT <lb/>DE SA FEMME <lb/>OU LA <lb/>RIVALE D'ELLE-MESMES <pc>,</pc><lb/> COMEDIE<pc type="affirmative">.</pc></head>
             </div1>
-            <div1 type="play">
-                <div2 type="scene" n="1">
+           <div1 type="scene" n="1">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -145,7 +145,7 @@
                         <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Je vous demande pardon ; j'avois oublié qu'un hom-
                             <lb/>me de qualité ne doit pas aimer ſa femme.
-                            <lb/><stage type="delivery" rend="italic">(bas.)</stage>
+                            <lb/><stage type="delivery" rend="italics">(bas.)</stage>
                             <lb/>Le voilà furieuſement revenu de la bagatelle.
                         </p>
                     </sp>
@@ -246,14 +246,14 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR <pc>,</pc></speaker>
-                        <stage type="exit" rend="italic">en s'en allant.</stage><lb/>
+                        <stage type="exit" rend="italics">en s'en allant.</stage><lb/>
                         <p>Je m'en donne auſſi un des plus galans ; &amp; je pré-
                             <lb/>tens me mettre en <name type="person" n="Cupidon">Cupidon</name>.
                         </p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="6"/>
-                <div2 type="scene" n="2">
+                <div1 type="scene" n="2">
                     <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Dorante">
@@ -274,7 +274,7 @@
                     </sp>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage rend="italic">en ſoupirant.</stage><lb/>
+                        <stage rend="italics">en ſoupirant.</stage><lb/>
                         <p>Adorable.</p>
                     </sp>
                     <sp who="Dorante">
@@ -431,9 +431,9 @@
                             <lb/>en paſſant.
                         </p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="9"/>
-                <div2 type="scene" n="3">
+                <div1 type="scene" n="3">
                     <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORANTE<pc>,</pc> LISETTE <pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Dorante">
@@ -450,7 +450,7 @@
                     <sp who="Lisette">
                         <speaker>LISETTE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Comptés ſur moi. J'y ferai mon poſſible.
-                            <lb/><stage rend="italic">(ſeule.)</stage>
+                            <lb/><stage rend="italics">(ſeule.)</stage>
                             <lb/>A preſent, je voudrois ſçavoir de <name type="person" n="La Fleur">la Fleur</name> s'il eſt dans 
                             <lb/>l'erreur comme ſon maître , &amp; s'il m'a reconnue ſous 
                             <lb/>l'habit de Chauve-ſouris. Le voici ; il s'entretient tout 
@@ -458,13 +458,13 @@
                             <lb/>même.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="4">
+                </div1>
+                <div1 type="scene" n="4">
                     <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                     <stage>LISETTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage rend="italic">ſans apercevoir <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
+                        <stage rend="italics">ſans apercevoir <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
                         <p><c type="lettrine">M</c>Onſieur <name type="person" n="Philinte">Philinte</name> &amp; moi, nous allons avoir nos 
                             <lb/>habits de bal dans une heure au plûtard ; ils fe-
                             <lb/>ront du bruit l'un &amp; l'autre. Ah ! Chauve-ſouris de 
@@ -476,7 +476,7 @@
                     <pb n="10"/>
                     <sp who="Lisette">
                         <speaker>LISETTE </speaker>
-                        <stage rend="italic">ſans ſe montrer.</stage><lb/>
+                        <stage rend="italics">ſans ſe montrer.</stage><lb/>
                         <p>Il en tient ; je n'en puis plus douter.</p>
                     </sp>
                     <sp who="La Fleur">
@@ -493,7 +493,7 @@
                             <lb/>la tramontane. Comme il a bonne opinion de lui , 
                             <lb/>feignons d'être ſenſible à l'indélité qu'il croit me 
                             <lb/>faire, pour me donner la comédie entiére.
-                            <lb/><stage type="delivery" rend="italic">(à <name type="person" n="La Fleur">La Fleur</name>.)</stage>
+                            <lb/><stage type="delivery" rend="italics">(à <name type="person" n="La Fleur">La Fleur</name>.)</stage>
                             <lb/>Tu en aimes donc une autre, perfide que tu es ? Tu 
                             <lb/>ne ſçaurois le nier; j'ai tout entendu, &amp; je ſçai la trahi-
                             <lb/>ſon que tu m'as faite au bal. Autrefois <name type="person" n="Lisette">Liſette</name> t'étoit 
@@ -521,10 +521,10 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>La pauvre fille eſt ſi paſſionnée pour moi, que j'en 
                             <lb/>ai pitié tâhons de la conſoler par quelque mot de 
-                            <lb/>douceur. <stage type="delivery" rend="italic">(haut.)</stage> Ne t'afflige point, ma chére <name type="person" n="Lisette">Liſette</name>, 
+                            <lb/>douceur. <stage type="delivery" rend="italics">(haut.)</stage> Ne t'afflige point, ma chére <name type="person" n="Lisette">Liſette</name>, 
                             <lb/>j'ai encore, par-ci par-là, des idées de tendreſſe pour 
                             <lb/>toi; &amp; je voudrois, de tout mon cœur, t'aimer autant 
                             <lb/>que tu le mérites.
@@ -695,8 +695,8 @@
                         <speaker>LISETTE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Il eſt dans mes filets.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="5">
+                </div1>
+                <div1 type="scene" n="5">
                     <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Lisette">
@@ -812,8 +812,8 @@
                             <lb/>les larmes aux yeux ?
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="6">
+                </div1>
+                <div1 type="scene" n="6">
                     <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORIMENE<pc>,</pc> ANGELIQUE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Angélique">
@@ -947,11 +947,11 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="exit" rend="italic">en s'en allant.</stage><lb/>
+                        <stage type="exit" rend="italics">en s'en allant.</stage><lb/>
                         <p>Que j'aurai d'obligation à ma bonne ſœur ?</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="7">
+                </div1>
+                <div1 type="scene" n="7">
                     <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Lisette">
@@ -1068,8 +1068,8 @@
                         <speaker>DORIMENE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Oh ! Pour cela non. Mais le voici.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="8">
+                </div1>
+                <div1 type="scene" n="8">
                     <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORANTE<pc>,</pc> DORIMENE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Dorimene">
@@ -1147,8 +1147,8 @@
                     <sp who="Dorimene">
                         <speaker>DORIMENE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Voyons la lettre.</p>
-                        <lb/><stage rend="italic">(Elle lit.)</stage><lb/>
-                        <p rend="italic"><name type="person" n="Dorante">Dorante</name> ne me trompe-t-il pas, belle inconnue que 
+                        <lb/><stage rend="italics">(Elle lit.)</stage><lb/>
+                        <p rend="italics"><name type="person" n="Dorante">Dorante</name> ne me trompe-t-il pas, belle inconnue que 
                             <lb/>j'adore? Puis-je me flatter que vous recevrez ma lettre, 
                             <lb/>que vous la lirez , &amp; que vous daignerez y répondre ? 
                             <lb/>Je ne ſçaurois plus vivre ſans vous connoître. Montrez-
@@ -1161,8 +1161,8 @@
                     </sp>
                     <sp who="Dorimene">
                         <speaker>DORIMENE </speaker>
-                        <stage rend="italic">continue.</stage><lb/>
-                        <p rend="italic">Vous ne ſçauriez me donner de bonnes raiſons qui vous 
+                        <stage rend="italics">continue.</stage><lb/>
+                        <p rend="italics">Vous ne ſçauriez me donner de bonnes raiſons qui vous 
                             <lb/>obligent a vous cacher ainſi. On m'a dit que ma femme 
                             <lb/>vous faiſoit peur, &amp; que vous apréhendiez qu'elle ne 
                             <lb/>fût plus belle que vous. En vérité , eſt-il queſtion de ri-
@@ -1184,7 +1184,7 @@
                     </sp>
                     <sp who="Lisette">
                         <speaker>LISETTE </speaker>
-                        <stage type="delivery" rend="italic">bas.</stage><lb/>
+                        <stage type="delivery" rend="italics">bas.</stage><lb/>
                         <p>Et vous n'oſeriez pas avoir un galant.</p>
                     </sp>
                     <sp who="Dorante">
@@ -1206,14 +1206,14 @@
                             <lb/>mépriſer ſa femme, &amp; qui ſe tiendroit d<sic>a</sic><corr>a</corr>gradé, ſi lon 
                             <lb/>croyoit qu'il eût de l'amour pour elle ; qui fait gloire 
                             <lb/>de ſon vice, &amp; qui rit de votre vertu.
-                            <lb/><stage type="delivery" rend="italic">(bas.)</stage>
+                            <lb/><stage type="delivery" rend="italics">(bas.)</stage>
                             <lb/>Il eſt tems, Madame, de faire choix d'un ami; vous 
                             <lb/>n'avez plus de reſſource.
                         </p>
                     </sp>
                     <sp who="Dorimene">
                         <speaker>DORIMENE </speaker>
-                        <stage type="delivery" rend="italic">d'un air ſévére.</stage><lb/>
+                        <stage type="delivery" rend="italics">d'un air ſévére.</stage><lb/>
                         <p>Taiſez-vous, <name type="person" n="Lisette">Liſette</name>.</p>
                     </sp>
                     <sp who="Dorante">
@@ -1247,7 +1247,7 @@
                     </sp>
                     <sp who="Lisette">
                         <speaker>LISETTE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>Quelle gemme ! Dans tout <name type="place" n="Paris">Paris</name> on ne trouveroit 
                             <lb/>pas ſa pareille.
                         </p>
@@ -1291,8 +1291,8 @@
                         <speaker>DORANTE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Je ne manquerai pas de m'y rendre.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="9">
+                </div1>
+                <div1 type="scene" n="9">
                     <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                     <stage>DORANTE<pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Dorante">
@@ -1321,8 +1321,8 @@
                         <speaker>LISETTE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Monſieur, je ſuis votre ſervante.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="10">
+                </div1>
+                <div1 type="scene" n="10">
                     <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> DORANTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -1484,8 +1484,8 @@
                             <lb/>me. Mais la voici. Qu'elle me paroît enlaidie !
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="11">
+                </div1>
+                <div1 type="scene" n="11">
                     <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> DORIMENE <pc>,</pc> LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -1535,8 +1535,8 @@
                             <lb/>Fleur</name> tout eſſouflé.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="12">
+                </div1>
+                <div1 type="scene" n="12">
                     <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Fleur">
@@ -1602,12 +1602,12 @@
                         <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Fais venir <name type="person" n="Angélique">Angélique</name>.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="13">
+                </div1>
+                <div1 type="scene" n="13">
                     <head>SCENE XIII<pc type="affirmative">.</pc></head><lb/>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage rend="italic">ſeul.</stage><lb/>
+                        <stage rend="italics">ſeul.</stage><lb/>
                         <p><name type="person" n="Alidor"><c type="lettrine">A</c>Lidor</name>, ce vieux Financier, me la demande : on 
                             <lb/>dit qu'il a de gros biens, mais mon amour veut 
                             <lb/>que je l'accorde à <name type="person" n="Léandre">Léandre</name>. En lui donnant ma ſœur,
@@ -1619,8 +1619,8 @@
                             <lb/>où l'on ne déguiſe rien.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="14">
+                </div1>
+                <div1 type="scene" n="14">
                     <head>SCENE XIV<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -1719,8 +1719,8 @@
                             <lb/>aiſe.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="15">
+                </div1>
+                <div1 type="scene" n="15">
                     <head>SCENE XV<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> LEANDRE <pc>,</pc> ANGELIQUE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Léandre">
@@ -1759,8 +1759,8 @@
                         <speaker>ANGELIQUE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Ah! Mon petit frere, que je vous baiſe.</p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="16">
+                </div1>
+                <div1 type="scene" n="16">
                     <head>SCENE XVI<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> ALIDOR <pc>,</pc> ANGELIQUE <pc>,</pc><lb/> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="La Fleur">
@@ -1769,7 +1769,7 @@
                     </sp>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>Peſte ſoit de l'importun !</p>
                     </sp>
                     <sp who="Angelique">
@@ -1808,7 +1808,7 @@
                     </sp>
                     <sp who="Angelique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="business" rend="italic">lui fait la révérence.</stage><lb/>
+                        <stage type="business" rend="italics">lui fait la révérence.</stage><lb/>
                         <p>Je ſuis votre ſervante, Monſieur : je ne ſuis pas in-
                             <lb/>téreſſée.
                         </p>
@@ -1866,10 +1866,10 @@
                     </sp>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>Que le jour eſt long, &amp; que ce audit homme me 
                             <lb/>fatigue !  Quelqu'un ne pourra-t-il m'en défaire ?
-                            <lb/><stage type="delivery" rend="italic">(haut.)</stage> N'entens-je pas chanter ?
+                            <lb/><stage type="delivery" rend="italics">(haut.)</stage> N'entens-je pas chanter ?
                         </p>
                     </sp>
                     <sp who="Angelique">
@@ -1883,8 +1883,8 @@
                             <lb/>tons, il va nous réjouir.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="17">
+                </div1>
+                <div1 type="scene" n="17">
                     <head>SCENE XVII<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE <pc>,</pc> ALIDOR <pc>,</pc> ANGELIQUE <pc>,</pc> <lb/>LE MAISTRE DE MUSIQUE<pc>,</pc> <lb/>LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le maître de Musique">
@@ -1919,7 +1919,7 @@
                         <l>C'eſt <name type="person" n="Clytemnestre">Clitemneſtre</name>. Fuis dans le nuit éternelle ,</l>
                         <l>Spectre horrible, ombre criminelle ,</l>
                         <l>Crains encore ma juſte fureur.</l>
-                        <lb/><stage type="business" rend="italic">(Il prend <name type="person" n="Alidor">Alidor</name> au collet.)</stage>
+                        <lb/><stage type="business" rend="italics">(Il prend <name type="person" n="Alidor">Alidor</name> au collet.)</stage>
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
@@ -1948,7 +1948,7 @@
                     </sp>
                     <sp who="Alidor">
                         <speaker>ALIDOR </speaker>
-                        <stage type="delivery" rend="italic">au maître de Muſique.</stage><lb/>
+                        <stage type="delivery" rend="italics">au maître de Muſique.</stage><lb/>
                         <p>Et je ſuis à preſent votre valet <stage type="delivery">(à <name type="person" n="Philinte">Philinte</name>.)</stage> Quelle 
                             <lb/>manie de parler toujorus en chantant ?
                         </p>
@@ -2040,8 +2040,8 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Alidor">Alidor</name>.</stage><lb/>
-                        <p>Que dites-vous de ce couplet? <stage rend="italic">(en chantant.)</stage> Qu'un
+                        <stage type="delivery" rend="italics">à <name type="person" n="Alidor">Alidor</name>.</stage><lb/>
+                        <p>Que dites-vous de ce couplet? <stage rend="italics">(en chantant.)</stage> Qu'un
                             <lb/>barbon...
                         </p>
                     </sp>
@@ -2090,7 +2090,7 @@
                     </sp>
                     <sp who="Le maître de Musique">
                         <speaker>LE MAISTRE de Muſique </speaker>
-                        <stage type="exit" rend="italic">en s'en allant.</stage><lb/>
+                        <stage type="exit" rend="italics">en s'en allant.</stage><lb/>
                         <lg>
                             <l><name type="person" n="Doris">Doris</name> étoit ma derniére amourette ,</l>
                             <l>Vous êtes mon premier amour;</l>
@@ -2110,9 +2110,9 @@
                         <speaker>LA FLEUR<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Monſieur, le voici.</p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="37"/>
-                <div2 type="scene" n="18">
+                <div1 type="scene" n="18">
                     <head>SCENE XVIII<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> DORANTE<pc>,</pc> LEANDRE<pc>,</pc> <lb/>ANGELIQUE<pc>,</pc> LA FLEUR<pc>,</pc> <lb/>UN NOTAIRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -2139,16 +2139,16 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Léandre">Léandre</name></stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Léandre">Léandre</name></stage><lb/>
                         <p>Vous ne me ſuivez pas ?</p>
                     </sp>
                     <sp who="Léandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Je ne vous quitte pas, ma belle <name type="person" n="Angélique">Angélique</name>.</p>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="38"/>
-                <div2 type="scene" n="19">
+                <div1 type="scene" n="19">
                     <head>SCENE XIX<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> DORANTE<pc>,</pc> LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -2173,12 +2173,12 @@
                             <lb/> elle.
                         </p>
                     </sp>
-                </div2>
-                <div2 type="scene" n="20">
+                </div1>
+                <div1 type="scene" n="20">
                     <head>SCENE XX<pc type="affirmative">.</pc></head><lb/>
                     <sp who="Dorante">
                         <speaker>DORANTE </speaker>
-                        <stage rend="italic">ſeul.</stage><lb/>
+                        <stage rend="italics">ſeul.</stage><lb/>
                         <p><c type="lettrine">J</c>'Ai fait tout ce que je devois faire pour mon ami, 
                             <lb/> &amp; j'ai conduit la choſe au point qu'il ſouhaitoit. 
                             <lb/>Retirons-nous maintenant, je ſuis ici de trop. De quel-
@@ -2186,17 +2186,17 @@
                             <lb/>le ſpectateur, &amp; ne riſquons point d'y jouer un fort 
                             <lb/>ſot perſonnage. Voici <name type="person" n="Philinte">Philinte</name> &amp; <name type="person" n="Dorimene">Dorimene</name> ; ſortons.<lb/>
                         </p>
-                        <stage type="exit" rend="italic">(Il s'en va.)</stage>
+                        <stage type="exit" rend="italics">(Il s'en va.)</stage>
                     </sp>
-                </div2>
+                </div1>
                 <pb n="39"/>
-                <div2 type="scene" n="21">
+                <div1 type="scene" n="21">
                     <head>SCENE XXI<pc type="affirmative">.</pc></head><lb/>
-                    <stage>PHILINTE <pc>,</pc> DORIMENE <hi rend="italic">déguiſée en <lb/> Vénitienne</hi><pc>,</pc>
-                        LA FLEUR<pc>,</pc>LISETTE<pc type="affirmative">.</pc> <lb/><hi rend="italic">déguiſée en Chauve-ſouris<pc type="affirmative">.</pc></hi></stage><lb/>
+                    <stage>PHILINTE <pc>,</pc> DORIMENE <hi rend="italics">déguiſée en <lb/> Vénitienne</hi><pc>,</pc>
+                        LA FLEUR<pc>,</pc>LISETTE<pc type="affirmative">.</pc> <lb/><hi rend="italics">déguiſée en Chauve-ſouris<pc type="affirmative">.</pc></hi></stage><lb/>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
                         <p><c type="lettrine">M</c>Adame, puiſque nous ſommes ſeuls , ſouffrez 
                             <lb/>que je me livre à toute la vivacité de mes tranſ-
                             <lb/>ports. Mon bonheur eſt ſi grand, que j'ai de la peine 
@@ -2212,7 +2212,7 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
                         <p>Mon adorable Chauve-ſouris, puis-je me flatter 
                             <lb/>que vous ayez ſuivi dans ce lieu votre maîtreſſe, avec 
                             <lb/>la même bonne volonté pour votre eſclave <name type="person" n="La Fleur">la Fleur</name> ?
@@ -2236,7 +2236,7 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
                         <p>Vous voulez bien que je vous faſſe la même priére ?
                             <lb/>Ne vous laiſſerez-vous point attendrir par ce regard 
                             <lb/>languiſſant ? Ce ſoupir enflammé ne vous touchera-t'il 
@@ -2252,7 +2252,7 @@
                     <pb n="40"/>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
                         <p>Vous apréhendez de me dépkaire ! Quelle injuſte 
                             <lb/>idée !
                         </p>
@@ -2266,7 +2266,7 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
                         <p>Montrez-moi votre friand minois, que mes yeux 
                             <lb/>ſe raſſaſient du plaiſir de le voir.
                         </p>
@@ -2277,7 +2277,7 @@
                     </sp>
                     <sp who="Philinte">
                         <speaker>PHILINTE </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Dorimene">Dorimene</name>.</stage><lb/>
                         <p>Ah ! Vous ne pouvez être que charmante; vos 
                             <lb/>yeux m'en ſont de bons garans. Découvrez-vous au 
                             <lb/>plûtôt. Faut-il vous en prier à genoux?
@@ -2285,7 +2285,7 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="mixed" rend="italic">à <name type="person" n="Lisette">Liſette</name>, en lui prenant le bras.</stage><lb/>
+                        <stage type="mixed" rend="italics">à <name type="person" n="Lisette">Liſette</name>, en lui prenant le bras.</stage><lb/>
                         <p>Vous ne le diriez pas, mon cœur, s'il étoit vrai; &amp; 
                             <lb/>voilà un échantillon qui fait juger trop favorablement 
                             <lb/>de toute la piéce. Laiſſez-moi voir ſeulement le bout 
@@ -2295,7 +2295,7 @@
                     </sp>
                     <sp who="Dorimene">
                         <speaker>DORIMENE </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Philinte">Philinte</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Philinte">Philinte</name>.</stage><lb/>
                         <p>Puiſque vous le voulez, je vais vous ſatiſfaire ; mais 
                             <lb/>auparavant, il faut vous acquitter de ce que vous avez 
                             <lb/>promis à <name type="person" n="Léandre">Léandre</name>, &amp; ſigner le Contrat que vous apor-
@@ -2315,12 +2315,12 @@
                     </sp>
                     <sp who="Philinte">
                         <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
-                        <p>Donnez, donnez, Monſieur. <stage type="exit" rend="italic">(Le Notaire ſort.)</stage></p>
+                        <p>Donnez, donnez, Monſieur. <stage type="exit" rend="italics">(Le Notaire ſort.)</stage></p>
                     </sp>
                     
-                </div2>
+                </div1>
                 <pb n="41"/>
-                <div2 type="scene" n="22">
+                <div1 type="scene" n="22">
                     <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                     <stage>PHILINTE<pc>,</pc> DORIMENE<pc>,</pc> LA FLEUR<pc>,</pc> <lb/>LISETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Philinte">
@@ -2331,12 +2331,12 @@
                     </sp>
                     <sp who="La Fleur">
                         <speaker>LA FLEUR </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Lisette">Liſette</name>.</stage><lb/>
                         <p>Allons, ma reine.</p>
                     </sp>
                     <sp who="Dorimene">
                         <speaker>DORIMENE </speaker>
-                        <stage type="business" rend="italic">en ſe découvrant.</stage><lb/>
+                        <stage type="business" rend="italics">en ſe découvrant.</stage><lb/>
                         <p>Je le vois bien , je ne puis plus m'en défendre ; il  
                             <lb/>faut me découvrir malgré que j'en aye. Me reconnoiſ- 
                             <lb/>ſez-vous ?
@@ -2344,7 +2344,7 @@
                     </sp>
                     <sp who="Lisette">
                         <speaker>LISETTE </speaker>
-                        <stage type="business" rend="italic">ôtant auſſi ſon maſque.</stage><lb/>
+                        <stage type="business" rend="italics">ôtant auſſi ſon maſque.</stage><lb/>
                         <p>Que dis-tu de ce viſage ?</p>
                     </sp>
                     <sp who="Philinte">
@@ -2388,7 +2388,7 @@
                     </sp>
                     <sp who="Lisette">
                         <speaker>LISETTE </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>Il n'y a que ſix mois qu'ils ſont mariés, je les attens 
                             <lb/>au bout de l'année.
                         </p>
@@ -2415,8 +2415,7 @@
                             <lb/>ger , c'eſt le parti le plus ſage.
                         </p>
                     </sp>
-                </div2>
-            </div1>
+                </div1>
         </body>
     </text>
 </TEI>
