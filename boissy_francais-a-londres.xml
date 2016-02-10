@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -93,7 +94,7 @@
             </castList>
             <lb/><lb/><lb/><lb/>
             <set>
-                <p rend="italic">La scène eſt à <name type="place" n="Londres">Londres</name>, dans un Hôtel garni.</p>
+                <p rend="italics">La scène eſt à <name type="place" n="Londres">Londres</name>, dans un Hôtel garni.</p>
             </set>
         </front>
         <body>
@@ -138,7 +139,7 @@
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Leur converſation? Ils n'en ont point du tout.
                             <lb/>Ils ſont une heure sans parler, &amp; n'ont autre choſe à vous 
-                            <lb/>dire que <foreign rend="italic">hovvd'eyd'o</foreign>, comment vous portez vous? 
+                            <lb/>dire que <foreign rend="italics">hovvd'eyd'o</foreign>, comment vous portez vous? 
                             <lb/>Cela fait un entretien bien amuſant.
                         </p>
                     </sp>
@@ -336,7 +337,7 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage rend="italic">éclatant de rire.</stage><lb/>
+                        <stage rend="italics">éclatant de rire.</stage><lb/>
                         <p>Toi, me suplanter ? Moi ?</p>
                     </sp>
                     <sp who="Le Baron">
@@ -414,7 +415,7 @@
                     </sp>
                     <sp who="Eliante">
                         <speaker>ELIANTE </speaker>
-                        <stage type="delivery" rend="italic">au Marquis.</stage>
+                        <stage type="delivery" rend="italics">au Marquis.</stage>
                         <p>Quoi, Monſieur, vous êtes capable...</p>
                     </sp>
                     <sp who="Le Marquis">
@@ -472,7 +473,7 @@
                     </sp>
                     <sp who="Eliante">
                         <speaker>ELIANTE </speaker>
-                        <stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                         <p>Je vous trouve admirable....</p>
                     </sp>
                     <sp who="Le Marquis">
@@ -493,7 +494,7 @@
                             <lb/>Pour vous punir, je vous laiſſe avec lui; qu'il vous 
                             <lb/>entretienne, Madame, qu'il vous entretienne , je 
                             <lb/>n'y perdrai rien, vous m'en goûterez mieux tantôt. 
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
                         </p>
                     </sp>
                 </div1>
@@ -526,7 +527,7 @@
                     </sp>
                     <sp who="Eliante">
                         <speaker>ELIANTE </speaker>
-                        <stage rend="italic">agitée.</stage><lb/>
+                        <stage rend="italics">agitée.</stage><lb/>
                         <p>Moi j'aime le Marquis ! Qui vous l'a dit, Monſieur ?</p>
                     </sp>
                     <sp who="Le Baron">
@@ -584,7 +585,7 @@
                             <lb/>pour le Marquis. Vous l'aimez toujours, c'eſt le ſeul 
                             <lb/>défaut que je vous connoiſſe , &amp; je crains bien que 
                             <lb/>vous ne vous en corrigiez pas ſi-tôt.
-                            <lb/><stage type="exit" rend="italic">(Il s'en va.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il s'en va.)</stage>
                         </p>
                     </sp>
                 </div1>
@@ -592,7 +593,7 @@
                     <head>SCENE IV.</head>
                     <sp who="Eliante">
                         <speaker>ELIANTE </speaker>
-                        <stage rend="italic">ſeule.</stage><lb/>
+                        <stage rend="italics">ſeule.</stage><lb/>
                         <p><c rend="lettrine">O</c>h, je m'en corrigerai , je m'en corrigerai. Je 
                             <lb/>ſuis femme, &amp; j'ai pû me laiſſer éblouir par les 
                             <lb/>graces &amp; par le faux brillant d'un mérite ſuperficiel ; 
@@ -617,8 +618,8 @@
                         <p>Voyons. C'eſt mon père qui m'écrit, je reconnois 
                             <lb/>l'écriture.
                         </p>
-                        <lb/><stage type="business" rend="italic">(Elle lit.)</stage><lb/>
-                        <p rend="italic">Je pars en <choice><orig>même-tems</orig><reg>même temps</reg></choice> que ma lettre , &amp; je ſerai de-
+                        <lb/><stage type="business" rend="italics">(Elle lit.)</stage><lb/>
+                        <p rend="italics">Je pars en <choice><orig>même-tems</orig><reg>même temps</reg></choice> que ma lettre , &amp; je ſerai de-
                             <lb/>main à <name type="place" n="Londres">Londres</name> ſans faute. On m'a que votre frere 
                             <lb/><choice><orig>hantoit</orig><reg>hantait</reg></choice> mauvaiſe compagnie, &amp; qu'il venoit de faire tout 
                             <lb/>nouvellement <choice><orig>connoiſſance</orig><reg>connaissance</reg></choice> avec un certain Marquis Fran-
@@ -869,7 +870,7 @@
     				</sp>
     				<sp who="Finette">
     				    <speaker>FINETTE </speaker>
-    				    <stage type="business" rend="italic">faiſant la révérence.</stage>
+    				    <stage type="business" rend="italics">faiſant la révérence.</stage>
     				    <p>Vous me faites trop d'honneur , Monſieur.</p>
     				</sp>
     				<sp who="Eliante">
@@ -921,7 +922,7 @@
     				    <speaker>FINETTE<pc type="affirmative">.</pc></speaker><lb/>
     				    <p>Cela eſt naturel. Allez rentrez, Madame. Laiſſez-
     					    <lb/>moi le ſoin de recevoir ſa viſite pour vous. Je vais le 
-    					    <lb/>congédier à la Françoiſe.  <stage type="exit" rend="italic">(<name type="person" n="Eliante">Eliante</name> rentre.)</stage>
+    					    <lb/>congédier à la Françoiſe.  <stage type="exit" rend="italics">(<name type="person" n="Eliante">Eliante</name> rentre.)</stage>
     					</p>
     				</sp>
     			</div1>
@@ -930,7 +931,7 @@
     				<stage>JACQUES<sic><pc>,</pc></sic><corr></corr> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Rosbif">
     				    <speaker>ROSBIF </speaker>
-    				    <stage type="mixed" rend="italic">à <name type="person" n="Finette">Finette</name>, qui lui fait pluſieurs révérences.</stage><lb/>
+    				    <stage type="mixed" rend="italics">à <name type="person" n="Finette">Finette</name>, qui lui fait pluſieurs révérences.</stage><lb/>
     				    <p><c rend="lettrine">F</c>Iniſſez avec toutes vos réverences qui ne menent 
     				        <lb/>à rien.
     					</p> 
@@ -957,7 +958,7 @@
     				</sp>
     				<sp who="Finette">
     				    <speaker>FINETTE </speaker>
-    				    <stage type="business" rend="italic">éclatant de rire.</stage>
+    				    <stage type="business" rend="italics">éclatant de rire.</stage>
     				    <p>Vous, ſon prétendu ? Ah! ah! ah! </p>
     				</sp>
     				<sp who="Rosbif">
@@ -1036,11 +1037,11 @@
                     <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Finette">
     					<speaker>FINETTE </speaker>
-                        <stage type="delivery" rend="italic">au Marquis.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Marquis.</stage><lb/>
                         <p><c rend="lettrine">M</c>Onſieur le Marquis, voilà un homme que je 
                             <lb/>vous donne à décraſſer. Il en a grand beſoin, 
                             <lb/>je vous le recommande : ſon nom eſt <name type="person" n="Jacques">Jacques</name> <name type="person" n="Rosbif">Rosbif</name>, 
-                            <lb/>ne l'oubliez pas. <stage type="exit" rend="italic">(Elle ſort.)</stage>
+                            <lb/>ne l'oubliez pas. <stage type="exit" rend="italics">(Elle ſort.)</stage>
                         </p>
                     </sp>
                     <p rend="center">***</p>
@@ -1050,10 +1051,10 @@
                     <stage>LE MARQUIS<pc>,</pc> ROSBIF<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Marquis">
     					<speaker>LE MARQUIS </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p><c rend="lettrine">E</c>lle a raiſon , cet homme n'a pas l'air avantageux. 
                             <lb/>N'importe ; faiſons-lui politeſſe, ne nous démen-
-                            <lb/>tons point. <stage type="delivery" rend="italic">(À <name type="person" n="Rosbif">Rosbif</name>.)</stage> Monſieur , peut - on vous 
+                            <lb/>tons point. <stage type="delivery" rend="italics">(À <name type="person" n="Rosbif">Rosbif</name>.)</stage> Monſieur , peut - on vous 
                             <lb/>demander qui eſt-ce qui me procure de votre part 
                             <lb/>l'honneur d'une attention ſi particuliére.
                         </p>
@@ -1081,7 +1082,7 @@
                     <sp who="Rosbif">
                         <speaker>ROSBIF<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Cela étant je m'en vais m'aſſeoir pour vous voir plus 
-                            <lb/>à mon aiſe. <stage type="business" rend="italic">[Il ſe met dans un fauteuil.]</stage>
+                            <lb/>à mon aiſe. <stage type="business" rend="italics">[Il ſe met dans un fauteuil.]</stage>
                         </p>
                     </sp>
                     <pb n="21"/>
@@ -1091,7 +1092,7 @@
                     </sp>
                     <sp who="Rosbif">
                         <speaker>ROSBIF </speaker>
-                        <stage type="delivery" rend="italic">d'un ton phlegmatique.</stage>
+                        <stage type="delivery" rend="italics">d'un ton phlegmatique.</stage>
                         <p>Allons , courage, donnez-vous des airs, ayez des 
                             <lb/>façons , dites-nous de jolies choſes. Je vous regarde, 
                             <lb/>je vous écoute.
@@ -1123,7 +1124,7 @@
                             <lb/>vre ſon exemple, &amp; faire une converſation à l'An-
                             <lb/>gloiſe.
                         </p>
-                        <lb/><stage style="mixed" rend="italic">Il va s'aſſeoir vis-à-vis <name type="person" n="Rosbif">Rosbif</name>, le regarde long-
+                        <lb/><stage style="mixed" rend="italics">Il va s'aſſeoir vis-à-vis <name type="person" n="Rosbif">Rosbif</name>, le regarde long-
                             <lb/>temps ſans rien dire ; enſuite il interrompt ſon ſilence de trois ou quatre 
                             <lb/><foreign>houd'yed'o</foreign> qu'il lui adreſſe en le ſa-
                             <lb/>luant.
@@ -1141,7 +1142,7 @@
                     </sp>
                     <sp who="Rosbif">
                         <speaker>ROSBIF </speaker>
-                        <stage type="business" rend="italic">ſe levant bruſquement.</stage>
+                        <stage type="business" rend="italics">ſe levant bruſquement.</stage>
                         <p>Il n'<choice><orig>ennuyeroit</orig><reg>ennuierait</reg></choice> pas le public. Il vaut mieux ſe taire 
                             <lb/>que de dire des fadaiſes, &amp; ſe retirer que d'en écouter. 
                             <lb/>Adieu, je vous ai donné le temps de déployer toute 
@@ -1149,7 +1150,7 @@
                             <lb/>auſſi ridicule qu'on me l'<choice><orig>avoit</orig><reg>avait</reg></choice> dit. Il faut vous rendre 
                             <lb/>juſtice, vous paſſez votre renommée. Vous avez tort 
                             <lb/>de vous laiſſer avoir pour rien. Vous êtes un fort joli 
-                            <lb/>bouffon, &amp; vous valez bien trois ſchelins. <stage type="exit" rend="italic">(Il ſort.)</stage>
+                            <lb/>bouffon, &amp; vous valez bien trois ſchelins. <stage type="exit" rend="italics">(Il ſort.)</stage>
                         </p>
                     </sp>
                 </div1> 
@@ -1157,7 +1158,7 @@
                     <head>SCENE XI.</head><lb/>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage rend="italic">ſeul.</stage><lb/>
+                        <stage rend="italics">ſeul.</stage><lb/>
                         <p><c rend='lettrine'>J</c>'<choice><orig>Aprendrois</orig><reg>apprendrais</reg></choice> à parler à ce brutal-là, s'il portoit une 
                             <lb/>épée.
                         </p>
@@ -1230,7 +1231,7 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage rend="italic">avec affectation.</stage><lb/>
+                        <stage rend="italics">avec affectation.</stage><lb/>
                         <p>Je vous proteſte, je vous jure, Madame, que 
                             <lb/>je ſerai déſormais le plus ſimple, le plus uni de tous 
                             <lb/>les hommes.
@@ -1278,14 +1279,14 @@
                             <lb/>plus de souper au <name type="place" n="Lion Rouge">Lion rouge</name>. Adieu, je vous laiſſe. 
                             <lb/><name type="person" n="Finette">Finette</name> &amp; moi, nous allons au-devant de mon pere.
                         </p>
-                        <lb/><stage type="exit" rend="italic">(Elle ſort avec <name type="person" n="Finette">Finette</name>.</stage>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort avec <name type="person" n="Finette">Finette</name>.</stage>
                     </sp>
                 </div1> 
                 <div1 type="scene" n="13">
                     <head>SCENE XIII.</head><lb/>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage rend="italic">ſeul.</stage><lb/>
+                        <stage rend="italics">ſeul.</stage><lb/>
                         <p><c rend="lettrine">E</c>Lle me parle du <name type="place" n="Lion Rouge">Lion rouge</name> ! Qui diantre a pû 
                             <lb/>l'informer du ſouper que j'y ai fait ? Je ſuis encore 
                             <lb/>prié pour ce ſoir. Mais voici le petit Milord <name type="person" n="Houzey">Houzey</name> ; 
@@ -1323,7 +1324,7 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
                         <p>Ce jeune homme eſt aſſez poli pour un Anglois.</p>
                     </sp>
                     <sp who="Milord Houzey">
@@ -1446,7 +1447,7 @@
     				<stage>MILORD CRAFF<pc>,</pc> LE MARQUIS<pc>,</pc> MILORD HOUZEY<pc type="affirmative">.</pc></stage><lb/>   
                     <sp who="Milord Craff">
                         <speaker>MILORD CRAFF </speaker>
-                        <stage rend="italic">dans le fond du Théâtre.</stage><lb/>
+                        <stage rend="italics">dans le fond du Théâtre.</stage><lb/>
                         <p><c rend="lettrine">J</c>E cherche partout mon fils, mais le voilà 
                             <lb/>apparemment avec ce marquis François ; 
                             <lb/>aſſeyons-nous un peu pour écouter leur
@@ -1566,7 +1567,7 @@
                     </sp>                
                     <sp who="Milord Craff">
                         <speaker>MILORD CRAFF </speaker>
-                        <stage rend="italic">dans le fond du Théâtre.</stage>
+                        <stage rend="italics">dans le fond du Théâtre.</stage>
                         <p>Quelle impertinence !</p>
                     </sp>
                     <sp who="Milord Houzey">
@@ -1619,7 +1620,7 @@
                     </sp>                                    
     				<sp who="Milord Craff">
     				    <speaker>MILORD CRAFF </speaker>
-    				    <stage type="business" rend="italic">ſe levant bruſquement.</stage><lb/>
+    				    <stage type="business" rend="italics">ſe levant bruſquement.</stage><lb/>
                        <p>C'est trop de patience, je n'y puis plus tenir.</p>
     				</sp>
                     <sp who="Milord Houzey">
@@ -1630,37 +1631,37 @@
                     </sp>
                     <sp who="Milord Craff">
                         <speaker>MILORD CRAFF </speaker>
-                        <stage rend="italic">d'un air ironique.</stage><lb/>
+                        <stage rend="italics">d'un air ironique.</stage><lb/>
                         <p>Vous voulez bien , Monſieur le Marquis , que je
                             <lb/>vous remercie des bonnes &amp; ſolides inſtructions que 
                             <lb/>vous donnez à mon fils.
                         </p>
-                        <lb/><stage type="delivery" rend="italic">[à Milord <name type="person" n="Houzey">Houzey</name> , d'un ton ſec.]</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">[à Milord <name type="person" n="Houzey">Houzey</name> , d'un ton ſec.]</stage><lb/>
                         <p>Pour vous, Monſieur, je ſuis bien aiſe de voir 
                             <lb/>comme vous employez votre <choice><orig>tems</orig><reg>temps</reg></choice>.
                         </p>
                     </sp>
                     <sp who="Milord Houzey">
                         <speaker>MILORD HOUZEY </speaker>
-                        <stage rend="italic">d'un air embaraſſé.</stage>
+                        <stage rend="italics">d'un air embaraſſé.</stage>
                         <p>Monſieur le Marquis... a la bonté.... de me for-
                             <lb/>mer le goût.
                         </p>
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="business" rend="italic">regardant Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
+                        <stage type="business" rend="italics">regardant Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
                         <p>Oui, oui, Monſieur , je lui aprends des choſes ,
                             <lb/>dont vous ne feriez pas mal de profiter vous-meme.
                         </p>
                     </sp>
                     <sp who="Milord Craff">
                         <speaker>MILORD CRAFF </speaker>
-                        <stage type="delivery" rend="italic">à Milord <name type="person" n="Houzey">Houzey</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à Milord <name type="person" n="Houzey">Houzey</name>.</stage><lb/>
                         <p>Allez , retirez-vous. Je vous donnerai tantôt d'au-
                             <lb/>tres leçons.
                         </p>
-                        <lb/><stage type="exit" rend="italic">[Milord <name type="person" n="Houzey">Houzey</name> s'e<sic>u</sic><corr>n</corr> va.]</stage>
+                        <lb/><stage type="exit" rend="italics">[Milord <name type="person" n="Houzey">Houzey</name> s'e<sic>u</sic><corr>n</corr> va.]</stage>
                     </sp>
                 </div1> 
                 <pb n="32"/>
@@ -1831,9 +1832,9 @@
     				</sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery" rend="italic">chante.</stage><lb/>
-                        <l rend="italic">Sans l'amour &amp; ſans ſes charmes,</l>
-                        <l rend="italic">Tout languit dans l'Univers.</l>
+                        <stage type="delivery" rend="italics">chante.</stage><lb/>
+                        <l rend="italics">Sans l'amour &amp; ſans ſes charmes,</l>
+                        <l rend="italics">Tout languit dans l'Univers.</l>
     				</sp>
     				<sp who="Milord Craff">
     				    <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
@@ -1848,7 +1849,7 @@
                             <lb/>trait , par un bon mot, nous tâchons d'y répondre par 
                             <lb/>un autre ; mais quand on va juſqu'à l'inſulte , qu'on 
                             <lb/>nous dit groſſiérement des injures , voici notre repli-
-                            <lb/>que. <stage type="business" rend="italic">(Il tire l'épée.)</stage>
+                            <lb/>que. <stage type="business" rend="italics">(Il tire l'épée.)</stage>
     					</p>
     				</sp>              
     			</div1> 
@@ -1858,7 +1859,7 @@
                     <stage>LE MARQUIS<pc>,</pc> MILORD CRAFF<pc>,</pc> LE BARON<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Le Baron">
     				    <speaker>LE BARON </speaker>
-    				    <stage type="business" rend="italic">ſaiſiſſant l'épée du Marquis.</stage><lb/>
+    				    <stage type="business" rend="italics">ſaiſiſſant l'épée du Marquis.</stage><lb/>
     				    <p><c rend="lettrine">A</c>Rrête, Marquis ; aprens qu'à <name type="place" n="Londres">Londres</name> il eſt dé-
     						<lb/>fendu de tirer l'épée.
     					</p>
@@ -1879,7 +1880,7 @@
     				</sp>
     				<sp who="Le Baron">
     				    <speaker>LE BARON </speaker>
-    				    <stage type="delivery" rend="italic">au Marquis.</stage>
+    				    <stage type="delivery" rend="italics">au Marquis.</stage>
     				    <p>Modére ce tranſport. Tu n'es pas ici en <name type="place" n="France">France</name>.</p>
     				</sp>
     				<sp who="Le Marquis">
@@ -1887,7 +1888,7 @@
     				    <p>Je ſors ; car ſi je <choice><orig>demeurois</orig><reg>demeurais</reg></choice> plus long-tems , je ne
     					    <lb/>ſerois pas mon maître. Adieu, Monſieur de l'<name type="place" n="Angleterre">Angle-
     					    <lb/>terre</name>, ſi vous avez du cœur, nous nous verrons hors 
-    					    <lb/>la Ville. <stage type="exit" rend="italic">[Il ſort.]</stage>
+    					    <lb/>la Ville. <stage type="exit" rend="italics">[Il ſort.]</stage>
     					</p>
     				</sp>     
                 </div1>          
@@ -1955,7 +1956,7 @@
                         <speaker>MILORD CRAFF<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Adieu, Monſieur, je ſors tout pénétré de ce que 
     						<lb/>vous m'avez dit.
-                            <lb/><stage type="exit" rend="italic">(Il ſort.)</stage>
+                            <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
     					</p>
                     </sp>
                 </div1>
@@ -1964,7 +1965,7 @@
     				<head>SCENE XIX.</head><lb/>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage rend="italic">ſeul.</stage><lb/>
+                        <stage rend="italics">ſeul.</stage><lb/>
                         <p><c rend="lettrine">C</c>'Eſt ainſi que les hommes ſe préviennent les uns 
                             <lb/>contre les autres ſans ſe <choice><orig>connoître</orig><reg>connaître</reg></choice>; quelques rai-
                             <lb/>ſonnables qu'ils ſoient , ils ne ſont pas à l'abri des 
@@ -2014,7 +2015,7 @@
     				<stage>LE BARON<pc>,</pc> ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Le Baron">
     				    <speaker>LE BARON </speaker>
-    				    <stage type="delivery" rend="italic">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
+    				    <stage type="delivery" rend="italics">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
     					<p><c rend="lettrine">E</c>H bien! Madame êtes-vous determinée ?</p>
     				</sp>
     				<sp who="Eliante">
@@ -2052,7 +2053,7 @@
     				    <lb/>ROSBIF<pc>,</pc> ELIANTE <pc>,</pc> FINETTE<pc>.</pc></stage><lb/>
     			    <sp who="Milord Craff">
     			        <speaker>MILORD CRAFF </speaker>
-    			        <stage type="delivery" rend="italic">au Baron &amp; à <name type="person" n="Rosbif">Rosbif</name>.</stage><lb/>
+    			        <stage type="delivery" rend="italics">au Baron &amp; à <name type="person" n="Rosbif">Rosbif</name>.</stage><lb/>
     			        <p><c rend="lettrine">M</c>eſſieurs, je ne puis vous répondre qu'en pre-
     			            <lb/>ſence de ma fille. Mais la voici.
     					</p>
@@ -2066,8 +2067,8 @@
                         <lb/>ELIANTE<pc>,</pc> FINETTE<pc type="affirmative">.</pc></stage><lb/>
     				<sp who="Milord Houzey">
     				    <speaker>MILORD HOUZEY </speaker>
-    				    <stage type="business" rend="italic">tenant le Marquis 
-    				        <lb/>par la main.    </stage><stage type="delivery" rend="italic">(A Milord <name type="person" n="Craff">Craff</name>.)</stage>
+    				    <stage type="business" rend="italics">tenant le Marquis 
+    				        <lb/>par la main.    </stage><stage type="delivery" rend="italics">(A Milord <name type="person" n="Craff">Craff</name>.)</stage>
     				    <p><c rend="lettrine">M</c>On pere, voilà M. le Marquis qui eſt 
                             <lb/>au déſeſpoir de ce qui s'eſt paſſé. Il eſt natu-
                             <lb/>rellement ſi poli...
@@ -2081,7 +2082,7 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery" rend="italic">à Milord <name type="person" n="Craff">Craff</name>.</stage>
+                        <stage type="delivery" rend="italics">à Milord <name type="person" n="Craff">Craff</name>.</stage>
                         <p>Monſieur , je n'<choice><orig>avois</orig><reg>avais</reg></choice> pas l'honneur de vous con-
                             <lb/>noître.
                         </p>
@@ -2101,14 +2102,14 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery" rend="italic">parle bas à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">parle bas à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
                         <p>Vous riſquez de me perdre ; vous vous en repenti-
                             <lb/>rez, Madame.
                         </p>
                     </sp>
                     <sp who="Milord Craff">
                         <speaker>MILORD CRAFF </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Eliante">Eliante</name>.</stage><lb/>
                         <p>Comme je n'ai que trois jours à demeurer ici , &amp; 
                             <lb/>qu'il faut abſolument vous marier avant mon départ, je 
                             <lb/>vais tâcher de faire un choix digne de vous &amp; de moi,
@@ -2125,7 +2126,7 @@
                             <pb n="40"/>c'eſt la choſe dont on a plus de beſoin dans un état 
                             <lb/>auſſi ſérieux que celui du mariage.
                         </p>
-                        <lb/><stage type="delivery" rend="italic">(à Milord <name type="person" n="Rosbif">Rosbif</name>.)</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">(à Milord <name type="person" n="Rosbif">Rosbif</name>.)</stage><lb/>
                         <p>
                             <lb/>Pour vous , Monſieur , vous avez un fond de raiſon 
                             <lb/>admirable, mais vous négligez trop la politeſſe , &amp; 
@@ -2140,7 +2141,7 @@
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery" rend="italic">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
                         <p>C'eſt vous, Monſieur, qui faites le mien ; mais 
                             <lb/>il ne peut être parfait, ſi le cœur de Madame n'eſt 
                             <lb/>d'accord avec vos bontés.
@@ -2156,26 +2157,26 @@
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Adieu, Madame , vous êtes plus punie que moi. 
-                            <lb/>Vous m'aimez, &amp; je pars. <stage type="exit" rend="italic">(Il s'en va.)</stage>
+                            <lb/>Vous m'aimez, &amp; je pars. <stage type="exit" rend="italics">(Il s'en va.)</stage>
                         </p>
                     </sp>
                     <sp who="Milord Houzey">
                         <speaker>MILORD HOUZEY<pc type="affirmative">.</pc></speaker><lb/>
                         <p>Nous partons. Je vais faire mon cours de politeſſe 
-                            <lb/>en <name type="place" n="France">France</name>. <stage type="exit" rend="italic">[Il ſort.]</stage>
+                            <lb/>en <name type="place" n="France">France</name>. <stage type="exit" rend="italics">[Il ſort.]</stage>
                         </p>
                     </sp>
                     <sp who="Rosbif">
                         <speaker>ROSBIF </speaker>
-                        <stage type="delivery" rend="italic">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
                         <p>Adieu, je vous pardonne de m'avoir refuſé. Ce 
                             <lb/>François-là mérite d'être Anglois, vous ne pouviez 
-                            <lb/>pas mieux choisir. <stage type="exit" rend="italic">(Il ſe retire.)</stage>
+                            <lb/>pas mieux choisir. <stage type="exit" rend="italics">(Il ſe retire.)</stage>
                         </p>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery" rend="italic">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à Milord <name type="person" n="Craff">Craff</name>.</stage><lb/>
                         <p>Vous venez, Monſieur, de me convaincre que 
                             <lb/>rien n'eſt au-deſſus d'un Anglois poli.
                         </p>
