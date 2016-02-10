@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -64,12 +65,12 @@
                 <pb n="115"/>
                 <docTitle>
                     <titlePart type="main">LE COMTE <lb/> DE <name type="place" n="Neuilly">NEUILLI</name>, </titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE HEROÏQUE.</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE HEROÏQUE.</titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="116"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LE COMTE DE <name type="place" n="Neuilly">NEUILLI</name></role>.</castItem>
                 <castItem><role>LA MARQUISE</role>.</castItem>
                 <castItem><role>LE MARQUIS</role>, <roleDesc>fils de la Marquiſe</roleDesc>.</castItem>
@@ -78,7 +79,7 @@
                 <castItem><role>NELTON</role>, <roleDesc>confident du Comte de <name type="place" n="Neuilly">Neuilli</name></roleDesc>.</castItem>
             </castList>
             <set>
-                <p rend="center"><hi rend="italic">La Scène eſt à <name type="place" n="Paris">Paris</name>, dans l'Hôtel de la <lb/> Marquiſe.</hi></p>
+                <p rend="center"><hi rend="italics">La Scène eſt à <name type="place" n="Paris">Paris</name>, dans l'Hôtel de la <lb/> Marquiſe.</hi></p>
             </set>
             <lb/>
             <lb/>
@@ -185,14 +186,14 @@
                             <l>Près d'elle, en ce moment, l'amitié me conduit ;</l>
                             <l>D'un devoir ſi preſſant il faut que je m'acquitte ;</l>
                             <l>Et vous m'excuserez, Monſieur, ſi je vous quitte.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Lucie">Lucie</name> rentre.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(<name type="person" n="Lucie">Lucie</name> rentre.)</hi></stage><lb/>
                         </sp>
                     </div2>
                     <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
                         <sp who="Nelton">
                             <speaker>NELTON </speaker>
-                            <stage type="delivery"><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
                             <l><c type="lettrine">D</c>Ans ce jour, malgré moi, je forme ſur Milord</l>
                             <l>Un ſoupçon que j'étouffe &amp; qui renaît plus fort.</l>
                             <l>De ſon ame, avec ſoin, il me cache le trouble ;</l>
@@ -216,10 +217,10 @@
                     </div2>
                     <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
-                        <stage>LE COMTE, NELTON <hi rend="italic">ſe tenant éloigné.</hi></stage><lb/>
+                        <stage>LE COMTE, NELTON <hi rend="italics">ſe tenant éloigné.</hi></stage><lb/>
                         <sp who="Le Comte">
                             <speaker>LE COMTE </speaker>
-                            <stage><hi rend="italic">ſans voir <name type="person" n="Nelton">Nelton</name>.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſans voir <name type="person" n="Nelton">Nelton</name>.</hi></stage><lb/>
                             <l><c type="lettrine">Q</c>Ueltranſports inconnus ! Et quel combat ter-<lb/>rible !</l>
                             <l>A l'amour, juſqu'ici, mon cœur inacceſſible,</l>
                             <l>Avoit ſenti les traits de la ſeule amitié.</l>
@@ -250,7 +251,7 @@
                         </sp>
                         <sp who="Nelton">
                             <speaker>NELTON </speaker>
-                            <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                             <l>Mon ſoupçon étoit juſte, &amp; le Comte a parlé.</l>
                             <l>Le ſecret de ſes feux m'eſt enfin dévoilé.</l>
                         </sp>
@@ -283,7 +284,7 @@
                             <l>Lui fera du devoir ſubir la juſte loi,</l>
                             <l>Et la ſçaura du moins rendre digne de moi.</l>
                             <l>Mais doit-elle éclater ? Ou doit-elle ſe taire ?</l>
-                            <lb/><stage><hi rend="italic">(apercevant <name type="person" n="Nelton">Nelton</name>.)</hi></stage><lb/>
+                            <lb/><stage><hi rend="italics">(apercevant <name type="person" n="Nelton">Nelton</name>.)</hi></stage><lb/>
                             <l>Le conſeil d'un ami me ſeroit néceſſaire.</l>
                             <l><name type="person" n="Nelton">Nelton</name> s'offre à ma vue ; incertain dans mes vœux,</l>
                             <l>Je n'oſe, &amp; je voudrois lui confier mes feux.</l>
@@ -483,14 +484,14 @@
                             <l>Je ſens que mon ardeur a beſoin de ton aide</l>
                             <l>Va, puiſque tu le veux, tu peux agir pour mo<sic></sic><corr>i</corr> ;</l>
                             <l>Je connois ta ſageſſe, &amp; je me livre à toi..</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                         </sp>
                     </div2>
                     <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Nelton">
                             <speaker>NELTON </speaker>
-                            <stage type="delivery"><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
                             <l><c type="lettrine">P</c>Our un Maître ſi grand mon ame s'intereſſe,</l>
                             <l>Et je veux, dans ce jour couronner ſa tendreſſe.</l>
                             <l>Recourons à <name type="person" n="Lucie">Lucie</name> ,employons on apui ;</l>
@@ -631,7 +632,7 @@
                             <l>Uni d'un même ſort, ce que toutes les deux</l>
                             <l>Ont produit de plus rare &amp; de plus vertueux.</l>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer>
                     </div2>
                 </div1>
                 <pb n="129"/>
@@ -694,14 +695,14 @@
                             <l>Pour ne pas conſentir à ſonpropre avantage :</l>
                             <l>Je dois, à ce ſujet, ce ſoir l'entretenir,</l>
                             <l>Gardez-vous de rien dire &amp; de la prévenir.</l>
-                            <lb/><stage type="exit"><hi rend="italic">[Elle ſort.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">[Elle ſort.)</hi></stage><lb/>
                         </sp>
                     </div2>
                     <div2 type="scene" n="3">
                         <head>SCENE III.</head><lb/>
                         <sp who="Lucie">
                             <speaker>LUCIE </speaker>
-                            <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">S</c>A noble ambition eſt digne de louange ;</l>
                             <l>Cependant <name type="person" n="Léonore">Léonore</name> &amp; ſa langueur étrange</l>
                             <l>Ne ceſſent un moment d'agiter mon eſprit ;</l>
@@ -780,7 +781,7 @@
                             <speaker>NELTON.</speaker><lb/>
                             <l part="F">Adieu. Je me retire;</l>
                             <l>Et je vais joindre Milord que je frémis d'inſtruire.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                            <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                         </sp>
                     </div2>
                     <div2 type="scene" n="5">
@@ -860,15 +861,15 @@
                             <speaker>LE MARQUIS.</speaker><lb/>
                             <l>Sa triſteſſe m'allarme, &amp; près d'elle je tremble.</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Lucie">Lucie</name> ſort.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(<name type="person" n="Lucie">Lucie</name> ſort.)</hi></stage><lb/>
                     </div2>
                     <pb n="134"/>
                     <div2 type="scene" n="6">
                         <head>SCENE VI.</head><lb/>
-                        <stage>LE MARQUIS, LÉONORE <hi rend="italic">plongée <lb/> dans la rêverie.</hi></stage><lb/>
+                        <stage>LE MARQUIS, LÉONORE <hi rend="italics">plongée <lb/> dans la rêverie.</hi></stage><lb/>
                         <sp who="Léonore">
                             <speaker>LEONORE </speaker>
-                            <stage><hi rend="italic">ſe trouvant vis-à-vis <lb/> le Marquis.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſe trouvant vis-à-vis <lb/> le Marquis.</hi></stage><lb/>
                             <l><c type="lettrine">A</c>H! Mon Frere, c'eſt vous !</l>
                         </sp>
                         <sp who="Le Marquis">
@@ -1144,7 +1145,7 @@
                             <speaker>LE MARQUIS.</speaker><lb/>
                             <l part="F">Et je vais expirer.</l>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></trailer>
                     </div2>
                 </div1>
                 <pb n="140"/>
@@ -1215,7 +1216,7 @@
                             <speaker>NELTON.</speaker><lb/>
                             <l>A vos ordre, Monſieur, j'obéis ſans remiſe.</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic"><name type="person" n="Nelton">Nelton</name> ſort.</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics"><name type="person" n="Nelton">Nelton</name> ſort.</hi></stage>
                     </div2>
                     <div2 type="scene" n="2">
                         <head>SCENE II.</head><lb/>
@@ -1378,8 +1379,8 @@
                         </sp>
                         <sp who="Le Comte">
                             <speaker>LE COMTE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucie">Lucie</name>.</hi></stage><lb/>
-                            <l>Adieu. <stage type="delivery"><hi rend="italic">(à part.)</hi></stage> Si mon ardeur n'éclate dans ce jour,</l>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucie">Lucie</name>.</hi></stage><lb/>
+                            <l>Adieu. <stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Si mon ardeur n'éclate dans ce jour,</l>
                             <l>Sa fille part demain, je la perds ſans retour.</l>
                             <l>De parler au plûtôt cette raiſon me preſſe;</l>
                             <l>Dans un ſi grand péril déclarons ma tendreſſe.</l>
@@ -1392,7 +1393,7 @@
                         <head>SCENE IV.</head><lb/>
                         <sp who="Lucie">
                             <speaker>LUCIE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">J</c>E déplore ſon ſort, &amp; je plains <name type="person" n="Léonore">Léonore</name> ;</l>
                             <l>Chaque moment accroît l'ennui qui la dévore.</l>
                             <l>Depuis l'inſtant fatal qu'elle a vû le Marquis,</l>
@@ -1406,7 +1407,7 @@
                             <l>Dans le fond de ſon cœur je ne puis pénétrer.</l>
                             <l>Si ſa Mere ſçavoit... Mais je la vois rentrer.</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic">Elle ſort.</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">Elle ſort.</hi></stage>
                     </div2>
                     <div2 type="scene" n="5">
                         <head>SCENE V.</head><lb/>
@@ -1522,13 +1523,13 @@
                             <l>Tenés votre ſecret dans un profond ſilence,</l>
                             <l>Et de vos fiers tyrans redoutés la puiſſance.</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(Elle ſort.)</hi></stage><lb/>
                     </div2>
                     <div2 type="scene" n="6">
                         <head>SCENE VIII.</head><note resp="Joséphine Loterie">Erreur de l'éditeur, il s'agit de la scène VI.</note><lb/>
                         <sp who="Léonore">
                             <speaker>LEONORE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">R</c>Eſpirons ! De ſon fils je ne ſuis pas la ſœur,</l>
                             <l>Et je ſens ſuccomber la joye à la douleur;</l>
                             <l>Je puis l'aimer ſans crime, &amp; je puis le lui dire.</l>
@@ -1549,7 +1550,7 @@
                             <l>J'y vole. Son état a beſoin de ſecours :</l>
                             <l>Chaque inſtant que je perds met en danger ſes jours.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></p>
+                        <lb/><lb/><lb/><trailer rend="center"><hi rend="italics">Fin du troiſiéme Acte.</hi></trailer>
                     </div2>
                 </div1>
                 <pb n="150"/>
@@ -1680,7 +1681,7 @@
                         </sp>
                         <sp who="La Marquise">
                             <speaker>LA MARQUISE </speaker>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucie">Lucie</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucie">Lucie</name>.</hi></stage><lb/>
                             <l>Quel eſt donc le ſujet d'un tel ſaiſiſſement ?</l>
                         </sp>
                         <sp who="Lucie">
@@ -1694,19 +1695,19 @@
                             <l>Je vole à ſon ſecours, &amp; ſuccombe à ce trait.</l>
                             <l>Adieu, Comte ; tantôt vous ſçaurez mon ſecret.</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic">(Elle ſort, avec <name type="person" n="Lucie">Lucie</name>.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(Elle ſort, avec <name type="person" n="Lucie">Lucie</name>.)</hi></stage><lb/>
                     </div2>
                     <div2 type="scene" n="4">
                         <head>SCENE IV.</head><lb/>
                         <sp who="Le Comte">
                             <speaker>LE COMTE </speaker>
-                            <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                             <l><c type="lettrine">C</c>E coup eſt accablant, pour elle j'en ſoupire.</l>
                             <l>Mais quel eſt leſecret qu'elle vouloit dire ?</l>
                             <l>Regarde-t'il <name n="Sussex">Suſſex</name>, ou touche-t'il mes feux?</l>
                             <l>S'il les favoriſoit, que j'en ſerois heureux !</l>
                         </sp>
-                        <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                     </div2>
                     <pb n="154"/>
                     <div2 type="scene" n="5">
@@ -1967,14 +1968,14 @@
                             <speaker>LA MARQUISE.</speaker><lb/>
                             <l>C'eſt un premier tranſport, j'excuſe ſa foibleſſe ;</l>
                             <l>Le tems le calmera, mon Fils, &amp; je vous laiſſe.</l>
-                            <lb/><stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage>
+                            <lb/><stage type="exit"><hi rend="italics">(Elle ſort.)</hi></stage>
                         </sp>
                     </div2>
                     <div2 type="scene" n="8">
                         <head>SCENE VIII.</head><lb/>
                         <sp who="Le Marquis">
                             <speaker>LE MARQUIS </speaker>
-                            <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                             <l><c type="lettrine">N</c>On , le tems ne fera qu'augmenter a fureur</l>
                             <l>Que ne me laiſſoit-on mourir dans mon erreur ?</l>
                             <l>Quand je croyois brûler d'une ardeur criminelle,</l>
@@ -1982,7 +1983,7 @@
                             <l>Que la perte d'un bienque je me ſuis promis,</l>
                             <l>Et qui m'eſt enlevé quand il devient permis.</l>
                         </sp>
-                        <lb/><lb/><p rend="center"><hi rend="italic">Fin de quatriéme Acte.</hi></p>
+                        <lb/><lb/><trailer rend="center"><hi rend="italics">Fin de quatriéme Acte.</hi></trailer>
                     </div2>
                 </div1>
                 <pb n="160"/>
@@ -2113,7 +2114,7 @@
                         <head>SCENE II.</head><lb/>
                         <sp who="Léonore">
                             <speaker>LEONORE </speaker>
-                            <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                            <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                             <l><c type="lettrine">V</c>It-on jamais amans plus malheureux que nous</l>
                             <l>Et peut-on être en butte à de plus rudes coups?</l>
                             <l>A peine délivrés du poids honteux du crime</l>
@@ -2336,7 +2337,7 @@
                             <l>Je me ſens attendrir de tout ce que je voi,</l>
                             <l>Monſieur, &amp; votre exemple eſt une loi pour moi.</l>
                             <pb n="168"/>
-                            <stage type="delivery"><hi rend="italic">à <name type="person" n="Léonore">Léonore</name>.</hi></stage><lb/>
+                            <stage type="delivery"><hi rend="italics">à <name type="person" n="Léonore">Léonore</name>.</hi></stage><lb/>
                             <l>Pour la ſeconde dois entrez dans ma famille,</l>
                         </sp>
                         <sp who="Léonore">
@@ -2348,7 +2349,7 @@
                             <l>Ah, ma mere! Ah, Monſieur ! j'ai trop peu d'une <lb/> voix</l>
                             <l>Pour vous remercier du bien que je vous dois.</l>
                         </sp>
-                        <lb/><lb/><lb/><p rend="center">FIN.</p>
+                        <lb/><lb/><lb/><trailer rend="center">FIN.</trailer>
                     </div2>
                 </div1>
         </body>
