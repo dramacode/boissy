@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -81,7 +82,7 @@
          </castList>
          <lb/><lb/><lb/>
          <set>
-            <p rend="center"><hi rend="italic">La scène est à <name type="place" n="Paris">Paris</name>, dans un Salon de la <lb/>Maiſon du Commandeur.</hi></p>
+            <p rend="center"><hi rend="italics">La scène est à <name type="place" n="Paris">Paris</name>, dans un Salon de la <lb/>Maiſon du Commandeur.</hi></p>
          </set>
       </front>
       <body>
@@ -321,11 +322,11 @@
                   </sp>
                   <sp who="La Fleur">
                      <speaker>LA FLEUR </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Le Chevalier déja m'a découvert ſes feux,</l>
                      <pb n="8"/>
                      <l>Mais faiſons l'ignorant pour mieux ſervir ſes vœux.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                      <l>Cette ſévérité me paroît ſurprenante.</l>
                      <l>Quoi ! Madame <name type="person" n="Finette">Finette</name> eſt-elle auſſi décente ?</l>
                      <l>Rimer, être amoureux, ſont-ce là des travers ?</l>
@@ -668,7 +669,7 @@
                      <l>Pour maintenir la paix &amp; l'ordre dans <name type="place" n="Paris">Paris</name>,</l>
                      <l>Morbleu, vous dévriez en être tous bannis !</l>
                      <l>Le monde gagneroit à cette heureuſe perte.</l>
-                     <lb/><stage type="exit"><hi rend="italic">(il ſort.)</hi></stage><lb/>
+                     <lb/><stage type="exit"><hi rend="italics">(il ſort.)</hi></stage><lb/>
                   </sp>
                   <sp who="Finette">
                      <speaker>FINETTE.</speaker><lb/>
@@ -691,9 +692,9 @@
                      <l>Sa main vous aſſaſſine en voulant vous ſauver.</l>
                      <l>Voilà ce que produit le mépris des uſages.</l>
                      <l>On perd le fruit ſans eux, des conſeils les plus ſages.</l>
-                     <l><name type="person" n="Finette">Finette</name>, éloignez-vous. <stage type="delivery"><hi rend="italic">(à part.)</hi></stage> Mais  je ne ſonge pas</l>
-                     <l>Qu'elle a tout entendu. <stage type="delivery"><hi rend="italic">(haut.)</hi></stage> Revenez ſur vos pas.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(à part.)</hi></stage>
+                     <l><name type="person" n="Finette">Finette</name>, éloignez-vous. <stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Mais  je ne ſonge pas</l>
+                     <l>Qu'elle a tout entendu. <stage type="delivery"><hi rend="italics">(haut.)</hi></stage> Revenez ſur vos pas.</l>
+                     <lb/><stage type="delivery"><hi rend="italics">(à part.)</hi></stage>
                      <pb n="15"/>
                      <l>Pour la mieux engager à garder le ſilence,</l>
                      <l>Faiſons-lui de mon cœur l'entiére confidence.</l>
@@ -705,7 +706,7 @@
                   </sp>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Quel effort ! je ne puis m'abaiſſer juſques-là.</l>
                   </sp>
                   <sp who="Finette">
@@ -715,10 +716,10 @@
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE.</speaker><lb/>
                      <l part="F">Rien. J'ai changé de penſée.</l>
-                     <l>Non, demeurez plûtôt. <stage type="delivery"><hi rend="italic">(à part.)</hi></stage> Parlons, j'y ſuis forcée</l>
+                     <l>Non, demeurez plûtôt. <stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Parlons, j'y ſuis forcée</l>
                      <l>Par l'éclat indiſcret qu'a fait le Commandeur,</l>
                      <l>Et beacoup plus encore par l'éclat de mon cœur.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                      <l>Aprochez. Dans le trouble om mon ame eſt plongée,</l>
                      <l>D'épancher mes ſecrets, je me vois obligée.</l>
                      <l>Votre zèle éprouvé, votre air modeſte &amp; doux</l>
@@ -922,7 +923,7 @@
                   <head>SCENE IV.</head><lb/>
                   <sp who="Finette">
                      <speaker>FINETTE </speaker>
-                     <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l><c type="lettrine">P</c>Our le coupje triomphe &amp; ma gloire eſt entiére.</l>
                      <l>Ma voilà confidente, &amp; j'en ſuis toute fiére.</l>
                      <l>Madame me remet le ſoin de ſon bonheur,</l>
@@ -934,7 +935,7 @@
                      <l>Son ſecret confié me rendra tout facile.</l>
                      <l>On eſt maître des grands dès qu'on leur eſt utile.</l>
                   </sp>
-                  <p rend="center"><hi rend="italic">Fin du premier Acte.</hi></p>
+                  <p rend="center"><hi rend="italics">Fin du premier Acte.</hi></p>
                </div2>
             </div1>
             <pb n="20"/>
@@ -1096,10 +1097,10 @@
                   <stage>LUCILE, FINETTE.</stage><lb/>
                   <sp who="Finette">
                      <speaker>FINETTE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l><c type="lettrine">E</c>Lle eſt ſeule, &amp; paroît rêver profondément.</l>
                      <l>Pour lire dans ſon cœur, ſaiſiſſons ce moment.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                      <l>Mademoiſelle eſt bien ſolitaire &amp; rêveuſe.</l>
                      <l>Si j'en crois de ſes yeux l'expreſſion flatteuſe,</l>
                      <l>Sa rêverie eſt douce, &amp; quelque aimable objet,</l>
@@ -1218,7 +1219,7 @@
                   <head>SCENE IV.</head><lb/>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l><c type="lettrine">J</c>E dois, plus que jamais, leur cacher mon ardeur</l>
                      <l>Tout conſpire en ces lieux pour pénétrer mon cœur.</l>
                      <l>Je vous qu'à mon ſujet, ma Couſine inquiéte,</l>
@@ -1262,7 +1263,7 @@
                   <stage>LE COMMANDEUR, LUCILE.</stage><lb/>
                   <sp who="Le Commandeur">
                      <speaker>LE COMMANDEUR </speaker>
-                     <stage><hi rend="italic">ſans voir <name type="person" n="Lucile">Lucile</name>.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſans voir <name type="person" n="Lucile">Lucile</name>.</hi></stage><lb/>
                      <l><c type="lettrine">O</c>H! J'ai tanſé,parbleu,nos enſeurs d'importance.</l>
                      <l>Et lorſqu'à la Marquiſe ils feront le Procès,</l>
                      <l>Ils ne me prendront plus pour juge de leurs traits.</l>
@@ -1276,7 +1277,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Diſſimulons, peut-être eſt-ce un piége couvert.</l>
                   </sp>
                   <sp who="Le Commandeur">
@@ -1557,7 +1558,7 @@
                   <head>SCENE VI.</head><lb/>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l><c type="lettrine">L</c>A menace eſt nouvelle &amp; j'en ris malgré moi.</l>
                      <l>De concert, ſans le croire, ila git, je le vois.</l>
                      <l>Voilà qui juſtifie, &amp; confirme a crainte.</l>
@@ -1626,7 +1627,7 @@
                      <l>Et je ſouffre, preſent, les tourmens de l'abſence.</l>
                      <l>Je n'ai pû parvenir depuis ſix mois, enfin,</l>
                      <l>Au bonheur ſeulement de baiſer votre main.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il lui baiſe la main.)</hi></stage>
+                     <lb/><stage type="business"><hi rend="italics">(Il lui baiſe la main.)</hi></stage>
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE.</speaker><lb/>
@@ -1795,7 +1796,7 @@
                   <pb n="37"/>
                   <sp who="Le Baron">
                      <speaker>LE BARON </speaker>
-                     <stage><hi rend="italic">rêve en s'en allant.</hi></stage><lb/>
+                     <stage><hi rend="italics">rêve en s'en allant.</hi></stage><lb/>
                      <l part="F">Il eſt tant de moyens.</l>
                      <l>Si j'en puis trouver un... Pour le coup je le tiens.</l>
                      <l>Nous pourrons en ſecret nous voir au <name type="place" n="Tuileries">Thuilleries</name>.</l>
@@ -1847,7 +1848,7 @@
                      <l>La charge de tutrice, &amp; l'office d'amante,</l>
                      <l>La rôle de maîtreſſe, &amp; l'emploi de ſuivante.</l>
                   </sp>
-                  <p rend="center"><hi rend="italic">Fin du ſecond Acte.</hi></p>
+                  <p rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></p>
                </div2>
             </div1>
             <pb n="38"/>
@@ -1934,12 +1935,12 @@
                   </sp>
                   <sp who="Le Baron">
                      <speaker>LE BARON </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="F">Ciel ! Je crains que <name type="person" n="Lucile">Lucile</name>....</l>
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="business"><hi rend="italic">l'arrêtant.</hi></stage><lb/>
+                     <stage type="business"><hi rend="italics">l'arrêtant.</hi></stage><lb/>
                      <l>Tu fais pour m'échaper un effort inutile.</l>
                      <l>Pour la gloire des vers, pour l'honneur de l'eſprit,</l>
                      <l>Je prétens diſſiper l'erreur qui te ſéduit;</l>
@@ -2040,7 +2041,7 @@
                   <head>SCENE III.</head><lb/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="delivery"><hi rend="italic">ſeul.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">ſeul.</hi></stage><lb/>
                      <l><c type="lettrine">N</c>Ous vivons dans des tems ſi durs &amp; ſi cauſ-<lb/>tiques,</l>
                      <l>Que nos meilleurs amis ſont nos plus grands critiques,</l>
                      <l>Que les talens déchus de leur honneurs paſſés,</l>
@@ -2052,7 +2053,7 @@
                   <stage>LE CHEVALIER, LA FLEUR.</stage><lb/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="delivery"><hi rend="italic">à <name type="person" n="La Fleur">La Fleur</name>.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à <name type="person" n="La Fleur">La Fleur</name>.</hi></stage><lb/>
                      <l part="I"><c type="lettrine">P</c>Arles, as-tu vû <name type="person" n="Finette">Finette</name>?</l>
                   </sp>
                   <sp who="La Fleur">
@@ -2128,10 +2129,10 @@
                   <stage>LUCILE, LE CHEVALIER.</stage><lb/>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l><c type="lettrine">V</c>Oilà le Chevalier. Qu'il paroît plein de foi!</l>
                      <l>Pour rire ) ſes dépens, faiſons-lui politeſſe.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">[haut.</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">[haut.</hi></stage><lb/>
                      <l>Monſieur, toute la <name type="place" n="France">France</name> à vous louer s'empreſſe.</l>
                   </sp>
                   <pb n="44"/>
@@ -2177,16 +2178,16 @@
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l>Perſonne, mieux que vous, n'en peut ſentir le prix.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
                      <lg>
-                        <l><hi rend="italic">Une linote enchantereſſe</hi></l>
-                        <l><hi rend="italic">Embraſoit un ſerin de l'amour le plus vif.</hi></l>
-                        <l><hi rend="italic">Elle ignoroit l'excès de ſa tendreſſe;</hi></l>
-                        <l><hi rend="italic">Et notre oiſeau n'étoit qu'amant contemplatif.</hi></l>
-                        <l><hi rend="italic">Loin de montrer l'orgueil de ceux de ſon eſpéce,</hi></l>
-                        <l><hi rend="italic">Et d'être fier de ſon talent,</hi></l>
-                        <l><hi rend="italic">Il n'oſoit faire entendre auprès de ſa maîtreſſe</hi></l>
-                        <l><hi rend="italic">Les éclats redoublés de ſon goſier brillant.</hi></l>
+                        <l><hi rend="italics">Une linote enchantereſſe</hi></l>
+                        <l><hi rend="italics">Embraſoit un ſerin de l'amour le plus vif.</hi></l>
+                        <l><hi rend="italics">Elle ignoroit l'excès de ſa tendreſſe;</hi></l>
+                        <l><hi rend="italics">Et notre oiſeau n'étoit qu'amant contemplatif.</hi></l>
+                        <l><hi rend="italics">Loin de montrer l'orgueil de ceux de ſon eſpéce,</hi></l>
+                        <l><hi rend="italics">Et d'être fier de ſon talent,</hi></l>
+                        <l><hi rend="italics">Il n'oſoit faire entendre auprès de ſa maîtreſſe</hi></l>
+                        <l><hi rend="italics">Les éclats redoublés de ſon goſier brillant.</hi></l>
                      </lg>
                   </sp>
                   <sp who="Lucile">
@@ -2207,31 +2208,31 @@
                      <speaker>LE CHEVALIER </speaker>
                      <stage>reprend avec entouſiaſme.</stage><lb/>
                      <lg>
-                        <l><hi rend="italic">Une linote enchantereſſe</hi></l>
-                        <l><hi rend="italic">Embraſoit un ſerin de l'amour le plus vif.</hi></l>
-                        <l><hi rend="italic">Elle ignoroit l'excès de ſa tendreſſe;</hi></l>
-                        <l><hi rend="italic">Et notre oiſeau n'étoit qu'amant contemplatif.</hi></l>
-                        <l><hi rend="italic">Loin de montrer l'orgueil de ceux de ſon eſpéce,</hi></l>
-                        <l><hi rend="italic">Et d'être fier de ſon talent,</hi></l>
-                        <l><hi rend="italic">Il n'oſoit faire entendre auprès de ſa maîtreſſe</hi></l>
-                        <l><hi rend="italic">Les éclats redoublés de ſon goſier brillant.</hi></l>
-                        <l><hi rend="italic">Enchanté de ſes ſons, charmé de ſa fineſſe,</hi></l>
-                        <l><hi rend="italic">Il ſe bornoit à l'écouter.</hi></l>
-                        <l><hi rend="italic">Sont trop d'amour le rendoit bête :</hi></l>
-                        <l><hi rend="italic">Mais il vint un moment dont il ſçut ptofiter.</hi></l>
-                        <l><hi rend="italic">Ils ſe trouvérent tête à tête,</hi></l>
-                        <l><hi rend="italic">L'occaſion l'enhardit à chanter.</hi></l>
-                        <l><hi rend="italic">Linote, de mon cœur recevez mon hommage,</hi></l>
-                        <l><hi rend="italic">Lui dit-il, ſur un ton preſſant.</hi></l>                 
-                        <l><hi rend="italic">Je n'oſe vanter mon plumage,</hi></l>
-                        <l><hi rend="italic">On en voit de plus éclatant;</hi></l>
-                        <l><hi rend="italic">Mais dans ce favorable inſtant,</hi></l>
-                        <l><hi rend="italic">Prêtez l'oreille à mon ramage,</hi></l>
-                        <l><hi rend="italic">Il n'en eſt point de plus touchant.</hi></l>
-                        <l><hi rend="italic">Tous les feux de l'amour ont paſſé dans mon chant.</hi></l>
-                        <l><hi rend="italic">Pour rendre mon bonheur extrême,</hi></l>
-                        <l><hi rend="italic">Et l'accord plus intéreſſant,</hi></l>
-                        <l><hi rend="italic">Ramagez avec moi, ramagz, je vous aime.]</hi></l>
+                        <l><hi rend="italics">Une linote enchantereſſe</hi></l>
+                        <l><hi rend="italics">Embraſoit un ſerin de l'amour le plus vif.</hi></l>
+                        <l><hi rend="italics">Elle ignoroit l'excès de ſa tendreſſe;</hi></l>
+                        <l><hi rend="italics">Et notre oiſeau n'étoit qu'amant contemplatif.</hi></l>
+                        <l><hi rend="italics">Loin de montrer l'orgueil de ceux de ſon eſpéce,</hi></l>
+                        <l><hi rend="italics">Et d'être fier de ſon talent,</hi></l>
+                        <l><hi rend="italics">Il n'oſoit faire entendre auprès de ſa maîtreſſe</hi></l>
+                        <l><hi rend="italics">Les éclats redoublés de ſon goſier brillant.</hi></l>
+                        <l><hi rend="italics">Enchanté de ſes ſons, charmé de ſa fineſſe,</hi></l>
+                        <l><hi rend="italics">Il ſe bornoit à l'écouter.</hi></l>
+                        <l><hi rend="italics">Sont trop d'amour le rendoit bête :</hi></l>
+                        <l><hi rend="italics">Mais il vint un moment dont il ſçut ptofiter.</hi></l>
+                        <l><hi rend="italics">Ils ſe trouvérent tête à tête,</hi></l>
+                        <l><hi rend="italics">L'occaſion l'enhardit à chanter.</hi></l>
+                        <l><hi rend="italics">Linote, de mon cœur recevez mon hommage,</hi></l>
+                        <l><hi rend="italics">Lui dit-il, ſur un ton preſſant.</hi></l>                 
+                        <l><hi rend="italics">Je n'oſe vanter mon plumage,</hi></l>
+                        <l><hi rend="italics">On en voit de plus éclatant;</hi></l>
+                        <l><hi rend="italics">Mais dans ce favorable inſtant,</hi></l>
+                        <l><hi rend="italics">Prêtez l'oreille à mon ramage,</hi></l>
+                        <l><hi rend="italics">Il n'en eſt point de plus touchant.</hi></l>
+                        <l><hi rend="italics">Tous les feux de l'amour ont paſſé dans mon chant.</hi></l>
+                        <l><hi rend="italics">Pour rendre mon bonheur extrême,</hi></l>
+                        <l><hi rend="italics">Et l'accord plus intéreſſant,</hi></l>
+                        <l><hi rend="italics">Ramagez avec moi, ramagz, je vous aime.]</hi></l>
                      </lg>
                   </sp>
                   <sp who="Lucile">
@@ -2262,14 +2263,14 @@
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l part="F">de vous dépend ſa fortune qui flotte.</l>
                      <l>Vous voyez le ſerin au pied de la linotte.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il ſe jette à ſes pieds.]</hi></stage>
+                     <lb/><stage type="business"><hi rend="italics">(Il ſe jette à ſes pieds.]</hi></stage>
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Mon cœur eſt révolté ; mais feignons aujourd'hui,</l>
                      <l>Et ſervons ma tendreſſe en nous moquant de lui.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                      <l>Levez-vous, Chevalier, l'attitude eſt gênante.</l>
                   </sp>
                   <sp who="Le Chevalier">
@@ -2288,7 +2289,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Ah ! Vous m'attendrirez pour le moineau que j'aime.</l>
                   </sp>
                   <sp who="Le Chevalier">
@@ -2341,7 +2342,7 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">embaraſſé.</hi></stage><lb/>
+                     <stage><hi rend="italics">embaraſſé.</hi></stage><lb/>
                      <l>Ils ne ſont qu'ébauchés.</l>
                   </sp>
                   <sp who="La Marquise">
@@ -2369,7 +2370,7 @@
                   <pb n="48"/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="F">L'embarras eſt extrême.</l>
                   </sp>
                   <sp who="La Marquise">
@@ -2379,8 +2380,8 @@
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l>Puiſque vous le voulez, je vais... vous ennuyer.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il fait ſemblant de lire.)</hi></stage><lb/>
-                     <l><hi rend="italic">Un roſſignol....</hi></l>
+                     <lb/><stage type="business"><hi rend="italics">(Il fait ſemblant de lire.)</hi></stage><lb/>
+                     <l><hi rend="italics">Un roſſignol....</hi></l>
                   </sp>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE.</speaker><lb/>
@@ -2388,12 +2389,12 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">pourſuit.</hi></stage><lb/>
+                     <stage><hi rend="italics">pourſuit.</hi></stage><lb/>
                      <lg>
-                        <l><hi rend="italic">Un roſſignol amoureux &amp; fidèle....</hi></l>
-                        <l><hi rend="italic">Avec une jeune hirondelle....</hi></l>
-                        <l><hi rend="italic">Innocemment s'entretenoit...</hi></l>
-                        <l part="I"><hi rend="italic">Pour...</hi></l>
+                        <l><hi rend="italics">Un roſſignol amoureux &amp; fidèle....</hi></l>
+                        <l><hi rend="italics">Avec une jeune hirondelle....</hi></l>
+                        <l><hi rend="italics">Innocemment s'entretenoit...</hi></l>
+                        <l part="I"><hi rend="italics">Pour...</hi></l>
                      </lg>
                   </sp>
                   <sp who="La Marquise">
@@ -2403,11 +2404,11 @@
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <lg>
-                        <l><hi rend="italic">Pour adoucir ſa vive impatience...</hi></l>
-                        <l><hi rend="italic">Attendant la douce préſence....</hi></l>
-                        <l><hi rend="italic">De la fauvette qu'il aimoit....</hi></l>
-                        <l><hi rend="italic">Elle paroît enfin... l'hirondelle.... s'envole....</hi></l>
-                        <l part="I"><hi rend="italic">S'envole...</hi></l>
+                        <l><hi rend="italics">Pour adoucir ſa vive impatience...</hi></l>
+                        <l><hi rend="italics">Attendant la douce préſence....</hi></l>
+                        <l><hi rend="italics">De la fauvette qu'il aimoit....</hi></l>
+                        <l><hi rend="italics">Elle paroît enfin... l'hirondelle.... s'envole....</hi></l>
+                        <l part="I"><hi rend="italics">S'envole...</hi></l>
                      </lg>
                   </sp>
                   <sp who="La Marquise">
@@ -2416,19 +2417,19 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">s'interrompant.</hi></stage><lb/>
+                     <stage><hi rend="italics">s'interrompant.</hi></stage><lb/>
                      <l part="F">L'endroit eſt raturé.</l>
                      <l part="I">J'y ſuis.</l>
-                     <lb/><stage><hi rend="italic">(Il continue.)</hi></stage><lb/>
+                     <lb/><stage><hi rend="italics">(Il continue.)</hi></stage><lb/>
                      <lg>
-                        <l part="F"><hi rend="italic">Le roſſignol, à l'aſpect deſiré....</hi></l>
-                        <l><hi rend="italic">De la fauvette ſon idole....</hi></l>
-                        <l><hi rend="italic">Se taît.... paroît mal aſſuré....</hi></l>
-                        <l><hi rend="italic">Elle interprête mal ſon trouble.... &amp; ſon ſilence.</hi></l>
-                        <l><hi rend="italic">C'eſt ainſi que trompé.... trompé par l'aparence,</hi></l>
-                        <l><hi rend="italic">On forme un injuſte ſoupçon.</hi></l>
-                        <l><hi rend="italic">Le hazard.... fait ſouvent porter à l'innocence</hi></l>
-                        <l><hi rend="italic">Les couleurs de la trahiſon.</hi></l>
+                        <l part="F"><hi rend="italics">Le roſſignol, à l'aſpect deſiré....</hi></l>
+                        <l><hi rend="italics">De la fauvette ſon idole....</hi></l>
+                        <l><hi rend="italics">Se taît.... paroît mal aſſuré....</hi></l>
+                        <l><hi rend="italics">Elle interprête mal ſon trouble.... &amp; ſon ſilence.</hi></l>
+                        <l><hi rend="italics">C'eſt ainſi que trompé.... trompé par l'aparence,</hi></l>
+                        <l><hi rend="italics">On forme un injuſte ſoupçon.</hi></l>
+                        <l><hi rend="italics">Le hazard.... fait ſouvent porter à l'innocence</hi></l>
+                        <l><hi rend="italics">Les couleurs de la trahiſon.</hi></l>
                      </lg>
                   </sp>
                   <pb n="49"/>
@@ -2452,7 +2453,7 @@
                   <stage>LA MARQUISE, LE CHEVALIER, <lb/>FINETTE</stage><lb/>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage type="delivery"><hi rend="italic">à <name type="person" n="Finette">Finette</name></hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à <name type="person" n="Finette">Finette</name></hi></stage><lb/>
                      <l part="I"><c type="lettrine">Q</c>Ue vouslez-vous?</l>
                   </sp>
                   <sp who="Finette">
@@ -2486,7 +2487,7 @@
                   <stage>LE COMMANDEUR, LA MARQUISE, <lb/>FINETTE.</stage><lb/>
                   <sp who="Le Commandeur">
                      <speaker>LE COMMANDEUR </speaker>
-                     <stage type="delivery"><hi rend="italic">à <name type="person" n="Finette">Finette</name>.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à <name type="person" n="Finette">Finette</name>.</hi></stage><lb/>
                      <l><c type="lettrine">R</c>Etirez-vous, je vux parler ſeul à ma Niéce.</l>
                   </sp>
                </div2>
@@ -2569,7 +2570,7 @@
                   </sp>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage><hi rend="italic">avec trouble.</hi></stage><lb/>
+                     <stage><hi rend="italics">avec trouble.</hi></stage><lb/>
                      <l>Vous le croyez ,Monſieur. D'où vous naît cette <lb/>idée ?</l>
                   </sp>
                   <pb n="52"/>
@@ -2745,7 +2746,7 @@
                      <l>Quand elles penſent bien, rien n'égale les Dames :</l>
                      <l>Et pour bien gouverner, ma foi, vive les femmes.</l>
                   </sp>
-                  <lb/><lb/><lb/><p rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></p>
+                  <lb/><lb/><lb/><p rend="center"><hi rend="italics">Fin du troiſiéme Acte.</hi></p>
                </div2>
             </div1>
             <pb n="56"/>
@@ -2874,7 +2875,7 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">avec tranſport.</hi></stage><lb/>
+                     <stage><hi rend="italics">avec tranſport.</hi></stage><lb/>
                      <l part="M">Tendres !</l>
                   </sp>
                   <sp who="Lucile">
@@ -2912,7 +2913,7 @@
                   <head>SCENE II.</head><lb/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                      <l><c type="lettrine">T</c>U vois , ſelon tes vœux, réuſſir tes ardeurs.</l>
                      <l>Courage, Chevalier, écris-toi des douceurs ;</l>
                      <l>Uſe, pour ton bonheur, du pouvoir qu'on te donne.</l>
@@ -2921,28 +2922,28 @@
                      <l>Et je ſuis trop heureux pour avoir des remords.</l>
                      <l>Rimons. Voici l'encre. Allons , ſans plus attendre,</l>
                      <l>Faiſons-nous un aveu du ſtyle le plus tendre.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il s'aſſied près d'une table, rêve quelque tems ,
+                     <lb/><stage type="business"><hi rend="italics">(Il s'aſſied près d'une table, rêve quelque tems ,
                         <lb/> puis écrit , en récitant tout haut.)</hi></stage><lb/>
-                     <l><hi rend="italic">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
-                     <l><hi rend="italic">Secret... Je m'y réſous, quelque effort qu'il m'en coûte.</hi></l>
-                     <l><hi rend="italic">Puiſqu'il peut ſeul... diſſiper votre doute.</hi></l>
-                     <lb/><stage type="business"><hi rend="italic">(Il s'interrompt.)</hi></stage><lb/>
+                     <l><hi rend="italics">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
+                     <l><hi rend="italics">Secret... Je m'y réſous, quelque effort qu'il m'en coûte.</hi></l>
+                     <l><hi rend="italics">Puiſqu'il peut ſeul... diſſiper votre doute.</hi></l>
+                     <lb/><stage type="business"><hi rend="italics">(Il s'interrompt.)</hi></stage><lb/>
                      <l>Mon eſprit, à preſent, cherche une rime en et.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il écrit.)</hi></stage><lb/>
-                     <l><hi rend="italic">Un Cavalier... charmant... ſpirituel... bien fait.</hi></l>
-                     <lb/><stage type="business"><hi rend="italic"></hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Il écrit.)</hi></stage><lb/>
+                     <l><hi rend="italics">Un Cavalier... charmant... ſpirituel... bien fait.</hi></l>
+                     <lb/><stage type="business"><hi rend="italics"></hi></stage><lb/>
                      <l>Ce Cavalier c'eſt moi... Mais que lui fais-je dire ?</l>
                      <l>Que je ſerois charmant, moi, dois-je me l'écrire ?</l>
                      <l>Cette fatuité révolte la raiſon.</l>
                      <l>L'amour propre eſt toujours un mauvais <name type="person" n="Apollon">Apollon</name> ;</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il efface.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Il efface.)</hi></stage><lb/>
                      <l>Ce qu'il dicte d'abord, le bon ſens le rature.</l>
                      <l>La rime qui me fuit, me met à la torture;</l>
                      <l>Tantôt pour la Marquiſe elle m'a mieux ſervi ;</l>
                      <l>Je voulois la tromper , j'ai d'abo<sic></sic><corr>r</corr>d réuſſi.</l>
                      <l>Quand on dit vrai, la rime eſt lente dans ſa courſe ;</l>
                      <l>Mais, lorſqu'il faut mentir, les vers coulent de ſource.</l>
-                     <lb/><stage type="business"><hi rend="italic">[Il ſe leve.]</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">[Il ſe leve.]</hi></stage><lb/>
                      <l>On eſt contraint aſſis, &amp;, par d'étroits raports,</l>
                      <pb n="60"/>
                      <l>L'eſprit ſe ſent toujour de la gêne du corps.</l>
@@ -2958,7 +2959,7 @@
                   <stage>LE CHEVALIER, FINETTE.</stage><lb/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="business"><hi rend="italic">ſaiſiſſant le bras <lb/> de <name type="person" n="Finette">Finette</name>.</hi></stage><lb/>
+                     <stage type="business"><hi rend="italics">ſaiſiſſant le bras <lb/> de <name type="person" n="Finette">Finette</name>.</hi></stage><lb/>
                      <l part="I"><c type="lettrine">P</c>Our le coup, je la tiens.</l>
                   </sp>
                   <sp who="Finette">
@@ -2967,7 +2968,7 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="business"><hi rend="italic">dans l'entouſiaſme.</hi></stage><lb/>
+                     <stage type="business"><hi rend="italics">dans l'entouſiaſme.</hi></stage><lb/>
                      <l>Vous êtes conſtamment l'objet de mes deſirs ;</l>
                      <l>Et votre rencontre imprévûe,</l>
                      <l>Me donne de certains plaiſirs</l>
@@ -3017,7 +3018,7 @@
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage><hi rend="italic">avec ſurpriſe.</hi></stage><lb/>
+                     <stage><hi rend="italics">avec ſurpriſe.</hi></stage><lb/>
                      <l part="I">C'eſt <name type="person" n="Finette">Finette</name>!</l>
                   </sp>
                   <sp who="Finette">
@@ -3036,7 +3037,7 @@
                   <head>SCENE IV.</head><lb/>
                   <sp who="Finette">
                      <speaker>FINETTE </speaker>
-                     <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l><c type="lettrine">J</c>E  vois preſentement qu'il étoit dans l'accès.</l>
                      <l>A de pareils oublis ces Meſſieurs ſont ſujets.</l>
                      <l>Dans l'inſtant qu'un Poëte à ſon feu s'abandonne,</l>
@@ -3122,7 +3123,7 @@
                   <head>SCENE VI.</head><lb/>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l><c type="lettrine">A</c>Mour , juſqu'à quel point avilis-tu mon cœur ?</l>
                      <l>Je ne puis plus cacher mon trouble intérieur ;</l>
                      <l>Et je crains que le ſoin dont je ſuis dévorée,</l>
@@ -3141,10 +3142,10 @@
                   <stage>LA MARQUISE, LUCILE.</stage><lb/>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l><c type="lettrine">R</c>Endons nous, de<sic></sic><corr> </corr>mes ſe en ſa preſence,ſens, maîtreſ</l>
                      <l>Et craignons de parler même par mon ſilence.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(haut.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
                      <l>Ma Couſine, on m'a dit que vous me demandiez.</l>
                   </sp>
                   <sp who="La Marquise">
@@ -3237,7 +3238,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Elle obſerve mes yeux ; ferme dans ces inſtant.</l>
                      <pb n="66"/>
                      <l>Ce n'eſt qu'un piége adroit que ſon eſprit me tend.</l>
@@ -3255,7 +3256,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Ses regards, en effet, m'auroient-ils démêlée ?</l>
                   </sp>
                   <sp who="La Marquise">
@@ -3282,7 +3283,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="F">Elle ſe paſſionne :</l>
                      <l>On diroit qu'elle peint ſon amant dans le mien.</l>
                   </sp>
@@ -3301,7 +3302,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Ce n'eſt pas le Baron que ſon eſprit ſoupçonne,</l>
                      <l part="I">Mais elle peut l'aimer.</l>
                   </sp>
@@ -3311,7 +3312,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l>Feignons, pour achever de démêler ſon cœur,</l>
                      <l>Et, par un faux aveu, confirmons ſon erreur.</l>
                   </sp>
@@ -3339,7 +3340,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE.</speaker><lb/>
-                     <l><stage type="delivery"><hi rend="italic">(à part.)</hi></stage> Vous l'êtes plus que moi. <stage type="delivery"><hi rend="italic">(haut.)</hi></stage> Ménagez-moi, Marquiſe ;</l>
+                     <l><stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Vous l'êtes plus que moi. <stage type="delivery"><hi rend="italics">(haut.)</hi></stage> Ménagez-moi, Marquiſe ;</l>
                      <l part="I">On rougiroit à moins.</l>
                   </sp>
                   <sp who="La Marquise">
@@ -3358,18 +3359,18 @@
                   <pb n="68"/>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="I">Qu'entens-je ?</l>
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="F">Elle n'eſt pas, à coup ſûr, ma rivale,</l>
                      <l>Sa douleur me l'aprend. Ma joye eſt ſans égale.</l>
                   </sp>
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE </speaker>
-                     <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                      <l part="F">Cachons à ſes regards mon juſte déſeſpoir.</l>
                   </sp>
                   <sp who="Lucile">
@@ -3394,7 +3395,7 @@
                   <sp who="La Marquise">
                      <speaker>LA MARQUISE.</speaker><lb/>
                      <l>Vous former, ma Vouſine, un ſoupçon qui me bleſſe.</l>
-                     <lb/><stage type="delivery"><hi rend="italic">[à part]</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">[à part]</hi></stage><lb/>
                      <l>Gardons-nous d'avouer qu'il obtient ma tendreſſe,</l>
                      <l>Elle en ſeroit trop vaine ; &amp; mon orgueil jamoux</l>
                      <l>Veut dérober au ſien un triomphe ſi doux.</l>
@@ -3481,7 +3482,7 @@
                      <l>Qu'on n'a point de cenſeur plus cruel que ſoi-même.</l>
                   </sp>
                   <lb/><lb/><lb/>
-                  <p rend="center"><hi rend="italic">Fin du quatriéme Acte.</hi></p>
+                  <p rend="center"><hi rend="italics">Fin du quatriéme Acte.</hi></p>
                </div2>
             </div1>
             <pb n="71"/>
@@ -3523,30 +3524,30 @@
                   <sp who="Lucile">
                      <speaker>LUCILE.</speaker><lb/>
                      <l part="F">Un moment; Qu'on me laiſſe.</l>
-                     <lb/><stage type="business"><hi rend="italic">(<name type="person" n="La Fleur">La Fleur</name> s'éloigne.]</hi></stage><lb/>
-                     <lb/><stage type="business"><hi rend="italic">(Elle lit.)</hi></stage><lb/>
-                     <p rend="italic">Voilà, charmante <name type="person" n="Lucile">Lucile</name>, la réponſe où mon ſort eſt 
+                     <lb/><stage type="business"><hi rend="italics">(<name type="person" n="La Fleur">La Fleur</name> s'éloigne.]</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Elle lit.)</hi></stage><lb/>
+                     <p rend="italics">Voilà, charmante <name type="person" n="Lucile">Lucile</name>, la réponſe où mon ſort eſt 
                         <lb/> attaché ; ſi vous l'adoptez, daignez au plûtôt m'en en-
                         <lb/>voyer une copie de votre main, &amp; mettre par-là le com-
                         <lb/>ble à mon bonheur.</p>
                      <lg>
-                        <l><hi rend="italic">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
-                        <l><hi rend="italic">J'aime ; ce mot vous dit d'être diſcret.</hi></l>
-                        <l><hi rend="italic">Et vous prouve ma confiance.</hi></l>
-                        <l><hi rend="italic">Ne vous alarmez pas de cette confidence ;</hi></l>
-                        <l><hi rend="italic">Vous auriez tort d'en paroître jaloux.</hi></l>
-                        <l><hi rend="italic">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
-                        <l><hi rend="italic">Je vous nomme ſans que j'y penſe;</hi></l>
-                        <l><hi rend="italic">Je ſouffre à regret votre abſence,</hi></l>
-                        <l><hi rend="italic">Et ſens, à votre aſpect  les tranſports les plus doux.</hi></l>
-                        <l><hi rend="italic">J'ai du plaiſir à vous l'écrire,</hi></l>
-                        <l><hi rend="italic">Et j'en aurai, ſi vous venez ce ſoir,</hi></l>
-                        <l><hi rend="italic">J'en aurai cent fois plus encore à vous le dire,</hi></l>
-                        <l><hi rend="italic">Puiſque je jouirai de celui de vous voir.</hi></l>
+                        <l><hi rend="italics">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
+                        <l><hi rend="italics">J'aime ; ce mot vous dit d'être diſcret.</hi></l>
+                        <l><hi rend="italics">Et vous prouve ma confiance.</hi></l>
+                        <l><hi rend="italics">Ne vous alarmez pas de cette confidence ;</hi></l>
+                        <l><hi rend="italics">Vous auriez tort d'en paroître jaloux.</hi></l>
+                        <l><hi rend="italics">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
+                        <l><hi rend="italics">Je vous nomme ſans que j'y penſe;</hi></l>
+                        <l><hi rend="italics">Je ſouffre à regret votre abſence,</hi></l>
+                        <l><hi rend="italics">Et ſens, à votre aſpect  les tranſports les plus doux.</hi></l>
+                        <l><hi rend="italics">J'ai du plaiſir à vous l'écrire,</hi></l>
+                        <l><hi rend="italics">Et j'en aurai, ſi vous venez ce ſoir,</hi></l>
+                        <l><hi rend="italics">J'en aurai cent fois plus encore à vous le dire,</hi></l>
+                        <l><hi rend="italics">Puiſque je jouirai de celui de vous voir.</hi></l>
                      </lg>
-                     <lb/><stage><hi rend="italic">(après avoir lû.)</hi></stage><lb/>
+                     <lb/><stage><hi rend="italics">(après avoir lû.)</hi></stage><lb/>
                      <l>Oui, voilà juſtement les vers que je deſire.</l>
-                     <lb/><stage><hi rend="italic">(à <name type="person" n="La Fleur">La Fleur</name> qui s'aproche.)</hi></stage><lb/>
+                     <lb/><stage><hi rend="italics">(à <name type="person" n="La Fleur">La Fleur</name> qui s'aproche.)</hi></stage><lb/>
                      <l>Le Chevalier m'oblige, &amp; vous pouvez lui dire</l>
                      <l>Que j'aprouve ſes vers, que je les copierai,</l>
                      <l>Et qu'il peut être ſûr que les enverrai.</l>
@@ -3556,7 +3557,7 @@
                   <head>SCENE III.</head><lb/>
                   <sp who="La Fleur">
                      <speaker>LA FLEUR </speaker>
-                     <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                      <l><c type="lettrine">E</c>Lle va les écrire, &amp;, par une autre voye,</l>
                      <l>on Maître les aurai. Que ſera ſa joye !</l>
                      <l>Mais j'aperçois <name type="person" n="Finette">Finette</name>; elle a l'air agité.</l>
@@ -3825,14 +3826,14 @@
                      <l>Je ſuis Amant parfait, mais Poëte exécrable ,</l>
                      <l>J'ai recours à ta verve en cette extrémité ;</l>
                      <l>Ecoutes, cependant, tu vas être enchanté.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
                      <lg part="I">
-                        <l><hi rend="italic">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
-                        <l><hi rend="italic">J'aime ; ce mot vous dit d'être diſcret.</hi></l>
-                        <l><hi rend="italic">Et vous prouve ma confiance.</hi></l>
-                        <l><hi rend="italic">Ne vous alarmez pas de cette confidence ;</hi></l>
-                        <l><hi rend="italic">Vous auriez tort d'en paroître jaloux.</hi></l>
-                        <l><hi rend="italic">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
+                        <l><hi rend="italics">Je ne veux qu'à vous ſeul révéler mon ſecret.</hi></l>
+                        <l><hi rend="italics">J'aime ; ce mot vous dit d'être diſcret.</hi></l>
+                        <l><hi rend="italics">Et vous prouve ma confiance.</hi></l>
+                        <l><hi rend="italics">Ne vous alarmez pas de cette confidence ;</hi></l>
+                        <l><hi rend="italics">Vous auriez tort d'en paroître jaloux.</hi></l>
+                        <l><hi rend="italics">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
                      </lg>
                   </sp>
                   <sp who="Le Chevalier">
@@ -3842,17 +3843,17 @@
                   <sp who="Le Baron">
                      <speaker>LE BARON.</speaker><lb/>
                      <l>Ce début te ſurprend, il charme l'oreille.</l>
-                     <lb/><stage type="business"><hi rend="italic">(Il reprend.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(Il reprend.)</hi></stage><lb/>
                      <lg part="F">
-                        <l><hi rend="italic">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
-                        <l><hi rend="italic">Je vous nomme ſans que j'y penſe;</hi></l>
-                        <l><hi rend="italic">Je ſouffre à regret votre abſence,</hi></l>
+                        <l><hi rend="italics">L'amour que je reſſens, je le reſſens pour vous.</hi></l>
+                        <l><hi rend="italics">Je vous nomme ſans que j'y penſe;</hi></l>
+                        <l><hi rend="italics">Je ſouffre à regret votre abſence,</hi></l>
                         <pb n="78"/>
-                        <l><hi rend="italic">Et ſens, à votre aſpect  les tranſports les plus doux.</hi></l>
-                        <l><hi rend="italic">J'ai du plaiſir à vous l'écrire,</hi></l>
-                        <l><hi rend="italic">Et j'en aurai, ſi vous venez ce ſoir,</hi></l>
-                        <l><hi rend="italic">J'en aurai cent fois plus encore à vous le dire,</hi></l>
-                        <l><hi rend="italic">Puiſque je jouirai de celui de vous voir.</hi></l>
+                        <l><hi rend="italics">Et ſens, à votre aſpect  les tranſports les plus doux.</hi></l>
+                        <l><hi rend="italics">J'ai du plaiſir à vous l'écrire,</hi></l>
+                        <l><hi rend="italics">Et j'en aurai, ſi vous venez ce ſoir,</hi></l>
+                        <l><hi rend="italics">J'en aurai cent fois plus encore à vous le dire,</hi></l>
+                        <l><hi rend="italics">Puiſque je jouirai de celui de vous voir.</hi></l>
                      </lg>
                   </sp>
                   <sp who="Le Chevalier">
@@ -3867,7 +3868,7 @@
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l>Oui, la choſe eſt incroyable? en effet.</l>
-                     <lb/><stage type="business"><hi rend="italic">(il prend le papier des mains du Baron.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(il prend le papier des mains du Baron.)</hi></stage><lb/>
                      <l>Mais, par mes propres yeux, il faut que je m'aſſure.</l>
                   </sp>
                   <sp who="Le Baron">
@@ -3959,7 +3960,7 @@
                   <stage>LE CHEVALIER, LE BARON. <lb/> LUCILE.</stage><lb/>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="delivery"><hi rend="italic">à <name type="person" n="Lucile">Lucile</name>.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à <name type="person" n="Lucile">Lucile</name>.</hi></stage><lb/>
                      <l><c type="lettrine">V</c>Ous avez, de mes Vers, fait un fort noble uſage</l>
                      <l>Et je dois, hautement, vous en remercier ;</l>
                      <l>Vous avez bien choiſi pour me les envoyer.</l>
@@ -3976,7 +3977,7 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                      <l>Qui m'attire de lui l'accueil que je reçois ?</l>
                   </sp>
                   <sp who="Le Baron">
@@ -4099,12 +4100,12 @@
                   </sp>
                   <sp who="Lucile">
                      <speaker>LUCILE </speaker>
-                     <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                      <l>La Marquiſe a dicté cet arrêt qui m'accable.</l>
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER </speaker>
-                     <stage type="delivery"><hi rend="italic">d'un ton ironique.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">d'un ton ironique.</hi></stage><lb/>
                      <l>Vous voulez bien, Madame, en cet heureux moment,</l>
                      <l>Que je faſſe éclater tout mon raviſſement.</l>
                   </sp>
@@ -4171,7 +4172,7 @@
                   </sp>
                   <sp who="Le Commandeur">
                      <speaker>LE COMMANDEUR.</speaker><lb/><lb/>
-                     <l>J'aplaudis cet effort. <stage type="delivery"><hi rend="italic">(Au Chevalier.)</hi></stage>Avancez. Il recule.</l>
+                     <l>J'aplaudis cet effort. <stage type="delivery"><hi rend="italics">(Au Chevalier.)</hi></stage>Avancez. Il recule.</l>
                      <l>Mais je n'y conçois rien, cet homme eſt ridicule ;</l>
                      <l>Et je ne vis jamais un amant plus glacé.</l>
                   </sp>
@@ -4190,7 +4191,7 @@
                      <l>Mais il n'a qu'à parler , mais il n'a qu'à paroître.</l>
                      <l>Seroit-ce vous, Baron ? Vous vous taiſez auſſi.</l>
                      <l>A qui donc m'adreſſer pour en être éclairé ?</l>
-                     <lb/><stage type="business"><hi rend="italic">(montrant la Marquiſe.)</hi></stage><lb/>
+                     <lb/><stage type="business"><hi rend="italics">(montrant la Marquiſe.)</hi></stage><lb/>
                      <l>Ma Niéce s'eſt trompée, &amp; ne peut m'en inſtruire.</l>
                      <l><name type="person" n="Lucile">Lucile</name> qui le ſçait , n'a garde d'en rien dire.</l>
                   </sp>
@@ -4234,7 +4235,7 @@
                   <pb n="85"/>
                   <sp who="Le Commandeur">
                      <speaker>LE COMMANDEUR </speaker>
-                     <stage type="delivery"><hi rend="italic">à la Marquiſe.</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à la Marquiſe.</hi></stage><lb/>
                      <l>L'en croirons-nous,Maniéce?Hem,rirez-moi de peine.</l>
                   </sp>
                   <sp who="La Marquise">
@@ -4244,7 +4245,7 @@
                   <sp who="Le Commandeur">
                      <speaker>LE COMMANDEUR.</speaker><lb/>
                      <l>Suivrai-je ma pitié ? Suivrai-je mon courroux ?</l>
-                     <lb/><stage type="delivery"><hi rend="italic">[à la Marquiſe.]</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">[à la Marquiſe.]</hi></stage><lb/>
                      <l>Je ſuis embaraſſé. Que me conſeillez-vous ?</l>
                   </sp>
                   <sp who="La Marquise">
@@ -4270,14 +4271,14 @@
                      <speaker>LE COMMANDEUR.</speaker><lb/>
                      <l part="F">Oh ! Pour le coup, ce trait part du cœur même.</l>
                      <l>Elle eſt vraie à préſent, &amp; je n'en doute plus.</l>
-                     <l>Ma Niéce, embraſſes-moi. <stage type="business"><hi rend="italic">(montrant le Chevalier.)</hi></stage> Le voilà bien confus.</l>
+                     <l>Ma Niéce, embraſſes-moi. <stage type="business"><hi rend="italics">(montrant le Chevalier.)</hi></stage> Le voilà bien confus.</l>
                   </sp>
                   <sp who="Le Chevalier">
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l>Je ne puis l'être aſſez. Ce n'eſt pas que je voie</l>
                      <l>Avec un œil jaloux leur hymen &amp; leur joie.</l>
                      <l>Tout ce qui fait ma peine &amp; mes juſtes regrets,</l>
-                     <lb/><stage type="delivery"><hi rend="italic">(à la Marquiſe.)</hi></stage><lb/>
+                     <lb/><stage type="delivery"><hi rend="italics">(à la Marquiſe.)</hi></stage><lb/>
                      <l>Madame, c'eſt d'avoir offenſé vos attraits.</l>
                      <l part="I">Permettez qu'à vos pieds....</l>
                   </sp>
@@ -4301,11 +4302,11 @@
                      <speaker>LE CHEVALIER.</speaker><lb/>
                      <l>Voilà l'arrêt fatal que j'ai dû le plus craindre ;</l>
                      <l>Mais je l'ai mérité, j'aurois tort de me plaindre.</l>
-                     <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage>
+                     <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage>
                   </sp>
                   <sp who="Finette">
                      <speaker>FINETTE </speaker>
-                     <stage><hi rend="italic">ſeule.</hi></stage><lb/>
+                     <stage><hi rend="italics">ſeule.</hi></stage><lb/>
                      <l>Pour moi, je l'aplaudis, Monſieur, ſur ce revers ;</l>
                      <l>Peut faire une élégie, &amp; gémir en grands vers.</l>
                   </sp>
@@ -4315,7 +4316,7 @@
                   <stage>LE COMMANDEUR, LA MARQUISE, <lb/> LUCILE, LE BARON, FINETTE.</stage><lb/>
                   <sp who="le Commandeur">
                      <speaker>LE COMMANDEUR </speaker>
-                     <stage type="delivery"><hi rend="italic">à la Marquiſe</hi></stage><lb/>
+                     <stage type="delivery"><hi rend="italics">à la Marquiſe</hi></stage><lb/>
                      <l><c type="lettrine">T</c>Out ce que fait ma Niéce aujourd'hui m'édifie ;</l>
                      <l>Même avec les égards il me réconcilie.</l>
                      <l>Leur pouvoir, dans le fond, eſt pour nous un ſoutien,</l>
