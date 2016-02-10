@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -66,7 +67,7 @@
             <titlePage type="half-title">
                 <docTitle>
                     <titlePart type="main">LA <lb/>CRITIQUE,</titlePart><lb/><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/><lb/><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/><lb/><lb/>
                 </docTitle>
             </titlePage>
             <pb n="18"/>
@@ -84,13 +85,13 @@
             </castList>
             <lb/><lb/><lb/><lb/>
             <set>
-                <p rend="center"><hi rend="italic">La Scène eſt au <name type="place" n="Parnasse">Parnaſſe</name>.</hi></p>
+                <p rend="center"><hi rend="italics">La Scène eſt au <name type="place" n="Parnasse">Parnaſſe</name>.</hi></p>
             </set>
             <pb n="19"/>
         </front>
         <body>
             <div1 type="title">
-                <head>LA <lb/>CRITIQUE, <lb/><hi rend="italic">COMEDIE.</hi></head><lb/>
+                <head>LA <lb/>CRITIQUE, <lb/><hi rend="italics">COMEDIE.</hi></head><lb/>
             </div1>
                 <div1 type="scene" n="1">
                     <head>SCENE I.</head><lb/>
@@ -156,7 +157,7 @@
                         <l></l>
                         <l></l>
                         <l part="I">Je vous laiſſe avec lui.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Elle s'en va.)</hi></stage><lb/>
+                        <lb/><stage type="exit"><hi rend="italics">(Elle s'en va.)</hi></stage><lb/>
                     </sp>
                     <sp who="Apollon">
                         <speaker>APOLLON.</speaker><lb/>
@@ -251,7 +252,7 @@
                         <l>Et que le flambeau qu'elle porte</l>
                         <l>Eclaire &amp; ne brûle jamais.</l>
                     </sp>
-                    <stage type="exit"><hi rend="italic">(L'auteur s'en va.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(L'auteur s'en va.)</hi></stage>
                 </div1>
                 <div1 type="scene" n="3">
                     <head>SCENE III.</head><lb/>
@@ -435,7 +436,7 @@
                         <l>Place au Dames, place au Théâtre ;</l>
                         <l>Parlés plus haut ; l'habit noir, chapeau bas ;</l>
                         <l>Paix. Monſieur l'Abé, haut les bras : </l>
-                        <l>Annoncés ; <hi rend="italic">bis</hi> ; la captiole.</l>
+                        <l>Annoncés ; <hi rend="italics">bis</hi> ; la captiole.</l>
                         <pb n="27"/>
                         <l>Et pour tout dire, enfin, l'inſuportable rôle</l>
                         <l>Qu'il fait, dès qu'au Parterre il ſe trouve preſſé,</l>
@@ -479,8 +480,8 @@
                     </sp>
                     <sp who="Apollon">
                         <speaker>APOLLON </speaker>
-                        <stage><hi rend="italic">lit.</hi></stage><lb/>
-                        <l><hi rend="italic">Piéces que le Public a ſifflées, &amp; qu'il devoît aplaudir.</hi></l>
+                        <stage><hi rend="italics">lit.</hi></stage><lb/>
+                        <l><hi rend="italics">Piéces que le Public a ſifflées, &amp; qu'il devoît aplaudir.</hi></l>
                         <l>LE CHEVALIER <name type="person" n="Bayard">BAYARD</name>.</l>
                     </sp>
                     <pb n="28"/>
@@ -509,7 +510,7 @@
                         <l>Dont on n'admire plus que ſon premier renom,</l>
                         <l>Où, ſans intéreſſer, tout choque la raiſon,</l>
                         <l>A qui l'on fait l'honneur d'en faire la critique.</l>
-                        <l><stage><hi rend="italic">(Il lit.)</hi></stage>   <name type="person" n="Erigone">ERIGONE</name>.</l>
+                        <l><stage><hi rend="italics">(Il lit.)</hi></stage>   <name type="person" n="Erigone">ERIGONE</name>.</l>
                     </sp>
                     <sp who="Chrisante">
                         <speaker>C<sic></sic><corr>H</corr>RISANTE.</speaker><lb/>
@@ -561,8 +562,8 @@
                     <sp who="Apollon">
                         <speaker>APOLLON.</speaker><lb/>
                         <l>C'eſt pour le contredire.</l>
-                        <lb/><stage><hi rend="italic">(Il lit.)</hi></stage><lb/>
-                        <l><hi rend="italic">Piéce que le Public a aplaudie, &amp; qu'il devoit ſiffler.</hi></l>
+                        <lb/><stage><hi rend="italics">(Il lit.)</hi></stage><lb/>
+                        <l><hi rend="italics">Piéce que le Public a aplaudie, &amp; qu'il devoit ſiffler.</hi></l>
                         <l>LE GLORIEUX.</l>
                     </sp>
                     <sp who="Chrisante">
@@ -607,7 +608,7 @@
                         <l>Qui fait pleurer les gens !</l>
                         <l>Et l'heureux dénouement de la Piéce,</l>
                         <l>Que celui qu'on a vû dans plus de vingt Romans!</l>
-                        <l>Encore y prenoient-ils ſix francs<hi rend="italic">!</hi></l>
+                        <l>Encore y prenoient-ils ſix francs<hi rend="italics">!</hi></l>
                     </sp>
                     <sp who="Apollon">
                         <speaker>APOLLON.</speaker><lb/>
@@ -659,14 +660,14 @@
                         <l>Que qui ſe moque du Public,</l>
                         <l>Se moque auſſi de la Critique,</l>
                         <l>Et d'<name type="person" n="Apollon">Apollon</name> &amp; de toute ſa clique.</l>
-                        <lb/><stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
+                        <lb/><stage type="exit"><hi rend="italics">(Il s'en va.)</hi></stage>
                     </sp>
                 </div1>
                 <div1 type="scene" n="4">
                     <head>SCENE IV.</head><lb/>
                     <sp who="Apollon">
                         <speaker>APOLLON </speaker>
-                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                         <l><c type="lettrine">S</c>On ridicul eſt ſans égal;</l>
                         <l>Tout ſingulier qu'il eſt dans ſa folie,</l>
                         <l>C'eſt pourtant un Original,</l>
@@ -696,7 +697,7 @@
                         <l>Et ne reprendrai les Ouvrages ,</l>
                         <l>Que pour éclairer les Auteurs.</l>
                     </sp>
-                    <stage type="exit"><hi rend="italic">(<name type="person" n="Apollon">Apollon</name> s'en va.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(<name type="person" n="Apollon">Apollon</name> s'en va.)</hi></stage>
                 </div1>
                 <div1 type="scene" n="6">
                     <head>SCENE VI.</head><lb/>
@@ -945,7 +946,7 @@
                         <l>Une eſtime infinie;</l>
                         <l>Vous n'avez point de plus parfaite amie :</l>
                         <l>Si vous ſçaviez les tendres ſentimens</l>
-                        <l>Que j'ai pour vous... <stage type="delivery"><hi rend="italic">(à part.)</hi></stage>(comme je mens :)</l>
+                        <l>Que j'ai pour vous... <stage type="delivery"><hi rend="italics">(à part.)</hi></stage>(comme je mens :)</l>
                         <l>Vous auriez de mon cœur une meilleure idée;</l>
                         <l>Vous feriez cas ſur-tout de ma ſincérité.</l>
                     </sp>
@@ -959,7 +960,7 @@
                         <l>Adieu, Critique aimable, à regret je vous quitte;</l>
                         <l>Et je vais, en tous lieux, prôner votre mérite,</l>
                         <l>Et célébrer votre candeur.</l>
-                        <lb/><stage type="mixed"><hi rend="italic">(bas en s'en allant.)</hi></stage><lb/>
+                        <lb/><stage type="mixed"><hi rend="italics">(bas en s'en allant.)</hi></stage><lb/>
                         <l>Quelle prude ſauvage ! Ah ! je brûle</l>
                         <l>D'arriver a <name type="place" n="Paris">Paris</name> pour ſoulager mon cœur,</l>
                         <l>Et la tourner en ridicule</l>
@@ -970,7 +971,7 @@
                     <stage>LA CRITIQUE, LE VAUDEVILLE.</stage><lb/>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Souffrez que je dreſſe.</hi></sound>
+                        <sound>AIR, <hi rend="italics">Souffrez que je dreſſe.</hi></sound>
                         <l><c type="lettrine">V</c>Otre régne aimable ;</l>
                         <l>Critique agréable,</l>
                         <pb n="39"/>
@@ -983,7 +984,7 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Ayez la bonté de m'aprendre</l>
                         <l>Qui vous êtes premiérement,</l>
                         <l>Beau chanteur qui venez me rendre</l>
@@ -1024,7 +1025,7 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>A ce langage, à ces refreins,</l>
                         <l>Je reconnois le Vaudeville,</l>
                         <l>Qui fait les plaiſirs de la Ville,</l>
@@ -1032,8 +1033,8 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">Tu croyois en aimant <name type="person" n="Colette">Colette</name>.</hi></sound>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">Tu croyois en aimant <name type="person" n="Colette">Colette</name>.</hi></sound>
                         <l>Oui, de <name type="person" n="Comus">Comus</name> que je fais rire,</l>
                         <l>je ſuis le plus cher favori.</l>
                     </sp>
@@ -1041,17 +1042,17 @@
                         <speaker>LA CRITIQUE.</speaker><lb/>
                         <l>Je ne m'étonne plus beau ſire,</l>
                         <l>Si vous êtes ſi bien nourri.</l>
-                        <lb/><stage><hi rend="italic">(Elle récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Elle récite.)</hi></stage><lb/>
                         <l>Mais dans ces lieux quel ſujet vous améne !</l>
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
                         <l>C'eſt mon penchant qui m'entraîne,</l>
                         <l>Madame, vers vos attraits,</l>
                         <l>Daignez annoblir a veine,</l>
                         <l>Et me prêter tous vos traits.</l>
-                        <sound>AIR, <hi rend="italic">La bonne avanture o gué des trois couſines.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">La bonne avanture o gué des trois couſines.</hi></sound><lb/>
                         <l>Comme vous du monde entier</l>
                         <l>Je fais la cenſure ,</l>
                         <l>Mon plaiſir &amp; mon métier</l>
@@ -1059,12 +1060,12 @@
                         <l>La bonne avanture,</l>
                         <l>O gué,</l>
                         <l>La bonne avanture.</l>
-                        <sound>AIR, <hi rend="italic">Quand le péril eſt agréable.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Quand le péril eſt agréable.</hi></sound><lb/>
                         <l>Je fais ſeul létude profonde</l>
                         <l>Des jeunes Robins d'à-preſent,</l>
                         <l>Et tout le ſçavoir éminent</l>
                         <l>Des Abbés du grand monde.</l>
-                        <sound>AIR, <hi rend="italic">Le Ciel béniſſe la beſogne.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Le Ciel béniſſe la beſogne.</hi></sound><lb/>
                         <l>De ces Meſſieurs le plus ſouvent.</l>
                         <pb n="41"/>
                         <l>L'eſprit eſt un recueil vivant</l>
@@ -1076,7 +1077,7 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Tout couple de ce genre eſt d'un ſel enchanté :</l>
                         <l>Dans un repas aimable.</l>
                         <l>Il eſt toujours le plus goûté.</l>
@@ -1087,8 +1088,8 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">On paſſe les nuits à table.</hi></sound><lb/>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">On paſſe les nuits à table.</hi></sound><lb/>
                         <l>Que chanté d'un air aimable</l>
                         <l>Il faſſe rougir ſa ſierté,</l>
                         <l>Voilà la fable :</l>
@@ -1098,12 +1099,12 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Pour paſſer doucement la vie.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Pour paſſer doucement la vie.</hi></sound><lb/>
                         <l>Oh ! Je vous trouve condamnable</l>
                         <l>En ce point-là préciſément :</l>
                         <l>Vous rendez le vice agréable ,</l>
                         <l>En lui prêtant votre enjoûment.</l>
-                        <lb/><stage><hi rend="italic">(Elle récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Elle récite.)</hi></stage><lb/>
                         <l>Il faut pour plaire même au grand nombre de femmes.</l>
                         <l>Qui ne ſçauroient vous chanter ſans rougir,</l>
                         <l>Vous corriger &amp; m'obéir.</l>
@@ -1112,8 +1113,8 @@
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
                         <l>Me voir employé par les Dames</l>
                         <l>Fait mon plus grand plaiſir.</l>
-                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">L'auſtére Philoſophe.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">L'auſtére Philoſophe.</hi></sound><lb/>
                         <l>Oui : ma gloire véritable,</l>
                         <l>Et mon triomphe certain</l>
                         <l>Eſt quand leur bouche adorable</l>
@@ -1126,7 +1127,7 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>La table fut toujours votre champ de bataille,</l>
                         <l>Et le fils de <name type="person" n="Vénus">Vénus</name> votre Dieu favori.</l>
                     </sp>
@@ -1134,7 +1135,7 @@
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
                         <l>Pour l'honneur de ce Dieu, dont je ſuis fort chéri,</l>
                         <l>Il eſt vrai toujours je travaille ;</l>
-                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Il récite.)</hi></stage><lb/>
                         <l>Selon l'objet, ſelon l'occaſion,</l>
                         <l>Je fais adroitement changer d'air &amp; de ton :</l>
                         <l>Je prens ce dernier pour mon guide;</l>
@@ -1143,8 +1144,8 @@
                         <l>Si je veux, par exemple, enflâmer un tendron</l>
                         <l>Encore novice &amp; timide,</l>
                         <l>Ma voix lui gliſſe ainſi doucement ſon poiſon.</l>
-                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">D'un <name type="person" n="Zéphir">Zéphir</name> mutin.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Il chante.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">D'un <name type="person" n="Zéphir">Zéphir</name> mutin.</hi></sound><lb/>
                         <l>Voyez un Amant</l>
                         <l>D'amour tout ardent,</l>
                         <l>Dont votre air enchanteur</l>
@@ -1161,7 +1162,7 @@
                         <l>De tous mes deſirs</l>
                         <l>Faites des plaiſirs.</l>
                         <l>Voyez un Amant,</l>
-                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Il récite.)</hi></stage><lb/>
                         <l>Si je rencontre en mon chemin</l>
                         <pb n="43"/>
                         <l>Une Beauté plus aguerrie,</l>
@@ -1170,8 +1171,8 @@
                         <l>Et, ſans perdre le tems en des diſcours frivoles,</l>
                         <l>Voici comment je change d'air ſoudain,</l>
                         <l>Sans changer de paroles.</l>
-                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage>
-                        <sound>AIR, <hi rend="italic">Laiſſons-nous charmer.</hi></sound><lb/>
+                        <lb/><stage><hi rend="italics">(Il chante.)</hi></stage>
+                        <sound>AIR, <hi rend="italics">Laiſſons-nous charmer.</hi></sound><lb/>
                         <l>Voyez un Amant</l>
                         <l>D'amour tout ardent,</l>
                         <l>Dont votre air enchanteur</l>
@@ -1191,7 +1192,7 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Vous êtes, je l'avoue un dangereux fripon,</l>
                         <l>Monſieur le Vaudeville :</l>
                         <l>Moi-même, en cet inſtant, ſéduite par le ton,</l>
@@ -1201,7 +1202,7 @@
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
                         <l>Ah ! Vous avez raiſon</l>
                         <l>D'être ſenſible à ma chanſon.</l>
-                        <lb/><stage><hi rend="italic">[il chante.]</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">[il chante.]</hi></stage><lb/>
                         <l>Pour plaire à vos yeux je me tourne, tourne, tourne,</l>
                         <l>Je me tourne de tout côté?</l>
                         <l>L'air que je tourne &amp; retourne,</l>
@@ -1218,7 +1219,7 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Chantez petit Colin.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Chantez petit Colin.</hi></sound><lb/>
                         <l>Ce baiſer innocent, </l>
                         <l>Cette faveur légere,</l>
                         <l>Ce baiſer innocent</l>
@@ -1234,7 +1235,7 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Premier Menuet.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Premier Menuet.</hi></sound><lb/>
                         <l>Quelle douceur</l>
                         <l>Dans mon cœur</l>
                         <l>Vient répandre un aveu ſi flatteur !</l>
@@ -1247,7 +1248,7 @@
                         <l>Nos eſprits ſont faits?</l>
                         <l>Comblez mes ſouhaits:</l>
                         <l>je vous adore &amp; je vous plais.</l>
-                        <lb/><sound>AIR, <hi rend="italic">Second menuet.</hi></sound><lb/>
+                        <lb/><sound>AIR, <hi rend="italics">Second menuet.</hi></sound><lb/>
                         <l>Votre amour, quand on lui plaît,</l>
                         <l>Se tait,</l>
                     </sp>
@@ -1267,7 +1268,7 @@
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Troiſiéme Menuet.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Troiſiéme Menuet.</hi></sound><lb/>
                         <l>O journée</l>
                         <l>Douce &amp; fortunée !</l>
                         <l>Que de biens à ce lieux</l>
@@ -1283,7 +1284,7 @@
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Quel ſons réveillent les Echos ?</l>
                         <l>C'eſt <name type="person" n="Corésus">Coréſus</name>. De loin je croi le reconnoître ;</l>
                         <l>Pour nous unir vraiment il arrive à propos,</l>
@@ -1301,10 +1302,10 @@
                 <div1 type="scene" n="8">
                     <head>SCENE VIII.</head><lb/>
                     <stage>LA CRITIQUE, LE VAUDEVILLE, <lb/> ARLEQUIN.</stage><lb/>
-                    <sound><hi rend="italic">On joue la Marche de <name type="person" n="Coresus">Coreſus</name>, ſur l'air , Faites de-<lb/>croter vos ſouliers.</hi></sound><lb/>
+                    <sound><hi rend="italics">On joue la Marche de <name type="person" n="Coresus">Coreſus</name>, ſur l'air , Faites de-<lb/>croter vos ſouliers.</hi></sound><lb/>
                     <sp who="La Critique, le Vaudeville">
                         <speaker>LA CRITIQUE &amp; LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">de <name type="person" n="Couperin">Couprin</name>.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">de <name type="person" n="Couperin">Couprin</name>.</hi></sound><lb/>
                         <l><c type="lettrine">D</c>E <name type="person" n="Corésus">Coréſus</name></l>
                         <l>Chantons la gloire,</l>
                         <l>Chantons en chorus</l>
@@ -1342,23 +1343,23 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Mais, Seigneur, Mais, Madame....</l>
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">Un Préfet beau, bien fait.</hi></sound>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">Un Préfet beau, bien fait.</hi></sound>
                         <l>On trahit vos ardeurs....</l>
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>Eſt-ce pour inſulter au dépit qui m'enflâme ?</l>
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">reprend.</hi></stage><lb/>
+                        <stage><hi rend="italics">reprend.</hi></stage><lb/>
                         <l>On trahit vos ardeurs :</l>
                         <l>Mais le Dieu des Buveurs</l>
                         <l>Exauce toutes vos fureurs ;</l>
@@ -1378,7 +1379,7 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <stage><hi rend="italics">récite.</hi></stage><lb/>
                         <l>De m'exalter ainſi, finiſſez, je vous prie ;</l>
                         <l part="I">Et daignez m'écouter.</l>
                     </sp>
@@ -1388,15 +1389,15 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">des fraizes.</hi></sound><lb/>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">des fraizes.</hi></sound><lb/>
                         <l>Piqué contre tout <name type="place" n="Paris">Paris</name>,</l>
                         <pb n="48"/>
                         <l>Je viens de ſon caprice,</l>
                         <l>Et de ſes cruels mépris,</l>
                         <l>Vous demander à grands cris</l>
                         <l>Juſtice, juſtice, juſtice</l>
-                        <lb/><stage><hi rend="italic">[Il récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">[Il récite.)</hi></stage><lb/>
                         <l>Rien n'égale l'horreur de mon chagrin cuiſant ;</l>
                         <l>Je charmois autrefois, &amp; j'ennuie à préſent.</l>
                         <l>Ramenez le bon goût, &amp; vengez mon injure.</l>
@@ -1407,8 +1408,8 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">chante.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">des Pendus.</hi></sound><lb/>
+                        <stage><hi rend="italics">chante.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">des Pendus.</hi></sound><lb/>
                         <l>Solitaire, triſte, confus,</l>
                         <l>Je m'en vais ſur l'air des pendus,</l>
                         <l>Vous réciter ma décadence.</l>
@@ -1421,13 +1422,13 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Quand on a prononcé.</hi></sound>
+                        <sound>AIR, <hi rend="italics">Quand on a prononcé.</hi></sound>
                         <l>Je veux me plaindre en vain vous m'impoſez le ſilence.</l>
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">lui coupant la parole.</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">Dans nos champs,</hi></sound><lb/>
+                        <stage><hi rend="italics">lui coupant la parole.</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">Dans nos champs,</hi></sound><lb/>
                         <l>D'une voix</l>
                         <l>Chacun admire</l>
                         <l>Et deſire</l>
@@ -1448,22 +1449,22 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Folies d'Eſpagne.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Folies d'Eſpagne.</hi></sound><lb/>
                         <l>Ah, ventrebleu! c'eſt ſe moquer du monde.</l>
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Mariés ; mariés, mariés-moi.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Mariés ; mariés, mariés-moi.</hi></sound><lb/>
                         <l>C'eſt-là qu'on voit <name type="person" n="Agenor">Agenor</name>.</l>
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage><hi rend="italic">recite.</hi></stage><lb/>
+                        <stage><hi rend="italics">recite.</hi></stage><lb/>
                         <l>Je ne puis dire un mot, ma rage eſt ſans ſeconde.</l>
                     </sp>
                     <sp who="La Critique">
                         <speaker>LA CRITIQUE </speaker>
-                        <stage><hi rend="italic">reprend.</hi></stage><lb/>
+                        <stage><hi rend="italics">reprend.</hi></stage><lb/>
                         <l>C'eſt-là qu'on voit <name type="person" n="Agenor">Agenor</name></l>
                         <l>Arriver avec vîteſſe,</l>
                         <l>Et ſaiſi d'un beau tranſport,</l>
@@ -1472,8 +1473,8 @@
                         <l>Je m'offre pour la Princeſſe,</l>
                         <l>Retenés, retenés, retenés-moi,</l>
                         <l>Ou je mourrai ſur ma foi.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
-                        <sound>AIR, <hi rend="italic">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
+                        <sound>AIR, <hi rend="italics">Quel plaiſir de voir <name type="person" n="Claudine">Claudine</name>.</hi></sound><lb/>
                         <l>Mais vous lui dérobs, Sire,</l>
                         <l>La gloire de ce trépas.</l>
                     </sp>
@@ -1484,17 +1485,17 @@
                     </sp>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Pere je me confeſſe.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Pere je me confeſſe.</hi></sound><lb/>
                         <l>A tort je le confeſſe</l>
                         <l>On l'aplaudit beaucoup ;</l>
                         <l>Car j'étois dans l'yvreſſe</l>
                         <l>Quand j'ai fait ce beau coup.</l>
-                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <lb/><stage><hi rend="italics">(Il récite.)</hi></stage><lb/>
                         <l>Mais d'oüir ma Complainte ayez la politeſſe.</l>
                     </sp>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE </speaker>
-                        <stage><hi rend="italic">l'interrompant toujours, <lb/> &amp; continuant l'air.</hi></stage><lb/>
+                        <stage><hi rend="italics">l'interrompant toujours, <lb/> &amp; continuant l'air.</hi></stage><lb/>
                         <l>Dans le bien comme dans le mal,</l>
                         <l><name type="person" n="Corésus">Coréſus</name> eſt extrême ;</l>
                         <pb n="50"/>
@@ -1514,10 +1515,10 @@
                         <l>Ce héros peu commun,</l>
                         <l>Je fait le crime qu'à jeun.</l>
                     </sp>
-                    <lb/><stage type="exit">ARLEQUIN <hi rend="italic">s'en va de dépit de ne pouvoir parler.</hi></stage>
+                    <lb/><stage type="exit">ARLEQUIN <hi rend="italics">s'en va de dépit de ne pouvoir parler.</hi></stage>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
-                        <sound>AIR, <hi rend="italic">Ma commére quand je danſe.</hi></sound><lb/>
+                        <sound>AIR, <hi rend="italics">Ma commére quand je danſe.</hi></sound><lb/>
                         <l>A moi vive Contredanſe,</l>
                         <l>Tambourin &amp; Menuet,</l>
                         <l>Venez former notre Balet;</l>
@@ -1530,7 +1531,7 @@
                 <div1 type="scene" n="9">
                     <head>SCENE DERNIERE.</head><lb/>
                     <stage>LE VAUDEVILLE, LA CRITIQUE, <lb/> LA CONTREDANSE, <lb/> LE MENUET, &amp;c.</stage><lb/>
-                    <stage type="business"><hi rend="italic">On danſe.</hi></stage>
+                    <stage type="business"><hi rend="italics">On danſe.</hi></stage>
                     <sp who="Le Vaudeville">
                         <speaker>LE VAUDEVILLE.</speaker><lb/>
                         <lg>
@@ -1569,7 +1570,7 @@
                             <l>Qui fait paſſer les paroles.</l>
                         </lg>
                         <lb/><lb/>
-                        <p rend="center"><hi rend="italic">FIN.</hi></p>
+                        <p rend="center"><hi rend="italics">FIN.</hi></p>
                     </sp>
                 </div1>
             
