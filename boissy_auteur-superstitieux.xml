@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
-                <title type="main">L'auteur superstitieux</title>
+                <title type="main">L'Auteur superstitieux</title>
                 <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
@@ -72,7 +73,7 @@
             <titlePage type="half-title">
                 <docTitle>
                     <titlePart type="main">L'AUTEUR <lb/>SUPERSTITIEUX,</titlePart><lb/><lb/>
-                    <titlePart type="desc" rend="italic">PROLOGUE</titlePart><lb/><lb/><lb/>
+                    <titlePart type="desc" rend="italics">PROLOGUE</titlePart><lb/><lb/><lb/>
                 </docTitle>
             </titlePage>
             <pb n="2"/>
@@ -85,16 +86,15 @@
             </castList>
             <lb/><lb/><lb/><lb/>
             <set>
-                <p rend="center"><hi rend="italic">(La Scène eſt à Paris, chez Clitandre.)</hi></p>
+                <p rend="center"><hi rend="italics">(La Scène eſt à Paris, chez Clitandre.)</hi></p>
             </set>
             <pb n="3"/>
         </front>
         <body>
            <div1 type="title">
-                <head>L'AUTEUR <lb/>SUPERSTITIEUX, <lb/><hi rend="italic">PROLOGUE</hi></head><lb/>
+                <head>L'AUTEUR <lb/>SUPERSTITIEUX, <lb/><hi rend="italics">PROLOGUE</hi></head><lb/>
            </div1>
-           <div1 type="play">
-            <div2 type="scene" n="1">
+          <div1 type="scene" n="1">
                 <head>SCENE PREMIERE.</head><lb/>
                 <stage>CLITANDRE DAMON.</stage><lb/><lb/>
                 <sp who="Damon">
@@ -131,7 +131,7 @@
                 </sp>
                 <sp who="Damon">
                     <speaker>DAMON </speaker>
-                    <stage type="delivery"><hi rend="italic">d'un air railleur.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">d'un air railleur.</hi></stage><lb/>
                     <l>Ajoutez qu'aujourd'hui c'eſt le treize du mois.</l>
                 </sp>
                 <sp who="Clitandre">
@@ -359,14 +359,14 @@
                     <l>Un Auteur mal caché ſe fait moquer de lui ;</l>
                     <l>Et peu, par ce moyen, font fortune aujourd'hui.</l>
                 </sp>
-            </div2>
+            </div1>
             <pb n="9"/>
-            <div2 type="scene" n="2">
+            <div1 type="scene" n="2">
                 <head>SCENE II.</head><lb/>
                 <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE </speaker>
-                    <stage type="business"><hi rend="italic">donnant un ſoufflet à <name type="person" n="Arlequin">Arlequin</name> <lb/> qui entre en ſifflant.</hi></stage><lb/>
+                    <stage type="business"><hi rend="italics">donnant un ſoufflet à <name type="person" n="Arlequin">Arlequin</name> <lb/> qui entre en ſifflant.</hi></stage><lb/>
                     <l><c type="lettrine">T</c>Iens, voilà pour t'aprendre à ſiffler de la ſorte.</l>
                 </sp>
                 <sp who="Arlequin">
@@ -398,9 +398,9 @@
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE </speaker>
-                    <stage type="action"><hi rend="italic">prenant la lettre.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">prenant la lettre.</hi></stage><lb/>
                     <l part="I">J'ai perdu mon procès, je gage.</l>
-                    <lb/><stage type="delivery"><hi rend="italic">[Il lit.]</hi></stage><lb/>
+                    <lb/><stage type="delivery"><hi rend="italics">[Il lit.]</hi></stage><lb/>
                     <l>Vous venez, Monſieur, de perdre votre procès.</l>
                     <l part="F">Qu'ai-je dit?</l>
                     <l>Vous le voyez déja , mon ſonge s'accomplit.</l>
@@ -425,8 +425,8 @@
                 <sp who="Damon">
                     <speaker>DAMON.</speaker><lb/>
                     <l part="I">Très-volontiers.</l>
-                    <lb/><stage type="delivery"><hi rend="italic">(Il lit.)</hi></stage><lb/>
-                    <p><hi rend="italic">Vous venez, Monſieur, de perdre votre procès,mal-<lb/>gre votre bon droit. Tout ce que je puis vous dire, c'eſt <lb/> que j'ai plaidé comme un Ange.</hi></p>
+                    <lb/><stage type="delivery"><hi rend="italics">(Il lit.)</hi></stage><lb/>
+                    <p><hi rend="italics">Vous venez, Monſieur, de perdre votre procès,mal-<lb/>gre votre bon droit. Tout ce que je puis vous dire, c'eſt <lb/> que j'ai plaidé comme un Ange.</hi></p>
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE.</speaker><lb/>
@@ -435,8 +435,8 @@
                 </sp>
                 <sp who="Damon">
                     <speaker>DAMON </speaker>
-                    <stage type="delivery"><hi rend="italic">pourſuit.</hi></stage><lb/>
-                    <p><hi rend="italic">« Tout le monde a trouvé le Jugement ridicule, &amp; a dit <lb/> hautement, que, pour n'avoir pas gagné une cauſe que <lb/>j'avois ſi bien plaidée, il falloit que ma Partie fût née <lb/> ſous une planette bien malheureuſe.</hi></p>
+                    <stage type="delivery"><hi rend="italics">pourſuit.</hi></stage><lb/>
+                    <p><hi rend="italics">« Tout le monde a trouvé le Jugement ridicule, &amp; a dit <lb/> hautement, que, pour n'avoir pas gagné une cauſe que <lb/>j'avois ſi bien plaidée, il falloit que ma Partie fût née <lb/> ſous une planette bien malheureuſe.</hi></p>
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE.</speaker><lb/>
@@ -445,8 +445,8 @@
                 </sp>
                 <sp who="Damon">
                     <speaker>DAMON </speaker>
-                    <stage type="delivery"><hi rend="italic">pourſuit.</hi></stage><lb/>
-                    <p><hi rend="italic">Ce vendredi à deux heures après midi.</hi></p>
+                    <stage type="delivery"><hi rend="italics">pourſuit.</hi></stage><lb/>
+                    <p><hi rend="italics">Ce vendredi à deux heures après midi.</hi></p>
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE.</speaker><lb/>
@@ -456,7 +456,7 @@
                 <sp who="Damon">
                     <speaker>DAMON, </speaker>
                     <stage type="delivery"><hi>reprend.</hi></stage>
-                    <p><hi rend="italic">J'avois oublié de vous marquer que je ſoupçonne votre <lb/>Procureur d'avoir été d'intelligence avec votre Partie <lb/>adverſe.</hi></p>
+                    <p><hi rend="italics">J'avois oublié de vous marquer que je ſoupçonne votre <lb/>Procureur d'avoir été d'intelligence avec votre Partie <lb/>adverſe.</hi></p>
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE.</speaker><lb/>
@@ -522,13 +522,13 @@
                     <l>Ah ! Vous n'en ferez rien ; &amp; vous n'y ſongez pas :</l>
                     <l>Pour vous en empêcher , je marche ſur vos pas.</l>
                 </sp>
-                <lb/><stage type="business"><hi rend="italic">(Il ſuit <name type="person" n="Clitandre">Clitandre</name>.)</hi></stage>
-            </div2>
-            <div2 type="scene" n="3">
+                <lb/><stage type="business"><hi rend="italics">(Il ſuit <name type="person" n="Clitandre">Clitandre</name>.)</hi></stage>
+            </div1>
+            <div1 type="scene" n="3">
                 <head>SCENE III</head><lb/><lb/>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                    <stage><hi rend="italics">ſeul.</hi></stage><lb/>
                     <l><c type="lettrine">A</c>Vec tout ſon ſavoir, ah! que mon Maître eſt bête!</l>
                     <l>La frayeur, à la fin lui tournera la tête.</l>
                     <l>Elle eſt cauſe , morbleau ! cette folle frayeur ,</l>
@@ -546,9 +546,9 @@
                     <l>Il croit avoir produit quelque choſe de beau,</l>
                     <l>Mais l'ouvrage eſt un monſtre, &amp; l'auteur un bourreau.</l>
                 </sp>                
-            </div2>
+            </div1>
             <pb n="13"/>
-            <div2 type="scene" n="4">
+            <div1 type="scene" n="4">
                 <head>SCENE IV.</head><lb/>
                 <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
                 <sp who="Clitandre">
@@ -588,9 +588,9 @@
                     <speaker>CLITANDRE.</speaker><lb/>
                     <l>Voilà l'heure fatale &amp; tout mon corps friſſonne;</l>
                 </sp>
-            </div2>
+            </div1>
             <pb n="14"/>
-            <div2 type="scene" n="5">
+            <div1 type="scene" n="5">
                 <head>SCENE V.</head><lb/><lb/>
                 <stage>CLITANDRE, DAMON, ARLEQUIN.</stage><lb/>
                 <sp who="Damon">
@@ -648,15 +648,15 @@
                 </sp>
                 <sp who="Clitandre">
                     <speaker>CLITANDRE </speaker>
-                    <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                    <stage type="exit"><hi rend="italics">en s'en allant.</hi></stage><lb/>
                     <l part="F">Ce qu'il me dit n'eſ que trop véritable.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="6">
+            </div1>
+            <div1 type="scene" n="6">
                 <head>SCENE VI.</head>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage><hi rend="italic">ſeul.</hi></stage><lb/><lb/>
+                    <stage><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
                     <l><c type="lettrine">S</c>'Il tremble maintenant, ce n'eſt pas ſans raiſon:</l> 
                     <l>Tout brave que je ſuis, j'ai pour lui le friſſon.</l>
                     <l>Ce qui préſentement m'allarme davantage,</l>
@@ -670,8 +670,8 @@
                     <l>Courons-y de ce pas... . Mais on vient. C'eſt mon <lb/>Maître !</l>
                     <l>O Ciel ! En quel état je le revois paroître ?</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="7">
+            </div1>
+            <div1 type="scene" n="7">
                 <head>SCENE VII.</head><lb/><lb/>
                 <stage>CLITANDRE, ARLEQUIN.</stage><lb/>
                 <sp who="Arlequin">
@@ -704,8 +704,8 @@
                     <l>Ces mots me percent l'ame, &amp; je reviens enfin,</l>
                     <l>La pâleur ſur le front &amp; la peur dans le ſein.</l>
                 </sp>
-            </div2>
-            <div2 type="scene" n="8">
+            </div1>
+            <div1 type="scene" n="8">
                 <head>SCENE DERNIERE</head><lb/>
                 <stage>CLITANDRE, ARLEQUIN, <lb/> UN LAQUAIS.</stage><lb/>
                 <sp n="laquais">
@@ -716,14 +716,14 @@
                     <speaker>CLITANDRE.</speaker><lb/>
                     <l part="F">De quelle part vient-elle ?</l>
                     <l>Tu fus toujours porteur de mauvaiſe nouvelle.</l>
-                    <lb/><stage type="delivery"><hi rend="italic">(Il lit.)</hi></stage><lb/>
-                    <l><hi rend="italic">Mon pere arrive en ce moment.</hi></l>
-                    <l><hi rend="italic">Il aprouve notre flâme,</hi></l>
-                    <l><hi rend="italic">Et, pour êpoux, j'obtiens l'amant</hi></l>
-                    <l><hi rend="italic">Qui pouvoit ſeul toucher mon ame.</hi></l>
+                    <lb/><stage type="delivery"><hi rend="italics">(Il lit.)</hi></stage><lb/>
+                    <l><hi rend="italics">Mon pere arrive en ce moment.</hi></l>
+                    <l><hi rend="italics">Il aprouve notre flâme,</hi></l>
+                    <l><hi rend="italics">Et, pour êpoux, j'obtiens l'amant</hi></l>
+                    <l><hi rend="italics">Qui pouvoit ſeul toucher mon ame.</hi></l>
                     <pb n="17"/>
-                    <l><hi rend="italic">Enchanté comme moi d'un aveu ſi flatteur,</hi></l> 
-                    <l><hi rend="italic"><name type="person" n="Clitandre">Clitandre</name> connoît-il l'excès de mon bonheur?</hi></l>
+                    <l><hi rend="italics">Enchanté comme moi d'un aveu ſi flatteur,</hi></l> 
+                    <l><hi rend="italics"><name type="person" n="Clitandre">Clitandre</name> connoît-il l'excès de mon bonheur?</hi></l>
                     <p rend="align(right)">HORTENSE</p>
                     <l>Mon coeur eſt tranſporté! Si le public affable</l>
                     <l>Faisoit à mon ouvrage un accueil favorable,</l>
@@ -741,9 +741,9 @@
                     <l>Et nous viſiterons le parterre en paſſant.</l>
                 </sp>
                 <lb/><lb/><lb/>
-                <p rend="center"><hi rend="italic">Fin du Prologue</hi></p>
-            </div2>
-           </div1>    
+                <p rend="center"><hi rend="italics">Fin du Prologue</hi></p>
+            </div1>
+   
         </body>
     </text>
 </TEI>
