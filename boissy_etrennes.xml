@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -65,12 +66,12 @@
                 <pb n="3"/>
                 <docTitle>
                     <titlePart type="main">LES ETRENNES , <lb/>OU <lb/> LA BAGATELLE , </titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="4"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>JANUS</role> , <roleDesc>Dieu des Etrennes</roleDesc>.</castItem>
                 <castItem><role>LA BAGATELLE</role>.</castItem>
                 <castItem><role>LE CHEVALIER COLIFICHET</role>.</castItem>
@@ -83,7 +84,7 @@
                 <castItem><roleDesc>TROUPE de Danſeurs &amp; de Danſeuſes.</roleDesc>.</castItem>
             </castList>
             <set>
-                <p rend="center"><hi rend="italic">La Scène eſt dans le Gallerie du Palais.</hi></p>
+                <p rend="center"><hi rend="italics">La Scène eſt dans le Gallerie du Palais.</hi></p>
             </set>
             <lb/>
             <lb/>
@@ -158,14 +159,14 @@
                         <l>Qui, comme vous, portent double viſage.</l>
                         <l part="I">Juſqu'au revoir.</l>
                     </sp>
-                    <stage type="exit"><hi rend="italic">(<name type="person" n="Janus">Janus</name> ſort.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(<name type="person" n="Janus">Janus</name> ſort.)</hi></stage>
                 </div1>
                 <div1 type="scene" n="2">
                     <head>SCENE II.</head><lb/>
                     <stage>LA BAGATELLE , LE CHEVALIER <lb/> COLIFICHET.</stage><lb/>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">courant embraſſer <lb/> la Bagatelle.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">courant embraſſer <lb/> la Bagatelle.</hi></stage><lb/>
                         <l part="F"><c type="lettrine">B</c>On jour ! Bon an !</l>
                         <l>Embraſſez-moi, mon aimable Déeſſe !</l>
                         <l>Vous n'avez point de plus grand Partiſan</l>
@@ -186,7 +187,7 @@
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLE </speaker>
-                        <stage type="business"><hi rend="italic">l'embraſſant.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">l'embraſſant.</hi></stage><lb/>
                         <l>Ah ! Quel raviſſement extrême !</l>
                         <l>Mais pourquoi, je vous prie, un tel ajuſtement ?</l>
                         <l>A quel propos changer de perſonnage ?</l>
@@ -216,7 +217,7 @@
                         <l>Pour mériter ce titre, &amp; pour rendre digne</l>
                         <l>D'avoir le premier rang entre vos favoris,</l>
                         <l>Je me ſuis ſignalé par un Ouvrage inſigne : </l>
-                        <l>Je viens pour vous l'offrir . . <stage type="business"><hi rend="italic">(Il foüille dans ſes poches.) Non ... Ce n'eſt pas cela.</hi></stage> </l>
+                        <l>Je viens pour vous l'offrir . . <stage type="business"><hi rend="italics">(Il foüille dans ſes poches.) Non ... Ce n'eſt pas cela.</hi></stage> </l>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLE.</speaker><lb/>
@@ -224,7 +225,7 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">tirant un patron <lb/> de garniture.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">tirant un patron <lb/> de garniture.</hi></stage><lb/>
                         <l>C'eſt un patron de garniture ,</l>
                         <l>Et d'engageantes à l'alure ,</l>
                         <l>Dont l'air invite à les bien chiffonner ,</l>
@@ -272,8 +273,8 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <p>TRAITÉ DES RIENS , <hi rend="italic">avec une diſſertation ſur les <lb/> Babioles , dédié aux Dames , par Monſieur l'Abbé Ba-<lb/>gatelle. Premier Volume.</hi></p>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <p>TRAITÉ DES RIENS , <hi rend="italics">avec une diſſertation ſur les <lb/> Babioles , dédié aux Dames , par Monſieur l'Abbé Ba-<lb/>gatelle. Premier Volume.</hi></p>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLLE.</speaker><lb/>
@@ -297,8 +298,8 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">continuë de lire.</hi></stage><lb/>
-                        <p><hi rend="italic">L'A, B, C du grand monde, ou l'art de ſoutenir <lb/> la converſation à peu de frais. Second Volume.</hi></p>
+                        <stage type="business"><hi rend="italics">continuë de lire.</hi></stage><lb/>
+                        <p><hi rend="italics">L'A, B, C du grand monde, ou l'art de ſoutenir <lb/> la converſation à peu de frais. Second Volume.</hi></p>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLLE.</speaker><lb/>
@@ -340,8 +341,8 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <p>LA NOUVELLE TOILETTE DES DAMES , <hi rend="italic">avec <lb/> une liſte détaillée de tout ce qui la compoſe ; Ouvrage <lb/> immenſe, &amp; digne de la curioſité publique. Troiſiéme <lb/> Volume.</hi></p>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <p>LA NOUVELLE TOILETTE DES DAMES , <hi rend="italics">avec <lb/> une liſte détaillée de tout ce qui la compoſe ; Ouvrage <lb/> immenſe, &amp; digne de la curioſité publique. Troiſiéme <lb/> Volume.</hi></p>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLLE.</speaker><lb/>
@@ -359,8 +360,8 @@
                         <l>J'ai paſſé trois jours &amp; trois nuits</l>
                         <l>Avec quinze de mes amis,</l>
                         <l>Qui m'ont obligeamment aidé de leurs avis.</l>
-                        <lb/><stage><hi rend="italic">(Il continue à lire.)</hi></stage><lb/>
-                        <p>LA  TOILETTE DES HOMMES , <hi rend="italic">revûe , corrigée &amp; <lb/> augmentée des trois quarts ...</hi></p>
+                        <lb/><stage><hi rend="italics">(Il continue à lire.)</hi></stage><lb/>
+                        <p>LA  TOILETTE DES HOMMES , <hi rend="italics">revûe , corrigée &amp; <lb/> augmentée des trois quarts ...</hi></p>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLLE.</speaker><lb/>
@@ -374,12 +375,12 @@
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER.</speaker><lb/>
                         <l>Peut-on vous trop aimer , divinité charmante !</l>
-                        <lb/><stage><hi rend="italic">(Il reprend.)</hi></stage><lb/>
-                        <p>LA  TOILETTE DES HOMMES , <hi rend="italic">revûe , corrigée &amp; 
+                        <lb/><stage><hi rend="italics">(Il reprend.)</hi></stage><lb/>
+                        <p>LA  TOILETTE DES HOMMES , <hi rend="italics">revûe , corrigée &amp; 
                             <lb/> augmentée des trois quarts , &amp; qui n'eſt pas moins cu-
                             <lb/>rieuſe que celle des femmes. Quatrième Volume. </hi>
                             <lb/> LA SCIENCE DE COEFFER LES UNS ET LES AUTRES , 
-                            <lb/> <hi rend="italic">livre très utile pour mes jeunes confréres qui entrent 
+                            <lb/> <hi rend="italics">livre très utile pour mes jeunes confréres qui entrent 
                             <lb/> dans le monde. Dernier Volume.</hi>
                         </p>
                     </sp>
@@ -447,7 +448,7 @@
                         <speaker>LE CHEVALIER.</speaker><lb/>
                         <l><c type="lettrine">V</c>Enez , ma Pupille charmante ,</l>
                         <l>Qu'à Madame je vous préſente.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">[ à la Bagatelle.]</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">[ à la Bagatelle.]</hi></stage><lb/>
                         <l>Et bien , vous avois-je menti ?</l>
                     </sp>
                     <sp who="La Bagatelle">
@@ -483,7 +484,7 @@
                         <l>Examinez-moi ce corſage :</l>
                         <l>Voilà pour attirer bien des chalans chez vous ,</l>
                         <l>Et faire rehauſſer le prix de vos bijoux.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à <name type="person" n="Angélique">Angélique</name>.)</hi></stage>
+                        <lb/><stage type="delivery"><hi rend="italics">(à <name type="person" n="Angélique">Angélique</name>.)</hi></stage>
                         <l>Mais, la Belle, vers moi tournez votre viſage ;</l>
                         <l>Vous n'êtes pas coëffée à l'avantage.</l>
                         <l>Ce pli qui fait tout-à-fait mal,</l>
@@ -494,7 +495,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery"><hi rend="italic">bas au Chevalier.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">bas au Chevalier.</hi></stage><lb/>
                         <l>Vous n'êtes pas venu m'arranger ce matin.</l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
@@ -539,7 +540,7 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">lui arrangeant ſa palatine.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">lui arrangeant ſa palatine.</hi></stage><lb/>
                         <l>Elle ſera fort bien de la maniére.</l>
                         <pb n="15"/>
                         <l>Ces tréſor ſont trop beaux pour devoir les cacher ;</l>
@@ -556,7 +557,7 @@
                         <l>Un maître a des prérogatives :</l>
                         <l>Vous voilà maintenant plus belle de moitié.</l>
                         <l>De tous mes ſoins je dois être payé.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il baiſe <name type="person" n="Angélique">Angélique</name>.)</hi></stage>
+                        <lb/><stage type="business"><hi rend="italics">(Il baiſe <name type="person" n="Angélique">Angélique</name>.)</hi></stage>
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLE.</speaker><lb/>
@@ -568,7 +569,7 @@
                     </sp>
                     <sp who="La Bagatelle">
                         <speaker>LA BAGATELLE </speaker>
-                        <stage type="delivery"><hi rend="italic">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
                         <l>Vous profitez fort bien de ſes leçons utiles ; </l>
                         <l>La derniére ſur-tout, vient de vous embellir.</l>
                     </sp>
@@ -593,7 +594,7 @@
                         <speaker>LA BAGATELLE.</speaker><lb/>
                         <l>Il eſt juſte en cejour que je la récompenſe</l>
                         <l>D'une ſi belle paſſion.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(au Chevalier.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(au Chevalier.)</hi></stage><lb/>
                         <l>Adieu. Pour mon triomphe un Balet ſe prépare ;</l>
                         <l>Je veux qu'il ſerve auſſi pour ſa réception :</l>
                         <l>Je cours preſſer l'inſtant de l'éxécution.</l>
@@ -605,7 +606,7 @@
                         <speaker>ANGELIQUE.</speaker><lb/>
                         <l>Déeſſe de mon ame , ah ! que je ſuis ravie !</l>
                         <l>J'aime la danſe à la folie.</l>
-                        <lb/><stage type="business"><hi rend="italic">(revenant ſur ſes pas.)</hi></stage><lb/>
+                        <lb/><stage type="business"><hi rend="italics">(revenant ſur ſes pas.)</hi></stage><lb/>
                         <l part="I">Monſieur ne nous ſuit pas ?</l>
                     </sp>
                     <sp who="La Bagatelle">
@@ -620,7 +621,7 @@
                     </sp>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery"><hi rend="italic">au Chevalier.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Chevalier.</hi></stage><lb/>
                         <l part="F">A vous quitter ainſi ,</l>
                         <l>Mon cœur a vraiment de la peine ;</l>
                         <l>Mais je reviens bientôt ici ;</l>
@@ -634,16 +635,16 @@
                         <l>Comptez qu'il fera jour pour vous ;</l>
                         <l>Vous n'aurez qu'à ſuivre Madame.</l>
                     </sp>
-                    <stage type="exit"><hi rend="italic">(<name type="person" n="Angélique">Angélique</name> ſort avec la Bagatelle.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(<name type="person" n="Angélique">Angélique</name> ſort avec la Bagatelle.)</hi></stage>
                 </div1>
                 <div1 type="scene" n="4">
                     <head>SCENE IV.</head><lb/>
                     <stage>LE CHEVALIER, DAMON.</stage>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
                         <l><c type="lettrine">U</c>N homme vient ; je le connois ;</l>
-                        <l>C'eſt un vieux libertin. <stage type="delivery"><hi rend="italic">(haut.)</hi></stage> Eh! C'eſt vous que je vois !</l>
+                        <l>C'eſt un vieux libertin. <stage type="delivery"><hi rend="italics">(haut.)</hi></stage> Eh! C'eſt vous que je vois !</l>
                         <l>Je vous embraſſe , &amp; de toute mon ame ,</l>
                         <l>Cher Papa dont les traits paroiſſent rajeunis,</l>
                         <l>Vous qui tenez la vielleſſe enchaînée.</l>
@@ -854,7 +855,7 @@
                         <l>Je raille. Allez , repoſez-vous ſur nous;</l>
                         <l>Dans une heure, au plûtard, vous aurez tout chez <lb/> vous.</l>
                     </sp>
-                    <lb/><stage type="exit"><hi rend="italic">(<name type="person" n="Damon">Damon</name> s'en va.)</hi></stage>
+                    <lb/><stage type="exit"><hi rend="italics">(<name type="person" n="Damon">Damon</name> s'en va.)</hi></stage>
                 </div1>
                 <pb n="21"/>
                 <div1 type="scene" n="5">
@@ -862,7 +863,7 @@
                     <stage>LE CHEVALIER, LE MARQUIS, <lb/> LE COMTE, LE BARON</stage><lb/>
                     <sp who="Le Marquis, le Comte, le Baron">
                         <speaker>LE MAQUIS, LE COMTE, LE BARON,</speaker><lb/>
-                        <stage type="business"><hi rend="italic">embraſſant tous trois, en même-tems, le Chevalier.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">embraſſant tous trois, en même-tems, le Chevalier.</hi></stage><lb/>
                         <l part="I"><c type="lettrine">E</c>H ! Bon jour, Chevalier.</l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
@@ -905,7 +906,7 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS.</speaker><lb/>
-                        <stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
                         <l><unclear>L</unclear>iſons d'abord le titre : ALMANACH DES THEATRES.</l>
                     </sp>
                     <pb n="22"/>
@@ -931,7 +932,7 @@
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="business"><hi rend="italic">rit en liſant.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">rit en liſant.</hi></stage><lb/>
                         <l part="M">Ah! Ah!</l>
                     </sp>
                     <sp who="Le Comte">
@@ -968,7 +969,7 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">au Baron</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Baron</hi></stage><lb/>
                         <l>Lis ſans tant de cérémonie.</l>
                     </sp>
                     <sp who="Le Baron">
@@ -983,23 +984,23 @@
                     <pb n="23"/>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <l><hi rend="italic">L'an qu'<name type="person" n="Isis">Iſis</name> au jour reparoîtra,</hi></l>
-                        <l><hi rend="italic">Trembles, frémis, malheureux Opéra,</hi></l>
-                        <l><hi rend="italic">Elle ſera pour toi la fatale cométe</hi></l>
-                        <l><hi rend="italic">Qui t'annoncera ta défaite :</hi></l>
-                        <l><hi rend="italic">Des ſes climats glacés tout ſe reſſentira :</hi></l>
-                        <l><hi rend="italic">Dans le rôle d'<name type="person" n="Io">Io</name> (a) 
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <l><hi rend="italics">L'an qu'<name type="person" n="Isis">Iſis</name> au jour reparoîtra,</hi></l>
+                        <l><hi rend="italics">Trembles, frémis, malheureux Opéra,</hi></l>
+                        <l><hi rend="italics">Elle ſera pour toi la fatale cométe</hi></l>
+                        <l><hi rend="italics">Qui t'annoncera ta défaite :</hi></l>
+                        <l><hi rend="italics">Des ſes climats glacés tout ſe reſſentira :</hi></l>
+                        <l><hi rend="italics">Dans le rôle d'<name type="person" n="Io">Io</name> (a) 
                             <note place="bottom" resp="editeur">(a) Mademoiſelle le Maure, qui venoit de jouer le rôle 
                             <lb/> de l'Amour dans le balet des Sens.</note> 
                             l'Amour s'enrhumera.</hi></l>
-                        <l><hi rend="italic">Pour rendre ta perte complette,</hi></l>
-                        <l><hi rend="italic">Un beau mardi (b 
+                        <l><hi rend="italics">Pour rendre ta perte complette,</hi></l>
+                        <l><hi rend="italics">Un beau mardi (b 
                             <note place="bottom" resp="editeur">(b) Mademoiſelle Petitpas, qui avoit joué celui de <name type="person" n="Zéphire">Zéphire</name> dans 
                             <lb/> le même balet, &amp; qui partit un beau matin pour l'<name type="place" n="Angleterre">Angleterre</name>.</note> 
                             <name type="person" n="Zéphire">Zéphire</name> s'envolera,</hi></l>
-                        <l><hi rend="italic">Et (c) <note place="bottom" resp="editeur">(c) Mademoiſelle Peliſſier.</note> la Sirenne ſe taira ;</hi></l>
-                        <l><hi rend="italic">La Danſe n'aura plus ſa meilleure ſujette.</hi></l>
+                        <l><hi rend="italics">Et (c) <note place="bottom" resp="editeur">(c) Mademoiſelle Peliſſier.</note> la Sirenne ſe taira ;</hi></l>
+                        <l><hi rend="italics">La Danſe n'aura plus ſa meilleure ſujette.</hi></l>
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE.</speaker><lb/>
@@ -1007,26 +1008,26 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">continue.</hi></stage><lb/>
-                        <l part="F"><hi rend="italic">Pour lors tu te verras ſi bas,</hi></l>
-                        <l><hi rend="italic">Et d'Acteurs dont tu manqueras :</hi></l>
-                        <l><hi rend="italic">Telle, enfin, ſera ta diſette,</hi></l>
-                        <l><hi rend="italic">Que le maître des Cieux, tant qu'on proméne <name type="person" n="Io">Io</name></hi></l>
-                        <l><hi rend="italic">De ſon rang dépouillant les marques,</hi></l>
-                        <l><hi rend="italic">Sera contraint de faire une des Parques ,</hi></l>
-                        <l><hi rend="italic">Et de filer pour chanter leur trio.</hi></l>
+                        <stage type="business"><hi rend="italics">continue.</hi></stage><lb/>
+                        <l part="F"><hi rend="italics">Pour lors tu te verras ſi bas,</hi></l>
+                        <l><hi rend="italics">Et d'Acteurs dont tu manqueras :</hi></l>
+                        <l><hi rend="italics">Telle, enfin, ſera ta diſette,</hi></l>
+                        <l><hi rend="italics">Que le maître des Cieux, tant qu'on proméne <name type="person" n="Io">Io</name></hi></l>
+                        <l><hi rend="italics">De ſon rang dépouillant les marques,</hi></l>
+                        <l><hi rend="italics">Sera contraint de faire une des Parques ,</hi></l>
+                        <l><hi rend="italics">Et de filer pour chanter leur trio.</hi></l>
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS.</speaker><lb/>
-                        <l>Je ſuis charmé qu'on d'aube ainſi l'<hi rend="italic">incognito</hi>.</l>
+                        <l>Je ſuis charmé qu'on d'aube ainſi l'<hi rend="italics">incognito</hi>.</l>
                         <l>Du Seigneur <name type="person" n="Jupiter">Jupiter</name> qui trahiſſant ſa flamme,</l>
                         <l>Livre ſi ſottement ſa maîtreſſe à ſa femme.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(à part.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(à part.)</hi></stage><lb/>
                         <l>Le Comte enrage ; il met ma joie au dernier point.</l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery"><hi rend="italic">au Comte.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Comte.</hi></stage><lb/>
                         <l>Je te l'avois bien dit, que tu ne rirois point.</l>
                     </sp>
                     <sp who="Le Comte">
@@ -1047,27 +1048,27 @@
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER.</speaker><lb/>
                         <l>Prêtez l'oreille, la voici.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
-                        <l><hi rend="italic">L'an que tu remettras <name type="person" n="Omphale">Omphale</name> ſur la ſcène ,</hi></l>
-                        <l><hi rend="italic">(a) <note place="bottom" resp="editeur">(a) Le ſieur Chaſſé.</note> 
+                        <lb/><stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
+                        <l><hi rend="italics">L'an que tu remettras <name type="person" n="Omphale">Omphale</name> ſur la ſcène ,</hi></l>
+                        <l><hi rend="italics">(a) <note place="bottom" resp="editeur">(a) Le ſieur Chaſſé.</note> 
                             D'<name type="person" n="Alcide">Alcide</name>, en vain, la voix avec le port,</hi></l>
-                        <l><hi rend="italic">Ramenera chez toi l'affluence d'abord.</hi></l>
-                        <l><hi rend="italic">Comme un ſigne éclatant de ta chûte prochaine ,</hi></l>
-                        <l><hi rend="italic">On verra ſur ſon ſein, briller, le premier jour ,</hi></l>
-                        <l><hi rend="italic">Durant le cours d'un acte, un nouveau phénoméne,</hi></l>
-                        <l><hi rend="italic">Qui, ſurprenant les yeux des Dames d'alentou<sic> </sic><corr></corr>r,</hi></l>
-                        <l><hi rend="italic">Les fera rire &amp; rougir tour-à-tour.</hi></l>
-                        <l><hi rend="italic">Pour mieux préſager ta ruine,</hi></l>
-                        <l><hi rend="italic">Un démon ſavoyard conjuré par <name type="person" n="Argine">Argine</name>,</hi></l>
-                        <l><hi rend="italic">Précipitant ſon vol qui manqura,</hi></l>
-                        <l><hi rend="italic">Tombera ſur ſon dos, &amp; la renverſera.</hi></l>
-                        <l><hi rend="italic"><name type="person" n="Hercule">Hercule</name>, en ce déſordre extrême,</hi></l>
-                        <l><hi rend="italic"><name type="person" n="Hercule">Hercule</name>, de frayeur, reculera lui-même,</hi></l>
-                        <l><hi rend="italic">Pour laſſer le public qui ſe rebutera,</hi></l>
-                        <l><hi rend="italic">Tout le fretin du ſombre empire</hi></l>
-                        <l><hi rend="italic">S'exercera long-tems à batre l'entrechat ;</hi></l>
-                        <l><hi rend="italic">(b) <note place="bottom" resp="editeur">(b) Le ſieur Dupré.</note> Et le grand diable qu'on admire.</hi></l>
-                        <l><hi rend="italic">Ne pourra plus ſauter, fatigué du ſabat.</hi></l>
+                        <l><hi rend="italics">Ramenera chez toi l'affluence d'abord.</hi></l>
+                        <l><hi rend="italics">Comme un ſigne éclatant de ta chûte prochaine ,</hi></l>
+                        <l><hi rend="italics">On verra ſur ſon ſein, briller, le premier jour ,</hi></l>
+                        <l><hi rend="italics">Durant le cours d'un acte, un nouveau phénoméne,</hi></l>
+                        <l><hi rend="italics">Qui, ſurprenant les yeux des Dames d'alentou<sic> </sic><corr></corr>r,</hi></l>
+                        <l><hi rend="italics">Les fera rire &amp; rougir tour-à-tour.</hi></l>
+                        <l><hi rend="italics">Pour mieux préſager ta ruine,</hi></l>
+                        <l><hi rend="italics">Un démon ſavoyard conjuré par <name type="person" n="Argine">Argine</name>,</hi></l>
+                        <l><hi rend="italics">Précipitant ſon vol qui manqura,</hi></l>
+                        <l><hi rend="italics">Tombera ſur ſon dos, &amp; la renverſera.</hi></l>
+                        <l><hi rend="italics"><name type="person" n="Hercule">Hercule</name>, en ce déſordre extrême,</hi></l>
+                        <l><hi rend="italics"><name type="person" n="Hercule">Hercule</name>, de frayeur, reculera lui-même,</hi></l>
+                        <l><hi rend="italics">Pour laſſer le public qui ſe rebutera,</hi></l>
+                        <l><hi rend="italics">Tout le fretin du ſombre empire</hi></l>
+                        <l><hi rend="italics">S'exercera long-tems à batre l'entrechat ;</hi></l>
+                        <l><hi rend="italics">(b) <note place="bottom" resp="editeur">(b) Le ſieur Dupré.</note> Et le grand diable qu'on admire.</hi></l>
+                        <l><hi rend="italics">Ne pourra plus ſauter, fatigué du ſabat.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON.</speaker><lb/>
@@ -1121,7 +1122,7 @@
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="business"><hi rend="italic">fermant la bouche au Comte.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">fermant la bouche au Comte.</hi></stage><lb/>
                         <l part="F">Je t'impoſe le ſilence.</l>
                     </sp>
                     <sp who="Le Comte">
@@ -1145,14 +1146,14 @@
                     <pb n="26"/>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">au Comte.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Comte.</hi></stage><lb/>
                         <l>C'eſt le meilleur parti. Ce livre peut, contre eux,</l>
                         <l>Te fournir plus d'un trait heureux.</l>
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE.</speaker><lb/>
                         <l>Bon ! Je tiens ce que je déſire.</l>
-                        <lb/><stage type="delivery"><hi rend="italic">(au Baron.)</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">(au Baron.)</hi></stage><lb/>
                         <l>Voici de quoi t'aprendre à te moquer de moi.</l>
                         <l>Baron, ce coup qui ſeconde ma haine,</l>
                         <l>Foudroye entiérement la troupe Italienne :</l>
@@ -1168,17 +1169,17 @@
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <l part="F"><hi rend="italic">L'an que chez toi (a)<note place="bottom" resp="editeur">(a) La vie eſt un ſonge.</note> <name type="person" n="Sigismond">Sigiſmond</name> paroîtra,</hi></l>
-                        <l><hi rend="italic">Que je te plains, ô troupe d'Italie !</hi></l>
-                        <l><hi rend="italic">Juſqu'en ſes fondemens ton hôtel gelera,</hi></l>
-                        <l><hi rend="italic">Et dans ſes doigts <name type="person" n="Arlequin">Arlequin</name> ſoufflera.</hi></l>
-                        <l><hi rend="italic">Pour réchaufer ta Comédie (b)<note place="bottom" resp="editeur">Les Enfans trouvés, Parodie de <name type="person" n="Zaïre">Zaïre</name></note>,</hi></l>
-                        <l><hi rend="italic">En vain <name type="person" n="Zaïre">Zaïre</name> t'offrira</hi></l>
-                        <l><hi rend="italic">Un ſujet abondant de critique jolie :</hi></l>
-                        <l><hi rend="italic">Un Dieu puiſſant pour elle combattra,</hi></l>
-                        <l><hi rend="italic">Et le Public s'éclipſera,</hi></l>
-                        <l><hi rend="italic">Après avoir ſifflé ta parodie.</hi></l>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <l part="F"><hi rend="italics">L'an que chez toi (a)<note place="bottom" resp="editeur">(a) La vie eſt un ſonge.</note> <name type="person" n="Sigismond">Sigiſmond</name> paroîtra,</hi></l>
+                        <l><hi rend="italics">Que je te plains, ô troupe d'Italie !</hi></l>
+                        <l><hi rend="italics">Juſqu'en ſes fondemens ton hôtel gelera,</hi></l>
+                        <l><hi rend="italics">Et dans ſes doigts <name type="person" n="Arlequin">Arlequin</name> ſoufflera.</hi></l>
+                        <l><hi rend="italics">Pour réchaufer ta Comédie (b)<note place="bottom" resp="editeur">Les Enfans trouvés, Parodie de <name type="person" n="Zaïre">Zaïre</name></note>,</hi></l>
+                        <l><hi rend="italics">En vain <name type="person" n="Zaïre">Zaïre</name> t'offrira</hi></l>
+                        <l><hi rend="italics">Un ſujet abondant de critique jolie :</hi></l>
+                        <l><hi rend="italics">Un Dieu puiſſant pour elle combattra,</hi></l>
+                        <l><hi rend="italics">Et le Public s'éclipſera,</hi></l>
+                        <l><hi rend="italics">Après avoir ſifflé ta parodie.</hi></l>
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS.</speaker><lb/>
@@ -1186,14 +1187,14 @@
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                         <l part="I">Tu ne ris pas .</l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON.</speaker><lb/>
                         <l part="F">Mais, beaucoup.</l>
                         <l>Ce pauvre <name type="person" n="Sigismond">Sigiſmond ! J'en ai l'ame attendrie.</name> </l>
-                        <lb/><stage type="delivery"><hi rend="italic">[d'un ton tragique.]</hi></stage><lb/>
+                        <lb/><stage type="delivery"><hi rend="italics">[d'un ton tragique.]</hi></stage><lb/>
                         <l>Qu'a-t-il donc fait aux dieux, pour être abandonné !</l>
                     </sp>
                     <pb n="27"/>
@@ -1221,7 +1222,7 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                         <l>Conſoles-toi, leurs maux ne ſont pas incurables.</l>
                         <l>Cet Almanach avantageux</l>
                         <l>Contien non-ſeulement des faits très-véritables,</l>
@@ -1235,12 +1236,12 @@
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER.</speaker><lb/>
                         <l>En voici le reméde, &amp; prompt, &amp; ſpécifique.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                        <lb/><stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
                         <l>AVIS TRES-SALUTAIRE A LA TROUPE ITALIQUE.</l>
-                        <l><hi rend="italic">Si tu veux rapeller, chez toi les ſpectateurs,</hi></l>
-                        <l><hi rend="italic">Donnes, de ſont deux bagatelles,</hi></l>
-                        <l><hi rend="italic">D'excellentes Piéces nouvelles ;</hi></l>
-                        <l><hi rend="italic">Et, pour les bien jouer, reçois de bons Acteurs.</hi></l>
+                        <l><hi rend="italics">Si tu veux rapeller, chez toi les ſpectateurs,</hi></l>
+                        <l><hi rend="italics">Donnes, de ſont deux bagatelles,</hi></l>
+                        <l><hi rend="italics">D'excellentes Piéces nouvelles ;</hi></l>
+                        <l><hi rend="italics">Et, pour les bien jouer, reçois de bons Acteurs.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON.</speaker><lb/>
@@ -1264,13 +1265,13 @@
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER.</speaker><lb/>
                         <l>S'il le ſuivoit, il lui ſeroit utile.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il lit.)</hi></stage><lb/>
-                        <l><hi rend="italic">Au Théâtre chantant</hi></l>
-                        <l><hi rend="italic">AVIS très-important.</hi></l>
-                        <l><hi rend="italic">Veux-tu fixer la fortune qui flotte.</hi></l>
-                        <l><hi rend="italic">Et te voir de nouveau couru ?</hi></l>
-                        <l><hi rend="italic">Fais au plûtôt , redanſer la vertu (a) <note place="bottom" resp="editeur">(a) Mademoiſelle Salé.</note></hi></l>
-                        <l><hi rend="italic">Et remets l'Amour (b) <note place="bottom" resp="editeur">Mademoiſelle le Maure.</note> en culotte.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">(Il lit.)</hi></stage><lb/>
+                        <l><hi rend="italics">Au Théâtre chantant</hi></l>
+                        <l><hi rend="italics">AVIS très-important.</hi></l>
+                        <l><hi rend="italics">Veux-tu fixer la fortune qui flotte.</hi></l>
+                        <l><hi rend="italics">Et te voir de nouveau couru ?</hi></l>
+                        <l><hi rend="italics">Fais au plûtôt , redanſer la vertu (a) <note place="bottom" resp="editeur">(a) Mademoiſelle Salé.</note></hi></l>
+                        <l><hi rend="italics">Et remets l'Amour (b) <note place="bottom" resp="editeur">Mademoiſelle le Maure.</note> en culotte.</hi></l>
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE.</speaker><lb/>
@@ -1382,7 +1383,7 @@
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="delivery"><hi rend="italic">au Marquis.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Marquis.</hi></stage><lb/>
                         <l>Fais ta lecture ; allons, je técoute à preſent.</l>
                     </sp>
                     <sp who="Le Baron">
@@ -1391,16 +1392,16 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <l part="F"><hi rend="italic">L'an que <name type="person" n="Zaïre">Zaïre</name> enchantera la Terre.</hi></l>
-                        <l><hi rend="italic">O ! Théâtre François, quel ſera ton bonheur !</hi></l>
-                        <l><hi rend="italic">De ſa voix (a)<note place="bottom" resp="editeur">(a) Mademoiſelle Gauffin.</note> le ſon ſéducteur,</hi></l>
-                        <l><hi rend="italic">Aidé du rera don de plaire,</hi></l>
-                        <l><hi rend="italic">Attendrira <name type="place" n="Paris">Paris</name> en ta faveur,</hi></l>
-                        <l><hi rend="italic">Et fera paſſer ſa douceur</hi></l>
-                        <l><hi rend="italic">Juſqu'au fond de l'ame ſévére</hi></l>
-                        <l><hi rend="italic">Du plus inflexible Cenſeur...</hi></l>
-                        <lb/><stage type="business"><hi rend="italic">[Il s'interrompt avec tranſport.]</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <l part="F"><hi rend="italics">L'an que <name type="person" n="Zaïre">Zaïre</name> enchantera la Terre.</hi></l>
+                        <l><hi rend="italics">O ! Théâtre François, quel ſera ton bonheur !</hi></l>
+                        <l><hi rend="italics">De ſa voix (a)<note place="bottom" resp="editeur">(a) Mademoiſelle Gauffin.</note> le ſon ſéducteur,</hi></l>
+                        <l><hi rend="italics">Aidé du rera don de plaire,</hi></l>
+                        <l><hi rend="italics">Attendrira <name type="place" n="Paris">Paris</name> en ta faveur,</hi></l>
+                        <l><hi rend="italics">Et fera paſſer ſa douceur</hi></l>
+                        <l><hi rend="italics">Juſqu'au fond de l'ame ſévére</hi></l>
+                        <l><hi rend="italics">Du plus inflexible Cenſeur...</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">[Il s'interrompt avec tranſport.]</hi></stage><lb/>
                         <l>Ah ! Je ſuis tranſporté ! Je ne ſçaurois le taire.</l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
@@ -1414,27 +1415,27 @@
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="delivery"><hi rend="italic">bruſquement.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">bruſquement.</hi></stage><lb/>
                         <l part="F">Recommencés, Monſieur.</l>
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="business"><hi rend="italic">recommence.</hi></stage><lb/>
-                        <l><hi rend="italic">L'an que <name type="person" n="Zaïre">Zaïre</name> enchantera la Terre.</hi></l>
-                        <l><hi rend="italic">O ! Théâtre François, quel ſera ton bonheur !</hi></l>
-                        <l><hi rend="italic">De ſa voix le ſon ſéducteur,</hi></l>
+                        <stage type="business"><hi rend="italics">recommence.</hi></stage><lb/>
+                        <l><hi rend="italics">L'an que <name type="person" n="Zaïre">Zaïre</name> enchantera la Terre.</hi></l>
+                        <l><hi rend="italics">O ! Théâtre François, quel ſera ton bonheur !</hi></l>
+                        <l><hi rend="italics">De ſa voix le ſon ſéducteur,</hi></l>
                         <pb n="31"/>
-                        <l><hi rend="italic">Aidé du rera don de plaire,</hi></l>
-                        <l><hi rend="italic">Attendrira <name type="place" n="Paris">Paris</name> en ta faveur,</hi></l>
-                        <l><hi rend="italic">Et fera paſſer ſa douceur</hi></l>
-                        <l><hi rend="italic">Juſqu'au fond de l'ame ſévére</hi></l>
-                        <l><hi rend="italic">Du plus inflexible Cenſeur ;</hi></l>
-                        <l><hi rend="italic">Tu n'auras plus à craindre le Tonnerre,</hi></l>
-                        <l><hi rend="italic">Ni les éclats du Public en fureur ;</hi></l>
-                        <l><hi rend="italic">Et tes jours coulront dans le calme proſpére,</hi></l>
-                        <l><hi rend="italic">Qui ne ſera troublé que par le bruit flatteur</hi></l>
-                        <l><hi rend="italic">Qu'excitera chez toi plus d'un Aprobateur.</hi></l>
-                        <lb/><stage type="business"><hi rend="italic">(Il s'interrompt de nouveau.)</hi></stage><lb/>
+                        <l><hi rend="italics">Aidé du rera don de plaire,</hi></l>
+                        <l><hi rend="italics">Attendrira <name type="place" n="Paris">Paris</name> en ta faveur,</hi></l>
+                        <l><hi rend="italics">Et fera paſſer ſa douceur</hi></l>
+                        <l><hi rend="italics">Juſqu'au fond de l'ame ſévére</hi></l>
+                        <l><hi rend="italics">Du plus inflexible Cenſeur ;</hi></l>
+                        <l><hi rend="italics">Tu n'auras plus à craindre le Tonnerre,</hi></l>
+                        <l><hi rend="italics">Ni les éclats du Public en fureur ;</hi></l>
+                        <l><hi rend="italics">Et tes jours coulront dans le calme proſpére,</hi></l>
+                        <l><hi rend="italics">Qui ne ſera troublé que par le bruit flatteur</hi></l>
+                        <l><hi rend="italics">Qu'excitera chez toi plus d'un Aprobateur.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">(Il s'interrompt de nouveau.)</hi></stage><lb/>
                         <l part="I">Que vous avois-je dit ?</l>
                     </sp>
                     <sp who="Le Comte">
@@ -1443,9 +1444,9 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="business"><hi rend="italic">continuë.</hi></stage><lb/>
-                        <l><hi rend="italic">Le Spectateur, pour toi, ſera ſi débonnaire,</hi></l>
-                        <l><hi rend="italic">Que du froid</hi> Complaiſant a)<note place="bottom" resp="editeur">(a) Comédie.</note> <hi rend="italic">reſpectant la fadeur...</hi></l>
+                        <stage type="business"><hi rend="italics">continuë.</hi></stage><lb/>
+                        <l><hi rend="italics">Le Spectateur, pour toi, ſera ſi débonnaire,</hi></l>
+                        <l><hi rend="italics">Que du froid</hi> Complaiſant a)<note place="bottom" resp="editeur">(a) Comédie.</note> <hi rend="italics">reſpectant la fadeur...</hi></l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER.</speaker><lb/>
@@ -1458,12 +1459,12 @@
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS.</speaker><lb/>
                         <l part="F">C'eſt ce que je vais faire.</l>
-                        <lb/><stage type="business"><hi rend="italic">[Il reprend.]</hi></stage><lb/>
-                        <l><hi rend="italic">Le Spectat<sic></sic><corr>e</corr>ur , pour toi, ſera ſi débonnaire,</hi></l>
-                        <l><hi rend="italic">Que du froid Complaiſant reſpectant la fadeur</hi></l>
-                        <l><hi rend="italic">Il entendra la Piéce entiére,</hi></l>
-                        <l><hi rend="italic">Sans exciter nulle rumeur,</hi></l>
-                        <l><hi rend="italic">Et qu'il prendra ſon caractére.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">[Il reprend.]</hi></stage><lb/>
+                        <l><hi rend="italics">Le Spectat<sic></sic><corr>e</corr>ur , pour toi, ſera ſi débonnaire,</hi></l>
+                        <l><hi rend="italics">Que du froid Complaiſant reſpectant la fadeur</hi></l>
+                        <l><hi rend="italics">Il entendra la Piéce entiére,</hi></l>
+                        <l><hi rend="italics">Sans exciter nulle rumeur,</hi></l>
+                        <l><hi rend="italics">Et qu'il prendra ſon caractére.</hi></l>
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE.</speaker><lb/>
@@ -1471,15 +1472,15 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="business"><hi rend="italic">lit toujours.</hi></stage><lb/>
-                        <l part="F"><hi rend="italic">Le jeu brillant de chaque Acteur,</hi></l>
-                        <l><hi rend="italic">A l'abri de quelque lueur</hi></l>
-                        <l><hi rend="italic">Fera claquer ſa morale ordinaire,</hi></l>
-                        <l><hi rend="italic">Etonnera le connoiſſeur ,</hi></l>
+                        <stage type="business"><hi rend="italics">lit toujours.</hi></stage><lb/>
+                        <l part="F"><hi rend="italics">Le jeu brillant de chaque Acteur,</hi></l>
+                        <l><hi rend="italics">A l'abri de quelque lueur</hi></l>
+                        <l><hi rend="italics">Fera claquer ſa morale ordinaire,</hi></l>
+                        <l><hi rend="italics">Etonnera le connoiſſeur ,</hi></l>
                         <pb n="32"/>
-                        <l><hi rend="italic">Et le forcera de ſe taire,</hi></l>
-                        <l><hi rend="italic">Et d'admirer... en depit de ſon cœur,</hi></l>
-                        <l><hi rend="italic">La complaiſance... du Parterre.</hi></l>
+                        <l><hi rend="italics">Et le forcera de ſe taire,</hi></l>
+                        <l><hi rend="italics">Et d'admirer... en depit de ſon cœur,</hi></l>
+                        <l><hi rend="italics">La complaiſance... du Parterre.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON.</speaker><lb/>
@@ -1565,17 +1566,17 @@
                         <l>Je goûte des plaiſirs parfaits,</l>
                         <l>Quand elle danſe &amp; qu'elle entonne.</l>
                         <l>D'une façon toute bouffonne,</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il chante.)</hi></stage><lb/>
-                        <l><hi rend="italic">Que tous les Procès</hi></l>
-                        <l><hi rend="italic">Durent à jamais.</hi></l>
-                        <l><hi rend="italic">Qu'on les barbouille,</hi></l>
-                        <l><hi rend="italic">Qu'on les barbouille</hi></l>
-                        <l><hi rend="italic">A jamais.</hi></l>
-                        <lb/><stage type="business"><hi rend="italic">(Il récite.)</hi></stage><lb/>
-                        <l>Oh ! Ce <hi rend="italic">barbouille</hi>-là, dans ſa bouche charmante,</l>
+                        <lb/><stage type="business"><hi rend="italics">(Il chante.)</hi></stage><lb/>
+                        <l><hi rend="italics">Que tous les Procès</hi></l>
+                        <l><hi rend="italics">Durent à jamais.</hi></l>
+                        <l><hi rend="italics">Qu'on les barbouille,</hi></l>
+                        <l><hi rend="italics">Qu'on les barbouille</hi></l>
+                        <l><hi rend="italics">A jamais.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">(Il récite.)</hi></stage><lb/>
+                        <l>Oh ! Ce <hi rend="italics">barbouille</hi>-là, dans ſa bouche charmante,</l>
                         <l>Produit un effet qui m'enchante.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il répéte en chantant.)</hi></stage><lb/>
-                        <l><hi rend="italic">Qu'on les barbouille, bouille, bouille.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">(Il répéte en chantant.)</hi></stage><lb/>
+                        <l><hi rend="italics">Qu'on les barbouille, bouille, bouille.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON.</speaker><lb/>
@@ -1583,35 +1584,35 @@
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery"><hi rend="italic">au Comte.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Comte.</hi></stage><lb/>
                         <l>Ce Chœur vaut bien celui des Trembleurs d'<name type="person" n="Isis">Iſis</name>.</l>
-                        <lb/><stage type="business"><hi rend="italic">(Il chante en ſe moquant.)</hi></stage><lb/>
-                        <l><hi rend="italic">L'hyver qui nous tourmente,</hi></l>
-                        <l><hi rend="italic">Et qui s'obſtine à nous geler.</hi></l>
+                        <lb/><stage type="business"><hi rend="italics">(Il chante en ſe moquant.)</hi></stage><lb/>
+                        <l><hi rend="italics">L'hyver qui nous tourmente,</hi></l>
+                        <l><hi rend="italics">Et qui s'obſtine à nous geler.</hi></l>
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="business"><hi rend="italic">reprend en même-tems.</hi></stage>
-                        <l><hi rend="italic">Que tous les Procès</hi></l>
-                        <l><hi rend="italic">Durent à jamais.</hi></l>
-                        <l><hi rend="italic">Qu'on les barbouille, &amp;c.</hi></l>
+                        <stage type="business"><hi rend="italics">reprend en même-tems.</hi></stage>
+                        <l><hi rend="italics">Que tous les Procès</hi></l>
+                        <l><hi rend="italics">Durent à jamais.</hi></l>
+                        <l><hi rend="italics">Qu'on les barbouille, &amp;c.</hi></l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">au Baron.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Baron.</hi></stage><lb/>
                         <l>De la partie il nous faut mettre auſſi.</l>
                         <pb n="34"/>
-                        <stage type="business"><hi rend="italic">(Le Chevalier &amp; le Baron mêlent leurs voix 
+                        <stage type="business"><hi rend="italics">(Le Chevalier &amp; le Baron mêlent leurs voix 
                             <lb/>à celles du Marquis &amp; du Comte, &amp; 
                             <lb/>chantent en même-tems.)</hi></stage><lb/>
-                        <l><hi rend="italic">Maudit celui qui n'en boira,</hi></l>
-                        <l><hi rend="italic">Et qui ne s'en barbouille ;</hi></l>
-                        <l><hi rend="italic">Maudit celui qui n'en boira,</hi></l>
-                        <l><hi rend="italic">Et qui ne s'en barbouillera.</hi></l>
+                        <l><hi rend="italics">Maudit celui qui n'en boira,</hi></l>
+                        <l><hi rend="italics">Et qui ne s'en barbouille ;</hi></l>
+                        <l><hi rend="italics">Maudit celui qui n'en boira,</hi></l>
+                        <l><hi rend="italics">Et qui ne s'en barbouillera.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery"><hi rend="italic">après avoir chanté.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">après avoir chanté.</hi></stage><lb/>
                         <l>Voilà ce qu'on apelle un beau charivari !</l>
                     </sp>
                     <sp who="Le Comte">
@@ -1629,42 +1630,42 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="business"><hi rend="italic">lit.</hi></stage><lb/>
-                        <l><hi rend="italic">L'an que du fond du Nord un Héros ſortira ,</hi></l>
-                        <l><hi rend="italic">Il effacera tout par ſa clarté ſuprême :</hi></l>
-                        <l><hi rend="italic">Le grand <name type="person" n="Gustave">Guſtave</name> étonnera</hi></l>
-                        <l><hi rend="italic">Par ſes beautés &amp; par ſes défauts même ;</hi></l>
-                        <l><hi rend="italic">Juſques à ſon habit , tout en lui charmera.</hi></l>
-                        <l><hi rend="italic">Grands Dieux ! Quelle riche abondance</hi></l>
-                        <l><hi rend="italic">De ſituations contre la vraiſemblance !</hi></l>
-                        <l><hi rend="italic">Et que de lieux communs heureuſement co<sic>u</sic><corr>n</corr>fus</hi></l>
-                        <l><hi rend="italic">A des événemens qu'on n'aura jamais vûs</hi></l>
-                        <l><hi rend="italic">Un ſonge, une reconnoiſſance,</hi></l>
-                        <l><hi rend="italic">Des Monologues tant &amp; plus.</hi></l>
-                        <l><hi rend="italic">Une longue Oraiſon Funèbre</hi></l>
-                        <l><hi rend="italic">Dun Prince vivant quon célébre ;</hi></l>
-                        <l><hi rend="italic">Des traveſtiſſemens, des conſpirations,</hi></l>
-                        <l><hi rend="italic">Des empriſonnemens &amp; des proſcriptions ;</hi></l>
-                        <l><hi rend="italic">Une ſédition ſubite</hi></l>
-                        <l><hi rend="italic">Qui change tout-à-coup les décorations :</hi></l>
-                        <l><hi rend="italic">Un enlévement, une fuite,</hi></l>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage><lb/>
+                        <l><hi rend="italics">L'an que du fond du Nord un Héros ſortira ,</hi></l>
+                        <l><hi rend="italics">Il effacera tout par ſa clarté ſuprême :</hi></l>
+                        <l><hi rend="italics">Le grand <name type="person" n="Gustave">Guſtave</name> étonnera</hi></l>
+                        <l><hi rend="italics">Par ſes beautés &amp; par ſes défauts même ;</hi></l>
+                        <l><hi rend="italics">Juſques à ſon habit , tout en lui charmera.</hi></l>
+                        <l><hi rend="italics">Grands Dieux ! Quelle riche abondance</hi></l>
+                        <l><hi rend="italics">De ſituations contre la vraiſemblance !</hi></l>
+                        <l><hi rend="italics">Et que de lieux communs heureuſement co<sic>u</sic><corr>n</corr>fus</hi></l>
+                        <l><hi rend="italics">A des événemens qu'on n'aura jamais vûs</hi></l>
+                        <l><hi rend="italics">Un ſonge, une reconnoiſſance,</hi></l>
+                        <l><hi rend="italics">Des Monologues tant &amp; plus.</hi></l>
+                        <l><hi rend="italics">Une longue Oraiſon Funèbre</hi></l>
+                        <l><hi rend="italics">Dun Prince vivant quon célébre ;</hi></l>
+                        <l><hi rend="italics">Des traveſtiſſemens, des conſpirations,</hi></l>
+                        <l><hi rend="italics">Des empriſonnemens &amp; des proſcriptions ;</hi></l>
+                        <l><hi rend="italics">Une ſédition ſubite</hi></l>
+                        <l><hi rend="italics">Qui change tout-à-coup les décorations :</hi></l>
+                        <l><hi rend="italics">Un enlévement, une fuite,</hi></l>
                         <pb n="35"/>
-                        <l><hi rend="italic">Un combat ſur la glace, où, faiſant le plongeon,</hi></l>
-                        <l><hi rend="italic">Par un prodige heureux, la fille de <name n="Sténon">Sténon</name></hi></l>
-                        <l><hi rend="italic">Diſparoîtra ſous l'eau toute habillée,</hi></l>
-                        <l><hi rend="italic">Puis reviendra ſur l'horiſon,</hi></l>
-                        <l><hi rend="italic">Pour nous en informer, ſans paroître mouillée ;</hi></l>
-                        <l><hi rend="italic">Et par un dernier trait digne d'être vanté ,</hi></l>
-                        <l><hi rend="italic">Après tant de périls, de fracas, de furie,</hi></l>
-                        <l><hi rend="italic">Qui tiendront en ſuſpens le Public agité,</hi></l>
-                        <l><hi rend="italic">La Piéce finira dans la tranquilité ;</hi></l>
-                        <l><hi rend="italic">Et, hors un Confident qui ſeul perdra la vie,</hi></l>
-                        <l><hi rend="italic">Les Acteurs de la Tragédie</hi></l>
-                        <l><hi rend="italic">Se retireront tous en fort bonne ſanté.</hi></l>
+                        <l><hi rend="italics">Un combat ſur la glace, où, faiſant le plongeon,</hi></l>
+                        <l><hi rend="italics">Par un prodige heureux, la fille de <name n="Sténon">Sténon</name></hi></l>
+                        <l><hi rend="italics">Diſparoîtra ſous l'eau toute habillée,</hi></l>
+                        <l><hi rend="italics">Puis reviendra ſur l'horiſon,</hi></l>
+                        <l><hi rend="italics">Pour nous en informer, ſans paroître mouillée ;</hi></l>
+                        <l><hi rend="italics">Et par un dernier trait digne d'être vanté ,</hi></l>
+                        <l><hi rend="italics">Après tant de périls, de fracas, de furie,</hi></l>
+                        <l><hi rend="italics">Qui tiendront en ſuſpens le Public agité,</hi></l>
+                        <l><hi rend="italics">La Piéce finira dans la tranquilité ;</hi></l>
+                        <l><hi rend="italics">Et, hors un Confident qui ſeul perdra la vie,</hi></l>
+                        <l><hi rend="italics">Les Acteurs de la Tragédie</hi></l>
+                        <l><hi rend="italics">Se retireront tous en fort bonne ſanté.</hi></l>
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery"><hi rend="italic">au Marquis.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Marquis.</hi></stage><lb/>
                         <l part="I">Que répons-tu ?</l>
                     </sp>
                     <sp who="Le Marquis">
@@ -1709,7 +1710,7 @@
                         <l>Un endroit favori qui me plaît-tout-à-fait,</l>
                         <l>C'eſt quand ſa bouche dit au Tyran qu'elle hait,</l>
                         <l>A propos du Héros qu'elle aime :</l>
-                        <l><hi rend="italic">Qu'il vive, qu'il triomphe, &amp; je meurs ſans regret.</hi></l>
+                        <l><hi rend="italics">Qu'il vive, qu'il triomphe, &amp; je meurs ſans regret.</hi></l>
                         <l>Cela ſe chante de ſoi-même,</l>
                         <l>Marquis; de ces paroles-là,</l>
                         <l>Sçai-tu bien qu'on feroit un beau Chœur d'Opéra ?</l>
@@ -1720,7 +1721,7 @@
                     <stage>LES ACTEURS PRECEDENS, <lb/> ANGELIQUE, FANCHON.</stage><lb/>
                     <sp who="Angélique">
                         <speaker>ANGELIQUE </speaker>
-                        <stage type="delivery"><hi rend="italic">au Chevalier.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">au Chevalier.</hi></stage><lb/>
                         <l><c type="lettrine">T</c>Out eſt prêt, mon cher Maître;</l>
                         <l>Mais, avant que d'ouvrir le Balet deſiré,</l>
                         <l>A vos yeux j'ai voulu paroître,</l>
@@ -1745,7 +1746,7 @@
                     </sp>
                     <sp who="Le Comte">
                         <speaker>LE COMTE </speaker>
-                        <stage type="business"><hi rend="italic">regardant<name type="person" n="Fanchon">Fanchon</name>.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">regardant<name type="person" n="Fanchon">Fanchon</name>.</hi></stage><lb/>
                         <l>Cette autre-ci n'a pas la mine moins friponne.</l>
                     </sp>
                     <sp who="Le Chevalier Colifichet">
@@ -1761,7 +1762,7 @@
                     <sp who="Angélique">
                         <speaker>ANGELIQUE.</speaker><lb/>
                         <l>En qualité d'amie elle vien à la fête</l>
-                        <l>Que pour me recevoir, la <hi rend="italic">Bagatelle</hi> aprête :</l>
+                        <l>Que pour me recevoir, la <hi rend="italics">Bagatelle</hi> aprête :</l>
                         <l>Je me crois obligée de vous la preſenter.</l>
                     </sp>
                     <sp who="Fanchon">
@@ -1798,7 +1799,7 @@
                     </sp>
                     <sp who="Fanchon">
                         <speaker>FANCHON </speaker>
-                        <stage type="business"><hi rend="italic">faiſant un entrechat.</hi></stage><lb/>
+                        <stage type="business"><hi rend="italics">faiſant un entrechat.</hi></stage><lb/>
                         <l part="F">A la danſe.</l>
                     </sp>
                     <sp who="Le Marquis">
@@ -1841,13 +1842,13 @@
                     </sp>
                     <sp who="Le Chevalier Colifichet">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="delivery"><hi rend="italic">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
+                        <stage type="delivery"><hi rend="italics">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
                         <l>Pour nous , nous ouvrirons la fête tous les deux.</l>
                     </sp>
                     <sp who="Le Marquis">
                         <speaker>LE MARQUIS </speaker>
-                        <stage type="delivery"><hi rend="italic">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
-                        <l>Puiſque <hi rend="italic">la Bagatelle</hi> en ce lieu nous raſſemble,</l>
+                        <stage type="delivery"><hi rend="italics">à <name type="person" n="Angélique">Angélique</name>.</hi></stage><lb/>
+                        <l>Puiſque <hi rend="italics">la Bagatelle</hi> en ce lieu nous raſſemble,</l>
                         <l>Je veux auſſi, brune aux yeux amoureux ,</l>
                         <l>Que nous danſions un menuet enſemble.</l>
                     </sp>
@@ -1882,33 +1883,33 @@
                 <pb n="39"/>
                 <div1 type="scene" n="7">
                     <head>SCENE DERNIERE.</head><lb/>
-                    <stage>LES ACTEURS PRECEDENS , <lb/> LA BAGATELLE, <hi rend="italic">Troupe de Danſeurs.</hi></stage><lb/>
+                    <stage>LES ACTEURS PRECEDENS , <lb/> LA BAGATELLE, <hi rend="italics">Troupe de Danſeurs.</hi></stage><lb/>
                     <sp who="Un Chanteur">
                         <speaker>UN CHANTEUR.</speaker><lb/>
                         <lg>
-                            <l><hi rend="italic"><c type="lettrine">B</c>Rillez, BAGATELLE charmante,</hi></l>
-                            <l><hi rend="italic">Embelliſſez votre ſéjour ;</hi></l>
-                            <l><hi rend="italic">Etalez, dans ce grand jour,</hi></l>
-                            <l><hi rend="italic">Votre parure triomphante.</hi></l>
-                            <l><hi rend="italic">Des Belles vous êtes l'amour.</hi></l>
-                            <l><hi rend="italic">Vous amuſez le fou, le ſage, tour-à-tour.</hi></l>
-                            <l><hi rend="italic">Vous recevez de rous une offrande conſtante,</hi></l>
-                            <l><hi rend="italic">Et chaque état s'empreſſe à vous faire ſa cour.</hi></l>
-                            <l><hi rend="italic">Brillez, BAGATELLE charmante,</hi></l>
-                            <l><hi rend="italic">Embelliſſez votre ſéjour ;</hi></l>
-                            <l><hi rend="italic">Etalez, dans ce grand jour,</hi></l>
-                            <l><hi rend="italic">Votre parure triomphante.</hi></l>
+                            <l><hi rend="italics"><c type="lettrine">B</c>Rillez, BAGATELLE charmante,</hi></l>
+                            <l><hi rend="italics">Embelliſſez votre ſéjour ;</hi></l>
+                            <l><hi rend="italics">Etalez, dans ce grand jour,</hi></l>
+                            <l><hi rend="italics">Votre parure triomphante.</hi></l>
+                            <l><hi rend="italics">Des Belles vous êtes l'amour.</hi></l>
+                            <l><hi rend="italics">Vous amuſez le fou, le ſage, tour-à-tour.</hi></l>
+                            <l><hi rend="italics">Vous recevez de rous une offrande conſtante,</hi></l>
+                            <l><hi rend="italics">Et chaque état s'empreſſe à vous faire ſa cour.</hi></l>
+                            <l><hi rend="italics">Brillez, BAGATELLE charmante,</hi></l>
+                            <l><hi rend="italics">Embelliſſez votre ſéjour ;</hi></l>
+                            <l><hi rend="italics">Etalez, dans ce grand jour,</hi></l>
+                            <l><hi rend="italics">Votre parure triomphante.</hi></l>
                         </lg>
                     </sp>
-                    <lb/><lb/><trailer rend="center"><hi rend="italic">FIN.</hi></trailer>
+                    <lb/><lb/><trailer rend="center"><hi rend="italics">FIN.</hi></trailer>
             </div1>
             <pb n="40"/>
             <div1 type="ajout">
                 <note resp="Joséphine Loterie">Quatre prédictions sur des pièces de théâtre, ajoutées, le <date when="1734-02-27">27 février 1734</date> à la scène de l'Almanach des Théâtres (scène V) en raison de son succès.</note>
                 <div2 type="title">
                     <head type="main">PREDICTIONS. <lb/> NOUVELLES </head><lb/>
-                    <head type="desc" rend="italic">AJOUTÉES A LA BAGATELLE , <lb/> dans la Scène de l'Almanach des Théatres.
-                        <lb/><lb/> <date when="1734-02-27"><hi rend="italic">Le vingt-ſept Février 1734.</hi></date></head><lb/>
+                    <head type="desc" rend="italics">AJOUTÉES A LA BAGATELLE , <lb/> dans la Scène de l'Almanach des Théatres.
+                        <lb/><lb/> <date when="1734-02-27"><hi rend="italics">Le vingt-ſept Février 1734.</hi></date></head><lb/>
                 </div2>
                 <div2 type="prediction">
                     <head>PREDICTION SUR <name type="person" n="Issé">ISSÉ</name>.</head><lb/>
