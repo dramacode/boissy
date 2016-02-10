@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -72,12 +73,12 @@
                 <docTitle>
                     <titlePart type="main">LE <lb/>JE NE SÇAI QUOI,</titlePart><lb/>
                     <titlePart type="desc">COMEDIE. <lb/> EN UN ACTE,</titlePart><lb/>
-                    <titlePart type="sub" rend="italic">AVEC UN DIVERTISSEMENT.</titlePart><lb/>
+                    <titlePart type="sub" rend="italics">AVEC UN DIVERTISSEMENT.</titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="140"/>
             <castList>
-                <head rend="italic">ACTEURS.</head><lb/><lb/>
+                <head rend="italics">ACTEURS.</head><lb/><lb/>
                 <castItem><role>MOMUS</role>.</castItem>
                 <castItem><role>VENUS</role>.</castItem>
                 <castItem><role>APOLLON</role>.</castItem>
@@ -92,7 +93,7 @@
                 <castItem><roleDesc>TROUPE de Calotins &amp; Calotines</roleDesc>.</castItem>
             </castList><lb/><lb/><lb/><lb/>
             <set>
-                <p rend="center"><hi rend="italic">La Scène eſt dans un Déſert.</hi></p>
+                <p rend="center"><hi rend="italics">La Scène eſt dans un Déſert.</hi></p>
             </set>
             <pb n="141"/>
         </front>
@@ -389,7 +390,7 @@
                     <l>Il s'offre à vos filets, <choice><orig>ſignalés</orig><reg>signalez</reg></choice> votre effort.</l>
                     <l>Pour convaincre les Dieux du choix qu'ils doivent <lb/>faire,</l>
                     <l>Et pour ſonger au mien, moi , je quitte ce bord.</l>
-                    <lb/><stage rend="italic">(Il s'en va.)</stage>
+                    <lb/><stage rend="italics">(Il s'en va.)</stage>
                 </sp>
             </div1>
             <div1 type="scene" n="3">
@@ -436,19 +437,19 @@
                 </sp>
                 <sp who="Vénus">
                     <speaker>VENUS </speaker>
-                    <stage type="delivery"><hi rend="italic">d'un air minaudier.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">d'un air minaudier.</hi></stage><lb/>
                     <l>Plus on vous voit, &amp; plus on vous trouve agréable.</l>
                 </sp>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="delivery"><hi rend="italic">à Vénus.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à Vénus.</hi></stage><lb/>
                     <l>Ce compliment eſt fort poli ;</l>
                     <l>Mais, ne pourriez-vous pas, de <choice><orig>grace</orig><reg>grâce</reg></choice>,</l>
                     <l>Me dire des douceurs ſans faire la grimace ?</l>
                 </sp>
                 <sp who="Apollon">
                     <speaker>APOLLON </speaker>
-                    <stage type="action"><hi rend="italic">faisant le gracieux.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">faisant le gracieux.</hi></stage><lb/>
                     <l>Tout eſt charmant en vous ; vous êtes embelli</l>
                     <l>Même par votre bruſquerie</l>
                 </sp>
@@ -495,7 +496,7 @@
                 </sp>
                 <sp who="Apollon">
                     <speaker>APOLLON </speaker>
-                    <stage type="action"><hi rend="italic">l'arrêtant.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">l'arrêtant.</hi></stage><lb/>
                     <l><choice><orig>Arrêtés</orig><reg>Arrêtez</reg></choice>, charmant je ne ſçai quoi ;</l>
                     <l>Ne partés pas ſi <choice><orig>vîte</orig><reg>vite</reg></choice> ;</l>
                     <l>Nous avons traverſé les airs, <name type="person" n="Vénus">Vénus</name> &amp; moi,</l>
@@ -508,7 +509,7 @@
                 </sp>
                 <sp who="Vénus">
                     <speaker>VENUS </speaker>
-                    <stage type="action"><hi rend="italic">en le retenant.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">en le retenant.</hi></stage><lb/>
                     <l>Ah ! <choice><orig>montrés-nous</orig><reg>montrez-nous</reg></choice> <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> le moyen de vous plaire.</l>
                     <l>Pour vaincre vos rigueurs, dites, que faut-il faire ?</l>
                 </sp>
@@ -557,13 +558,13 @@
                     <l>Et mon juſte dépit me chaſſe.</l>
                     <l>Une mortelle aura peut-être le ſecret</l>
                     <l>De venger ma <choice><orig>diſgrace</orig><reg>disgrâce</reg></choice>.</l>
-                    <stage type="exit"><hi rend="italic">(Elle ſort.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(Elle ſort.)</hi></stage>
                 </sp>
                 <sp who="Apollon">
                     <speaker>APOLLON.</speaker><lb/>
                     <l>Honteux d'avoir tenté des efforts ſuperflus,</l>
                     <l>Je vais ſuivre trop tard le conſeil de <name type="person" n="Momus">Momus</name>.</l>
-                    <stage type="exit"><hi rend="italic">(Il s'en va.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(Il s'en va.)</hi></stage>
                 </sp>
             </div1>
             <div1 type="scene" n="4">
@@ -571,7 +572,7 @@
                 <stage>ARLEQUIN, UN GÉOMETRE.</stage><lb/>
                 <sp who="Le Géomètre">
                     <speaker>LE GÉOMETRE </speaker>
-                    <stage rend="italic">ſans voir <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/><lb/>
+                    <stage rend="italics">ſans voir <name type="person" n="Arlequin">Arlequin</name>.</stage><lb/><lb/>
                     <l><c type="lettrine">P</c>Lus je combine, plus je penſe,</l>
                     <l>Et moins dans le fond je conçois</l>
                     <l>Le prétendu JE NE SÇAI QUOI,</l>
@@ -580,7 +581,7 @@
                 </sp>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="delivery"><hi rend="italic">à par<sic>r</sic><corr>t</corr>.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à par<sic>r</sic><corr>t</corr>.</hi></stage><lb/>
                     <l>Ce faquin-là médit de moi.</l>
                 </sp>
                 <sp who="Le Géomètre">
@@ -691,7 +692,7 @@
                     <l><choice><orig>Arrêtés</orig><reg>Arrêtez</reg></choice>; point de violence.</l>
                     <l>Là, ſoit, pour un moment j'admets votre exiſtence;</l>
                     <l>Mais pour mieux affermir mon eſprit chancelant,</l>
-                    <l>Avec ce <choice><orig>demi cercle</orig><reg>demi-cercle</reg></choice> *<note type="stage" place="bottom"><stage type="action"><hi rend="italic"> * Il tire de ſa poche un demi cercle, &amp; le bra-<lb/>que ſur une canne qu'il tient à la main, &amp; qui ſert <lb/>d'apui.</hi></stage></note> agréez ſeulement,</l>
+                    <l>Avec ce <choice><orig>demi cercle</orig><reg>demi-cercle</reg></choice> *<note type="stage" place="bottom"><stage type="action"><hi rend="italics"> * Il tire de ſa poche un demi cercle, &amp; le bra-<lb/>que ſur une canne qu'il tient à la main, &amp; qui ſert <lb/>d'apui.</hi></stage></note> agréez ſeulement,</l>
                     <l>Que je meſure ici votre circonférence,</l>
                     <l>Et prenne exactement chaque <choice><orig>dimention</orig><reg>dimension</reg></choice>.</l>
                 </sp>
@@ -794,7 +795,7 @@
                 </sp> 
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="delivery"><hi rend="italic">à part.</hi></stage><lb/> 
+                    <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/> 
                     <l>S'il n'<choice><orig>étoit</orig><reg>était</reg></choice> pas ſi fat, il <choice><orig>ſeroit</orig><reg>serait</reg></choice> fort aimable.</l> 
                     <l>Mortifions un peu à ſa vanité.</l> 
                 </sp> 
@@ -822,13 +823,13 @@
                     <l>Déployer leurs <choice><orig>talens</orig><reg>talents</reg></choice> aux yeux des ſpectateurs,</l> 
                     <l>Et, jouant avec les Actrices ;</l> 
                     <l>Chanter plus haut que les Acteurs.</l> 
-                    <lb/><stage type="action"><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                    <lb/><stage type="action"><hi rend="italics">(Il chante.)</hi></stage><lb/>
                     <l>Ah ! belle Reine, eſt-il poſſible</l> 
                     <l>Que vous ſoyez ſensible</l> 
                     <l>Pour un autre que moi ?</l> 
                     <l>Ah ! Belle Reine, eſt-il poſſible</l> 
                     <l>Que je ne ſois pas votre Roi ?</l> 
-                    <lb/><stage type="action"><hi rend="italic">(Il déclame.)</hi></stage><lb/>
+                    <lb/><stage type="action"><hi rend="italics">(Il déclame.)</hi></stage><lb/>
                     <l>En un mot, tous ces dons qui parent ma figure ;</l> 
                     <l>C'eſt de vous ſeul que je les tiens.</l> 
                 </sp> 
@@ -899,7 +900,7 @@
                 </sp>
                 <sp who="Le Suisse">
                     <speaker>LE SUISSE </speaker>
-                    <stage type="delivery"><hi rend="italic">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
                     <l>Moi, mon petit cadet, fous troufe fort choli ;</l> 
                     <l>Tout li corps di bifeurs qu'ici ché repréſente,</l>
                     <l>S'ennuyer peaucoup, Tieu merci,</l> 
@@ -909,7 +910,7 @@
                 </sp> 
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
                     <l>Des Suiſſes ſoupirer après votre préſence !</l> 
                     <l>Ce <choice><orig>phœnoméne</orig><reg>phénomène</reg></choice> me ſurprend ;</l> 
                     <l>Je ne <choice><orig>croyois</orig><reg>croyais</reg></choice> pas ſeulement</l> 
@@ -925,12 +926,12 @@
                 </sp> 
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="delivery"><hi rend="italic">à part</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à part</hi></stage><lb/>
                     <l>Ce ne ſera pas d'aujourd'hui</l> 
                 </sp> 
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">au Suiſſe.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">au Suiſſe.</hi></stage><lb/>
                     <l>Vous pouvez vous paſſer de lui,</l> 
                     <l>Et ſon ſecours vous eſt fort inutile.</l>
                     <l>Vous n'avez pas, Meſſieurs, le goût ſi difficile ;</l> 
@@ -1041,7 +1042,7 @@
                 </sp> 
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">bas à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">bas à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
                     <l>Un tel original vous réjouit, Seigneur ?</l> 
                 </sp> 
                 <sp who="Arlequin">
@@ -1095,7 +1096,7 @@
                 </sp> 
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name></hi></stage><lb/>
                     <l>Juſqu'ici, d'être aimable, on m'a pourtant flatté.</l> 
                 </sp> 
                 <sp who="Arlequin">
@@ -1117,7 +1118,7 @@
                     <l>Il y <choice><orig>paroît</orig><reg>paraît</reg></choice> à vos <choice><orig>maniéres</orig><reg>manières</reg></choice>.</l> 
                     <l>Vous careſſez ainſi vos <choice><orig>lévres</orig><reg>lèvres</reg></choice> <choice><orig>minaudiéres</orig><reg>minaudières</reg></choice>,</l> 
                     <l>Et voici comme vous marchez.</l>
-                    <lb/><stage type="action"><hi rend="italic">(Il ſe <choice><orig>proméne</orig><reg>promène</reg></choice>, &amp; contrefait le Petit-Maître.)</hi></stage>  
+                    <lb/><stage type="action"><hi rend="italics">(Il ſe <choice><orig>proméne</orig><reg>promène</reg></choice>, &amp; contrefait le Petit-Maître.)</hi></stage>  
                 </sp> 
                 <sp who="Le Suisse"> 
                     <speaker>LE SUISSE.</speaker><lb/>
@@ -1126,7 +1127,7 @@
                 </sp> 
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/> 
+                    <stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/> 
                     <l>Eh ! Comment donc marcher ? Montrez-m'en la <lb/>ſcience.</l> 
                 </sp> 
                 <sp who="Arlequin">
@@ -1143,9 +1144,9 @@
                 <pb n="161"/>
                 <sp who="Le Petit Maître">
                     <speaker>LE PETIT MAISTRE </speaker>
-                    <stage type="delivery"><hi rend="italic">d'un air ironique.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">d'un air ironique.</hi></stage><lb/>
                     <l>Cette démarche eſt noble, &amp; vous avez raiſon.</l>
-                    <lb/><stage type="delivery"><hi rend="italic">à <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/>
+                    <lb/><stage type="delivery"><hi rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/>
                     <l>Ah ! C'eſt trop m'éprouver. Seigneur, je vous ſuplie</l> 
                     <l>De vous déterminer à partir de moi,</l> 
                     <l>Et de quitter la raillerie.</l>
@@ -1169,7 +1170,7 @@
                 </sp> 
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="action"><hi rend="italic">montrant le Petit-Maître.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">montrant le Petit-Maître.</hi></stage><lb/>
                     <l>Monſieur veut faire trop l'aimable,</l> 
                     <l>Et vous ne l'êtes pas aſſez.</l>
                 </sp> 
@@ -1179,7 +1180,7 @@
                     <l>Moi me paſſir fort pien, Monſir Ché ne ſçai quoi :</l> 
                     <l>Pendant tren<unclear>t</unclear>e-cinq ans, moi l'afre pû ſans toi,</l> 
                     <l>Et li poire encore pien li reſte de mon fie.</l>
-                    <lb/><stage type="exit"><hi rend="italic">(il s'en va en peſtant.]</hi></stage>
+                    <lb/><stage type="exit"><hi rend="italics">(il s'en va en peſtant.]</hi></stage>
                 </sp>
             </div1> 
             <div1 type="scene" n="7"> 
@@ -1192,7 +1193,7 @@
                     <l>Une humeur bruſque, un air ſombre &amp; ſauvage.</l> 
                     <l>A Paris, aujourd'hui, vous ſeriez peu goûté ;</l> 
                     <l>Vous faites ſagement de reſter au village.</l>
-                    <lb/><stage type="exit"><hi rend="italic">(Il ſort.)</hi></stage><lb/>
+                    <lb/><stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage><lb/>
                 </sp>
             </div1>
             <pb n="162"/>
@@ -1724,7 +1725,7 @@
                 </sp>
                 <sp who="Acteur_Français">
                     <speaker>L'ACTEUR </speaker>
-                    <stage type="action"><hi rend="italic">ſe levant.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">ſe levant.</hi></stage><lb/>
                     <l>Non, d'en avoir tant dit je ſuis même confus.</l>
                     <l>Vos mépris redoublés laſſent ma patience,</l>
                     <l>Et tout m'inſulte en vous, juſqu'à votre ſilence.</l>
@@ -1736,7 +1737,7 @@
                     <l>Pour <choice><orig>premiére</orig><reg>première</reg></choice> victime, immoler le bon-sens :</l>
                     <l>Et, ſignalant mes coups par des débris illuſtres,</l>
                     <l>Poignarder le ſouffleur, &amp; briser tous nos lustres.</l>
-                    <lb/><stage type="exit"><hi rend="italic">[Il s'en va.]</hi></stage>
+                    <lb/><stage type="exit"><hi rend="italics">[Il s'en va.]</hi></stage>
                 </sp>  
             </div1>
             <div1 type="scene" n="10">
@@ -1744,7 +1745,7 @@
                 <stage>LE MUSICIEN, LA DANSEUSE, ARLEQUIN.</stage><lb/>
                 <sp who="Le Musicien">
                     <speaker>LE MUSICIEN </speaker>
-                    <stage><hi rend="italic">à la Danſeuſe.</hi></stage><lb/>
+                    <stage><hi rend="italics">à la Danſeuſe.</hi></stage><lb/>
                     <l><c type="lettrine">D</c>E nos communs efforts nous devons tout atten-<lb/>dre.</l>
                     <l part="I">Vos pas <choice><orig>brillans</orig><reg>brillants</reg></choice>....</l>
                 </sp>
@@ -1762,17 +1763,17 @@
                 </sp>
                 <pb n="174"/> 
                 <sp who="Le Musicien, La Danseuse">
-                    <speaker><hi rend="italic">Enſemble.</hi></speaker>
+                    <speaker><hi rend="italics">Enſemble.</hi></speaker>
                     <l part="F">Qui charmerez ce Dieu.</l>
                 </sp>
                 <sp who="La Danseuse">
                     <speaker>LA DANSEUSE </speaker>
-                    <stage type="delivery"><hi rend="italic">déclame.</hi></stage><lb/>
+                    <stage type="delivery"><hi rend="italics">déclame.</hi></stage><lb/>
                     <l>Mais le voilà qui <choice><orig>paroît</orig><reg>paraît</reg></choice> dans ce lieu.</l>
                 </sp>
                 <sp who="Le Musicien">
                     <speaker>LE MUSICIEN </speaker>
-                    <stage type="action"><hi rend="italic">chante.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">chante.</hi></stage><lb/>
                     <l>Vous voyez un des favoris</l>
                     <l>Du Dieu de l'Harmonie</l>
                 </sp>
@@ -1800,7 +1801,7 @@
                 </sp>
                 <sp who="Le Musicien">
                     <speaker>LE MUSICIEN </speaker>
-                    <stage type="action"><hi rend="italic">chante.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">chante.</hi></stage><lb/>
                     <l>Du public enchanté j'ai merité l'eſtime ;</l>
                     <l>Je réunis les goûts divers :</l>
                     <l>Je ſuis tantôt badin, je ſuis tantôt ſublime ;</l>
@@ -1888,11 +1889,11 @@
                     <l>Au goût  <choice><orig>françois</orig><reg>français</reg></choice> j'allie</l>
                     <l>Le goût brillant de l'Italie ;</l>
                     <l>Je fais, dans mes airs nouveaux,</l>
-                    <l>Badiner <stage><hi rend="italic">(3. fois.]</hi></stage> les jeunes fleurettes :</l>
+                    <l>Badiner <stage><hi rend="italics">(3. fois.]</hi></stage> les jeunes fleurettes :</l>
                     <l>Je fais, dans mes chanſonnettes,</l>
-                    <l>Sautiller <stage><hi rend="italic">(3. fois.</hi></stage> les petits moineaux,</l>
+                    <l>Sautiller <stage><hi rend="italics">(3. fois.</hi></stage> les petits moineaux,</l>
                     <l>Et, par mes tendres muſettes,</l>
-                    <l>Frétiller <stage><hi rend="italic">(3. fois.)</hi></stage> les  <choice><orig>habitans</orig><reg>habitants</reg></choice> des eaux.</l>
+                    <l>Frétiller <stage><hi rend="italics">(3. fois.)</hi></stage> les  <choice><orig>habitans</orig><reg>habitants</reg></choice> des eaux.</l>
                 </sp>
                 <sp who="La Danseuse">
                     <speaker>LA DANSEUSE.</speaker><lb/>
@@ -1936,7 +1937,7 @@
                 </sp>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="action"><hi rend="italic">faiſant la capriole.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">faiſant la capriole.</hi></stage><lb/>
                     <l part="F">Vous ſautez trop bien pour une femme.</l>
                 </sp>
                 <sp who="La Danseuse">
@@ -1944,14 +1945,14 @@
                     <sound>AIR.</sound><lb/>
                     <lg>
                         <l>Que vous jugez mal,</l>
-                        <l><stage type="action"><hi rend="italic">Un ſaut.</hi></stage>     Mon cher petit bon-homme !</l>
+                        <l><stage type="action"><hi rend="italics">Un ſaut.</hi></stage>     Mon cher petit bon-homme !</l>
                         <l>Que vous jugez mal,</l>
                         <l>Mon petit animal !</l>
                         <l>Peut-on trouver un défaut</l>
                         <l part="I">A fille qui fait un ſaut,</l>
                         <l part="F">Deux ſauts, &amp;c.</l>
                     </lg>
-                    <lb/><stage type="exit"><hi rend="italic">(Elle s'en va.]</hi></stage><lb/>
+                    <lb/><stage type="exit"><hi rend="italics">(Elle s'en va.]</hi></stage><lb/>
                 </sp>
             </div1>
             <div1 type="scene" n="11">
@@ -1978,12 +1979,12 @@
                     <l>Adieu. Je vous <choice><orig>croyois</orig><reg>croyais</reg></choice> le goût plus épuré.</l>
                     <l>Sçachez, quand il s'agit de muſique &amp; de danſe,</l>
                     <l>Que l'art toujours doit être préféré.</l>
-                    <stage type="exit"><hi rend="italic">[Il chante en s'en allant.]</hi></stage>
+                    <stage type="exit"><hi rend="italics">[Il chante en s'en allant.]</hi></stage>
                     <l>Un pigeon qui roucoule.</l>
                 </sp>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="action"><hi rend="italic">le contrefait, &amp; répéte.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">le contrefait, &amp; répéte.</hi></stage><lb/>
                     <l>Un pigeon qui roucoule.</l>
                 </sp>
             </div1>
@@ -1993,7 +1994,7 @@
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN.</speaker><lb/>
                     <l><c type="lettrine">A</c>H! Le jolie tendron qu'ici je vois <choice><orig>paroître</orig><reg>paraître</reg></choice> !</l>
-                    <lb/><stage type="delivery"><hi rend="italic">[haut.]</hi></stage><lb/>
+                    <lb/><stage type="delivery"><hi rend="italics">[haut.]</hi></stage><lb/>
                     <l>Belle, qui vous envoye en ce ſéjour champêtre ?</l>
                 </sp>
                 <sp who="Silvia">
@@ -2020,7 +2021,7 @@
                 </sp>
                 <sp who="Arlequin">
                     <speaker>ARLEQUIN </speaker>
-                    <stage type="action"><hi rend="italic">lit en ânonant.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">lit en ânonant.</hi></stage><lb/>
                     <l>Le Dieu Porte.... Le Dieu Porte....</l>
                 </sp>
                 <sp who="Silvia">
@@ -2035,7 +2036,7 @@
                 </sp>
                 <sp who="Silvia">
                     <speaker>SILVIA </speaker>
-                    <stage type="action"><hi rend="italic">lit.</hi></stage><lb/>
+                    <stage type="action"><hi rend="italics">lit.</hi></stage><lb/>
                     <l>"Le Dieu Porte-Marotte,</l>
                     <l>"Au Dieu JE NE SÇAI QUOI, citoyen des forêts,</l>
                     <l>Salut, folie &amp; paix.</l>
@@ -2134,14 +2135,14 @@
                     <pb n="181"/>
                     <l>Moi, je ferai JE NE <choice><orig>SÇAI<reg>SAIS</reg></orig></choice> QUOI,</l>
                     <l>Et vous ferez JE NE <choice><orig>SÇAI<reg>SAIS</reg></orig></choice> QU'EST-CE,</l>
-                    <stage type="exit"><hi rend="italic">(Il part avec Silvia.)</hi></stage>
+                    <stage type="exit"><hi rend="italics">(Il part avec Silvia.)</hi></stage>
                 </sp>
             </div1>
             <div1 type="scene" n="13">
                 <head>SCENE XIII.</head>
                 <sp>
                     <speaker>MOMUS </speaker>
-                    <stage type="setting"><hi rend="italic">ſeul.</hi></stage><lb/><lb/>
+                    <stage type="setting"><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
                     <l><c type="lettrine">P</c>Our le coup, je triomphe, &amp; le voilà parti ;</l>
                     <l>Ma ſujétte l'<choice><orig>emmene</orig><reg>emmène</reg></choice>, &amp; me comble de gloire :</l>
                     <l>Sur tous les autres Dieux j'emporte la victoire :</l>
@@ -2155,10 +2156,10 @@
             </div1>
             <div1 type="scene" n="14">
                 <head>SCENE DERNIERE.</head><lb/>
-                <stage type="setting"><hi rend="italic">Le Theatre change, &amp; repréſente une ſalle ornée de <lb/>tout ce qui peut caractériſer la Folie &amp; l'agrément réunit <lb/> enſemble. <lb/> (On méne en triomphe <name type="person" n="Arlequin">Arlequin</name> et <name type="person" n="Silvia">Silvia</name>.)</hi></stage><lb/><lb/>
+                <stage type="setting"><hi rend="italics">Le Theatre change, &amp; repréſente une ſalle ornée de <lb/>tout ce qui peut caractériſer la Folie &amp; l'agrément réunit <lb/> enſemble. <lb/> (On méne en triomphe <name type="person" n="Arlequin">Arlequin</name> et <name type="person" n="Silvia">Silvia</name>.)</hi></stage><lb/><lb/>
                 <sp who="Calotin1">
                     <speaker>UN CALOTIN </speaker>
-                    <stage><hi rend="italic">chante.</hi></stage><lb/><lb/>
+                    <stage><hi rend="italics">chante.</hi></stage><lb/><lb/>
                     <l><c type="lettrine">Q</c>ue le tambour, que la trompette,</l>
                     <l>Célébrent de <name type="person" n="Momus">Momus</name> le triomphe éclatant :</l>
                     <l>Que la <choice><orig>flute</orig><reg>flûte</reg></choice>, que la muſette,</l>
@@ -2175,7 +2176,7 @@
                     <l><choice><orig>Armés</orig><reg>Armez</reg></choice> ſa main de la Marotte :</l>
                     <l>Qu'il <choice><orig>régne</orig><reg>règne</reg></choice> ici, <name type="person" n="Momus">Momus</name> n'en ſera point jaloux.</l>
                 </sp>
-                <stage type="action"><hi rend="italic">Ici, tous les Officiers de la Calotte vont rendre hom-<lb/>mage à <name type="person" n="Arlequin">Arlequin</name>, &amp; lui présenter la Marotte, qu'il <lb/>reçoit comiquement, en faiſant pluſieurs lazzis.</hi></stage><lb/>
+                <stage type="action"><hi rend="italics">Ici, tous les Officiers de la Calotte vont rendre hom-<lb/>mage à <name type="person" n="Arlequin">Arlequin</name>, &amp; lui présenter la Marotte, qu'il <lb/>reçoit comiquement, en faiſant pluſieurs lazzis.</hi></stage><lb/>
                 <sp who="Calotin3">
                     <speaker>UN CALOTIN.</speaker><lb/>
                     <l>Calotins ennuyeux, Calotins ſans mérite,</l>
@@ -2183,7 +2184,7 @@
                     <l>De notre Régiment, on ne veut que l'élite ;</l>
                     <l><choice><orig>Accourés</orig><reg>Accourez</reg></choice> ſeuls, aimables fous.</l>
                 </sp>
-                <stage type="action" rend="center"><hi rend="italic">[On danſe.]</hi></stage>
+                <stage type="action" rend="center"><hi rend="italics">[On danſe.]</hi></stage>
                 <sp who="Calotin4">
                     <speaker>UN CALOTIN.</speaker><lb/>
                     <l>Le partage du Régiment</l>
@@ -2198,7 +2199,7 @@
             </div1>
             <div1 type="vaudeville">
                 <head>VAUDEVILLE.</head><lb/><lb/>
-                <div3>
+                <div2>
                     <head>I.</head><lb/>
                     <lg>
                         <l><c type="lettrine">A</c> L'Univers rendons juſtice,</l>
@@ -2213,8 +2214,8 @@
                         <l>Couvre la tête falotte</l>
                         <l>Du genre humain.</l>
                     </lg>
-                </div3>
-                <div3>
+                </div2>
+                <div2>
                     <head>II.</head><lb/>
                     <lg>
                         <l>Un noble mange, pour paroître,</l>
@@ -2223,8 +2224,8 @@
                         <l>Meurt de faim sur ſes écus.</l>
                         <l>Que la Marotte, &amp;c.</l>
                     </lg>
-                </div3>
-                <div3>
+                </div2>
+                <div2>
                     <head>III.</head><lb/>
                     <lg>
                         <l>Un Pédant né deſagréable,</l>
@@ -2233,8 +2234,8 @@
                         <l>Veut ſe donner pour ſçavant.</l>
                         <l>Que la Marotte, &amp;c.</l>
                     </lg>
-                </div3>
-                <div3>
+                </div2>
+                <div2>
                     <head>IV.</head><lb/>
                     <lg>
                         <l>Aujourd'hui l'Opéra nous <choice><orig>frape</orig><reg>frappe</reg></choice>,</l>
@@ -2243,12 +2244,12 @@
                         <l>Par les moindres petits riens.</l>
                         <l>Que la Marotte, &amp;c.</l>
                     </lg>
-                </div3>
-                <div3>
+                </div2>
+                <div2>
                     <head>V.</head><lb/>
                     <sp who="Arlequin">
                         <speaker>ARLEQUIN </speaker>
-                        <stage type="location"><hi rend="italic">au Parterre.</hi></stage><lb/>
+                        <stage type="location"><hi rend="italics">au Parterre.</hi></stage><lb/>
                         <lg>
                             <l>Heureux ſi le Parterre affable</l>
                             <l><choice><orig>Goûtoit</orig><reg>Goûtait</reg></choice> ce jeu calotin,</l>
@@ -2257,8 +2258,8 @@
                             <l>Que la Marotte, &amp;c.</l>
                         </lg>
                     </sp>
-                    <lb/><lb/><trailer rend="center"><hi rend="italic">Fin du troiſiéme Acte.</hi></trailer>
-                </div3>
+                    <lb/><lb/><trailer rend="center"><hi rend="italics">Fin du troiſiéme Acte.</hi></trailer>
+                </div2>
             </div1>
     
         </body>
