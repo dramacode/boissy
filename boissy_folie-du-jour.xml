@@ -1,9 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="fr">
         <fileDesc>
             <titleStmt>
                 <title type="main">La Folie du jour</title>
-                <title type="subtitle"></title>
+                <title type="subtitle">Édition électronique</title>
                 <author>Louis de Boissy, 1694-1758</author>
                 <principal><name>Dr. Ioana Galleron</name></principal>
                 <editor><name>Prof. Geoffrey Williams</name></editor>
@@ -62,12 +67,12 @@
                 <pb n="55"/>
                 <docTitle>
                     <titlePart type="main">LA FOLIE <lb/>DU <lb/>JOUR <pc>,</pc></titlePart><lb/>
-                    <titlePart type="desc" rend="italic">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE<pc type="affirmative">.</pc></titlePart><lb/>
                 </docTitle>
             </titlePage>
             <pb n="56"/>
             <castList>
-                <head rend="italic">ACTEURS</head><lb/><lb/>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
                 <castItem><role>LE MARQUIS DE VAGNOLE</role><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LE BARON DE VAGNOLE</role><pc>,</pc><roleDesc> fils aîné du <lb/>Marquis</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
                 <castItem><role>LEANDRE</role><pc>,</pc><roleDesc> fils Cadet du Marquis</roleDesc><pc type="affirmative">.</pc><pc type="affirmative">.</pc></castItem><lb/>
@@ -78,7 +83,7 @@
                 <castItem><role>LA FRANCE</role><pc type="affirmative">.</pc></castItem><lb/>
             </castList>
             <set>
-                <lb/><lb/><lb/><lb/><lb/><p rend="italic">La Sçène eſt à la Campagne<pc type="affirmative">.</pc></p>
+                <lb/><lb/><lb/><lb/><lb/><p rend="italics">La Sçène eſt à la Campagne<pc type="affirmative">.</pc></p>
             </set>
             <pb n="57"/>
         </front>
@@ -398,7 +403,7 @@
                     <stage>LE CHEVALIER<pc>,</pc> LEANDRE<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Le Chevalier">
                         <speaker>LE CHEVALIER </speaker>
-                        <stage type="entrance" rend="italic">entre en danſant &amp; en <lb/>chantant.</stage><lb/>
+                        <stage type="entrance" rend="italics">entre en danſant &amp; en <lb/>chantant.</stage><lb/>
                     </sp>
                     <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
@@ -568,13 +573,13 @@
                     <pb n="67"/>
                     <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                        <p rend="italic">Le Dictionnaire du Jour , où l'on trouve tous les 
+                        <p rend="italics">Le Dictionnaire du Jour , où l'on trouve tous les 
                             <lb/>mots, toutes les Anecdote , &amp; tous les uſages du jour 
                             <lb/>expliqués les uns par les autres ; dédié à la bo<sic>u</sic><corr>n</corr>ne Com-
                             <lb/>pagnie, &amp; fait pour inſtruire ſinguliérement tous les 
                             <lb/>jeunes Marquis qui n'ont pas encore le bon ton.
                         </p>
-                        <lb/><stage rend="italic">Après avoir lû.</stage><lb/>
+                        <lb/><stage rend="italics">Après avoir lû.</stage><lb/>
                         <l>Le Dictionnaire du jour !</l>
                         <l>On met par-tout ce mot du jour qui me chagrine.</l>
                     </sp>
@@ -606,7 +611,7 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l part="F">J'en ſuis au plus flaté.</l>
                         <l>Prêtez-moi l'un &amp; l'autre une oreille attentive.</l>
-                        <lb/><stage rend="italic">Il chante.</stage><lb/>
+                        <lb/><stage rend="italics">Il chante.</stage><lb/>
                         <l>Volez, régnez, volez, beau <name type="person" n="Papillon">Papillon</name> du jour....</l>
                     </sp>
                     <sp who="La Marquise">
@@ -617,7 +622,7 @@
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Ce n'eſt pas moi. Souffrez que je finiſſe.</l>
                         <pb n="68"/>
-                        <lb/><stage rend="italic">Il chante.</stage><lb/>
+                        <lb/><stage rend="italics">Il chante.</stage><lb/>
                         <l>Volez, régnez, volez beau <name type="person" n="Papillon">Papillon</name> du jour ;</l>
                         <l>Votre durée eſt immortelle.</l>
                         <l>Si vous mourez l'hyver, quand la Roſe eſt nouvelle,</l>
@@ -675,7 +680,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE </speaker>
-                        <stage type="delivery" rend="italic">au Chevalier.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
                         <l>Quels ſont donc les Héros de ce Livre amuſant ?</l>
                     </sp>
                     <sp who="Le Chavalier">
@@ -696,14 +701,14 @@
                     </sp>
                     <sp who="Leandre">
                         <speaker>LEANDRE </speaker>
-                        <stage rend="italic">lit.</stage><lb/>
+                        <stage rend="italics">lit.</stage><lb/>
                         <l>L'Aimable de l'inſtant paroît pour s'envoler ;</l>
                         <l>C'eſt un éclair qui ſuit, une eau qui s'évapore,</l>
                         <l>Il eſt uniquement la beauté qu'il adore.</l>
                         <l>L'air ſeul qui le dérange a droit de le troubler;</l>
                         <l>Rien ne l'attache, &amp; c'eſt un vrai Phoſphore.</l>
                         <l>Qui s'allume d'un rien, &amp; ſans jamais brûler.</l>
-                        <lb/><stage rend="italic">Après avoir lû.</stage><lb/>
+                        <lb/><stage rend="italics">Après avoir lû.</stage><lb/>
                         <l>D'accord, il brille à froid comme la Lune ;</l>
                         <l>Son ton ſuffit pour me geler.</l>
                     </sp>
@@ -719,7 +724,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE </speaker>
-                        <stage rend="italic">lit.</stage><lb/>
+                        <stage rend="italics">lit.</stage><lb/>
                         <l><name>Arténice</name> qui prône, &amp; par tout eſt prônée,</l>
                         <l>A les dons contraſtés qui donnent cette année</l>
                         <l>De la conſidération.</l>
@@ -734,7 +739,7 @@
                         <l>De plaire ſans attachement,</l>
                         <l>De s'attendrir ſans ſentiment :</l>
                         <l>C'eſt la femme du jour, c'eſt la femme à la mode.</l>
-                        <lb/><stage rend="italic">Après avoir lû.</stage><lb/>
+                        <lb/><stage rend="italics">Après avoir lû.</stage><lb/>
                         <l>La voilà. Je la reconnois ;</l>
                         <l>Et le portrait eſt des plus vrais.</l>
                         <l>Votre Ouvrage prendra, c'eſt moi qui vous l'aſſure ;</l>
@@ -810,7 +815,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE </speaker>
-                        <stage rend="italic">riant.</stage><lb/>
+                        <stage rend="italics">riant.</stage><lb/>
                         <l>Ah, j'eſpére, je crains ! le contraſte eſt plaiſant.</l>
                         <l>Eſt-ce la Belle du Couvent</l>
                         <l>Dont vous m'avez conté l'hiſtoire ſinguliére ?</l>
@@ -884,7 +889,7 @@
                     <stage>HELOYSE <pc>,</pc> LA MARQUISE <pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Heloyse">
                         <speaker>HELOYSE<pc type="affirmative">.</pc></speaker><lb/>
-                        <l><stage type="delivery" rend="italic">A la Marquiſe.</stage><c type="lettrine">M</c>Adame....... <stage rend="italic">Apercevant <name type="person" n="Leandre">Léandre</name>.</stage></l>
+                        <l><stage type="delivery" rend="italics">A la Marquiſe.</stage><c type="lettrine">M</c>Adame....... <stage rend="italics">Apercevant <name type="person" n="Leandre">Léandre</name>.</stage></l>
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
@@ -1004,7 +1009,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
-                        <stage type="delivery" rend="italic">au Chevalier.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Chevalier.</stage><lb/>
                         <l part="I">Mais ils ont du talent.</l>
                     </sp>
                     <sp who="Le Chevalier">
@@ -1177,7 +1182,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
-                        <stage type="delivery" rend="italic">(à part.)</stage><lb/>
+                        <stage type="delivery" rend="italics">(à part.)</stage><lb/>
                         <l>Il en eſt quelque choſe. <stage></stage>La <name n="France"><sic>E</sic><corr>F</corr>rance</name> ?</l>
                         <l>Eclairés le Théâtre, il eſt tems qu'on commence.</l>
                     </sp>
@@ -1243,7 +1248,7 @@
                 </div1>
                 <div1 type="scene" n="9">
                     <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
-                    <stage>LE BARON <stage rend="italic">en habit de Théâtre</stage><pc>,</pc> LA MARQUISE<pc>,</pc> HELOYSE<pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
+                    <stage>LE BARON <stage rend="italics">en habit de Théâtre</stage><pc>,</pc> LA MARQUISE<pc>,</pc> HELOYSE<pc>,</pc> <lb/>LEANDRE<pc>,</pc> LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l><c type="lettrine">V</c>Ous arrivez, mon frere, en habit de combat ?</l>
@@ -1337,7 +1342,7 @@
                         <l>Il m'attaque au théatre , il me ſuit dans la rue ;</l>
                         <l>Et pour comble d'horreur, en rentrant au Logis,</l>
                         <l>Je reçois de mon Pere un Billet , j'en frémis.</l>
-                        <lb/><stage type="delivery" rend="italic">A la Marquiſe.</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">A la Marquiſe.</stage><lb/>
                         <l>Vous ſçavez pour l'hymen ma terreur &amp; ma haine;</l>
                         <l>Il m'écrit de partir pour former cette chaîne.</l>
                         <l>Encore ſi j'avois pu retarder mon Arrêt!</l>
@@ -1353,7 +1358,7 @@
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Quel talent ſingulier! Quel Acteur! Quel récit?</l>
                         <l>A-t'il juſtifié tout ce que j'en ai dit?</l>
-                        <lb/><stage type="delivery" rend="italic">A Mlle du Meſni.</stage><lb/>
+                        <lb/><stage type="delivery" rend="italics">A Mlle du Meſni.</stage><lb/>
                         <l>Je m'en reporte à vous, Mademoiſelle,</l>
                         <l part="I">Comment le trouvez-vous?</l>
                     </sp>
@@ -1363,7 +1368,7 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE<pc type="affirmative">.</pc></speaker><lb/>
-                        <lb/><stage type="delivery" rend="italic">Au Baron.</stage>
+                        <lb/><stage type="delivery" rend="italics">Au Baron.</stage>
                         <l>Des affronts du Marais, notre aplaudiſſement</l>
                         <l>Venge ici votre gloire, &amp; bien parfaitement.</l>
                     </sp>
@@ -1410,8 +1415,8 @@
                     </sp>
                     <sp who="La Marquise">
                         <speaker>LA MARQUISE </speaker>
-                        <stage rend="italic">lit.</stage><lb/>
-                        <p rend="italic">Partez ſur le champ, mon Fils, votre preſence eſt 
+                        <stage rend="italics">lit.</stage><lb/>
+                        <p rend="italics">Partez ſur le champ, mon Fils, votre preſence eſt 
                             <lb/>ici doublement néceſſaire. Je vous marie cette nuit ; &amp; 
                             <lb/>l'on vous y attend cette après-midi pour y faire le Comte 
                             <lb/>d'<name n="Essex">Eſſex</name>. Vous aurez le plaiſir de jouer en famille ; car 
@@ -1460,7 +1465,7 @@
                     </sp>
                     <sp who="Le Baron">
                         <speaker>LE BARON </speaker>
-                        <stage type="delivery" rend="italic">à <name type="person" n="Héloïse">Héloyſe</name>.</stage><lb/>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Héloïse">Héloyſe</name>.</stage><lb/>
                         <l>Je ſuis confus, Madame, eu en oment.</l>
                         <l>Excuſez ſi j'ai fait paroître</l>
                         <l>Mes ſentimens ici ſans nul ménagement:</l>
@@ -1507,7 +1512,7 @@
                     </sp>
                     <sp who="Heloyse">
                         <speaker>HELOYSE </speaker>
-                        <stage type="delivery" rend="italic">au Baron.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Baron.</stage><lb/>
                         <l>Moi je verrai ma Tante ; elle m'aime ; &amp; j'eſpére</l>
                         <l>Qu'en lui peignant, Monſieur, votre effroi généreux,</l>
                         <l>Elle diſpenſera votre cœur de ces nœuds.</l>
@@ -1522,7 +1527,7 @@
                     <stage>LE MARQUIS<pc>,</pc> LE BARON <pc>,</pc> LEANDRE <pc>,</pc> <lb/>LA MARQUISE<pc>,</pc>HELOYSE<pc>,</pc> <lb/>LE CHEVALIER<pc type="affirmative">.</pc></stage><lb/>
                     <sp who="Leandre">
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
-                        <stage type="delivery" rend="italic">Au Marquis.</stage><lb/>
+                        <stage type="delivery" rend="italics">Au Marquis.</stage><lb/>
                         <l><c type="lettrine">A</c>H! Mon Pere ,d epuis que jene vous ai vû,</l>
                         <l>J'ai retrouvé l'objet que je croyois perdu.</l>
                         <l>Ne nous ſéparez pas. Il y va de ma vie.</l>
@@ -1556,11 +1561,11 @@
                         <speaker>LE BARON<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Monſieur, pour le titre d'époux</l>
                         <l>Rien ne peut ſurmonter ma haine opiniâtre.</l>
-                        <lb/><stage type="business" rend="italic">Se tournant vers <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
+                        <lb/><stage type="business" rend="italics">Se tournant vers <name type="person" n="Leandre">Léandre</name>.</stage><lb/>
                         <l>Mon cher Frere, raſſurez-vous,</l>
                         <l>Tout ce que j'en ai fait, n'eſt qu'un jeu de Théatre,</l>
                         <l>Pour vous rendre à tous deux votre bonheur plus doux.</l>
-                        <lb/><stage type="business" rend="italic">Au Marquis.</stage><lb/>
+                        <lb/><stage type="business" rend="italics">Au Marquis.</stage><lb/>
                         <l>Je lui céde mon droit d'aîneſſe;</l>
                         <l>Je préfére ma liberté.</l>
                     </sp>
@@ -1575,12 +1580,12 @@
                         <speaker>LEANDRE<pc type="affirmative">.</pc></speaker><lb/>
                         <l>Mon Pere je benis cet Arrêt favorable.</l>
                         <l>Une ſeconde fois je vous dois la clarté.</l>
-                        <lb/><lb/><stage type="delivery" rend="italic">Au Baron.</stage><lb/><lb/>
+                        <lb/><lb/><stage type="delivery" rend="italics">Au Baron.</stage><lb/><lb/>
                         <l>Mon Frere, à vos refus je ſuis trop redevable.</l>
                     </sp>
                     <sp who="Heloyse">
                         <speaker>HELOYSE </speaker>
-                        <stage type="delivery" rend="italic">au Baron.</stage><lb/>
+                        <stage type="delivery" rend="italics">au Baron.</stage><lb/>
                         <l>Je ne dois pas, Monſieur, moins à vos bonté.</l>
                         <l>J'étois au deſeſpoir de vous paroître aimable.</l>
                     </sp>
@@ -1622,7 +1627,7 @@
                     </sp>
                     <sp who="Le Chevalier">
                         <speaker>LE CHEVALIER<pc type="affirmative">.</pc></speaker><lb/>
-                        <stage type="delivery" rend="italic">A Mlle. du Meſni.</stage><lb/><lb/>
+                        <stage type="delivery" rend="italics">A Mlle. du Meſni.</stage><lb/><lb/>
                         <l>Joignons-y mon Balet. Allons, ſoyez des nôtres.</l>
                     </sp>
                     <sp who="Mademoiselle du Mesni">
@@ -1654,7 +1659,7 @@
             <div1 type="divertissement">
                 <head>DIVERTISSEMENT<pc type="affirmative">.</pc></head>
                 <div2>
-                    <sound rend="italic">Marche<pc type="affirmative">.</pc></sound>
+                    <sound rend="italics">Marche<pc type="affirmative">.</pc></sound>
                     <p>AIR<pc type="affirmative">.</pc></p>
                     <lg>
                         <l><c type="lettrine">C</c>Hantons, célébrons la gloire</l>
@@ -1666,7 +1671,7 @@
                     </lg>
                 </div2>
                 <div2>
-                    <sound rend="italic">Menuet<pc type="affirmative">.</pc></sound>
+                    <sound rend="italics">Menuet<pc type="affirmative">.</pc></sound>
                     <p>DUO<pc type="affirmative">.</pc></p>
                     <lg>
                         <l><c type="lettrine">P</c>Laiſir, enchaîne nos ames</l>
@@ -1687,7 +1692,7 @@
             </div1>
             <pb n="90"/>
             <div1 type="vaudeville">
-                <sound rend="italic">Entrée<pc type="affirmative">.</pc></sound>
+                <sound rend="italics">Entrée<pc type="affirmative">.</pc></sound>
                 <p>VAUDEVILLE<pc type="affirmative">.</pc></p>
                 <lg>
                     <l><c type="lettrine">P</c>Arler vers, parler toilette,</l>
@@ -1697,7 +1702,7 @@
                 </lg>
                 <lb/>
                 <lg>
-                    <l>*<note resp="author" rend="italic" place="bottom">* Les Dames ſe montrent tard a la promenade du Pa-
+                    <l>*<note resp="author" rend="italics" place="bottom">* Les Dames ſe montrent tard a la promenade du Pa-
                         <lb/>lais Royal, ce qui fait murmurer les hommes qui les at-
                         <lb/>tendent.</note> Le grand jour eſt ridicule.</l>
                     <l>Le beau ſexe notre amour ;</l>
@@ -1719,15 +1724,15 @@
                     <l>C'eſt l'eſprit du jour.</l>
                 </lg>
                 <lb/>
-                <lb/><stage type="delivery" rend="italic">Au Parterre<pc type="affirmative">.</pc></stage>
+                <lb/><stage type="delivery" rend="italics">Au Parterre<pc type="affirmative">.</pc></stage>
                 <lg>
                     <l>Meſſieurs, Papillon vous prie,</l>
                     <l>Ou par grace, ou par amour,</l>
                     <l>De faire votre folie</l>
                     <l>De celle du jour.</l>
                 </lg>
-                <sound rend="italic">Contre danſe.</sound>
-                <lb/><p rend="italic">Fin du divertiſſement.</p>
+                <sound rend="italics">Contre danſe.</sound>
+                <lb/><p rend="italics">Fin du divertiſſement.</p>
             </div1>
         </body>
     </text>
