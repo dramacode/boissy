@@ -65,12 +65,12 @@
             <titlePage type="half-title">
                 <docTitle>
                     <titlePart type="main">LE TRIOMPHE <lb/> DE <lb/> L'INTÉREST ,</titlePart>
-                    <titlePart type="desc" rend="italicss">COMEDIE</titlePart>
+                    <titlePart type="desc" rend="italics">COMEDIE</titlePart>
                 </docTitle>
             </titlePage>
             <pb n="88"/>
             <castList>
-                <head rend="italicss">ACTEURS</head>
+                <head rend="italics">ACTEURS</head>
                 <castItem><role>MERCURE</role>.</castItem>
                 <castItem><role>L'HONNEUR</role>.</castItem>
                 <castItem><role>L'INTÉREST</role>.</castItem>
