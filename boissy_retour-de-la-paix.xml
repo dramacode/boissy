@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="Boissy-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
