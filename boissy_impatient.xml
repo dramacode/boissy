@@ -69,7 +69,9 @@
                     <titlePart type="desc" rend="italics">Repreſentée par les Comédiens François , au <lb/> mois de Janvier 1724.</titlePart>
                 </docTitle>
             </titlePage>
-            <pb n="44"/>
+        </front>
+        <body> 
+          <pb n="44"/>
             <castList>
                 <head rend="italics" rendition="center">ACTEURS DU PROLOGUE.</head><lb/>
                 <castItem><role>L'AUTEUR</role><pc type="affirmative">.</pc></castItem>
@@ -78,11 +80,11 @@
                 <castItem><role>PHILINTE</role><pc>,</pc> <roleDesc>Auteur comique</roleDesc><pc type="affirmative">.</pc></castItem>
             </castList>
             <lb/><lb/><lb/><lb/>
-            <set>
+            <stage type="setting">
                 <p rend="italics">La Scène eſt au Foyer de la Comédie.</p>
-            </set>
-           <div1 type="prologue">
+            </stage>
             <pb n="45"/>
+           <div1 type="prologue">
             <head>L'IMPATIENT <lb/><hi rend="italics"><choice><orig>COMEDIE</orig><reg>COMÉDIE</reg></choice></hi><pc type="affirmative">.</pc><lb/>PROLOGUE<pc type="affirmative">.</pc></head><lb/>          
             <div2 type="scene" n="1" xml:id="P01">
                     <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
@@ -625,12 +627,8 @@
                 <trailer rend="italics">Fin du Prologue.</trailer>  
            </div1> 
            <pb n="55"/>
-            <titlePage type="half-title">
-                <docTitle>
-                    <titlePart type="main">L'IMPATIENT,</titlePart><lb/><lb/>
-                    <titlePart type="desc">COMEDIE<pc type="affirmative">.</pc></titlePart>
-                </docTitle>
-            </titlePage>
+           <div1 type="play">
+            <head>L'IMPATIENT,<lb/><lb/>COMEDIE<pc type="affirmative">.</pc></head>
             <pb n="56"/>
             <castList>
                 <head rend="center">ACTEURS DE LA COMÉDIE.</head><lb/>
@@ -647,14 +645,12 @@
                 <castItem><role>LA FLEUR</role><pc>,</pc><roleDesc>Laquais de <name type="person" n="Damis">Damis</name></roleDesc><pc type="affirmative">.</pc></castItem>
             </castList>
             <lb/><lb/><lb/><lb/>
-            <set><p>La Scène est à <name type="place" n="Rouen">Rouen</name>, chez <name type="person" n="Geron"></name>Géron.</p></set>
-        </front>
-        <body> 
+            <stage type="setting"><p>La Scène est à <name type="place" n="Rouen">Rouen</name>, chez <name type="person" n="Geron"></name>Géron.</p></stage>
             <pb n="57"/>
-                <head>L'IMPATIENT <pc>,</pc><lb/> COMEDIE<pc type="affirmative">.</pc></head>
-                <div1 type="acte" n="1" xml:id="I">
+               <div2><head>L'IMPATIENT <pc>,</pc><lb/> COMEDIE<pc type="affirmative">.</pc></head></div2> 
+                <div2 type="acte" n="1" xml:id="I">
                     <head>ACTE PREMIER<pc type="affirmative">.</pc></head><lb/>
-                    <div2 type="scene" n="1" xml:id="I01">
+                    <div3 type="scene" n="1" xml:id="I01">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="I01-1">
@@ -715,13 +711,13 @@
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="257" xml:id="l29">Trop de feu vous ſéduit, Madame, entendons-nous:</l>
                             <l n="258" xml:id="l30">Vous parlez d'un amant, je parle d'un époux.</l>
-                            <l  n="259" xml:id="l31" part="I">Et <name type="person" n="Clitandre">Clitandre</name>.</l>
+                            <l n="259" xml:id="l31" part="I">Et <name type="person" n="Clitandre">Clitandre</name>.</l>
                         </sp>
                         <sp who="Lucile" xml:id="I01-10">
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Fort bien, ſi mon amour t'écoute,</l>
                             <l n="260" xml:id="l32">Il va se déclarer pour <name type="person" n="Valère">Valére</name>, ſans doute;</l>
-                            <l  n="261"  xml:id="l33" part="I">Je le rapellerai.</l>
+                            <l n="261"  xml:id="l33" part="I">Je le rapellerai.</l>
                         </sp>
                         <sp who="Dorine" xml:id="I01-11">
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
@@ -934,8 +930,8 @@
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="359" xml:id="l132">C'eſt <name type="person" n="Lépine">Lépine</name>. Arrêtez, en voici des nouvelles.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="2" xml:id="I02">
+                    </div3>
+                    <div3 type="scene" n="2" xml:id="I02">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> LÉPINE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lepine" xml:id="I02-1">
@@ -1092,8 +1088,8 @@
                             <stage type="exit" rend="italics">en s'en allant.</stage><lb/>
                             <l n="402" xml:id="l185">Suffit. Que les amans ont de peine à finir.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="3" xml:id="I03">
+                    </div3>
+                    <div3 type="scene" n="3" xml:id="I03">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="I03-1">
@@ -1105,8 +1101,8 @@
                             <l n="404" xml:id="l187">Je rentre, &amp; mon amour veut être ſolitaire.</l>
                             <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="4" xml:id="I04">
+                    </div3>
+                    <div3 type="scene" n="4" xml:id="I04">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="I04-1">
                             <speaker>DORINE</speaker>
@@ -1130,8 +1126,8 @@
                             <l n="420" xml:id="l203">Je pourrois bien pourtant en faveur de <name type="person" n="Lépine">Lépine</name>,</l>
                             <l  n="421" xml:id="l204" part="I">Pour peu....mais j'aperçois <name type="person" n="Damis">Damis</name>.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="5" xml:id="I05">
+                    </div3>
+                    <div3 type="scene" n="5" xml:id="I05">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMIS<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damis" xml:id="I05-1">
@@ -1242,12 +1238,12 @@
                             <l n="477" xml:id="l260">Ménager mon bonheur &amp; régler ma tendreſſe.</l>
                         </sp>
                         <lb/><lb/><lb/><trailer rend="italics">Fin du premier Acte.</trailer>
-                    </div2>
-                </div1>
+                    </div3>
+                </div2>
                 <pb n="69"/>
-                <div1 type="acte" n="2" xml:id="II">
+                <div2 type="acte" n="2" xml:id="II">
                     <head>ACTE II<pc type="affirmative">.</pc></head><lb/>
-                    <div2 type="scene" n="1" xml:id="II01">
+                    <div3 type="scene" n="1" xml:id="II01">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LEPINE <hi rend="italics">bottés.</hi><pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="II01-1">
@@ -1282,9 +1278,9 @@
                           <l part="F">A ta lenteur tout paroît difficile,</l>
                           <l n="485" xml:id="l268">Vole, dépêche &amp; crains de m'échauffer la bile.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="70"/>
-                    <div2 type="scene" n="2" xml:id="II02">
+                    <div3 type="scene" n="2" xml:id="II02">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="II02-1">
@@ -1404,8 +1400,8 @@
                           <stage type="exit" rend="italics">ſortant avec peine.</stage><lb/>
                           <l n="533" xml:id="l316">J'enrage! Elle a raiſon, il faut bien m'y réſoudre.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="3" xml:id="II03">
+                    </div3>
+                    <div3 type="scene" n="3" xml:id="II03">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="II03-1">
                             <speaker>DORINE</speaker>
@@ -1418,8 +1414,8 @@
                             <l n="539" xml:id="l322">Mais j'aperçois <name type="person" n="Lucile">Lucile</name>. Un retour auſſi prompt </l>
                             <l n="540" xml:id="l323">Va diſſiper l'ennui qui paroît ſur ſon front.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="4" xml:id="IIO04">
+                    </div3>
+                    <div3 type="scene" n="4" xml:id="IIO04">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Lucile" xml:id="II04-1">
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
@@ -1471,8 +1467,8 @@
                           <l part="F">Quelle foibleſſe extrême!</l>
                           <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="5" xml:id="II05">
+                    </div3>
+                    <div3 type="scene" n="5" xml:id="II05">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="II05-1">
@@ -1613,8 +1609,8 @@
                           <l n="653" xml:id="l435">On vient. N'oubliés pas qu'il faut gagner <name type="person" n="Dorine">Dorine</name>.</l>
                           <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage><lb/>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="6" xml:id="II06">
+                    </div3>
+                    <div3 type="scene" n="6" xml:id="II06">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Clitandre" xml:id="II06-1">
                             <speaker>CLITANDRE </speaker>
@@ -1624,9 +1620,9 @@
                             <l n="656" xml:id="l438">Ce nom ſeul dans mon cœur jette un trouble fatal.</l>
                             <l n="657" xml:id="l439">Courons nous éclaircir avant qu'on nous arrête.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="77"/>
-                    <div2 type="scene" n="7" xml:id="II07">
+                    <div3 type="scene" n="7" xml:id="II07">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LEPINE<pc>,</pc> <lb/>UN MAITRE-CLERC<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lepine" xml:id="II07-1">
@@ -1815,9 +1811,9 @@
                           <l n="695" xml:id="l477">Va voir ſi mon Tailleur.... mais il vient le premier.</l>
                         </sp>
                         <lb/><stage type="exit" rend="italics">[<name type="person" n="Lépine">Lépine</name> rentre.]</stage><lb/>
-                    </div2>
+                    </div3>
                     <pb n="80"/>
-                    <div2 type="scene" n="8" xml:id="II08">
+                    <div3 type="scene" n="8" xml:id="II08">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LE TAILLEUR<pc>,</pc> <lb/> LEPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="II08-1">
@@ -1913,8 +1909,8 @@
                           <stage type="exit" rend="italics">en s'en allant.</stage><lb/>
                           <l part="F">J'aimerois mieux habiller une armée.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="9" xml:id="II09">
+                    </div3>
+                    <div3 type="scene" n="9" xml:id="II09">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LEPINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="II09-1">
@@ -2042,12 +2038,12 @@
                           <l n="754" xml:id="l536">Et dans ſa promptitude, il laſſeroit le Diable.</l>
                         </sp>
                         <lb/><lb/><lb/><trailer rend="italics">Fin du ſecond Acte.</trailer>
-                    </div2>
-                </div1>
+                    </div3>
+                </div2>
                 <pb n="82"/>
-                <div1 type="acte" n="3" xml:id="III">
+                <div2 type="acte" n="3" xml:id="III">
                     <head>ACTE III<pc type="affirmative">.</pc></head><lb/>
-                    <div2 type="scene" n="1" xml:id="III01">
+                    <div3 type="scene" n="1" xml:id="III01">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="III01-1">
                             <speaker>DORINE </speaker>
@@ -2062,8 +2058,8 @@
                             <l n="762" xml:id="l544">Eſt pour Monſieur <name type="person" n="Clitandre">Clitandre</name> un effort trop pénible.</l>
                             <l n="763" xml:id="l545" part="I">On vient.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="2" xml:id="III02">
+                    </div3>
+                    <div3 type="scene" n="2" xml:id="III02">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>DORINE<pc>,</pc> JASMIN<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="III02-1">
@@ -2099,8 +2095,8 @@
                             <l n="777" xml:id="l559"><name type="person" n="Clitandre">Clitandre</name> va peſter, j'en ſuis vraiment fort aiſe.</l>
                             <l n="778" xml:id="l560" part="I">Quelqu'un vient. C'eſt <name type="person" n="Geron">Géron</name>.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="3" xml:id="III03">
+                    </div3>
+                    <div3 type="scene" n="3" xml:id="III03">
                         <head>SCENE II<sic></sic><corr>I</corr><pc type="affirmative">.</pc></head><lb/>
                         <stage>DORINE<pc>,</pc> GERON<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Geron" xml:id="III03-1">
@@ -2245,9 +2241,9 @@
                             <l n="836" xml:id="l618">Mais on tape du pié<sic> </sic>l'on ouvre bruſquement ;</l>
                             <l n="837" xml:id="l619" part="I">C'eſt <name type="person" n="Clitandre">Clitandre</name>, oui, lui-même.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="88"/>
-                    <div2 type="scene" n="4" xml:id="III04">
+                    <div3 type="scene" n="4" xml:id="III04">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage>
                         <sp who="Clitandre" xml:id="III04-1">
@@ -2466,8 +2462,8 @@
                             <l n="901" xml:id="l683">Je ne puis plus reſter dans ces tranſes cruelles.</l>
                             <l n="902" xml:id="l684">Adieu, je ſors &amp; vais en ſçavoir des nouvelles.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="5" xml:id="III05">
+                    </div3>
+                    <div3 type="scene" n="5" xml:id="III05">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="III05-1">
                             <speaker>DORINE </speaker>
@@ -2480,9 +2476,9 @@
                             <l n="908" xml:id="l690">Je prétens réparer cette faute aujourd'hui,</l>
                             <l n="909" xml:id="l691">Et veux agir ſi bien.... mais j'aperçois <name type="person" n="Lucile">Lucile</name>.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="92"/>
-                    <div2 type="scene" n="6" xml:id="III06">
+                    <div3 type="scene" n="6" xml:id="III06">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="III06-1">
@@ -2530,9 +2526,9 @@
                             <l n="920" xml:id="l702">Ah, je joue aujourd'hui d'un amour ſans égal.</l>
                             <l n="921" xml:id="l703" part="I">Viens, rentrons.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="93"/>
-                    <div2 type="scene" n="7" xml:id="III07">
+                    <div3 type="scene" n="7" xml:id="III07">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>DAMIS<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Damis" xml:id="III07-1">
@@ -2613,8 +2609,8 @@
                             <l part="F">Les plus vieux, ma foi, ſont les plus foux.</l>
                             <l n="957" xml:id="l739">Quelqu'un vient, c'eſt <name type="person" n="Clitandre">Clitandre</name>; il eſt tout hors <lb/> d'haleine.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="8" xml:id="III08">
+                    </div3>
+                    <div3 type="scene" n="8" xml:id="III08">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> DAMIS<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="III08-1">
@@ -2685,9 +2681,9 @@
                             <l n="976" xml:id="l758">J'ai perdu la parole &amp; je vous l'écrirai.</l>
                             <lb/><stage type="exit" rend="italics">(Il ſort.)</stage><lb/>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="96"/>
-                    <div2 type="scene" n="9" xml:id="III9">
+                    <div3 type="scene" n="9" xml:id="III9">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="III9-1">
@@ -2799,9 +2795,9 @@
                             <l n="1018" xml:id="l800">Je ne ſuis plus mon maître, il vaut mieux que je ſorte.</l>
                             <lb/><stage type="exit" rend="italics">[Il ſort.]</stage><lb/>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="98"/>
-                    <div2 type="scene" n="10" xml:id="III10">
+                    <div3 type="scene" n="10" xml:id="III10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="III10-1">
@@ -2920,12 +2916,12 @@
                             <l n="1062" xml:id="l845">Vous allez voir <name type="person" n="Clitandre">Clitandre</name> expier ſon courroux.</l>
                         </sp>
                         <lb/><lb/><lb/><trailer rend="italics">Fin du troiſiéme Acte.</trailer>
-                    </div2>
-                </div1>
+                    </div3>
+                </div2>
                 <pb n="101"/>
-                <div1 type="acte" n="4" xml:id="IV">
+                <div2 type="acte" n="4" xml:id="IV">
                     <head>ACTE IV<pc type="affirmative">.</pc></head><lb/>
-                    <div2 type="scene" n="1" xml:id="IV01">
+                    <div3 type="scene" n="1" xml:id="IV01">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEPINE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lepine" xml:id="IV01-1">
@@ -3045,8 +3041,8 @@
                             <l n="1112" xml:id="l895">J'y vole. Toi remet<sic></sic><corr>s</corr> ce paquet à mon Maître,</l>
                             <l n="1113" xml:id="l896">Et juſqu'à mon retour commande à ton caquet.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="2" xml:id="IV02">
+                    </div3>
+                    <div3 type="scene" n="2" xml:id="IV02">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="IV02-1">
                             <speaker>DORINE </speaker>
@@ -3055,8 +3051,8 @@
                             <l n="1115" xml:id="l898">Il pourroit tout gâter dans l'ardeur qui le preſſe;</l>
                             <l n="1116" xml:id="l899">J'entens du bruit, il vient ſuivi de ma Maîtreſſe.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="3" xml:id="IV03">
+                    </div3>
+                    <div3 type="scene" n="3" xml:id="IV03">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="IV03-1">
@@ -3112,8 +3108,8 @@
                             <l part="F">Quel objet! Mon Maître-Clerc encore?</l>
                             <l n="1132" xml:id="l915">Reverrai-je toujours un fâcheux que j'abhorre.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="4" xml:id="IV04">
+                    </div3>
+                    <div3 type="scene" n="4" xml:id="IV04">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc>,</pc> <lb/> LE MAITRE-CLERC<pc type="affirmative">.</pc></stage>
                         <sp who="Le Maître-clerc" xml:id="IV04-1">
@@ -3123,9 +3119,9 @@
                             <l n="1135" xml:id="l918">Pour n'avoir pas tantôt voulu me croire &amp; lire.</l>
                             <l n="1136" xml:id="l919">De peur d'être importun, adieu, je me retire.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="105"/>
-                    <div2 type="scene" n="5" xml:id="IV05">
+                    <div3 type="scene" n="5" xml:id="IV05">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="IV05-1">
@@ -3200,8 +3196,8 @@
                             <l n="1167" xml:id="l950" part="I">Tu n'es pas de retour?</l>
                         </sp>
                         <lb/><stage>[<name type="person" n="Dorine">Dorine</name> ſort.]</stage><lb/>
-                    </div2>
-                    <div2 type="scene" n="6" xml:id="IV06">
+                    </div3>
+                    <div3 type="scene" n="6" xml:id="IV06">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="IV06-1">
@@ -3214,9 +3210,9 @@
                             <l part="F">Il dit vrai, je vous jure.</l>
                             <l n="1169" xml:id="l952">Adieu, mon pere vient. Parlez-lui promptement.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="107"/>
-                    <div2 type="scene" n="7" xml:id="IV7">
+                    <div3 type="scene" n="7" xml:id="IV7">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>GERON<pc>,</pc> CLITANDRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Clitandre" xml:id="IV07-1">
@@ -3378,8 +3374,8 @@
                             <l n="1200" xml:id="l984">Mérite attention. Ce petit mot d'avis,</l>
                             <l n="1201" xml:id="l985">Va me déterminer en faveur de <name type="person" n="Damis">Damis</name>.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="8" xml:id="IV08">
+                    </div3>
+                    <div3 type="scene" n="8" xml:id="IV08">
                         <head>SCENE VIII<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Clitandre" xml:id="IV08-1">
                             <speaker>CLITANDRE </speaker>
@@ -3401,8 +3397,8 @@
                             <l n="1215" xml:id="l999">Sa longueur eſt étrange, &amp; je ſuis las d'attendre.</l>
                             <l n="1216" xml:id="l1000" part="I">Hom! l'exécrable porte!</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="9" xml:id="IV09">
+                    </div3>
+                    <div3 type="scene" n="9" xml:id="IV09">
                         <head>SCENE IX<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="IV09-1">
@@ -3448,8 +3444,8 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1235" xml:id="l1019">De tout ce que je vois j'apréhende la ſuite.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="10" xml:id="IV10">
+                    </div3>
+                    <div3 type="scene" n="10" xml:id="IV10">
                         <head>SCENE X<pc type="affirmative">.</pc></head><lb/>
                         <stage>LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="IV10-1">
@@ -3479,8 +3475,8 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1245" xml:id="l1029">Je rentre. Puiſſes-tu détourner cet orage!</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="11" xml:id="IV11">
+                    </div3>
+                    <div3 type="scene" n="11" xml:id="IV11">
                         <head>SCENE XI<pc type="affirmative">.</pc></head><lb/>
                         <sp who="Dorine" xml:id="IV11-1">
                             <speaker>DORINE</speaker>
@@ -3494,8 +3490,8 @@
                             <l n="1251" xml:id="l1035"><name type="person" n="Lépine">Lépine</name> cependant s'amuſe au cabaret:</l>
                             <l n="1252" xml:id="l1036" part="I">Mais je le vois.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="12" xml:id="IV12">
+                    </div3>
+                    <div3 type="scene" n="12" xml:id="IV12">
                         <head>SCENE XII<pc type="affirmative">.</pc></head><lb/>
                         <stage>LEPINE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="IV12-1">
@@ -3559,8 +3555,8 @@
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1281" xml:id="l1065">Que-vois-je? C'eſt <name type="person" n="Lucile">Lucile</name>! Elle répand des larmes!</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="13" xml:id="IV13">
+                    </div3>
+                    <div3 type="scene" n="13" xml:id="IV13">
                         <head>SCENE XIII<pc type="affirmative">.</pc></head><lb/>
                         <stage>DORINE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="IV13-1">
@@ -3654,12 +3650,12 @@
                             <l n="1316" xml:id="l1100">Mais on doit excuſer l'amour au déſeſpoir.</l>
                         </sp>
                         <lb/><lb/><lb/><trailer rend="italics">Fin du quatriéme Acte.</trailer>
-                    </div2>
-                </div1>
+                    </div3>
+                </div2>
                 <pb n="117"/>
-                <div1 type="acte" n="5" xml:id="V">
+                <div2 type="acte" n="5" xml:id="V">
                     <head>ACTE V<pc type="affirmative">.</pc></head><lb/>
-                    <div2 type="scene" n="1" xml:id="V01">
+                    <div3 type="scene" n="1" xml:id="V01">
                         <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="V01-1">
@@ -3742,9 +3738,9 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l part="F">Elle entre, je la vois.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="118"/>
-                    <div2 type="scene" n="2" xml:id="V02">
+                    <div3 type="scene" n="2" xml:id="V02">
                         <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lucile" xml:id="V02-1">
@@ -3880,8 +3876,8 @@
                             <speaker>LUCILE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1413" xml:id="l1197">Heureuſe ſi je puis apaiſer ſa colére!</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="3" xml:id="V03">
+                    </div3>
+                    <div3 type="scene" n="3" xml:id="V03">
                         <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Dorine" xml:id="V03-1">
@@ -3906,9 +3902,9 @@
                             <l part="F">Dès demain! Ah! tu me fais trembler;</l>
                             <l n="1422" xml:id="l1206">Songes-tu bien qu'un jour eſt long à s'écouler?</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="121"/>
-                    <div2 type="scene" n="4" xml:id="V04">
+                    <div3 type="scene" n="4" xml:id="V04">
                         <head>SCENE IV<pc type="affirmative">.</pc></head><lb/>
                         <stage>CLITANDRE<pc>,</pc> LEPINE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Lepine" xml:id="V04-1">
@@ -3937,8 +3933,8 @@
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1431" xml:id="l1215">Allons... mais quelqu'un vient. C'eſt <name type="person" n="Lucile">Lucile</name> &amp; ſon <lb/>pere.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="5" xml:id="V05">
+                    </div3>
+                    <div3 type="scene" n="5" xml:id="V05">
                         <head>SCENE V<pc type="affirmative">.</pc></head><lb/>
                         <stage>GERON<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Geron" xml:id="V05-1">
@@ -4048,8 +4044,8 @@
                             <l n="1463" xml:id="l1247">Et pour convaincre enfin votre eſprit incrédule,</l>
                             <l n="1464" xml:id="l1248">Le Laquais de <name type="person" n="Damis">Damis</name> vient lever tout ſcrupule.</l>
                         </sp>
-                    </div2>
-                    <div2 type="scene" n="6" xml:id="V06">
+                    </div3>
+                    <div3 type="scene" n="6" xml:id="V06">
                         <head>SCENE VI<pc type="affirmative">.</pc></head><lb/>
                         <stage>GERON<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc>,</pc> <lb/>LA FLEUR<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="La Fleur" xml:id="V06-1">
@@ -4059,9 +4055,9 @@
                             <l n="1467" xml:id="l1251">Monſieur, pardon, je dois le rejoindre au plus vîte.</l>
                             <lb/><stage type="exit" rend="italics">(Il ſort.)</stage>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="124"/>
-                    <div2 type="scene" n="7" xml:id="V07">
+                    <div3 type="scene" n="7" xml:id="V07">
                         <head>SCENE VII<pc type="affirmative">.</pc></head><lb/>
                         <stage>GERON<pc>,</pc> LUCILE<pc>,</pc> DORINE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Geron" xml:id="V07-1">
@@ -4095,9 +4091,9 @@
                             <speaker>DORINE<pc type="affirmative">.</pc></speaker><lb/>
                             <l n="1471" xml:id="l1255">Concluons au plûtôt. Voici Monſieur <name type="person" n="Argante">Argante</name>.</l>
                         </sp>
-                    </div2>
+                    </div3>
                     <pb n="125"/>
-                    <div2 type="scene" n="8" xml:id="V08">
+                    <div3 type="scene" n="8" xml:id="V08">
                         <head>SCENE DERNIERE<pc type="affirmative">.</pc></head><lb/>
                         <stage>GERON<pc>,</pc> ARGANTE<pc>,</pc> CLITANDRE<pc>,</pc> <lb/>LUCILE<pc>,</pc> DORINE<pc>,</pc> un NOTAIRE<pc type="affirmative">.</pc></stage><lb/>
                         <sp who="Argante" xml:id="V08-1">
@@ -4299,9 +4295,9 @@
                         </sp>
                         <lb/><lb/><lb/><lb/><lb/>
                         <trailer rend="italics">FIN.</trailer>
-                    </div2>
-                </div1>
-            
+                    </div3>
+                </div2>
+            </div1>
         </body>
   </text>  
 </TEI>
