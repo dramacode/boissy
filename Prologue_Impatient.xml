@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-model href="Boissy1758.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>L'impatient, comédie. Prologue: édition numérique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Loterie, Joséphine</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributed under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Ce texte est le prologue de la pièce L'Impatient.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien.</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome premier</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1724-01-26">26 janvier 1724</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term><term>Prologue</term></keywords></textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="43"/>
+            <titlePage type="half-title">
+                <docTitle>
+                    <titlePart type="main">L'IMPATIENT,</titlePart><lb/><lb/>
+                    <titlePart type="desc">COMEDIE<pc type="affirmative">.</pc><lb/>PRECEDÉE d'UN PROLOGUE<pc type="affirmative">.</pc></titlePart><lb/><lb/>
+                    <titlePart type="desc" rend="italic">Repreſentée par les Comédiens François , au <lb/> mois de Janvier 1724.</titlePart>
+                </docTitle>
+            </titlePage>
+            <pb n="44"/>
+            <castList>
+                <head rend="center">ACTEURS DU PROLOGUE.</head><lb/>
+                <castItem><role>L'AUTEUR</role><pc type="affirmative">.</pc></castItem>
+                <castItem><role>UN COMEDIEN</role><pc type="affirmative">.</pc></castItem>
+                <castItem><role>ARBATE</role><pc type="affirmative">.</pc> <roleDesc>Auteur tragique</roleDesc><pc type="affirmative">.</pc></castItem>
+                <castItem><role>PHILINTE</role><pc>,</pc> <roleDesc>Auteur comique</roleDesc><pc type="affirmative">.</pc></castItem>
+            </castList>
+            <lb/><lb/><lb/><lb/>
+            <set>
+                <p rend="italic">La Scène eſt au Foyer de la Comédie.</p>
+            </set>
+            <pb n="45"/>
+        </front>
+        <body>
+            <div type="title">
+                <head>L'IMPATIENT <lb/><hi rend="italic">COMEDIE</hi><pc type="affirmative">.</pc><lb/>PROLOGUE<pc type="affirmative">.</pc></head><lb/>
+            </div>
+            <div type="play">
+                <div type="scene" n="1">
+                    <head>SCENE PREMIERE<pc type="affirmative">.</pc></head><lb/>
+                    <stage>L'AUTEUR<pc>,</pc> UN COMEDIEN<pc type="affirmative">.</pc></stage><lb/><lb/>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l><c type="lettrine">C</c>'EST moi qui doit jouer le plus pénible <lb/> Rôle ,</l>
+                        <l part="I">Et nature pâtir.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">J'en crois votre parole ;</l>
+                        <l>Affronter le Public, l'état eſt violent.</l>
+                        <l>Moi-même tous les jours je l'aborde en tremblant.</l>
+                        <l>Mais il faut vous flatter d'une douce eſpérance.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Un Poëte a toujours aſſez de confiance.</l>
+                        <l>Mon amour propre ſeul fait ſouffrir ma raiſon.</l>
+                        <l>J'ai de me découvrir grande démangeaiſon.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ſçai qu'avant le tems , le deſir de paroître,</l>
+                        <l>Excite vos pareils à ſe faire connoître.</l>
+                        <l>Les Auteurs en ce point reſſemblent aux amans:</l>
+                        <l>Un mot, un ſeul regard trahit leurs ſentimens.</l>
+                        <pb n="46"/>
+                        <l>Jouer incognito ce fâcheux perſonnage,</l>
+                        <l>Eſt pourtant , ſelon moi , le parti le plus ſage,</l>
+                        <l>Le plus utile , enfin le plus réjouiſſant :</l>
+                        <l>Heureux! qui ſe dérobe au Critique perçant.</l>
+                        <l>Vous pouvez dans le port laiſſer gronder l'orage.</l>
+                        <l>L'ouvrage riſque ſeul &amp; s'expoſe au naufrage ;</l>
+                        <l>S'il déplaît, on n'a point le ſenſible regret </l>
+                        <l>De voir ſon nom en butte au barbare ſiflet;</l>
+                        <l>Si par un ſort heureux la Piéce eſt aplaudie,</l>
+                        <l>Le Public à l'Auteur donne la Comédie.</l>
+                        <l>Quel charme de goûter les piquantes douceurs ,</l>
+                        <l>De s'entendre louer par ſes propres cenſeurs !</l>
+                        <l>Et le voile levé , par ce jeu ſalutaire,</l>
+                        <l>De lire dans le cœur d'un ami peu ſincére:</l>
+                        <l>La plus aigre cenſure &amp; l'encens le plus doux ,</l>
+                        <l>Sans perdre de leur force , errivent juſqu'à vous.</l>
+                        <l>Evitant le poiſon qu'offre la flatterie;</l>
+                        <l>Vous triomphez encor de la clabauderie ;</l>
+                        <l>Et riant en ſecret du Public curieux ,</l>
+                        <l>Vous êtes inciſible &amp; preſent à ſes yeux.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je goûte vos raiſons; mais quel martyre extrême!</l>
+                        <l>De voir ſouvent un fat qui vous dit à vous-même ,</l>
+                        <l>L'Auteur eſt fort prudent, l'ouvrage eſt des plus plats </l>
+                        <l part="I">Sur l'étiquette !</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">On vient, ne vous découvrez pas.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Leur cauſtique maintien m'inſpire de la crainte.</l>
+                        <l part="I">Sont-ils connus de vous ?</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">C'eſt <name type="person" n="Arbate">Arbate</name> &amp; <name type="person" n="Philinte">Philinte</name>,</l>
+                        <l>Auteurs prompts à blâmer , critiques pointilleux,</l>
+                        <l>Clabaudeurs éternels &amp; ſouvent dangereux.</l>
+                    </sp>
+                </div>
+                <pb n="47"/>
+                <div type="scene" n="2">
+                    <head>SCENE II<pc type="affirmative">.</pc></head><lb/>
+                    <stage>L'AUTEUR<pc>,</pc> LE COMEDIEN<pc>,</pc> <lb/>ARBATE<pc>,</pc> PHILINTE<pc type="affirmative">.</pc></stage><lb/><lb/>
+                    <sp who="Arbate">
+                        <speaker>ARBATE </speaker>
+                        <stage type="delivery" rendition="italic">à <name type="person" n="Philinte">Philinte</name>.</stage><lb/>
+                        <l><c type="lettrine">C</c>Onnoiſſez-vous l'Auteur de la nouvelle Piéce ?</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Non, mais, <hi rend="smallcap">L</hi>'I<hi rend="smallcap">mpatient</hi> ! ce titre ſeul me bleſſe.</l>
+                        <stage type="delivery" rend="italic">(s'adreſſant à l'Auteur.)</stage>
+                        <l>Je gage que Monſieur ſera de mon avis.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je n'en dis rien , l'Auteur eſt trop de mes amis.</l>
+                        <lb/><stage type="delivery" rend="italic">(bas au Comédien.)</stage><lb/>
+                        <l part="I">Vous le voyez.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN </speaker>
+                        <stage type="delivery" rend="italic">à part.</stage><lb/>
+                        <l>Je crains que ſon front ne décelle,</l>
+                        <l>Malgré tous ſes efforts ſa contrainte cruelle.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le caractére eſt vague, &amp; s'il n'eſt détaillé,</l>
+                        <l>Ce ſera, ſur ma foi, <hi rend="italic">le Grondeur</hi> r'habillé,</l>
+                        <l>Ou <hi rend="italic">les Fâcheux</hi> qu'enſemble on aura ſçu refondre.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Un homme du métier peut-il ainſi confondre ?</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR </speaker>
+                        <stage rend="italic">d'un air embaraſſé.</stage><lb/>
+                        <l>Je m'en étonne fort <stage type="delivery" rend="italic">(à part.<unclear>)</unclear></stage> Je l'avois bien prévû.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italic">à l'Auteur.</stage><lb/>
+                        <l>Un ami de l'Auteur ne doit pas être cru.</l>
+                        <l>Mais vous <stage type="delivery" rend="italic">( au Comédien )</stage> répondez-moi ?</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR </speaker>
+                        <stage type="delivery" rend="italic">bas au Comédien.</stage><lb/>
+                        <l part="F">La fâcheuſe rencontre.</l>
+                        <l part="I">Parlez pour moi.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN </speaker>
+                        <stage type="delivery" rend="italic">bas.</stage><lb/>
+                        <l part="F">Feignez ; votre trouble ſe montre.</l>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italic">au Comédien.</stage><lb/>
+                        <l part="I">Quelle eſt la différence !</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">On eſt impatient </l>
+                        <l>Sur-tout dans la jeuneſſe où le ſang eſt bouillant:</l>
+                        <l>Le moindre obſtacle alors nous trouble , nous agite ;</l>
+                        <l>Et courant au plaiſir , l'attente nous irrite.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Il n'eſt rien de plus vrai.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Mais on devient grondeur ,</l>
+                        <l>Quand les ans ont produit un fond de noire humeur;</l>
+                        <l>On voudroit, avec ſoi, voir vieillir tout le monde ,</l>
+                        <l>L'ennui d'avoir vécu fait que toujours on gronde.</l>
+                        <l>On ſe voit à regret marcher vers ſon déclin,</l>
+                        <l>Et du plaiſir l'on ſe fait un chagrin.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Fort bien!</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Et les fâcheux ? Contentez-moi , de grace.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>L'Impatient agit &amp; lui ſeul s'embarraſſe.</l>
+                        <l>De ſon extrême ardeur naît ſon retardement,</l>
+                        <l>Et l'attente incertaine eſt ſon plus grand tourment;</l>
+                        <l>Ou s'il arrive enfin qu'un fâcheux l'incommode,</l>
+                        <l>C'eſt néceſſairement, &amp; non par épiſode.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Eh bien , Monſieur , eh bien, êtes-vous ſatisfait ?</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La choſe étant ainſi, ce ſera <hi rend="italic">l'Inquiet</hi>.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR </speaker>
+                        <stage type="delivery" rend="italic">au Comédien.</stage><lb/>
+                        <l part="I">Ferme.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">L'Impatience eſt une promptitude ,</l>
+                        <l>Qui n'a rien de commun avec l'inquiétude ;</l>
+                        <l>L'une eſt ardeur du ſang, l'autre chagrin d'eſprit.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Oh ! parbleu, pour le coup, je n'aurois pas mieux dit.</l>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il faut que l'Etourdi ſoit donc ſon caractére.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Tenés bon.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">L'un de l'autre étrangement différe.</l>
+                        <l>Qu'eſt-ce qu'étourderie ? Une éclipſe d'eſprit ,</l>
+                        <l>Qui fait qu'à contre-tems un homme parle , agit ,</l>
+                        <l>Un délire éternel , voiſin de la ſottiſe ,</l>
+                        <l>Qui nous rend indiſcrets , &amp; fait qu'on nous mépriſe;</l>
+                        <l>Un incurable mal qui trouble la raiſon ,</l>
+                        <l>Bannit le jugement , ôte l'attention ;</l>
+                        <l>Un long égarement qui nous fait cheoir ſans ceſſe.</l>
+                        <l>Qu'eſt-ce qu'impatience ? Un bouillon de jeuneſſe ,</l>
+                        <l>Des vives paſſions impétueux enfant ,</l>
+                        <l>Dont le bruſque tranſport nous entraîne ſouvent;</l>
+                        <l>Mais qui d'un bon eſprit n'eſt pas moins le partage ,</l>
+                        <l>Qui n'eſt que paſſager , &amp; que tempére l'âge.</l>
+                        <l>Douce imperfection, excuſable défaut ,</l>
+                        <l>Dont on n'eſt après tout corrigé que trop tôt.</l>
+                        <l>Un homme impatient peut-être fort aimable :</l>
+                        <l>Un étourdi bien-tôt devient inſuportable.</l>
+                        <l>Sans en être choqué , de-là vient qu'on s'entend </l>
+                        <l>Apeller tous les jours du nom d'impatient ,</l>
+                        <l>Quand celui d'étourdi ſe prend pour une injure ;</l>
+                        <l>La différence frape , &amp; la preuve en eſt ſûre.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous ne vous rendez pas à ce raiſonnement ?</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN </speaker>
+                        <stage type="delivery" rend="italic">à l'Auteur.</stage><lb/>
+                        <l>Mais vous vous trahiſſez par trop d'empreſſement.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="I">Ce ſont ſubtilités.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Diſtinctions frivoles.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>L'ouvrage fera voir ſi ce ſont des paroles.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour la Piéce, un peu fort, vous vous interreſſez ,</l>
+                        <pb n="50"/>
+                        <l part="I">En ſeriez-vous le pere ?</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="M">Oh , non.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Vous rougiſſez.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN </speaker>
+                        <stage type="delivery" rend="italic">à l'Auteur.</stage><lb/>
+                        <l part="I">Vous voilà pris, ſortez.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">C'eſt trop de modeſtie.</l>
+                    </sp>
+                    <sp who="L'Auteur">
+                        <speaker>L'AUTEUR<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pour ôter.... tout ſoupçon, je quitte la partie.</l>
+                        <lb/><stage type="delivery" rend="italic">(en ſortant.)</stage><lb/>
+                        <l>Quels efforts ! J'ai ſouffert des tourmens infinis !</l>
+                    </sp>
+                </div>
+                <div type="scene" n="3">
+                    <head>SCENE III<pc type="affirmative">.</pc></head><lb/>
+                    <stage>ARBATE <pc>,</pc> PHILINTE <pc>,</pc> LE COMEDIEN<pc type="affirmative">.</pc></stage><lb/><lb/>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage rend="italic">en riant.</stage><lb/><lb/>
+                        <l><c type="lettrine">A</c>H ! ah , vraiment l'Auteur eſt fort de ſes amis.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il s'eſt fort plaiſamment décelé de lui-même.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Qu'on découvre aiſément un Poëte qui s'aime !</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je juge par l'Auteur que l'ouvrage eſt mauvais.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Monſieur , ſans avoir vû ne décidons jamais.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais vous qui me parlez avec tant d'aſſurance ,</l>
+                        <l>Avez-vous des Auteurs aſſez de connoiſſance ?</l>
+                        <l>Avec <name type="author" n="Terence">Terence</name> &amp; <name type="author" n="Plaute">Plaute</name> êtes-vous faufilé ?</l>
+                        <l>On voit aſſez que nons , quand vous avez parlé.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mieux que le Cabinet, la longue expérience </l>
+                        <l>Du Théâtre, Monſieur , nous aprend la ſcience,</l>
+                        <pb n="51"/>
+                        <l>Forme le peu de goût que nous pouvons avoir.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Une ſimple routine eſt tout votre ſçavoir.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>La preuve inconteſtable eſt mon plus bel ouvrage ,</l>
+                        <l>Qui vient d'être proſcrit par votre aréopage.</l>
+                        <l>Je ne puis rapeller ce honteux jugement ,</l>
+                        <l>Sans indignation &amp; ſans frémiſſement.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous êtes mon Confrére , &amp; ſans doute en comique ?</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous me connoiſſez mal , je travaille en tragique.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Monſieur , par ſes diſcours nous le fait aſſez voir.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="business" rend="italic">regardant <name type="person" n="Arbate">Arbate</name> , &amp; mettant ſon <lb/> doigt ſur le front.</stage><lb/>
+                        <l>Ces Tragiques ont-là je ne ſçai quoi de noir.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE </speaker>
+                        <stage type="delivery" rend="italic">à <name type="person" n="Philinte">Philinte</name></stage><lb/>
+                        <l>Ecoutez ſeulement la ſuite de <name type="person" n="Clélie">Clelie</name> ,</l>
+                        <l>Ce morceau vaut lui ſeul toute une Tragédie.</l>
+                        <lb/><stage type="delivery" rend="italic">(d'un ton tragique.)</stage><lb/>
+                        <l>» Aux yeux de l'ennemi , ſaiſie d'étonnement,</l>
+                        <l>» Elle prend un Courſier , le montre fiérement ,</l>
+                        <l>» Et d'un front aſſuré , le guidant vers le <name type="place" n="Tibre">Tibre</name> ,</l>
+                        <l>» S'élance dans les flots , s'écriant je ſuis libre :</l>
+                        <l>» Tout ſemble ſeconder un ſi hardi deſſein ,</l>
+                        <l>» Le docile Courſier obéit à ſa main ;</l>
+                        <l>» Enchanté par un Dieu qui doit l'avoir conduite </l>
+                        <l>» Le Soldat ſur le bord aplaudit à ſa ſuite ;</l>
+                        <l>» Et l'onde qui paroît pacifier ſon cours ,</l>
+                        <l>» La rend ſur l'autre rive &amp; reſpecte ſes jours.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Ces vers ſont aſvez beaux, mais de la Tragédie </l>
+                        <l>Les vers furens toujours la derniére partie.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE </speaker>
+                        <stage type="delivery" rend="italic">à <name type="person" n="Philinte">Philinte</name></stage><lb/>
+                        <l>Vous demeurez tranquille , &amp; vous n'admirez pas !</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Pardonnez-moi , Monſieur , mais j'admire tout bas.</l>
+                    </sp>
+                    <pb n="52"/>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>En vain par la langage une oreille eſt ſéduite ;</l>
+                        <l>Pour contenter l'eſprit cherchons de la conduite ,</l>
+                        <l>Et pour gagner le cœur trouvons de l'intérêt.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Refuſer un poëme où tout frape , où tout plaît !</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italic">à <name type="person" n="Arbate">Arbate</name>.</stage><lb/>
+                        <l>Touchés-là , j'ai reçu la même ignominie.</l>
+                        <l>Je m'étois ſurpaſſé par une Comédie ;</l>
+                        <l>Par un ouvrage neuf où brilloient les portraits ,</l>
+                        <l>Où régnoit le plaiſant, où pétilloient les traits :</l>
+                        <l>Par cet échantillon jugés de ſon mérite ;</l>
+                        <l>C'eſt un portrait frapé qui vaut bien votre fuite.</l>
+                        <l>» Offrirai-je à vos yeux la femme ſans égards ,</l>
+                        <l>» Qui ſignale ſes jours par de nouveaux écarts ; </l>
+                        <l>» Qui donnant un champ libre à ſes extravagances ,</l>
+                        <l>» Secoue effrontément le joug des bienſéances ;</l>
+                        <l>» Qui rit de la vertu , prend des airs Cavaliers ,</l>
+                        <l>» Et ſe pique ſur-tout d'avoir des Créanciers ;</l>
+                        <l>» Qui des jeunes Marquis affecte l'équipage ,</l>
+                        <l>» Et qui ne craint rien tant que de paſſer pour ſage ;</l>
+                        <l>» Qui ſçait l'art d'inventer plus d'un nouveau ſerment ,</l>
+                        <l>» Et qui le ſçai au jeu placer heureuſement ;</l>
+                        <l>» Qui rendant ſon mari confident de ſa gloire,</l>
+                        <l>» Conte de ſes excès elle-même l'hiſtoire ;</l>
+                        <l>» Et pour ne pas laiſſer ſon mérite imparfait ,</l>
+                        <l>» Qui fait fort bravement le coup de piſtolet.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ne puis m'empêcher de louer la peinture, </l>
+                        <l>Je la trouve brillante , elle eſt d'après nature ;</l>
+                        <l part="I">Mais c'eſt-là ſon défaut.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE </speaker>
+                        <stage type="delivery" rend="italic">à <name type="person" n="Arbate">Arbate</name>.</stage><lb/>
+                        <l part="F">Quoi vous ne riez pas,</l>
+                        <l part="I">Et vous êtes diſtrait ?</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Monſieur , je ris tout bas.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Le Théâtre eût toujours la ſageſſe en partage.</l>
+                    </sp>
+                    <pb n="53"/>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Mais le monde qu'il peint , ce monde eſt-il ſage ?</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il veut qu'on le ménage; un ſemblable tableau </l>
+                        <l>Bleſſeroit trop ſa vûe &amp; demande un rideau.</l>
+                        <l>Les traits ſont trop hardis &amp; les couleurs trop fortes</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous ne demandez plus que des figures mortes :</l>
+                        <l>Vous exigez qu'on ſoit froidement compaſſé ;</l>
+                        <l>Et voilà ce qui rend le Théâtre glacé.</l>
+                        <l>Il faut du neuf, morbleu , du neuf que l'on admire ;</l>
+                        <l>Soyons originaux ou gardons-nous d'écrire.</l>
+                        <l>Laiſſons l'exactitude aux vulgaires eſprits ,</l>
+                        <l>Et que d'heureux écarts diſtinguent nos Ecrits.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il eſt , je l'avouerai , d'heureuſes hardieſſes ,</l>
+                        <l>Qui des regles ſouvent affranchiſſent les Piéces :</l>
+                        <l>Mais toujours la raiſon doit régler nos accès.</l>
+                        <l>Hazardons ſagement, ſur-tout dans nos eſſais ,</l>
+                        <l>Gardons fidèlement l'exacte bienſéance ,</l>
+                        <l>Et ne donnons jamais dans l'extrême licence :</l>
+                        <l>Si les cœurs ſont impurs , les yeux ſont délicats ,</l>
+                        <l>Le vice nud déplaît même aux plus Scélérats.</l>
+                        <l>Heureux qui ſçait unir dans une Piéce aimable ,</l>
+                        <l>L'utile &amp; le plaiſant, l'honnête &amp; l'agréable !</l>
+                        <l>Un Ouvrage ſans mœurs eſt un monſtre odieux ;</l>
+                        <l>Et le ſiécle eſt critique autant que vicieux.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Je ſçai lire à travers ton malin artifice ,</l>
+                        <l>Le ſiécle veur par-là qu'on reſpecte ſon vice :</l>
+                        <l>Jours où vivoit <name type="author" n="Molière">Moliére</name> &amp; trop tôt diſparus,</l>
+                        <l>O ! deſirables tems , qu'êtes-vous devenus !</l>
+                        <l>On pouvoit ſans égards , ſans crainte ſans ſcrupule ;</l>
+                        <l>De toutes ſes couleurs marquer le ridicule :</l>
+                        <l>Mais je l'attraperai ce ſiécle extravagant ,</l>
+                        <l>Je prétens à la Foire illuſtrer mon talent.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>C'eſt la plus court chemin qui conduit à la gloire.</l>
+                    </sp>
+                    <pb n="54"/>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Selon moi l'on devroit à cette même Foire;</l>
+                        <l>Renvoyer le Comique, &amp; ce lieu deſtiné</l>
+                        <l part="I">Au Tragique , ſeroit....</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l part="F">Bien-tôt abandonné.</l>
+                        <l>C'eſt trop faire valoir vos foibles Tragédies ,</l>
+                        <l>Qu'on devroit apeller du nom de rapſodies.</l>
+                        <l>Ces Piéces aujourd'hui reſſemblent aux Romans ,</l>
+                        <l>Toujours les mêmes nœuds , les mêmes dénoûmens;</l>
+                        <l>Des ſonges, des fureurs, des combats, des vengeances,</l>
+                        <l>Des Oracles enfin &amp; des reconnoiſſances.</l>
+                        <l>Thèmes en deux façons , ouvrages d'Ecolier.</l>
+                        <l>Dont on eſt rebattu , qui ne peut qu'ennuyer.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Aller gâter <name type="author" n="Regnard">Renard</name> &amp; retourner <name type="author" n="Molière">Moliére</name>.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Vous donner au Foyer de la Comédie entiére.</l>
+                        <l>Et la foule , Meſſieurs , s'augmente autour de vous.</l>
+                    </sp>
+                    <sp who="Arbate">
+                        <speaker>ARBATE </speaker>
+                        <stage type="mixed" rend="italic">à <name type="person" n="Philinte">Philinte</name> en s'en allant.</stage><lb/>
+                        <l>Allez, vous n'êtes pas digne de mon courroux !</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Il eſt de ſon talent ſortement idolâtre,</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Venez, meſſieurs , venez jouer en plein Théâtre,</l>
+                        <l>Vous êtes bons Acteurs, on vous admirera ,</l>
+                        <l>Et d'aplaudiſſemens en ce lieu retentira.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Allons bâiller , allons, car la Piéce eſt nouvelle.</l>
+                    </sp>
+                    <sp who="Le Comédien">
+                        <speaker>LE COMEDIEN<pc type="affirmative">.</pc></speaker><lb/>
+                        <l>Permettez que l'Auteur au Public en apelle.</l>
+                        <l>C'eſt dommage, après tout, qu'ils prennent le travers,</l>
+                        <l>Ce ſont deux foux d'eſprit qui font fort bien des Vers.</l>
+                    </sp>
+                    <lb/><lb/><p rend="italic">Fin du Prologue.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

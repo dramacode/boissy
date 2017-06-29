@@ -1,0 +1,1722 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-model href="Boissy1758.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les Billets doux</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par </resp>
+                    <name>Allanic, Estelle</name>
+                    <name>Bonnec, Eugénie</name>
+                    <name>Le Bihan, Noémie</name>
+                    <name>Michel, Pauline</name>
+                    <name>Poquillon, Basile</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, <choice><orig>&amp;</orig><reg>et</reg></choice>; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2014 et 2015</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction><correction><p>aucune</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée. Une orthographe moderne a parfois été fournie, utilisant les éléments choice, orig et reg.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1734-09-15">15 septembre 1734</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2015-05-28">28 mai 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="81"/>
+                <docTitle>
+                    <titlePart type="main">LES <lb/>BILLETS DOUX ;</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="82"/>
+            <castList>
+                <head>ACTEURS.</head>
+                <castItem><role>CLARICE</role>.</castItem>
+                <castItem><role>JULIE</role>.</castItem>
+                <castItem><role>DAMON</role>.</castItem>
+                <castItem><role>VALERE</role></castItem>
+                <castItem><role>ARLEQUIN</role>.</castItem>
+                <castItem><roleDesc>UN NOTAIRE</roleDesc>.</castItem>
+                <castItem><role>MARTON</role>.</castItem>
+            </castList>
+            <lb/><lb/><lb/>
+            <set>
+                <p><hi rend="italics">La Scène eſt chez <name type="person" n="Clarice">Clarice</name>.</hi></p>
+            </set>
+            <pb n="83"/>
+        </front>
+        <body>
+          <head>LES <lb/>BILLETS DOUX;<lb/> <hi rend="italics">COMEDIE.</hi></head>
+            <div type="scene" n="1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>DAMON, VALERE, ARLEQUIN.</stage><lb/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I"><c rend="lettrine">O</c>UI, je brûle en ſecret.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="F">Je ſoupire de même.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Et c'eſt <hi rend="italics">incognito</hi> que j'aime.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="I">Où loge la Beauté quî t'a <choice><orig>ſçu</orig></choice><reg>su</reg> plaire ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Ici.</l> 
+                        <l part="I">Et ta Belle ?</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="M">En ces lieux.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">La mienne y loge auſſi.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Julie eſt l'objet qui m'enchante.</l>
+                    </sp>
+                    <pb n="84"/>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Je reſpire ! Mes vœux s'adreſſent à ſa Tante.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Oh ! Pour le coup, je ſuis hors de ſouci ,</l>
+                        <l>Car j'ai donné mon cœur à leur Suivante.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker>
+                        <l><name type="person" n="Clarice">Clarice</name> allume en toi les feux les plus <choice><orig>ardens</orig><reg>ardents</reg></choice> ?</l>
+                        <l>J'en reſſens une <choice><orig>joïe</orig><reg>joie</reg></choice> extrême ,</l>
+                        <l>Et je t'admire en même <choice><orig><choice><orig>tems</orig><reg>temps</reg></choice></orig><reg>temps</reg></choice>;</l>
+                        <l>Car <choice><orig>déja</orig><reg>déjà</reg></choice> douairiére, elle touche à trente ans;</l>
+                        <l>A peine es-tu majeur, <choice><orig><choice><orig>&amp;</orig><reg>et</reg></choice>;</orig><reg>et</reg></choice> maître de toi-même.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>J'ai toujours eu du goût pour les mamans.</l>
+                        <l>Mais toi, mon cher <name type="person" n="Damon">Damon</name>, toi formé par le <choice><orig><choice><orig>tems</orig><reg>temps</reg></choice></orig><reg>temps</reg></choice>,</l>
+                        <l>Dis-moi, quelle eſt donc ta folie</l>
+                        <l>D'aller ſoupirer pour <name type="person" n="Julie">Julie</name> ?</l>
+                        <l>Ce n'eſt encore qu'un enfant.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Pour les jeunes tendrons <note><cit><bibl>Furetière 1701 </bibl><quote>ſe dit figurément <choice><orig>&amp;</orig><reg>et</reg></choice>; burleſquement, des files au deſſous de vingt ans.</quote></cit></note> mon cœur a du penchant.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l>Et je l'aime entre deux âges.</l>
+                        <l>Voilà pourquoi <name type="person" n="Marton">Marton</name> a mes tendres hommages.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I">Ton choix, <name type="person" n="Valère">Valere</name>, ...</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="F"> Eſt bon ſans contredit.</l>
+                        <l>La ſolide beauté qu'accompagne l'eſprit,</l>
+                        <l>De l'âge mûr est l'heureux apanage.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Non, non, ſon attrait qui ſéduit</l>
+                        <l>Ne fut jamais un don du <choice><orig>tems</orig><reg>temps</reg></choice> qui le détruit.</l>
+                        <l>De la primeur il eſt le vrai partage.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l>Moi, je ſoutiens que la beauté</l>
+                        <l>Eſt entre la verdeur <choice><orig>&amp;</orig><reg>et</reg></choice>; la maturité.</l>
+                        <l>Elle reſſemble à la pêche qui brille;</l>
+                        <l>Son aimable faveur, <choice><orig>&amp;</orig><reg>et</reg></choice>; ſon charmant éclat</l>
+                        <l>Sont renfermés dans ce point délicat</l>
+                        <pb n="85"/>
+                        <l>Qu'il faut ſaiſir dans une fille.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>L'eſprit, <name type="person" n="Damon">Damon</name>, l'eſprit a des attraits</l>
+                        <l>Plus <choice><orig>brillans</orig><reg>brillants</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice>; plus forts que ceux de la perſonne:</l>
+                        <l>Eux ſeuls à la beauté mettent les derniers traits;</l>
+                        <l>Et ces charmes vainqueurs, c'eſt l'âge qui les donne.</l>
+                        <l>Conviens donc qu'en ce point mon goût eſt des <lb/>meilleurs.</l>
+                        <l>Jeune comme je ſuis, <choice><orig>&amp;</orig><reg>et</reg></choice>; ſans expérience,</l>
+                        <l>J'ai beſoin de choiſir une beauté qui penſe,</l>
+                        <l>Et qui dirige mes ardeurs.</l>
+                        <l>Mon <choice><orig>ame</orig><reg>âme</reg></choice> d'un feu pur veut goûter les douceurs,</l>
+                        <l>Et ſe polir par la tendreſſe.</l>
+                        <l>L'amour qui nous inſtruit, <choice><orig>&amp;</orig><reg>et</reg></choice>; qui forme nos mœurs,</l>
+                        <l>Devient une vertu loin d'être une <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>;</l>
+                        <l>Et l'on doit tous les jours ſes plus grandes erreurs</l>
+                        <l>Au mauvais choix d'une maîtreſſe.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Moi, qui ſuis ton aîné, je dis, pour bien choiſir,</l>
+                        <l>Qu'il faut la prendre en ſa grande jeuneſſe :</l>
+                        <l>Nous la formons alors ſelon notre deſir ;</l>
+                        <l>Et nous goûtons la volupté ſuprême</l>
+                        <l>De voir au moindre mot ſon beau front ſe couvrir <sic>.</sic></l>
+                        <l>D'une tendre rougeur qui ſert à l'embellir,</l>
+                        <l>Et de voir ſes <choice><orig>apas</orig><reg>appas</reg></choice> croître ſous nos yeux même,</l>
+                        <l>Des vrais plaiſirs c'eſt le premier.</l>
+                        <l>Il eſt plus doux d'être de ce qu'on aime,</l>
+                        <l>Le Précepteur que l'Ecolier.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>C'eſt justement ce que j'oſe nier.</l>
+                        <l>Et je ſuis ſûr qu'en un commerce tendre,</l>
+                        <l>Le plaiſir le plus vif eſt le plaiſir d'<choice><orig>aprendre</orig><reg>apprendre</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l>Quand je <choice><orig>dévrois</orig><reg>devrais</reg></choice>, Meſſieurs, paſſer pour importun,</l>
+                            <l>Mon ſentiment eſt dif<sic>l</sic><corr>f</corr>érent du vôtre.</l>
+                            <l>Il faut, quand on aime quelqu'un,</l>
+                            <l>Il faut, pour le plaiſir commun,</l>
+                            <l><choice><orig>Eſtre</orig><reg>Etre</reg></choice> auſſi <choice><orig>ſçavant</orig><reg>savant</reg></choice> l'un que l'aut<sic>t</sic><corr>r</corr>e,</l>
+                    </sp>
+                    <pb n="86"/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l><name type="person" n="Valère"><choice><orig>Valere</orig><reg>Valère</reg></choice></name>, finiſſons un vain raiſonnement;</l>
+                        <l>Ce n'eſt que ſur l'eſprit qu'il a quelque puiſſance:</l>
+                        <l>Mais le cœur brave l'éloquence ,</l>
+                        <l>Et ne ſe rend qu'au ſentiment.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Là-deſſus comme toi je penſe.</l>
+                        <l>Ce qui cauſe à préſent mon plus grand embarras,</l>
+                        <l>Eſt de faire l'aveu de ma <choice><orig>ſecrete</orig><reg>secrète</reg></choice> <choice><orig>flâme</orig><reg>flamme</reg></choice></l>
+                        <l>A l'objet que j'adore, <choice><orig>&amp;</orig><reg>et</reg></choice>, qui ne le <choice><orig>ſçait</orig><reg>sait</reg></choice> pas.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Un pareil ſoin trouble mon ame,</l>
+                        <l>Et je ſuis dans le même cas.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Un véritable amour eſt tremblant <choice><orig>&amp;</orig><reg>et</reg></choice> timide ;</l>
+                        <l>Le reſpect l'accompagne, <choice><orig>&amp;</orig><reg>et</reg></choice> la crainte le guide :</l>
+                        <l>Rien ne lui coûte plus que de ſe déclarer.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Il eſt vrai dans l'ardeur qui m'a <choice><orig>ſçu</orig><reg>su</reg></choice> pénétrer,</l>
+                        <l>Je ſens que je n'ai pas la force de le dire ;</l>
+                        <l>Et comme je ne puis plus <choice><orig>long-tems</orig><reg>longtemps</reg></choice> différer,</l>
+                        <l>Je vais prendre aujourd'hui le parti de l'écrire.</l>
+                        <l>Adieu, <name type="person" n="Valère">Valere</name>.
+                            <stage rend="italics"> (à <name type="person" n="Arlequin">Arlequin</name>.)</stage> Et toi, viens prendre mon Billet.</l>
+                        <lb/><stage rend="italics">(Il ſort.)</stage>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Imitons ſon exemple, <choice><orig>&amp;</orig><reg>et</reg></choice> courons ſans remettre,</l>
+                        <l>Pour expliquer mon feu diſcret,</l>
+                        <l>Employer comme lui le ſecours d'une Lettre.</l>
+                        <stage rend="italics">(<name type="person" n="Valère">Valere</name> ſuit <name type="person" n="Damon">Damon</name>.)</stage>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage rend="italics">en s'en allant.</stage><lb/>
+                        <l>Je vais auſſi tracer un amoureux Poulet<note><cit><bibl>Furetière 1701 </bibl><quote>ſignifie auſſi un petit billet amoureux qu'on <choice><orig>envoye</orig><reg>envoie</reg></choice> aux Dames galantes, ainsi nommé, parce qu'en le pliant on y <choice><orig>faiſoit</orig><reg>faisait</reg></choice> deux pointes qui <choice><orig>repreſentoient</orig><reg>représentaient</reg></choice> les ailes d'un <hi rend="italics">poulet</hi></quote></cit></note>.</l>
+                    </sp>
+                </div>
+                <pb n="87"/>
+                <div type="scene" n="2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>JULIE, MARTON.</stage><lb/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l><c type="lettrine">V</c>Ous pouvez à préſent me parler ſans <choice><orig>myſtére</orig><reg>mystère</reg></choice> ;</l>
+                        <l>Car les voilà tous trois ſortis.</l>
+                        <l>Vous <choice><orig>ſçavez</orig><reg>savez</reg></choice> que <name type="person" n="Marton">Marton</name> n'eſt rien moins que <choice><orig>ſévére</orig><reg>sévère</reg></choice>.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Je n'ai pas ſeize ans accomplis,</l>
+                        <l>Et cependant mon <choice><orig>ame</orig><reg>âme</reg></choice><sic>....</sic> Ah, <name type="person" n="Marton">Marton</name>, j'en rougis,</l>
+                        <l>Et je <choice><orig>dévrois</orig><reg>devrais</reg></choice> <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> me taire.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="I">Vous aimez ?</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l part="M">Tu l'as dit.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Choſe extraordinaire !</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker>
+                        <l part="I">Quelle honte à mon âge !</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">En vérité, j'en ris.</l>
+                        <l>Le ſcrupule nouveau ! La plaiſante penſée !</l>
+                        <l><choice><orig>Sçachez</orig><reg>Sachez</reg></choice>, pour raſſurer vos timides eſprits,</l>
+                        <l>Qu'à quinze ans aujourd'hui l'on eſt plus avancée</l>
+                        <l>Qu'à trente on ne l'<choice><orig>étoit</orig><reg>était</reg></choice> jadis.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Oui, par ma propre expérience,</l>
+                        <l>Je ſens la vérité de ce que tu me dis ;</l>
+                        <l>Car j'ai penſé dès mon enfance.</l>
+                        <l>Je n'<choice><orig>étois</orig><reg>étais</reg></choice> pas, <name type="person" n="Marton">Marton</name>, plus haute que cela,</l>
+                        <l>Que mon cœur <choice><orig>palpitoit</orig><reg>palpitait</reg></choice> <choice><orig>déja</orig><reg>déjà</reg></choice></l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Prodige heureux de la nature !</l>
+                    </sp>
+                    <pb n="88"/>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Façonné par le monde, inſtruit par la lecture,</l>
+                        <l>Qu'il a fait de progrès depuis cet âge-là !</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Celui pour qui ce cœur palpite,</l>
+                        <l>Sans doute a beaucoup de mérite ?</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>C'eſt un Cavalier accompli.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="I">Eſt-il bien fait ?</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l part="F">Oh ! Rien n'eſt plus joli.</l>
+                        <l>De toutes les façons il eſt formé pour plaire.</l>
+                        <l>Son air eſt enjoué ſans être trop hardi,</l>
+                        <l>Et ſon eſprit brillant ſans <choice><orig>paroître</orig><reg>paraître</reg></choice> étourdi.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage><hi rend="italics">à part</hi></stage><lb/>
+                        <l>A ces traits-là je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> <name type="person" n="Valere">Valere</name>.</l>
+                        <lb/><stage rend="italics">(à <name type="person" n="Julie">Julie</name>.)</stage><lb/>
+                        <l part="I">Vous parlez-vous ?</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker>
+                        <l part="F">Oui, des yeux ſeulement.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Mais les vôtres déjà s'expriment tendrement.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Depuis huit jours que je l'obſerve ;</l>
+                        <l>Ah ! Les ſiens m'ont lancé des regards ſi <choice><orig>flâteurs</orig><reg>flatteurs</reg></choice> ;</l>
+                        <l>Qu'il faut qu'il m'aime ſans réſerve,</l>
+                        <l>Ou que ces mêmes yeux ſoient de grands impoſteurs!</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage><hi rend="italics">à part.</hi></stage><lb/>
+                        <l>Son petit cœur ſe <choice><orig>dévelope</orig><reg>développe</reg></choice> ;</l>
+                        <l><choice><orig>Déja</orig><reg>Déjà</reg></choice> chez lui comme l'amour galope !</l>
+                        <lb/><stage rend="italics">(à Julie.)</stage><lb/>
+                        <l>De votre Amant je devine le nom.</l>
+                        <l part="I">Mais <name type="person" n="Arlequin">Arlequin</name> revient.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker>
+                        <l part="F">Avec lui je te laiſſe,</l>
+                        <l part="I"><choice><orig>Gardes</orig><reg>Garde</reg></choice> bien mon ſecret.</l>
+                        <lb/><stage rend="italics">(Elle s'en va.)</stage>
+                    </sp>
+                </div>
+                <pb n="89"/>
+                <div type="scene" n="3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>ARLEQUIN, MARTON.</stage><lb/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l><choice><orig><c type="lettrine">T</c>Ien</orig><reg>Tiens</reg></choice>, <choice><orig>donnes</orig><reg>donne</reg></choice> à ta maîtreſſe</l>
+                        <l>Ce Billet doux de la part de <name type="person" n="Damon">Damon</name>,</l>
+                        <l>Et celui-ci de la mienne à <name type="person" n="Marton">Marton</name>.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="I">Je n'y manquerai pas.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Fort bien. La choſe preſſe.</l>
+                        <l>Adieu. Je ſors pour faire un tour,</l>
+                        <l>Puis je reviens prendre les deux réponſes<sic>,</sic></l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Monſieur les trouvera prêtes à ſon retour.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l><choice><orig>Songes</orig><reg>Songe</reg></choice> à tenir le bien que tu m'annonces,</l>
+                        <l>Et que mérite un amant fait au tour.</l>
+                        <lb/><stage rend="italics">(Il ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="4">
+                    <head>SCENE IV.</head><lb/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage rend="italics">ſeule.</stage><lb/>
+                        <l><c type="lettrine">C</c>'Eſt un plaiſant faquin <note><cit><bibl>Furetière 1701</bibl><quote>ſe dit auſſi en quelque ſorte au figuré, pour un homme ſans mérite , ſans honneur, ſans coeur, digne de toute ſorte de mepris.</quote></cit></note> pour me faire ſa cour !</l>
+                        <l><name type="person" n="Damon">Damon</name> aime <name type="person" n="Clarice">Clarice</name>. Oui la Lettre eſt pour elle,</l>
+                        <l>Et j'ai <choice><orig>ſçû</orig><reg>sû</reg></choice> pénétrer qu'elle l'aime à ſon tour ;</l>
+                        <l>C'eſt vainement que ſa fierté le <choice><orig>céle</orig><reg>cèle</reg></choice>.</l>
+                        <l>Tous nos Amants ſont aſſortis au mieux :</l>
+                        <l>Mais elle en <choice><orig>paroît</orig><reg>paraît</reg></choice> en ces lieux.</l>
+                    </sp>
+                </div>
+                <pb n="90"/>
+                <div type="Scene" n="5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>CLARICE, MARTON.</stage><lb/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l><c type="lettrine">B</c>Elle <name type="person" n="Clarice">Clarice</name>, eh quoi, dans l'été de votre âge,</l>
+                        <l>Vous, riche en bien autant qu'en agrément,</l>
+                        <l>Voulez-vous donc languir dans l'ennui du Veuvage ?</l>
+                        <l>De mille cœurs, à tout moment,</l>
+                        <l>Votre beauté vous attire l'hommage.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Ma richeſſe <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> fait leur empreſſement.</l>
+                            <l>J'ai juré de fuir ſagement</l>
+                            <l>Le ridicule joug d'un ſecond mariage.</l>
+                            <l>Un ſeul <choice><orig>pourroit</orig><reg>pourrait</reg></choice>, s'il m'<choice><orig>aimoit</orig><reg>aimait</reg></choice> tendrement,</l>
+                            <l>Me faire rompre mon ſerment.</l>
+                            <l>Quoiqu'il nous rende ici des viſites fréquentes,</l>
+                            <l>Je n'oſe me flatter de ſon attachement.</l>
+                            <l>Sa figure eſt des plus charmantes :</l>
+                        <l>Mais je <choice><orig>ſçai</orig><reg>sais</reg></choice> réſiſter à cet attrait flatteur</l>
+                            <l>Que m'offre en vain ſon image importune.</l>
+                            <l>Pour me réſoudre à faire ſa fortune,</l>
+                            <l>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> m'aſſurer qu'il <choice><orig>feroit</orig><reg>ferait</reg></choice> mon bonheur.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Ah! Puiſqu'il eſt ainſi, grande, grande nouvelle!</l>
+                        <l>Ce Cavalier de figure ſi belle,</l>
+                        <l>Qui <choice><orig>pourroit</orig><reg>pourrait</reg></choice> ſeul vous faire dans ce jour,</l>
+                        <l>Rompre le ſerment d'être veuve,</l>
+                        <l>Reſſent pour vous le plus parfait amour,</l>
+                        <l>Et dans mes mains j'en ai la preuve.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage rend="italics">à part.</stage><lb/>
+                        <l><name type="person" n="Marton">Marton</name> a démêlé que <name type="person" n="Valère">Valére</name> eſt l'objet</l>
+                        <l>Du feu qui <choice><orig>m'enflâme</orig><reg>m'enflamme</reg></choice> en ſecret ?</l>
+                        <lb/><stage rend="italics">(à Marton.)</stage><lb/>
+                        <l>Quelle eſt donc cette preuve, <choice><orig>&amp;</orig><reg>et</reg></choice> que <choice><orig>prétens-tu</orig><reg>prétends-tu</reg></choice> dire ?</l>
+                    </sp>
+                    <pb n="91"/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="I">Ce Billet.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="M">Un Billet ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Oui, l'Amour l'a dicté,</l>
+                            <l>Mais, Madame, je me retire</l>
+                            <l>Pour vous donner tout le <choice><orig>tems</orig><reg>temps</reg></choice> de le lire,</l>
+                            <l>Et d'y répondre en liberté.</l>
+                            <lb/><stage rend="italics">(à part.)</stage><lb/>
+                            <l>Je vais faire de mon côté,</l>
+                            <l>La réponſe au Poulet que l'on vient de m'écrire.</l>
+                            <lb/><stage rend="italics">>(Elle s'en va.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="6">
+                    <head>SCENE VI.</head><lb/>
+                    <sp who="Clarice_BD"> 
+                        <speaker>CLARICE </speaker>
+                        <stage rend="italics">ſeule.</stage>
+                        <l><c type="lettrine">L</c>Iſons vîte; en l'ouvrant je ſens trembler ma main.</l>
+                        <l>Que cette Lettre eſt tendre! Elle n'a point de ſeing <note><cit><bibl>Furetière 1701 </bibl><quote>marque qui est au bas d'un acte</quote></cit></note>.</l>
+                        <l>Celui qui me l'écrit eſt jeune, <choice><orig>&amp;</orig><reg>et</reg></choice> fait pour plaire.</l>
+                        <l>Ah! N'en doutons point, c'eſt <name type="person" n="Valere"><choice><orig>Valére</orig><reg>Valère</reg></choice></name> :</l>
+                        <l>Et je le <choice><orig>reconnois</orig><reg>reconnais</reg></choice> pour en être l'Auteur,</l>
+                        <l>A ce portrait que <name type="person" n="Marton">Marton</name> vient d'en faire,</l>
+                        <l>Et plus encore au trouble de mon cœur.</l>
+                        <l>Répondons-lui. Je puis me le permettre.</l>
+                        <lb/><stage rend="italics">(elle ſe met en devoir d'écrire.)</stage>
+                        <l>Pour me faire l'aveu d'un amour ſi flatteur,</l>
+                        <l>Ses yeux ont prévenu ſa Lettre.</l>
+                        <l>Son front, dès qu'il me voit, ſe couvre de rougeur.</l>
+                        <l>Tout me dit qu'il m'adore, <choice><orig>&amp;</orig><reg>et</reg></choice> ſa grande jeuneſſe</l>
+                        <l>M'eſt un garant trop ſûr de sa <choice><orig>ſincére</orig><reg>sincère</reg></choice> ardeur.</l>
+                        <l>Le monde encore n'a pas <choice><orig>alteré</orig><reg>altéré</reg></choice> ſa candeur.</l>
+                        <lb/><stage rend="italics">(en écrivant toujours.)</stage>
+                        <l>Je dois cette réponſe au beau feu qui le preſſe ;</l>
+                        <l>Et n'en déplaiſe au rigide cenſeur</l>
+                        <pb n="92"/>
+                        <l>Qui condamnera ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>,</l>
+                        <l>Je ne puis faire un choix meilleur.</l>
+                        <lb/><stage rend="italics">[après avoir écrit <choice><orig>&amp;</orig><reg>et</reg></choice> plié ſon billet.)</stage>
+                        <l>Les ans que j'ai ſur lui ſont même un avantage.</l>
+                        <l>Quand une femme a le bonheur</l>
+                        <l>D'attacher à ſon char un Amant de ſon âge,</l>
+                        <l>Et d'avoir ſon premier hommage,</l>
+                        <l>Elle peut à ſon gré façonner ſes eſprits,</l>
+                        <l>Former les ſentimens, épurer ſa tendreſſe;</l>
+                        <l>Et de ſes volontés ſe rendant la maîtreſſe,</l>
+                        <l>Faire de ſon vainqueur un eſclave ſoumis.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="7">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>CLARICE, MARTON.</stage><lb/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l><c type="lettrine">V</c>Otre réponſe eſt-elle prête,</l>
+                        <l part="I">Madame?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="M">Oui. <choice><orig>Donnes-la</orig><reg>Donne-la</reg></choice>.</l>
+                        <lb/><stage rend="italics">(elle rentre.]</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="8">
+                    <head>SCENE VIII.</head><lb/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage rend="italics">ſeule.</stage><lb/>
+                        <l part="F">L'Affaire eſt en bon train;</l>
+                        <l>Cette Lettre à <name type="person" n="Damon">Damon</name> aſſure ſa conquête.</l>
+                        <l>J'écris de la bonne encre à Monſieur <name type="person" n="Arlequin">Arlequin</name> ;</l>
+                        <l>Il aura lieu....Mais je le vois <choice><orig>paroître</orig><reg>paraître</reg></choice>.</l>
+                    </sp>
+                </div>
+                <pb n="93"/>
+                <div type="scene" n="9">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>MARTON, ARLEQUIN.</stage><lb/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l><c type="lettrine">N</c>Ous a-t-on répondu? Je vois certain papier</l>
+                        <l part="I">Qui flatte mon eſpoir....</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Voilà pour votre maître;</l>
+                        <l>Et voici pour ſon Ecuyer.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Pour moi, <name type="person" n="Marton">Marton</name> ! Je brûle de la lire.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>J'ai fait ma charge. Adieu. Je me retire.</l>
+                        <stage rend="italics">(elle ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="10">
+                    <head>SCENE X.</head><lb/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage rend="italics">ſeul.</stage><lb/>
+                        <l><c type="lettrine">D</c>Ans ma poche d'abord mettons ce billet-ci.</l>
+                        <lb/><stage rend="italics">(il met le Billet de <name type="person" n="Marton">Marton</name> dans ſa poche.)</stage><lb/>
+                        <l>La Lettre de <name type="person" n="Marton">Marton</name>, voyons ce qu'elle chante.</l>
+                        <l>Et ſaiſiſſons l'inſtant que je ſuis ſeul ici.</l>
+                        <lb/><stage rend="italics">(après avoir <choice><orig>lû</orig><reg>lu</reg></choice> la Lettre de <name type="person" n="Clarice">Clarice</name>.)</stage><lb/>
+                        <l>Trop heureux <name type="person" n="Arlequin">Arlequin</name>! Ta fortune m'enchante ;</l>
+                        <l>J'expire de plaiſir. L'aimable Billet doux !</l>
+                        <l><name type="person" n="Marton">Marton</name> m'aime, <name type="person" n="Marton">Marton</name> m'adore ;</l>
+                        <l>Elle me donne un rendez-vous.</l>
+                        <l>Charmante Lettre, <choice><orig>aprochez-vous</orig><reg>approchez-vous</reg></choice>,</l>
+                        <l>Que je vous baiſe, <choice><orig>&amp;</orig><reg>et</reg></choice> vous rebaiſe encore.</l> 
+                    </sp>
+                </div>
+                <pb n="94"/>
+                <div type="scene" n="11">
+                    <head>SCENE XI.</head><lb/>
+                    <stage>DAMON, ARLEQUIN.</stage><lb/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l><c type="lettrine">S</c>Atisfais au <choice><orig>plûtôt</orig><reg>plus tôt</reg></choice> mes <choice><orig>deſirs</orig><reg>désirs</reg></choice> empreſſés.</l>
+                        <l>A ma Lettre, <name type="person" n="Julie">Julie</name> a-t-elle fait réponſe ?</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage rend="italics">ſans voir <name type="person" n="Damon">Damon</name>.</stage>
+                        <l part="I">Non, je ſuis hors de moi. </l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Non ! Qu'eſt-ce qu'il m'annonce ?</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN </speaker>
+                        <stage rend="italics">embraſſant <name type="person" n="Damon">Damon</name> ſans le regarder.</stage><lb/>
+                        <l>Doux objet ! Vous me raviſſez;</l>
+                        <l>Et pour vous, <name type="person" n="Arlequin">Arlequin</name> à <name type="person" n="Lisette">Liſette</name> renonce.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l><choice><orig>Parles</orig><reg>Parle</reg></choice>, Maraud <note><cit><bibl>Furetière 1701</bibl><quote>Terme injurieux qui ſe dit des gueux, des coquins, des fripons, des belitres, qui n'ont ni bien ni honneur, qui ſont capables de faire toutes ſortes de lâchetez.</quote></cit></note>! As-tu les ſens bleſſés !</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>C'eſt vous , Monſieur ? Mon <choice><orig>ame</orig><reg>âme</reg></choice> en eſt ravie ;</l>
+                        <l>Ah ! Prenez part au bonheur d'<name type="person" n="Arlequin">Arlequin</name> ;</l>
+                        <l>J'ai le plus grand plaiſir que j'aurai de ma vie,</l>
+                        <l>Et vous voyez en moi le plus heu<choice><orig>t</orig><corr>r</corr></choice>eux coquin.</l>
+                        <l><name type="person" n="Marton">Marton</name> m'aime, Monſieur, juſqu'à l'idolâtrie.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Laiſſe-là ta <name type="person" n="Marton">Marton</name>. <choice><orig>Parles-moi</orig><reg>Parle-moi</reg></choice> de <name type="person" n="Julie">Julie</name>,</l>
+                        <l part="I">M'écrit-elle?</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Voici qui vous en inſtruira.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I"><choice><orig>Donnes</orig><reg>Donne</reg></choice> donc <choice><orig>vîte</orig><reg>vite</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l part="F">Eh , Monſieur, la voilà !</l>
+                        <l>Ne vous fâchez pas, je vous prie.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="business"><hi rend="italics">lit.</hi></stage>
+                        <lg part="I">
+                            <l rend="italics">Mon cher petit Monſieur, je vous trouve bien fat,</l>
+                            <l rend="italics">D'oſer me déclarer votre amour ridicule.</l>
+                        </lg>
+                    </sp>
+                    <pb n="95"/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Ah ! L'amour de mon maître eſt en mauvais état.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="business" rend="italics">continue.</stage>
+                        <lg part="F">
+                            <l rend="italics">Pour que je ſois ſenſible à l'ardeur qui vous brûle,</l>
+                            <l rend="italics">Votre taille eſt trop gauche: <choice><orig>&amp;</orig><reg>et</reg></choice> votre eſprit trop plat.</l>
+                            <l rend="italics">Vous êtes libertin au vingtième <choice><orig>quarrat</orig><reg>carat</reg></choice>,</l>
+                            <l rend="italics">Par deſſus tout vous aimez le Bourgogne,</l>
+                            <l rend="italics">Et j'ai toujours été d'un goût trop <choice><orig>delicat</orig><reg>délicat</reg></choice>,</l>
+                            <l rend="italics">Pour écouter les ſoupirs d'un <choice><orig>yvrogne</orig><reg>ivrogne</reg></choice>.</l>
+                        </lg>
+                        <lb/><stage><hi rend="italics">(après avoir lû.)</hi></stage><lb/>
+                        <l>Quel <choice><orig>ſtile</orig><reg>style</reg></choice>! Quelle Lettre! Eſt-ce à moi qu'on l'écrit ?</l>
+                        <l>Et peut-elle partir d'une fille bien née ?</l>
+                        <l>Que la <choice><orig>groſſiéreté</orig><reg>grossièreté</reg></choice> que fait voir ſon eſprit,</l>
+                        <l>Dément bien la douceur dont les Cieux l'ont ornée.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Tous les <choice><orig>Amans</orig><reg>Amants</reg></choice> n'ont pas la même deſtinée ,</l>
+                        <l>Et je conçois votre dépit :</l>
+                        <l>Mais le beau ſexe eſt ſujet au caprice,</l>
+                        <l>Et j'ai vraiment de la douleur</l>
+                        <l>Qu'il ne vous rende pas juſtice</l>
+                        <l>Comme il la rend à votre ſerviteur.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Sans indignation je ne puis la relire.</l>
+                        <l>Me reſuſer ſon cœur, je n'<choice><orig>aurois</orig><reg>aurais </reg></choice> rien à dire :</l>
+                        <l>Mais joindre l'inſulte au dédain,</l>
+                        <l>Et me traiter d'<choice><orig>yvrogne</orig><reg>ivrogne</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> de bas libertin;</l>
+                        <l>C'eſt tout ce qu'on <choice><orig>pourroit</orig><reg>pourrait</reg></choice> écrire</l>
+                        <l>A mon valet, à ce faquin <note><cit><bibl>Furetière 1701</bibl><quote>ſe dit auſſi en quelque ſorte au figuré, pour un homme ſans mérite , ſans honneur, ſans coeur, digne de toute ſorte de mepris.</quote></cit></note>.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Souvent le plaiſir vous attire,</l>
+                        <l>Et, comme moi, Monſieur, vous aimez le bon vin ;</l>
+                        <l>Mais j'excuſe ce trait malin,</l>
+                        <l>C'eſt la rage qui vous l'inſpire.</l>
+                        <l>Quand on eſt comme moi fortuné dans ſes feux</l>
+                        <l>On paſſe quelque choſe aux <choice><orig>Amans</orig><reg>amants</reg></choice> malheureux.</l>
+                        <l>Je vois entrer celle qui vous captive :</l>
+                        <l>Demandez-lui raiſon de ſa belle miſſive.</l>
+                    </sp>
+                </div>
+                <pb n="96"/>
+                <div type="scene" n="12">
+                    <head>SCENE XII.</head><lb/>
+                    <stage>DAMON, JULIE, ARLEQUIN, MARTON</stage><lb/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage rend="italics">à Julie</stage><lb/>
+                        <l><c type="lettrine">Q</c>Uelque peu de mérite, <choice><orig>&amp;</orig><reg>et</reg></choice> quelque peu d'eſprit</l>
+                        <l>Dont m'ait fait préſent la nature,</l>
+                        <l>Je n'<choice><orig>aurois</orig></choice><reg>aurais</reg> jamais <choice><orig>crû</orig><reg>cru</reg></choice> que mon feu vous aigrit</l>
+                        <l>Au point de m'attirer la lettre la plus dure,</l>
+                        <l>Pour l'avoir dans ce jour déclarée par écrit ;</l>
+                        <l>Ni qu'un amour ſi pur ſût pour vous une injure.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Un pareil diſcours m'étourdit.</l>
+                        <l part="I">Quelle lettre, Monſieur ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Une lettre <choice><orig>conçûe</orig><reg>conçue</reg></choice></l>
+                        <l>En termes ſi choquans, ſi peu dignes de vous,</l>
+                        <l>Qu'elle vous fait plus d'outrage qu'à nous.</l>
+                        <l>Ma déclaration <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> être <choice><orig>reçûe</orig><reg>reçue</reg></choice></l>
+                        <l>Avec un peu plus de douceur ;</l>
+                        <l>Et vous pouviez, puiſque j'ai le malheur</l>
+                        <l>De ne pas plaire à votre <choice><orig>vûe</orig><reg>vue</reg></choice>,</l>
+                        <l>Refuſer poliment l'hommage de mon cœur;</l>
+                        <l>Vous m'auriez plus puni, témoignant moins d'aigreur.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker>
+                        <l>Pour moi belle <name type="person" n="Marton">Marton</name>, <choice><orig>j'aurois</orig><reg>j'aurais</reg></choice> tort de me plaindre.</l>
+                        <l>Je ſuis content de ce poulet.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage type="delivery" rend="italics">d'un air ironique.</stage>
+                        <l>Vous prenez bien la choſe, à vous parler ſans feindre ;</l>
+                        <l>Et vous avez l'eſprit bien fait.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Il me <choice><orig>fait-là</orig><reg>fait là</reg></choice>, <name type="person" n="Marton">Marton</name>, un reproche en idée ;</l>
+                        <l>Et je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> ſur quoi cette plainte eſt fondée,</l>
+                        <pb n="97"/>
+                        <l>Ni qui le porte à me parler ainſi</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Mais je n'y comprends rien auſſi<corr>.</corr></l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Je vous l'ai dit, Mademoiſelle.</l>
+                        <l>C'eſt un Billet de vous, ou <choice><orig>plûtôt</orig><reg>plutôt</reg></choice> un Libelle <note><cit><bibl>Furetière 1701</bibl><quote>tout écrit offensant ou injurieux, généralement anonyme</quote></cit></note> ;</l>
+                        <l>Où je ſuis honoré du beau titre de fat :</l>
+                        <l>A cette qualité pompeuſe,</l>
+                        <l>Vous <choice><orig>ajoûtez</orig><reg>ajoutez</reg></choice> encore <choice><orig>l'épithete</orig><reg>l'épithète</reg></choice> flatteuſe ,</l>
+                        <l>De ridicule <choice><orig>&amp;</orig><reg>et</reg></choice> d'eſprit plat.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Moi, <name type="person" n="Damon">Damon</name>, avec vous employer ce langage ,</l>
+                        <l>Et vous écrire sur ce ton ?</l>
+                        <l>Ah ! J'en ſuis incapable, <choice><orig>&amp;</orig><reg>et</reg></choice> c'eſt me faire outrage</l>
+                        <l>Que d'en avoir seulement le ſoupçon.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Ce diſcours à mon tour a lieu de me ſurprendre.</l>
+                        <l>Mais la réponſe que voilà ,</l>
+                        <l>De tout ce que je dis, <choice><orig>bien-tôt</orig><reg>bientôt</reg></choice> vous convaincra ;</l>
+                        <l><name type="person" n="Arlequin">Arlequin</name> vient de me la rendre.</l>
+                        <l><choice><orig>Tenés</orig><reg>Tenez</reg></choice>, <choice><orig>voyes</orig><reg>voyez</reg></choice>, <choice><orig>demeurés-là</orig><reg>demeurez-là</reg></choice>.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE </speaker>
+                        <stage type="business" rend="italics">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</stage><lb/>
+                        <l>Ce n'eſt pas-là mon écriture.</l>
+                        <l>Mon ſtile encore moins. Monſieur, on s'eſt mépris.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>D'où vient donc ce Billet , <choice><orig>&amp;</orig><reg>et</reg></choice> par quelle <choice><orig>avanture</orig><reg>aventure</reg></choice>,</l>
+                        <l>Puiſqu'il n'eſt pas de vous, m'a-t-il été remis ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON</speaker>
+                        <l>Le plaiſant <hi rend="italics">qui pro quo</hi> que cauſent ces Ecrits !</l>
+                        <l>Je ne puis m'empêcher d'en rire ;</l>
+                        <l>Il eſt <choice><orig>tems</orig><reg>temps</reg></choice> de finir l'embarras de tous deux.</l>
+                        <stage type="delivery" rend="italics">(à <name type="person" n="Damon">Damon</name>.<corr>)</corr></stage>
+                        <l><choice><orig>Remettés-moi</orig><reg>Remettez-moi</reg></choice>, Monſieur, ce poulet doucereux. </l>
+                        <stage type="delivery" rend="italics">(à <name type="person" n="Arlequin">Arlequin</name>.)</stage>
+                        <l>Et vous, qu'un pareil coup commence d'interdire,</l>
+                        <l>Maître étourdi, <choice><orig>donnés</orig><reg>donnez</reg></choice> <choice><orig>vîte</orig><reg>vite</reg></choice>, <choice><orig>donnés</orig><reg>donnez</reg></choice></l>
+                        <l>L'autre qu'à tort vous <choice><orig>retenés</orig><reg>retenez</reg></choice>.</l>
+                        <stage type="business" rend="italics">(elle le donne à <name type="person" n="Damon">Damon</name>.)</stage>
+                    </sp>
+                    <pb n="98"/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Pourquoi donc cela ? Qu'eſt-ce à dire ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</stage>
+                        <l>Tiens, reçois de ma part celui qui <choice><orig>t'apartient</orig><reg>t'apartient</reg></choice>.</l>
+                        <l>Chacun a maintenant l'Ecrit qui lui convient.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>C'eſt donc l'Ouvrage de ce traître ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>A cette balourdiſe on doit le <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>De ma bonne fortune, ah ! Je ſuis culbuté.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l><choice><orig>Pardonnés</orig></choice><reg>Pardonnez</reg> ſi d'abord mon eſprit tranſporté...</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Vous étiez dans l'erreur, vous êtes excuſable.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Dans cet Ecrit mon ſort eſt renfermé.</l>
+                        <l>Pour éclaircir mon amour alarmé,</l>
+                        <l><choice><orig>Permettés-moi</orig><reg>Permettez-moi</reg></choice> de voir s'il m'eſt plus favorable.</l>
+                        <lb/><stage type="business" rend="italics">(Il lit.)</stage><lb/>
+                        <lg>
+                            <l rend="italics">Vous reſſentez pour moi la plus parfaite ardeur ,</l>
+                            <l rend="italics">Si j'en crois le Billet que vous oſez m'écrire,</l>
+                            <l rend="italics">Pour mieux convaincre mon cœur,</l>
+                            <l rend="italics">Je vous permets de venir me le dire.</l>
+                        </lg>
+                        <lb/><stage type="business" rend="italics">(après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.)</stage><lb/>
+                        <l>Adorable <name type="person" n="Julie">Julie</name>, ah ! Quel eſt mon bonheur !</l>
+                        <l>Je ſens comme je dois cet excès de faveur,</l>
+                        <l>Et tout mon eſpoir ſe réveille.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Une ſeconde fois vous tombez dans l'erreur.</l>
+                        <l>C'eſt une autre que moi, que vous devez, Monſieur,</l>
+                        <l>Remercier d'une <choice><orig>grace</orig><reg>grâce</reg></choice> pareille.</l>
+                        <l>De cette lettre-là je ne ſuis pas l'Auteur.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I"><choice><orig>O</orig><reg>Ô</reg></choice> Ciel ? Ce n'eſt point vous ?</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l part="F">Non, ce n'eſt point <name type="person" n="Julie">Julie</name></l>
+                        <l>Qui n'a jamais écrit à <name type="person" n="Damon">Damon</name> de ſa vie,</l>
+                        <pb n="99"/>
+                        <l>Ni reçu de ſa part nul Billet amoureux.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Arlequin">Arlequin</name>.</stage>
+                        <l>Ah ! C'en eſt trop ; <choice><orig>aproche</orig><reg>approche</reg></choice>, malheureux.</l>
+                        <l><choice><orig>Parles</orig><reg>Parle</reg></choice>, à qui donc as-tu rendu ma Lettre ?</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>A cette fille-là, Monſieur, pour la remettre</l>
+                        <l part="I">A ſa Maitreſſe.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage type="business" rend="italics">d'un air embaraſſé.</stage><lb/>
+                        <l part="M">Oui, mais ...</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="M">Mais...</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Comme j'en ſers deux,</l>
+                        <l>J'ai <choice><orig>crû</orig><reg>cru</reg></choice>, faiſant une bévue,</l>
+                        <l>Qu'elle <choice><orig>étoit</orig><reg>était</reg></choice> pour <name type="person" n="Clarice">Clarice</name>, à qui je l'ai rendue.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Ah ! qu'as-tu fait ? par ce coup aſſomant,</l>
+                        <l>Je vois ma tendreſſe trahie !</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Si je ſuis un balourd, elle eſt une étourdie.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                        <l>Si vous vouliez dans ce moment,</l>
+                        <l>De ce Billet heureuſement,</l>
+                        <l>Vous pourriez réparer la mépriſe piquante,</l>
+                        <l>Et la changer en vérité conſtante.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Comment ? Expliquez-vous, <name type="person" n="Damon">Damon</name>.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>En y mettant ſeulement votre nom.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>Mon nom eſt-il si néceſſaire ?</l>
+                        <l>Ne <choice><orig>ſuffiroit-il</orig><reg>suffirait-il</reg></choice> pas que ma bouche <choice><orig>ſincére</orig><reg>sincère</reg></choice>,</l>
+                        <l>En adoptant le ſens de ce tendre Billet,</l>
+                        <l>Vous confirmât tout ce qu'il vous promet ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Je ne crains plus d'équivoque <choice><orig>facheuſe</orig><reg>fâcheuse</reg></choice>,</l>
+                        <l>Mes déſirs ſont comblés, <choice><orig>&amp;</orig><reg>et</reg></choice> ma <choice><orig>flâme</orig><reg>flamme</reg></choice> eſt heureuſe.</l>
+                    </sp>
+                    <pb n="100"/>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>D'accord. Mais vous avez à craindre le pouvoir...</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I">Eh ! De qui donc ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">De <name type="person" n="Clarice">Clarice</name> amoureuſe,</l>
+                        <l>Qui peut traverſer votre eſpoir.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker>
+                        <l>Sa Tante à <choice><orig>l'ame</orig><reg>l'âme</reg></choice> généreuſe.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Oui, mais elle vous aime, <choice><orig>&amp;</orig><reg>et</reg></choice> croit que ſon amour</l>
+                        <l>Eſt payé d'un tendre retour.</l>
+                        <l>L'affaire eſt vraiment épineuſe.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Dans un tel embarras que faire ? Juſtes Cieux !</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Je ne vois qu'un moyen, s'il faut que je le diſe.</l>
+                        <l>C'eſt de ſoutenir la mépriſe.</l>
+                        <l>Et de feindre en attendant mieux.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Moi ! Feindre pour <name type="person" n="Clarice">Clarice</name> une fauſſe tendreſſe ?</l>
+                        <l>D'un procédé ſi bas je me ſens révolté ;</l>
+                        <l>Il fait outrage à la <choice><orig>ſincerité</orig><reg>sincérité</reg></choice>,</l>
+                        <l>Et bleſſe trop l'amour que je ſens pour ſa <choice><orig>Niéce</orig><reg>nièce</reg></choice>.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Julie">Julie</name>.</stage><lb/>
+                        <l>Votre Amant eſt trop ſcrupuleux.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l part="I">Il a raiſon.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Sotte délicateſſe !</l>
+                        <l>Et vous devez vous-même y réſoudre ſes feux.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l part="I">Y ſonges-tu, <name type="person" n="Marton">Marton</name> ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Y songez-vous vous-même ?</l>
+                        <l>Si <name type="person" n="Clarice">Clarice</name> <choice><orig>aprend</orig><reg>apprend</reg></choice> qu'il vous aime,</l>
+                        <l>Il ne vous reſte aucun recours :</l>
+                        <l>Pour ſe venger dans ſa colère,</l>
+                        <pb n="101"/>
+                        <l>Elle mettra d'abord obſtacle à vos amours.</l>
+                        <l>Contre Monſieur, préviendra votre <choice><orig>pere</orig><reg>père</reg></choice>,</l>
+                        <l>Et vous allez le perdre pour toujours.</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE.</speaker><lb/>
+                        <l>A me prêter à tout cette crainte me porte.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I">Pouvez-vous conſentir...</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F"><choice><orig>J'entens</orig><reg>J'entends</reg></choice> ouvrir la porte</l>
+                        <l part="I">C'eſt <name type="person" n="Clarice">Clarice</name> !</l>
+                    </sp>
+                    <sp who="Julie_BD">
+                        <speaker>JULIE </speaker>
+                        <stage type="delivery"><hi rend="italics">à <name type="person" n="Damon">Damon</name>.</hi></stage>
+                        <l>Ah ! <choice><orig>Feignés</orig><reg>Feignez</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>cédés</orig><reg>cédez</reg></choice> au beſoin.</l>
+                        <l>Je l'exige de vous. Mais il faut que je ſorte,</l>
+                        <l>Et je <choice><orig>ſouffrirois</orig><reg>souffrirais</reg></choice> trop d'en être le témoin.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Damon">Damon</name>.</stage><lb/>
+                        <l>Je vais vous ſeconder <choice><orig>&amp;</orig><reg>et</reg></choice> de la bonne ſorte.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>En contraignant mon <choice><orig>ame</orig><reg>âme</reg></choice> à ce déguiſement,</l>
+                        <l>Je donne de mes feux la preuve la plus forte</l>
+                        <l>Que puiſſe donner un Amant.</l>
+                    </sp>
+                    </div>
+                <div type="scene" n="13">
+                    <head>SCENE XIII.</head><lb/>
+                    <stage>DAMON, CLARICE, MARTON.</stage><lb/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/><lb/>
+                        <l><c type="lettrine">J</c>E viens en ce jour favorable</l>
+                            <l>Faire éclater mes tranſports amoureux,</l>
+                            <l>Et vous remercier de la réponſe aimable</l>
+                            <l>Que vous venez de faire à mon Billet heureux.</l>
+                            <l>L'audace que je prends doit m'être pardonnée.</l>
+                            <l>A vos bontés je ne fais qu'obéir,</l>
+                            <l>Belle <name type="person" n="Clarice">Clarice</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> me ſervir</l>
+                            <l>De la permiſſion que vous m'avez donnée.</l>
+                    </sp>
+                    <pb n="102"/>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>D'un tel diſcours je demeure étonnée?</l>
+                        <l>Vous avez tort, Monſieur, de me remercier.</l>
+                        <l part="I"><name type="person" n="Marton">Marton</name> ?</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="F">Eh bien, Monſieur vous aime ;</l>
+                        <l>Madame, <choice><orig>&amp;</orig><reg>et</reg></choice> vous l'aimez de même ;</l>
+                        <l>Vous vous l'êtes écrit, à quoi bon le nier ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Du plus tendre retour cette Lettre m'aſſure.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Vous ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> aller contre votre écriture.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>On vous a remis ce Billet ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Oui, Madame, tantôt <name type="person" n="Marton">Marton</name> à mon Valet</l>
+                        <l>L'a donné pour me le remettre ,</l>
+                        <l>En réponſe du mien, qu'elle vous a rendu.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l part="I">Monſieur accuſe vrai.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l part="F">L'ai-je bien entendu ?</l>
+                        <l>Fatale erreur! Et malheureuſe Lettre!</l>
+                        <lb/><stage type="delivery" rend="italics">bas à <name type="person" n="Marton">Marton</name>.</stage><lb/>
+                        <l><name type="person" n="Marton">Marton</name> ! tu t'es trompée <choice><orig>&amp;</orig><reg>et</reg></choice> m'as trompée auſſi.</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Autre incident ! Qu'eſt-ce donc que ceci ?</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Ma ſurpriſe, Madame, eſt égale à la vôtre.</l>
+                        <l>Me donnant ce Billet, ſe <choice><orig>ſeroit</orig><reg>serait</reg></choice>-on mépris ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="business" rend="italics">d'un air embaraſſé.</stage><lb/>
+                        <l>Mais, Monſieur, <choice><orig>pardonnés</orig><reg>pardonnez</reg></choice> à mes ſens étourdis.</l>
+                        <l>Il eſt vrai, j'<choice><orig>avois</orig><reg>avais</reg></choice> <choice><orig>crû</orig><reg>cru</reg></choice> l'écrire pour un autre.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Comment entre mes mains eſt-il donc parvenu ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Monſieur, par un mal entendu,</l>
+                        <l part="I">Votre Lettre...</l>
+                    </sp>
+                    <pb n="103"/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker>
+                        <l part="M">Eh bien ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F"><name type="person" n="Marton">Marton</name> me l'a rendue</l>
+                        <l>Sans vous nommer, diſant qu'elle <choice><orig>venoit</orig><reg>venait</reg></choice></l>
+                        <l>D'un jeune Cavalier qui pour moi <choice><orig>ſoupiroit</orig><reg>soupirait</reg></choice>.</l>
+                        <l>Sur ce portrait qui m'a <choice><orig>déçûe</orig><reg>déçue</reg></choice>,</l>
+                        <l>Ayant l'eſprit <choice><orig>frapé</orig><reg>frappé</reg></choice> d'un autre objet,</l>
+                        <l part="I">J'ai <choice><orig>crû</orig><reg>cru</reg></choice>, Monſieur.....</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="F">Vous avez <choice><orig>crû</orig><reg>cru</reg></choice>, Madame<corr>...</corr></l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker>
+                        <l>Ah! Dans la confidence où vous forcez mon <choice><orig>ame</orig><reg>âme</reg></choice>,</l>
+                        <l>De <choice><orig>grace</orig><reg>grâce</reg></choice>, <choice><orig>épargnés</orig><reg>épargnez</reg></choice> ma douleur !</l>
+                        <l><choice><orig>N'achevés</orig><reg>N'achevez</reg></choice> pas de me confondre.</l>
+                        <l>Vous m'entendez aſſez, <choice><orig>&amp;</orig><reg>et</reg></choice> voyez ma rougeur. </l>
+                        <l>Elle vous dit qu'un autre eſt maître de mon cœur,</l>
+                        <l>Et que c'<choice><orig>étoit</orig><reg>était</reg></choice> à lui que je <choice><orig>croyois</orig><reg>croyais</reg></choice> répondre.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage>
+                        <l>Je ne ſuis pas aimé. Ciel ! Que je ſuis heureux ! </l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Après un tel aveu ſi dur pour tous les deux,</l>
+                        <l>Etouffez au <choice><orig>plûtôt</orig><reg>plus tôt</reg></choice> une <choice><orig>flâme</orig><reg>flamme</reg></choice> inutile ;</l>
+                        <l>Et faites, aux tranſports d'un amour trop ardent,</l>
+                        <l>Succéder les égards d'une eſtime tranquille,</l>
+                        <l>Sur vous-même <choice><orig>obtenés</orig><reg>obtenez</reg></choice> cet effort difficile :</l>
+                        <l>Et puiſque le <choice><orig>hazard</orig><reg>hasard</reg></choice> vous fait mon Confident,</l>
+                        <l><choice><orig>Gardés</orig><reg>Gardez</reg></choice> ſur mon ſujet un ſilence prudent.</l>
+                        <l><choice><orig>Songés</orig><reg>Songez</reg></choice> qu'à mon ſecret ma gloire eſt attachée ;</l>
+                        <l>Que l'objet de mes feux n'en eſt pas informé,</l>
+                        <l>Et que de quelque trait que l'amour m'ait touchée <sic>;</sic></l>
+                        <l>Ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> à jamais demeurera cachée ;</l>
+                        <l>S'il ne <choice><orig>m'aprend</orig><reg>m'apprend</reg></choice> qu'il m'aime autant qu'il eſt aimé.</l>   
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Madame, <choice><orig>ſoyés</orig><reg>soyez</reg></choice> raſſurée</l>
+                        <l>Ne <choice><orig>craignés</orig><reg>craignez</reg></choice> rien de ce côté</l>
+                        <l>Pour moi la loi la plus ſacrée</l>
+                        <l>Eſt celle de la probité.</l>
+                        <pb n="104"/>
+                        <l>A quelque paſſion qu'il ait <choice><orig>l'ame</orig><reg>l'âme</reg></choice> livrée</l>
+                        <l>L'honnête-homme obéit <choice><orig>ſi-tôt</orig><reg>sitôt</reg></choice> qu'elle a parlé ;</l>
+                        <l>Et tout, juſqu'à l'amour, lui doit être immolé.</l>
+                        <l>A noircir le beau ſexe on a la bouche prompte</l>
+                        <l>Vice qu'au fond du cœur j'ai toujours abhorré :</l>
+                        <l>De la <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> qui le dompte,</l>
+                        <l>Quand le ſecret eſt ignoré,</l>
+                        <l>Qui le publie, en mérite la honte,</l>
+                        <l>Et devant la raiſon eſt ſeul deshonoré.</l>
+                        <l>Pour moi, que cet exemple irrite,</l>
+                        <l>Pour les Dames je ſuis d'un tel zèle <choice><orig>enflâmé</orig><reg>enflammé</reg></choice>,</l>
+                        <l>Que je veux parvenir du moins par ma conduite,</l>
+                        <l>Au bonheur d'en être eſtimé,</l>
+                        <l>Si je ne puis par mon mérite,</l>
+                        <l>Avoir celui d'en être aimé.</l>
+                        <l>Et pour vous en donner une forte aſſurance,</l>
+                        <l>Je vous rends ce Billet, puiſqu'il n'eſt pas pour moi ;</l>
+                        <l>Il vous répond de mon ſilence ,</l>
+                        <l>Et vous prouve ma bonne foi.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Un ſi beau procédé m'enchante.</l>
+                        <l>Ah! Que ne puis-je en ce jour vous marquer</l>
+                        <l>Combien j'en ſuis <choice><orig>reconnoiſſante</orig><reg>reconnaissante</reg></choice> !</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l part="I">Vous le pouvez.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F">Comment ? Daignez vous expliquer.</l>
+                        <l part="I"><choice><orig>Parlés</orig><reg>Parlez</reg></choice>.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>   
+                        <l part="F">Le prix que je demande</l>
+                        <l>Eſt trop grand pour le mériter.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Non, il n'eſt point, pour m'acquitter,</l>
+                        <l>Une récompenſe trop grande.</l>
+                        <l><choice><orig>Demandés</orig><reg>Demandez</reg></choice>. <choice><orig>Soyés</orig><reg>Soyez</reg></choice> ſûr d'obtenir tout de moi,</l>
+                        <l>Hors ma main, <choice><orig>&amp;</orig><reg>et</reg></choice> mon cœur qui n'eſt plus ſous ma loi.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Par vos bontés mon <choice><orig>ame</orig><reg>âme</reg></choice> eſt enhardie.</l>
+                        <pb n="105"/>
+                        <l>Puiſque la fortune m'envie</l>
+                        <l>La gloire d'être votre époux,</l>
+                        <l>Au défaut d'un bonheur ſi doux,</l>
+                        <l>Le ſeul qui peut me <choice><orig>flâter</orig><reg>flatter</reg></choice> dans la vie,</l>
+                        <l>Je vous en fais ici l'aveu,</l>
+                        <l>Eſt de me voir votre neveu.</l>
+                        <l>Pour mériter ce nom, accordez-moi <name type="person" n="Julie">Julie</name>.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Le choix eſt trop <choice><orig>flâteur</orig><reg>flatteur</reg></choice>. Pour hâter ce lien,</l>
+                        <l>Courez la demander de ce pas à mon <choice><orig>Frere</orig><reg>frère</reg></choice>;</l>
+                        <l>Parlez-lui de ma part, il vous recevra bien.</l>
+                        <l>Il eſt d'ailleurs ami de votre <choice><orig>Pere</orig><reg>père</reg></choice> ;</l>
+                        <l>Et pour vous <choice><orig>apuyer</orig><reg>appuyer</reg></choice>, je n'épargnerai rien.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="exit" rend="italics">en s'en allant.</stage><lb/>  
+                        <l>Quel heureux coup pour ma tendreſſe !</l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker> <stage type="business" rend="italics">à part.</stage><lb/>
+                        <l>Du ſuccès de cet entretien ,</l>
+                        <l>Courons <choice><orig>vîte</orig><reg>vite</reg></choice> informer la <choice><orig>Niéce</orig><reg>nièce</reg></choice>.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle ſort.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="14">
+                    <head>SCENE XIV.</head><lb/>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="setting" rend="italics">ſeule.</stage>
+                            <l><c type="lettrine">D</c>Ans un malheur comme le mien</l>
+                        <l>Ce qui me conſole <choice><orig>&amp;</orig><reg>et</reg></choice> me <choice><orig>flâte</orig><reg>flatte</reg></choice>,</l>
+                            <l>L'objet de mon amour n'eſt connu que de moi.</l>
+                        <l>Mais quelqu'un vient. Ah ! C'eſt lui que je <choice><orig>voi</orig><reg>vois</reg></choice>.</l>
+                            <l>Empêchons qu'à ſes yeux ma <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice> n'éclate.</l>
+                    </sp>
+                </div>
+                <pb n="106"/>
+                <div type="scene" n="15">
+                    <head>SCENE XV.</head><lb/>
+                    <stage>VALERE, CLARICE.</stage><lb/>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l><c type="lettrine">M</c>Adame, c'eſt à vous qu'aujourd'hui j'ai recours.</l>
+                        <l>De vos ſages conſeils j'implore le ſecours</l>
+                        <l>Sur une affaire délicate,</l>
+                        <l>Et qui doit décider du bonheur de mes jours.</l>
+                        <l>A peine j'entre dans le monde.</l>
+                        <l>Et dès le premier pas je crains de m'égarer :</l>
+                        <l>Je <choice><orig>ſçai</orig><reg>sais</reg></choice> qu'en écueils il abonde ;</l>
+                        <l>Sur le plus grand de tous daignez donc m'éclairer.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Vous faites trop d'honneur à mon peu de <choice><orig>lumiére</orig><reg>lumière</reg></choice>.</l>
+                        <l>Si vous jugez pourtant qu'il vous ſoit néceſſaire,</l>
+                        <l>Monſieur, vous n'avez qu'à parler.</l>
+                        <l>Je ſuis prête à vous conſeiller.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Puiſqu'il faut vous ouvrir mon <choice><orig>ame</orig><reg>âme</reg></choice> toute entiére,</l>
+                        <l part="I">Je vous dirai que j'aime.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l part="F">Ah ! Qu'eſt-ce que j'<choice><orig>entens</orig><reg>entends</reg></choice> !</l>
+                        <lb/><stage type="delivery" rend="italics">(à <name type="person" n="Valère">Valere</name>.)</stage><lb/>
+                        <l>Celle pour qui votre <choice><orig>ame</orig><reg>âme</reg></choice> eſt <choice><orig>enflâmée</orig><reg>enflammée</reg></choice>,</l>
+                        <l>Sans doute eſt digne d'être aimée,</l>
+                        <l>Et ſes attraits ſont <choice><orig>éclatans</orig><reg>éclatants</reg></choice> !</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Autant que ſes vertus, c'eſt tout ce qu'on <choice><sic>peu</sic><corr>peut</corr></choice> <choice><orig>dir</orig><corr>dire</corr></choice>.</l>
+                        <l>Je la reſpecte, <choice><orig>&amp;</orig><reg>et</reg></choice> je l'admire.</l>
+                        <l>On trouve tout en elle, eſprit, beauté, douceur.</l>
+                        <l>A la droiture, à la candeur</l>
+                        <l>Elle joint l'agrément avec la politeſſe,</l>
+                        <l>Et l'étude du monde à beaucoup de ſa<supplied>ge</supplied>ſe.</l>
+                    </sp>
+                    <pb n="107"/>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="delivery" rend="italics">bas.</stage><lb/>
+                        <l>Chaque mot eſt un trait qui me perce le cœur !</l>
+                        <lb/><stage type="delivery" rend="italics">(haut.)</stage><lb/>
+                        <l>Vous ne pouvez en faire un portrait plus <choice><orig>flâteur</orig><reg>flatteur</reg></choice>,</l>
+                        <l>Et ne <choice><orig>ſçauriez</orig><reg>sauriez</reg></choice> brûler d'une <choice><orig>flâme</orig><reg>flamme</reg></choice> plus belle.</l>
+                        <l>Mais répond-elle à votre ardeur ?</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Je ſuis bien loin de ce bonheur !</l>
+                        <l>Mon amour n'eſt pas connu d'elle :</l>
+                        <l>Mon reſpect à ſes yeux s'eſt fait seul remarquer.</l>
+                        <l>Quand je <choice><orig>parois</orig><reg>parais</reg></choice> devant ma Souveraine,</l>
+                        <l>Je demeure interdit, je n'oſe m'expliquer,</l>
+                        <l>Et je tremble toujours que l'aveu de ma peine,</l>
+                        <l>N'ait le malheur de la choquer.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Votre conduite eſt <choice><orig>très-louable</orig><reg>très louable</reg></choice>,</l>
+                        <l>Et votre cœur fait éclater</l>
+                        <l>Tous les ſignes, Monſieur, d'un amour véritable,</l>
+                        <l>Qui ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> la révolter.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Non, je n'ai pas l'orgueil de m'en <choice><orig>flâter</orig><reg>flatter</reg></choice> ;</l>
+                        <l>Et pour m'expoſer moins dans l'ardeur qui me guide,</l>
+                        <l>Ma main dans un Billet oſe la déclarer,</l>
+                        <l>Et <choice><orig>ſuplée</orig><reg>supplée</reg></choice> au défaut de ma bouche timide.</l>
+                        <l>Pour <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> s'il eſt bien, je viens vous le montrer.</l>
+                        <l>Ne me ſoyez pas trop rigide ;</l>
+                        <l>S'ils ſont mal exprimés, mes ſentiments ſont vrais.</l>
+                        <l>Que votre coeur seul en décide.</l>
+                        <l>S'il les goûte aujourd'hui, je ſuis ſûr du ſuccès.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Pour répondre, Monſieur, à votre confiance,</l>
+                        <l>Je vais lire, <choice><orig>&amp;</orig><reg>et</reg></choice> vous dire après,</l>
+                        <l>Sans nul détour ce que je penſe.</l>
+                        <lb/><stage type="delivery" rend="italics">(à part.)</stage><lb/>
+                        <l>En cette dure <choice><orig>extrêmité</orig><reg>extrémité</reg></choice></l>
+                        <l>Oublions que je ſuis Amante,</l>
+                        <l>Pour <choice><orig>m'acquiter</orig><reg>m'acquitter</reg></choice> avec ſincérité</l>
+                        <l>De l'office de Confidente.</l>
+                        <pb n="108"/>
+                        <lb/><stage type="business" rend="italics">(Elle lit.)</stage><lb/>
+                        <lg>
+                            <l rend="italics">Pour vous d'un feu ſi pur je me ſens pénétrer,</l>
+                            <l rend="italics">Que ce n'eſt qu'en tremblant que ma main vous l'exprime.</l>
+                            <l rend="italics">Comme je ne vis plus que pour vous adorer,</l>
+                            <l rend="italics">Je meurs, ſi l'eſpoir ne m'anime.</l>
+                            <l rend="italics">Prononcez donc l'arrêt d'où dépendent mes jours.</l>
+                            <l rend="italics">En <choice><orig>flâtant</orig><reg>flattant</reg></choice> mon ardeur d'un retour légitime,</l>
+                            <l rend="italics">Ne craignez pas d'en voir finir le cours ;</l>
+                            <l rend="italics">Mon amour doit durer toujours,</l>
+                            <l rend="italics">Puiſqu'il eſt fondé ſur l'eſtime.</l>
+                        </lg>
+                        <lb/><stage rend="italics">(après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.)</stage><lb/>
+                        <l>On ne peut déclarer ſon feu plus ſagement.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="I">Vous <choice><orig>aprouvez</orig><reg>approuvez</reg></choice> ma Lettre ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F"><choice><orig>Aſſûrément</orig><reg>Assurément</reg></choice>,</l>
+                        <l part="I">Et vous ne mourrez point.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="F"><name type="person" n="Clarice">Clarice</name> le prononce ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Oui, ce Billet mérite une tendre réponſe.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="I">Je l'<choice><orig>attens</orig><reg>attends</reg></choice>.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F">Envoyez-le à l'objet de vos vœux.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>La choſe eſt déja faite. En ces <choice><orig>inſtans</orig><reg>instants</reg></choice> heureux</l>
+                        <l part="I">Il eſt entre ſes mains.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F">C'eſt donc-là la copie <unclear>?</unclear></l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Non c'eſt l'original. Répondez, je vous prie.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="I">C'eſt à moi, <name type="person" n="Valère">Valere</name> ?</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l part="F">Oui. C'eſt à vous que j'écris.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>La déclaration étonne mes eſprits.</l>
+                    </sp>
+                    <pb n="109"/>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Dites un mot, vous me ſauvez la vie.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="delivery" rend="italics">à part.</stage><lb/>
+                        <l>Je ſuis aimée ! Ah ! Mon <choice><orig>ame</orig><reg>âme</reg></choice> eſt ravie.</l>
+                        <l>Et rien n'eſt plus galant que le tour qu'il a pris</l>
+                        <l>Pour déclarer l'ardeur dont il ſe ſent épris <sic>?</sic></l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Eh quoi ! De l'amour le plus tendre</l>
+                        <l>Le ſilence eſt-il donc le prix ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l>Il naît de ma ſurpriſe, <choice><orig>&amp;</orig><reg>et</reg></choice> pour me faire entendre ,</l>
+                        <l>J'ai beſoin.... Mais on vient, je me retire. Adieu.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Daignez me dire, avant que de quitter ce lieu.</l>
+                        <l part="I">Quels ſont vos ſentiments ?</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l part="F">Si vous voulez attendre,</l>
+                        <l>On viendra de ma part ici vous les <choice><orig>aprendre</orig><reg>apprendre</reg></choice>.</l>
+                        <lb/><stage type="exit" rend="italics">(Elle rentre.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="16">
+                    <head>SCENE XVI.</head><lb/>
+                    <stage>DAMON, VALERE.</stage><lb/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON </speaker>
+                        <stage type="delivery" rend="italics">à Valère.</stage><lb/>
+                        <l><c type="lettrine">M</c>A joie, Ami, ne peut ſe concevoir !</l>
+                        <l>J'obtiens <name type="person" n="Julie">Julie</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> j'ai l'agrément de ſon <choice><orig>Pere</orig><reg>père</reg></choice>.</l>
+                        <l>On a fait venir le Notaire,</l>
+                        <l>Le Contrat eſt dreſſé , je te le fais <choice><orig>ſçavoir</orig><reg>savoir</reg></choice>,</l> 
+                        <l>Les violons ſont prêts, nous danſerons ce ſoir.</l>
+                        <l>Et toi, mon cher, dis-moi, ſans tarder davantage,</l>
+                        <l>Comment vont tes amours où je <choice><orig>prens</orig><reg>prends</reg></choice> intérêt ?</l>
+                        <l>Mais, ſur ton front qui répand ce nuage ?</l>
+                        <l>D'un Plaideur incertain tu portes le viſage.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Mon deſtin eſt pareil, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>j'attens</orig><reg>j'attends</reg></choice> mon arrêt.</l>                            
+                    </sp>
+                    <pb n="110"/>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Ma <choice><orig>preſence</orig><reg>présence</reg></choice> en ces lieux l'a suſpendu peut-être.</l>                                                   
+                    </sp>                  
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Oui. Dans le moment qu'elle t'a <choice><orig>vû</orig><reg>vu</reg></choice> <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l>
+                        <l><name type="person" n="Clarice">Clarice</name> <choice><orig>alloit</orig><reg>allait</reg></choice> le prononcer.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Mais ſes yeux, en partie, ont <choice><orig>dû</orig><reg>du</reg></choice> te l'annoncer ?</l>                                                          
+                    </sp>     
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Dans ſes regards douteux où régnoit la contrainte,</l>   
+                        <l>Je n'ai rien <choice><orig>vû</orig><reg>vu</reg></choice> de déciſif.</l>
+                            <l>Et le doute eſt pour moi le tourment le plus vif.</l>
+                        <l><choice><orig>Enflâmé</orig><reg>Enflammé</reg></choice> par l'eſpoir, <choice><orig>&amp;</orig><reg>et</reg></choice> glacé par la crainte,</l>
+                        <l>Je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> me définir ;</l>
+                        <l>Ma ſituation ne <choice><orig>peut-être</orig><reg>peut être</reg></choice> dépeinte;</l>
+                        <l>Je crains de perdre un bien que <choice><orig>j'eſpére</orig><reg>j'espère</reg></choice> obtenir.</l>
+                            <l>Dans cette obſcurité qui me trouble <choice><orig>&amp;</orig><reg>et</reg></choice> me gêne,</l>
+                            <l>Je ne ſens rien pour trop ſentir;</l>
+                        <l>Et n'oſant former de <choice><orig>deſir</orig><reg>désir</reg></choice>,</l>
+                            <l>Je ſuis dans l'attente incertaine</l>
+                            <l>De la douleur <choice><orig>&amp;</orig><reg>et</reg></choice> du plaiſir.</l>
+                    </sp>     
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>L'état eſt violent, <choice><orig>&amp;</orig><reg>et</reg></choice> j'entre dans ta peine.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="17">
+                    <head>SCENE XVII.</head><lb/>
+                    <stage>VALERE, DAMON, UN NOTAIRE.</stage>
+                    <sp who="Un Notaire">
+                        <speaker>LE NOTAIRE </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Valere">Valere</name>.</stage><lb/>
+                        <l><c type="lettrine">L</c>Iſez , Monſieur,ce papier,s'il vous plaît.</l>
+                        <l part="I"><name type="person" n="Clarice">Clarice</name> vous <choice><orig>l'envoye</orig><reg>l'envoie</reg></choice>.</l>
+                    </sp>     
+                    <sp who="Valere_BD">
+                        <speaker>VALERE</speaker><lb/>
+                        <l part="F">Ah ! Quel noir perſonnage !</l>
+                        <l>Je frémis. Son habit m'eſt d'un mauvais préſage.</l>
+                    </sp>   
+                    <sp who="Damon_BD">
+                        <speaker>DAMON</speaker><lb/>
+                        <l>Avant de t'affliger, regarde ce que c'eſt.</l>                                                   
+                    </sp>
+                    <pb n="111"/>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE </speaker>
+                        <stage type="delivery" rend="italics">après avoir <choice><orig>lû</orig><reg>lu</reg></choice>.</stage>
+                        <l>C'eſt un Contrat de Mariage !</l>
+                        <l><name type="person" n="Clarice">Clarice</name>, en cet écrit, quel bonheur eſt le mien !</l>
+                        <l part="I">M'accepte pour Epoux!</l>
+                    </sp>
+                    <sp who="Un Notaire">
+                        <speaker>LE NOTAIRE.</speaker><lb/>
+                        <l part="F">Et vous donne ſon bien.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON</speaker><lb/>
+                        <l>Un pareil Billet doux doit avoir ton ſuffrage.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE</speaker><lb/>
+                        <l><choice><orig>O</orig><reg>Ô</reg></choice> ! Procédé charmant, <choice><orig>&amp;</orig><reg>et</reg></choice> qui n'a point d'égal !</l>
+                    </sp>
+                    <sp who="Un Notaire">
+                        <speaker>LE NOTAIRE </speaker>
+                        <stage type="delivery">à <name type="person" n="Valere">Valere</name>.</stage><lb/>
+                        <l> Signez <choice><orig>vîte</orig><reg>vite</reg></choice>, en voyant un ſi gros avantage.</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Monſieur, à ce noble langage</l>
+                        <l>Je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> en vous un Notaire Royal.</l>
+                        <lb/><stage type="action" rend="italics">(Il ſigne.)</stage>
+                    </sp>
+                </div>
+                <div type="scene" n="18">
+                    <head>SCENE XVIII.</head><lb/>
+                    <stage>DAMON, VALERE, CLARICE, JULIE, <lb/> ARLEQUIN, MARTON, LE NOTAIRE.</stage><lb/>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE </speaker>
+                        <stage type="delivery" rend="italics">à <name type="person" n="Valere">Valere</name>.</stage><lb/>
+                        <l><c type="lettrine">D</c>E la réponſe que j'ai faite</l>
+                        <l>Votre <choice><orig>ame</orig><reg>âme</reg></choice> eſt-elle ſatiſfaite ?</l>
+                        <l>Et trouvez-vous que j'écrive ſi mal ?</l>
+                    </sp>
+                    <sp who="Valere_BD">
+                        <speaker>VALERE.</speaker><lb/>
+                        <l>Surpris de mon bonheur, je ne puis que me taire,</l>
+                        <l>Et me <choice><orig>jetter</orig><reg>jeter</reg></choice> à vos genoux.</l>
+                    </sp>
+                    <sp who="Clarice_BD">
+                        <speaker>CLARICE.</speaker><lb/>
+                        <l> Vous m'aimez. Il ſuffit , <name type="person" n="Valere">Valere</name>, levez-vous.</l>
+                        <l>Quelques biens dans ce jour que je puiſſe vous faire,</l>
+                        <l>Votre cœur eſt d'un prix qui les <choice><orig>acquite</orig><reg>acquitte</reg></choice> tous.</l>
+                    </sp>
+                    <sp who="Damon_BD">
+                        <speaker>DAMON.</speaker><lb/>
+                        <l>Nous voilà tous heureux, que la fête commence.</l>
+                    </sp>
+                    <pb n="112"/>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l><name type="person" n="Marton">Marton</name>, un mot avant qu'on danſe.</l>
+                        <l>La Lettre de tantôt , je veux bien l'excuſer ,</l>
+                        <l><choice><orig>Pourvû</orig><reg>Pourvu</reg></choice> que votre main répare l'inſolence <sic>....</sic></l>
+                    </sp>
+                    <sp who="Marton_BD">
+                        <speaker>MARTON.</speaker><lb/>
+                        <l>Non, je ne veux que m'amuſer.</l>
+                        <l>Je ſuis faite pour plaire, <choice><orig>&amp;</orig><reg>et</reg></choice> non pour épouſer.</l>
+                    </sp>
+                    <sp who="Arlequin_BD">
+                        <speaker>ARLEQUIN.</speaker><lb/>
+                        <l>Et moi , quand on me fait un compliment ſemblable,</l>
+                        <l>J'ai l'eſprit de le mépriſer,</l>
+                        <l>Et d'envoyer fort poliment au diable</l>
+                        <l>Toute fille ſans goût, qui m'oſe refuſer.</l>
+                    </sp>
+                </div>
+                <pb n="113"/>
+                <div type="scene" n="19">
+                    <head>SCENE DERNIERE.</head> <lb/>
+                    <stage>LES ACTEURS <choice><orig>PRECEDENS</orig><reg>PRECEDENTS</reg></choice>. <lb/><lb/><hi rend="italics">Le Chanteur, Danſeurs <choice><orig>&amp;</orig><reg>et</reg></choice> Danſeuſes.</hi></stage><lb/>
+                    <sp who="Le Chanteur_BD">
+                        <speaker>LE CHANTEUR.</speaker><lb/>
+                        <lg>
+                            <l><c type="lettrine">V</c>Enez, jeunes <choice><orig>Amans</orig><reg>amants</reg></choice> je ſuis un Précepteur</l>
+                            <l>Dont la morale eſt peu rigide.</l>
+                            <l>De l'Enfant de <name type="place" n="Paphos">Paphos</name> je tiens mon art <choice><orig>flateur</orig><reg>flatteur</reg></choice>,</l>
+                            <l>Ecoutez des leçons où lui-même préſide.</l>
+                            <l>A votre doux vainqueur,</l>
+                            <l>Quand votre main timide</l>
+                            <l>Voudra déclarer votre ardeur ,</l>
+                            <l>Ne prenez pas l'eſprit pour guide ;</l>
+                            <l>Ne faites parler que le cœur.</l>
+                            <l>De l'amour en lui ſeul tout le charme réſide,</l>
+                            <l>Il eſt ſon plus grand orateur.</l>
+                            <l>Venez, jeunes <choice><orig>Amans</orig><reg>amants</reg></choice>, je ſuis un Précepteur</l>
+                            <l>Dont la morale eſt peu rigide.</l>
+                            <l>De l'Enfant de <name type="place" n="Paphos">Paphos</name> je tiens mon art <choice><orig>flateur</orig><reg>flatteur</reg></choice>,</l>
+                            <l>Ecoutez des leçons où lui-même préſide.</l>
+                        </lg>
+                    </sp>
+                    <div type="vaudeville">
+                        <head rend="italics">VAUDEVILLE.</head><lb/>
+                        <sp who="Le Chanteur_BD">
+                            <speaker>LE CHANTEUR.</speaker><lb/>
+                            <lg>
+                                <l>Pour vous , en qualité d'Amant,</l>
+                                <l>Je <choice><orig>prens</orig><reg>prends</reg></choice> la plume à tout moment,</l>
+                                <l>Beautés de l'œil m'attire ;</l>
+                                <l>Mais pour me charger avec vous</l>
+                                <l>Du titre dangereux d'Epoux,</l>
+                                <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Mlle. Thomassin_BD">
+                            <speaker>Mlle. THOMASSIN.</speaker><lb/>
+                            <lg>
+                                <l>Pour copier une chanſon,</l>
+                                <l>Ma main ne fait point de façon,</l>
+                                <l>On n'a qu'à me la dire ;</l>
+                                <pb n="114"/>
+                                <l>Mais pour donner des rendez-vous,</l>
+                                <l>Et répondre à des Billets doux, </l>
+                                <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Un Gascon_BD">
+                            <speaker>UN GASCON.</speaker><lb/>
+                            <lg>
+                                <l>A des tendrons <note><cit><bibl>Furetière 1701 </bibl><quote>ſe dit figurément <choice><orig>&amp;</orig><reg>et</reg></choice> burleſquement, des filles au deſſous de vingt ans.</quote></cit></note> jeunes <choice><orig>&amp;</orig><reg>et</reg></choice> frais,</l>
+                                <l>Sandis jé tracé des Billets</l>
+                                <l>Autant qu'on le <choice><orig>deſire</orig><reg>désire</reg></choice> ;</l>
+                                <l>Mais à des créanciers jamais :</l>
+                                <l>Pour ces Meſſieurs qui font des frais,</l>
+                                <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> pas écrire.</l>
+                            </lg>
+                        </sp>
+                        <sp who="Mlle. Silvia_BD">
+                            <speaker>Mlle. SILVIA.</speaker>
+                            <lg>
+                                <l>Quand il faut ſigner un contrat</l>
+                                <l>Contre lequel l'Amour combat,</l>
+                                <l>Notre main ſe retire ;</l>
+                                <l>Mais pour assurer le bonheur</l>
+                                <l>D'un Amant choiſi par le cœur,</l>
+                                <l>Ah ! Quel plaiſir d'écrire !</l>
+                            </lg>
+                        </sp>
+                        <sp who="Arlequin_BD">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery" rend="italics">au Parterre.</stage><lb/>
+                            <lg>
+                                <l>On peſte contre le Papier</l>
+                                <l>Quand on a le don d'ennuyer</l>
+                                <l>Au lieu de faire rire ;</l>
+                                <l>Mais pour l'Auteur qui réuſſit</l>
+                                <l>Et que votre main aplaudit</l>
+                                <l>Ah ! Qu'il eſt doux d'écrire !</l>
+                            </lg>
+                        </sp>
+                        <lb/><lb/><lb/>
+                        <p rend="center">FIN</p>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

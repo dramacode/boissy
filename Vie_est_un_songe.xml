@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-model href="Boissy1758.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">La Vie est un songe</title>
+                <title type="subtitle">Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, &amp; augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome quatrième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée. Une orthographe moderne a parfois été fournie, utilisant les éléments choice, orig et reg.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+             </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1732-11-12">12 novembre 1732</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term></keywords></textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2015-05-20">20 mai 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <titlePage type="half-title">
+                <pb n="53"/>
+                <docTitle>
+                    <titlePart type="main">LA VIE <lb/>EST UN SONGE,</titlePart><lb/>
+                    <titlePart type="desc" rend="italics">COMEDIE HEROÏQUE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="54"/>
+            <castList>
+                <head rend="italics">ACTEURS</head><lb/><lb/>
+                <castItem><role>BASILE</role>, <roleDesc>Roi de <name type="place">Pologne</name>.</roleDesc></castItem><lb/>
+                <castItem><role>SIGISMOND</role>, <roleDesc>Fils de <name type="person" n="Basile">Baſile</name>.</roleDesc></castItem><lb/>
+                <castItem><role>FEDERIC</role>, <roleDesc>Grand Duc de <name type="place" n='Moscou'>Moſcovie</name> <choice><orig>&amp;</orig><reg>et</reg></choice> neveu du Roi.</roleDesc>.</castItem><lb/>
+                <castItem><role>SOPHRONIE</role>, <roleDesc>Princeſſe <choice><orig>&amp;</orig><reg>et</reg></choice> Niéce du Roi.</roleDesc></castItem><lb/>
+                <castItem><role>CLOTALDE</role>, <roleDesc>Gouverneur de <name type="person" n="Sigismond">Sigiſmond</name>.</roleDesc></castItem><lb/>
+                <castItem><role>ULRIC</role>, <roleDesc>Grand de la Cour.</roleDesc></castItem><lb/>
+                <castItem><role>RODERIC</role>, <roleDesc>Chef des Conjurés.</roleDesc></castItem><lb/>
+                <castItem><role>ARLEQUIN</role>, <roleDesc>Bouffon de la Cour.</roleDesc></castItem><lb/>
+                <castItem><roleDesc>PLUSIEURS OFFICIERS.</roleDesc></castItem><lb/>
+                <castItem><roleDesc>GARDES.</roleDesc></castItem><lb/>
+                <castItem><roleDesc>SOLDATS.</roleDesc></castItem><lb/>
+            </castList><lb/><lb/><lb/><lb/><lb/><lb/>
+            <set>
+                <p><hi rend="italics">La Scène eſt en <name type="place">Pologne</name>.</hi></p>
+            </set>
+            <pb n="55"/>
+        </front>
+        <body>
+            <div type="title">
+                <head>LA VIE <lb/>EST UN SONGE, <lb/>COMÉDIE HEROÏQUE.</head><lb/>
+            </div>
+            <div type="acte" n="1">
+                    <lb/>
+                    <head>ACTE PREMIER.</head>
+                    <lb/>
+                    <div type="scene" n="1">
+                        <head>SCENE PREMIERE.</head> <lb/>
+                        <stage>LE ROI, ULRIC.</stage> <lb/>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker> <lb/>
+                            <l><c type="lettrine">D</c>E Rochers eſcarpés, quelle chaîne ef-<lb/>froyable</l>
+                            <l>Sert de <choice><orig>Ramparts</orig><reg>remparts</reg></choice> à cette affreuſe <lb/>tour?</l>
+                            <l>Elle <choice><orig>paroît</orig><reg>paraît</reg></choice> impénétrable.</l>
+                            <l>A la clarté du jour.</l>
+                            <l>O Ciel! Qui peut guider mon Roi dans ce ſéjour?</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Le remords qui l'accable.</l>
+                        </sp>
+                        <sp who="Ulric">
+                        <speaker>ULRIC.</speaker>
+                            <l>Un prince tel que vous, père de ſes Sujets,</l>
+                            <l>Du remords accablant <sic>peut-ilſentir</sic><corr>peut-il ſentir</corr> les traits?</l>      
+                        </sp>
+                        <pb n="56"/>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Je ne le ſens que trop ! Mais je ſuis pardonnable ;</l>
+                            <l>L'amour que j'ai pour eux m'a seul rendu coupable.</l>
+                        </sp>
+                        <sp who="Ulric">
+                        <speaker>ULRIC.</speaker> <lb/>
+                        <l part="I">Seigneur, que dites-vous?</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l part="F">Il eſ <choice><orig>tems</orig><reg>temps</reg></choice> que mon cur</l>
+                            <l>Te dévoile un secret à l'état néceſſaire,</l>
+                            <l>Dont un ſeul homme eſt le dépoſitaire</l>
+                            <l>Et qui va te remplir de surpriſe <choice><orig>&amp;</orig><reg>et</reg></choice> d'horreur.</l>
+                            <l>Cette Tour que tu vois, cette Prison ſi noire,</l>
+                            <l>Dont l'aſpect ſeul épouvante les yeux;</l>           
+                            <l>Ces lieux ( puis-je le dire, <choice><orig>&amp;</orig><reg>et</reg></choice> pourras-tu le croire? ]</l>
+                            <l part="I">Renferment dans leurs murs mon fils unique.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker> <lb/>
+                            <l part="F">O Dieux ?</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Pour t'éclaircir cet horrible <choice><orig>myſtére</orig><reg>mystère</reg></choice>,</l>
+                            <l><choice><orig>Aprends</orig><reg>Apprends</reg></choice> , qu'autrefois, à mes voeux,</l>
+                            <l>Un fils fut accordé par le Ciel en colére.</l>
+                            <l>Avant de mettre au jour ce prince malheureux,</l>
+                            <l>Mon épouſe, en dormant; crut voir un monſtre af-<lb/>freux,</l>
+                            <l>Qui, déchirant ſon ſein; <choice><orig> terminoit</orig><reg> terminait</reg></choice> sa <choice><orig>carriére</orig><reg>carrière</reg></choice>,</l>
+                            <l>Ce ſonge fut trop vrai! Fatal préſent des Cieux!</l>
+                            <l><name type="person" n="Sigismond">Sigiſmond</name>, en naiſſant fit expirer ſa mere</l>
+                            <l>Par moi, ſur ſes deſtins, le Ciel fut conſulté,</l>
+                            <l>Et combla les frayeurs dont j'<choice><orig>étois</orig><reg>étais</reg></choice> agité : </l>
+                            <l>Il me dit que ce Prince impie <choice><orig>&amp;</orig><reg>et</reg></choice> ſanguinaire,</l>
+                            <l><choice><orig>Régneroit </orig><reg>Règnerait </reg></choice>ſur ſon Peuple en tyran furieux;</l>
+                            <l>Il me dit, qu'à ſes pieds il <choice><reg>foulerait</reg><orig>fouleroit</orig></choice> ſon Pere,</l>
+                            <l>Et qu'il <choice><orig>blasphêmeroit</orig><reg>blasphèmerait</reg></choice> les Dieux.</l>
+                            <l>Dans cette affreuſe conjoncture,</l>
+                            <l>Le cur rempli d'un juste effroi,</l>
+                            <l>Mais plus épouvanté pour l'état que pour moi,</l>
+                            <l>Au bien de mes ſujets j'immolai la nature,</l>
+                            <l>Et je devins cruel par généroſité. </l>
+                            <l>Craignant pour eux ce fils, <choice><orig>&amp;</orig><reg>et</reg></choice> ſa férocité,</l>
+                            <pb n="57"/>
+                            <l>Je le fis enfermer dans cette tour obscure,</l>
+                            <l>Pour y vivre <choice><orig>&amp;</orig><reg>et</reg></choice> mourir ſans <choice><orig>connoître</orig><reg>connaître</reg></choice> ſon ſort;</l>
+                            <l>J'eus ſoin, en <choice><orig>même-tems</orig><reg>même temps</reg></choice>, de publier ſa mort.</l>
+                            <l><name type="person" n="Clotalde">Clotalde</name>, ſeul inſtruit, ſous une Garde ſûre,</l>
+                            <l>Fut chargé d'élever <name type="person" n="Sigismond">Sigiſmond</name>, dans ces lieux,</l>
+                            <l>Non comme un Maître légitime,</l>
+                            <l>Mais comme un monſtre furieux,</l>
+                            <l>Qu'il <choice><orig>falloit</orig><reg>fallait</reg></choice> enchaîner pour le ſauver du crime.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker> <lb/>
+                            <l>Le ſuplice m'étonne autant que la victime.</l>
+                        </sp>
+                        <sp who="Basile">
+                           <speaker>LE ROI.</speaker> <lb/>
+                           <l>Je crûs, par-là, du Ciel détourner la fureur.</l>
+                           <l>Aſſurer mon repos <choice><orig>&amp;</orig><reg>et</reg></choice> celui de l'Empire.</l>
+                           <l>Vaines précautions! Le remords, dans mon coeur;</l>
+                           <l>Punit à chaque inſtant l'excès de ma rigueur</l>
+                           <l>Je ſens <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, je ſens qu'il me déchire</l>
+                           <l>Dans ce jour où l'Etat ſoupire</l>
+                           <l>Après le choix d'un ſucceſſeur</l>
+                           <l>Que les ans me preſſent d'élire.</l>
+                           <l>Contre-moi la raiſon elle-même conſpire,</l>
+                           <l>Me dit que j'ai trop cru les Aſtres incertains;</l>
+                           <l>Que je dois révoquer des ordres inhumains,</l>
+                           <l>Qui , me privant d'un Fils, ôtent à la Province,</l>
+                           <l>Contre toute équité, ſon véritable Prince;</l>
+                           <l>Qu'avant de condamner l'eſpoir de ma maiſon</l>
+                           <l>À l'horreur éternelle</l>
+                           <l>D'une rigoureuſe priſon,</l>
+                           <l>Je conſulte du moins l'amitié paternelle,</l>
+                           <l>Et tente s'il n'eſt point, en cette extrêmité,</l>
+                           <l>Quelque moyen plus doux pour dompter ſa fierté,</l>
+                           <l>Et pour faire mentir ſon Etoile cruelle.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker> <lb/>
+                            <l>Ah Seigneur! pour ce fils proſcrit contre les <choice><orig>loix</orig><reg>lois</reg></choice></l>
+                            <l>D'un trop juſte remords daignez <choice><orig>ouir</orig><reg>ouïr</reg></choice> la voix.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Ami, dans ce déſert c'eſt lui seul qui m'améne;</l>
+                            <l>J'y <choice><orig>prétens</orig><reg>prétends</reg></choice> voir mon Fils ſans en être <choice><orig>aperçû</orig><reg>aperçu</reg></choice>,</l>
+                            <l>Juger des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> dont il eſt combattu,</l>
+                            <pb n="58"/>
+                            <l>Et décider par eux ſi je romprai ſa chaîne.</l>
+                            <l>Dans ce jour favorable, heureux ſi la vertu</l>
+                            <l><choice><orig>Pouvoit</orig><reg>Pouvait</reg></choice> combattre en lui l'ascendant qui l'entraîne,</l>
+                            <l>Et <choice><orig><sic>pouvoir</sic><corr>pouvoit</corr></orig><reg>pouvait</reg></choice> le rendre, après moi,</l>
+                            <l>Digne de gouverner <choice><orig>&amp;</orig><reg>et</reg></choice> d'être votre Roi!</l>
+                            <l><name type="person" n="Clotalde">Clotalde</name> qui m'attend <choice><orig>&amp;</orig><reg>et</reg></choice> que j'ai fait inſtruire,</l>
+                            <l>Doit bien-tôt... Je le vois qui vient pour nous con-<lb/>duire.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2">
+                        <head>SCENE II.</head> <lb/>
+                        <stage>LE ROI, ULRIC, CLOTALDE.</stage> <lb/>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/> <lb/>
+                            <l><name n="Sigismond"><c rend="lettrine">S</c>Igiſmond</name> va, Seigneur, <choice><orig>paroître</orig><reg>paraître</reg></choice> dans ces lieux,</l>
+                            <l>Souffrez, pour l'écouter, qu'on vous cache à ſes yeux.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Je brûle en <choice><orig>même-tems</orig><reg>même temps</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> je crains de l'entendre.</l>
+                            <l>Prépares-toi, mon coeur, à l'aſſaut le plus tendre.</l>
+                            <stage type="action"><hi rend="italics">(Il ſuit <name type="person" n="Clotalde">Clotalde</name> qui le conduit avec <name n="Ulric">Ulric</name>.)</hi></stage>
+                        </sp> 
+                    </div>
+                    <div type="scene" n="3">
+                        <head>SCENE III.</head> <lb/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN,</speaker>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage> <lb/>
+                            <lb/>
+                            <l><c rend="lettrine">V</c>Oyons un peu ce qui ſe fait ici.</l>
+                            <l>Mes ſemblables <choice><orig>par-tout</orig><reg>partout</reg></choice> entrent ſans conſéquence;</l>
+                            <l>Et, bouffon de la Cour, j'uſe de ma licence.</l>
+                            <l>Le Roi, d'un de ſes Grands ſuivi,</l>
+                            <l>Et guidé par <name type="person" n="Clotalde">Clotalde</name> en cet antre effroyable,</l>
+                            <l>Vient maintenant d'entrer à petit bruit :</l>
+                            <l>Je <choice><orig>voudrois</orig><reg>voudrais</reg></choice> bien <choice><orig>sçavoir</orig><reg>savoir</reg></choice> quel ſujet l'y conduit?</l>
+                            <l>C'eſt le domicile du Diable,</l>
+                            <l>Tout ici me <choice><orig>paroît</orig><reg>paraît</reg></choice> propre à l'y conjurer :</l>
+                            <pb n="59"/>
+                            <l>Le Roi , peut-être eſt venu l'implorer</l>
+                            <l>Pour ſe le rendre favorable.</l>
+                            <l>Des chaînes <choice><orig>&amp;</orig><reg>et</reg></choice> des clefs, quel bruit épouvantable ?</l>
+                            <l>La porte s'ouvre! Ah, ce ſont les enfers!</l>
+                            <l>Tous mes ſens ſont ſaiſis d'une frayeur extrême.</l>
+                            <l>Quel fantôme s'avance! Il eſt chargé de fers :</l>
+                            <l>Et ſes regards font peur. C'eſt le diable lui-même.</l>
+                            <l part="I">Je ſuis perdu.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="4">
+                        <head>SCENE IV.</head> <lb/>
+                        <stage>SIGISMOND <hi rend="italics">enchaîné</hi>, ARLEQUIN.</stage> <lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/> <lb/>
+                            <l part="F"><c rend="lettrine">P</c>Arles, n'eſt-tu point las,</l>
+                            <l>O Ciel! injuste Ciel, de m'accabler de chaînes?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker> <lb/>
+                            <l>Il menace le Ciel. C'eſt lui, n'en doutons pas.</l>
+                            <l>Le Diable m'attendrit, <choice><orig>&amp;</orig><reg>et</reg></choice> j'entre dans ſes peines.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Sans avoir vû le jour, depuis vingt ans je vis :</l>
+                            <l>Renfermé dès l'enfance en un cachot horrible,</l>
+                            <l>J'ignore mon forfait <choice><orig>&amp;</orig><reg>et</reg></choice> ne <choice><orig>sçai</orig><reg>sais</reg></choice> qui je ſuis.</l>
+                            <l>Je ne vois qu'un ſeul homme, un tyran infléxible;</l>
+                            <l>Instrument <choice><orig>&amp;</orig><reg>et</reg></choice> témoin des maux dont je gémis;</l>
+                            <l>Il ne m'éclaircit point mon infortune extrême;</l>
+                            <l>Il me parle ſouvent de la terre <choice><orig>&amp;</orig><reg>et</reg></choice> des Cieux.</l>
+                            <l>Il m'aprend à <choice><orig>connoître</orig><reg>connaître</reg></choice>, à reſpecter les Dieux,</l>
+                            <l>Mais il me vante en vain leur justice ſuprême,</l>
+                            <l>Le ſort que je ſubis, ſans l'avoir mérité,</l>
+                            <l>Dément cette <sic>injustice</sic><corr>justice</corr> <choice><orig>&amp;</orig><reg>et</reg></choice> détruit leur bonté.</l>
+                            <l>Qu'ai-je commis contre'eux pour subir l'eſclavage,</l>
+                            <l>Et pour me voir ainſi durement enchaîné?</l>
+                            <l>Me font-ils expier le crime d'être né?</l>
+                            <l>Si c'eſt-là le forfait dont me punit leur rage,</l>
+                            <pb n="60"/>
+                            <l>Avec tout ce qui vit, <name type="person" n="Sigismond">Sigiſmond</name> le partage.</l>
+                            <l>J'ai pour complice l'Univers:</l>
+                            <l>Cependant, ici-bas, juſqu'au poiſſon qui nage,</l>
+                            <l>Juſqu'à l'oiſeau qui fend les airs,</l>
+                            <l>Tout eſt né libre, <choice><orig>&amp;</orig><reg>et</reg></choice> je porte des fers,</l>
+                            <l>Moi, qui par ma raiſon, par mon noble courage,</l>
+                            <l>Sens que je ſuis le plus parfait ouvrage.</l>
+                            <l>Si tu veux, à mes yeux, prouver ton équité,</l>
+                            <l>O Ciel! unique auteur des <choice><orig>tourmens</orig><reg>tourments</reg></choice> que j'endure,</l>
+                            <l>Fais partager mes fers à toute la nature,</l>
+                            <l>Ou donne-moi la liberté</l>
+                            <l>Dont jouit, en naiſſant, ta moindre créature.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker> <lb/>
+                            <l>Vraiment, il raiſonne aſſez bien;</l>
+                            <l>Si j'<choice><orig>osois</orig><reg>osais</reg></choice>, avec lui, j'<choice><orig>aurois</orig><reg>aurais</reg></choice> un entretien.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Dans ces demeures <choice><orig>ſoûterraines</orig><reg>souterraines</reg></choice>,</l>
+                            <l>Que ne puis-je goûter la funeſte douceur</l>
+                            <l>D'avoir un compagnon de mes cruelles peines.</l>
+                            <l>Pour ſoulager l'excès de ma douleur,</l>
+                            <l>Il <choice><orig>porteroit</orig><reg>porterait</reg></choice> du moins la moitié de mes chaînes.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker> <lb/>
+                            <l>Le diſcours que j'entends me remplit de frayeur.</l>
+                            <l>Ah! s'il <choice><orig>alloit</orig><reg>allait</reg></choice> me ſaiſir, miſérable!</l>
+                            <l>Mais <name type="person" n="Clotalde">Clotalde</name> revient. Cachons-nous dans un coin;</l>
+                            <l>Pour ſçavoir s'il n'a pas commerce avec le Diable.</l>
+                            <l>De tout, ſans être vû, je ſerai le témoin.</l>
+                            <stage type="action"><hi rend="italics">[Il ſe retire dans un coin]</hi></stage>
+                        </sp>
+                    </div>
+                    <div type="scene" n="5">
+                        <head>SCENE V.</head> <lb/>
+                        <stage>SIGISMOND, CLOTALDE,<lb/> ARLEQUIN <hi rend="italics">caché</hi>.</stage> <lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l><c rend="lettrine">M</c>Es maux ſont éternels comme ma ſolitude;</l>
+                            <l>Et mon eſprit éclairé par l'étude,</l>
+                            <pb n="61"/>
+                            <l>Ne ſert qu'à les aprofondir,</l>
+                            <l>Et qu'à me faire mieux ſentir</l>
+                            <l>Les horreurs de ma ſervitude</l>
+                            <l>Mais je vois devant moi le Tyran de mes jours.</l>
+                            <l>Dis-moi, de mes <choice><orig>tourmens</orig><reg>tourments</reg></choice> quand finira le cours?</l>
+                            <l>Quand pourrai-je un inſtant jouir de la lumière,</l>
+                            <l>Ou de ta bouche, au moins, aprendre qui je ſuis?</l>
+                            <l part="I">Dévoiles-moi...</l>  
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l part="F">Je ne le puis.</l>
+                            <l part="I">Soumettez-vous.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l part="F">Voilà ton langage ordinaire,</l>
+                            <l>Et je ne vois jamais mes doutes éclaircis:</l>
+                            <l>Cependant, ſi j'en crois les livres que je lis,</l>
+                            <l>Inſtruire, eſt le devoir d'un maître.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Les Dieux n'aprouvent point la curioſité</l>
+                            <l>Que vous faîtes <choice><orig>paroître</orig></choice><reg>paraître</reg>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l><name type="person" n="Clotalde">Clotalde</name> je ſuishomme; en cette qualité,</l>
+                            <l>Je mérite de me <choice><orig>connoître</orig><reg>connaître</reg></choice>.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Ah! vous ne l'êtes plus par votre cruauté.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Tes affreux <choice><orig>traitemens</orig><reg>traitements</reg></choice> font ma férocité;</l>
+                            <l>Et, ſi je ſuis cruel, tu m'ensſeignes à l'être.</l>
+                            <l>Sur les <choice><orig>parens</orig><reg>parents</reg></choice> qui m'ont fait naître,</l>
+                            <l>Une éternelle obſcurité;</l>
+                            <l>Des fers, une priſon ſauvage,</l>
+                            <l>Sans nul eſpoir de liberté;</l>
+                            <l>Nul relâche à mes maux qu'accroît ta dureté,</l>
+                            <l>Barbare, voilà mon partage</l>
+                            <l>Et tes leçons d'humanité.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>J'exécute l'arrêt que le Ciel a dicté,</l>
+                            <l>Pour mettre un frein à votre violence,</l>
+                            <l>Dont il eſt révolté.</l>
+                            <pb n="62"/>
+                            <l>C'eſt elle, c'eſt votre arrogance</l>
+                            <l>Qui vous a fait proſcrire avant votre naiſſance.</l>
+                            <l>Dépouillez donc tant de fierté.</l>
+                            <l>Vous ne <choice><orig>sçauriez</orig><reg>sauriez</reg></choice> déſarmer ſa vengeance</l>
+                            <l>Que par l'humilité,</l>
+                            <l>Par la douceur <choice><orig>&amp;</orig><reg>et</reg></choice> par l'obéiſſance.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Ce diſcours me révolte : eſt-ce par la rigueur</l>
+                            <l>Que l'on prétend m'inſpirer la douceur?</l>
+                            <l>Tes <choice><orig>châtimens</orig><reg>châtiments</reg></choice> cruels, ta conduite ſévére,</l>
+                            <l>Ne font qu'augmenter ma fureur;</l>
+                            <l>Et dans les <choice><orig>mouvemens</orig><reg>mouvements</reg></choice> qui ſaiſiſſent mon coeur...</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Aux transports de votre colére,</l>
+                            <l>Ces murs vont ſervir de barriére;</l>
+                            <l>Ils <choice><orig>ſçauront</orig><reg>sauront</reg></choice> vous humilier.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Tu peux trancher mes jours, non me faire plier:</l>
+                            <l part="I">Et je brave...</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l part="F">Qu'on le ſaiſiſſe,</l>
+                            <l>Et qu'on l'enferme ſns tarder.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker> <lb/>
+                            <l>Dieux! Qu'à la force il eſt dur de céder,</l>
+                            <l>Et que la dépendance eſt un cruel ſuplice</l>
+                            <l>Pour un cur qui ſe ſent digne de commander!</l>
+                        </sp>
+                        <stage type="exit"><hi rend="italics">(On l'entraîne <choice><orig>&amp;</orig><reg>et</reg></choice> la porte de la Tour ſe referme.)</hi></stage>
+                    </div>
+                    <div type="scene" n="6">
+                        <head>SCENE VI.</head> <lb/>
+                        <stage>LE ROI, ULRIC, CLOTALDE, <lb/>ARLEQUIN <hi rend="italics">caché</hi>.</stage><lb/>
+                        <sp who="Basile">
+                            <speaker>LE ROI</speaker>
+                            <stage type="action"><hi rend="italics">ſortant du lieu où il <choice><orig>étoit</orig><reg>était</reg></choice> caché</hi>.</stage><lb/>
+                            <l><c rend="lettrine">Q</c>Uel ſpectacle touchant pour les regards d'un <lb/>père!</l>
+                            <l>Dieux? Qu'il accroît le remords de mon coeur!</l>
+                            <pb n="63"/>
+                            <l>Que l'état de mon fils m'a fait ſentir d'horreur,</l>
+                            <l>Et que l'aſpect de sa miſére</l>
+                            <l>M'a bien puni de ma rigueur!</l>
+                            <l>Aſtres cruels, que je <choice><orig>devois</orig><reg>devais</reg></choice> moins croire,</l>
+                            <l>Ah! j'ai pris trop de ſoin de vous juſtifier!</l>
+                            <l>Si ſes <choice><orig>emportemens</orig><reg>emportements</reg></choice> ſemblent vérifier,</l>
+                            <l>Votre prédiction ſi terrible <choice><orig>&amp;</orig><reg>et</reg></choice> ſi noire,</l>
+                            <l>Vous n'en devez toute la gloire</l>
+                            <l>Qu'aux barbares moyens que j'ai fait employer.</l>
+                            <l>Mon fils <choice><orig>étoit</orig><reg>était</reg></choice> né bon, vertueux, débonnaire,</l>
+                            <l>Ma cruauté pour lui; mes ordres rigoureux</l>
+                            <l>Ont aigri ſon orgueil, allumé ſa colére.</l>
+                            <l>J'ai, moi ſeul, malheureux!</l>
+                            <l>Fait un tyran d'un Prince généreux.</l>
+                            <l>Que dis-je? Les tranſports que ſon cur fait <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l>
+                            <l>Partent d'une noble fierté,</l>
+                            <l>Digne du ſang qui l'a fait naître.</l>
+                            <l>J'ai vû même, au travers de ſa férocité,</l>
+                            <l>Briller des traits de généroſité,</l>
+                            <l>Qui, pour mon fils, me l'ont fait <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Seigneur, de ce retour <name type="person" n="Clotalde">Clotalde</name> eſt enchanté.</l>
+                            <l>Contre un fils malheureux, victime de mon zèle,</l>
+                            <l>A regret j'ai ſervi votre ſévérité.</l>
+                            <l>En vous obéiſſant dans ma charge cruelle,</l>
+                            <l>J'ai ſoupiré cent fois de ma fidélité.</l>
+                            <l>Grand Roi, pour prix de mon obéiſſance,</l>
+                            <l>Accordez-moi ſa liberté,</l>
+                            <l>Je ſerai trop payé par cette récompenſe</l>
+                            <l>Qu'à vos genoux j'oſe vous demander.</l>
+                            <l>Rendez à vos ſujets leur Prince légitime,</l>
+                            <l>Et recouvrez un fils né pour vous ſuccéder;</l>
+                            <l>Qu'il paſſe de l'horreur de cet affreux abîme,</l>
+                            <l>Au trône qu'il doit poſſéder.</l>
+                            <l>Ceſſez de redouter la fureur qui l'anime.</l>
+                            <l>Dès qu'il <choice><orig>reconnoîtra</orig><reg>reconnnaîtra</reg></choice> la ſplendeur de ſon ſang</l>
+                            <l>Il ſera magnanime,</l>
+                            <l>Et <choice><orig>ſçaura</orig><reg>saura</reg></choice> se montrer digne de ſe haut rang.</l>
+                            <pb n="64"/>
+                            <l>Ne réſiſtez donc plus à l'ardeur qui m'entraîne,</l>
+                            <l>Et laiſſez-vous fléchir,</l>
+                            <l>Faites que ce bras qui l'enchaîne,</l>
+                            <l>Ait le bonheur de l'affranchir,</l>
+                            <l>Dût-il aujourd'hui m'en punir,</l>
+                            <l>Dût-il, dans cette tour affreuſe,</l>
+                            <l>Me rendre tous les maux dont ma main rigoureuſe</l>
+                            <l>L'a, malgré moi, fait ſi <choice><orig>long-tems</orig><reg>longtemps</reg></choice> gémir.</l>
+                            <l>Il me ſera plus agréable</l>
+                            <l>De vivre dans les fers, accablé de rigueurs,</l>
+                            <l>Et de faire régner mon Maître véritable,</l>
+                            <l>Que d'être l'instrument de ſon ſort déplorable,</l>
+                            <l>Et de me voir comblé de toutes vos faveurs.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker> <lb/>
+                            <l>Seigneur, c'eſt tout l'état qui par ſa voix s'explique.</l>
+                            <l>En cette dure extrêmité,</l>
+                            <l>La nature, les <choice><orig>loix</orig><reg>lois</reg></choice>, la raison, l'équité,</l>
+                            <l>Même la politique,</l>
+                            <l>Tout vous parle en faveur d'un Succeſſeur unique:</l>
+                            <l>Comme lui, devant vous, je me proſterne ici.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">ſortant de ſon coin.</hi></stage><lb/>
+                            <l>Seigneur, je viens m'y proſterner auſſi.</l>
+                            <l>Ayez pitié d'un Fils que j'ai pris pour le Diable,</l>
+                            <l>Tant vous l'avez réduit en un ſort pitoyable.</l>
+                            <l>Par les pleurs qu'à vos pieds vous me voyez verſer...</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Levez-vous, votre Roi <choice><orig>voudroit</orig><reg>voudrait</reg></choice> vous exaucer.</l>
+                            <l>Mais puis-je, tel qu'il eſt, me déclarer ſon pere;</l>
+                            <l>Et, pour le couronner,</l>
+                            <l>Ce Prince eſt-il, hélas! en état de régner?</l>
+                            <l>Donnerai-je un tyran à la <name type="place" n='Pologne'>Pologne</name> entiére;</l>
+                            <l>Non, quels que ſoient les cris de mes remords <choice><orig>preſſans</orig><reg>pressants</reg></choice>,</l>
+                            <l>Je ne dois, écouter que mon amour pour elle;</l>
+                            <l>Il étouffe en mon coeur l'amitié paternelle,</l>
+                            <l>Et mes Sujets ſont mes premiers <choice><orig>enfans</orig><reg>enfants</reg></choice>.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Ah! ſi vous conſultez le bien de la patrie,</l>
+                            <l>Vous remettrez le ſceptre aux mains de votre fils.</l>
+                            <pb n="65"/>
+                            <l>Le prince <name type="person" n="Fédéric">Fédéric</name>, grand Duc de Moſcovie,</l>
+                            <l>Et la princeſſe <name type="person" n="Sophronie">Sophronie</name>,</l>
+                            <l>De votre ſang également ſortis,</l>
+                            <l>Divisent tout l'état en <choice><orig>proye</orig><reg>proie</reg></choice> à deux partis,</l>
+                            <l>Il aime en vain cette Princeſſe,</l>
+                            <l>Et <choice><orig>voudroit</orig><reg>voudrait</reg></choice>, par l'hymen, voir leurs droits réunis.</l>
+                            <l>On <choice><orig>ſçait</orig><reg>sait</reg></choice> qu'elle a toujours <choice><orig>rejetté</orig><reg>rejeté</reg></choice> ſa tendreſſe,</l>
+                            <l>L'hyménée eſt un joug qui bleſſe ſa fierté;</l>
+                            <l>Et, comme ſon courage égale ſa beauté,</l>
+                            <l>Elle veut régner ſeule <choice><orig>&amp;</orig><reg>et</reg></choice> n'avoir point de maître:</l>
+                            <l>Je doute, quand ſon coeur <choice><orig>pourroit</orig><reg>pourrait</reg></choice> y conſentir,</l>
+                            <l>Que l'on voulût d'ailleurs le <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice>:</l>
+                            <l>Par un Prince étranger s'il le <choice><orig>voyoit</orig><reg>voyait</reg></choice> régir,</l>
+                            <l>L'Etat de la <name type="place">Pologne</name> <choice><orig>auroit</orig><reg>aurait</reg></choice> trop à rougir.</l>
+                            <l>C'eſt allumer les feux d'une guerre civile;</l>
+                            <l>C'eſt trahir votre fils pour troubler vos ſujets.</l>
+                            <l>Lui ſeul, Seigneur, lui ſeul peut aſſurer la paix.</l>
+                            <l><name type="person" n="Sigismond">Sigiſmond</name> reconnu va rendre tout tranquille;</l>
+                            <l>Ce nom ſeul vous répond du coeur des <choice><orig>Polonois</orig><reg>Polonais</reg></choice>:</l>
+                            <l>Il n'apartient qu'au fils du grand <name type="person" n="Basile">Baſile</name></l>
+                            <l>De réunir toutes les voix.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker> <lb/>
+                            <l>Grands Dieux! Que dois-je faire en cette conjonc-<lb/>ture?</l>
+                            <l>Daignez, pour terminer mon funeſte embarras,</l>
+                            <l>M'inſpirer le moyen d'accorder la nature</l>
+                            <l>Avec le bien de mes Etats.</l>
+                            <l>Faites que je ſois Roi ſans ceſſer d'être pere,</l>
+                            <l>Que la prudence en moi guide le ſentiment...</l>
+                            <l>Ils exaucent mes voeux; je ſens, dans ce moment</l>
+                            <l>Qu'ils viennent m'éclairer par un trait de lumiére,</l>
+                            <l>Pour éprouver mon fils <choice><orig>&amp;</orig><reg>et</reg></choice> lui faire eſſayer</l>
+                            <l>Le Sceptre paternel, ſans expoſer l'empire.</l>
+                            <l><name type="person" n="Clotalde">Clotalde</name>, aprens ce que le Ciel m'inſpire,</l>
+                            <l>Et que ton art doit employer.</l>
+                            <l>Par la vertu d'un breuvage propice,</l>
+                            <l>Il faut, dans un ſommeil profond,</l>
+                            <l>Enſévelir le Prince <name type="person" n="Sigismond">Sigiſmond</name>.</l>
+                            <pb n="66"/>
+                            <l>Et, profitant de l'artifice,</l>
+                            <l>Tandis qu'il goûtera les douceurs du repos,</l>
+                            <l>Il faut briſer les fers qu'il porte en ces cachots,</l>
+                            <l>L'orner de tout l'éclat de la magnificence,</l>
+                            <l>Et, l'arrachant du fond de cet affreux ſéjour,</l>
+                            <l>Le tranſporter au milieu de ma cour,</l>
+                            <l>A qui de tout j'aurai fait confidence;</l>
+                            <l>Enſuite, à ſon réveil, je veux que, ſans détour,</l>
+                            <l>Tu lui découvres ſa naiſſance,</l>
+                            <l>Et que mes courtiſans lui rendent, tour-à-tour,</l>
+                            <l>Tous les honneurs qu'on rend à ma puiſſance.</l>
+                            <l>Je verrai dans ce jour,</l>
+                            <l>Par cet innocent ſtratagême,</l>
+                            <l>Comment il uſera de la grandeur ſuprême;</l>
+                            <l>Je verrai ſi je dois n'écouter que l'amour,</l>
+                            <l>Et lui laiſſer le diadême</l>
+                            <l>Sa conduite fera ſon arrêt elle-même,</l>
+                            <l>Puiſſent les Dieux, dans cet heureux ſommeil,</l>
+                            <l>Changer ſon coeur trop ſanguinaire,</l>
+                            <l>Et lui donner d'un Roi l'auguste caractére!</l>
+                            <l>Puiſſe ce Prince, à ſon réveil,</l>
+                            <l>Se trouver les vertus que demande l'empire,</l>
+                            <l>Et <choice><orig>paroître</orig><reg>paraître</reg></choice> à mes yeux tel que je le déſire!</l>
+                            <l>Il eſt <choice><orig>tems</orig><reg>temps</reg></choice> de me rendre au conſeil qui m'attend.</l>
+                            <stage><hi rend="italics">[à <name type="person" n="Clotalde">Clotalde</name>.]</hi></stage>
+                            <l>Du ſort de <name type='person' n="Sigismond">Sigiſmond</name> ton maître va l'inſtruire.</l>
+                            <l>Toi, cours exécuter ce qu'il t'a <choice><orig>ſçû</orig><reg>su</reg></choice> preſcrire.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l part="I">J'y vole.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">ſautant au col du Roi.</hi></stage> <lb/>
+                            <l part="F">Papa Roi, pour ce trait éclatant,</l>
+                            <l>Souffrez qu'<name type="person" n="Arlequin">Arlequin</name> vous embraſſe,</l>
+                            <l>Et qu'il coure annoncer le Prince à vos états.</l>
+                            <l>Je le <choice><orig>sçavois</orig><reg>savais</reg></choice> bien, moi, que j'<choice><orig>obtiendrois</orig><reg>obtiendrais</reg></choice> ſa grâce,</l>
+                            <l>Et que, contre mes pleurs, le Roi ne <choice><orig>tiendroit</orig><reg>tiendrait</reg></choice> pas.</l>
+                        </sp>
+                        <lb/>
+                        <lb/>
+                        <trailer rend="center"><hi rend="italics">Fin du premier Acte.</hi></trailer>
+                    </div>
+                </div>
+                <pb n="67"/>
+                <div type="acte" n="2">
+                    <head>ACTE II.</head>
+                    <stage><hi rend="italics">Le Théâtre repréſente la chambre du Roi. <name type="person" n="Sigismond">Sigiſmond</name> <lb/><choice><orig>paroît</orig><reg>paraît</reg></choice> endormi ſur un Trône, <choice><orig>&amp;</orig><reg>et</reg></choice> richement vêtu ;<lb/> pluſieurs Officiers ſont prêts à le ſervir.</hi></stage>
+                    <div type="scene" n="1">
+                        <head>SCENE PREMIERE.</head> <lb/>                 
+                        <stage>SIGISMOND <hi rend="italics">endormi</hi>, ULRIC, ARLEQUIN, <lb/><hi rend="italics">pluſieurs Officiers</hi>.</stage><lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND </speaker>
+                            <stage type="business"><hi rend="italics">en s'éveillant.</hi></stage> <lb/>
+                            <l><c rend="lettrine">O</c>U ſuis-je ? Justes Dieux ! Eſt-ce un ſonge <lb/>agréable ?</l>
+                            <l>Eſt-ce l'effet d'un doux enchantement</l>
+                            <l>Qui transforme, en un lieu charmant, </l>
+                            <l>Une priſon épouvantable, </l>
+                            <l>Et qui change mes fers <choice><orig>&amp;</orig><reg>et</reg></choice> l'habit miſérable</l>
+                            <l>Qui m'a couvert <choice><orig>juſques </orig><reg>jusqu'</reg></choice>à ce moment, </l>
+                            <l>En un superbe vêtement ?</l>
+                            <l>Chaque objet m'arrête <choice><orig>&amp;</orig><reg>et</reg></choice> m'étonne !</l>
+                            <l>Juſqu'à l'aſtre brillant qui répand la clarté, </l>
+                            <l>Tout, à mes yeux, eſt une nouveauté.</l>
+                            <l>Mais quelle attention attire ma perſonne ?</l>
+                            <l>Quelle nombreuſe cour <choice><orig>paroît</orig><reg>paraît</reg></choice> autour de moi !</l>
+                            <l>Quel zèle ! Quel reſpect ! Quel éclat m'environne !</l>
+                            <l>Tout m'annonce que je ſuis Roi;</l>
+                            <l>Au sein de mon bonheur ſuprême,</l>
+                            <l>Ce dont je ſuis le plus flatté, </l>
+                            <l>Je sens que je ſuis libre, <choice><orig>&amp;</orig><reg>et</reg></choice> maître de moi-même.</l>
+                            <l>Rien ne contraint ma volonté.</l>
+                            <l>Le doute ſeul dont je ſuis agité,</l>
+                            <l>Altére un bien ſi délectable.</l>
+                            <pb n="68"/>
+                            <l>O Ciel ! <choice><orig>jusques </orig><reg>jusqu'</reg></choice>au bout montre-toi favorable,</l>
+                            <l>Et, pour mettre le comble à ma félicité, </l>
+                            <l><choice><orig>Prouves-moi</orig><reg>Prouve-moi</reg></choice> que je veille en cet inſtant aimable; </l>
+                            <l>Et que mon règne eſt une vérité.</l>
+                            <stage><hi rend="italics">(en conſidérant l'épée qu'on lui préſente.)</hi></stage>
+                            <l>Quel eſt cet ornement dont ma <choice><orig>vûe</orig><reg>vue</reg></choice> eſt frappée, </l>
+                            <l>Et dont j'aime, <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, l'éclat ?</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker><lb/>
+                            <l>Prince illuſtre c'eſt votre épée;</l>
+                            <l>C'eſt le ſoutien de votre Etat, </l>
+                            <l>Et le foudre vengeur qu'en votre main terrible</l>
+                            <l>Les immortels ont mis,</l>
+                            <l>Pour vous rendre un Prince invincible,</l>
+                            <l>Et pour punir vos ennemis.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker>
+                            <l>Puiſque ce fer brillant rend un Roi formidable,</l>
+                            <l>Puiſque par lui je dois vaincre <choice><orig>&amp;</orig><reg>et</reg></choice> punir,</l>
+                            <l>De vos <choice><orig>préſens</orig><reg>présents</reg></choice>, grands Dieux ! c'eſt le plus agréable;</l>
+                            <l>Mon bras déjà brûle de s'en ſervir.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC, </speaker>
+                            <stage type="action"><hi rend="italics">lui mettant l'épée à son côté.</hi></stage><lb/>
+                            <l>C'eſt ainſi qu'on la porte, Sire.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">poussant une botte.</hi></stage><lb/>
+                            <l>Et c'eſt ainsi qu'on la tire.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2">
+                        <head>SCENE II.</head>
+                        <stage><hi rend="italics">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, CLOTALDE.</stage>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l><c rend="lettrine">S</c>Eigneur, je viens, en vous, <choice><orig>reconnoître</orig><reg>reconnaître</reg></choice> mon <lb/>Roi.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Eſt-ce <name type="person" n="Clotalde">Clotalde</name> que je <choice><orig>voi</orig><reg>vois</reg></choice>?</l>
+                            <l>Pour m'inſulter, vient-il me rendre hommage,</l>
+                            <l>Lui qui m'a fait gémir dans un dur eſclavage ?</l>
+                            <l>Comment, <choice><orig>&amp;</orig><reg>et</reg></choice> de quel front <choice><orig>paroît</orig><reg>paraît</reg></choice>-il devant moi ?</l>
+                        </sp>
+                        <pb n="69"/>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker> <lb/>
+                            <l>Seigneur, pour chaſſer le nuage</l>
+                            <l>Qui, ſur vos ſens ſurpris répand l'obſcurité,</l>
+                            <l>Je vais, ſans tarder davantage,</l>
+                            <l>Faire, à vos yeux, briller la vérité.</l>
+                            <l>Les honneurs qu'on vous rend, ce palais magnifique,</l>
+                            <l>Ne ſont point les effets d'un ſonge chimérique ;</l>
+                            <l>Ce ſpectacle nouveau qui vous tient enchanté,</l>
+                            <l>Eſt pour vous un bonheur plein de réalité.</l>
+                            <l>Pendant votre ſommeil, de votre antre ruſtique :</l>
+                            <l>À la Cour de <name type="place">Pologne</name> on vous a tranſporté :</l>
+                            <l>Du Roi <name type="person" n="Basile">Baſile</name> enfin vous êtes fils unique,</l>
+                            <l>Lui-même à ſon Conſeil l'a déjà déclaré ;</l>
+                            <l>On porte jusqu'aux Cieux votre nom révéré,</l>
+                            <l>Et vous faites, Seigneur, l'allégreſſe publique.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Pourquoi m'avoir caché le ſang dont je ſuis né ?</l>
+                            <l>Si ton discours eſt véritable,</l>
+                            <l>Pourquoi traiter ton Prince infortuné</l>
+                            <l>Comme un eſclave miſérable ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Pour obéir, Seigneur, aux céleſtes décrets,</l>
+                            <l>Et détourner de vous les noirs effets</l>
+                            <l>Des aſtres irrités que <choice><orig>craignoit</orig><reg>craignait</reg></choice> votre pere,</l>
+                            <l>Et qui vous <choice><orig>menaçoient</orig><reg>menaçaient</reg></choice> d'être un Roi ſanguinaire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ah ! Traître, ſont-ce là d'aſſez fortes raiſons</l>
+                            <l>Pour condamner un fils, un Prince légitime,</l>
+                            <l>À la plus dure des priſons ?</l>
+                            <l>Et toi, premier objet du courroux qui m'anime,</l>
+                            <l>Toi qui fus l'instrument d'un ſuplice <choice><orig>inoüi</orig><reg>inouï</reg></choice>,</l>
+                            <l>Comment à ce Monarque as-tu donc obéi ?</l>
+                            <l>Comment, auprès de moi, justifier ton crime ?</l>
+                            <l>Malheureux ! Tu <choice><orig>devois</orig><reg>devais</reg></choice> du moins</l>
+                            <l>À mes regards dévoiler ma naiſſance,</l>
+                            <l>Je n'<choice><orig>aurois</orig><reg>aurais</reg></choice> pas trahi ta confidence,</l>
+                            <l>Je n'<choice><orig>avois</orig><reg>avais</reg></choice>, dans mes fers, que tes yeux pour témoins.</l>
+                            <l>J'en <choice><orig>aurois</orig><reg>aurais</reg></choice> moins gémi flatté par l'eſpérance;</l>
+                            <pb n="70"/>
+                            <l>Et mon coeur en ce jour, eût reconnu tes ſoins.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Seigneur, j'<choice><orig>avois</orig><reg>avais</reg></choice> juré de garder le ſilence;</l>
+                            <l>On m'<choice><orig>auroit</orig><reg>aurait</reg></choice> vû ſouffrir la mort avec confiance,</l>
+                            <l part="I">Plûtôt que de le rompre.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="F">Ah ! Tu la ſouffriras,</l>
+                            <l>Pour avoir trop gardé ce ſilence funeste ;</l>
+                            <l>Ministre affreux que je déteſte,</l>
+                            <l>Je veux, par ma vengeance, effrayer ces états.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Seigneur, que votre ame réprime...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Tu m'oſes répliquer, perfide, tu mourras ;</l>
+                            <l>Tu seras dans ce jour, la premiére victime</l>
+                            <l>Et le premier tyran qu'immolera mon bras.</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC </speaker>
+                            <stage type="action"><hi rend="italics">l'arrêtant.</hi></stage><lb/>
+                            <l>Par un meurtre, Seigneur, ne vous noirciſſez pas.</l>
+                        </sp>
+                        <sp>
+                            <speaker>CLOTALDE </speaker>
+                            <stage type="exit"><hi rend="italics">en ſortant.</hi></stage><lb/>
+                            <l>Malheureux ! Il ſe perd ; <choice><orig>&amp;</orig><reg>et</reg></choice> ſa fureur extrême</l>
+                            <l>Me fait trembler pour lui bien plus que pour moi-<lb/>même.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3">
+                        <head>SCENE III.</head>
+                        <stage>SIGISMOND, ULRIC, ARLEQUIN.</stage>
+                        <sp who="Sigismond">
+                           <speaker>SIGISMOND </speaker>
+                           <stage><hi rend="italics">à <name type="person" n="Ulric">Ulric</name> qui veut le retenir.</hi></stage><lb/><lb/>
+                           <l><c type="lettrine">S</c>Ujet <choice><orig>audacieux</orig><reg>audacieux</reg></choice>, quoi, tu retiens mes pas ?</l>
+                       </sp> 
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker><lb/>
+                            <l>Seigneur, ſouffrez que je vous faſſe entendre...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Arrête, ton discours ne peut que m'offenſer.</l>
+                            <l part="I">Si tu dis un ſeul mot...</l>
+                       </sp>
+                        <pb n="71"/> 
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker><lb/>
+                            <l part="F">Je ne puis me défendre...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Puisqu'il répond, ſans balancer,</l>
+                            <l>Du haut de ce balcon précipitele traître.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                           <l>C'eſt pour lui faire peur ; je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> penser...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Si tu ne m'obéis, toi-même, tu vas être...</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">ſaiſiſant <name type="person" n="Ulric">Ulric</name>.</hi></stage>
+                            <l>Pardon c'eſt à regret, mais il commande en maître ;</l>
+                            <l>Et je ne puis me diſpenser</l>
+                            <l>De vous <choice><orig>jetter</orig><reg>jeter</reg></choice> par la fenêtre: </l>
+                            <l>Je ſuis novice en cet emploi.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="4">
+                        <head>SCENE IV.</head>
+                        <stage><hi rend="italics">Les Acteurs <choice><orig>précédens</orig><reg>précédents</reg></choice></hi>, LE ROI.</stage>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l><c type="lettrine">D</c>E tels <choice><orig>emportemens</orig><reg>emportements</reg></choice> ſont indignes d'un Roi, </l>
+                            <l>Calme<unclear>z</unclear> un transport condamnable.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Qu'<choice><orig>entens</orig><reg>entends</reg></choice>-je ?</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l part="F">Vous devez m'écouter <choice><orig>&amp;</orig><reg>et</reg></choice> ſonger</l>
+                            <l>Qu'un Prince qui s'oublie au point de ſe plonger</l>
+                            <l>Dans le ſang d'un ſujet, fût-il même coupable,</l>
+                            <l>Déshonore ſon bras au lieu de ſe venger.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Je me ſens arrêter par son air respectable...</l>
+                            <l>Qui donc es-tu! Réponds, ô <sic>vieillad</sic><corr>vieillard</corr> vénérable !</l>
+                            <l>De qui l'aſpect auſſi noble que doux, </l>
+                            <l>A le pouvoir d'enchaîner mon courroux ;</l>
+                            <l>Dans mon coeur étonné ta préſence fait naître</l>
+                            <l>Des <choice><orig>mouvemens</orig><reg>mouvements</reg></choice> ſecrets <sic>qu'ilne</sic><corr>qu'il ne</corr> peut démêler, </l>
+                            <pb n="72"/>
+                            <l>Qui font que j'aime à te parler, </l>
+                            <l>Que je brule de te <choice><orig>connoître</orig><reg>connaître</reg></choice>.</l> 
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Ah ! de ma joie à peine ſuis-je maître !</l>
+                            <l>Le ſang lui parle en ma faveur.</l>
+                            <stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
+                            <l>Quoi, Prince, j'<choice><orig>aurois</orig><reg>aurais</reg></choice> le bonheur</l>
+                            <l>De triompher, par ma préſence</l>
+                            <l>Des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> de haine <choice><orig>&amp;</orig><reg>et</reg></choice> de vengeance...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Oui tu les <choice><orig>ſuſpens</orig><reg>suspends</reg></choice> dans mon cur.</l>
+                            <l>Sur moi quelle eſt donc ta puissance ?</l>
+                            <l>Tes ſeuls regards domptant ma violence, </l>
+                            <l>Me forcent d'aprouver juſqu'à la liberté</l>
+                            <l>Que tu prens de combattre ici ma volonté.</l>
+                            <l>Satisfaits mon impatience : </l>
+                            <l>Quel es-tu ? Parles, expliques-toi.</l>
+                            <l>Va, quels que ſoient ton rang <choice><orig>&amp;</orig><reg>et</reg></choice> ta naiſſance, </l>
+                            <l>Sois sûr des faveurs de ton Roi ;</l>
+                            <l>Je ſens que je ne puis t'aprocher trop de moi.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l part="I">O, pere trop heureux !</l>
+                            <stage type="delivery"><hi rend="italics">(hut.)</hi></stage>
+                            <l part="F">Je me flatte, j'espére,</l>
+                            <l>Quand je ſerai connu de vous, </l>
+                            <l>De redoubler encore des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> ſi doux.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Qui peut les augmenter ? Je t'aime, te révére.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Nature ; c'en eſt trop, je céde à ton effort.</l>
+                            <l>Je ſuis...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Eh bien, acheve, inſtruis-moi de ton ſort.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Embraſſes-moi, mon fils, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>reconnois</orig><reg>reconnais</reg></choice> ton pere.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Mon pere ! Ah Dieu ! L'auteur de mes <choice><orig>tourmens</orig><reg>tourments</reg></choice> !</l>
+                            <l>Ce nom <choice><orig>ralume</orig><reg>rallume</reg></choice> ma colére.</l>
+                        </sp>
+                        <pb n="73"/>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Quoi, le titre ſacré de pere en ces <choice><orig>momens</orig><reg>moments</reg></choice></l>
+                            <l>N'excite en toi que des <choice><orig>frémiſſemens</orig><reg>frémissements</reg></choice> ?</l>
+                            <l>Quand mon ame se livre entiére </l>
+                            <l>Aux prompts <choice><orig>&amp;</orig><reg>et</reg></choice> tendres <choice><orig>mouvemens</orig><reg>mouvements</reg></choice></l>
+                            <l>Qu'inſpire pour un fils la nature ſincére, </l>
+                            <l>La tienne ſe <sic>rufuſe</sic><corr>refuſe</corr> à mes <choice><orig>embraſſemens</orig><reg>embrassements</reg></choice> ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>La voix du ſang chez moi ne s'eſt point <choice><orig>tûe</orig><reg>tue</reg></choice>.</l>
+                            <l>Tu viens de voir à ta premiére <choice><orig>vûe</orig><reg>vue</reg></choice>,</l>
+                            <l>Avec combien d'ardeur, prompt à ſe dévoiler,</l>
+                            <l>Pour toi ce ſang vient de parler</l>
+                            <l>Dans le fond de mon ame <choice><orig>émûe</orig><reg>émue</reg></choice>.</l>
+                            <l>Si pour ton fils, quand tu l'as mis au jour,</l>
+                            <l>Barbare ! il t'eût parlé de même,</l>
+                            <l>Tu ne <choice><orig>réduirois</orig><reg>réduirais</reg></choice> pas aujourd'hui cet amour,</l>
+                            <l>À ſe changer en une haine extrême.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Ma tendreſſe préſente <choice><orig>auroit</orig><reg>aurait</reg></choice> dû triompher.</l>
+                            <l>Cette haine eſt un monstre <choice><orig>&amp;</orig><reg>et</reg></choice> tu dois l'étouffer.</l>
+                            <l><choice><orig>Reprens</orig><reg>Reprends</reg></choice> l'amour d'un fils pour un Pere qui t'aime.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Non, ne l'eſpére pas ; les maux que tu m'a fais</l>
+                            <l>Dans mon eſprit ſont gravés pour jamais</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Ah ! Ces retours affreux, <choice><orig>&amp;</orig><reg>et</reg></choice> l'horreur qu'ils t'inspi-<lb/>rent,</l>
+                            <l>Me font trop voir que les Astres ſont vrais</l>
+                            <l>Dans le malheur qu'ils me prédirent ;</l>
+                            <l>Il eſt écrit ſur ton front irrité,</l>
+                            <l>Et j'y lis d'un tyran toute la dureté.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Pere cruel ! dont la bouche m'outrage,</l>
+                            <l>Si je ſuis un tyran, n'en accuse que toi :</l>
+                            <l>Par ton ordre, élevé comme un monſtre ſauvage,</l>
+                            <l>Je ne fais que répondre aux ſoins qu'on eut de moi.</l>
+                            <l>J'imite ton exemple, <choice><orig>&amp;</orig><reg>et</reg></choice> je ſuis ton Ouvrage ;</l>
+                            <l>D'autant plus excusable en mon emportement</l>
+                            <pb n="74"/>
+                            <l>Qu<unclear>e</unclear> la raison l'aprouve, <choice><orig>&amp;</orig><reg>et</reg></choice> que ma tyrannie,</l>
+                            <l>Par un juste retour <choice><orig>&amp;</orig><reg>et</reg></choice> par un mouvement</l>
+                            <l>Que la nature juſtifie</l>
+                            <l>N'aſpire qu'à punir les tyrans de ma vie :</l>
+                            <l>Mais toi, pere coupable <choice><orig>&amp;</orig><reg>et</reg></choice> bourreau de ton fils,</l>
+                            <l>Tu t'es montré cruel contre toute juſtice,</l>
+                            <l>Contre les droits humains <choice><orig>&amp;</orig><reg>et</reg></choice> les <choice><orig>loix</orig><reg>lois</reg></choice> du pays,</l>
+                            <l>Pour m'enterrer vivant dans un noir précipice.</l>
+                            <l>Quel forfait en naiſſant <choice><orig>avois</orig><reg>avais</reg></choice>-je donc commis ?</l>
+                            <l>C'eſt peu de me cacher à ma Patrie entièére,</l>
+                            <l>Tu m'as tout refuſé <choice><orig>jusques </orig><reg>jusqu'</reg></choice>à la lumiére,</l>
+                            <l>Pour la premiére fois, aujourd'hui j'en jouis.</l>
+                            <l>Dans les transports de sa colére</l>
+                            <l>Contre moi, que <choice><orig>pourroit</orig><reg>pourrait</reg></choice> imaginer de <choice><orig>pis</orig><reg>pire</reg></choice></l>
+                            <l>Le plus mortel de tous mes ennemis ?</l>
+                            <l><choice><orig>Parens</orig><reg>Parents</reg></choice> dénaturés, à vos ordres <choice><orig>biſarres</orig><reg>bizarres</reg></choice>,</l>
+                            <l>Quoi nos jours <choice><orig>innocens</orig><reg>innocents</reg></choice> ſeront-ils aſſervis ?</l>
+                            <l>Serez-vous envers nous impunément barbares,</l>
+                            <l>Et les <choice><orig>reſſentimens</orig><reg>ressentiments</reg></choice> nous ſont ils interdits ?</l>
+                            <l>Non, non, c'eſt une erreur dont vous êtes ſéduits .</l>
+                            <l>Par une ſage prévoyance,</l>
+                            <l>Les équitables Dieux ont bornés vos pouvoirs;</l>
+                            <l>Ainſi que nous, vous avez vos devoirs;</l>
+                            <l>Et, ſi nous vous devons avec l'obéiſſance,</l>
+                            <l>Des marques de respect <choice><orig>&amp;</orig><reg>et</reg></choice> de <choice><orig>reconnoiſſance</orig><reg>reconnaissance</reg></choice>,</l>
+                            <l>Vous nous devez des ſoins, à votre tour,</l>
+                            <l>Conformes à notre naiſſance,</l>
+                            <l>Et des preuves de votre amour.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Si j'ai condamné ton enfance,</l>
+                            <l>C'eſt malgré moi que je l'ai fait;</l>
+                            <l>Et j'ai voulu te ſouſtraire au forfait</l>
+                            <l>Où <choice><orig>devoit</orig><reg>devait</reg></choice> t'entraîner la maligne influence</l>
+                            <l>De l'astre qui <choice><orig>dominoit</orig><reg>dominait</reg></choice>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Mais toi-même, ſans crime, as-tu pû l'entreprendre ?</l>
+                            <l><choice><orig>Etoit</orig><reg>Etait</reg></choice>-ce à toi de lire dans les Cieux ?</l>
+                            <l>Et de vouloir forcer l'ordre des Dieux</l>
+                            <pb n="75"/>
+                            <l>Par d'injustes moyens qu'ils t'<choice><orig>avoient</orig><reg>avaient</reg></choice> <choice><orig>ſçu</orig><reg>su</reg></choice> défendre ?</l>
+                            <l>N'<choice><orig>étoit</orig><reg>était</reg></choice>-ce pas à toi de les laisser agir ?</l>
+                            <l>Et ne <choice><orig>devois</orig><reg>devais</reg></choice>-tu pas attendre</l>
+                            <l>Que je fuſſe coupable, avant de me punir?</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>C'eſt un crime que je répare.</l>
+                            <l>Les  biens dont aujourd'hui te comble ma bonté,</l>
+                            <l>Doivent éteindre un ſouvenir barbare.</l>
+                            <l>Imite ma douceur, <choice><orig>&amp;</orig><reg>et</reg></choice> non ma cruauté.</l>
+                            <l>Du courroux qui t'aigrit, quelque ſoit le murmure</l>
+                            <l>Souviens-toi qu'il eſt beau d'oublier une injure.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Il eſt plus doux de s'en venger:</l>
+                            <l>Et, puiſque de mes fers je me vois dégager,</l>
+                            <l>Puiſqu'enfin mes destins éclaircis par toi-même,</l>
+                            <l>Me rendent l'héritier de ton pouvoir ſuprême,</l>
+                            <l>Pour punir mes tyrans, je <choice><orig>ſçaurai</orig><reg>saurai</reg></choice> m'en ſervir :</l>
+                            <l>Leur crime fait trembler par ſa noirceur extrême,</l>
+                            <l>Ma vengeance fera frémir.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Fils inhumain, c'eſt trop te <choice><orig>méconnoître</orig><reg>méconnaître</reg></choice>;</l>
+                            <l>Tu crois déja régner, <choice><orig>&amp;</orig><reg>et</reg></choice> me parles en maître.</l>
+                            <l>Rentre en toi-même, <choice><orig>&amp;</orig><reg>et</reg></choice> ſors de ton erreur;</l>
+                            <l>Loin de t'enorgueillir d'une vaine grandeur</l>
+                            <l>Que tu ne dois qu'à ma tendreſſe,</l>
+                            <l>Regardes-la plûtôt comme un ſonge trompeur,</l>
+                            <l>Qui te séduit par son <choice><orig>yvresse</orig><reg>ivresse</reg></choice>.</l>
+                            <l>Repends-toi d'écouter ta fureur vengereſſe ;</l>
+                            <l>Crains de dormir encore dans tes tranſports divers,</l>
+                            <l>Et tremble à ton réveil de te voir dans les fers,</l>
+                            <l>Et dans ta première baſſeſſe.</l>
+                            <stage type="exit"><hi rend="italics">(Il ſort.)</hi></stage>
+                         </sp>
+                        <pb n="76"/>
+                    </div>  
+                    <div type="scene" n="5">
+                        <head>SCENE V.</head>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND </speaker>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
+                            <l><choice><orig><c type="lettrine">S</c>Eroit</orig><reg>Serait</reg></choice>-il vrai, grands Dieux, que mon deſtin <lb/>brillant</l>
+                            <l><choice><orig>Fût</orig><reg>Fut</reg></choice> d'un ſonge impoſteur, l'Ouvrage fantaſtique</l>
+                            <l>Verrai-je, malheureux ! ma grandeur chimérique?</l>
+                            <l>S'évanouir en m'éveillant ?</l>
+                            <l>Rentrerai-je en mes fers ? ... Non, je ne puis le <lb/>croire.</l>
+                            <l>Chaque objet qui me frape, <choice><orig>&amp;</orig><reg>et</reg></choice> chaque événement,</l>
+                            <l>Pour n'être qu'un vain ſonge, au fond de ma mémoire</l>
+                            <l>Se grave trop profondément.</l>
+                            <l>Chaſſons de mon eſprit une terreur ſi noire,</l>
+                            <l>Quand de la vérité ma raiſon me répond :</l>
+                            <l>Et, pour douter un instant de ma gloire,</l>
+                            <l>Je ſens trop que je ſuis le Prince <name type="person" n="Sigismond">Sigiſmond</name>,</l>
+                            <l>Je le ſens encore mieux aux <choice><orig>mouvemens</orig><reg>mouvements</reg></choice> de rage</l>
+                            <l>Dont mon Pere a rempli mes eſprits furieux.</l>
+                            <l>Tout ce qui s'offre à moi me <choice><orig>paroît</orig><reg>paraît</reg></choice> odieux.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="6">
+                        <head>SCENE VI.</head>
+                        <stage>SIGISMOND, ARLEQUIN.</stage>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l><c type="lettrine">N</c>Ous allons voir un beau tapage,</l>
+                            <l>Mais il eſt en fureur, <choice><orig>&amp;</orig><reg>et</reg></choice> je ſuis ſeul ici.</l>
+                            <l part="I">Je tremble.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="F">Qui donc es-tu ? <sic>Di</sic><corr>Dis</corr>.</l>
+                        </sp>
+                        <pb n="77"/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Ah ! je lui <choice><orig>dirois</orig><reg>dirais</reg></choice> bien qu'<name type="person" n="Arlequin">Arlequin</name> eſt son frere,</l>
+                            <l>Mais il a, le brutal, trop mal reçu ſon Pere.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Répons-moi donc. Quelle eſt ta qualité ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Quel air rébarbatif! J'en ſuis épouvanté.</l>
+                            <stage type="delivery"><hi rend="italics">(haut)</hi></stage>
+                            <l>Seigneur, je suis...</l>
+                            <stage type="delivery"><hi rend="italics">(bas)</hi></stage>
+                            <l>Je crains qu'il ne m'aſſomme.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Veux-tu parler ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker>
+                            <l part="F">Je ſuis... je ſuis un Gntilhomme.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Est-ce de la Cour du Roi ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="F">Non.</l>
+                            <l>Un Gentilhomme, là... de converſation.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>De conversation! par-là que veux-tu dire ?</l>
+                        </sp>   
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Je veux dire autrement? Gentilhomme bouffon;</l>
+                            <l>Ou Gentilhomme qui fait rire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Fais moi rire.</l>
+                        </sp>   
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="F">Ah ! Voilà pour m'interdire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Veux-tu me faire rire ?</l>
+                        </sp>   
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l part="F">Il me le dit d'un ton</l>
+                            <l>À me faire trembler. La terreur qu'il m'<sic>inpire</sic><corr>inspire</corr></l>
+                            <l>Me donne déjà le friſſon.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Quand me feras-tu rire, hem ?</l>
+                        </sp>   
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="F">Tout-à-l'heure, Sire.</l>
+                            <stage type="delivery"><hi rend="italics">[à part]</hi></stage>
+                            <pb n="78"/>
+                            <l>D'y réuſſir je ne puis me flatter.</l>
+                            <l>Son viſage me deſeſpére.</l>
+                        </sp>    
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Fais-moi rire au plus-<choice><orig>vîte</orig><reg>vite</reg></choice>, ou je te fais ſauter</l>
+                            <l part="I">Du haut de ce balcon.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l part="F">Il eſt homme à le faire.</l>
+                            <l>C'eſt ainſ qu'à la Cour on ſe voit balotté :</l>
+                            <l>J'<choice><orig>étois</orig><reg>étais</reg></choice> tantôt <choice><orig>jetteur</orig><reg>jeteur</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> vais <sic>êtte</sic><corr>être</corr> <choice><orig>jetté</orig><reg>jeté</reg></choice>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Puiſque je ne ris point, ton audace punie...</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker><lb/>
+                            <l>Sire, un moment. <stage type="delivery"><hi rend="italics">(à part.)</hi></stage> Quel eſt mon ſort infortuné !</l>
+                            <stage type="delivery"><hi rend="italics">(haut.)</hi></stage>
+                            <l>Riez-vous <sic>vous</sic><corr></corr> aiſément, dites-moi, je vous prie ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Non, je n'ai jamais ri depuis que je ſuis né.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Ah ! Gare le balcon ! C'eſt fait de notre vie.</l>
+                            <l>Malheureux <name type="person" n="Arlequin">Arlequin</name>, tu vas faire le ſaut.</l>
+                            <l>Voyons un peu s'il eſt bien haut.</l>
+                            <l>Sa hauteur m'épouvante, <choice><orig>&amp;</orig><reg>et</reg></choice> d'horreur j'en friſſonne.</l>
+                            <l>Avant d'expoſer ma perſonne,</l>
+                            <l>Je vois qu'il eſt de mon honneur</l>
+                            <l>De faire rire Monſeigneur ;</l>
+                            <l>De bien réjouir ſon Alteſſe,</l>
+                            <l>À preſent je ſuis en humeur.</l>
+                            <stage type="business"><hi rend="italics">(après plusieurs Lazzis.)</hi></stage>
+                            <l>Je ne vous fais pas rire ? Et cette gentilleſſe...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Non, tu me fais plûtôt dépit.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Cette mine, <choice><orig>avoués</orig><reg>avouez</reg></choice> qu'elle vous divertit.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Elle me révolte, au contraire.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Il me fera perdre l'eſprit.</l>
+                            <pb n="79"/>
+                            <stage><hi rend="italics">[haut.]</hi></stage><lb/>
+                            <l>Et ce lazzi que vous me voyez faire, </l>
+                            <l>Ne le trouvez-vous pas charmant ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Il me <choice><orig>paroît</orig><reg>paraît</reg></choice> impertinent.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Cet entrechat a-t-il l'art de vous plaire ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Il a celui de me mettre en colére.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Je ſuis au bout de mon rôle à preſent.</l>
+                            <l>Que deviendrai-je, miſérable ?</l>
+                            <lb/><stage type="delivery"><hi rend="italics">(haut.)</hi></stage><lb/>
+                            <l part="I">Prince, êtes-vous chatouilleux ?</l>
+                            <lb/><stage type="action"><hi rend="italics">(il le chatouille.)</hi></stage><lb/>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="F">Insolent,</l>
+                            <l>Tu vas ſervir d'exemple à tout mauvais plaiſant.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">ſe jettant à ſes pieds.</hi></stage><lb/>
+                            <l>Ayés pitié d'un miſérable !</l>
+                            <l>J'ai <choice><orig>crû</orig><reg>cru</reg></choice> vous faire rire <choice><orig>&amp;</orig><reg>et</reg></choice> je ſuis pardonnable.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Il n'eſt qu'un ſeul moyen de te ſauver le jour,</l>
+                            <l>C'eſt de m'aprendre, ſans détour,</l>
+                            <l>Deux choſes, que je veux <choice><orig>connoître</orig><reg>connaître</reg></choice> :</l>
+                            <l>Premiérement, dis-moi, dans cette Cour,</l>
+                            <l>Si je ſuis en effet le maître ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>N'en doutés pas, Seigneur, puiſqu'il dépend de vous</l>
+                            <l>De me <choice><orig>jetter</orig><reg>jeter</reg></choice> par la fenêtre :</l>
+                            <l>Votre bras vous répond des hommages de tous.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ce n'eſt pas tout, il faut m'inſtruire</l>
+                            <l>De tous les Grands de cet Empire,</l>
+                            <l>Qui ſont du ſang Royal ſortis :</l>
+                            <l>Je veux tous les <choice><orig>connoître</orig><reg>connaître</reg></choice>, afin de les détruire ;</l>
+                            <l>Deſcendus de <name type="person" n="Basile">Baſile</name>, ils ſont mes ennemis.</l>
+                        </sp>
+                        <pb n="80"/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="action"><hi rend="italics">tirant un almanach de ſa poche.</hi></stage><lb/>
+                            <l>Cet Almanach va vous le dire.</l>
+                            <l>Tenez, Sire, (on vous a, ſans doute, apris à lire,)</l>
+                            <l>Vous verrez là-dedans tous les noms des proſcrits.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Lis toi-même.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="M">Seigneur...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="F">Lis donc ſans plus remettre.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Lisons, quand je <choice><orig>dévrois</orig><reg>devrais</reg></choice> <choice><orig>épeller</orig><reg>épeler</reg></choice> chaque lettre.</l>
+                            <stage type="delivery"><hi rend="italics">(il lit.)</hi></stage>
+                            <l><hi rend="italics"><name type='person' n='Fédéric'></name>Fédéric, âgé de trente ans,</hi></l>
+                            <l><hi rend="italics">Neveu du Roi, Grand Duc de Moſcovie.</hi></l>
+                            <stage type="business"><hi rend="italics">(il s'interrompt.)</hi></stage>
+                            <l>Sur le Trône ce Duc <choice><orig>comptoit</orig><reg>comptait</reg></choice> depuis <choice><orig>long-tems</orig><reg>longtemps</reg></choice></l>
+                            <l part="I">Mais il <choice><orig>comptoit</orig><reg>comptait</reg></choice> ſans l'Hôte.</l>
+                            <stage type="business"><hi rend="italics">(il continue à lire.)</hi></stage>
+                            <l part="F"><hi rend="italics"><name type="person" n="Sophronie">Sophronie</name>,</hi></l>
+                            <l><hi rend="italics">Dans ſa vingtième année, <choice><orig>&amp;</orig><reg>et</reg></choice> Niéce auſſi du Roi, </hi></l>
+                            <stage type="delivery"><hi rend="italics">(il parle.)</hi></stage>
+                            <l>Seigneur, vous avez là, ma foi,</l>
+                            <l>Une cousine fort jolie :</l>
+                            <l>C'eſt dommage, s'il faut qu'elle perde la vie.</l>
+                            <l>Je l'aperçois qui vient, jugés-en par vos yeux.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Que de beautés ! Voilà le chef-d'oeuvre des Dieux.</l>
+                            <l>J'oublie, en la voyant, qu'elle eſt mon ennemie.</l>
+                            <l part="I">Mes ſens ſont enchantés.</l>
+                        </sp>
+                        <pb n="81"/>
+                    </div>
+                    <div type="scene" n="7">
+                        <head>SCENE VII.</head>
+                        <stage>SIGISMOND, SOPHRONIE.</stage>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/><lb/>
+                            <l part="F"><c type="lettrine">S</c>Eigneur, vous voulez bien</l>
+                            <l>Que je vous rende ici mon hommage ſincère.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ah ! recevez plûtôt le mien,</l>
+                            <l>Princeſſe : à mes regards cette Cour n'offre rien</l>
+                            <l>Que n'efface d'abord votre vive lumiére.</l>
+                            <l>Quel changement en moi votre asſpect vient de <lb/>faire !</l>
+                            <l>Je ne ſuis plus le même. A cet aimable aſpect,</l>
+                            <l>Je me ſens <choice><orig>entraîner</orig><reg>entraîné</reg></choice> par un deſir rapide,</l>
+                            <l>Et retenir par le reſpect.</l>
+                            <l>Vous enflammez mon cur, <choice><orig>&amp;</orig><reg>et</reg></choice> le rendez timide.</l>
+                            <l>De vos yeux l'éclat eſt ſi doux,</l>
+                            <l>Que je n'admire plus l'Astre qui nous éclaire ;</l>
+                            <l>Leur charme eſt ſi puiſſant, qu'il ſuſpend mon cour-<lb/>roux.</l>
+                            <l>S'il me ſouvient encore des cruautés d'un pere,</l>
+                            <l>C'eſt pour m'avoir privé ſi <choice><orig>long-tems</orig><reg>longtemps</reg></choice> du bonheur</l>
+                            <l>De voir tant de beautés, que mon ame préfére</l>
+                            <l>À tout ce que le ſceptre offre de ſéducteur ;</l>
+                            <l>C'eſt pour m'avoir caché juſqu'ici mon vainqueur ;</l>
+                            <l>Et ne m'avoir pas fait plus digne de lui plaire.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Seigneur, un tel accueil a lieu de m'étonner.</l>
+                            <l>J'ai cru ne voir en vous qu'un ennemi terrible,</l>
+                            <l>Que contre tous les ſiens doivent trop indigner</l>
+                            <l>Vingt ans d'une priſon horible.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Après vous avoir <choice><orig>vûe</orig><reg>vue</reg></choice>, ah ! peut-on vous haïr ?</l>
+                            <l>Des injuſtes <choice><orig>tourmens</orig><reg>tourments</reg></choice> que l'on m'a fait ſouffrir</l>
+                            <pb n="82"/>
+                            <l>Vous n'êtes point d'ailleurs coupable ?</l>
+                            <l>Et, quand vous en ſeriez l'auteur,</l>
+                            <l>Le Ciel vous forma trop aimable,</l>
+                            <l>Pour ne pas triompher de toute ma fureur.</l>
+                            <l>Il n'eſt rien que vos yeux ne rendent excuſable.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Vous redoublez ma ſurpriſe, Seigneur.</l>
+                            <l>Quoi ! vous me <choice><orig>connoiſſez</orig><reg>connaissez</reg></choice>, vous me parlez à peine,</l>
+                            <l>Et vous me faites voir les feux les plus <choice><orig>ardens</orig><reg>ardents</reg></choice>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                           <speaker>SIGISMOND.</speaker><lb/>
+                           <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice>, mais enfin voilà ce que je ſens :</l>
+                           <l>Tel eſt l'effet subit de l'amour qui m'entraîne ;</l>
+                           <l>Du cur de votre Prince il vous rend Souveraine,</l>
+                            <l>De la <name type="place">Pologne</name> en <choice><orig>même-tems</orig><reg>même temps</reg></choice> ;</l>
+                           <l>Charmante <name type="person" n="Sophronie">Sophronie</name>, ils vous déclare Reine.</l>
+                           <l>Le Trône eſt votre rang ; vous l'avez mérité,</l>
+                           <l>Et par droit de naiſſance, <choice><orig>&amp;</orig><reg>et</reg></choice> par droit de beauté.</l>
+                           <l>Vous ne répondez point. Que faut-il que je penſe,</l>
+                           <l>Et de votre embarras, <choice><orig>&amp;</orig><reg>et</reg></choice> de votre ſilence ?</l>
+                           <l>Haïriez-vous le Trône avec moi partagé ?</l>
+                           <l>S'il <choice><orig>étoit</orig><reg>était</reg></choice> vrai, quel coup pour mon coeur qui vous <lb/>aime !</l>
+                           <l>Les maux, où dans ma Tour je me ſuis <choice><orig>vû</orig><reg>vu</reg></choice> plongé,</l>
+                           <l><choice><orig>Seroient</orig><reg>Seraient</reg></choice> doux, comparés à ce malheur extrême.</l>
+                       </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Je vois dans vos tranſports régner tant de candeur,</l>
+                            <l>Que je dois les payer d'une entiére franchiſe :</l>
+                            <l>Et, comme la vertu préſide à votre ardeur,</l>
+                            <l>Elle m'engage, <choice><orig>&amp;</orig><reg>et</reg></choice> m'autoriſe</l> 
+                            <l>A vous dévoiler tout mon coeur :</l>
+                            <l>Aprenez que j'en ſuis souveraine maîtreſſe,</l>
+                            <l>Et que <choice><orig>toûjours</orig><reg>toujours</reg></choice> il brava la tendreſſe : </l>
+                            <l>Des courtiſans <choice><orig>flateurs</orig><reg>flatteurs</reg></choice> le langage affecté,</l>
+                            <l>Leurs vices traveſtis avec leur habileté,</l>
+                            <l>Sous les dehors trompeurs d'une humble politeſſe,</l>
+                            <l>Et leurs hommages faux, l'ont toujours révolté ;</l>
+                            <l>Leur ardeur peu ſincére <choice><orig>&amp;</orig><reg>et</reg></choice> ſans délicateſſe,</l>
+                            <l>Leur penchant invincible à l'infidélité,</l>
+                            <pb n="83"/>
+                            <l>L'ont garanti de ſa <choice><orig>foibleſſe</orig><reg>faiblesse</reg></choice>;</l>
+                            <l>Il s'eſt armé <choice><orig>contr'eux</orig><reg>contre eux</reg></choice> d'une juſte fierté :</l>
+                            <l>En s'éloignant du ſein de la nature aimable,</l>
+                            <l>Ils ont rendu l'amour, à mes yeux, mépriſable.</l>
+                            <l>Vous ſeul, Seigneur, me l'avez préſenté</l>
+                            <l>Sous une forme redoutable,</l>
+                            <l>Tel que je le <choice><orig>craindrois</orig><reg>craindrais</reg></choice> pour ma tranquilité ;</l>
+                            <l>Vous me l'avez fait voir plein d'ingénuité,</l>
+                            <l>Accompagné d'un trouble véritable,</l>
+                            <l>Et mêlé de reſpect <choice><orig>&amp;</orig><reg>et</reg></choice> de timidité.</l>
+                            <l>Si ſa voix à mon cur <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> se faire entendre,</l>
+                            <l>C'eſt en votre faveur qu'elle lui <choice><orig>parleroit</orig><reg>parlerait</reg></choice> ;</l>
+                            <l>Et, ſi ce coeur <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> ſe rendre,</l>
+                            <l>c'eſt à vos feux qu'il ſe <choice><orig>rendroit</orig><reg>rendrait</reg></choice>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Si mon amour vous plaît, pourquoi vous en défendre</l>
+                            <l>Et pourquoi ne pas accepter</l>
+                            <l>Le ſceptre, où vous devez prétendre,</l>
+                            <l>Et qu'orneront vos mains en daignant le porter ?</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Du bien que vous m'offrez, je ſuis<choice><orig>reconnoiſſante</orig><reg>reconnaissante</reg></choice> ;</l>
+                            <l>C'eſt tout ce que pour vous je puis faire éclater.</l>
+                            <l>Plus je ſuis près du rang qu'on me preſente,</l>
+                            <l>Et moins je ſuis maîtreſſe d'y monter.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Et, de qui donc êtes-vous dépendante,</l>
+                            <l>Vous, faite pour régner, <choice><orig>&amp;</orig><reg>et</reg></choice> pour donner la loi <unclear>?</unclear></l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>De votre Pere, de mon Roi.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Quoi, ſur vous le Barbare étend ſa tyrannie ?</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>C'eſt un droit naturel qu'il a ſur <name type="person" n="Sophronie">Sophronie</name>.</l>
+                            <l>Il a ſeul le pouvoir de diſpoſer de moi :</l>
+                            <l>A vos vux ſon choix eſt contraire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ah ! je cours trouver l'Inhumain ;</l>
+                            <l part="I">Et ma rage...</l>
+                        </sp>
+                        <pb n="84"/>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker>
+                            <l part="F">Arrêtez. Quel eſt votre deſſein ?</l>
+                            <l>Est-ce par la fureur que vous croyez me plaire ?</l>
+                            <l>À ce tranſport mettez plutôt un frein.</l>
+                            <l>Contre un Pere, Seigneur, <choice><orig>&amp;</orig><reg>et</reg></choice> contre un Souverain,</l>
+                            <l>Jamais elle n'est légitime...</l>
+                            <l><name type="person" n="Basile">Baſile</name> eſt ſeul maître de mon deſtin,</l>
+                            <l>On ne peut, à ſes <choice><orig>loix</orig><reg>lois</reg></choice>, me ſouſtraire ſans crime.</l>
+                            <l>Par d'autres <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> méritez mon eſtime ;</l>
+                            <l>Et gravez bien dans votre ſouvenir</l>
+                            <l>Que la vertu la peut ſeule obtenir.</l>
+                            <l part="I">Adieu.</l>
+                        </sp>
+                    </div>  
+                    <div type="scene" n="8">
+                        <head>SCENE VIII.</head><lb/>
+                        <stage>SIGISMOND, ARLEQUIN.</stage><lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l><c type="lettrine">P</c>Rinceſſe, hé bien, j'étoufferai ma haine :</l>
+                            <l>Mais d'un ſi noble effort vous ſerez donc le prix.</l>
+                            <l>Avec vous je ſuivrai la clémence ſans peine ;</l>
+                            <l>Je ſerai généreux envers mes ennemis :</l>
+                            <l>Mais, ſans vous, il n'eſt point de frein qui me retienne ;</l>
+                            <l>A mon reſſentiment tout deviendra permis.</l>
+                            <l>Il faut que tout périſſe, <choice><orig>où</orig><reg>ou</reg></choice> que je vous obtienne.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Hé bien, Seigneur, peut-on <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> de vous</l>
+                            <l>Comment vous trouvez la Princeſſe ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> digne enfin de toute ma tendreſſe :</l>
+                            <l>Sa beauté, dans mon ſein, allume tant de feux,</l>
+                            <l>Que pour m'en voir le poſſeſſeur heureux,</l>
+                            <l>Je ſuis prêt d'oublier tout ce qu'a fait mon Pere.</l>
+                            <l>Elle a, dans un inſtant changé mon caractére ;</l>
+                            <l>Le ſeul ſon de ſa voix a dompté ma fureur ;</l>
+                            <l>La douceur de ſes yeux a paſſé dans mon cur ;</l>
+                            <pb n="85"/>
+                            <l>Elle vient de verſer dans mon ame charmée,</l>
+                            <l>Le déſir de la gloire, <choice><orig>&amp;</orig><reg>et</reg></choice> l'oubli de mes maux :</l>
+                            <l>Pour la ſeule vertu, je la ſens enflammée,</l>
+                            <l>Et, d'un tyran en moi, l'amour fait un héros.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                             <speaker>ARLEQUIN.</speaker><lb/>
+                             <l>Seigneur, ma joie en eſt extrême ;</l>
+                             <l>Mais je crains fort pour votre amour,</l>
+                             <l>Que <name type='person' n="Fédéric">Monſieur Fédéric</name> qui l'aime,</l>
+                            <l>Ne vous la ſouffle dans ce jour.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Dieux ! <name type='person' n="Fédéric">Fédéric</name> brûle pour elle !</l>
+                            <l>Il aſpire à ſa main ! Mais, <choice><orig>parles</orig><reg>parle</reg></choice>, est-il aimé ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Non, elle a pour ce Prince une haine mortelle ;</l>
+                            <l>Mais vous n'en devez pas être moins <choice><orig>allarmé</orig><reg>alarmé</reg></choice>,</l>
+                            <l>Car le bruit court que le Roi la lui donne,</l>
+                            <l>Pour le conſoler, entre nous,</l>
+                            <l>De la perte de la couronne.</l>
+                            <l>On dit que dans trois jours il ſera ſon époux.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Le perfide, plûtôt, périra ſous mes coups.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Vous pouvez lui parle, car je le vois <choice><orig>paroître</orig><reg>paraître</reg></choice>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>A son aſpect, je ne ſuis plus le maître</l>
+                            <l>De mes <choice><orig>reſſentimens</orig><reg>ressentiments</reg></choice> jaloux.</l>
+                        </sp>
+                    </div>                   
+                    <div type="scene" n="9">
+                        <head>SCENE IX.</head>
+                        <stage>SIGISMOND, FEDERIC, ARLEQUIN.</stage>
+                        <sp who="Fédéric">
+                            <speaker>FEDERIC.</speaker><lb/>
+                            <l><c type="lettrine">P</c>Rince dont le noble courage...</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Epargnez-vous un vain hommage,</l>
+                            <l>Qui gêne votre cur, <choice><orig>&amp;</orig><reg>et</reg></choice> révolte le mien.</l>
+                        </sp>
+                        <pb n="86"/>
+                        <sp who="Fédéric">
+                            <speaker>FEDERIC.</speaker><lb/>
+                            <l>Seigneur, vous offenſez <name type='person' n='Fédéric'>le Duc de Moſcovie</name>,</l>
+                            <l>L'hommage qu'il vous rend ne le contraint pas en rien,</l>
+                            <l>Puiſqu'il vient vous prier d'aprouver le lien</l>
+                            <l>Qui doit l'unir à <name type="person" n="Sophronie">Sophronie</name>.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ah ! Téméraire, oſes-tu bien</l>
+                            <l>Me parler d'aprouver un lien qui m'outrage ?</l>
+                            <l>Renonces-y toi-même, ou mon juſte courroux...</l>
+                        </sp>
+                        <sp who="Fédéric">
+                            <speaker>FEDERIC.</speaker><lb/>
+                            <l>Je demeure ſurpris d'un accueil ſi ſauvage ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Aprens qu'à cet objet ſi doux,</l>
+                            <l>Ma main deſtine un autre époux.</l>
+                        </sp>
+                        <sp who="Fédéric">
+                            <speaker>FEDERIC.</speaker><lb/>
+                            <l>Qui peut me diſputer la prînceſſe que j'aime ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Un rival indigné de ton audace extrême,</l>
+                            <l>Seul digne d'obtenir ſa foi,</l>
+                            <l>Puîſqu'il eſt au-deſſus de toi, </l>
+                            <l>Et puiſqu'enfin c'eſt <name type="person" n="Sigismond">Sigiſmond</name> lui-même.</l>
+                        </sp>
+                        <sp who="Fédéric">
+                            <speaker>FEDERIC.</speaker><lb/>
+                            <l>Seigneur, à votre rang je <choice><orig>ſçai</orig><reg>sais</reg></choice> ce que je <choice><orig>doi</orig><reg>dois</reg></choice> ;</l>
+                            <l>Mais j'ai le ſuffrage du Roi,</l>
+                            <l>Et vous-même y devez ſouſcrire.</l>
+                        </sp>
+                    </div>                    
+                    <div type="scene" n="10">
+                        <head>SCENE X.</head>
+                        <stage><hi rend="italics">Les Acteurs précédens</hi>, LE ROI.</stage>
+                        <sp who="Basile">
+                            <speaker>LE ROI </speaker> 
+                            <stage><hi rend="italics">à <name type="person" n="Sigismond">Sigiſmond</name>.</hi></stage><lb/>
+                            <l><c type="lettrine">O</c>Ui, Prince, ſon hymen eſt aprouvé par moi ;</l>
+                            <l>Songez que mon ſuffrage eſt pour vous une loi ;</l>
+                            <l>Ces nuds ſont <choice><orig>importans</orig><reg>importants</reg></choice> au repos de l'empire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Eſt-ce aux dépens du mien qu'on prétend l'acheter ?</l>
+                            <pb n="87"/>
+                            <l>Pour la Princeſſe je ſoupire ;</l>
+                            <l>Avant de la céder, il faudra que j'expire :</l>
+                            <l>Mon amour ſeul doit ſe faire écouter.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Un Roi n'écoute point l'amour ni ſon caprice,</l>
+                            <l>Il n'entend, il ne ſuit que la ſeule juſtice ;</l>
+                            <l>Et c'eſt à vous de m'imiter :</l>
+                            <l>Aprenez à régner par cet effort ſuprême ;</l>
+                            <l>Et, pour mieux affermir la paix,</l>
+                            <l>Commencez par mettre, vous-même,</l>
+                            <l>Vos injuſtes déſirs au rang de vos Sujets.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Mes déſirs ſont trop purs pour que je les immole.</l>
+                            <l>Que dis-je ? La Princeſſe abhorre mon Rival,</l>
+                            <l>Et ſon coeur eſt contraire à cet hymen fatal</l>
+                            <l>Vous-même, retirez une injuſte parole.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Qu'oſez-vous propoſer ? La parole des Rois,</l>
+                            <l>Comme celle des Dieux, doit être inviolable :</l>
+                            <l>J'ai prononcé pour lui, ſouſcrivez à ce choix ;</l>
+                            <l>C'eſt un arrêt irrévocable.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ah ! Tyran, c'en eſt trop ; cet arrêt inhumain</l>
+                            <l>Vient de rallumer dans mon ſein</l>
+                            <l>Les feux de mon courroux, avec plus de furie : </l>
+                            <l>Les reſpects, les égards que j'ai pour <name type="person" n="Sophronie">Sophronie</name>,</l>
+                            <l>Et l'eſpoir d'obtenir ſa main,</l>
+                            <l><choice><orig>Pouvoient</orig><reg>Pouvaient</reg></choice> ſeuls retenir la haine qui m'enflâme ;</l>
+                            <l>Ce tréſor accordé <choice><orig>pouvoit</orig><reg>pouvait</reg></choice> ſeul de mon ame</l>
+                            <l>Effacer, aujourd'hui, tant d'outrages reçûs.</l>
+                            <l>Ton impitoyable refus,</l>
+                            <l>Et l'odieuſe préférence</l>
+                            <l>Que vient de donner ta puiſſance</l>
+                            <l>Au plus grand de mes ennemis,</l>
+                            <l>Du joug de la nature affranchiſſent ton fils ;</l>
+                            <l>Et ce nouvel affront qui groſſit les tempêtes</l>
+                            <l>Qui vont tomber ſur vos deux têtes,</l>
+                            <l>Surpaſſe <choice><orig>&amp;</orig><reg>et</reg></choice> comble enfin tous ceux que tu m'as faits <unclear>.</unclear></l>
+                            <pb n="88"/>
+                            <l>Plus d'acord entre nous, plus de paix déſormais ;</l>
+                            <l>Je ne ſuis plus ton fils, pere indigne de l'être,</l>
+                            <l>Que pour m'armer de mes droits contre toi :</l>
+                            <l>Crains, dans ton propre état, de n'être plus le maître.</l>
+                            <l>Inſtruit de mes deſtins, tout le pe<sic>n</sic><corr>u</corr>ple eſt pour moi.</l>
+                            <l>Tremble, frémis de te voir ſous ma loi ;</l>
+                            <l>Ma bouche te déclare une immortelle guerre :</l>
+                            <l>Et j'atteſte le Dieu du Ciel <choice><orig>&amp;</orig><reg>et</reg></choice> de la Terre,</l>
+                            <l>Que je ne verrai point <choice><orig>reparoître</orig><reg>reparaître</reg></choice> le jour,</l>
+                            <l>Que mon bras, armé du tonnerre,</l>
+                            <l>De mes Tyrans affreux n'ait purgé cette Cour.</l>                            
+                        </sp>
+                    </div>
+                    <div type="scene" n="11">
+                        <head>SCENE XI.</head>    
+                           <stage>LE ROI, FEDERIC.</stage>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/><lb/>
+                            <l><c type="lettrine">V</c>A, je t'empêcherai, Barbare,</l>
+                            <l>D'exécuter les criminels projets</l>
+                            <l>Où ton emportement t'égare ;</l>
+                            <l>Ma prudence <choice><orig>ſçaura</orig><reg>saura</reg></choice> t'épargner des forfaits.</l>
+                            <l>Le moyen dont, ſans fruit, s'eſt ſervi ma tendreſſe</l>
+                            <l>Pour rendre un Fils à mes Etats,</l>
+                            <l>Je <choice><orig>prétens</orig><reg>prétends</reg></choice> l'employer pour enchaîner ſon bras,</l>
+                            <l>Et garantir mes jours du péril qui les preſſe.</l>
+                        </sp>
+                    </div> 
+                    <pb n="89"/>
+                    <div type="scene" n="12">
+                        <head>SCENE XII.</head>
+                        <stage><hi rend="italics">Les Acteurs précédens</hi>, SOPHRONIE.</stage>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l><c type="lettrine">J</c>E viens vous implorer, Seigneur, pour votre fils ; </l>
+                            <l>Pardonnez un tranſport dont mes yeux sont la <lb/>cauſe,</l>
+                            <l>Et ſongez que ma main ne peut être le prix...</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>C'eſt pour vous couronner qu'aujourd'hui j'en diſpose;</l>
+                            <l>Sur mon trône, tous deux, vous allez être aſſis.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l part="I">Votre fils doit lui ſeul...</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l part="F">Non, ce fils trop fidèle </l>
+                            <l>A me juſtifier, par ſon humeur cruelle,</l>
+                            <l>Ce qu'ont prédit de lui les aſtres ennemis,</l>
+                            <l>Vient d'épuiſer l'amitié paternelle ;</l>
+                            <l>La priſon qui fut ſon berceau,</l>
+                            <l>Va devenir ſa demeure éternelle,</l>
+                            <l>Et ſera ſon tombeau.</l>
+                            <l>On <choice><orig>ſçaura</orig><reg>saura</reg></choice> dans la tour, le convaincre ſans peine,</l>
+                            <l>Que tout l'éclat de la grandeur humaine,</l>
+                            <l>Qui dans ce moment l'éblouit,</l>
+                            <l><choice><orig>Diſparoît</orig><reg>Disparait</reg></choice> comme une ombre, aux yeux qu'elle ſé-<lb/>duit,</l>
+                            <l>Et n'eſt rien qu'une vapeur vaine</l>
+                            <l>Que le ſommeil enfante, <choice><orig>&amp;</orig><reg>et</reg></choice> le réveil détruit.</l>
+                        </sp>
+                        <stage type="exit"><hi rend="italics">(Il ſort avec  <name type="person" n="Fédéric">Fédéric</name>.)</hi></stage>
+                    </div>
+                    <pb n="90"/>
+                    <div type="scene" n="13">
+                        <head>SCENE XIII.</head>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE </speaker>
+                            <stage><hi rend="italics">ſeule</hi>.</stage> <lb/>
+                            <l><c type="lettrine">A</c>H ! plûtôt que ta barbarie</l>
+                            <l>Prives ton fils du pouvoir Souverain,</l>
+                            <l>Et qu'un hymen funeſte à  <name type="person" n="Fédéric">Fédéric</name> me lie,</l>
+                            <l>Il faudra, Roi cruel, que tu perces mon ſein,</l>
+                            <l>Ou qu'avec <name type="person" n="Sigismond">Sigiſmond</name> tu me rendes captive.</l>
+                            <l>En faveur de ce fils dont je fais le malheur,</l>
+                            <l>Et pour qui je reſſens la pitié la plus vive,</l>
+                            <l>Il n'eſt rien qu'en ta cour ne tente ma douleur.</l>
+                            <l>Quand je ſonge, grands Dieux ! que ce prince qui <lb/> m'aime</l>
+                            <l>Va rentrer dans la nuit de ſon affreuſe tour,</l>
+                            <l>Je ne ſuis plus maîtreſſe de moi-même;</l>
+                            <l>Et la part que je <choice><orig>prens</orig><reg>prends</reg></choice> à ſa diſgrace extrême,</l>
+                            <l>Me fait ſentir que je l'aime à mon tour;</l>
+                            <l>Ma fierté s'en émeut ; mais ce feu qui l'étonne</l>
+                            <l>N'a rien qui bleſſe la vertu ;</l>
+                            <l>Et dans l'affreux péril dont mon ame friſſonne,</l>
+                            <l>Il eſt trop <choice><orig>allarmé</orig><reg>alarmé</reg></choice> pour être combattu ;</l>
+                            <l>À ſon ardeur je m'abandonne.</l>
+                            <l>J'armerai tout l'Etat contre un pere inhumain.</l>
+                            <l>Cher Prince, il eſt juſte qu'enfin</l>
+                            <l>Mon bras t'aſſures une couronne</l>
+                            <l>Qu'a voulu me donner ta généreuſe main,</l>
+                            <l>Et que l'amour répare, en cette conjoncture,</l>
+                            <l>Les outrages <choice><orig>ſanglans</orig><reg>sanglants</reg></choice> que te fait la nature.</l>
+                        </sp>
+                        <lb/>
+                        <lb/>
+                        <trailer rend="center"><hi rend="italics">Fin du ſecond Acte.</hi></trailer>
+                      </div>    
+                </div> 
+                <pb n="91"/>
+                <div type="acte" n="3">
+                    <head>ACTE III.</head>
+                    <stage><hi rend="italics">Le Théâtre repreſente la tour, à la porte de laquelle <lb/>le Prince <name type="person" n="Sigismond">Sigiſmond</name> <choice><orig>paroît</orig><reg>paraît</reg></choice> endormi : <choice><orig>&amp;</orig><reg>et</reg></choice> chargé de <lb/> ſa premiére chaîne.</hi></stage><lb/>
+                    <div type="scene" n="1">
+                        <head>SCENE PREMIERE.</head><lb/>
+                        <stage>SIGISMOND, CLOTALDE, ARLEQUIN, <lb/> GARDES.</stage><lb/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l><c type="lettrine">N</c>On, là-deſſus je ne <choice><orig>ſçaurois</orig><reg>saurais</reg></choice> me taire ;</l>
+                            <l><name type="person" n="Basile">Baſile</name> eſt un bon Roi,</l>
+                            <l>D'accord, mais il eſt mauvais pere :</l>
+                            <l>On ne traita jamais un fils de la maniére.</l>
+                            <stage><hi rend="italique">(à <name type="person" n="Clotalde">Clotalde</name>.)</hi></stage>
+                            <l>Vous avez tort d'avoir pris cet emploi,</l>
+                            <l>Il faut, pour l'exercer, avoir un cur de pierre.</l>
+                            <l>Vous êtes un barbare ; <choice><orig>&amp;</orig><reg>et</reg></choice> jamais ſur la terre...</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Pour réprimer ſes diſcours impudens,</l>                            
+                            <l>Qu'au plus haut de la tour on l'enferme au plus vîte.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Tu me fais enfermer ſans que je le mérite ;</l>
+                            <l>Mais ce qui me conſole, en logeant là-dedans,</l>
+                            <l>C'eſt que j'aurai pour moi tous les honnêtes-gens,</l>
+                            <l>La priſon qu'<name type="person" n="Arlequin">Arlequin</name> partage avec ſon Prince</l>
+                            <l><choice><orig>Sçaura</orig><reg>Saura</reg></choice> lui faire honneur dans toute la Province.</l>
+                            <lb/><stage type="business"><hi rend="italics">On enferme <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage>
+                        </sp>
+                    </div>
+                    <pb n="92"/>
+                    <div type="scene" n="2">
+                        <head>SCENE II.</head><lb/>
+                        <stage>CLOTALDE, SIGISMOND <hi rend="italics">endormi</hi>.</stage><lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND </speaker>
+                            <stage type="business"><hi rend="italics">endormi.</hi></stage><lb/><lb/>
+                            <l><choice><orig><c type="lettrine">M</c>Eure, meure</orig><reg>Meurs, meurs</reg></choice>, <name type="person" n="Clotalde">Clotalde</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> tous mes ennemis !</l>
+                            <l>Tombe le Roi <name type="person" n="Basile">Baſile</name> au pouvoir de ſon fils !</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>Clotalde.</speaker><lb/>
+                            <l>Juſqu'au ſein du repos ſa fureur le tourmente ;</l>
+                            <l>Rien ne peut l'arracher de ſon noir ſouvenir : </l>
+                            <l>Que ſon affreux réveil <choice><orig>ſçaura</orig><reg>saura</reg></choice> l'en punir !</l>
+                            <l>Pour ſes regards ſurpris , quelle image effrayante !</l>
+                            <l>Son ſommeil ſe diſſipe , <choice><orig>&amp;</orig><reg>et</reg></choice> je frémis pour lui.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND </speaker>
+                            <stage type="business"><hi rend="italics">en s'éveillant.</hi></stage><lb/>
+                            <l>Que voi-je , malheureux ! <choice><orig>&amp;</orig><reg>Et</reg></choice> quelle horreur efface</l>
+                            <l>Tout mon bonheur évanoui !</l>
+                            <l>Du ſceptre que j'ai crû poſſéder aujourd'hui,</l>
+                            <l>Mes premiers fers ont pris la place !</l>
+                            <l>Du Trône , je retombe au fond de ma priſon !</l>
+                            <l>O , réveil accablant qui confond ma raiſon !</l>
+                            <l>Le Ciel m'a-t-il trompé par un ſonge agréable,</l>
+                            <l>Pour rendre mon deſtin encore plus déplorable</l>
+                            <l>Par la douleur de la comparaiſon ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE </speaker><lb/>
+                            <l>Dans un profond ſommeil, quel charme inconcevable</l>
+                            <l>A retenu si <choice><orig>long-tems</orig><reg>longtemps</reg></choice> vos eſprits ?</l>
+                            <l>Et quel ſonge funeſte <choice><orig>animoit</orig><reg>animait</reg></choice> votre rage ?</l>
+                            <l>Vous reſpiriez tout haut le ſang <choice><orig>&amp;</orig><reg>et</reg></choice> le carnage.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Je ne <choice><orig>ſçai</orig><reg>sais</reg></choice> que répondre à ce que tu me dis ;</l>
+                            <l>Le trouble de mes ſens eſt ſi grand, que j'ignore</l>
+                            <l>Si je veille en effet, ou ſi je dors encore.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>N'en doutez point, <name type="person" n="Sigismond">Sigiſmond</name>, vous veillez,</l>
+                            <l>Puiſque c'eſt moi qui vous l'aſſure,</l>
+                            <pb n="93"/>
+                            <l>Car je ſuis devant vous, <choice><orig>&amp;</orig><reg>et</reg></choice> que vous me parlez.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Je ne ſuis point ſorti de cette grotte obſcure ?</l>
+                            <l>Ah ! Toute ma grandeur n'eſt donc qu'un ſonge vain ;</l>
+                            <l>Ma prison ſeule eſt vraie, <choice><orig>&amp;</orig><reg>et</reg></choice> mon malheur certain.</l>
+                            <l>Mais non , ce que j'ai vû m'a paru ſi ſenſible,</l>
+                            <l>Et ſi fort éloigné de toute fauſſeté,</l>
+                            <l>Que tout ce qui me frape en ce moment terrible,</l>
+                            <l>Ne <choice><orig>paroît</orig><reg>paraît</reg></choice> pas avoir plus de réalité.</l>
+                            <l>Que dis-je ? Un feu nouveau qui circule en mes veines,</l>
+                            <l>Qui charme en <choice><orig>même-tems</orig><reg>même temps</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> redouble mes peines,</l>
+                            <l>De mon bonheur détruit, prouve la vérité.</l>
+                            <l>J'en ai, pour ſûr garant, l'image qui me reſte </l>
+                            <l>De la beauté qui m'a charmé ;</l>
+                            <l>J'en ai pour ſigne manifeſte</l>
+                            <l>L'amour que dans mon ſein ſes yeux ont allumé.</l>
+                            <l>Je le ſens, cet amour, dont je brûle pour elle ;</l>
+                            <l>Et, pour la démentir, ma flamme eſt trop réelle.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Quel ſonge a ſur vos ſens fait tant d'impreſſion,</l>
+                            <l>Qu'il ait juſqu'à ce point troublé votre raiſon ?</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l><choice><orig>Ecoutes</orig><reg>Écoute</reg></choice>, puiſqu'il faut t'en faire confidence,</l>
+                            <l>Non ce que mon eſprit a vû confuſément</l>
+                            <l>Dans un rêve ſans ſuite, <choice><orig>&amp;</orig><reg>et</reg></choice> plein d'extravagance,</l>
+                            <l>Mais ce qui m'a frapé les yeux ſenſiblement,</l>
+                            <l>Qui m'eſt préſent encore comme un événement,</l>
+                            <l>Rempli de certitude où régne l'évidence,</l>
+                            <l>Et dont j'ai retenu la moindre circonſtance.</l>
+                            <l>À la Cour de <name type="place" n='Pologne'>Pologne</name>, en un Palais brillant,</l>
+                            <l>[O , ſouvenir amer d'une gloire trompeuſe !]</l>
+                            <l>J'ai crû me voir en m'éveillant ;</l>
+                            <l>J'<choice><orig>étois</orig><reg>étais</reg></choice>, alors, vêtu ſuperbement,</l>
+                            <l>Environné d'une foule nombreuſe</l>
+                            <l>Qui me <choice><orig>ſervoit</orig><reg>servait</reg></choice> avec empreſſement.</l>
+                            <l>Je me ſouviens, qu'au fort de mon étonnement,</l>
+                            <l>Je t'ai vû le premier me rendre ton hommage</l>
+                            <l>Et fléchiſſant le genou devant moi,</l>
+                            <pb n="94"/>
+                            <l>Me déclarer que j'<choice><orig>étois</orig><reg>étais</reg></choice> fils du Roi,</l>
+                            <l>Et que ſon Trône <choice><orig>étoit</orig><reg>était</reg></choice> mon héritage.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Sans doute, vous avez, dans ces <choice><orig>momens</orig><reg>moments</reg></choice> heureux,</l>
+                            <l>Reçû votre ſujet en Prince généreux,</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>À ton diſcours, m'armant d'un front ſévere,</l>
+                            <l><name type="person" n="Clotalde">Clotalde</name>, j'ai voulu te punir, au contraire,</l>
+                            <l>D'avoir ſuivi du Roi les ordres rigoureux ?</l>
+                            <l>Et de m'avoir caché ce funeſte myſtére.</l>
+                            <l>Tu n'as pû, qu'en fuyant, te ſouſtraire à mes coups,</l>
+                            <l>Et mon pere s'est vû l'objet de mon courroux.</l>
+                            <l>Mais ce qui s'eſt gravé dans le fond de mon ame,</l>
+                            <l>Avec des traits de flamme</l>
+                            <l>Que rien ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice>effacer,</l>
+                            <l>Une auguſte Princeſſe à mes yeux s'est montrée,</l>
+                            <l>Sa beauté la <choice><orig>rendoit</orig><reg>rendait</reg></choice> digne d'être adorée.</l>
+                            <l>Ah ! ſans douleur, je ne puis y penser.</l>
+                            <l>J'ai déclaré mon feu ſincère,</l>
+                            <l>Elle a paru ne pas s'en offenſer ;</l>
+                            <l>J'<choice><orig>eſpérois</orig><reg>espérais</reg></choice>, par mes ſoins, parvenir à lui plaire,</l>
+                            <l>Quand un Prince odieux, protégé par mon pere,</l>
+                            <l>Dans mon bonheur m'eſt venu traverſer :</l>
+                            <l>Ce coup a réveillé le feu de ma colère,</l>
+                            <l>Et j'ai juré dans mon tranſport,</l>
+                            <l>Qu'avant que le ſoleil redonnât la lumière,</l>
+                            <l>Au ſein de mes tyrans je <choice><orig>porterois</orig><reg>porterais</reg></choice> la mort.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>De l'auteur de votre naiſſance,</l>
+                            <l>Eh quoi, les jours par vous ne ſont pas reſpectés ?</l>
+                            <l>Et ſur moi, qui pris ſoin d'élever votre enfance,</l>
+                            <l>Vous étendez vos cruautés ?</l>
+                            <l>Ah ! <name type="person" n="Sigismond">Sigiſmond</name>, à cet excès barbare,</l>
+                            <l>Pouvez-vous vous porter, même dans le repos ?</l>
+                            <l>En goûtant ſes douceurs, notre coeur se déclare</l>
+                            <l>De l'ame d'un tyran un noir ſonge s'empare,</l>
+                            <l>Il voit toujours du ſang dont il verſe des flots :</l>
+                            <l>Mais la vertu, dont votre eſprit s'égare,</l>
+                            <pb n="95"/>
+                            <l>Juſques dans le ſommeil accompagne un héros.</l>
+                            <l>N'accuſez plus les Dieux ſi vous êtes en bute</l>
+                            <l>A tous les traits de leur courroux ;</l>
+                            <l>Avec juſte raiſon leur bras vous perſécute :</l>
+                            <l>Les <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> cruels qu'on voit <choice><orig>paroître</orig><reg>paraître</reg></choice> en vous,</l>
+                            <l>N'ont que trop, à mes yeux, juſtifié leurs coups.</l>                          
+                            <l>Ce ſonge dont votre ame eſt encore ſi remplie,</l>         
+                            <l>Eh ! pour vous éprouver, qui <choice><orig>ſçait</orig><reg>sait</reg></choice> ſ'il n'eſt point fait ?</l>
+                            <l>Qui <choice><orig>ſçait</orig><reg>sait</reg></choice>, ſi dans ce jour, leur ſageſſe infinie</l>
+                            <l>N'en <choice><orig>ſeroit</orig><reg>serait</reg></choice> pas l'auteur secret ?</l>
+                            <l>Pour vous je tremble dans ce doute.</l>
+                            <l>Je <choice><orig>ſçai</orig><reg>sais</reg></choice> qu'aux immortels votre fureur déplaît ;</l>
+                            <l>Je crains que leur rigueur n'ajoute.</l>                            
+                            <l>À votre châtiment, tout horrible qu'il eſt.</l>
+                            <l><name type="person" n="Sigismond">Sigiſmond</name>, voulez-vous épuiſer leur vengeance ?</l>
+                            <l>Ou croyez-vous que par la cruauté</l>                         
+                            <l>Vous mériterez leur clémence ?</l>                           
+                            <l>Ah ! Dépouillez plûtôt votre férocité,</l>
+                            <l>Et votre orgueîl qui les offenſe ;</l>
+                            <l>Portez-vous au bien conſtamment ;</l>
+                            <l>Et ſongez  que leurs mains verſent leur récompenſe</l>
+                            <l>Juſque ſur la vertu qu'on exerce en dormant.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l><name type="person" n="Sigismond">Sigiſmond</name>, de ton coeur dépouille l'arrogance,</l>
+                            <l>Réprimes tes noires fureurs ;</l>
+                            <l>Que le bien ſoit ton exercice unique,</l>
+                            <l>Et <choice><orig>ſçaches</orig><reg>sache</reg></choice> que les Dieux répandent leurs faveurs</l>
+                            <l>Juſques ſur la vertu qu'en ſonge l'on pratique.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Oui, c'eſt le ſeul moyen d'attirer leur bonté.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Il faut donc vaincre ma fierté.</l>
+                            <l>Par ta voix, comme un trait de flamme,</l>
+                            <l>La vérité, <name type="person" n="Clotalde">Clotalde</name>, a pénétré mon ame ;</l>
+                            <l>Je ne ferai plus rien, même dans mon ſommeil,</l>
+                            <l>Dont je puiſſe jamais rougir à mon réveil.</l>
+                            <l>Mais tout l'éclat de ces richeſſes</l>
+                            <l>Dont j'ai crû jouir cette nuit ?</l>
+                        </sp>
+                        <pb n="96"/>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Eſt un ardent qui trompe, <choice><orig>&amp;</orig><reg>et</reg></choice> qui s'évanouit.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Et ces grandeurs enchantereſſes</l>
+                            <l>Dont les attraits <choice><orig>m'avoient</orig><reg>m'avaient</reg></choice> ſéduit ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Leur jouiſſance eſt un éclair qui fuit.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Et la faveur avec la renommée ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Un vent qui change, une vaine fumée.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Et l'eſpérance ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/> 
+                            <l part="F">Un apas ſéducteur.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l part="I">Et la vie ?</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l part="F">Et la vie eſt un ſnge trompeur.</l>
+                            <l>La vertu seule eſt constante <choice><orig>&amp;</orig><reg>et</reg></choice> réelle ;</l>
+                            <l>Le vrai bonheur eſt dans le bien,</l>
+                            <l>Tout le reste eſt compté po<sic>n</sic><corr>u</corr>r rien.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Ce diſcours me remplit d'une clarté nouvelle ;</l>
+                            <l>J'en ſens toute la force <choice><orig>&amp;</orig><reg>et</reg></choice> la ſublimité ;</l>
+                            <l>Mon eſprit qui n'eſt plus ſéduit par l'aparence,</l>
+                            <l>Des humaines grandeurs <choice><orig>connoît</orig><reg>connaît</reg></choice> la vanité,</l>
+                            <l>Pour elles, il n'a plus que de l'indifférence ;</l>
+                            <l>L'amour, le ſeul amour dont il eſt agité,</l>
+                            <l>Lui fait ſentir ſa véhémence,</l>
+                            <l>Il entraîne ma volonté ;</l>
+                            <l>Et, quoique d'un vain ſonge il tienne la naiſſance ;</l>
+                            <l>J'éprouve que ſa flamme eſt une vérité.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Sortez d'erreur ; ces feux remplis de violence,</l>
+                            <l>À vos ſens abuſés doivent tout leur pouvoir ;</l>
+                            <l>Ils n'offrent à vos yeux qu'un objet chimérique,</l>
+                            <l>Comme tous ces honneurs, cette Cour magnifique,</l>
+                            <pb n="97"/>
+                            <l>Et tous ces vains tréſors que vous avez crû voir ;</l>
+                            <l>Et, pour en triompher, vous n'avez qu'à vouloir.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>                          
+                            <l>Pour l'éteindre jamais, ma flamme m'eſt trop chére ;</l>
+                            <l>Ma raison, qui me fait ſentir la fauſſeté</l>
+                            <l>De ma grandeur imaginaire,</l>
+                            <l>Peut adoucir ma cruauté,</l>
+                            <l>Réduire mon orgueil, enchaîner ma colère ;</l>
+                            <l>Mais elle ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> étouffer mon ardeur ;</l>
+                            <l>Je ſens qu'elle eſt plûtôt du parti de mon cur.</l>
+                            <l>Pour ne pas l'aprouver, cette ardeur eſt trop belle</l>
+                            <l>La vertu l'accompagne, elle eſt pure comme elle,</l>
+                            <l>Quoiqu'elle augmente ma douleur,</l>
+                            <l>Que j'aime ſans <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> si mon Vainqueur exiſte,</l>
+                            <l>Que tout m'ôte l'eſpoir de m'en voir posſſeſſeur,</l>
+                            <l>À l'adorer toujours ma volonté perſiſte ;</l>
+                            <l>Je veux borner-là mon bonheur,</l>
+                            <l>J'entretiendrai du moins ſon image chérie ;</l>
+                            <l>Ses charmes, de mes fers adouciront l'horreur ;</l>
+                            <l>Et l'on m'arrachera la vie,</l>
+                            <l>Plûtôt que de m'ôter une ſi douce erreur.</l>
+                        </sp>
+                        <stage type="exit"><hi rend="italics">(Il rentre dans la Tour, qui ſe referme.)</hi></stage>
+                    </div>
+                    <div type="scene" n="3">
+                        <head>SCENE III.</head>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE </speaker>
+                            <stage type="setting"><hi rend="italics">ſeul.</hi></stage><lb/><lb/>
+                            <l><c type="lettrine">D</c>'Un ſi parfait amour mon ame eſt attendrie.</l>
+                            <l>Mais qui peut pénétrer dans cet Antre profond ?</l>
+                            <l>C'eſt <name type="person" n="Ulric">Ulric</name> ! La terreur eſt peinte ſur ſon front.</l>
+                        </sp>
+                    </div>
+                    <pb n="98"/>
+                    <div type="scene" n="4">
+                        <head>SCENE IV.</head><lb/>
+                        <stage>CLOTALDE, ULRIC.</stage><lb/>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker><lb/><lb/>
+                            <l><name type="person" n="Clotalde"><c type="lettrine">C</c>Lotalde</name>, le Roi qui <choice><orig>m'envoye</orig><reg>m'envoie</reg></choice>,</l>
+                            <l>Eſt en danger de perdre <choice><orig>&amp;</orig><reg>et</reg></choice> le Trône <choice><orig>&amp;</orig><reg>et</reg></choice> le jour.</l>
+                            <l>Aux troubles les plus Grands, la <name type="place" n='Pologne'>Pologne</name> eſt en <choice><orig>proye</orig><reg>proie</reg></choice> ;</l>
+                            <l>Les Peuples révoltés ont entraîné la Cour,</l>
+                            <l>Et pour ſon fils hautement ſe déclarent ;</l>
+                            <l>Tous veulent l'arracher du ſein de cette Tour,</l>
+                            <l>Et de la guerre, enfin, tous les feux ſe préparent.</l>
+                            <l>Le nom de <name type="person" n="Fédéric">Fédéric</name> eſt par tout en horreur ;</l>
+                            <l><name type="person" n="Sophronie">Sophronie</name>, elle-même, abhorrant ſon ardeur,</l>
+                            <l>Aux volontés du Roi refuſe de ſouſcrire,</l>
+                            <l><choice><orig>Reconnoît</orig><reg>Reconnaît</reg></choice> <name type="person" n="Sigismond">Sigiſmond</name> pour maître de l'Empire,</l>
+                            <l>Et du Peuple pour lui redouble la chaleur.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l part="I">Qu'<choice><orig>entens</orig><reg>entends</reg></choice>-je ?</l>
+                        </sp>
+                        <sp who="Ulric">
+                            <speaker>ULRIC.</speaker><lb/>
+                            <l part="F">Elle eſt d'autant plus formidable,</l>
+                            <l>Qu'à la beauté ſuprême elle joint la valeur.</l>
+                            <l>On <choice><orig>ſçait</orig><reg>sait </reg></choice> que de ſon ſexe aimable</l>
+                            <l>Elle fuit la moleſſe, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>méconnoît</orig><reg>méconnaît</reg></choice> la peur ;</l>
+                            <l>Qu'elle a, dans les combats, ſignalé ſon grand cur,</l>
+                            <l>Et, qu'autant que ſes yeux, son bras eſt redoutable.</l>
+                            <l>Le Roi qui <choice><orig>connoît</orig><reg>connaît</reg></choice> trop, dans ce <choice><orig>tems</orig><reg>temps</reg></choice> orageux,</l>
+                            <l>Ce que peut ſur les curs un chef ſi dangereux,</l>
+                            <l>Et qui craint la funeſte fuite</l>
+                            <l>D'une révolte ſi ſubite,</l>
+                            <l>A raſſemblé dans ſon Palais</l>
+                            <l>Ce qui lui reſte encore de fidèles Sujets.</l>
+                            <l>Auprès de lui, venez comme eux vous rendre,</l>
+                            <l>Et l'aider à réſoudre, en ce péril certain,</l>
+                            <pb n="99"/>
+                            <l>Quel parti ſon ame doit prendre,</l>
+                            <l>Pour détourner le cours d'un torrent ſi prochain.</l>
+                            <l>Ses ordres, pendant ſon abſence,</l>
+                            <l>Doivent faire doubler la garde de ces lieux,</l>
+                            <l>Pour la mettre en état d'opoſer ſa défenſe</l>
+                            <l>Aux efforts des ſéditieux.</l>
+                        </sp>
+                        <sp who="Clotalde">
+                            <speaker>CLOTALDE.</speaker><lb/>
+                            <l>Ciel ! Protecteur des Rois, armes-toi pour <name type="person" n="Basile">Baſile</name>,</l>
+                            <l>Et rend des factieux la fureur inutile ;</l>
+                            <l>Que je guide vos pas dans ces Rochers affreux :</l>
+                            <l>Evitons cette route, elle eſt trop difficile ;</l>
+                            <l>Ce ſentier eſt plus court, <choice><orig>&amp;</orig><reg>et</reg></choice> bien moins périlleux.</l>
+                        </sp>
+                        <stage type="exit"><hi rend="italics">[Il s'en va avec <name type="person" n="Ulric">Ulric</name>.)</hi></stage>
+                    </div>
+                    <div type="scene" n="5">
+                        <head>SCENE V.</head><lb/>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN </speaker>
+                            <stage type="business"><hi rend="italics">mettant la tête à une fenêtre <lb/> de la Tour.</hi></stage><lb/><lb/>
+                            <l><c type="lettrine">A</c>H! Par cette lucarne exhalons notre rage,</l>                                
+                            <l>Et tâchons de prendre un peu l'air.</l> 
+                            <l>Je perds mon tems à regarder, j'enrage ;</l>
+                            <l>Et, pour être logé dans un ſixième étage,</l>
+                            <l>Je n'en vois pas plus clair.</l>  
+                            <l>Quoique de nous les Cieux ſemblent être aſſez pro-<lb/>ches,</l>   
+                            <l>J'en aperçois à peine un <choice><orig>foible</orig><reg>faible</reg></choice> échantillon.</l> 
+                            <l>Mais quels cris redoublés font retentir ces Roches,</l>
+                            <l>Et font faire aux échos un affreux carillon !</l>
+                            <l>Ce ſont des gens armés ! Qui, diantre, les améne ?</l>                                                                                   
+                         </sp>
+                    </div>
+                    <pb n="100"/>
+                    <div type="scene" n="6">
+                        <head>SCENE VI.</head><lb/>
+                        <stage>ARLEQUIN, RODERIC, SOLDATS.</stage><lb/>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l part="I"><c type="lettrine">V</c>Ive, vive <name type="person" n="Sigismond">Sigiſmond</name>.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="F">Dis,</l>                                
+                            <l>Que lui veux-tu donc, mon ami ?</l>
+                            <l>Et qui te fait crier juſqu'à perte d'haleine ?</l>
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l>Etes-vous le Prince, Seigneur ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>C'eſt selon. <choice><orig>Apprens</orig><reg>Apprends</reg></choice>-moi ce que tu veux lui dire.</l>                                
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l>L'illustre <name type="person" n="Sophronie">Sophronie</name>, armée en ſa faveur,</l>                                
+                            <l>De rompre ſa Priſon, a chargé ma valeur,</l>
+                            <l>Et l'a fait proclamer ſouverain de l'Empire.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>En ce cas-là, je ſuis le Prince <name type="person" n="Sigismond">Sigiſmond</name>.</l>                                
+                            <l>Briſés mes fers, <choice><orig>&amp;</orig><reg>et</reg></choice> vengez mon affront.</l>
+                        </sp>                     
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker>
+                            <stage type="business"><hi rend="italics">répéte.</hi></stage><lb/>
+                            <l>Briſons ſes fers, <choice><orig>&amp;</orig><reg>et</reg></choice> vengeons ſon affront.</l> 
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Holà hé donc, Meſſieurs, doucement, prenés garde,</l>                                
+                            <l>Vous allez renverſer la Tour,</l>
+                            <l>Les Murs n'en valent rien ; <choice><orig>&amp;</orig><reg>et</reg></choice> ſongés, en ce jour,</l>
+                            <l>Que c'eſt votre vrai Roi que ce péril regarde.</l>
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker>
+                            <stage><hi rend="italics">après l'avoir mis en liberté.</hi></stage><lb/>
+                            <l>Souffrés que vos Sujets ſoumis, humiliés,</l>                                
+                            <l>Se proſternent tous à vos pieds.</l>
+                            <lb/><stage type="action"><hi rend="italics">(Ils ſe proſternent tous aux pieds d'Arlequin.)</hi></stage>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker>
+                            <stage type="delivery"><hi rend="italics">à part.</hi></stage><lb/>
+                            <l>Profitons de l'erreur, <choice><orig>&amp;</orig><reg>et</reg></choice>, ſous cet habit mince,</l>                                
+                            <l>Jouiſſons un moment du plaiſir d'être Prince ;</l>
+                            <l>Je trouve ce métier fort doux.</l>
+                        </sp>
+                        <pb n="101"/>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l>Seigneur, le <choice><orig>tems</orig><reg>temps</reg></choice> eſt cher, <choice><orig>&amp;</orig><reg>et</reg></choice> la gloire vous preſſe</l>                                
+                            <l>De joindre au <choice><orig>plûtôt</orig><reg>plus tôt</reg></choice> la Princeſſe ;</l>
+                            <l>Elle conduit le Peuple, <choice><orig>&amp;</orig><reg>et</reg></choice> doit vaincre pour vous,</l>
+                            <l>Nous allons, ſur vos pas, nous expoſer aux coups.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Je ſuis trop prudent pour vous croire.</l>                                
+                            <l>Allés, quand vous aurez remporté la victoire,</l>
+                            <l>Vous reviendrez me le faire <choice><orig>ſçavoir</orig><reg>savoir</reg></choice>...</l>
+                            <l>En attendant, je vais ici m'aſſeoir.</l>
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l>Grand Roi, vous faites voir une prudence extrême ;</l>
+                            <l>Et jamais... Mais voici la Princeſſe elle-même ;</l>
+                            <l>Elle a franchi pour vous l'horreur de ces déſerts.</l>
+                        </sp>   
+                    </div>
+                    <div type="scene" n="7">
+                        <head>SCENE VII.</head><lb/>
+                        <stage>SOPHRONIE, <hi rend="italics">les Acteurs précédens.</hi></stage> <lb/>                 
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE </speaker>
+                            <stage><hi rend="italics">à Roderic.</hi></stage><lb/><lb/>
+                            <l><c type="lettrine">D</c>U Prince <name type="person" n="Sigismond">Sigiſmond</name> a-t-on briſé les fers ?</l>
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC </speaker>
+                            <stage><hi rend="italics">montrant <name type="person" n="Arlequin">Arlequin</name>.</hi></stage><lb/>
+                            <l>Madame, le voilà prêt à monter au Trône.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l part="I">Ce n'est pas-à le Prince.</l>
+                        </sp>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/>
+                            <l part="F">Un tel discours m'étonne.</l>
+                            <lb/><stage><hi rend="italics">(à <name type="person" n="Arlequin">Arlequin</name>.)</hi></stage><lb/>
+                            <l part="I">Ce n'eſ donc pas vous ?</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l part="F">Non, mais je ſuis son cadet ;</l>
+                            <l>Et vous voyez en ma perſnne</l>
+                            <l>Le Prince <name type="person" n='Sigismondinet'>Sigismondinet</name>.</l>
+                            <l>C'eſt-là l'apartement où mon frere demeure,</l>
+                            <l>Et je vais y mener Madame tout-à-l'heure.</l>
+                        </sp>
+                        <pb n="102"/>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Je frémis à l'aſpect de ce cachot profond !</l>
+                            <l>Soldats, ſecondés tous le tranſport qui m'entraîne.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>De briſer cette Porte épargnez-vous la peine,</l>
+                            <l>Je vois ſortir le Prince <name type="person" n="Sigismond">Sigiſmond</name>.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="8">
+                        <head>SCENE VIII.</head><lb/>
+                        <stage>SIGISMOND, <hi rend="italics">les Acteurs précédens.</hi>.</stage><lb/>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/><lb/>
+                            <l><c type="lettrine">Q</c>Ui remplit donc ces lieux d'une rumeur ſou-<lb/>daine ?</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Ah, Prince, en quel état vous offrez vous à moi ?</l>
+                            <l>L'heureuſe <name type="person" n="Sophronie">Sophronie</name> aura du moins la gloire</l>
+                            <l>De briſer , de ſa main, les chaînes de ſon Roi,</l>
+                            <l>Et d'affranchir ſes jours d'une Priſon ſi noire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Que vois-je ? Ma Princeſſe, au fond de ces déſerts,</l>
+                            <l>Vient rompre elle-même nos fers ?</l>
+                            <l>Elle s'arme pour moi dans ce jour favorable ?</l>
+                            <l>Qu'un trait ſi généreux me la rend adorable !</l>
+                            <l>Et qui peut m'acquitter des biens que j'en reçois ?</l>
+                            <l>Dieux trompeurs ! Par un rêve aimable,</l>
+                            <l>Ne m'abuſez-vous pas une ſeconde fois ?</l>
+                            <l>Mon bonheur eſt trop grand pour être véritable.</l>
+                            <l>Je dors encore ſans doute, <choice><orig>&amp;</orig><reg>et</reg></choice> tout ce que je vois</l>
+                            <l>N'est rien qu'un fantôme agréable.</l>
+                        </sp>
+                        <sp who="Arlequin">
+                            <speaker>ARLEQUIN.</speaker><lb/>
+                            <l>Prince, n'en doutés point, c'eſt un bonheur palpable.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Ce n'eſt point un ſonge, Seigneur ;</l>
+                            <l>Je vous parle en effet, <choice><orig>&amp;</orig><reg>et</reg></choice> je ſuis <name type="person" n="Sophronie">Sophronie</name>,</l>
+                            <l>Qui pour vous couronner, veux prodiguer ma vie : </l>
+                            <pb n="103"/>
+                            <l>Vous êtes de <name type="person" n="Basile">Baſile</name> unique Succeſſeur.</l>
+                            <l>En vain ce Roi, frapé d'une aveugle terreur,</l>
+                            <l>Veut tranſporter vos droits au <name type="person" n='Fédéric'>Duc de Moſcovie</name>.</l>
+                            <l>Tout l'Etat, avec moi, s'arme en votre faveur ;</l>
+                            <l>Venés, volés, au Trône où je vais vous conduire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Non, je ſuis détrompé d'une vaine grandeur,</l>
+                            <l>Qui n'a qu'un faux éclat, qu'un instant peut détruire ;</l>
+                            <l>Et j'ai trop fait l'eſſai de ſon faſte impoſteur.</l>
+                            <l>Si quelque illuſion a ſur moi de l'empire,</l>
+                            <l>C'eſt l'amour qui m'enflamme, il eſt l'unique erreur</l>
+                            <l>Dont j'aime encore à me laiſſer ſéduire :</l>
+                            <l>Et votre cur, Madame, eſt le Trône où j'aſpire</l>
+                            <l>C'eſt de lui ſeul que dépend mon bonheur.</l>
+                            <l>Ce bonheur ne fut-il que l'Ouvrage d'un ſonge ?</l>
+                            <l>Pour ne pas m'y livrer, il eſt trop enchanteur ;</l>
+                            <l>La vérité ne vaut pas ce menſonge :</l>
+                            <l>Et je le trouve ſi flatteur,</l>
+                            <l>Qu'il me ſeroit cent fois plus agréable</l>
+                            <l>De croire poſſéder votre cur dans les fers,</l>
+                            <l>Sans eſpoir de ſortir de cet antre effroyable,</l>
+                            <l>Que de me voir, ſans lui, maître de l'Univers.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Votre félicité n'eſt pas un vain fantôme</l>
+                            <l>S'il eſt vrai que mon coeur vous ſoit ſi précieux ;</l>
+                            <l>Et les effets, bientôt, vont prouver à vos yeux,</l>
+                            <l>Qu'il eſt votre ſujet, avec tout ce Royaume.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Quoi, je <choice><orig>ſerois</orig><reg>serais</reg></choice> aimé <unclear>!</unclear> Je me <choice><orig>verrois</orig><reg>verrais</reg></choice> heureux !</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Oui, Prince, il n'eſt plus <choice><orig>tems</orig><reg>temps</reg></choice> de taire</l>
+                            <l>Un feu que le péril a contraint d'éclater.</l>
+                            <l>Ce que pour vous mon bras vient de tenter,</l>
+                            <l>Vous dit trop qu'en ce jour vous avez <choice><orig>ſçû</orig><reg>su</reg></choice> me plaire.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Grands Dieux ! En cet inſtant flatteur,</l>
+                            <l>Si le charmant aveu qui frape mon oreille,</l>
+                            <l>N'eſt que l'effet d'un ſonge ſéducteur,</l>
+                            <pb n="104"/>
+                            <l>Faites que <name type="person" n="Sigismond">Sigiſmond</name> jamais ne ſe réveille !</l>
+                            <l>Mais s'il veille, au contraire, au gré de ſes ſouhaits,</l>
+                            <l>Éloignés, de ſes yeux, le ſommeil pour jamais.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Vous veillez croyez-en ma flamme :</l>
+                            <l>Et, comme sur l'Etat, vous régnez sur mon ame ; </l>
+                            <l>L'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre vous offre un Empire réel.</l>
+                            <l>Si tout ce que je dis vous ſemble une chimére,</l>
+                            <l>Si votre eſprit perſiſte en ce doute cruel,</l>
+                            <l>Et n'en croit pas une Amante ſincére,</l>
+                            <l>Qui franchit pour vous ſeul la bienſéance auſtére ;</l>
+                            <l>Refuse <name type="person" n="Fédéric">Fédéric</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> le Trône avec lui,</l>
+                            <l>Qui, pour vous élever à ce Trône aujourd'hui,</l>
+                            <l>S'arme contre ce Prince, <choice><orig>&amp;</orig><reg>et</reg></choice> combat votre Pere ;</l>
+                            <l><choice><orig>Jettés</orig><reg>Jetez</reg></choice> les yeux, Seigneur, ſur-tout le Peuple armé</l>
+                            <l>Pour votre cauſe légitime ;</l>
+                            <l>Voyés-le de ces Monts couvrir toute la cime :</l>
+                            <l>Venés, <choice><orig>&amp;</orig><reg>et</reg></choice> montrez-vous à ce peuple charmé,</l>
+                            <l>Votre deſtin, par lui, vous ſera confirmé.</l>
+                            <l>Marchons, il n'attend plus que vos ordres pour vaincre ;</l>
+                            <l>Et, mieux que mes diſcours, mon bras va vous convaincre.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>C'en eſt trop ; <name type="person" n="Sigismond">Sigiſmond</name> eſt déja convaincu.</l>
+                            <l>Le moyen de ne pas en croire tant de charmes ;</l>
+                            <l>A vous ſuivre en tout lieu, me voilà réſolu.</l>
+                            <l>Rien n'arrête mes pas ; qu'on me donne des armes.</l>
+                            <l>Pour vous l'offrir, je cours au Trône qui m'est dû ;</l>
+                            <l>Combattant avec vous, la victoire m'eſt ſûre.</l>
+                            <l>D'avoir tant balancé, je rougis maintenant.</l>
+                            <l>D'un regard de vos yeux, animé ſeulement,</l>
+                            <l>Mon bras peut triompher de toute la nature ;</l>
+                            <l>Et mes cruels Tyrans vont ſentir dans ce jour</l>
+                            <l>Ce que peut la valeur conduite par l'amour.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Ah ! La vertu doit guider l'un <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre,</l>
+                            <l>Votre Pere eſt, Seigneur, parmi vos ennemis ;</l>
+                            <l>Même en le combattant, ſoyés toujours ſon fils.</l>
+                            <pb n="105"/>
+                            <l>Ma gloire déſormais eſt unie à la vôtre ;</l>
+                            <l>Elle m'engage à vous repreſenter.</l>
+                            <l>Qu'un Roi ne doit jamais ſe laiſſer emporter</l>
+                            <l>Aux indignes tranſports d'une aveugle vengeance ;</l>
+                            <l>Qu'il doit vaincre, non pas pour la faire éclater,</l>
+                            <l>Mais pour ſignaler ſa clémence.</l>
+                            <l>Un Tyran met ſa gloire à tout exterminer, </l>
+                            <l>Mais celle d'un vrai Roi conſiſte à pardonner ;</l>
+                            <l>C'eſt lui qu'il faut choiſir pour modèle ſuprême :</l>
+                            <l>Et ſongez, quelque ardeur qui vous puiſſe entraîner,</l>
+                            <l>Que le plus beau triomphe eſt celui de vous-même.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Qu'il eſt heureux, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il eſt doux</l>
+                            <l>D'aprendre la vertu de la bouche qu'on aime !</l>
+                            <l>Qu'elle a pour lors de puiſſance ſur nous !</l>
+                            <l>Guidé, belle Princeſſe, à la gloire par vous,</l>
+                            <l>De mes ſens égarés je ne crains plus l'<choice><orig>yvreſſe</orig><reg>ivresse</reg></choice> ;</l>
+                            <l>En marchant ſur vos pas, je ſuivrai la ſageſſe.</l>
+                        </sp>
+                    </div>
+                    <div type="scene" n="9">
+                        <head>SCENE IX.</head><lb/>
+                        <stage><hi rend="italics"> Les Acteurs précédens</hi>, RODERIC.</stage><lb/>
+                        <sp who="Roderic">
+                            <speaker>RODERIC.</speaker><lb/><lb/>
+                            <l><c type="lettrine">S</c>Ans combattre, Seigneur, vous venez d'obtenir</l>
+                            <l>Sur votre Pere une victoire pleine :</l>
+                            <l>Abandonné de tous, contraint de fuir,</l>
+                            <l>Il vient d'être arrêté dans la forêt prochaine ;</l>
+                            <l>Avec <name type="person" n="Clotalde">Clotalde</name> on vous l'améne.</l>
+                        </sp>
+                    </div>
+                    <pb n="106"/>
+                    <div type="scene" n="10">
+                        <head>SCENE DERNIERE.</head><lb/>
+                        <stage><hi rend="italics"> Les Acteurs précédens</hi>, LE ROI, CLOTALDE <lb/> SOLDATS.</stage><lb/><lb/>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/><lb/>
+                            <l><c type="lettrine">F</c>Ils coupable, aſſouvis toute ta cruauté ; </l>
+                            <l>Le ſort te livre ta victime :</l>
+                            <l>Acheves d'accomplir ſur ton Pere <choice><orig>&amp;</orig><reg>et</reg></choice> ton Roi,</l>
+                            <l>Ce que les Cieux trop vrais lui prédirent de toi.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Je vais, en dépit d'eux, me montrer magnanime,</l>
+                            <l>Et convaincre mon Pere, en un jour ſi fameux,</l>
+                            <l>Que les Aſtres malins n'ont ſur nous de puiſſance</l>
+                            <l>Qu'autant que notre cur eſt d'accord avec eux</l>
+                            <l>Que notre volonté régle leur influence,</l>
+                            <l>Et qu'on eſt, à ſon gré, cruel ou généreux.</l>
+                            <lb/><stage type="action"><hi rend="italics">(Il ſe jette aux pieds du Roi.)</hi></stage><lb/>
+                            <l>Seigneur, loin de ſouiller ma gloire,</l>
+                            <l>Et de faire éclater un barbare courroux,</l>
+                            <l>Regardez-moi rougir de ma victoire,</l>
+                            <l>Et ſuivre déſormais des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> plus doux :</l>
+                            <l>Voyez-moi réparer le ſort qui vous oprime ;</l>
+                            <l>Et, forçant mon Etoile, attendre à vos genoux</l>
+                            <l>Le juſte ch<unclear>a</unclear>timent que mérite le crime</l>
+                            <l>De s'être, avec l'Etat, révolté contre vous.</l>
+                            <l>Prononcez mon arrêt, l'exemple eſt néceſſaire ;</l>
+                            <l>Faites-vous juſtice aujourd'hui.</l>
+                            <l>Un fils qui s'arme contre un pere,</l>
+                            <l>Quelques durs <choice><orig>traitemens</orig><reg>traitements</reg></choice> qu'il ait ſouffert de lui,</l>
+                            <l>Doit ſubir un trépas ſévére.</l>
+                            <l>Frapez, je recevrai le coup ſans murmurer,</l>
+                            <l>De votre main, encore, trop heureux d'expirer.</l>
+                        </sp>
+                        <pb n="107"/>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker><lb/>
+                            <l>Mon Fils, un trait ſi grand <choice><orig>&amp;</orig><reg>et</reg></choice> ſi digne d'eſtime ,</l>
+                            <l>Me fais rougir d'avoir trop cru</l>
+                            <l>Les Aſtres que dément votre vertu ſublime.</l>
+                            <l>Au lieu de châtiment, mon ſceptre vous eſt dû.</l>
+                            <l>Qui <choice><orig>ſçait</orig><reg>sait</reg></choice> ſe vaincre ainſi, mérite la couronne.</l>
+                            <l>Après ce changement qui m'enchante <choice><orig>&amp;</orig><reg>et</reg></choice> m'étonne,</l>
+                            <l>Régnez ſur mes Etats que vous avez conquis</l>
+                            <l>Par la force bien moins que par votre clémence,</l>
+                            <l>Et que le bien public ſoit votre récompenſe.</l>
+                            <l>De l'Empire, à vos yeux, pour relever le prix,</l>
+                            <l>Poſſédez avec lui cette aimable Princeſſe ;</l>
+                            <l>Vous rendant tous heureux, mes voeux seront remplis.</l>
+                            <l>Je ne veux me livrer dans ma douce vieilleſſe</l>
+                            <l>Qu'au bonheur d'être pere, <choice><orig>&amp;</orig><reg>et</reg></choice> d'avoir un tel fils.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>Seigneur, à vos bontés votre Fils trop ſenſible</l>
+                            <l>Ne prend en main les rennes de l'Etat,</l>
+                            <l>Que pour en ſoutenir tout le fardeau pénible,</l>
+                            <l>Et pour vous en laiſſer la gloire, <choice><orig>&amp;</orig><reg>et</reg></choice> tout l'éclat.</l>
+                            <l>Et vous, illustre <name type="person" n="Sophronie">Sophronie</name>,</l>
+                            <l>Vous, qui m'avez apris à triompher de moi,</l>
+                            <l>Vous, l'auteur généreux du repos de ma vie,</l>
+                            <l>C'eſt pour vous couronner que je veux être Roi ;</l>
+                            <l>Je ne fais que vous rendre un bien que je vous dois<unclear>.</unclear></l>
+                            <l>Votre main précieuſe eſt le ſeul que j'envie :</l>
+                            <l>De ſouverain le titre ne m'eſt doux,</l>
+                            <l>Que pour mieux mériter celui de votre époux.</l>
+                        </sp>
+                        <sp who="Sophronie">
+                            <speaker>SOPHRONIE.</speaker><lb/>
+                            <l>Mon bonheur eſt parfait, ſi je comble le vôtre ;</l>
+                            <l>Je <choice><orig>haïrois</orig><reg>haïrais</reg></choice> le ſceptre, en le tenant d'un autre.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND </speaker>
+                            <stage><hi rend="italics">à <name type="person" n="Clotalde">Clotalde</name>.</hi></stage><lb/>
+                            <l><choice><orig>Aproches</orig><reg>Approche</reg></choice>, noble défenſeur</l>
+                            <l>Du Roi mon pere, <choice><orig>&amp;</orig><reg>et</reg></choice> de ton Maître ;</l>
+                            <l>Le zèle que pour lui ton ame a fait <choice><orig>paroître</orig><reg>paraître</reg></choice>,</l>
+                            <l>Ne peut être payé de toute ma faveur.</l>
+                        </sp>
+                        <sp who="Basile">
+                            <speaker>LE ROI.</speaker>
+                            <l>Mon Fils, cette conduite auſſi ſage qu'auguſte ;</l>
+                            <pb n="108"/>
+                            <l>Annonce à vos Sujets le régne d'un Roi juſte.</l>
+                        </sp>
+                        <sp who="Sigismond">
+                            <speaker>SIGISMOND.</speaker><lb/>
+                            <l>C'eſt l'heureux fruit de vos rigueurs ;</l>
+                            <l>Elles m'ont convaincu que toutes les grandeurs</l>
+                            <l>Ne ſont qu'une chimére où le ſommeil nous plonge ;</l>
+                            <l>Qu'excepté la vertu, tout n'eſt rien que menſonge ;</l>
+                            <l>Que notre prévoyance eſt un tiſſu d'erreurs,</l>
+                            <l>Notre eſpoir un fantôme, <choice><orig>&amp;</orig><reg>et</reg></choice> notre vie un ſonge.</l>
+                        </sp> 
+                        <lb/><lb/>
+                        <trailer rend="center"><hi rend="italics">FIN.</hi></trailer>
+                    </div>
+                </div>
+        </body>
+    </text>
+</TEI>

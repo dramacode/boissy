@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Boissy_TEI.css"?>
+<?xml-model href="Boissy1758.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title type="main">L'Apologie du siècle, ou <name type="god" n="Momus">Momus</name>corrigé</title>
+                <title type="subtitle"> Édition électronique</title>
+                <author>Louis de Boissy, 1694-1758</author>
+                <principal><name>Dr. Ioana Galleron</name></principal>
+                <editor><name>Prof. Geoffrey Williams</name></editor>
+                <respStmt>
+                    <resp>Mis au format numérique par</resp>
+                    <name>Padey, Cyrielle</name>
+                    <name>Salaün, Marianne</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien. NOUVELLE ÉDITION, revuë et corrigée, <choice><orig>&amp;</orig><reg>et</reg></choice> augmentée du pluſieurs Piéces nouvelles. <date>1768</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LiCoRN</publisher>
+                <pubPlace>Lorient</pubPlace>
+                <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
+                <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
+                <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
+                <note>Il existe plusieurs versions de cette pièce. Dans la table du tome cinquiéme, celle-ci est présentée comme une version "avec des augmentations".</note>
+                <note>La pièce mentionne des airs; dans certaines sections, elle alterne chant et parole. Cependant, la musique n'est pas reproduite, et le compositeur n'a pas été identifié pour cette édition.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct xml:lang="fr">
+                    <monogr>
+                        <author>Louis de Boissy</author>
+                        <title>Oeuvres de Monsieur de Boissy contenant son théâtre François et Italien</title>
+                        <imprint>
+                            <pubPlace>Amsterdam</pubPlace>
+                            <pubPlace>Berlin</pubPlace>
+                            <publisher>Jean Néaulme</publisher>
+                            <date when="1768">1768</date>
+                            <note>Tome cinquième</note>
+                            <note>Édition en 8 volumes, reliés en 4 tomes.</note>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>Cette édition a été réalisée partiellement dans le cadre d'un projet scientifique labellisé par le consortium CAHIER (France) en 2014.</p></projectDesc>
+            <editorialDecl>
+                <correction><p>Certaines erreurs typographiques ont été signalées à l'aide des éléments sic et corr.</p></correction>
+                <normalization><p>L'orthographe d'origine a été respectée. Une orthographe moderne a parfois été fournie, utilisant les éléments choice, orig et reg.</p></normalization>
+                <hyphenation eol="all"><p>Les coupures de lignes sont notées avec l'élémént lb.</p></hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation><date when="1734-04-01">1 avril 1734</date><rs type="city">Paris, France.</rs></creation>
+            <textClass><keywords><term>Théâtre</term><term>Comédie</term><term>Musique</term><term>Opéra Comique</term></keywords></textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2015-05-27">27 mai 2015</date>Révisions faites par Josephine LOTERIE en vue de l'harmonisation du corpus Boissy.</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="43"/>
+            <titlePage type="half-title">
+            <docTitle>
+                    <titlePart type="main">L'APOLOGIE <lb/>DU SIÉCLE, <lb/> OU <lb/><name type="god" n="Momus">MOMUS</name> CORRIGÉ.</titlePart><lb/>
+                    <titlePart type="desc" rend="italic">COMEDIE.</titlePart><lb/>
+                </docTitle>
+            </titlePage>
+            <pb n="44"/>
+            <castList>
+                <head rend="italic">ACTEURS.</head><lb/><lb/>
+                <castItem><role>MOMUS.</role></castItem>
+                <castItem><role>UNE ACTRICE.</role></castItem>
+                <castItem><role>PHILINTE.</role></castItem>
+                <castItem><role>L'INDIFFÉRENT.</role></castItem>
+                <castItem><role>LE GÉNIE DU SIÈCLE.</role></castItem>
+                <castItem><role>TERPSICORÉ.</role></castItem><note>Ce personnage n'apparaît pas dans cette version de la pièce.</note>
+                <note>D'autres personnages sont présents dans la pièce, mais pas nommés dans la liste des Acteurs: Chrisante, La Critique et Le Vaudeville.</note>
+            </castList>
+            <set>
+                <p rend="center"><hi rend="italic">La Scène eſt au Théâtre de la Comédie <lb/>Italienne.</hi></p>
+            </set>
+            <lb/>
+            <lb/>
+        </front>
+        <body>
+            <pb n="45"/>
+            <head>L'APOLOGIE <lb/>DU SIÉCLE, <lb/>OU <lb/>MOMUS CORRIGÉ. <lb/> COMEDIE.</head>
+            <div type="scene" n="1">
+                    <head>SCENE PREMIERE.</head><lb/>
+                    <stage>MOMUS, UNE ACTRICE.</stage><lb/>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/><lb/>
+                        <l><c rend="lettrine">Q</c>uoi ! <name type="god" n="Momus">Momus</name>, le ſoutien de notre Co-<lb/>médie</l>
+                        <l>Porte, au lieu de Marotte, un Bouquet <lb/>à la main,</l>
+                        <l>Son chef n'eſt plus orné du bonnet Calotin ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Ce changement vous notifie,</l>
+                        <l>Qu'à fronder déſormais je ne ſuis plus enclin.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Mais quel eſt donc votre deſſein ?</l>
+                    </sp> 
+                    <pb n="46"/>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>De faire ici l'Apologie...</l>
+                    </sp> 
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l part="I">De qui ?</l>
+                    </sp> 
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="F">De tout le genre-humain.</l>
+                    </sp> 
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Oh! Ce ſera je le parie,</l>
+                        <l>La Critique du Siécle avec art traveſtie</l>
+                        <l>Sous les traits adoucis d'un éloge malin.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Non, j'abjure la raillerie,</l>
+                        <l>Et je <choice><orig>prétens</orig><reg>prétends</reg></choice> louer de bonne-foi.</l>
+                    </sp> 
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Allons, Seigneur, vous vous moquez de moi ;</l>
+                        <l>On <choice><orig>ſçait</orig><reg>sait</reg></choice> que vous aimez à rire,</l>
+                        <l>Et l'encens de <name type="god" n="Momus">Momus</name> eſt un trait de Satire.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Depuis, qu'en bien, tout le monde eſt changé,</l>
+                        <l><choice><orig>Sçachez</orig><reg>Sachez</reg></choice> que je ſuis corrigé.</l>
+                        <l>De la douceur que je reſpire,</l>
+                        <l>Ces  fleurs ſont un garant qu'on ne peut contredire,</l>
+                        <l>La Critique n'eſt plus de ſaiſon ;</l>
+                        <l>Et le Siécle vit de façon,</l>
+                        <l>Qu'il ne convient plus d'en médire.</l>
+                        <l>Il fait voir tant d'eſprit, de candeur, de raiſon,</l>
+                        <l>Qu'en dépit qu'on en ait, il faut bien qu'on l'admire.</l>
+                        <l>Plein de s<unclear>a</unclear>geſſe, exempt d'abus ,</l>
+                        <l>Des ridicules, d'injuſtices,</l>
+                        <l>Il m'oblige à changer d'humeur <choice><orig>&amp;</orig><reg>et</reg></choice> d'attributs.</l>
+                        <l>A l'avenir je ne dois plus</l>
+                        <l>Faire la ſatire des Vices,</l>
+                        <l>Que par l'éloge des Vertus.</l>
+                    </sp> 
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Je me rends à ce trait, vous n'êtes plus cauſtique.</l>
+                    </sp> 
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Les bonnes moeurs du <choice><orig>tems</orig><reg>temps</reg></choice> m'ont rendu pacifique.</l>
+                        <l>Je vois tout par le beau côté;</l>
+                        <pb n="47"/>
+                        <l>Et, de tous les Auteurs, je veux être <sic>intimé</sic>.</l>
+                </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Mais jamais au Panégirique,</l>
+                        <l>Ces lieux ne furent conſacrés;</l>
+                        <l>Et, de tout <choice><orig>tems</orig><reg>temps</reg></choice>, ſur la Critique,</l>
+                        <l>Nos revenus ſont aſſurés:</l>
+                        <l>Sans elle, ſerviteur au Théâtre Italique.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Elle ne fait que l'avilir,</l>
+                        <l>Et ce n'eſt qu'en louant qu'on le peut annoblir.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>Seigneur, tel eſt notre malheur extrême.</l>
+                        <l>Nous ne pouvons, au <choice><orig>tems</orig><reg>temps</reg></choice> préſent,</l>
+                        <l>Attirer à nos jeux <name type="place" n="Paris">Paris</name> qu'en l'amuſant,</l>
+                        <l>Ni l'amuſer qu'aux dépens de lui-même.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Madame, c'<choice><orig>étoit</orig><reg>était</reg></choice> bon jadis</l>
+                        <l>Que le Public <choice><orig>rioit</orig><reg>riait</reg></choice> sans entendre fineſſe;</l>
+                        <l>Mais aujourd'hui qu'il eſt des plus polis<sic>;</sic></l>
+                        <l>Et que le moindre trait alarme ſes esprits</l>
+                        <l>Et choque ſa délicateſſe ;</l>
+                        <l>Que les portraits par lui ne ſont ſaiſis,</l>
+                        <l>Que pour les commenter contre l'Auteur sans ceſſe;</l>
+                        <l>qu'il les blâme, après les avoir aplaudis,</l>
+                        <l>Critique eſt funeſte, <choice><orig>&amp;</orig><reg>et</reg></choice> je vous l'interdis.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l>C'eſt vouloir nous ôter notre reſſource unique:</l>
+                        <l>De tout <choice><orig>Poëte</orig><reg>poète</reg></choice> dramatique,</l>
+                        <l>Songez qu'elle eſt, Seigneur, le véritable lot.</l>
+                        <l>Il la profeſſe en ſage, <choice><orig>&amp;</orig><reg>et</reg></choice> non pas en <choice><orig>cinique</orig> <reg>cynique</reg></choice>;</l>
+                        <l>S'il fronde la ſottiſe, il épargne le ſot:</l>
+                        <l>Ménageant, avec art, ſon pinceau ſatyrique,</l>
+                        <l>Il peint le Siécle entier des plus fortes couleurs.</l>
+                        <l>Sans déiſgner perſonne <choice><orig>&amp;</orig><reg>et</reg></choice> ſans noircir les moeurs,</l>
+                        <l>Il fait par ſes écrits la cenſure publique</l>
+                        <l>Sous des noms empruntés <choice><orig>&amp;</orig><reg>et</reg></choice> des traits généraux;</l>
+                        <l>Et comme en un miroir , dans ce tableau critique,</l>
+                        <l>Sans en être offenſé, chacun voit ſes défauts.</l>
+                    </sp>
+                    <pb n="48"/>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Ses applications ſont toujours dangereuſes.</l>
+                        <l>Et font naître ſouvent des diſputes fâcheuſes;</l>
+                        <l>Ecrivons pour la paix, non contre le repos.</l>
+                        <l>Pour plaire ſagement, <choice><orig>&amp;</orig><reg>et</reg></choice> ſans qu'on nous redoute,</l>
+                        <l>Je veux, dans ce jour, eſſayer</l>
+                        <l>De tracer au Théâtre une nouvelle route,</l>
+                        <l>Et d'y louer ſans ennuyer.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l><choice><orig>Carriére</orig><reg>Carrière</reg></choice> difficile, <choice><orig>&amp;</orig><reg>et</reg></choice> délicat métier !</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="I">J'eſpére la remplir.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE.</speaker><lb/>
+                        <l part="F">Permettez que j'en doute.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Allez, <sic>j'aurez</sic> toujours l'honneur de la frayer.</l>
+                    </sp>
+                    <sp who="Actrice">
+                        <speaker>L'ACTRICE </speaker>
+                        <stage type="exit"><hi rend="italic">en s'en allant.</hi></stage><lb/>
+                        <l>Par la louange vouloir plaire !</l>
+                        <l>Le ſeul projet a lieu de m'effrayer ;</l>
+                        <l>Nous ſommes ruinés, ſi <name type="god" n="Momus">Momus</name> eſt ſincére.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="2">
+                    <head>SCENE II.</head><lb/>
+                    <stage>MOMUS, PHILINTE.</stage><lb/>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l><c rend="lettrine">S</c>Eigneur, je viens pour vous prier</l>
+                        <l part="I">De me venger.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="M">De qui ?</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l part="F">De l'Univers entier.</l>
+                        <l>Contre lui, répandez un torrent d'Epigrammes :</l>
+                        <l>Tirez à coup portant. Morbleu, point de quartier ;</l>
+                        <l>Déchirez, à <choice><orig>l'envie</orig> <reg>l'envi</reg></choice> les hommes <choice><orig>&amp;</orig><reg>et</reg></choice> les femmes.</l>
+                    </sp>
+                    <pb n="49"/>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Que vous a fait le Siécle ? <choice><orig>&amp;</orig><reg>et</reg></choice> par quelles raiſons</l>
+                        <l>Excite-t-il chez-vous une pareille rage ?</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Parce qu'il eſt méchant de toutes les façons.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l><choice><orig>Parlés</orig><reg>Parlez</reg></choice> plus poliment du Siécle où nous vivons.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Quoi ! Vous voulez que je ménage</l>
+                        <l part="I">Un Siécle ſi fripon ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="F"><choice><orig>Corrigés</orig><reg>Corrigez</reg></choice> ce language,</l>
+                        <l>Le terme de fripon n'eſt plus du bel uſage.</l>
+                        <l>Il révolte l'oreille en ce tems épuré</l>
+                        <l>Où chaque mot qu'on dit doit être meſuré</l>
+                        <l part="I">La politeſſe veut...</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l part="F">Ah ! Ventrebleu, j'enrage ;</l>
+                        <l>Je ne trouve, en amour, que des curs ſcélérats ;</l>
+                        <l>En amitié, que des ingrats</l>
+                        <l>On me gruge au Palais, au jeu, l'on me friponne,</l>
+                        <l>Et l'on me vole à la Maiſon.</l>
+                        <l>Chez le Traiteur on m'empoiſonne,</l>
+                        <l>Et vous ne voulez pas, contre toute raiſon,</l>
+                        <l>Que je traite aujourd'hui le Siécle de Fripon ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Groſſiérement pourquoi le dire,</l>
+                        <l>Quand, par des correctifs, vous pouvez l'adoucir ?</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Oh ! <choice><orig>Commencés</orig><reg>Commencez</reg></choice> donc par m'inſtruire ;</l>
+                        <l>Qu'eſt-ce qu'un correctif ? Vous me ferez plaiſir</l>
+                        <l>De m'expliquer le ſens de ce mot qui m'arrête.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>C'eſt l'art, à le bien définir,</l>
+                        <l>De faire tout paſſer par le tour qu'on lui prête,</l>
+                        <l>Et de choiſir toujours le nom le plus honnête.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Pour m'enſeigner cet art où vous ſemblez primer</l>
+                        <pb n="50"/>
+                        <l>Aprenez-moi d'abord comment je dois nommer</l>
+                        <l>Une friponne, une Coquette,</l>
+                        <l>Dont la bouche me jure un amour ſans égal,</l>
+                        <l>Et qui, l'inſtant d'après, me trahit en cachette,</l>
+                        <l>Et favoriſe mon Rival ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Mais on la nomme une femme ordinaire,</l>
+                        <l>Qui ſuit le train du monde, <choice><orig>&amp;</orig><reg>et</reg></choice> qui, faite pour plaire,</l>
+                        <l>A l'eſprit de jouir des droits de ſa beauté.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>C'eſt donner un beau maſque à l'infidélité.</l>
+                        <l>Et l'Ami déloyal qui m'enlève la Belle,</l>
+                        <l>Et qui m'emprunte mon argent</l>
+                        <l>Pour triompher de l'<choice><orig>infidelle</orig><reg>infidèle</reg></choice>,</l>
+                        <l>Comment l'appelle-t'on en ce ſiécle charmant ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Un ami <choice><reg>faible</reg><orig>foible</orig></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> que l'amour emporte :</l>
+                        <l>On doit avoir pitié d'un homme de la ſorte.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l><name type="god" n="Momus">Momus</name> eſt bien compatiſſant.</l>
+                        <l>Et de quelle façon eſt-ce qu'il qualifie</l>
+                        <l>Un Procureur avide, <choice><orig>&amp;</orig><reg>et</reg></choice> qui ſans modeſtie</l>
+                        <l>De toutes mains reçoit double valeur,</l>
+                        <l>Et qui me vend à ma Partie ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Mais je l'apelle un Procureur.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Un Chevalier de l'induſtrie,</l>
+                        <l>Qui de filer la carte oſe profeſſer l'art ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Un habile Joueur qui fixe le hazard.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Un Valet qui me vole avec effronterie,</l>
+                        <l>Et qui vend mes habits ſans ma permiſſion ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Un pauvre diable qui s'oublie,</l>
+                        <l>Entraîné par l'occaſion.</l>
+                    </sp>
+                    <pb n="51"/>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Un pareil diſcours m'édifie : </l>
+                        <l>On ne peut pas ſur ſa friponnerie,</l>
+                        <l>Excuſer un Coquin en termes plus civils.</l>
+                        <l>Et celui qui parvient, des emplois les plus vils,</l>
+                        <l><choice><orig>A</orig><reg>À</reg></choice> des poſtes d'honneur qu'il arrache au mérite</l>
+                        <l>Par une <choice><orig>voye</orig><reg>voie</reg></choice> oblique <choice><orig>&amp;</orig><reg>et</reg></choice> des détours ſubtils ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Le modèle parfait de la bonne conduite,</l>
+                        <l>Qui devenu ſon propre Créateur,</l>
+                        <l>Du fond de ſon néant a tiré sa grandeur.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Peſte ! Quel éloge ſublime !</l>
+                        <l>Et celui qui voilant le noir deſſein qu'il a,</l>
+                        <l>Répand malignement un Libelle anonyme,</l>
+                        <l>Contre ſon Concurrent qu'il ſuplante par-là ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Un politique adroit, qui croit tout légitime</l>
+                        <l>Pour arriver au but où tendent ſes déſirs.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Pour en finir, en un mot : Comment eſt-ce qu'on nomme</l>
+                        <l>L'animal vicieux, eſclave des plaiſirs,</l>
+                        <l part="I">Qui manque à tous ſes devoirs ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="F">L'Homme.</l>
+                        <l>Le plus puiſſant de tous, <choice><orig>&amp;</orig><reg>et</reg></choice> des autres le Roi,</l>
+                        <l>Formé pour impoſer, non pour ſubir la Loi.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>En ce Siécle pervers, voilà comme l'on donne</l>
+                        <l>De favorables noms aux vices <choice><orig>triomphans</orig><reg>triomphants</reg></choice> ;</l>
+                        <l>Par ces beaux correctifs <choice><orig>&amp;</orig><reg>et</reg></choice> ces tours <choice><orig>éloquens</orig><reg>éloquents</reg></choice>,</l>
+                        <l>Tout crime eſt excuſé, toute action eſt bonne,</l>
+                        <l>Et l'on ne trouve plus de malhonnêtes gens.</l>
+                        <l>Moi qui ne puis ſouffrir ce jargon qui m'irrite,</l>
+                        <l>Je parle à découvert contre les Moeurs du tems,</l>
+                        <l>Et je donne à chacun le vrai nom qu'il mérite.</l>
+                        <l>J'apelle une Maîtreſſe, au maintien hypocrite,</l>
+                        <l>Qui me trompe, ſous main , en feignant de m'aimer,</l>
+                        <pb n="52"/>
+                        <l>Une coquette inſigne, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on doit enfermer :</l>
+                        <l>Et mon ami qui l'a ſéduite,</l>
+                        <l>Un perfide, un ingrat digne d'être noyé.</l>
+                        <l>Un Valet qui me vole, un ſcélérat à pendre ;</l>
+                        <l>Un Procureur qui prend ſans jamais rendre,</l>
+                        <l>Un fripon privilégié.</l>
+                        <l>Un Chevalier qui fait commerce de jouer ,</l>
+                        <l>Pour eſcroquer <choice><orig>&amp;</orig><reg>et</reg></choice> filouter l'eſpéce ,</l>
+                        <l>Eſt un Gentilhomme à clouer</l>
+                        <l>Sans quartier, ſur la table où brille ſon adreſſe.</l>
+                        <l>Un homme qui parvient à des Emplois <choice><orig>brillans</orig><reg>brillants</reg></choice></l>
+                        <l>Par la baſſeſſe <choice><orig>&amp;</orig><reg>et</reg></choice> le pillage,</l>
+                        <l>Un <choice><orig>piéplat</orig><reg>pied plat</reg></choice> qui <choice><orig>devroit</orig><reg>devrait</reg></choice> conduire l'équipage</l>
+                        <l>Dont il occupe le dedans.</l>
+                        <l>Celui de qui la noire calomnie</l>
+                        <l>Va ſemer contre nous des Ecrits Clandeſtins,</l>
+                        <l>Et nous couvre d'ignominie,</l>
+                        <l>Le plus affreux de tous les aſſaſſins</l>
+                        <l>Qui nous ravit l'honneur bien plus cher que la vie.</l>
+                        <l>Le Roi des animaux eſt le pire de tous,</l>
+                        <l>Et ce ſiécle, celui des travers les plus fous.</l>
+                        <l><name type='god' n='Momus'>Momus</name>, enfin, <name type='god' n='Momus'>Momus</name> qui juſtifie</l>
+                        <l>Ce que notre âge a de plus odieux,</l>
+                        <l>Eſt le dernier de tous les Dieux ;</l>
+                        <l>Et, par ſa lâche flatterie,</l>
+                        <l>Cent fois plus bas, plus méchant à mes yeux</l>
+                        <l>Que les mortels qu'il juſtifie.</l>
+                        <l>Adieu. Ton ſeul aſpect me chaſſe de ces lieux,</l>
+                        <l>Vil apologiſte du vice :</l>
+                        <l>Va , qui prend ſa défenſe, en devient le complice.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS</speaker> <stage type="action" rend="italics">l'arrêtant.</stage><lb/>
+                        <l>Arrêtez-vous. Je ne ſouffrirais pas</l>
+                        <l>Que vous partiez avec l'idée injurieuſe</l>
+                        <l>Qu'a du ſiécle <choice><orig>&amp;</orig><reg>et</reg></choice> de moi votre ame furieuſe.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Crois-tu donc me convaincre en retenant mes pas ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Entre notre âge <choice><orig>&amp;</orig><reg>et</reg></choice> vous je veux me rendre arbitre,</l>
+                        <pb n="53"/>
+                        <l>Et devenir en vertu de ce titre,</l>
+                        <l>De tous vos différends le Pacificateur.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Moi ! je récuſe un tel Médiateur.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>J'ai des moyens ſi bons à vous déduire,</l>
+                        <l>Que vous allez me croire, <choice><orig>&amp;</orig><reg>et</reg></choice> dompter ce transport.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Mais lorſque j'ai raison ; comment peux-tu détruire...</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Oui, vous avez raiſon ; mais nous n'avons pas tort.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Ventrebleu ! Ce diſcours eſt digne qu'on l'admire.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Vous allez en tomber d'accord.</l>
+                        <l>Prêtez-moi ſeulement une oreille docile.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Pour la rareté du fait, ſoit ;</l>
+                        <l>J'écoute, <choice><orig>&amp;</orig><reg>et</reg></choice> je <choice><orig>ſuſpens</orig><reg>suspends</reg></choice> ma bile.</l>
+                        <l>S'il ſe tire de là, je le tiens pour adroit.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Votre plainte, Monſieur, eſt d'abord légitime :</l>
+                        <l>Des mauvais procédés dont on eſt la victime,</l>
+                        <l>Les exemples ſont familiers ;</l>
+                        <l>Mais du Siécle, après-tout, ils ne ſont pas le crime.</l>
+                        <l>C'eſt celui des Particuliers.</l>
+                        <l>De quelques faux amis qu'on ſe trouve la dupe,</l>
+                        <l>De la fureur qui nous occupe,</l>
+                        <l>Tout l'Univers devient l'objet ;</l>
+                        <l>Nous nous prenons à lui du bien que l'on nous ôte,</l>
+                        <l>Et nous ne ſongeons pas que c'eſt ſouvent la faute</l>
+                        <l>Du mauvais choix que notre cur a fait.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Ce raiſonnement là me frape,</l>
+                        <l>Je puis bien être dans le cas.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Par ce diſcours qui vous <choice><orig>échape</orig><reg>échappe</reg></choice>,</l>
+                        <l>De votre erreur vous convenez tout bas ;</l>
+                        <pb n="54"/>
+                        <l>Le ſiécle, à cet égard, n'eſt donc plus si blâmable ;</l>
+                        <l>Dans l'aveugle tranſport qui vous l'a peint coupable,</l>
+                        <l>Vous le voyiez en laid, <choice><orig>&amp;</orig><reg>et</reg></choice> dans ſon vilain jour :</l>
+                        <l>Par un eſprit plus doux, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un oeil équitable,</l>
+                        <l>Voyez-le en beau, Monſieur, à votre tour.</l>
+                        <l>La Juſtice jamais fut-elle mieux rendue ?</l>
+                        <l>Et l'Univers mieux policé , </l>
+                        <l>La vérité fut-elle mieux connue ?</l>
+                        <l>Plus loin, dans la Nature, a-t-on jamais percé ?</l>
+                        <l>Jamais la Nation fut-elle plus polie ?</l>
+                        <l>Le Commerce plus sûr, <choice><orig>&amp;</orig><reg>et</reg></choice> la Société</l>
+                        <l>Plus charmante, <choice><orig>&amp;</orig><reg>et</reg></choice> plus accomplie ?</l>
+                        <l>La Grace au <choice><orig>Sçavoir</orig><reg>savoir</reg></choice> s'y marie ,</l>
+                        <l><sic>l'</sic>Agrément à l'Utilité.</l>
+                        <l>La Bienſéance à la Commodité.</l>
+                        <l>À l'Enjoûment la Nobleſſe eſt unie,</l>
+                        <l>Et l'Elégance à la Solidité.</l>
+                        <l>C'eſt le Siécle du Goût, titre bien mérité !</l>
+                        <l>Et, s'il a ſes défauts comme les autres âges ,</l>
+                        <l><choice><orig>Convenés</orig><reg>Convenez</reg></choice> avec moi qu'ils ſont bien compenſés ;</l>
+                        <l>Et que, par tous ſes avantages,</l>
+                        <l>Il enchérit en bien ſur les ſiécles paſſés.</l>
+                    </sp> 
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Ce portrait, quoique favorable,</l>
+                        <l>Eſt conforme à la vérité ;</l>
+                        <l>J'ai trop crû la fureur dont <choice><orig>j'étois</orig><reg>j'étais</reg></choice> agité ;</l>
+                        <l>J'ouvre les yeux , je ſens qu'il eſt plus raiſonnable</l>
+                        <l> De voir tout, ici bas, par le plus beau côté.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>D'un ſi ſage retour que je ſuis enchanté !</l>
+                        <l>Notre Age n'a pas to<sic>u</sic><corr>r</corr>t, j'ai <choice><orig>ſçû</orig><reg>su</reg></choice> vous en convaince ;</l>
+                        <l><choice><orig>Consentés</orig><reg>Consentez</reg></choice> donc que <name type='god' n='Momus'>Momus</name> aujourd'hui,</l>
+                        <l>Vous réconcilie avec lui.</l>
+                    </sp>  
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Je le veux de bon cur. On eſt ſûr de me vaincre.</l>
+                        <l>Dès qu'on me montre la raiſon.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Vous avez l'eſprit droit, vous avez le coeur bon.</l>
+                        <pb n="55"/>
+                        <l><choice><orig>Allés</orig><reg>Allez</reg></choice>, <choice><orig>joignés</orig><reg>joignez</reg></choice> , plein d'une ardeur nouvelle,</l>
+                        <l>Au fond de probité qui vous eſt naturelle ,</l>
+                        <l>Trois couches de vernis de ce ſiécle poli,</l>
+                        <l>Et vous ſerez, Monſieur, un mortel accompli.</l>
+                    </sp>
+                    <sp who="Philinte">
+                        <speaker>PHILINTE.</speaker><lb/>
+                        <l>Je cours mettre à profit le conſeil qu'on me donne,</l>
+                        <l>Mettre d'accord en ma perſonne</l>
+                        <l>L'homme du ſiécle avec l'homme d'honneur ;</l>
+                        <l>Sans nuire à la franchiſe , orner l'extérieur ;</l>
+                        <l>Joindre par un noble <choice><orig>aliage</orig><reg>alliage</reg></choice></l>
+                        <l>Aux vertus du vieux <choice><orig>tems</orig><reg>temps</reg></choice>, les vertus de notre âge :</l>
+                        <l>La dépouillant de ſon auſtérit<sic></sic><corr>é</corr></l>
+                        <l>Rendre agréable la ſageſſe,</l>
+                        <l>Et faire aimer la probité</l>
+                        <l>Sous les traits de la politeſſe.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="3">
+                    <head>SCENE III.</head><lb/>
+                    <stage>MOMUS, L'INDIFFERENT.</stage><lb/><lb/>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l><c rend="lettrine">J</c>E viens d'entendre vos diſcours,</l>
+                        <l>Seigneur <name type='god' n='Momus'>Momus</name>, qu'ils m'ont fait rire !</l>
+                        <l>Vous ſerez le même toujours</l>
+                        <l>En éloge comme en <choice><orig>ſatyre</orig><reg>satire</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Comment donc ? Que voulez-vous dire ?</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Que votre eſprit, par de ſubtils détours,</l>
+                        <l><choice><orig>Sçait</orig><reg>Sait</reg></choice> adroitement ſe conduire !</l>
+                        <l>Mais tout le monde, cher <name type='god' n='Momus'>Momus</name>,</l>
+                        <l>De ce Proſélite crédule</l>
+                        <l>Ne ſuivra pas le ſot abus ;</l>
+                        <l> En entrant, en ſortant , je l'ai vû ridicule.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>De quel abus le taxez-vous ?</l>
+                        <pb n="56"/>
+                        <l>Il <choice><orig>reconno<unclear>î</unclear>t</orig><reg>reconnait</reg></choice> ſon injuſtice.</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Premiérement, je blâme le courroux</l>
+                        <l>Qu'il a fait éclater ſi fort contre le vice.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="I">Il en eſt revenu.</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l part="F">Par un autre caprice</l>
+                        <l>Qui doit le mettre au rang des fous.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="I">Comment ?</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l part="F">D'une autre erreur ſur le champ adoptée</l>
+                        <l> Vous avez rempli ſon eſprit,</l>
+                        <l>Cette victoire remportée</l>
+                        <l>Doit établir votre crédit.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Quoi ! Vous riez d'un galant homme </l>
+                        <l>Qui <choice><orig>connoît</orig><reg>connaît</reg></choice> ſes défauts, <choice><orig>&amp;</orig><reg>et</reg></choice> veut s'en corriger ?</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Oui, c'eſt ainſi que votre orgueil le nomme,</l>
+                        <l>Mais ce n'eſt pas ainſi que l'on en doit juger. </l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Et quelle idée eſt donc la vôtre ?</l>
+                        <l>Il  <choice><orig>blâmoît</orig><reg>blâmait</reg></choice> tout le monde, <choice><orig><choice><orig>&amp;</orig><reg>et</reg></choice></orig><reg>et</reg></choice> j'ai  <choice><orig>ſçû</orig><reg>su</reg></choice> lui prouver</l>
+                        <l>Qu'il eſt beaucoup de gens que l'on doit aprouver.</l>
+                        <l part="I">Vers lequel <choice><orig>panchez-vous</orig><reg>penchez-vous</reg></choice> ?</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l part="F">Ni vers l'un, ni vers l'autre.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l part="I">Oh, oh !</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l part="F">L'indifférence eſt le meilleur parti.</l>
+                        <l>Irai-je me fâcher contre un plat perſonnage,</l>
+                        <l>Et lui donner un démenti</l>
+                        <l>Sur toutes les vertus qu'il croit ſon apanage ?</l>
+                        <l>Si le Sort à quelqu'un enfin a départi</l>
+                        <l>De rares qualités un brillant assemblage,</l>
+                        <pb n="57"/>
+                        <l>Irai-je en l'admirant me croire anéanti,</l>
+                        <l>Et le louer d'un bien qui n'eſt pas ſon ouvrage ;</l>
+                        <l>Car, Seigneur, en naiſſant chacun porte ſon lot.</l>
+                        <l><choice><orig>Foibles</orig><reg>Faibles</reg></choice> jouets de la nature ,</l>
+                        <l>Chacun vient riſquer <choice><orig>l'avanture</orig><reg>l'aventure</reg></choice></l>
+                        <l>D'être bien ou mal fait, ſpirituel ou ſot,</l>
+                        <l>Et nous ne nous formons l'eſprit ni la figure.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Mais l'éducation dompte le naturel,</l>
+                        <l>Et fait ſouvent en nous un changement extrême.</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Ce changement eſt ſuperficiel :</l>
+                        <l>Puiſqu'il faut, juſqu'au bout , vous prouver mon <lb/> ſyſt<unclear>ê</unclear>me ,</l>
+                        <l>Elle avance fort peu par tous ſes vains efforts ;</l>
+                        <l>Elle a beau plâtrer les dehors,</l>
+                        <l>Notre fonds eſt toujours le même.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Mais je ſoutiens que ſon ſecours,</l>
+                        <l>Qu'à tort vous peignez inutile,</l>
+                        <l>Fait des merveilles tous les jours.</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Oui, ſur un naturel fertile ;</l>
+                        <l>Vraiment, je n'en doutai jamais, </l>
+                        <l>Puiſqu'il ſort de ſes mains heureuſes,</l>
+                        <l>Auſſi brillant, auſſi poli,</l>
+                        <l>Que de la main d'un Artiſte accompli,</l>
+                        <l>Sortent des Pierres précieuſes.</l>
+                        <l>Oui, je conviens qu'il faut des ſoins au naturel,</l>
+                        <l>Au bon, car au mauvais, ce ſont peines perdues.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Convenez donc qu'auſſi les louanges ſont dûes</l>
+                        <l>À ceux qui l'ont reçu du Ciel.</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>C'eſt juſtement ce que je nie.</l>
+                        <l>J'en reviens à mon premier point,</l>
+                        <l>Que l'on poſſède un mince, ou bien un grand génie,</l>
+                        <l>Je ne mépriſe pas, mais je n'admire point.</l> 
+                        <pb n="58"/>
+                        <l>Un malheureux, à qui la Nature cruelle</l>
+                        <l>A même refuſé ſa plus ſimple faveur,</l>
+                        <l>En eſt aſſez puni par la douleur mortelle,</l>
+                        <l>Que lui cauſe en ſecret cet excès de rigueur</l>
+                        <l>Qui l'avilit à ſes yeux même,</l>
+                        <l>Sans que j'aille ajouter encore à ſon malheur ,</l>
+                        <l>En l'accablant du poids de mon mépris extrême,</l>
+                        <l>Et le perçant d'un ris moqueur :</l>
+                        <l>Un triomphe ſi bas, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on obtient ſans peine,</l>
+                        <l>Deshonore l'eſprit, <choice><orig>&amp;</orig><reg>et</reg></choice> fait outrage au coeur;</l>
+                        <l>Alors, plus la victoire eſt pleine,</l>
+                        <l>Plus ſon éclat honteux dégrade le vainqueur.</l>
+                        <l>Quant à celui ſur qui le ſort propice</l>
+                        <l>A libéralement verſé</l>
+                        <l>Tous les dons ſéducteurs qu'accorde ſon caprice,</l>
+                        <l>N'en eſt-il pas aſſez récompenſé</l>
+                        <l>Par ces mêmes <choice><orig>preſens</orig><reg>présents</reg></choice> de ſon étoile heureuſe,</l>
+                        <l>Et la comparaiſon <choice><orig>flâteuſe</orig><reg>flatteuse</reg></choice></l>
+                        <l>Qu'il fait de ſon mérite avec celui d'autrui ?</l>
+                        <l>Il ſent trop bien ce mérite ſuprême,</l>
+                        <l>Et nous devons nous repoſer ſur lui</l>
+                        <l>Du ſoin de s'aplaudir lui-même.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Souffrez que je vous diſe ici...</l>
+                    </sp>
+                    <sp who="Indifferent">
+                        <speaker>L'INDIFFÉRENT.</speaker><lb/>
+                        <l>Adieu. Vous me feriez un diſcours inutile ; </l>
+                        <l>Dans mon opinion je suis toujours tranquille.</l>
+                        <l>Admirer, eſt d'un ſot ; fronder, d'un étourdi ;</l>
+                        <l>Reſter neutre, d'un homme ſage ;</l>
+                        <l>Et je m'en tiens à ce dernier parti,</l>
+                        <l>Sans vous en dire davantage.</l>
+                    </sp>
+                </div>
+                <pb n="59"/>
+                <div type="scene" n="4">
+                    <head>SCENE IV.</head><lb/>
+                    <stage>MOMUS, LE GENIE DU SIECLE.</stage><lb/>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l><c rend ="lettrine">S</c>Eigneur, je viens vous éclairer,</l>
+                        <l>Et vous ſervir de conducteur moi-même</l>
+                        <l>Dans la carriére où je vous vois entrer.</l>
+                        <l>Comme le monde a changé de ſyſtême ,</l>
+                        <l>Et qu'étant mal inſtruit, vous pourriez exalter</l>
+                        <l>Ce qui n'eſt plus digne de l'être,</l>
+                        <l>Ou taire ce qu'il faut vanter,</l>
+                        <l>Il eſt bon en ce jour de vous faire <choice><orig>connoître</orig><reg>connaître</reg></choice></l>
+                        <l>L'eſprit qui le gouverne, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'on doit conſulter.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>C'eſt m'obliger très-fort ; mais daignez, je vous prie</l>
+                        <l>M'aprendre votre nom avec vos qualités ?</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Du Siécle, en moi, vous voyez le génie :</l>
+                        <l>Rempliſſant l'Univers de nouvelles clartés,</l>
+                        <l>J'ai des vieux préjugés vaincu la tyrannie ;</l>
+                        <l>De nos <choice><orig>Ayeux</orig><reg>aïeux</reg></choice> bornés corrigé les abus ;</l>
+                        <l>D'une conſtance ridicule</l>
+                        <l>Affranchi les Amours qui ne ſoupirent plus :</l>
+                        <l>Dégagé l'amitié des devoirs ſuperflus ;</l>
+                        <l>La probité, du poids d'un vain ſcrupule ;</l>
+                        <l>Et j'ai créé d'autres vertus.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Cette réforme eſt des plus belles ;</l>
+                        <l>On fait tout ce qu'on veut quand on a de l'eſprit.</l>
+                        <l>Mais les vieilles Vertus n'ont donc plus de crédit ?</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Non. J'ai ſur leur ruine établi les nouvelles.</l>
+                        <l>Ces contrôleuſes éternelles</l>
+                        <l><choice><orig>Etoient</orig><reg>Étaient</reg></choice> dures à vivre, <choice><orig>&amp;</orig><reg>et</reg></choice> d'un ſot entretien.</l>
+                    </sp>
+                    <pb n="60"/>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>De m'avertir vous faites bien ;</l>
+                        <l>Car j'<choice><orig>aurois</orig><reg>aurais</reg></choice>, dans mon ignorance,</l>
+                        <l>Loué bêtement la Conſtance,</l>
+                        <l>La Candeur, la Fidélité,</l>
+                        <l>La Modeſtie <choice><orig>&amp;</orig><reg>et</reg></choice> la Franchiſe,</l>
+                        <l>La Bonne-Foi, l'Intégrité.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Vous auriez fait une inſigne mépriſe.</l>
+                        <l>Aprenez qu'aujourd'hui la Candeur eſt ſottiſe ;</l>
+                        <l>La Conſtance fadeur, ou <choice><sic>défauts</sic><reg>défaut</reg></choice> d'<choice><orig>agrémens</orig><reg>agréments</reg></choice>;</l>
+                        <l>La Modeſtie un vice des plus grands,</l>
+                        <l>Qui par la crainte qu'elle excite,</l>
+                        <l><choice><orig>Oſte</orig><reg>Ôte</reg></choice> la grace, étouffe les <choice><orig>talens</orig><reg>talents</reg></choice>,</l>
+                        <l>Et fait ſouvent un ſot d'un homme de mérite ;</l>
+                        <l>La Bonne-Foi produit les plus petits eſprits ,</l>
+                        <l>Qui n'oſant s'écarter de la marche commune ,</l>
+                        <l>Ne font jamais un pas vers la Fortune ;</l>
+                        <l>L'Intégrité, des gens durs, impolis,</l>
+                        <l>Sur qui ne peuvent rien les <choice><orig>parens</orig><reg>parents</reg></choice>, les amis ,</l>
+                        <l>Et qui refuſent tout aux Dames ;</l>
+                        <l>La Franchise, des étourdis :</l>
+                        <l>Et la Fidélité fait les plus ſottes femmes.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>J'ouvre les yeux <choice><orig>&amp;</orig><reg>et</reg></choice> ſuis de votre avis.</l>
+                        <l>Ces vertus-là ne ſont pas de commerce.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Voilà pourquoi je les proſcris,</l>
+                        <l>Et ne veux plus qu'on les exerce.</l>
+                        <l>Je leur ſubſtitue, en ce jour,</l>
+                        <l>L'Inconſtance, qui de l'amour</l>
+                        <l>Fait un amuſement au lieu d'un eſclavage,</l>
+                        <l>Et rend illustre une aimable volage.</l>
+                        <l>La juſte Défiance, au cœur toujours couvert,</l>
+                        <l>Qui <choice><orig>ſçait</orig><reg>sait</reg></choice> ſe déguiſer ſous un maintien ouvert,</l>
+                        <l>Et qui déſigne un homme ſage.</l>
+                        <l>La Bonne Opinion, ferme dans tous ſes pas,</l>
+                        <l>Qui porte <choice><orig>&amp;</orig><reg>et</reg></choice> met en jour le mérite qu'elle aide,</l>
+                        <pb n="61"/>
+                        <l>Qui fait briller l'eſprit que l'on poſſéde,</l>
+                        <l>Et <choice><orig>paroître</orig><reg>paraître</reg></choice> ſouvent celui que l'on n'a pas.</l>
+                        <l>La douce Politeſſe, <choice><orig>&amp;</orig><reg>et</reg></choice> l'exacte Décence</l>
+                        <l>Que ſuivent les égards ſi reſpectés en <name type="place" n="France">France</name>,</l>
+                        <l>Qui parent les dehors ſans gêner les deſirs,</l>
+                        <l>Et leur ſervant de voile, augmentent les plaiſirs.</l>
+                        <l>La Coquetterie attrayante,</l>
+                        <l>Au ſouris fin, au regard ſéducteur,</l>
+                        <l>Pour mieux plaire toujours décente ,</l>
+                        <l>Se couvrant à demi d'un vernis de pudeur,</l>
+                        <l>Animant la beauté qu'elle rend plus piquante,</l>
+                        <l>Qui répand ſes attraits juſques ſur la laideur,</l>
+                        <l>Et forme, en épuiſant ſon pouvoir enchanteur ,</l>
+                        <l>La femme du grand monde, ou la femme charmante.</l>
+                        <l>La fine Politique, <choice><orig>&amp;</orig><reg>et</reg></choice> le Manége adroit,</l>
+                        <l>Epoux clandeſtin de l'Intrigue,</l>
+                        <l>Ami des ſouterrains, <choice><orig>&amp;</orig><reg>et</reg></choice> pere de la Brigue ,</l>
+                        <l>Qui cache d'un rideau que perſonne ne voit,</l>
+                        <l>L'art de tout aplanir, <choice><orig>&amp;</orig><reg>et</reg></choice> l'utile ſcience</l>
+                        <l>D'aller à la Fortune avec rapidité,</l>
+                        <l>Et d'une main que conduit la prudence,</l>
+                        <l>D'arracher ſes faveurs avec impunité ;</l>
+                        <l>C'eſt ce Manége enfin qui compoſe l'eſſence</l>
+                        <l>Du Génie élevé, de l'eſprit tranſcendant,</l>
+                        <l>Qui franchit la <choice><orig>barriére</orig><reg>barrière</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qui vole au plus grand.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Oh! voilà pour le coup les vertus à la mode.</l>
+                        <l>La morale en eſt douce, <choice><orig>&amp;</orig><reg>et</reg></choice> l'uſage commode.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>C'eſt l'agrément joint à l'utilité,</l>
+                        <l>Qui fait les vertus véritables ;</l>
+                        <l>Les miennes, douces <choice><orig>&amp;</orig><reg>et</reg></choice> traitables,</l>
+                        <l>Ont cette double qualité ;</l>
+                        <l>Et, faites pour l'humanité,</l>
+                        <l>Sont utiles autant qu'aimables.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Elles auront nombre de partiſans.</l>
+                    </sp>
+                    <pb n="62"/>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Pour mieux prouver mon avantage</l>
+                        <l>Sur la ſageſſe du vieux <choice><orig>tems</orig><reg>temps</reg></choice>,</l>
+                        <l>Examinons ſon plus parfait Ouvrage.</l>
+                        <l>Quels ſont ces ſages renommés,</l>
+                        <l>Ces mortels ſi parfaits que ſes mains ont formés ?</l>
+                        <l>Des hommes ſinguliers, des eſprits indociles,</l>
+                        <l>Des <choice><orig>miſantropes</orig><reg>misanthropes</reg></choice> noirs, des cenſeurs difficiles,</l>
+                        <l>Qui trouvent tout mauvais, <choice><orig>&amp;</orig><reg>et</reg></choice> ne ſont bons à rien ;</l>
+                        <l>Des vains déclamateurs, en maximes fertiles,</l>
+                        <l>Parés du nom de gens de bien,</l>
+                        <l>Et Citoyens très-inutiles;</l>
+                        <l>S'ils ſont dans l'indigence, ils le méritent bien.</l>
+                        <l>Quels ſont preſentement ceux que je favoriſe,</l>
+                        <l>Et que j'ai pris ſoin de polir ?</l>
+                        <l>Des hommes accomplis que tout le monde priſe,</l>
+                        <l>Qui joignent l'art de plaire à l'art de s'agra<sic>u</sic><corr>n</corr>dir,</l>
+                        <l>Propres à tout, alliant les contraires,</l>
+                        <l><choice><orig>Amuſans</orig><reg>Amusants</reg></choice> dans un cercle, utiles à l'Etat,</l>
+                        <l>Papillons en amour, Aigles dans les affaires,</l>
+                        <l>Polis dans le commerce, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>vaillans</orig><reg>vaillants</reg></choice> au combat ;</l>
+                        <l>Comblés de gloire, ils ſont dignes de leur éclat.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>À ces derniers que je préfére,</l>
+                        <l>Je donne, en ces <choice><orig>inſtans</orig><reg>instants</reg></choice>, le prix ſans balancer :</l>
+                        <l>Ils ſont riches, <choice><orig>brillans</orig><reg>brillants</reg></choice>, le ſort leur eſt proſpére.</l>
+                        <l>Ce ſont-là les Héros que je dois encenſer ;</l>
+                        <l>Et c'eſt à vous que je veux plaire ,</l>
+                        <l>Sur la vertu, quoique je la révére,</l>
+                        <l>Je me tairai, de peur de m'oublier.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>À ſes dépens <name type='god' n='Momus'>Momus</name> peut s'égayer.</l>
+                        <l>Gothique comme elle eſt, chacun vous l'abandonne.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Mais mon métier eſt <choice><orig>d'aprouver</orig><reg>d'approuver</reg></choice>.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Attaquez-la, Seigneur, vous n'offenſez perſonne.</l>
+                    </sp>
+                    <pb n="63"/>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>J'offenſe tout le monde, <choice><orig>&amp;</orig><reg>et</reg></choice> je vais le prouver.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Oh ! Cette ſaillie eſt fort bonne !</l>
+                        <l>On vous défend d'être malin,</l>
+                        <l>Vous déguiſez la pente où vous êtes enclin,</l>
+                        <l>Et vous ſauvez par l'ironie ;</l>
+                        <l>J'aplaudis de bon cœur à ce trait de génie,</l>
+                        <l>Et vous prenez le bon chemin.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Moi ! Je ne raille point, quoique vous puiſſiez dire ;</l>	
+                        <l>Penſer ainſi de moi, c'eſt vouloir me détruire,</l>
+                        <l>Car qu'eſt-ce qu'un railleur ? Un eſprit ſans égard,</l>
+                        <l>Qui ne reſpecte rien, qu'on fuit de toute part,</l>
+                        <l>Haï de la moitié du monde qu'il déchire,</l>
+                        <l>Et craint ou mépriſé de l'autre qu'il fait rire.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Vous peignez un cauſtique, <choice><orig>&amp;</orig><reg>et</reg></choice> non un fin railleur ;</l>	
+                        <l>Songez que le plus ſage eſt quelquefois rieur.</l>
+                        <l>Avec raiſon, <name type="place" n="Paris">Paris</name> s'offenſe</l>
+                        <l>Qu'on fronde ouvertement <choice><orig>&amp;</orig><reg>et</reg></choice> par profeſſion;</l>
+                        <l>Mais il eſt <choice><orig>très-permis</orig><reg>très permis</reg></choice> en <name type="place" n="France">France</name></l>
+                        <l>De railler joliment <choice><orig>&amp;</orig><reg>et</reg></choice> par occaſion</l>
+                        <l>Vous pouvez, en faiſant la juſte apologie</l>
+                        <l>Du goût du <choice><orig>Siécle</orig><reg>Siècle</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> de ſes mœurs,</l>
+                        <l>Vous pouvez en paſſant contre tous ſes frondeurs,</l>
+                        <l>Exercer votre raillerie :</l>
+                        <l>Décochez-leur vos traits, mais d'une main polie.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>La mienne eſt mal adroite, <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>pourroit</orig><reg>pourrait</reg></choice> les meurtrir.</l>	
+                        <l>Pour louer, volontiers, je ſuis prêt d'obéir,</l>
+                        <l>Car j'en ai fait un ſerment <choice><orig>autentique</orig><reg>authentique</reg></choice></l>
+                        <l>Pour mon repos <choice><orig>&amp;</orig><reg>et</reg></choice> pour mon bien ;</l>
+                        <l>Et <choice><orig>duſſai-je</orig><reg>dussé-je</reg></choice> échouer dans le Panégyrique ,</l>
+                        <l>J'aime mieux louer mal, que de médire bien.</l>
+                    </sp>
+                    <sp who="Le Génie du siècle">
+                        <speaker>LE GÉNIE.</speaker><lb/>
+                        <l>Je ne puis m'empêcher d'en rire,</l>	
+                        <l>Et je trouve le trait <choice><sic>auſſi-neuf</sic><reg> aussi neuf</reg></choice> que charmant ;</l>
+                        <pb n="64"/>
+                        <l><name type='god' n='Momus'>Momus</name> qui, me prie inſtamment</l>
+                        <l>De le diſpenſer de médire !</l>
+                        <l>Adieu... Je vais, Seigneur, publier hautement,</l>
+                        <l>Que <name type='god' n='Momus'>Momus</name> a quitté, dépoſant ſon tonnerre,</l>
+                        <l>L'uniforme du régiment :</l>
+                        <l>Qu'à l'avenir, toute la terre</l>
+                        <l>Peut être ridicule, <choice><orig>&amp;</orig><reg>et</reg></choice> folle impunément,</l>
+                        <l>Et qu'il fait en ces lieux trafic de compliment :</l>
+                        <l>Que ſans contribuer à l'intrigue comique,</l>
+                        <l>Et ſans ſervir au dénoûment,</l>
+                        <l>Tout Perſonnage épiſodique,</l>
+                        <l>Peut à ſes yeux <choice><orig>paroître</orig><reg>paraître</reg></choice> hardiment,</l>
+                        <l>Beauté, <choice><orig>Laidron</orig><reg>Laideron</reg></choice>, <choice><orig>Roturiére</orig><reg>Roturière</reg></choice>, Marquiſe,</l>
+                        <l>Vieille, Tendron piquant,</l>
+                        <l>Honnête-homme, Fripon, Ignorant <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>Sçavant</orig><reg>savant</reg></choice> ;</l>
+                        <l>Les vertus, les défauts, l'eſprit <choice><orig>&amp;</orig><reg>et</reg></choice> la ſottiſe :</l>
+                        <l>Que vous louez, enfin, tous indifféremment,</l>
+                        <l>Et qu'au premier venu, d'une main libérale,</l>
+                        <l>Vous prodiguez l'encens dans cette Salle,</l>
+                        <l>Sans <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> pourquoi, ni comment.</l>
+                    </sp>  
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Allez, vous me forcez de quitter l'ironie,</l>
+                        <l>À mes yeux ne vous offrez plus :</l>     
+                        <l>Si de ce Siécle heureux vous étiez le Génie,</l>
+                        <l>Vous feriez plus de cas des ſolides vertus.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="5">
+                    <head>SCENE V.</head><lb/>
+                    <stage>MOMUS, CHRISANTE.</stage><lb/>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l><c type="lettrine">J</c>E donne le bon jour au Dieu de la Critique.</l>
+                        <l>Je viens ici, je viens exprès</l>
+                        <l>Pour un deſſein qu'il faut que je lui communique.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Sçachez que <name type='god' n='Momus'>Momus</name> déſormais</l>
+                        <pb n="65"/>
+                        <l>Préſide au ſeul Panégyrique.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Ah ! Je vous reconnois à ce trait ironique.</l>
+                        <l>Vous voyez devant vous un homme ſingulier.</l>
+                        <l>J'ai le goût excellent , mais <choice><orig>très-particulier</orig><reg>très particulier</reg></choice>.</l>
+                        <l>Ce qui plaît au Public a droit de me déplaire ;</l>
+                        <l>Je blâme conſtamment ce qu'il ſemble eſtimer,</l>
+                        <l>Et j'eſtime au contraire</l>
+                        <l>Ce qu'il affecte de blâmer.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Pourquoi vous écarter du chemin ordinaire ?</l>
+                        <l>Et qui peut contre lui ſi fort vous animer ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt la droite équité que jamais il n'écoute.</l>
+                        <l>Conduit par ſon caprice il eſt extrême en tout,</l>
+                        <l>Et je viens vous prier de réformer ſon goût.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Monſieur, ſur le vôtre ſans doute ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Ne penſez pas railler, tout n'en iroit que mieux :</l>
+                        <l>S'il ſuivoit aujourd'hui mon goût délicieux :</l>
+                        <l>La raiſon fixeroit ſon eſprit trop volage,</l>
+                        <l>Et lui feroit tenir une route plus ſage.</l>
+                        <l>On verroit moins d'abus : La prudence <choice><orig>&amp;</orig><reg>et</reg></choice> la paix</l>
+                        <l>Dans tous les lieux publics régneroient à jamais.</l>
+                        <l>Nul orages <choice><orig>ſur-tout</orig><reg>surtout</reg></choice>, nuls flots <choice><orig>&amp;</orig><reg>et</reg></choice> nuls obſtacles,</l>
+                        <l>Ne troubleroient, Seigneur,les tranquilles Spectacles ;</l>
+                        <l>On <choice><orig>n'entendroit</orig><reg>n'entendrait</reg></choice> plus de <choice><orig>Siflets</orig><reg>Sifflets</reg></choice> :</l>
+                        <l>L'humanité condamne un inſtrument ſi triſte.</l>
+                        <l>Je ne m'en ſuis ſervi jamais que contre <title n="Inès de Castro">Inès</title>,</l>
+                        <l>Contre <title n="Zaïre">Zaïre</title> <choice><orig>&amp;</orig><reg>et</reg></choice> contre <title n="Rhadamiste et Zénobie">Radamiste</title>.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Qui vous rend leur Antagoniſte ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Belle demande ! Leur ſuccès.</l>
+                        <l>Le ſentiment commun eſt toujours le mauvais,</l>
+                        <l>Je vous l'ai déjà dit, c'eſt pourquoi j'y réſiſte.</l>
+                        <l>Par la même raiſon je me pique aujourd'hui</l>
+                        <pb n="66"/>
+                        <l>D'être le Chevalier des <choice><orig>Piéces</orig><reg>Pièces</reg></choice> malheureuſes.</l>
+                        <l>Mes <choice><orig>poulmons</orig><reg>poumons</reg></choice> <choice><orig>éloquens</orig><reg>éloquents</reg></choice> <choice><orig>&amp;</orig><reg>et</reg></choice> mes mains généreuſes</l>
+                        <l>Combattent pour leur cauſe en dépit de l'ennui ;</l>
+                        <l>Et tout Auteur qui tombe en m<unclear>o</unclear>i trouve un <choice><orig>apui</orig><reg>appui</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Voilà des <choice><orig>ſentimens</orig><reg>sentiments</reg></choice> <choice><orig>tout-à-fait</orig><reg>tout à fait</reg></choice> charitables.</l>
+                        <l>Mais <choice><orig>entre-nous</orig><reg>entre nous</reg></choice>, mon cher Monſieur ,</l>
+                        <l>N'auriez-vous point pitié de vos ſemblables ?</l>
+                        <l>Et du Public qui cauſe votre aigreur,</l>
+                        <l>N'auriez-vous pas vous-même éprouvé la rigueur ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Il m'a bruſqué, Seigneur, une fois en ma vie ;</l>
+                        <l>Mais à la charge, il n'eſt plus revenu,</l>
+                        <l>Car je m'en ſuis fort ſagement tenu</l>
+                        <l>A ma <choice><orig>premiére</orig><reg>première</reg></choice> Tragédie.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Je ne m'étonne plus de votre antipathie.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>J'ai l'avantage maintenant</l>
+                        <l>De le contrarier sans ceſſe,</l>
+                        <l>Et de me déchaîner contre ſon jugement</l>
+                        <l>Sans redouter ſa fureur vengereſſe.</l>
+                        <l>C'eſt pour jouir de ce contentement</l>
+                        <l>Que je vais à la Comédie.</l>
+                        <l>Critique-t-il ? J'apologie.</l>
+                        <l><choice><orig>Aplaudit-il</orig><reg>Appludit-il</reg></choice> ? Je ſuis ardent</l>
+                        <l>A faire la contre partie.</l>
+                        <l>Ce qui me flatte enfin, <choice><orig>&amp;</orig><reg>et</reg></choice> qui doit le piquer,</l>
+                        <l>Puiſqu'avec vous il faut que je m'épanche,</l>
+                        <l>C'eſt qu'il n'a jamais pû qu'une fois m'attaquer,</l>
+                        <l>Et qu'il me donne, lui, tous les jours ma revanche.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Je ne puis m'empêcher de blâmer hautement</l>
+                        <l>Une conduite ſi peu ſage.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Vous avez beau dans ce moment</l>
+                        <l>Prendre ſa Cauſe en main à mon déſavantage,</l>
+                        <l>J'ai là dans mon cerveau le deſſein d'un Ouvrage</l>
+                        <pb n="67"/>
+                        <l>Qui vous fera <choice><orig>bien-tôt</orig><reg>bientôt</reg></choice> changer de ſentiment.</l>
+                        <l>Vous l'allez aplaudir, je gage :</l>
+                        <l>Son titre ſeul eſt un bon pronoſtic.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Quel eſt donc ce deſſein digne de mon ſuffrage ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt la critique du Public</l>
+                        <l>Ses écarts démontrés par ſa propre conduite,</l>
+                        <l>Par ſon peu de <choice><orig>lumiére</orig><reg>lumière</reg></choice> ou ſon peu d'équité,</l>
+                        <l>Et ſon infaillibilité</l>
+                        <l>Totalement détruite</l>
+                        <l>Car tous ſes jugemens pleins de prévention,</l>
+                        <l>D'erreur, de contradiction,</l>
+                        <l>Par ſes geſtes <choice><orig>&amp;</orig><reg>et</reg></choice> dits, qui n'ont ni fin ni ſuite.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Le projet eſt nouveau ! Mais voudriez-vous bien</l>
+                        <l>Et me détailler <choice><orig>&amp;</orig><reg>et</reg></choice> <choice><orig>m'aprendre</orig><reg>m'apprendre</reg></choice></l>
+                        <l>Ce que dans le Public vous trouvez à reprendre,</l>
+                        <l>Soit dans ſes actions, ſoit dans ſon entretien ?</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Mille travers, mille <choice><orig>bévûes</orig><reg>bévues</reg></choice> ;</l>
+                        <l>Son goût pour le clinquant dont il eſt le ſoutien,</l>
+                        <l>Et pour la nouveauté qu'il porte juſqu'aux nu<unclear>e</unclear>s</l>
+                        <l>Ou qu'il met au deſſous de rien,</l>
+                        <l>Car jamais il ne garde un milieu raiſonnable.</l>
+                        <l>Chez lui tout eſt divin, ou tout eſt miſérable.</l>
+                        <l>Sa fureur pour la mode <choice><orig>&amp;</orig><reg>et</reg></choice> pour tout charlatan ;</l>
+                        <l>Tous les uſages fous dont il eſt le Partiſan ;</l>
+                        <l>Toutes ſes politeſſes fades,</l>
+                        <l>Ses viſites, ſes embraſſades,</l>
+                        <l>Et ſes ſaluts du premier jour de l'an ;</l>
+                        <l>Du Carnaval ſes Maſcarades ;</l>
+                        <l>Du Mardi gras ſon tranſport calotin,</l>
+                        <l>Et ſon air ſot le lendemain,</l>
+                        <l>Son exercice aux <name type="place" n="Tuileries">Thuilleries</name>,</l>
+                        <l>Ses caracols, ſes lorgneries ;</l>
+                        <l>Aux ſpectacles <unclear>ſ</unclear>es flots, ſes vertiges <choice><orig>fréquens</orig><reg>fréquents</reg></choice>,</l>
+                        <l>Ses battemens de mains donnés à <choice><orig>contre-tems</orig><reg>contretemps</reg></choice>,</l>
+                        <pb n="68"/>
+                        <l>Toutes ſes moucheries,</l>
+                        <l>Ses <choice><orig>bâillemens</orig><reg>bâillements</reg></choice>, ſes <choice><orig>crachemens</orig><reg>crachements</reg></choice></l>
+                        <l>Aux endroits les plus beaux, les plus <choice><orig>interreſſans</orig><reg>intéressants</reg></choice>,</l>
+                        <l>Son ridicule étrange</l>
+                        <l>De recevoir avidement</l>
+                        <l>La plus inſipide louange,</l>
+                        <l>Qu'on lui retourne inceſſament,</l>
+                        <l>Dans un Prologue ou dans un Compliment.</l>
+                        <l>Sa rage opiniâtre</l>
+                        <l>De crier preſqu'à tout moment,</l>
+                        <l>Place aux Dames ! Place au Théâtre !</l>
+                        <l>Parlez plus haut ! L'habit noir, chapeau bas !</l>
+                        <l>Paix! Monſieur l'Abbé, haut les bras !</l>
+                        <l>Annoncez ! Bis ! La <choice><orig>capriole</orig><reg>cabriole</reg></choice> !</l>
+                        <l>Et pour tout dire enfin, l'inſuportable rôle</l>
+                        <l>Qu'il fait, dès qu'au Parterre il ſe trouve preſſé.</l>
+                        <l>Ce qui révolte l'ame <choice><orig>&amp;</orig><reg>et</reg></choice> fait hauſſer l'épaule</l>
+                        <l>A tout homme de goût, à tout homme ſenſé.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Vous peignez-là la multitude</l>
+                        <l><choice><orig>Mere</orig><reg>Mère</reg></choice> du tumulte <choice><orig>&amp;</orig><reg>et</reg></choice> du bruit,</l>
+                        <l>Que n'arrête aucun frein, que l'éxemple ſéduit,</l>
+                        <l>Qu'entraîne la <choice><orig>coûtume</orig><reg>coutume</reg></choice>, ou l'aveugle habitude,</l>
+                        <l>Et non le vrai Public, avec choix aſſemblé ,</l>
+                        <l>Tel qu'on le voit paroître</l>
+                        <l>Au Jeux d'un Théâtre réglé,</l>
+                        <l>Quand il écoute en ſage, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il prononce en maître,</l>
+                        <l>Ses arrêt qui le font ſi dignement connoître,</l>
+                        <l>Et dont nul avant vous n'a jamais <choice><orig>apellé</orig><reg>appelé</reg></choice>.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Vous nous repreſentez une belle <choice><orig>chimére</orig><reg>chimère</reg></choice> :</l>
+                        <l>Le Public que nous <choice><orig>connoiſſons</orig><reg>connaissons</reg></choice></l>
+                        <l>Tient juſtement un chemin tout contraire,</l>
+                        <l>Et pour en apeller , j'ai de bonnes raiſons :</l>
+                        <l>Quand dans ſa fougue extrême</l>
+                        <l>Il juge ſans entendre <choice><orig>&amp;</orig><reg>et</reg></choice> s'inſtruire du fonds,</l>
+                        <l>Et qu'il ſe contredit à chaque inſtant lui-même</l>
+                        <l>Par ſes Ouis, <choice><orig>&amp;</orig><reg>et</reg></choice> par ſes Nons</l>
+                        <pb n="69"/>
+                        <l>Je porte ici de quoi prouver la choſe :</l>
+                        <l>Tenez, liſez, ſans attendre plus tard,</l>
+                        <l>Vous verrez qu'il aprouve <choice><orig>&amp;</orig><reg>et</reg></choice> condamne au <choice><orig>hazard</orig><reg>hasard</reg></choice></l>
+                        <l>Et ſans connoiſſance de Cauſe.</l>
+                        <l>Seigneur, la liste que voilà</l>
+                        <l>Fait voir en plein ſon injuſtice,</l>
+                        <l>Sa <choice><orig>legereté</orig><reg>légèreté</reg></choice>, ſon caprice,</l>
+                        <l>Et ſon goût dépravé qui toujours l'emporta.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Non, j'ai fait vu de ne plus lire</l>
+                        <l>Aucun Libelle ni Satire.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Oh, parbleu, tout au moins , <name type='god' n='Momus'>Momus</name> m'écoutera : </l>
+                        <lb/><stage type='delivery'><hi rend="italic">(Il lit.)</hi></stage><lb/>
+                        <p><hi rend="italic"><choice><orig>Piéce</orig><reg>Pièce</reg></choice> que le Public a <choice><orig>aplaudie</orig><reg>applaudie</reg></choice>, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il <choice><orig>devoit ſifler</orig><reg>devait siffler</reg></choice><unclear>:</unclear>
+                            <lb/>LA COMEDIE AUX QUATRE ETOILES.</hi></p>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>A rire malgré moi ſa colére m'excite.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>C'eſt ici que je vous <choice><orig>attens</orig><reg>attends</reg></choice>.</l>
+                        <l>Je vous défie en ces <choice><orig>inſtans</orig><reg>instants</reg></choice></l>
+                        <l>De me juſtifier ſa folle réuſſite.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Le Ballet lui ſeul la mérite.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker><lb/>
+                        <l>Vous êtes ami de l'Auteur.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker><lb/>
+                        <l>Non, je ſuis de la douceur;</l>
+                        <l>Et le Public a dû ſon indulgence</l>
+                        <l>A qui s'efforce uniquement</l>
+                        <l>De le divertir noblement,</l>
+                        <l>Et dans l'exacte bienſéance.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker>
+                        <l>L'exacte bienſéance ? Ah ! le trait eſt fort bon !</l>
+                        <l>Oui, rien de plus décent que Finette <choice><orig>&amp;</orig><reg>et</reg></choice> Marton.</l>
+                        <l>Deux hommes traveſtis, qui pour ſervir leur <choice><orig>flâme</orig><reg>flamme</reg></choice>,</l>
+                        <l>Se font dans la même maiſon</l>
+                        <l>Femmes de Chambre de Madame,</l>
+                        <pb n="70"/>
+                        <l>Et qui ſemblent tous deux s'être donné le mot</l>
+                        <l>Pour ce déguiſement falot !</l>
+                        <l>Une telle conduite bleſſe</l>
+                        <l>La vraiſemblance autant que la ſageſſe.</l>
+                        <l>Quel fond de Comédie ! <choice><orig>O</orig><reg>Ô</reg></choice> Ciel ! où ſommes-nous ?</l>
+                        <l>L'encens que vous donnez me fait rougir pour vous.</l>
+                        <l>Vous nous vantez les moeurs (la choſe eſt ſans égale)</l>
+                        <l>D'un ouvrage effronté, qui de ſens <choice><orig>dépourvû</orig><reg>dépourvu</reg></choice>,</l>
+                        <l>Peint l'indécence tout à <choice><orig>nû</orig><reg>nu</reg></choice>,</l>
+                        <l>Et qui préciſément ouvre par le ſcandale.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l>C'eſt pour finir par la vertu.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker>
+                        <l>Quel raiſonnement biſcornu <unclear>!</unclear></l>
+                        <l>Et quand ils vont tous deux habiller la Marquiſe,</l>
+                        <l>Hem ! Qu'eſt-ce que vous en penſez ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l part="I">C'eſt la <choice><orig>premiere</orig><reg>première</reg></choice> fois.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker>
+                        <l part="F">N'en eſt-ce pas aſſez</l>
+                        <l>Pour qu'un eſprit bien né, morbleu, s'en ſcandaliſe ?</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l part="I">Paſſons.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker>
+                        <l part="F">J'ai donc raiſon, <choice><orig>&amp;</orig><reg>et</reg></choice> vous le confeſſez.</l>
+                        <lb/><stage><hi rend="italic">(Il continue à lire.)</hi></stage><lb/>
+                        <p><hi rend="italic">Actrice que le Public a bien reçue, <choice><orig>&amp;</orig><reg>et</reg></choice> qu'il <choice><orig>devoit</orig><reg>devait</reg></choice> <lb/>proſcrire. </hi>PHEDRE.</p>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l>Tout doucement, Monſieur, reſpecter cette Actrice,</l>
+                        <l><choice><orig>Sçachez</orig><reg>Sachez</reg></choice> que le Public <choice><orig>l'aprouve</orig><reg>l'approuve</reg></choice> avec juſtice : </l>
+                        <l>Ce qui lui manque eſt un défaut <choice><orig>leger</orig><reg>léger</reg></choice></l>
+                        <l>Que ſix mois peuvent corriger ;</l>
+                        <l>Mais tous les dons heureux qu'au Théâtre elle étale ;</l>
+                        <l>Cette <choice><orig>ame</orig><reg>âme</reg></choice>, ces éclats, <choice><orig>&amp;</orig><reg>et</reg></choice> ces ſons <choice><orig>ſéduisans</orig><reg>séduisants</reg></choice>,</l>
+                        <l>Sont des faveurs <choice><orig>&amp;</orig><reg>et</reg></choice> des <choice><orig>préſens</orig><reg>présents</reg></choice></l>
+                        <l>De la Nature libérale</l>
+                        <l>Qu'on ne <choice><orig>ſçauroit</orig><reg>saurait</reg></choice> acquérir par le <choice><orig>tems</orig><reg>temps</reg></choice> ;</l>
+                        <pb n="71"/>
+                        <l>Fuyant le ton ſervile <choice><orig>&amp;</orig><reg>et</reg></choice> le jeu monotone,</l>
+                        <l>A ſon feu naturel ſon ame s'abandonne ; </l>
+                        <l>Dans ſon brillant eſſai <choice><orig>qu'aplaudit</orig><reg>qu'applaudit</reg></choice> tout <name type="place" n="Paris">Paris</name>,</l>
+                        <l>Le ſuprême talent ſe <choice><orig>dévelope</orig><reg>développe</reg></choice> en elle ;</l>
+                        <l>Et prenant un eſſor dont les ye<sic>n</sic><corr>u</corr>x ſont ſurpris,</l>
+                        <l>Elle ne ſuit perſonne, <choice><orig>&amp;</orig><reg>et</reg></choice> promet un modèle.</l>
+                    </sp>
+                    <sp who="Chrisante">
+                        <speaker>CHRISANTE.</speaker>
+                        <l>J'écoute en frémiſſant cet éloge parfait.</l>
+                        <l>Adieu, Se<unclear>i</unclear>gneur <sic>?</sic> adieu, je quitte la partie :</l>
+                        <l>Après un pareil trait</l>
+                        <l>Le Public me révolte; <choice><orig>&amp;</orig><reg>et</reg></choice> qui le juſtifie</l>
+                        <l>Ne peut être mon fait.</l>
+                        <l>Jé <choice><orig>ſçai</orig><reg>sais</reg></choice> qu'à nos dépens chargeant notre portrait,</l>
+                        <l>Vous allez divertir le Peuple <choice><orig>Poëtique</orig><reg>poétique</reg></choice> ;</l>
+                        <l>Tirer ſur les paſſans fût toujours votre tic.</l>
+                        <l>Mais aprenz, Monſieur le Dieu cauſtique,</l>
+                        <l>Que qui ſe moque du Public,</l>
+                        <l>Se moque auſſi de la Critique,</l>
+                        <l>Et de <name type='god' n='Momus'>Momus</name>, <choice><orig>&amp;</orig><reg>et</reg></choice> de toute ſa clique.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="6">
+                    <head>SCENE VI.</head><lb/>
+                    <sp who="Momus">
+                        <speaker>MOMUS </speaker>
+                        <stage><hi rend="italic">ſeul.</hi></stage><lb/>
+                        <l><c type="lettrine">S</c>On ridicule eſt ſans égal !</l>
+                        <l>Tout ſingulier qu'il eſt dans ſa folie,</l>
+                        <l>C'eſt pourtant un Original</l>
+                        <l>Qui dans <name type="place" n="Paris">Paris</name> a plus d'une Copie,</l>
+                        <l>Et ſouvent même il y donne le ton.</l>
+                        <l>Quelle eſt la Dame q<sic> </sic><corr>u</corr>i s'avance ?</l>
+                        <l><choice><orig>O</orig><reg>Ô</reg></choice> Ciel ! C'eſt la Critique ! évitons ſa préſence.</l>
+                        <l>Apologiſte par raiſon,</l>
+                        <l><name type='god' n='Momus'>Momus</name> ne doit plus avec elle</l>
+                        <l>Avoir aucune liaiſon.</l>
+                    </sp>  
+                </div>
+                <pb n="72"/>
+                <div type="scene" n="7">
+                    <head>SCENE VII.</head><lb/>
+                    <stage>MOMUS, LA CRITIQUE.</stage><lb/>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/><lb/>
+                        <l><c type="lettrine">S</c>Eigneur, vous me fuyez?La choſe eſt <choice><orig>très-nouvelle</orig><reg>très nouvelle</reg></choice>.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l>Pardon, l'état que je viens d'embraſſer</l>
+                        <l>A l'honneur de vous voir, me force à renoncer.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker>
+                        <l>Un pareil compliment, Seigneur, eſt malhonnête,</l>
+                        <l>Dans le tems que je viens vous donner une Fête ;</l>
+                        <l><gap/>être témoin tout vous fait un devoir.</l>
+                    </sp>
+                    <sp who="Momus">
+                        <speaker>MOMUS.</speaker>
+                        <l>Je m'éloigne par modeſtie,</l>
+                        <l>Et je l'aplaudis ſans <choice><sic>lav oir</sic><corr>la voir</corr></choice>.</l>
+                    </sp>
+                </div>
+                <div type="scene" n="8">
+                    <head>SCENE VIII.</head><lb/>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">ſeule.</hi></stage><lb/><lb/>
+                        <l><c type="lettrine">Q</c>Uel accueil ſurprenant ! A ſa bruſque ſortie</l>
+                        <l>Je ne comprens rien aujourd'hui.</l>
+                        <l>Mais moquons-nous de ſon abſence,</l>
+                        <l>Et dans ces lieux qui ſont de notre dépendance</l>
+                        <l>Exécutons notre <choice><orig>Balet</orig><reg>Ballet</reg></choice> ſans lui.</l>
+                    </sp>
+                </div>
+                <pb n="73"/>
+                <div type="scene" n="9">
+                    <head>SCENE IX.</head><lb/>
+                    <stage>LA CRITIQUE, LE VAUDEVILLE.</stage><lb/>
+                    <sp who="Le Vaudeville">
+                        <speaker>LA VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Souffrez que je dresse">AIR, <hi rend="italic">Souffrez que je dreſſe.</hi></sound>
+                        <lg>
+                            <l><c type="lettrine">V</c>Otre aſpect aimable,</l>
+                            <l>Critique agréable,</l>
+                            <l>Votre aſpect aimable</l>
+                            <l>M'attire en ces lieux :</l>
+                            <l><choice><orig>Daignés</orig><reg>Daignez</reg></choice> à mes voeux</l>
+                            <l>Vous montrer favorable.</l>
+                            <l>Votre aſpect aimable</l>
+                            <l>M'attire en ces lieux.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic"><choice><orig>recite</orig><reg>récite</reg></choice>.</hi></stage>
+                        <l><choice><orig>Ayés</orig><reg>Ayez</reg></choice> la bonté de <choice><orig>m'aprendre</orig><reg>m'apprendre</reg></choice></l>
+                        <l>Qui vous êtes <choice><orig>premiérement</orig><reg>premièrement</reg></choice>,</l>
+                        <l>Beau Chanteur qui <choice><orig>venés</orig><reg>venez</reg></choice> me rendre</l>
+                        <l>Viſite ſi <choice><orig>gayment</orig><reg>gaiement</reg></choice>.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker>
+                        <lg>
+                            <l>Je ſuis, ma belle Reine,</l>
+                            <l>Flon, flon, larira dondaine,</l>
+                            <l>Un Dieu plaiſant <choice><orig>&amp;</orig><reg>et</reg></choice> gai gai</l>
+                            <l>Larira dondé,</l>
+                            <l>Soumis à votre Empire,</l>
+                            <l>Ta la rari ta la ra rire,</l>
+                            <l>Et dans la nouveauté couru</l>
+                            <l>Lanturlu, lanturlu.</l>
+                            <l>A la cour, à la Ville</l>
+                            <l>Je <choice><orig>célebre</orig><reg>célèbre</reg></choice> Jean Gille ;</l>
+                            <l>Et de Bachus <choice><orig>&amp;</orig><reg>et</reg></choice> de l'Amour,</l>
+                            <l>La nuit <choice><orig>&amp;</orig><reg>et</reg></choice> le jour,</l>
+                            <l>Je chante la , la , la , la , la ,</l>
+                            <l>Je chante la Folie.</l>
+                            <pb n="74"/>
+                            <l>J'amuſe, <choice><orig>tour-à-tour</orig><reg>tour à tour</reg></choice>,</l>
+                            <l>La laide <choice><orig>&amp;</orig><reg>et</reg></choice> la jolie,</l>
+                            <l>l'Homme d'eſprit <choice><orig>&amp;</orig><reg>et</reg></choice> le <choice><orig>Nigaut</orig><reg>Nigaud</reg></choice>,</l>
+                            <l>La mirtan plan lantire larigaut.</l>
+                            <l>Par mes tourelourirettes</l>
+                            <l>Je mets en train les Fillettes,</l>
+                            <l>Et je leur fais faire un ſaut</l>
+                            <l>Deux ſauts.</l>
+                            <l>Ma puiſſance eſt <choice><orig>entiére</orig><reg>entière</reg></choice></l>
+                            <l>Tout le long de la <choice><orig>Riviére</orig><reg>Rivière</reg></choice>,</l>
+                            <l>Et je mets tous dans mes airs fous</l>
+                            <l><choice><orig>Sans</orig><reg>Sens</reg></choice> deſſus deſſous,</l>
+                            <l><choice><orig>Sans</orig><reg>Sens</reg></choice> devant <choice><orig>derriére</orig><reg>derrière</reg></choice> : </l>
+                            <l>Mon caprice eſt mon ſeul Roi</l>
+                            <l>Et toute la Terre eſt à moi.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>A ce langage, à ces refrains</l>
+                        <l>Je <choice><orig>reconnois</orig><reg>reconnais</reg></choice> le Vaudeville,</l>
+                        <l>Qui fait le plaiſir de la Ville,</l>
+                        <l>Et <choice><orig>l'ame</orig><reg>l'âme</reg></choice> de tous les feſtins.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE </speaker>
+                        <stage><hi rend="italic">chante.</hi></stage><lb/>
+                        <sound type="song" n="Tu croyais en aimant Colette">AIR, <hi rend="italic">tu <choice><orig>croyois</orig><reg>croyais</reg></choice> en aimant Colette.</hi></sound>
+                        <lg part="I">
+                            <l>Oui, de <name type="god" n="Comus">Comus</name> que je fais rire</l>
+                            <l>Je ſuis le plus cher Favori.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg part="F">
+                            <l>Je ne m'étonne plus, beau Sire ,</l>
+                            <l>Si vous êtes ſi bien nourri.</l>
+                        </lg>
+                        <stage><hi rend="italic">(Elle récite.)</hi></stage>
+                        <l>Mais dans ces lieux quel ſujet vous <choice><orig>améne</orig><reg>amène</reg></choice> ?</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Quel plaisir de voir Claudine">AIR, <hi rend="italic">Quel plaiſir de voir Claudine.</hi></sound>
+                        <lg>
+                            <l>C'eſt mon penchant qui <choice><orig>m'entraine</orig><reg>m'entraîne</reg></choice>,</l>
+                            <l>Madame, vers vos attraits ,</l>
+                            <l><choice><orig>Daignés</orig><reg>Daignez</reg></choice> annoblir ma veine,</l>
+                            <l>Et me prêter tous vos traits.</l>
+                        </lg>
+                        <sound type="song" n="La bonne aventure, ô gué">AIR, <hi rend="italic">La Bonne <choice><orig></orig><reg></reg></choice>avanture o gué des <title n="Les Trois cousines">trois Couſines</title>.</hi></sound>
+                        <lg>
+                            <l>Comme vous du monde entier</l>
+                            <l>Je fais la cenſure,</l>
+                            <pb n="75"/>
+                            <l>Mon plaiſir <choice><orig>&amp;</orig><reg>et</reg></choice> mon métier</l>
+                            <l>Sont toujours de publier,</l>
+                            <l>La bonne avanture,</l>
+                            <l>O gué,</l>
+                            <l>La bonne avanture.</l>
+                        </lg>
+                        <sound type="song" n="Quand le péril est agréable">AIR, <hi rend="italic">Quand le péril eſt agréable.</hi></sound>
+                        <lg>
+                            <l>Je fais ſeul l'étude profonde</l>
+                            <l>Des jeunes Robins <choice><orig>d'a-preſent</orig><reg>d'à présent</reg></choice>,</l>
+                            <l>Et tout le <choice><orig>ſçavoir</orig><reg>savoir</reg></choice> éminent</l>
+                            <l>Des Abbés du grand monde.</l>
+                        </lg>
+                        <sound type="song" n="Le Ciel bénisse la besogne">AIR, <hi rend="italic">Le Ciel béniſſe la beſongne.</hi></sound>
+                        <lg part="I">
+                            <l>De ces Meſſieurs le plus ſouvent</l>
+                            <l>L'eſprit eſt un recueil vivant</l>
+                            <l>De mes Chanſons badines.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg part="M">
+                            <l>Pour ne pas dire libertines.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <lg part="M">
+                            <l>Tout Couplet de ce genre eſt d'un ſel enchanté ;</l>
+                            <l>Dans un repas aimable.</l>
+                            <l>Il eſt toujours le plus goûté.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg part="F">
+                            <l>Mais du beau Sexe il n'eſt point écouté.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="On passe la nuit à table">AIR, <hi rend="italic">On paſſe la nuit à Table.</hi></sound>
+                        <lg>
+                            <l>Que chanté d'un air aimable</l>
+                            <l>Il faſſe rougir ſa fierté ;</l>
+                            <l>Voilà la Fable :</l>
+                            <l>Mais qu'il en ſourie à table,</l>
+                            <l>Que ſon goût en ſoit flatté;</l>
+                            <l>Voilà la Vérité.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <sound type="song" n="Pour passer doucement la vie">AIR, <hi rend="italic">pour paſſer doucement la vie.</hi></sound>
+                        <lg>
+                            <l>Oh ! Je vous trouve condamnable</l>
+                            <l>En ce point-là préciſément :</l>
+                            <l>Vous rendez le vice agréable,</l>
+                            <l>En lui prêtant votre <choice><orig>enjoûment</orig><reg>enjouement</reg></choice>.</l>
+                        </lg>
+                        <stage><hi rend="italic">(Elle recite.)</hi></stage>
+                        <l>Il faut pour plaire même au grand nombre de Femmes</l>
+                        <pb n="76"/>
+                        <l>Qui ne <choice><orig>ſçauroient</orig><reg>sauraient</reg></choice> vous chanter ſans rougir</l>
+                        <l>Vous corriger <choice><orig>&amp;</orig><reg>et</reg></choice> m'obéir.</l>
+                    </sp>
+                    <sp who="La Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Me voir employé par les Dames</l>
+                        <l>Fait mon plus grand plaiſir.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage>
+                        <sound type="song" n="L'austère philosophie">AIR, <hi rend="italic">L'auſtére Pholoſophie.</hi></sound>
+                        <lg>
+                            <l>Oui, ma gloire véritable,</l>
+                            <l>Et mon triomphe certain</l>
+                            <l>Eſt quand leur bouche adorable</l>
+                            <l>Me chante,le verre en main :</l>
+                            <l>A mes couplets tous leurs charmes</l>
+                            <l>Semblent s'imprimer ſoudain ;</l>
+                            <l>L'Amour alors n'a point d'armes</l>
+                            <l>Plus sûres que mon refrein.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>La Table fut toujours votre Champ de bataille ;</l>
+                        <l>Et le Fils de <name type="god" n="Vénus">Vénus</name> votre Dieu favori.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Pour l'honneur de ce Dieu, dont je ſuis fort chéri,</l>
+                        <l>Il eſt vrai, toujours je travaille ;</l>
+                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <l>Selon l'objet, ſelon l'occaſion ,</l>
+                        <l>Je ſçais adroitement changer d'air <choice><orig>&amp;</orig><reg>et</reg></choice> de ton :</l>
+                        <l>Je prends ce dernier pour mon guide :</l>
+                        <l>Car ſoit caprice, ſoit raiſon,</l>
+                        <l>Dans le monde toujours, c'eſt le ton qui décide,</l>
+                        <l>Si je veux, par exemple, enflammer un tendron,</l>
+                        <l>Encore novice <choice><orig>&amp;</orig><reg>et</reg></choice> timide,</l>
+                        <l>Ma voix lui gliſſe , ainſi , doucement ſon poiſon,</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <sound type="song" n="D'Un Zéphir mutin">AIR, <hi rend="italic">D'un <name type="god" n="Zéphir">Zéphir</name> mutin.</hi></sound>
+                        <lg>
+                            <l>Voyez un Amant</l>
+                            <l>D'amour tout ardent ,</l>
+                            <l>Dont votre air enchanteur</l>
+                            <l>S'eſt rendu vainqueur,</l>
+                            <l>Fixez vos beaux yeux</l>
+                            <l>Sur les miens pleins de feux,</l>
+                            <pb n="77"/>
+                            <l>Dans un combat ſi doux</l>
+                            <l>Engagez-vous :</l>
+                            <l>Que ma flamme</l>
+                            <l>Dans votre <choice><orig>ame</orig><reg>âme</reg></choice></l>
+                            <l>Porte mes <choice><orig>brulans</orig><reg>brûlants</reg></choice> ſoupirs ;</l>
+                            <l>De ma peine,</l>
+                            <l>Belle Reine ,</l>
+                            <l>De tous mes <choice><orig>deſirs</orig><reg>désirs</reg></choice></l>
+                            <l>Faites des plaiſirs.</l>
+                            <l><choice><orig>Voyés</orig><reg>Voyez</reg></choice> un Amant, <choice><orig>&amp;c</orig><reg>etc</reg></choice></l>
+                        </lg>
+                        <lb/><stage><hi rend="italic">(Il récite.)</hi></stage><lb/>
+                        <l>Si je rencontre en mon chemin<sic>.</sic></l>
+                        <l>Une Beauté plus aguerrie,</l>
+                        <l>Et dans le grand Monde nourrie :</l>
+                        <l>Je prends alors un ton plus vif <choice><orig>&amp;</orig><reg>et</reg></choice> plus badin ;</l>
+                        <l>Et ſans perdre le <choice><orig>tems</orig><reg>temps</reg></choice> en des diſcours frivoles ,</l>
+                        <l>Voici <choice><sic>commenr</sic><reg>comment</reg></choice> je change d'air ſoudain</l>
+                        <l>Sans changer de paroles.</l>
+                        <lb/><stage><hi rend="italic">Il chante.</hi></stage>
+                        <sound type="song" n="Laissons-nous charmer">AIR, <hi rend="italic">Laiſſons-nous charmer.</hi></sound>
+                        <lg>
+                            <l>Voyez un Amant</l>
+                            <l>D'amour tout ardent ,</l>
+                            <l>Dont votre air enchanteur</l>
+                            <l>S'eſt rendu vainqueur,</l>
+                            <l><choice><orig>Fixés</orig><reg>Fixez</reg></choice> vos beaux yeux</l>
+                            <l>Sur les miens pleins de feux,</l>
+                            <l>Dans un combat ſi doux</l>
+                            <l>Engagez-vous ;</l>
+                            <l>Que ma <choice><orig>flame</orig><reg>flamme</reg></choice></l>
+                            <l>Dans votre <choice><orig>ame</orig><reg>âme</reg></choice></l>
+                            <l>Porte mes <choice><orig>brûlans</orig><reg>brûlants</reg></choice> ſoupirs ;</l>
+                            <l>De ma peine,</l>
+                            <l>Belle Reine ,</l>
+                            <l>De tous mes <choice><orig>deſirs</orig><reg>désirs</reg></choice></l>
+                            <l>Faites des plaiſirs.</l>
+                            <l>Voyés un Amant, <choice><orig>&amp;</orig><reg>et</reg></choice>c.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE </speaker>
+                        <stage><hi rend="italic">récite.</hi></stage><lb/>
+                        <l>Vous êtes, je l'avoue, un dangereux Fripon ;</l>
+                        <l>Monſieur le Vaudeville :</l>
+                        <pb n="78"/>
+                        <l>Moi-même en cet inſtant, ſéduite par le ton ,</l>
+                        <l>J'ai peine à vous entendre avec un coeur tranquille.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <l>Ah ! vous avez raiſon</l>
+                        <l>D'être ſenſible à ma Chanſon.</l>
+                        <lb/><stage><hi rend="italic">(Il chante.)</hi></stage><lb/>
+                        <l>Pour plaire à vos yeux je me tourne, tourne, tourne,</l>
+                        <l>Je me tourne de tout côté.</l>
+                        <l>L'Air que je tourne , <choice><orig>&amp;</orig><reg>et</reg></choice> je retourne ,</l>
+                        <l>C'eſt pour vous que je l'ai chanté.</l>
+                        <l>Vers votre Amant</l>
+                        <l>Votre bel oeil ſe tourne !</l>
+                        <l>Tourne tendrement ;</l>
+                        <l>Qu'un doux baiſer !.. encore que j'y retourne.</l>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>N'y <choice><orig>retournés</orig><reg>retournez</reg></choice> plus vraiment.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="song" n="Chantez petit Colin">AIR, <hi rend="italic">Chantez petit Colin.</hi></sound>
+                        <lg>
+                            <l>Ce baiſer innocent, </l>
+                            <l>Cette faveur legére,</l>
+                            <l>Ce baiſer innocent</l>
+                            <l>De votre coeur m'eſt-il garant ?</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <l>La Critique eſt ſincére,</l>
+                        <l>Vous avez ſçu me plaire,</l>
+                        <l>Puiſque je le dis ;</l>
+                        <l>Vos airs, quoique pris ,</l>
+                        <l>Charment mes eſprits.</l>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LE VAUDEVILLE.</speaker><lb/>
+                        <sound type="menuet" n="Premier menuet">AIR, <hi rend="italic">Premier Menuet.</hi></sound>
+                        <lg>
+                            <l>Quelle douceur</l>
+                            <l>Dans mon coeur</l>
+                            <l>Vient répandre un aveu ſi <choice><orig>flâteur</orig><reg>flatteur</reg></choice> !</l>
+                            <l>Quelle douceur</l>
+                            <l>Dans mon coeur</l>
+                            <l>Répand mon bonheur !</l>
+                            <l>De votre ſel piquant</l>
+                            <l>Naît mon agrément ;</l>
+                            <pb n="79"/>
+                            <l>Pour unir leurs frais</l>
+                            <l>Nos eſprits ſont faits ;</l>
+                            <l><choice><orig>Comblés</orig><reg>Comblez</reg></choice> mes ſouhaits :</l>
+                            <l>Je vous adore <choice><orig>&amp;</orig><reg>et</reg></choice> je vous plais.</l>
+                        </lg>
+                        <sound type="menuet" n="Second menuet">AIR, <hi rend="italic">Second Menuet.</hi></sound>
+                        <lg part="I">
+                            <l>Votre amour, quand on lui plaît ;</l>
+                            <l>Se <choice><orig>taît</orig><reg>tait</reg></choice>.</l>
+                        </lg>
+                    </sp>
+                    <sp who="La Critique">
+                        <speaker>LA CRITIQUE.</speaker><lb/>
+                        <lg part="F">
+                            <l>Qui ſe <choice><orig>taît</orig><reg>tait</reg></choice> communément,</l>
+                            <l>Se rend.</l>
+                            <l>Notre gloire eſt d'être unis ;</l>
+                            <l>Vous deviendrez plus ſage,</l>
+                            <l><choice><orig>Ecoutans</orig><reg>Ecoutant</reg></choice> mes avis ;</l>
+                            <l>Et vos airs <choice><orig>réjouiſſans</orig><reg>réjouissants</reg></choice>,</l>
+                            <l>Vos Chants,</l>
+                            <l>Vont me rendre moins ſauvage,</l>
+                            <l>Tous deux nous allons nous unir</l>
+                            <l><choice><orig>L'Enjoûment</orig><reg>L'Enjouement</reg></choice> aux leçons, la Sageſſe aux plaiſirs.</l>
+                        </lg>
+                    </sp>
+                    <sp who="Le Vaudeville">
+                        <speaker>LA VAUDEVILLE.</speaker><lb/>
+                        <sound type="menuet" n="Troisième menuet">AIR, <hi rend="italic"><choice><orig>Troiſiéme</orig><reg>Troisième</reg></choice> Menuet.</hi></sound>
+                        <lg>
+                            <l><choice><orig>O</orig><reg>Ô</reg></choice> Journée</l>
+                            <l>Douce <choice><orig>&amp;</orig><reg>et</reg></choice> fortunée !</l>
+                            <l>Que de biens à ces lieux</l>
+                            <l>Promettent ces beaux noeuds !</l>
+                            <l>Que d'Ouvrages</l>
+                            <l>Hardis, <choice><orig>piquans</orig><reg>piquants</reg></choice>, mais ſages ;</l>
+                            <l>De Traits heureux,</l>
+                            <l>De Badinages,</l>
+                            <l>De Jeux,</l>
+                            <l>D'airs fameux</l>
+                            <l>Vont naître de nous deux !</l>
+                            <l><choice><orig>O</orig><reg>Ô</reg></choice> Journée, <choice><orig>&amp;c</orig><reg>etc</reg></choice>.</l>
+                        </lg>
+                    </sp>
+                </div>
+                <pb n="80"/>
+                <div type="divertissement">
+                    <head>DIVERTISSEMENT.</head>
+                    <div type="menuet">
+                        <head><sound type="menuet">MENUET.</sound></head><lb/>
+                        <lg>
+                            <l><c rend="lettrine">C</c>Hantons du Citadin</l>
+                            <l>Chantons les moeurs faciles,</l>
+                            <l>Chantons du Citadin</l>
+                            <l>L'eſprit agréable <choice><orig>&amp;</orig><reg>et</reg></choice> badin ;</l>
+                            <l>Les femmes ſont civiles,</l>
+                            <l>Les maris ſont <choice><orig>tranquiles</orig><reg>tranquilles</reg></choice>,</l>
+                            <l>Les tendrons <choice><orig>ſçavans</orig><reg>savants</reg></choice></l>
+                            <l>Trompent à quinze ans</l>
+                            <l>Leurs bonnes Mamans.</l>
+                        </lg>
+                    </div>
+                    <div type="air">
+                        <head><sound type="song">AIR.</sound></head><lb/>
+                        <lg>
+                            <l>Dans ce <choice><orig>Siécle</orig><reg>Siècle</reg></choice> tout eſt charmant,</l>
+                             <l>Tout eſt poli, tout eſt galant,</l>
+                            <l>Tout <choice><orig>poſſéde</orig><reg>possède</reg></choice> le don de plaire,</l>
+                             <l>Et le plus ſot <choice><orig>paroît</orig><reg>paraît</reg></choice> brillant ;</l>
+                             <l>Avec beaucoup d'eſprit on ment.</l>
+                             <l>On ſe trompe joliment,</l>
+                            <l>Et la beauté la plus <choice><orig>ſévére</orig><reg>sévère</reg></choice></l>
+                             <l>Ne l'eſt qu'un petit moment.</l>
+                        </lg>
+                    </div>
+                    <div type="vaudeville">
+                        <head>VAUDEVILLE.</head><lb/>
+                        <l><c rend="lettrine">R</c>Egardons en beau le monde,</l>
+                        <l>Trop poli pour qu'on le fronde.</l>
+                        <l><choice><orig>Aprouvons</orig><reg>Approuvons</reg></choice> également;</l>
+                        <l>Qu'on pardonne, ou qu'on ſe venge,</l>
+                        <l>L'un eſt juſte, <choice><orig>&amp;</orig><reg>et</reg></choice> l'autre eſt grand ;</l>
+                        <l>Tout eſt digne de louange.</l>
+                        <l>Qu'à ſa guiſe chacun aime,</l>
+                        <l>Ne blâmons aucun <choice><orig>ſyſtême</orig><reg>système</reg></choice>,</l>
+                        <l>On doit ſuivre ſon penchant.</l>
+                        <l>C'eſt ſageſſe quand on change,</l>
+                        <l>Vertu quand on eſt conſtant :</l>
+                        <l>Tout eſt digne de louange.</l>
+                        <p rend="center">FIN.</p>
+                    </div>
+                </div>
+        </body>
+</text>
+</TEI>
