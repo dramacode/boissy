@@ -24,7 +24,8 @@
                 <pubPlace>Lorient</pubPlace>
                 <address><addrLine>http://www.licorn-ubs.com</addrLine></address>
                 <availability status="restricted"><licence target="http://creativecommons.org/licenses/CC BY-NC-SA 4.0/">Distributrd under a Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International </licence></availability>
-            </publicationStmt>
+          <idno type="URL">http://www.licorn-research.fr/Boissy.html</idno>  
+          </publicationStmt>
             <notesStmt>
                 <note>Texte saisi et partiellement annoté par les étudiants du master "Métiers du livre et des humanités numériques" (Lorient, France), promotions 2013 et 2014</note>
                 <note>À la différence de l'usage philologique courant, la source de cette édition n'est pas la dernière version parue du vivant de l'auteur.</note>
